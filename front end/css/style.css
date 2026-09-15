@@ -99,7 +99,12 @@ h1, h2, h3, .fonte-serif{
 
 /* ---------- HEADER ---------- */
 .site-header{
-  background: var(--cor-header);
+  background: linear-gradient(
+    to right,
+    var(--cor-header),
+    var(--cor-hero-de),
+    var(--botao-texto)
+    );
   position: sticky;
   top: 0;
   z-index: 100;
