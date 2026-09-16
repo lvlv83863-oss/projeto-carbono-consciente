@@ -1,0 +1,10 @@
+[
+  { "id": 1, "nome": "Carro (gasolina)", "fatorEmissao": 0.1920, "icone": "🚗" },
+  { "id": 2, "nome": "Carro (etanol)", "fatorEmissao": 0.1500, "icone": "🚗" },
+  { "id": 3, "nome": "Carro (elétrico)", "fatorEmissao": 0.0500, "icone": "🚗" },
+  { "id": 4, "nome": "Motocicleta", "fatorEmissao": 0.1030, "icone": "🏍️" },
+  { "id": 5, "nome": "Ônibus", "fatorEmissao": 0.0890, "icone": "🚌" },
+  { "id": 6, "nome": "Metrô/Trem", "fatorEmissao": 0.0410, "icone": "🚆" },
+  { "id": 7, "nome": "Bicicleta", "fatorEmissao": 0.0000, "icone": "🚲" },
+  { "id": 8, "nome": "A pé", "fatorEmissao": 0.0000, "icone": "🚶" }
+]

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carbono Consciente — Painel</title>
+<meta name="description" content="Registre seus deslocamentos e acompanhe sua pegada de carbono ao longo do tempo.">
+<link rel="stylesheet" href="../css/inicial.css">
+<script>
+  // Guarda de autenticação inline (roda antes do body pintar, evita
+  // mostrar o painel por um instante para quem não está logado).
+  if (!localStorage.getItem('carbono-token')) {
+    window.location.replace('login.html');
+  }
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="inicial.html" class="logo-link">
+      <img src="../../img/logo.png" alt="Logo Carbono Consciente">
+    </a>
+
+    <nav class="nav-principal">
+      <a href="inicial.html">← Voltar ao início</a>
+    </nav>
+
+    <div class="header-acoes">
+      <button class="theme-toggle" aria-label="Alternar tema claro/escuro">
+        <span class="icone">🌙</span>
+        <span class="icone">☀️</span>
+        <span class="knob"></span>
+      </button>
+      <a href="inicial.html" class="btn-login" id="link-login">sair</a>
+    </div>
+  </div>
+</header>
+
+<main class="painel-pagina">
+  <div class="painel-conteudo">
+
+    <div class="painel-cabecalho">
+      <h1>Seu painel de hábitos</h1>
+      <p>Registre seus deslocamentos e acompanhe sua pegada de carbono ao longo do tempo.</p>
+    </div>
+
+    <section class="painel-resumo" id="painel-resumo" aria-live="polite">
+      <div class="painel-card" data-card="hoje">
+        <strong>—</strong>
+        <span>CO₂ hoje</span>
+        <small class="painel-delta"></small>
+      </div>
+      <div class="painel-card" data-card="semana">
+        <strong>—</strong>
+        <span>CO₂ nesta semana</span>
+        <small class="painel-delta"></small>
+      </div>
+      <div class="painel-card" data-card="mes">
+        <strong>—</strong>
+        <span>CO₂ neste mês</span>
+        <small class="painel-delta"></small>
+      </div>
+    </section>
+
+    <section class="painel-form">
+      <h2>Adicionar deslocamento</h2>
+      <div class="painel-mensagem" id="painel-mensagem"></div>
+      <form id="form-habito" class="painel-form-grade">
+        <div class="painel-campo">
+          <label for="habito-meio">Meio de transporte</label>
+          <select id="habito-meio" required></select>
+        </div>
+        <div class="painel-campo">
+          <label for="habito-distancia">Distância (km)</label>
+          <input type="number" id="habito-distancia" min="0" step="0.1" placeholder="0" required>
+        </div>
+        <div class="painel-campo">
+          <label for="habito-data">Data</label>
+          <input type="date" id="habito-data" required>
+        </div>
+        <div class="painel-campo">
+          <label for="habito-observacao">Observação (opcional)</label>
+          <input type="text" id="habito-observacao" placeholder="ex.: trajeto pro trabalho">
+        </div>
+        <button type="submit" class="btn-principal">adicionar</button>
+      </form>
+    </section>
+
+    <section class="painel-registros">
+      <h2>Últimos registros</h2>
+      <div class="painel-lista" id="painel-lista">
+        <p class="painel-vazio">Nenhum registro ainda — adicione seu primeiro deslocamento acima.</p>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<script src="../js/inicial.js"></script>
+<script src="../js/config.js"></script>
+<script src="../js/painel.js"></script>
+</body>
+</html>

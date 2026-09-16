@@ -33,18 +33,28 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* ---------- LOGIN / SAIR (cabeçalho) ---------- */
+  /* ---------- LOGIN / SAIR + PAINEL (cabeçalho) ---------- */
   const linkLogin = document.getElementById('link-login');
   if (linkLogin) {
     const usuarioLogado = localStorage.getItem('carbono-token');
     if (usuarioLogado) {
+      const naPaginaDoPainel = window.location.pathname.endsWith('painel.html');
+
+      if (!naPaginaDoPainel) {
+        const linkPainel = document.createElement('a');
+        linkPainel.href = 'painel.html';
+        linkPainel.className = 'btn-login';
+        linkPainel.textContent = 'painel';
+        linkLogin.parentNode.insertBefore(linkPainel, linkLogin);
+      }
+
       linkLogin.textContent = 'sair';
       linkLogin.setAttribute('href', '#');
       linkLogin.addEventListener('click', (e) => {
         e.preventDefault();
         localStorage.removeItem('carbono-token');
         localStorage.removeItem('carbono-usuario');
-        window.location.reload();
+        window.location.href = 'inicial.html';
       });
     }
   }

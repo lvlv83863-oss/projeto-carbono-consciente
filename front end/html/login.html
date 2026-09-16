@@ -6,6 +6,12 @@
 <title>Carbono Consciente — Entrar</title>
 <meta name="description" content="Entre ou cadastre-se para acompanhar seus dados e hábitos no Carbono Consciente.">
 <link rel="stylesheet" href="../css/inicial.css">
+<script>
+  // Quem já está logado não precisa ver a tela de login de novo.
+  if (localStorage.getItem('carbono-token')) {
+    window.location.replace('painel.html');
+  }
+</script>
 </head>
 <body>
 

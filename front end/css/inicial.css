@@ -1122,3 +1122,205 @@ html[data-theme="escuro"] .theme-toggle .knob{
   .auth-direita{ padding: 40px 20px 60px; }
   .auth-topo{ padding: 14px 20px; }
 }
+
+/* ---------- PAINEL DE HÁBITOS ---------- */
+.painel-pagina{
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+  min-height: 100vh;
+  padding: 48px 24px 90px;
+}
+
+.painel-conteudo{ max-width: 1000px; margin: 0 auto; }
+
+.painel-cabecalho h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.painel-cabecalho p{
+  color: var(--cor-texto-suave);
+  margin-bottom: 36px;
+}
+
+.painel-resumo{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.painel-card{
+  background: var(--cor-stats-bg);
+  border-radius: 16px;
+  padding: 26px 22px;
+  text-align: center;
+  box-shadow: var(--sombra);
+}
+
+.painel-card strong{
+  display: block;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.painel-card span{
+  color: rgba(255,255,255,0.78);
+  font-size: 0.85rem;
+}
+
+.painel-delta{
+  display: block;
+  margin-top: 12px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.78rem;
+}
+
+.painel-delta.subiu{ color: #ff9b9b; }
+.painel-delta.desceu{ color: #9cf0b0; }
+.painel-delta.neutro{ color: rgba(255,255,255,0.55); }
+
+.painel-form,
+.painel-registros{
+  background: var(--cor-superficie);
+  border: 1px solid var(--borda-suave);
+  border-radius: 16px;
+  padding: 28px 30px;
+  margin-bottom: 32px;
+  box-shadow: var(--sombra);
+}
+
+.painel-form h2,
+.painel-registros h2{
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.painel-mensagem{
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin-bottom: 18px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  display: none;
+}
+
+.painel-mensagem.erro{
+  display: block;
+  background: rgba(229,72,77,0.12);
+  border: 1px solid rgba(229,72,77,0.35);
+  color: #c23237;
+}
+
+html[data-theme="escuro"] .painel-mensagem.erro{ color: #ffb3b5; }
+
+.painel-mensagem.sucesso{
+  display: block;
+  background: rgba(88,194,107,0.14);
+  border: 1px solid rgba(88,194,107,0.35);
+  color: #2f7a3d;
+}
+
+html[data-theme="escuro"] .painel-mensagem.sucesso{ color: #b9f0c4; }
+
+.painel-form-grade{
+  display: grid;
+  grid-template-columns: 1.3fr 0.8fr 0.9fr 1.4fr auto;
+  gap: 16px;
+  align-items: end;
+}
+
+.painel-campo label{
+  display: block;
+  font-size: 0.82rem;
+  margin-bottom: 7px;
+  color: var(--cor-texto-suave);
+}
+
+.painel-campo select,
+.painel-campo input{
+  width: 100%;
+  padding: 11px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--borda-suave);
+  background: var(--cor-fundo-alt);
+  color: var(--cor-texto);
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.92rem;
+}
+
+.painel-campo select:focus,
+.painel-campo input:focus{
+  outline: none;
+  border-color: var(--cor-principal);
+}
+
+.painel-form-grade .btn-principal{
+  border: none;
+  cursor: pointer;
+  height: 44px;
+  white-space: nowrap;
+}
+
+.painel-form-grade .btn-principal:disabled{ opacity: 0.6; cursor: not-allowed; }
+
+.painel-lista{ display: flex; flex-direction: column; gap: 12px; }
+
+.painel-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background: var(--cor-fundo-alt);
+  border: 1px solid var(--borda-suave);
+  border-radius: 12px;
+  padding: 14px 18px;
+}
+
+.painel-item-info{ display: flex; align-items: center; gap: 14px; }
+
+.painel-item-icone{ font-size: 1.5rem; }
+
+.painel-item-detalhes strong{ display: block; font-size: 0.95rem; }
+.painel-item-detalhes span{ color: var(--cor-texto-suave); font-size: 0.8rem; }
+
+.painel-item-co2{
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+  color: var(--cor-principal);
+  white-space: nowrap;
+}
+
+.painel-remover{
+  background: none;
+  border: none;
+  color: var(--cor-texto-suave);
+  cursor: pointer;
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 4px;
+}
+
+.painel-remover:hover{ color: #e5484d; }
+
+.painel-vazio{
+  color: var(--cor-texto-suave);
+  text-align: center;
+  padding: 30px 0;
+  font-size: 0.92rem;
+}
+
+@media (max-width: 860px){
+  .painel-resumo{ grid-template-columns: 1fr; }
+  .painel-form-grade{ grid-template-columns: 1fr 1fr; }
+  .painel-form-grade .btn-principal{ grid-column: 1 / -1; }
+}
+
+@media (max-width: 560px){
+  .painel-form-grade{ grid-template-columns: 1fr; }
+  .painel-item{ flex-wrap: wrap; }
+}
