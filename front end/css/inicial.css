@@ -99,12 +99,7 @@ h1, h2, h3, .fonte-serif{
 
 /* ---------- HEADER ---------- */
 .site-header{
-  background: linear-gradient(
-    to right,
-    var(--cor-header),
-    var(--cor-hero-de),
-    var(--botao-texto)
-    );
+  background: var(--cor-header);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -825,3 +820,185 @@ html[data-theme="escuro"] .theme-toggle .knob{
   transition: opacity .7s ease, transform .7s ease;
 }
 .reveal.visivel{ opacity: 1; transform: translateY(0); }
+
+/* =========================================================
+   PÁGINA DE LOGIN / CADASTRO
+   ========================================================= */
+.auth-topo{
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 32px;
+  z-index: 50;
+}
+
+.auth-voltar{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(6px);
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 9px 20px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.25);
+  transition: background .25s ease, transform .25s ease;
+}
+
+.auth-voltar:hover{ background: rgba(255,255,255,0.22); transform: translateX(-2px); }
+
+.auth-pagina{
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.auth-esquerda{
+  flex: 1 1 480px;
+  background: var(--cor-header);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 120px 48px 60px;
+  gap: 28px;
+}
+
+.auth-esquerda h1{
+  font-size: 2.6rem;
+  line-height: 1.18;
+  font-weight: 700;
+}
+
+.auth-esquerda p{
+  color: rgba(255,255,255,0.78);
+  font-size: 1rem;
+  max-width: 420px;
+  line-height: 1.6;
+}
+
+.auth-globo{
+  width: 100%;
+  max-width: 300px;
+}
+
+.auth-direita{
+  flex: 1 1 480px;
+  background: linear-gradient(120deg, var(--cor-hero-de), var(--cor-principal), var(--cor-hero-para));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 32px;
+}
+
+.auth-card{
+  width: 100%;
+  max-width: 380px;
+  background: var(--cor-card-escuro-1);
+  color: #fff;
+  border-radius: 22px;
+  padding: 44px 38px;
+  box-shadow: var(--sombra);
+}
+
+.auth-card h2{
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+
+.campo-form{
+  margin-bottom: 20px;
+}
+
+.campo-form label{
+  display: block;
+  font-size: 0.92rem;
+  margin-bottom: 8px;
+  color: rgba(255,255,255,0.9);
+}
+
+.campo-form input{
+  width: 100%;
+  padding: 13px 16px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.14);
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+}
+
+.campo-form input::placeholder{ color: rgba(255,255,255,0.5); }
+
+.campo-form input:focus{
+  outline: none;
+  border-color: var(--cor-principal);
+  background: rgba(255,255,255,0.2);
+}
+
+.btn-entrar{
+  width: 100%;
+  padding: 13px;
+  margin-top: 6px;
+  border-radius: 999px;
+  border: 1.5px solid rgba(255,255,255,0.7);
+  background: transparent;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.98rem;
+  transition: background .25s ease, transform .25s ease;
+}
+
+.btn-entrar:hover{ background: rgba(255,255,255,0.12); transform: translateY(-1px); }
+
+.btn-google{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  margin-top: 16px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.16);
+  color: #fff;
+  font-size: 0.92rem;
+  font-weight: 500;
+  border: none;
+  transition: background .25s ease;
+}
+
+.btn-google:hover{ background: rgba(255,255,255,0.26); }
+
+.btn-google svg{ width: 18px; height: 18px; flex-shrink: 0; }
+
+.auth-troca{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.75);
+}
+
+.auth-troca button{
+  color: var(--cor-secundaria);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.auth-form{ display: block; }
+.auth-form.escondido{ display: none; }
+
+@media (max-width: 860px){
+  .auth-esquerda{ padding: 110px 28px 40px; }
+  .auth-esquerda h1{ font-size: 2rem; }
+  .auth-direita{ padding: 40px 20px 60px; }
+  .auth-topo{ padding: 14px 20px; }
+}

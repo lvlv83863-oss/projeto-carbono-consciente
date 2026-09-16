@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carbono Consciente — Entrar</title>
+<meta name="description" content="Entre ou cadastre-se para acompanhar seus dados e hábitos no Carbono Consciente.">
+<link rel="stylesheet" href="../css/inicial.css">
+</head>
+<body>
+
+<!-- ===================== TOPO (voltar + tema) ===================== -->
+<div class="auth-topo">
+  <a href="inicial.html" class="auth-voltar">← Voltar ao início</a>
+
+  <button class="theme-toggle" aria-label="Alternar tema claro/escuro">
+    <span class="icone">🌙</span>
+    <span class="icone">☀️</span>
+    <span class="knob"></span>
+  </button>
+</div>
+
+<!-- ===================== LOGIN / CADASTRO ===================== -->
+<main class="auth-pagina">
+
+  <section class="auth-esquerda">
+    <h1>Cada tonelada de CO₂ deixa um rastro</h1>
+    <p>Entre para acompanhar seus dados, hábitos e sua pegada de carbono.</p>
+    <div class="globo-wrap auth-globo" data-decorativo="true"></div>
+  </section>
+
+  <section class="auth-direita">
+    <div class="auth-card">
+
+      <!-- ---------- FORMULÁRIO DE LOGIN ---------- -->
+      <form class="auth-form" id="form-login">
+        <h2>Login</h2>
+
+        <div class="campo-form">
+          <label for="login-email">Email</label>
+          <input type="email" id="login-email" name="email" placeholder="seu@email.com" required>
+        </div>
+
+        <div class="campo-form">
+          <label for="login-senha">Senha</label>
+          <input type="password" id="login-senha" name="senha" placeholder="••••••••" required>
+        </div>
+
+        <button type="submit" class="btn-entrar">entrar</button>
+
+        <button type="button" class="btn-google">
+          <svg viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3c-1.6 4.6-6 8-11.3 8-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.6 6 29.6 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.7-.4-4z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.6 15.9 18.9 13 24 13c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.6 6 29.6 4 24 4c-7.5 0-14 4.2-17.7 10.7z"/><path fill="#4CAF50" d="M24 44c5.5 0 10.4-1.9 14.3-5.1l-6.6-5.6C29.7 34.9 27 36 24 36c-5.2 0-9.6-3.3-11.2-8l-6.6 5.1C9.9 39.6 16.4 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.2 4.3-4.1 5.7l6.6 5.6C39.9 37.2 44 31.4 44 24c0-1.3-.1-2.7-.4-3.5z"/></svg>
+          Continuar com o Google
+        </button>
+
+        <div class="auth-troca">
+          Ainda não tem conta? <button type="button" id="ir-para-cadastro">Cadastre-se</button>
+        </div>
+      </form>
+
+      <!-- ---------- FORMULÁRIO DE CADASTRO ---------- -->
+      <form class="auth-form escondido" id="form-cadastro">
+        <h2>Cadastro</h2>
+
+        <div class="campo-form">
+          <label for="cad-nome">Nome</label>
+          <input type="text" id="cad-nome" name="nome" placeholder="Seu nome" required>
+        </div>
+
+        <div class="campo-form">
+          <label for="cad-email">Email</label>
+          <input type="email" id="cad-email" name="email" placeholder="seu@email.com" required>
+        </div>
+
+        <div class="campo-form">
+          <label for="cad-senha">Senha</label>
+          <input type="password" id="cad-senha" name="senha" placeholder="••••••••" required>
+        </div>
+
+        <div class="campo-form">
+          <label for="cad-confirmar">Confirmar senha</label>
+          <input type="password" id="cad-confirmar" name="confirmar" placeholder="••••••••" required>
+        </div>
+
+        <button type="submit" class="btn-entrar">cadastrar</button>
+
+        <button type="button" class="btn-google">
+          <svg viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3c-1.6 4.6-6 8-11.3 8-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.6 6 29.6 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.7-.4-4z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.6 15.9 18.9 13 24 13c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.6 6 29.6 4 24 4c-7.5 0-14 4.2-17.7 10.7z"/><path fill="#4CAF50" d="M24 44c5.5 0 10.4-1.9 14.3-5.1l-6.6-5.6C29.7 34.9 27 36 24 36c-5.2 0-9.6-3.3-11.2-8l-6.6 5.1C9.9 39.6 16.4 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.2 4.3-4.1 5.7l6.6 5.6C39.9 37.2 44 31.4 44 24c0-1.3-.1-2.7-.4-3.5z"/></svg>
+          Continuar com o Google
+        </button>
+
+        <div class="auth-troca">
+          Já tem conta? <button type="button" id="ir-para-login">Entrar</button>
+        </div>
+      </form>
+
+    </div>
+  </section>
+
+</main>
+
+<script src="../js/globo.js"></script>
+<script src="../js/inicial.js"></script>
+<script>
+  // Alterna entre os formulários de login e cadastro
+  document.addEventListener('DOMContentLoaded', () => {
+    const formLogin = document.getElementById('form-login');
+    const formCadastro = document.getElementById('form-cadastro');
+
+    document.getElementById('ir-para-cadastro').addEventListener('click', () => {
+      formLogin.classList.add('escondido');
+      formCadastro.classList.remove('escondido');
+    });
+
+    document.getElementById('ir-para-login').addEventListener('click', () => {
+      formCadastro.classList.add('escondido');
+      formLogin.classList.remove('escondido');
+    });
+
+    // Sem backend conectado ainda — apenas evita o recarregamento da página
+    [formLogin, formCadastro].forEach(form => {
+      form.addEventListener('submit', (e) => e.preventDefault());
+    });
+  });
+</script>
+</body>
+</html>
