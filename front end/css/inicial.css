@@ -43,6 +43,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   --sombra: 0 18px 40px rgba(6, 30, 20, 0.18);
   --tag-texto: #16351f;
   --globo-linhas: rgba(10, 30, 20, 0.55);
+  --globo-glow: rgba(22,163,74,0.16);
   --toggle-bg: #dfe8d6;
   --toggle-knob: #16351f;
 }
@@ -71,6 +72,7 @@ html[data-theme="escuro"]{
   --sombra: 0 18px 40px rgba(0, 0, 0, 0.45);
   --tag-texto: #2a0a42;
   --globo-linhas: rgba(230, 220, 240, 0.5);
+  --globo-glow: rgba(70,20,140,0.30);
   --toggle-bg: #3a2050;
   --toggle-knob: #e9d8f7;
 }
@@ -285,7 +287,8 @@ html[data-theme="escuro"] .theme-toggle .knob{
   margin: 0 auto;
 }
 
-.globo-canvas{
+.globo-3d{
+  position: relative;
   width: 100%;
   height: 100%;
   display: block;
@@ -293,7 +296,92 @@ html[data-theme="escuro"] .theme-toggle .knob{
   touch-action: none;
 }
 
-.globo-canvas:active{ cursor: grabbing; }
+.globo-3d:active{ cursor: grabbing; }
+
+.globo-3d canvas{ display: block; }
+
+/* Brilho ambiente atrás da esfera, igual ao glow do globo original em canvas */
+.globo-wrap::before{
+  content: "";
+  position: absolute;
+  inset: -12%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 42% 38%, var(--globo-glow), transparent 68%);
+  filter: blur(18px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.globo-wrap.em-foco::before{ inset: -6%; }
+
+.globo-3d, .globo-legenda, .globo-painel, .globo-fechar-foco{ position: relative; z-index: 1; }
+
+/* Tooltip flutuante do globe.gl ao passar o mouse num país — reestilizado
+   para seguir a mesma linguagem visual do painel de detalhes do site. */
+.float-tooltip-kap{
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 11px !important;
+  line-height: 1.6 !important;
+  color: var(--cor-texto) !important;
+  background: var(--cor-superficie) !important;
+  border: 1px solid var(--borda-suave) !important;
+  border-radius: 10px !important;
+  padding: 8px 12px !important;
+  box-shadow: var(--sombra) !important;
+}
+
+.float-tooltip-kap strong{
+  font-family: 'IBM Plex Mono', monospace;
+  color: var(--cor-principal);
+}
+
+/* ---- Modo destaque (ativado por duplo clique num país) ---- */
+.globo-backdrop{
+  position: fixed;
+  inset: 0;
+  background: rgba(4,2,10,0);
+  z-index: 998;
+  opacity: 0;
+  transition: background .32s ease, opacity .32s ease;
+  pointer-events: none;
+}
+
+.globo-backdrop.ativo{
+  background: rgba(4,2,10,0.72);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.globo-wrap.em-foco{
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  width: min(92vw, 900px);
+  height: min(92vh, 900px);
+  max-width: none;
+  aspect-ratio: auto;
+  z-index: 999;
+  transition: width .32s ease, height .32s ease;
+}
+
+.globo-fechar-foco{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 6;
+  width: 34px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  background: var(--cor-superficie);
+  color: var(--cor-texto-suave);
+  border: 1px solid var(--borda-suave);
+  border-radius: 50%;
+  font-size: 19px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: var(--sombra);
+}
 
 .globo-legenda{
   position: absolute;
@@ -944,6 +1032,36 @@ html[data-theme="escuro"] .theme-toggle .knob{
   background: rgba(255,255,255,0.2);
 }
 
+.auth-mensagem{
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  display: none;
+}
+
+.auth-mensagem.erro{
+  display: block;
+  background: rgba(229,72,77,0.18);
+  border: 1px solid rgba(229,72,77,0.4);
+  color: #ffd7d8;
+}
+
+.auth-mensagem.sucesso{
+  display: block;
+  background: rgba(88,194,107,0.18);
+  border: 1px solid rgba(88,194,107,0.4);
+  color: #d7f5dd;
+}
+
+.auth-mensagem.info{
+  display: block;
+  background: rgba(255,255,255,0.14);
+  border: 1px solid rgba(255,255,255,0.24);
+  color: #fff;
+}
+
 .btn-entrar{
   width: 100%;
   padding: 13px;
@@ -956,6 +1074,8 @@ html[data-theme="escuro"] .theme-toggle .knob{
   font-size: 0.98rem;
   transition: background .25s ease, transform .25s ease;
 }
+
+.btn-entrar:disabled{ opacity: 0.65; cursor: not-allowed; }
 
 .btn-entrar:hover{ background: rgba(255,255,255,0.12); transform: translateY(-1px); }
 

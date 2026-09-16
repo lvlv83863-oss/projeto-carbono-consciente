@@ -33,6 +33,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  /* ---------- LOGIN / SAIR (cabeçalho) ---------- */
+  const linkLogin = document.getElementById('link-login');
+  if (linkLogin) {
+    const usuarioLogado = localStorage.getItem('carbono-token');
+    if (usuarioLogado) {
+      linkLogin.textContent = 'sair';
+      linkLogin.setAttribute('href', '#');
+      linkLogin.addEventListener('click', (e) => {
+        e.preventDefault();
+        localStorage.removeItem('carbono-token');
+        localStorage.removeItem('carbono-usuario');
+        window.location.reload();
+      });
+    }
+  }
+
   /* ---------- MENU HAMBÚRGUER (mobile) ---------- */
   const botaoMenu = document.querySelector('.menu-hamburguer');
   const navPrincipal = document.querySelector('.nav-principal');

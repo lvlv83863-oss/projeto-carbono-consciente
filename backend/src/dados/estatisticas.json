@@ -1,0 +1,6 @@
+[
+  { "chave": "co2_evitado", "valor": "2,4 t", "descricao": "CO₂ médio evitado por operação conectada / mês" },
+  { "chave": "variacao_emissoes", "valor": "−12%", "descricao": "emissões vs. o mesmo período do ano anterior" },
+  { "chave": "abaixo_media_setor", "valor": "36%", "descricao": "abaixo da média do setor, em contas monitoradas" },
+  { "chave": "paises_ativos", "valor": "118", "descricao": "países com nós de dados ativos na rede" }
+]

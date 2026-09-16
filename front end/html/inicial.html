@@ -25,7 +25,7 @@
     </nav>
 
     <div class="header-acoes">
-      <a href="login.html" class="btn-login">login</a>
+      <a href="login.html" class="btn-login" id="link-login">login</a>
       <button class="theme-toggle" aria-label="Alternar tema claro/escuro">
         <span class="icone">🌙</span>
         <span class="icone">☀️</span>
@@ -60,19 +60,19 @@
 <!-- ===================== ESTATÍSTICAS ===================== -->
 <section class="stats" id="estatisticas">
   <div class="stats-inner">
-    <div class="stat reveal">
+    <div class="stat reveal" data-chave="co2_evitado">
       <strong>2,4 t</strong>
       <span>CO₂ médio evitado por operação conectada / mês</span>
     </div>
-    <div class="stat reveal">
+    <div class="stat reveal" data-chave="variacao_emissoes">
       <strong>−12%</strong>
       <span>emissões vs. o mesmo período do ano anterior</span>
     </div>
-    <div class="stat reveal">
+    <div class="stat reveal" data-chave="abaixo_media_setor">
       <strong>36%</strong>
       <span>abaixo da média do setor, em contas monitoradas</span>
     </div>
-    <div class="stat reveal">
+    <div class="stat reveal" data-chave="paises_ativos">
       <strong>118</strong>
       <span>países com nós de dados ativos na rede</span>
     </div>
@@ -244,7 +244,7 @@
 
     <div class="noticias-grid">
 
-      <article class="noticia-card">
+      <article class="noticia-card" data-id="clima">
         <figure><div class="noticia-imagem bg-clima">🌍</div></figure>
         <div class="noticia-conteudo">
           <div class="noticia-categoria">🌍 Mudanças Climáticas</div>
@@ -254,7 +254,7 @@
         </div>
       </article>
 
-      <article class="noticia-card">
+      <article class="noticia-card" data-id="energia">
         <figure><div class="noticia-imagem bg-energia">☀️</div></figure>
         <div class="noticia-conteudo">
           <div class="noticia-categoria">☀️ Energia Limpa</div>
@@ -264,7 +264,7 @@
         </div>
       </article>
 
-      <article class="noticia-card">
+      <article class="noticia-card" data-id="reciclagem">
         <figure><div class="noticia-imagem bg-reciclagem-n">♻️</div></figure>
         <div class="noticia-conteudo">
           <div class="noticia-categoria">♻️ Reciclagem</div>
@@ -274,7 +274,7 @@
         </div>
       </article>
 
-      <article class="noticia-card">
+      <article class="noticia-card" data-id="sustentabilidade">
         <figure><div class="noticia-imagem bg-sustentabilidade">🌱</div></figure>
         <div class="noticia-conteudo">
           <div class="noticia-categoria">🌱 Sustentabilidade</div>
@@ -315,7 +315,10 @@
   </div>
 </footer>
 
+<script src="../js/vendor/globe.gl.min.js"></script>
 <script src="../js/globo.js"></script>
 <script src="../js/inicial.js"></script>
+<script src="../js/config.js"></script>
+<script src="../js/dados.js"></script>
 </body>
 </html>

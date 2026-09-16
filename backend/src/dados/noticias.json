@@ -1,0 +1,38 @@
+[
+  {
+    "id": "clima",
+    "categoria": "Mudanças Climáticas",
+    "emoji": "🌍",
+    "corClasse": "bg-clima",
+    "texto": "Informações sobre aquecimento global, eventos climáticos extremos e ações para reduzir as emissões de carbono.",
+    "data": "2026-09-10",
+    "linkExterno": null
+  },
+  {
+    "id": "energia",
+    "categoria": "Energia Limpa",
+    "emoji": "☀️",
+    "corClasse": "bg-energia",
+    "texto": "Novidades sobre energia solar, eólica, hidrelétrica e outras fontes renováveis que ajudam a diminuir a poluição.",
+    "data": "2026-09-05",
+    "linkExterno": null
+  },
+  {
+    "id": "reciclagem",
+    "categoria": "Reciclagem",
+    "emoji": "♻️",
+    "corClasse": "bg-reciclagem-n",
+    "texto": "Projetos, campanhas e iniciativas que incentivam a coleta seletiva, reutilização de materiais e economia circular.",
+    "data": "2026-08-29",
+    "linkExterno": null
+  },
+  {
+    "id": "sustentabilidade",
+    "categoria": "Sustentabilidade",
+    "emoji": "🌱",
+    "corClasse": "bg-sustentabilidade",
+    "texto": "Boas práticas adotadas por empresas, cidades e pessoas para preservar os recursos naturais e promover um futuro mais sustentável.",
+    "data": "2026-08-22",
+    "linkExterno": null
+  }
+]
