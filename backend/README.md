@@ -1,6 +1,6 @@
 # Backend — Carbono Consciente
 
-API para as funcionalidades do site que hoje dependiam de backend: login/cadastro, notícias e estatísticas.
+API para as funcionalidades do site que hoje dependiam de backend: login/cadastro, notícias reais, curiosidades, estatísticas em tempo real e o painel de hábitos de deslocamento.
 
 ## Como rodar
 
@@ -11,7 +11,7 @@ cp .env.example .env   # opcional — sem isso, os valores padrão de dev já fu
 npm start
 ```
 
-O servidor sobe em `http://localhost:3000` (ou na porta definida em `PORTA` no `.env`). O front-end estático (`front end/`) aponta para essa URL através de `front end/js/config.js`.
+O servidor sobe em `http://localhost:4321` (ou na porta definida em `PORTA` no `.env`) — a porta padrão foi escolhida para não colidir com portas comumente ocupadas por outras ferramentas (VS Code, Live Server/Live Preview em 3000/3001/5500, etc.). O front-end estático (`front end/`) aponta para essa URL através de `front end/js/config.js`. Se `4321` também estiver ocupada na sua máquina, veja o que está usando a porta (`ss -ltnp | grep 4321` no Linux) e troque `PORTA` no `.env` — lembrando de atualizar `front end/js/config.js` para o mesmo número.
 
 ## Persistência atual: arquivos JSON (não é um banco de dados)
 
@@ -56,24 +56,36 @@ Para `usuarios`, `meios_transporte` e `habitos`, o schema já existe pronto em `
 ### `noticias`
 | campo | tipo | observação |
 |---|---|---|
-| id | string | |
-| categoria | string | |
+| id | string | hash do link (estável enquanto o item estiver no cache) |
+| categoria | string | atribuída por palavra-chave no título (`clima`, `energia`, `reciclagem`, ou `sustentabilidade` como padrão) |
 | emoji | string | |
 | corClasse | string | classe CSS já existente no front (`bg-clima`, `bg-energia`, `bg-reciclagem-n`, `bg-sustentabilidade`) |
-| texto | string | |
-| data | data ISO | |
-| linkExterno | string \| null | reservado para uma futura página de artigo completo |
+| titulo | string | manchete real, vinda do RSS |
+| fonte | string | nome do veículo, vindo do RSS |
+| data | timestamp ISO | data de publicação real |
+| linkExterno | string \| null | link da matéria original (abre em nova aba) |
 
-Somente leitura por enquanto — não existe tela de administração no front para criar/editar notícias.
+**Fonte principal: RSS real do Google Notícias** (`src/servicos/noticiasFonteServico.js`), filtrado por termos ambientais, sem precisar de chave de API — cacheado em memória por 30 min. `noticiasRepositorio.js`/`noticias.json` só entram como **fallback** se essa busca externa falhar (sem internet, Google fora do ar). O RSS não fornece um resumo de verdade (só repete o título), por isso a API não inventa uma descrição — o front mostra título + fonte + data reais, com link pra matéria completa.
 
 ### `estatisticas`
+Não é mais uma lista fixa — `GET /api/estatisticas` **calcula na hora**, combinando os dados de país/CO₂ do globo (`src/dados/emissoesPaises.json`, cópia de `front end/data/emissoes.json`) com os hábitos do usuário logado (quando houver token). Resposta:
+
+```json
+{ "logado": true, "itens": [ { "chave": "...", "valor": "...", "descricao": "..." }, ... ], "saudePlanta": 97 }
+```
+
+- **Sem login**: CO₂ médio mundial por pessoa, maior emissor, menor emissor, países monitorados. Sem `saudePlanta`.
+- **Logado**: seu CO₂ nesta semana (via `habitosServico.resumo`), comparação % com a média semanal dos países, posição estimada no ranking mundial, países monitorados, mais `saudePlanta` (0-100 — 50 é a média dos países, 100 é bem abaixo/ótimo, 0 é bem acima/ruim), usado pela planta animada da home (`front end/js/planta.js`).
+
+`estatisticas.json`/`estatisticasRepositorio.listar()` só existem como último fallback, caso `emissoesPaises.json` não possa ser lido.
+
+### `curiosidades`
 | campo | tipo | observação |
 |---|---|---|
-| chave | string | identificador do indicador |
-| valor | string | já formatado para exibição (ex.: `"2,4 t"`, `"−12%"`) |
-| descricao | string | |
+| id | número | |
+| texto | string | fato ambiental real e verificável |
 
-Somente leitura, semeado hoje com os mesmos 4 números que já estavam fixos no HTML.
+Somente leitura. O front mostra uma curiosidade por vez (escolhida pelo dia do ano, muda sozinha a cada dia) com um botão que cicla pela lista já carregada.
 
 ### `meios_transporte`
 | campo | tipo | observação |
@@ -107,14 +119,16 @@ Criado e removido pelo próprio usuário logado, pela tela `front end/html/paine
 | POST | `/api/auth/login` | não | autentica (email, senha), devolve `{ usuario, token }` |
 | GET | `/api/auth/me` | sim (`Authorization: Bearer <token>`) | dados do usuário logado |
 | POST | `/api/auth/google` | não | **não implementado** — responde 501. Exige credenciais OAuth (Client ID/Secret) que só o dono do projeto pode criar no Google Cloud Console. Ver comentário em `src/controladores/autenticacaoControlador.js`. |
-| GET | `/api/noticias` | não | lista de notícias |
-| GET | `/api/noticias/:id` | não | uma notícia — reservado para uma futura página de artigo completo |
-| GET | `/api/estatisticas` | não | lista de estatísticas |
+| GET | `/api/noticias` | não | notícias reais (RSS), mais recentes primeiro |
+| GET | `/api/noticias/:id` | não | uma notícia (dentro da leva cacheada atual) |
+| GET | `/api/estatisticas` | opcional | calculado; personalizado se vier `Authorization: Bearer <token>`, global se não vier |
+| GET | `/api/curiosidades` | não | lista de fatos ambientais reais |
 | GET | `/api/meios-transporte` | não | lista os meios de transporte e seus fatores de emissão |
 | GET | `/api/habitos` | sim | lista os registros de deslocamento do usuário logado |
 | POST | `/api/habitos` | sim | cria um registro (`idMeio`, `data`, `distanciaKm`, `observacao` opcional) |
 | DELETE | `/api/habitos/:id` | sim | remove um registro — só se for do próprio usuário |
 | GET | `/api/habitos/resumo` | sim | totais de CO₂: hoje, ontem, semana atual/anterior, mês atual/anterior |
+| GET | `/api/habitos/serie` | sim | CO₂ por dia nos últimos 14 dias (0 nos dias sem registro) — usado pelo gráfico do painel |
 
 Erros sempre voltam como `{ "erro": "mensagem" }` com o status HTTP correspondente (400 dado inválido, 401 não autenticado, 404 não encontrado, 409 conflito, 501 não implementado, 500 erro inesperado).
 

@@ -21,15 +21,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (botaoTema) {
     botaoTema.addEventListener('click', () => {
-      const temaAtual = raiz.getAttribute('data-theme') === 'escuro' ? 'escuro' : 'claro';
-      const novoTema = temaAtual === 'escuro' ? 'claro' : 'escuro';
+      const aplicarTema = () => {
+        const temaAtual = raiz.getAttribute('data-theme') === 'escuro' ? 'escuro' : 'claro';
+        const novoTema = temaAtual === 'escuro' ? 'claro' : 'escuro';
+        if (novoTema === 'claro') raiz.removeAttribute('data-theme');
+        else raiz.setAttribute('data-theme', 'escuro');
+        localStorage.setItem('carbono-tema', novoTema);
+      };
 
-      if (novoTema === 'claro') {
-        raiz.removeAttribute('data-theme');
-      } else {
-        raiz.setAttribute('data-theme', 'escuro');
+      // Sem suporte à View Transitions API (Firefox, navegadores antigos):
+      // troca instantânea como sempre foi — nunca quebra.
+      if (!document.startViewTransition) {
+        aplicarTema();
+        return;
       }
-      localStorage.setItem('carbono-tema', novoTema);
+
+      // Com suporte: troca de tema como uma onda circular saindo do botão.
+      const r = botaoTema.getBoundingClientRect();
+      const x = r.left + r.width / 2;
+      const y = r.top + r.height / 2;
+      const raioMax = Math.hypot(Math.max(x, window.innerWidth - x), Math.max(y, window.innerHeight - y));
+
+      const transicao = document.startViewTransition(aplicarTema);
+      transicao.ready.then(() => {
+        raiz.animate(
+          { clipPath: [`circle(0px at ${x}px ${y}px)`, `circle(${raioMax}px at ${x}px ${y}px)`] },
+          { duration: 550, easing: 'ease-in-out', pseudoElement: '::view-transition-new(root)' }
+        );
+      });
     });
   }
 

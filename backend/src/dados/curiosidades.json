@@ -1,0 +1,20 @@
+[
+  { "id": 1, "texto": "Uma árvore adulta absorve, em média, cerca de 22 kg de CO₂ por ano — por isso o reflorestamento é uma das formas mais diretas de compensar emissões." },
+  { "id": 2, "texto": "Os oceanos absorvem cerca de um quarto de todo o CO₂ emitido pela humanidade todos os anos, funcionando como um enorme regulador do clima global." },
+  { "id": 3, "texto": "Reciclar uma tonelada de papel economiza cerca de 17 árvores e uma quantidade significativa de água e energia em comparação com produzir papel novo." },
+  { "id": 4, "texto": "O transporte é responsável por cerca de um quarto das emissões globais de CO₂ ligadas à energia — trocar o carro pela bicicleta ou transporte público em trajetos curtos faz diferença real." },
+  { "id": 5, "texto": "A Amazônia abriga cerca de 10% de toda a biodiversidade conhecida do planeta, além de armazenar bilhões de toneladas de carbono em sua vegetação." },
+  { "id": 6, "texto": "Painéis solares residenciais podem reduzir a pegada de carbono de uma casa em toneladas de CO₂ por ano, dependendo da matriz energética local." },
+  { "id": 7, "texto": "Uma dieta com menos carne vermelha pode reduzir significativamente a pegada de carbono pessoal, já que a pecuária bovina é uma das atividades agrícolas mais intensivas em emissões." },
+  { "id": 8, "texto": "O derretimento do gelo marinho no Ártico reduz a capacidade do planeta de refletir luz solar de volta ao espaço, acelerando o aquecimento — um efeito conhecido como retroalimentação do albedo." },
+  { "id": 9, "texto": "Lâmpadas de LED consomem até 80% menos energia que lâmpadas incandescentes e duram muito mais tempo, reduzindo tanto emissões quanto resíduos." },
+  { "id": 10, "texto": "O Acordo de Paris, assinado por quase 200 países, tem como meta limitar o aquecimento global a bem abaixo de 2°C acima dos níveis pré-industriais." },
+  { "id": 11, "texto": "Cerca de um terço de todo o alimento produzido no mundo é desperdiçado — e esse desperdício sozinho gera uma fatia relevante das emissões globais de gases de efeito estufa." },
+  { "id": 12, "texto": "Turbinas eólicas modernas conseguem gerar energia suficiente para abastecer milhares de residências, sem emitir CO₂ durante a operação." },
+  { "id": 13, "texto": "O solo saudável armazena mais carbono do que toda a vegetação e a atmosfera juntas — práticas agrícolas regenerativas ajudam a manter esse carbono no chão." },
+  { "id": 14, "texto": "Recifes de coral, apesar de cobrirem menos de 1% do fundo oceânico, sustentam cerca de 25% de toda a vida marinha conhecida — e são extremamente sensíveis ao aquecimento das águas." },
+  { "id": 15, "texto": "Reduzir o desperdício de água quente em casa (banhos mais curtos, por exemplo) também reduz emissões, já que aquecer água consome energia." },
+  { "id": 16, "texto": "Carros elétricos, mesmo considerando a fabricação da bateria, tendem a emitir menos CO₂ ao longo da vida útil do que carros a combustão, especialmente onde a eletricidade vem de fontes limpas." },
+  { "id": 17, "texto": "Compostar resíduos orgânicos em casa evita que eles produzam metano em aterros sanitários — um gás de efeito estufa muito mais potente que o CO₂ no curto prazo." },
+  { "id": 18, "texto": "As geleiras da Groenlândia e da Antártica juntas perdem, em anos recentes, centenas de bilhões de toneladas de gelo por ano, contribuindo diretamente para a elevação do nível do mar." }
+]

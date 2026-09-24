@@ -1,11 +1,12 @@
 const noticiasServico = require("../servicos/noticiasServico");
+const assincrono = require("../utilitarios/assincrono");
 
-function listar(_req, res) {
-  res.status(200).json(noticiasServico.listar());
-}
+const listar = assincrono(async (_req, res) => {
+  res.status(200).json(await noticiasServico.listar());
+});
 
-function buscarPorId(req, res) {
-  res.status(200).json(noticiasServico.buscarPorId(req.params.id));
-}
+const buscarPorId = assincrono(async (req, res) => {
+  res.status(200).json(await noticiasServico.buscarPorId(req.params.id));
+});
 
 module.exports = { listar, buscarPorId };

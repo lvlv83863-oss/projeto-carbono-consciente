@@ -46,6 +46,14 @@
     return { lng: sx / anel.length, lat: sy / anel.length };
   }
 
+  function normalizarTexto(texto) {
+    return (texto || "")
+      .normalize("NFD")
+      .replace(/[̀-ͯ]/g, "")
+      .toLowerCase()
+      .trim();
+  }
+
   function fmt(n) {
     return n.toFixed(2).replace(".", ",");
   }
@@ -85,6 +93,11 @@
     globoDiv.className = "globo-3d";
     wrap.appendChild(globoDiv);
 
+    // A versão decorativa (globo da tela de login) fica só com a esfera
+    // girando — sem legenda, painel de dados ou botão de foco, que não
+    // fazem sentido ali (ela não é clicável).
+    if (decorativo) return montarDecorativo(wrap, globoDiv);
+
     const legenda = document.createElement("div");
     legenda.className = "globo-legenda";
     legenda.innerHTML =
@@ -113,10 +126,19 @@
     botaoFecharFoco.style.display = "none";
     wrap.appendChild(botaoFecharFoco);
 
-    if (decorativo) return montarDecorativo(wrap, globoDiv);
+    // Busca por país — só aparece no modo destaque (CSS cuida da exibição).
+    const buscaWrap = document.createElement("div");
+    buscaWrap.className = "globo-busca";
+    buscaWrap.innerHTML =
+      '<input type="text" placeholder="Buscar país..." aria-label="Buscar país no globo" autocomplete="off">' +
+      '<div class="globo-busca-resultados"></div>';
+    wrap.appendChild(buscaWrap);
+    const campoBusca = buscaWrap.querySelector("input");
+    const resultadosBusca = buscaWrap.querySelector(".globo-busca-resultados");
 
     /* ---------- estado ---------- */
     let world = null;
+    let featuresCarregadas = [];
     let emissoesPorIso = {};
     let rankedIsos = [];
     let minTon = 0, maxTon = 1;
@@ -162,9 +184,14 @@
       if (world) world.polygonAltitude(alturaPais).polygonCapColor(corPais);
     }
 
+    function nomeDoPais(feature) {
+      const dado = emissoesPorIso[isoDoPais(feature)];
+      return (dado && dado.nome) || feature.properties.NAME || "";
+    }
+
     function rotuloPais(feature) {
       const dado = emissoesPorIso[isoDoPais(feature)];
-      const nome = (dado && dado.nome) || feature.properties.NAME || "";
+      const nome = nomeDoPais(feature);
       if (!dado) return `<div class="globo-tooltip"><strong>${nome}</strong><br>sem dados de CO₂</div>`;
       return `<div class="globo-tooltip"><strong>${nome}</strong><br>${fmt(dado.tonYear)} t/ano por pessoa</div>`;
     }
@@ -174,6 +201,7 @@
       painel.style.display = "none";
       painel.innerHTML = "";
       atualizarCamada();
+      if (world) world.controls().autoRotate = true;
     }
 
     function abrirPainel(feature) {
@@ -207,6 +235,7 @@
       }
       painel.querySelector(".painel-fechar").addEventListener("click", fecharPainel);
       atualizarCamada();
+      if (world) world.controls().autoRotate = false;
     }
 
     function redimensionar() {
@@ -221,6 +250,7 @@
       if (emFoco) return;
       emFoco = true;
 
+      wrap.style.transform = ""; // limpa qualquer parallax aplicado por efeitos.js
       backdrop = document.createElement("div");
       backdrop.className = "globo-backdrop";
       document.body.appendChild(backdrop);
@@ -265,8 +295,118 @@
         redimensionar();
         world.pointOfView({ lat: 15, lng: 0, altitude: 2.2 }, 700);
       }, 320);
+      campoBusca.value = "";
+      resultadosBusca.innerHTML = "";
+      resultadosBusca.classList.remove("ativo");
     }
     botaoFecharFoco.addEventListener("click", sairFoco);
+
+    /* ---------- busca de país (só usada no modo destaque) ---------- */
+    function buscarPaises(termo) {
+      const alvo = normalizarTexto(termo);
+      if (!alvo) return [];
+      return featuresCarregadas.filter((f) => normalizarTexto(nomeDoPais(f)).includes(alvo)).slice(0, 6);
+    }
+
+    function irParaPais(feature) {
+      if (!world || !feature) return;
+      featureAtual = feature;
+      abrirPainel(feature);
+      const { lat, lng } = centroideAproximado(feature);
+      world.pointOfView({ lat, lng, altitude: 1.4 }, 800);
+      campoBusca.value = "";
+      resultadosBusca.innerHTML = "";
+      resultadosBusca.classList.remove("ativo");
+    }
+
+    campoBusca.addEventListener("input", () => {
+      const encontrados = buscarPaises(campoBusca.value);
+      if (!encontrados.length) {
+        resultadosBusca.innerHTML = "";
+        resultadosBusca.classList.remove("ativo");
+        return;
+      }
+      resultadosBusca.innerHTML = encontrados.map((_, i) => `<button type="button" data-indice="${i}"></button>`).join("");
+      const botoes = resultadosBusca.querySelectorAll("button");
+      botoes.forEach((botao, i) => {
+        botao.textContent = nomeDoPais(encontrados[i]);
+        botao.addEventListener("click", () => irParaPais(encontrados[i]));
+      });
+      resultadosBusca.classList.add("ativo");
+    });
+
+    campoBusca.addEventListener("keydown", (e) => {
+      if (e.key !== "Enter") return;
+      e.preventDefault();
+      const [primeiro] = buscarPaises(campoBusca.value);
+      if (primeiro) irParaPais(primeiro);
+    });
+
+    /* ---------- nuvens decorativas em partículas (somem ao passar o mouse) ----------
+       Cada nuvem é um pequeno aglomerado de blobs borrados (não emoji),
+       nascendo perto das bordas do globo — nunca na faixa central, onde
+       ficam os países — e no máximo MAX_NUVENS por vez, pra não tampar
+       o globo. */
+    const MAX_NUVENS = 3;
+
+    function posicaoNaBorda() {
+      const lado = Math.floor(Math.random() * 4); // 0 topo, 1 base, 2 esquerda, 3 direita
+      const eixoLivre = `${Math.random() * 70}%`;
+      const inicioBorda = `${2 + Math.random() * 10}%`;
+      const fimBorda = `${88 - Math.random() * 10}%`;
+      if (lado === 0) return { top: inicioBorda, left: eixoLivre };
+      if (lado === 1) return { top: fimBorda, left: eixoLivre };
+      if (lado === 2) return { top: eixoLivre, left: inicioBorda };
+      return { top: eixoLivre, left: fimBorda };
+    }
+
+    function montarParticulas(grupo) {
+      const partes = 4 + Math.floor(Math.random() * 3); // 4 a 6 blobs
+      for (let i = 0; i < partes; i++) {
+        const parte = document.createElement("span");
+        parte.className = "globo-nuvem-parte";
+        const tamanho = 16 + Math.random() * 18;
+        parte.style.width = `${tamanho}px`;
+        parte.style.height = `${tamanho * (0.55 + Math.random() * 0.25)}px`;
+        parte.style.left = `${i * (11 + Math.random() * 6)}px`;
+        parte.style.top = `${8 + (Math.random() * 12 - 6)}px`;
+        parte.style.opacity = (0.55 + Math.random() * 0.35).toFixed(2);
+        grupo.appendChild(parte);
+      }
+    }
+
+    function nascerNuvem(atraso) {
+      setTimeout(() => {
+        if (!document.body.contains(wrap)) return;
+        if (wrap.querySelectorAll(".globo-nuvem").length >= MAX_NUVENS) {
+          nascerNuvem(1500);
+          return;
+        }
+        const grupo = document.createElement("div");
+        grupo.className = "globo-nuvem";
+        const pos = posicaoNaBorda();
+        grupo.style.top = pos.top;
+        grupo.style.left = pos.left;
+        const duracao = 12 + Math.random() * 8;
+        grupo.style.animationDuration = `${duracao}s`;
+        grupo.style.animationDelay = `-${(Math.random() * duracao).toFixed(2)}s`;
+        montarParticulas(grupo);
+        grupo.addEventListener(
+          "mouseenter",
+          () => {
+            grupo.classList.add("sumindo");
+            setTimeout(() => {
+              grupo.remove();
+              nascerNuvem(2000 + Math.random() * 3000);
+            }, 500);
+          },
+          { once: true }
+        );
+        wrap.appendChild(grupo);
+      }, atraso);
+    }
+
+    for (let i = 0; i < MAX_NUVENS; i++) nascerNuvem(i * 900);
 
     function aoClicarPais(feature) {
       if (!feature) return;
@@ -276,6 +416,7 @@
 
     /* ---------- inicialização assíncrona ---------- */
     carregarDados().then(({ features, emissoes }) => {
+      featuresCarregadas = features;
       emissoesPorIso = emissoes;
       rankedIsos = Object.keys(emissoes).sort((a, b) => emissoes[b].tonYear - emissoes[a].tonYear);
       const valores = Object.keys(emissoes).map((k) => emissoes[k].tonYear);
@@ -314,6 +455,26 @@
       );
       canvasInterno.addEventListener("dblclick", () => {
         if (featureAtual) entrarFoco(featureAtual);
+      });
+
+      // Rastro de partículas ao arrastar pra girar (só observa o ponteiro —
+      // não interfere na rotação, que continua por conta do OrbitControls).
+      let arrastandoRastro = false;
+      let ultimaParticulaRastro = 0;
+      canvasInterno.addEventListener("pointerdown", () => { arrastandoRastro = true; });
+      window.addEventListener("pointerup", () => { arrastandoRastro = false; });
+      canvasInterno.addEventListener("pointermove", (e) => {
+        if (!arrastandoRastro) return;
+        const agora = Date.now();
+        if (agora - ultimaParticulaRastro < 45) return;
+        ultimaParticulaRastro = agora;
+        const r = wrap.getBoundingClientRect();
+        const particula = document.createElement("span");
+        particula.className = "globo-rastro";
+        particula.style.left = `${e.clientX - r.left}px`;
+        particula.style.top = `${e.clientY - r.top}px`;
+        wrap.appendChild(particula);
+        setTimeout(() => particula.remove(), 650);
       });
 
       redimensionar();
@@ -365,7 +526,13 @@
       world.pointOfView({ lat: 15, lng: 0, altitude: 2.2 }, 0);
       world.controls().autoRotate = true;
       world.controls().autoRotateSpeed = 0.55;
-      world.controls().enabled = false;
+      // Importante: manter "enabled = true" (só travando os gestos abaixo).
+      // Desligar o controls inteiro (enabled = false) faz o OrbitControls
+      // parar de recalcular a câmera a cada frame, o que corrompia o
+      // enquadramento e cortava a base da esfera nesta versão decorativa.
+      world.controls().enableRotate = false;
+      world.controls().enableZoom = false;
+      world.controls().enablePan = false;
 
       const canvasInterno = world.renderer().domElement;
       canvasInterno.setAttribute("role", "img");

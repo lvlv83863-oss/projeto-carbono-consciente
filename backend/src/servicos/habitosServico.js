@@ -108,4 +108,22 @@ function resumo(idUsuario) {
   };
 }
 
-module.exports = { criar, listarPorUsuario, remover, resumo };
+// Série diária dos últimos `dias` (incluindo hoje), com 0 nos dias sem
+// registro — usada pelo gráfico de evolução do painel.
+function serieDiaria(idUsuario, dias = 14) {
+  const registros = habitosRepositorio.listarPorUsuario(idUsuario);
+  const porDia = {};
+  registros.forEach((h) => {
+    porDia[h.data] = (porDia[h.data] || 0) + h.co2;
+  });
+
+  const hoje = new Date();
+  const serie = [];
+  for (let i = dias - 1; i >= 0; i--) {
+    const dataIso = paraIso(somarDias(hoje, -i));
+    serie.push({ data: dataIso, totalCo2: Math.round((porDia[dataIso] || 0) * 1000) / 1000 });
+  }
+  return serie;
+}
+
+module.exports = { criar, listarPorUsuario, remover, resumo, serieDiaria };

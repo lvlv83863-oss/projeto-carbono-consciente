@@ -6,6 +6,7 @@
 <title>Carbono Consciente</title>
 <meta name="description" content="Carbono Consciente: educação ambiental sobre emissões de carbono, pegada de carbono, dicas sustentáveis, curiosidades e notícias ambientais.">
 <link rel="stylesheet" href="../css/inicial.css">
+<script>document.documentElement.classList.add('pagina-carregando');</script>
 </head>
 <body>
 
@@ -27,8 +28,8 @@
     <div class="header-acoes">
       <a href="login.html" class="btn-login" id="link-login">login</a>
       <button class="theme-toggle" aria-label="Alternar tema claro/escuro">
-        <span class="icone">🌙</span>
-        <span class="icone">☀️</span>
+        <span class="icone"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /> <path d="M12 2v2" /> <path d="M12 20v2" /> <path d="m4.93 4.93 1.41 1.41" /> <path d="m17.66 17.66 1.41 1.41" /> <path d="M2 12h2" /> <path d="M20 12h2" /> <path d="m6.34 17.66-1.41 1.41" /> <path d="m19.07 4.93-1.41 1.41" /></svg></span>
+        <span class="icone"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" /></svg></span>
         <span class="knob"></span>
       </button>
       <button class="menu-hamburguer" aria-label="Abrir menu">
@@ -83,7 +84,44 @@
 <section class="secao-carbono" id="carbono">
   <div class="carbono-grid">
     <div class="planta-coluna">
-      <img src="img/planta.png" alt="Planta em vaso, símbolo de consciência ambiental">
+      <div class="planta-cena" id="planta-cena">
+        <svg class="planta-svg" viewBox="0 0 220 280" role="img" aria-label="Planta que reflete a saúde dos seus hábitos de deslocamento">
+          <ellipse class="planta-terra" cx="110" cy="232" rx="58" ry="12" />
+          <path class="planta-vaso" d="M58 230 L162 230 L150 268 L70 268 Z" />
+
+          <g class="planta-corpo">
+            <path class="planta-caule" d="M110,228 C106,196 118,168 108,140 C100,116 116,92 110,64" />
+
+            <g class="planta-folha planta-folha-1">
+              <path d="M110,196 C130,190 142,176 134,162 C118,166 106,180 110,196 Z" />
+            </g>
+            <g class="planta-folha planta-folha-2">
+              <path d="M108,172 C88,166 76,152 84,138 C100,142 112,156 108,172 Z" />
+            </g>
+            <g class="planta-folha planta-folha-3">
+              <path d="M112,146 C132,140 144,126 136,112 C120,116 108,130 112,146 Z" />
+            </g>
+            <g class="planta-folha planta-folha-4">
+              <path d="M106,118 C86,112 74,98 82,84 C98,88 110,102 106,118 Z" />
+            </g>
+            <g class="planta-folha planta-folha-5">
+              <path d="M110,94 C128,88 138,76 132,64 C118,66 108,78 110,94 Z" />
+            </g>
+
+            <g class="planta-flor">
+              <circle cx="110" cy="60" r="6" />
+              <circle cx="118" cy="56" r="5" />
+              <circle cx="118" cy="66" r="5" />
+              <circle cx="102" cy="56" r="5" />
+              <circle cx="102" cy="66" r="5" />
+              <circle cx="110" cy="60" r="3" class="planta-flor-centro" />
+            </g>
+          </g>
+
+          <circle class="planta-semente" cx="110" cy="10" r="6" />
+        </svg>
+        <p class="planta-legenda" id="planta-legenda">Carregando sua planta...</p>
+      </div>
     </div>
 
     <div class="acordeao-coluna">
@@ -149,51 +187,83 @@
     <div class="dicas-grid">
 
       <article class="dica-card">
-        <figure><div class="dica-imagem bg-casa">🏠</div></figure>
-        <div class="tag">CASA</div>
-        <ul class="dica-lista">
+        <div class="dica-flip">
+          <div class="dica-face dica-face-frente">
+            <figure><div class="dica-imagem bg-casa"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" /> <path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /></svg></div></figure>
+            <div class="tag">CASA</div>
+          </div>
+          <div class="dica-face dica-face-verso">
+            <h3>Casa</h3>
+            <ul class="dica-lista">
           <li>Economizar energia</li>
           <li>Apagar luzes quando não estiver utilizando</li>
           <li>Utilizar equipamentos de forma consciente</li>
           <li>Reduzir desperdício de água</li>
           <li>Evitar desperdício de alimentos</li>
         </ul>
+            <span class="dica-verso-dica">clique para voltar</span>
+          </div>
+        </div>
       </article>
 
       <article class="dica-card">
-        <figure><div class="dica-imagem bg-transporte">🚌</div></figure>
-        <div class="tag">TRANSPORTE</div>
-        <ul class="dica-lista">
+        <div class="dica-flip">
+          <div class="dica-face dica-face-frente">
+            <figure><div class="dica-imagem bg-transporte"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6v6" /> <path d="M15 6v6" /> <path d="M2 12h19.6" /> <path d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3" /> <circle cx="7" cy="18" r="2" /> <path d="M9 18h5" /> <circle cx="16" cy="18" r="2" /></svg></div></figure>
+            <div class="tag">TRANSPORTE</div>
+          </div>
+          <div class="dica-face dica-face-verso">
+            <h3>Transporte</h3>
+            <ul class="dica-lista">
           <li>Caminhar quando possível</li>
           <li>Utilizar bicicleta</li>
           <li>Utilizar transporte público</li>
           <li>Compartilhar viagens quando possível</li>
           <li>Reduzir deslocamentos desnecessários de carro</li>
         </ul>
+            <span class="dica-verso-dica">clique para voltar</span>
+          </div>
+        </div>
       </article>
 
       <article class="dica-card">
-        <figure><div class="dica-imagem bg-alimentacao">🥗</div></figure>
-        <div class="tag">ALIMENTAÇÃO</div>
-        <ul class="dica-lista">
+        <div class="dica-flip">
+          <div class="dica-face dica-face-frente">
+            <figure><div class="dica-imagem bg-alimentacao"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 21h10" /> <path d="M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9Z" /> <path d="M11.38 12a2.4 2.4 0 0 1-.4-4.77 2.4 2.4 0 0 1 3.2-2.77 2.4 2.4 0 0 1 3.47-.63 2.4 2.4 0 0 1 3.37 3.37 2.4 2.4 0 0 1-1.1 3.7 2.51 2.51 0 0 1 .03 1.1" /> <path d="m13 12 4-4" /> <path d="M10.9 7.25A3.99 3.99 0 0 0 4 10c0 .73.2 1.41.54 2" /></svg></div></figure>
+            <div class="tag">ALIMENTAÇÃO</div>
+          </div>
+          <div class="dica-face dica-face-verso">
+            <h3>Alimentação</h3>
+            <ul class="dica-lista">
           <li>Consumir produtos locais</li>
           <li>Evitar desperdício</li>
           <li>Planejar as refeições</li>
           <li>Aproveitar melhor os alimentos</li>
           <li>Diminuir o consumo de carne</li>
         </ul>
+            <span class="dica-verso-dica">clique para voltar</span>
+          </div>
+        </div>
       </article>
 
       <article class="dica-card">
-        <figure><div class="dica-imagem bg-reciclagem">♻️</div></figure>
-        <div class="tag">RECICLAGEM</div>
-        <ul class="dica-lista">
+        <div class="dica-flip">
+          <div class="dica-face dica-face-frente">
+            <figure><div class="dica-imagem bg-reciclagem"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5" /> <path d="M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12" /> <path d="m14 16-3 3 3 3" /> <path d="M8.293 13.596 7.196 9.5 3.1 10.598" /> <path d="m9.344 5.811 1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.784 1.784 0 0 1 1.546.888l3.943 6.843" /> <path d="m13.378 9.633 4.096 1.098 1.097-4.096" /></svg></div></figure>
+            <div class="tag">RECICLAGEM</div>
+          </div>
+          <div class="dica-face dica-face-verso">
+            <h3>Reciclagem</h3>
+            <ul class="dica-lista">
           <li>Separar corretamente os resíduos</li>
           <li>Reutilizar materiais</li>
           <li>Destinar recicláveis corretamente</li>
           <li>Evitar produtos descartáveis</li>
           <li>Dar novos usos aos objetos</li>
         </ul>
+            <span class="dica-verso-dica">clique para voltar</span>
+          </div>
+        </div>
       </article>
 
     </div>
@@ -206,14 +276,10 @@
     <div>
       <h2 class="fonte-serif">Curiosidades Ambientais</h2>
       <p class="subtitulo-secao">Você sabia?</p>
-      <ul class="lista-curiosidades">
-        <li>🌳 Uma árvore pode absorver aproximadamente 22 kg de CO₂ por ano.</li>
-        <li>✈️ Uma única viagem de avião pode emitir centenas de quilos de dióxido de carbono.</li>
-        <li>🚲 Andar de bicicleta não gera emissão direta de carbono durante o deslocamento.</li>
-        <li>💡 Lâmpadas LED consomem até 80% menos energia do que lâmpadas incandescentes.</li>
-        <li>🌍 Mais de 70% da superfície da Terra é coberta por água, mas menos de 1% é própria para consumo humano.</li>
-        <li>♻️ Reciclar uma lata de alumínio economiza até 95% da energia necessária para produzir uma nova.</li>
-      </ul>
+      <div class="curiosidade-card">
+        <p id="curiosidade-texto">Carregando curiosidade...</p>
+        <button type="button" id="curiosidade-trocar" class="curiosidade-botao"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8" /> <path d="M21 3v5h-5" /> <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16" /> <path d="M8 16H3v5" /></svg> Próxima curiosidade</button>
+      </div>
     </div>
     <svg class="lampada" viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg">
       <g stroke="#111" stroke-width="4" stroke-linecap="round">
@@ -238,55 +304,28 @@
 <section class="secao-noticias" id="noticias">
   <div class="container">
     <div class="noticias-cabecalho">
-      <h2 class="titulo-secao reveal">📰 Notícias Ambientais</h2>
+      <h2 class="titulo-secao reveal"><span class="icone-titulo"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18h-5" /> <path d="M18 14h-8" /> <path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2" /> <rect width="8" height="4" x="10" y="6" rx="1" /></svg></span> Notícias Ambientais</h2>
     </div>
-    <p class="subtitulo-secao reveal">Acompanhe os principais assuntos sobre sustentabilidade</p>
+    <p class="subtitulo-secao reveal">Notícias reais e recentes sobre sustentabilidade</p>
 
-    <div class="noticias-grid">
-
-      <article class="noticia-card" data-id="clima">
-        <figure><div class="noticia-imagem bg-clima">🌍</div></figure>
-        <div class="noticia-conteudo">
-          <div class="noticia-categoria">🌍 Mudanças Climáticas</div>
-          <p>Informações sobre aquecimento global, eventos climáticos extremos e ações para reduzir as emissões de carbono.</p>
-          <span class="noticia-data">10 de setembro de 2026</span>
-          <a href="#" class="link-ver-mais">ver mais</a>
-        </div>
-      </article>
-
-      <article class="noticia-card" data-id="energia">
-        <figure><div class="noticia-imagem bg-energia">☀️</div></figure>
-        <div class="noticia-conteudo">
-          <div class="noticia-categoria">☀️ Energia Limpa</div>
-          <p>Novidades sobre energia solar, eólica, hidrelétrica e outras fontes renováveis que ajudam a diminuir a poluição.</p>
-          <span class="noticia-data">5 de setembro de 2026</span>
-          <a href="#" class="link-ver-mais">ver mais</a>
-        </div>
-      </article>
-
-      <article class="noticia-card" data-id="reciclagem">
-        <figure><div class="noticia-imagem bg-reciclagem-n">♻️</div></figure>
-        <div class="noticia-conteudo">
-          <div class="noticia-categoria">♻️ Reciclagem</div>
-          <p>Projetos, campanhas e iniciativas que incentivam a coleta seletiva, reutilização de materiais e economia circular.</p>
-          <span class="noticia-data">29 de agosto de 2026</span>
-          <a href="#" class="link-ver-mais">ver mais</a>
-        </div>
-      </article>
-
-      <article class="noticia-card" data-id="sustentabilidade">
-        <figure><div class="noticia-imagem bg-sustentabilidade">🌱</div></figure>
-        <div class="noticia-conteudo">
-          <div class="noticia-categoria">🌱 Sustentabilidade</div>
-          <p>Boas práticas adotadas por empresas, cidades e pessoas para preservar os recursos naturais e promover um futuro mais sustentável.</p>
-          <span class="noticia-data">22 de agosto de 2026</span>
-          <a href="#" class="link-ver-mais">ver mais</a>
-        </div>
-      </article>
-
+    <div class="noticias-carrossel-wrap">
+      <button type="button" class="noticias-seta noticias-seta-esq" aria-label="Notícias anteriores">‹</button>
+      <div class="noticias-carrossel" id="noticias-carrossel">
+        <p class="noticias-carregando">Carregando notícias...</p>
+      </div>
+      <button type="button" class="noticias-seta noticias-seta-dir" aria-label="Próximas notícias">›</button>
     </div>
   </div>
 </section>
+
+<!-- ===================== MODAL DE NOTÍCIA ===================== -->
+<div class="noticia-modal" id="noticia-modal" hidden>
+  <div class="noticia-modal-fundo" id="noticia-modal-fundo"></div>
+  <div class="noticia-modal-caixa" role="dialog" aria-modal="true">
+    <button type="button" class="noticia-modal-fechar" id="noticia-modal-fechar" aria-label="Fechar">×</button>
+    <div id="noticia-modal-conteudo"></div>
+  </div>
+</div>
 
 <!-- ===================== RODAPÉ ===================== -->
 <footer class="site-footer" id="rodape">
@@ -318,7 +357,15 @@
 <script src="../js/vendor/globe.gl.min.js"></script>
 <script src="../js/globo.js"></script>
 <script src="../js/inicial.js"></script>
+<script src="../js/icones.js"></script>
+<script src="../js/ambiente.js"></script>
+<script src="../js/celestial.js"></script>
+<script src="../js/efeitos.js"></script>
+<script src="../js/interativo.js"></script>
+<script src="../js/particulas.js"></script>
+<script src="../js/transicoes.js"></script>
 <script src="../js/config.js"></script>
+<script src="../js/planta.js"></script>
 <script src="../js/dados.js"></script>
 </body>
 </html>

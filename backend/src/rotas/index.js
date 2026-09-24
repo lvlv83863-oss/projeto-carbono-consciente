@@ -7,5 +7,6 @@ rotas.use("/noticias", require("./noticiasRotas"));
 rotas.use("/estatisticas", require("./estatisticasRotas"));
 rotas.use("/meios-transporte", require("./meiosTransporteRotas"));
 rotas.use("/habitos", require("./habitosRotas"));
+rotas.use("/curiosidades", require("./curiosidadesRotas"));
 
 module.exports = rotas;

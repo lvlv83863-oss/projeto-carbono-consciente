@@ -7,6 +7,7 @@
 <meta name="description" content="Entre ou cadastre-se para acompanhar seus dados e hábitos no Carbono Consciente.">
 <link rel="stylesheet" href="../css/inicial.css">
 <script>
+  document.documentElement.classList.add('pagina-carregando');
   // Quem já está logado não precisa ver a tela de login de novo.
   if (localStorage.getItem('carbono-token')) {
     window.location.replace('painel.html');
@@ -16,15 +17,25 @@
 <body>
 
 <!-- ===================== TOPO (voltar + tema) ===================== -->
-<div class="auth-topo">
-  <a href="inicial.html" class="auth-voltar">← Voltar ao início</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="inicial.html" class="logo-link">
+      <img src="../../img/logo.png" alt="Logo Carbono Consciente">
+    </a>
 
-  <button class="theme-toggle" aria-label="Alternar tema claro/escuro">
-    <span class="icone">🌙</span>
-    <span class="icone">☀️</span>
-    <span class="knob"></span>
-  </button>
-</div>
+    <nav class="nav-principal">
+      <a href="inicial.html">← Voltar ao início</a>
+    </nav>
+
+    <div class="header-acoes">
+      <button class="theme-toggle" aria-label="Alternar tema claro/escuro">
+        <span class="icone"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /> <path d="M12 2v2" /> <path d="M12 20v2" /> <path d="m4.93 4.93 1.41 1.41" /> <path d="m17.66 17.66 1.41 1.41" /> <path d="M2 12h2" /> <path d="M20 12h2" /> <path d="m6.34 17.66-1.41 1.41" /> <path d="m19.07 4.93-1.41 1.41" /></svg></span>
+        <span class="icone"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" /></svg></span>
+        <span class="knob"></span>
+      </button>
+    </div>
+  </div>
+</header>
 
 <!-- ===================== LOGIN / CADASTRO ===================== -->
 <main class="auth-pagina">
@@ -108,6 +119,11 @@
 <script src="../js/vendor/globe.gl.min.js"></script>
 <script src="../js/globo.js"></script>
 <script src="../js/inicial.js"></script>
+<script src="../js/icones.js"></script>
+<script src="../js/ambiente.js"></script>
+<script src="../js/celestial.js"></script>
+<script src="../js/efeitos.js"></script>
+<script src="../js/transicoes.js"></script>
 <script src="../js/config.js"></script>
 <script src="../js/auth.js"></script>
 </body>

@@ -1,7 +1,7 @@
 const estatisticasServico = require("../servicos/estatisticasServico");
 
-function listar(_req, res) {
-  res.status(200).json(estatisticasServico.listar());
+function listar(req, res) {
+  res.status(200).json(estatisticasServico.listar(req.usuarioId));
 }
 
 module.exports = { listar };

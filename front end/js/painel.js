@@ -82,6 +82,8 @@
     campoData.value = hojeISO();
     campoData.max = hojeISO();
 
+    if (window.Interativo) window.Interativo.ativarTiltGlow(".painel-card");
+
     function mostrarMensagem(texto, tipo) {
       mensagem.textContent = texto;
       mensagem.classList.remove("erro", "sucesso");
@@ -90,9 +92,9 @@
 
     async function carregarMeios() {
       const meios = await chamarApi("/meios-transporte", { headers: CABECALHOS });
-      seletorMeio.innerHTML = meios
-        .map((m) => `<option value="${m.id}">${m.icone ? m.icone + " " : ""}${m.nome}</option>`)
-        .join("");
+      // <option> só aceita texto — o ícone (SVG) aparece na lista de
+      // registros abaixo, que é HTML de verdade.
+      seletorMeio.innerHTML = meios.map((m) => `<option value="${m.id}">${m.nome}</option>`).join("");
     }
 
     async function carregarResumo() {
@@ -107,12 +109,21 @@
       configCards.forEach(({ card, atual, anterior }) => {
         const el = document.querySelector(`.painel-card[data-card="${card}"]`);
         if (!el) return;
-        el.querySelector("strong").textContent = fmtKg(atual);
+        const numero = el.querySelector("strong");
+        if (window.Interativo) window.Interativo.animarNumero(numero, fmtKg(atual));
+        else numero.textContent = fmtKg(atual);
         const delta = calcularDelta(atual, anterior);
         const deltaEl = el.querySelector(".painel-delta");
         deltaEl.textContent = delta.texto;
         deltaEl.className = `painel-delta ${delta.classe}`;
       });
+    }
+
+    async function carregarGrafico() {
+      const container = document.getElementById("painel-grafico");
+      if (!container || !window.Grafico) return;
+      const serie = await chamarApi("/habitos/serie", { headers: CABECALHOS });
+      window.Grafico.desenhar(container, serie);
     }
 
     async function carregarLista() {
@@ -126,7 +137,7 @@
           (r) => `
         <div class="painel-item" data-id="${r.id}">
           <div class="painel-item-info">
-            <span class="painel-item-icone">${(r.meio && r.meio.icone) || "🚗"}</span>
+            <span class="painel-item-icone">${window.Icones.icone((r.meio && r.meio.icone) || "carro")}</span>
             <div class="painel-item-detalhes">
               <strong>${(r.meio && r.meio.nome) || "Meio removido"}</strong>
               <span>${fmtDataBR(r.data)} · ${r.distanciaKm.toString().replace(".", ",")} km${r.observacao ? " · " + r.observacao : ""}</span>
@@ -142,7 +153,7 @@
     }
 
     async function atualizarTudo() {
-      await Promise.all([carregarResumo(), carregarLista()]);
+      await Promise.all([carregarResumo(), carregarLista(), carregarGrafico()]);
     }
 
     lista.addEventListener("click", async (e) => {

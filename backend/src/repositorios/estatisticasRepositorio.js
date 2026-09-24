@@ -1,6 +1,7 @@
 const { ler } = require("./armazenamentoJson");
 
 const ARQUIVO = "estatisticas.json";
+const ARQUIVO_PAISES = "emissoesPaises.json";
 
 // ---------------------------------------------------------------------
 // DESENHO DE TABELA (para quando entrar um banco de verdade):
@@ -18,9 +19,17 @@ const ARQUIVO = "estatisticas.json";
 // vez de só ler o arquivo — o resto do backend não muda.
 // ---------------------------------------------------------------------
 
-// SELECT * FROM estatisticas
+// SELECT * FROM estatisticas — usado só como último fallback, se o cálculo
+// dinâmico (estatisticasServico) falhar por algum motivo.
 function listar() {
   return ler(ARQUIVO);
 }
 
-module.exports = { listar };
+// Mesmos dados de país/CO₂ usados pelo globo (front end/data/emissoes.json),
+// copiados aqui para o backend poder calcular médias/ranking. Objeto
+// chaveado por ISO_A3 — ex.: { "BRA": { nome, tonYear, kgWeek, ... }, ... }.
+function listarPaises() {
+  return ler(ARQUIVO_PAISES);
+}
+
+module.exports = { listar, listarPaises };

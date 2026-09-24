@@ -18,4 +18,8 @@ function resumo(req, res) {
   res.status(200).json(habitosServico.resumo(req.usuarioId));
 }
 
-module.exports = { criar, listar, remover, resumo };
+function serie(req, res) {
+  res.status(200).json(habitosServico.serieDiaria(req.usuarioId, 14));
+}
+
+module.exports = { criar, listar, remover, resumo, serie };

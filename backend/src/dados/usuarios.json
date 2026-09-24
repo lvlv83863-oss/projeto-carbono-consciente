@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id": "4fe551a6-b2be-46b6-95e8-ffef4c991b2d",
+    "nome": "teste",
+    "email": "teste@gmail.com",
+    "senhaHash": "$2a$10$NZRlFWqhjwUwsn/sNCkc2eysgkhvtsee5W7YI1jz2XEGrVLv07K52",
+    "provedor": "local",
+    "googleId": null,
+    "criadoEm": "2026-09-23T17:48:33.188Z"
+  }
+]

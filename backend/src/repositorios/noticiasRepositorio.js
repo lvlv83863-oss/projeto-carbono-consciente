@@ -8,17 +8,19 @@ const ARQUIVO = "noticias.json";
 //   CREATE TABLE noticias (
 //     id            VARCHAR PRIMARY KEY,
 //     categoria     VARCHAR NOT NULL,
-//     emoji         VARCHAR NOT NULL,
+//     icone         VARCHAR NOT NULL,   -- chave semântica (ex.: "globo") — o front escolhe o SVG
 //     cor_classe    VARCHAR NOT NULL,   -- classe CSS já usada no front (bg-clima, bg-energia, ...)
-//     texto         TEXT NOT NULL,
-//     data          DATE NOT NULL,
-//     link_externo  VARCHAR NULL        -- para quando existir página de artigo completo
+//     titulo        TEXT NOT NULL,
+//     fonte         VARCHAR NULL,       -- nome do veículo/fonte da notícia
+//     data          DATETIME NOT NULL,
+//     link_externo  VARCHAR NULL        -- matéria original, aberta em nova aba
 //   );
 //
-// Somente leitura por enquanto — não há tela de administração no front
-// para criar/editar notícias, então o repositório só expõe consultas.
-// Quando essa tela existir, acrescentar aqui "criar"/"atualizar"/"remover"
-// seguindo o mesmo padrão do usuariosRepositorio.
+// Este arquivo é só o FALLBACK: a fonte principal de notícias é o RSS real
+// buscado em backend/src/servicos/noticiasFonteServico.js — este JSON só é
+// usado se aquela busca externa falhar, pra seção nunca ficar vazia.
+// Somente leitura — não há tela de administração no front para criar/editar
+// notícias.
 // ---------------------------------------------------------------------
 
 // SELECT * FROM noticias ORDER BY data DESC
