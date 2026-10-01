@@ -1,25 +1,26 @@
-const { ler } = require("./armazenamentoJson");
+const { pool } = require("../config/bancoDados");
 
-const ARQUIVO = "meiosTransporte.json";
+// Tabela "meios_transporte" de backend/sql/schema.sql.
+// Somente leitura: os 8 meios são fixos (INSERT do schema.sql).
 
-// ---------------------------------------------------------------------
-// Equivalente à tabela "meios_transporte" de backend/sql/schema.sql
-// (ainda não aplicado em banco nenhum — ver README). Campos aqui usam
-// nomes em camelCase (id, nome, fatorEmissao, icone) que mapeiam 1:1
-// para id_meio/nome/fator_emissao/icone quando a migração acontecer.
-//
-// Somente leitura: não há tela para cadastrar novos meios de
-// transporte, são fixos (mesmos 8 do INSERT do schema.sql).
-// ---------------------------------------------------------------------
-
-// SELECT * FROM meios_transporte ORDER BY id_meio
-function listar() {
-  return ler(ARQUIVO);
+function paraMeio(linha) {
+  if (!linha) return null;
+  return {
+    id: linha.id_meio,
+    nome: linha.nome,
+    fatorEmissao: Number(linha.fator_emissao), // DECIMAL volta como texto
+    icone: linha.icone,
+  };
 }
 
-// SELECT * FROM meios_transporte WHERE id_meio = ? LIMIT 1
-function buscarPorId(id) {
-  return listar().find((m) => m.id === Number(id)) || null;
+async function listar() {
+  const [linhas] = await pool.query("SELECT * FROM meios_transporte ORDER BY id_meio");
+  return linhas.map(paraMeio);
+}
+
+async function buscarPorId(id) {
+  const [linhas] = await pool.query("SELECT * FROM meios_transporte WHERE id_meio = ? LIMIT 1", [Number(id)]);
+  return paraMeio(linhas[0]);
 }
 
 module.exports = { listar, buscarPorId };

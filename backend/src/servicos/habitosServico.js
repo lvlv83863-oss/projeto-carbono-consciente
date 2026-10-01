@@ -25,14 +25,14 @@ function inicioDaSemana(data) {
   return somarDias(data, -deslocamento);
 }
 
-function combinarMeio(habito) {
-  const meio = meiosTransporteRepositorio.buscarPorId(habito.idMeio);
+async function combinarMeio(habito) {
+  const meio = await meiosTransporteRepositorio.buscarPorId(habito.idMeio);
   return { ...habito, meio: meio ? { id: meio.id, nome: meio.nome, icone: meio.icone } : null };
 }
 
 /* ---------- regras de negócio ---------- */
 
-function criar(idUsuario, { idMeio, data, distanciaKm, observacao }) {
+async function criar(idUsuario, { idMeio, data, distanciaKm, observacao }) {
   if (!idMeio || !data || distanciaKm === undefined || distanciaKm === null || distanciaKm === "") {
     throw new ErroApi(400, "Preencha o meio de transporte, a data e a distância.");
   }
@@ -43,7 +43,7 @@ function criar(idUsuario, { idMeio, data, distanciaKm, observacao }) {
   if (Number.isNaN(distancia) || distancia < 0) {
     throw new ErroApi(400, "A distância precisa ser um número maior ou igual a zero.");
   }
-  const meio = meiosTransporteRepositorio.buscarPorId(idMeio);
+  const meio = await meiosTransporteRepositorio.buscarPorId(idMeio);
   if (!meio) {
     throw new ErroApi(404, "Meio de transporte não encontrado.");
   }
@@ -52,7 +52,7 @@ function criar(idUsuario, { idMeio, data, distanciaKm, observacao }) {
   // co2_emitido_kg = distancia_km * fator_emissao.
   const co2 = Math.round(distancia * meio.fatorEmissao * 1000) / 1000;
 
-  const registro = habitosRepositorio.criar({
+  const registro = await habitosRepositorio.criar({
     idUsuario,
     idMeio: meio.id,
     data,
@@ -65,12 +65,13 @@ function criar(idUsuario, { idMeio, data, distanciaKm, observacao }) {
   return combinarMeio(registro);
 }
 
-function listarPorUsuario(idUsuario) {
-  return habitosRepositorio.listarPorUsuario(idUsuario).map(combinarMeio);
+async function listarPorUsuario(idUsuario) {
+  const habitos = await habitosRepositorio.listarPorUsuario(idUsuario);
+  return Promise.all(habitos.map(combinarMeio));
 }
 
-function remover(id, idUsuario) {
-  const removido = habitosRepositorio.remover(id, idUsuario);
+async function remover(id, idUsuario) {
+  const removido = await habitosRepositorio.remover(id, idUsuario);
   if (!removido) throw new ErroApi(404, "Registro não encontrado.");
 }
 
@@ -83,8 +84,8 @@ function somarNoIntervalo(registros, inicioIso, fimIso) {
 
 // Mesmo espírito da view vw_emissoes_diarias em backend/sql/schema.sql,
 // já agregado nos períodos usados pelos cards do painel.
-function resumo(idUsuario) {
-  const registros = habitosRepositorio.listarPorUsuario(idUsuario);
+async function resumo(idUsuario) {
+  const registros = await habitosRepositorio.listarPorUsuario(idUsuario);
   const hoje = new Date();
 
   const isoHoje = paraIso(hoje);
@@ -110,8 +111,8 @@ function resumo(idUsuario) {
 
 // Série diária dos últimos `dias` (incluindo hoje), com 0 nos dias sem
 // registro — usada pelo gráfico de evolução do painel.
-function serieDiaria(idUsuario, dias = 14) {
-  const registros = habitosRepositorio.listarPorUsuario(idUsuario);
+async function serieDiaria(idUsuario, dias = 14) {
+  const registros = await habitosRepositorio.listarPorUsuario(idUsuario);
   const porDia = {};
   registros.forEach((h) => {
     porDia[h.data] = (porDia[h.data] || 0) + h.co2;

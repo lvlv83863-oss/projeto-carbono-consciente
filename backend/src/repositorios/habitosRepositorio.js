@@ -1,51 +1,50 @@
-const { ler, salvar } = require("./armazenamentoJson");
+const { pool } = require("../config/bancoDados");
 
-const ARQUIVO = "habitos.json";
+// Tabela "habitos" de backend/sql/schema.sql.
 
-// ---------------------------------------------------------------------
-// Equivalente à tabela "habitos" de backend/sql/schema.sql (ainda não
-// aplicado em banco nenhum — ver README). Campos em camelCase aqui
-// mapeiam para id_habito/id_usuario/id_meio/data_registro/distancia_km/
-// co2_emitido_kg/observacao/criado_em quando a migração acontecer.
-// ---------------------------------------------------------------------
-
-function listar() {
-  return ler(ARQUIVO);
+function paraHabito(linha) {
+  if (!linha) return null;
+  return {
+    id: linha.id_habito,
+    idUsuario: linha.id_usuario,
+    idMeio: linha.id_meio,
+    data: linha.data_registro, // "AAAA-MM-DD" (dateStrings)
+    distanciaKm: Number(linha.distancia_km),
+    co2: Number(linha.co2_emitido_kg),
+    observacao: linha.observacao,
+    criadoEm: linha.criado_em,
+  };
 }
 
-function proximoId(habitos) {
-  return habitos.reduce((maior, h) => Math.max(maior, h.id), 0) + 1;
+async function listarPorUsuario(idUsuario) {
+  const [linhas] = await pool.query(
+    "SELECT * FROM habitos WHERE id_usuario = ? ORDER BY data_registro DESC, id_habito DESC",
+    [idUsuario]
+  );
+  return linhas.map(paraHabito);
 }
 
-// SELECT * FROM habitos WHERE id_usuario = ? ORDER BY data_registro DESC, id_habito DESC
-function listarPorUsuario(idUsuario) {
-  return listar()
-    .filter((h) => h.idUsuario === idUsuario)
-    .sort((a, b) => b.data.localeCompare(a.data) || b.id - a.id);
+async function buscarPorId(id) {
+  const [linhas] = await pool.query("SELECT * FROM habitos WHERE id_habito = ? LIMIT 1", [Number(id)]);
+  return paraHabito(linhas[0]);
 }
 
-// SELECT * FROM habitos WHERE id_habito = ? LIMIT 1
-function buscarPorId(id) {
-  return listar().find((h) => h.id === Number(id)) || null;
+async function criar({ idUsuario, idMeio, data, distanciaKm, co2, observacao }) {
+  const [resultado] = await pool.query(
+    `INSERT INTO habitos (id_usuario, id_meio, data_registro, distancia_km, co2_emitido_kg, observacao)
+     VALUES (?, ?, ?, ?, ?, ?)`,
+    [idUsuario, idMeio, data, distanciaKm, co2, observacao]
+  );
+  return buscarPorId(resultado.insertId);
 }
 
-// INSERT INTO habitos (...) VALUES (...)
-function criar(habito) {
-  const habitos = listar();
-  const registro = { id: proximoId(habitos), ...habito };
-  habitos.push(registro);
-  salvar(ARQUIVO, habitos);
-  return registro;
+// Só remove se o registro for do próprio usuário. Devolve true/false.
+async function remover(id, idUsuario) {
+  const [resultado] = await pool.query(
+    "DELETE FROM habitos WHERE id_habito = ? AND id_usuario = ?",
+    [Number(id), idUsuario]
+  );
+  return resultado.affectedRows > 0;
 }
 
-// DELETE FROM habitos WHERE id_habito = ? AND id_usuario = ?
-function remover(id, idUsuario) {
-  const habitos = listar();
-  const index = habitos.findIndex((h) => h.id === Number(id) && h.idUsuario === idUsuario);
-  if (index === -1) return false;
-  habitos.splice(index, 1);
-  salvar(ARQUIVO, habitos);
-  return true;
-}
-
-module.exports = { listar, listarPorUsuario, buscarPorId, criar, remover };
+module.exports = { listarPorUsuario, buscarPorId, criar, remover };

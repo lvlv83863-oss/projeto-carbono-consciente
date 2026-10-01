@@ -13,39 +13,42 @@ npm start
 
 O servidor sobe em `http://localhost:4321` (ou na porta definida em `PORTA` no `.env`) — a porta padrão foi escolhida para não colidir com portas comumente ocupadas por outras ferramentas (VS Code, Live Server/Live Preview em 3000/3001/5500, etc.). O front-end estático (`front end/`) aponta para essa URL através de `front end/js/config.js`. Se `4321` também estiver ocupada na sua máquina, veja o que está usando a porta (`ss -ltnp | grep 4321` no Linux) e troque `PORTA` no `.env` — lembrando de atualizar `front end/js/config.js` para o mesmo número.
 
-## Persistência atual: arquivos JSON (não é um banco de dados)
+## Banco de dados: MySQL (porta 3307)
 
-Por decisão explícita deste momento do projeto, **não há banco de dados** — os "dados" moram em arquivos JSON dentro de `src/dados/` (`usuarios.json`, `noticias.json`, `estatisticas.json`, `meiosTransporte.json`, `habitos.json`), lidos e escritos por `src/repositorios/armazenamentoJson.js`.
+`usuarios`, `meios_transporte` e `habitos` ficam no MySQL, usando o schema de `sql/schema.sql`. No nosso ambiente o MySQL roda num container Docker com a porta **3307** do PC mapeada para a 3306 do container (`-p 3307:3306`).
 
-Já existe um **schema MySQL pronto** em `backend/sql/schema.sql`, cobrindo `usuarios`, `meios_transporte` e `habitos` — mas ele **não foi aplicado em nenhum banco ainda**, por decisão do usuário (isso fica para o momento do deploy). Até lá, essas três entidades continuam rodando nos arquivos JSON descritos acima, seguindo exatamente o mesmo desenho de tabela do `schema.sql`.
-
-Isso foi estruturado de propósito para que plugar um banco de verdade no futuro seja uma troca localizada, e não uma reescrita do backend:
+Configuração (arquivo `.env`, copiado de `.env.example`):
 
 ```
-rotas/  →  controladores/  →  servicos/  →  repositorios/  →  (hoje: JSON | futuro: banco real)
+DB_HOST=127.0.0.1
+DB_PORTA=3307
+DB_USUARIO=root
+DB_SENHA=root123
+DB_NOME=carbono_consciente
 ```
 
-- `rotas/`, `controladores/` e `servicos/` **não sabem** que os dados estão em JSON — só chamam funções como `usuariosRepositorio.buscarPorEmail(email)` ou `noticiasRepositorio.listar()`.
-- Cada arquivo em `src/repositorios/` (`usuariosRepositorio.js`, `noticiasRepositorio.js`, `estatisticasRepositorio.js`) é comentado com o **desenho de tabela equivalente** (`CREATE TABLE ...`) e, função por função, o **SQL equivalente** (`-- SELECT * FROM usuarios WHERE email = ?`). Isso existe justamente para uma pessoa (ou uma IA) que for integrar um banco de verdade não precisar re-inferir o modelo de dados — é só seguir o comentário.
+Primeira vez (ou depois de recriar o container):
 
-### Passo a passo para migrar para um banco real
+```bash
+cd backend
+npm install
+copy .env.example .env      # Windows (no Linux/Mac: cp)
+npm run db:setup            # cria o banco, as tabelas, o trigger e os 8 meios de transporte
+npm start
+```
 
-Para `usuarios`, `meios_transporte` e `habitos`, o schema já existe pronto em `backend/sql/schema.sql` (MySQL) — é só aplicar:
+`npm run db:setup` pode ser repetido sem problema. Ao iniciar, o servidor imprime `Banco de dados conectado em ...` ou o motivo da falha. Se o banco estiver fora do ar, as rotas que dependem dele respondem `503`.
 
-1. Rodar `backend/sql/schema.sql` num servidor MySQL (`mysql < backend/sql/schema.sql`), com um usuário dedicado (não root) com permissão só no banco `carbono_consciente`.
-2. Instalar um driver (`npm install mysql2`) e criar um pool de conexão (ex.: `src/config/bancoDados.js`), lendo host/usuário/senha/banco de variáveis de ambiente novas (`DB_HOST`, `DB_USUARIO`, `DB_SENHA`, `DB_NOME`).
-3. Reescrever **só o corpo** das funções exportadas por `usuariosRepositorio.js`, `meiosTransporteRepositorio.js` e `habitosRepositorio.js` para usar SQL em vez de `armazenamentoJson`. As assinaturas (nome da função, parâmetros, o que retornam) devem continuar iguais — é isso que mantém `servicos/`, `controladores/` e `rotas/` intocados. O comentário no topo de cada repositório já mostra o SQL equivalente de cada função.
-4. Ajustar `autenticacaoServico.js`: o `id` do usuário passa a ser o `id_usuario` inteiro (`AUTO_INCREMENT`) do banco em vez do `uuid()` gerado hoje — o token JWT e o resto do backend não precisam de mais nenhuma mudança além dessa.
-5. Migrar o conteúdo atual de `src/dados/usuarios.json`, `meiosTransporte.json` e `habitos.json` para as tabelas novas (os arquivos já estão praticamente no formato esperado — só o `id` de usuário muda de uuid para inteiro).
-6. `noticias` e `estatisticas` não têm schema SQL neste momento — se um dia precisarem de banco, seguem o mesmo processo, criando a tabela e reescrevendo só o repositório correspondente.
-7. Depois que tudo estiver validado, `src/repositorios/armazenamentoJson.js` e os arquivos JSON migrados podem ser removidos.
+A estrutura em camadas continua a mesma — `rotas → controladores → servicos → repositorios → banco`. Só os repositórios (`src/repositorios/`) falam SQL, usando o pool de `src/config/bancoDados.js`.
+
+`noticias`, `curiosidades` e os dados de países do globo continuam em arquivos JSON/RSS (`src/dados/`); `usuarios.json` e `habitos.json` não são mais usados.
 
 ## Modelo de dados
 
 ### `usuarios`
 | campo | tipo | observação |
 |---|---|---|
-| id | uuid | chave primária |
+| id | número | `id_usuario` (AUTO_INCREMENT) |
 | nome | string | |
 | email | string | único |
 | senhaHash | string | bcrypt, nunca devolvido pela API |
@@ -101,7 +104,7 @@ Somente leitura, semeado com os mesmos 8 meios do `INSERT` em `backend/sql/schem
 | campo | tipo | observação |
 |---|---|---|
 | id | número | equivalente a `id_habito` |
-| idUsuario | string (uuid) | dono do registro — vira `id_usuario` inteiro quando migrar pro MySQL |
+| idUsuario | número | dono do registro (`id_usuario`) |
 | idMeio | número | referência a `meios_transporte.id` |
 | data | data ISO (`AAAA-MM-DD`) | data do deslocamento |
 | distanciaKm | número | |

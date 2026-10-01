@@ -1,7 +1,8 @@
 const meiosTransporteServico = require("../servicos/meiosTransporteServico");
+const assincrono = require("../utilitarios/assincrono");
 
-function listar(_req, res) {
-  res.status(200).json(meiosTransporteServico.listar());
-}
+const listar = assincrono(async (_req, res) => {
+  res.status(200).json(await meiosTransporteServico.listar());
+});
 
 module.exports = { listar };

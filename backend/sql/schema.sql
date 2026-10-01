@@ -1,13 +1,12 @@
+-- Active: 1790893748109@@127.0.0.1@3307@carbono_consciente
 -- =====================================================================
 -- Banco de Dados: Carbono Consciente
 -- Descrição: Estrutura para cadastro de usuários e registro de hábitos
 --            de deslocamento com cálculo de pegada de carbono (CO2)
 --
--- ATENÇÃO: este arquivo ainda NÃO foi aplicado em nenhum banco — está
--- pronto para o momento do deploy. Até lá, o backend roda com os
--- equivalentes destas tabelas em arquivos JSON (veja backend/src/dados/
--- e backend/README.md, seção "Hábitos e meios de transporte" /
--- "Migração futura para banco de dados").
+-- Este arquivo pode ser executado várias vezes sem erro (usa IF NOT EXISTS,
+-- INSERT IGNORE e DROP TRIGGER IF EXISTS). Para aplicá-lo pelo terminal:
+--     cd backend && npm run db:setup
 --
 -- Adaptado a partir do arquivo original "base_banco.txt" — a tabela
 -- "usuarios" foi simplificada: os campos cpf, telefone e idade foram
@@ -51,7 +50,7 @@ CREATE TABLE IF NOT EXISTS meios_transporte (
 ) ENGINE=InnoDB;
 
 -- Dados iniciais (exemplos de fatores de emissão médios)
-INSERT INTO meios_transporte (nome, fator_emissao, icone) VALUES
+INSERT IGNORE INTO meios_transporte (nome, fator_emissao, icone) VALUES
     ('Carro (gasolina)', 0.1920, '🚗'),
     ('Carro (etanol)',   0.1500, '🚗'),
     ('Carro (elétrico)', 0.0500, '🚗'),
@@ -84,12 +83,12 @@ CREATE TABLE IF NOT EXISTS habitos (
         FOREIGN KEY (id_meio) REFERENCES meios_transporte(id_meio)
         ON DELETE RESTRICT,
 
-    CONSTRAINT chk_distancia_positiva CHECK (distancia_km >= 0)
-) ENGINE=InnoDB;
+    CONSTRAINT chk_distancia_positiva CHECK (distancia_km >= 0),
 
--- Índices para acelerar as consultas usadas nos cards
--- (hoje vs ontem, semana vs anterior, mês vs anterior)
-CREATE INDEX idx_habitos_usuario_data ON habitos (id_usuario, data_registro);
+    -- Índice para acelerar as consultas usadas nos cards
+    -- (hoje vs ontem, semana vs anterior, mês vs anterior)
+    INDEX idx_habitos_usuario_data (id_usuario, data_registro)
+) ENGINE=InnoDB;
 
 -- ---------------------------------------------------------------------
 -- Trigger: calcula automaticamente o CO2 emitido ao inserir um hábito
@@ -101,6 +100,8 @@ CREATE INDEX idx_habitos_usuario_data ON habitos (id_usuario, data_registro);
 -- resultado é o mesmo) ou ser simplificado para confiar só no banco.
 -- ---------------------------------------------------------------------
 DELIMITER $$
+
+DROP TRIGGER IF EXISTS trg_habitos_calcula_co2$$
 
 CREATE TRIGGER trg_habitos_calcula_co2
 BEFORE INSERT ON habitos

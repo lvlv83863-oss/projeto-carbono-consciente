@@ -1,22 +1,23 @@
 const autenticacaoServico = require("../servicos/autenticacaoServico");
 const ErroApi = require("../utilitarios/erroApi");
+const assincrono = require("../utilitarios/assincrono");
 
-function registrar(req, res) {
+const registrar = assincrono(async (req, res) => {
   const { nome, email, senha, confirmar } = req.body || {};
-  const resultado = autenticacaoServico.registrar({ nome, email, senha, confirmarSenha: confirmar });
+  const resultado = await autenticacaoServico.registrar({ nome, email, senha, confirmarSenha: confirmar });
   res.status(201).json(resultado);
-}
+});
 
-function login(req, res) {
+const login = assincrono(async (req, res) => {
   const { email, senha } = req.body || {};
-  const resultado = autenticacaoServico.autenticar({ email, senha });
+  const resultado = await autenticacaoServico.autenticar({ email, senha });
   res.status(200).json(resultado);
-}
+});
 
-function me(req, res) {
-  const usuario = autenticacaoServico.buscarUsuarioAutenticado(req.usuarioId);
+const me = assincrono(async (req, res) => {
+  const usuario = await autenticacaoServico.buscarUsuarioAutenticado(req.usuarioId);
   res.status(200).json(usuario);
-}
+});
 
 // Estruturado propositalmente, mas não implementado: login com Google exige
 // credenciais OAuth (Client ID/Secret) criadas pelo dono do projeto no

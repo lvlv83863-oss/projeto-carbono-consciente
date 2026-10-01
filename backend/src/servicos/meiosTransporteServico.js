@@ -1,6 +1,6 @@
 const meiosTransporteRepositorio = require("../repositorios/meiosTransporteRepositorio");
 
-function listar() {
+async function listar() {
   return meiosTransporteRepositorio.listar();
 }
 

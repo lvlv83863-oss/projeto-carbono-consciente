@@ -1,25 +1,26 @@
 const habitosServico = require("../servicos/habitosServico");
+const assincrono = require("../utilitarios/assincrono");
 
-function criar(req, res) {
-  const registro = habitosServico.criar(req.usuarioId, req.body || {});
+const criar = assincrono(async (req, res) => {
+  const registro = await habitosServico.criar(req.usuarioId, req.body || {});
   res.status(201).json(registro);
-}
+});
 
-function listar(req, res) {
-  res.status(200).json(habitosServico.listarPorUsuario(req.usuarioId));
-}
+const listar = assincrono(async (req, res) => {
+  res.status(200).json(await habitosServico.listarPorUsuario(req.usuarioId));
+});
 
-function remover(req, res) {
-  habitosServico.remover(req.params.id, req.usuarioId);
+const remover = assincrono(async (req, res) => {
+  await habitosServico.remover(req.params.id, req.usuarioId);
   res.status(204).send();
-}
+});
 
-function resumo(req, res) {
-  res.status(200).json(habitosServico.resumo(req.usuarioId));
-}
+const resumo = assincrono(async (req, res) => {
+  res.status(200).json(await habitosServico.resumo(req.usuarioId));
+});
 
-function serie(req, res) {
-  res.status(200).json(habitosServico.serieDiaria(req.usuarioId, 14));
-}
+const serie = assincrono(async (req, res) => {
+  res.status(200).json(await habitosServico.serieDiaria(req.usuarioId, 14));
+});
 
 module.exports = { criar, listar, remover, resumo, serie };

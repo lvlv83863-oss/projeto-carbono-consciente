@@ -1,46 +1,41 @@
-const { ler, salvar } = require("./armazenamentoJson");
+const { pool } = require("../config/bancoDados");
 
-const ARQUIVO = "usuarios.json";
+// Tabela "usuarios" de backend/sql/schema.sql. O banco usa snake_case
+// (id_usuario, senha_hash, criado_em); aqui convertemos para o formato que
+// o restante do backend já usa (id, senhaHash, criadoEm).
+// "provedor" e "googleId" não existem no schema — o login com Google ainda
+// não está implementado, então todo usuário é "local".
 
-// ---------------------------------------------------------------------
-// DESENHO DE TABELA (para quando entrar um banco de verdade):
-//
-//   CREATE TABLE usuarios (
-//     id          UUID PRIMARY KEY,
-//     nome        VARCHAR NOT NULL,
-//     email       VARCHAR NOT NULL UNIQUE,
-//     senha_hash  VARCHAR NOT NULL,
-//     provedor    VARCHAR NOT NULL DEFAULT 'local',   -- 'local' | 'google'
-//     google_id   VARCHAR NULL,
-//     criado_em   TIMESTAMP NOT NULL
-//   );
-//
-// Cada função abaixo já está nomeada e assinada do jeito que uma consulta
-// SQL/ORM equivalente ficaria — ao trocar por um banco real, só o corpo de
-// cada função muda (ex.: "listar" vira "SELECT * FROM usuarios"), a
-// assinatura e quem chama continuam iguais.
-// ---------------------------------------------------------------------
-
-function listar() {
-  return ler(ARQUIVO);
+function paraUsuario(linha) {
+  if (!linha) return null;
+  return {
+    id: linha.id_usuario,
+    nome: linha.nome,
+    email: linha.email,
+    senhaHash: linha.senha_hash,
+    provedor: "local",
+    googleId: null,
+    criadoEm: linha.criado_em,
+  };
 }
 
-// SELECT * FROM usuarios WHERE email = ? LIMIT 1
-function buscarPorEmail(email) {
-  return listar().find((u) => u.email.toLowerCase() === email.toLowerCase()) || null;
+async function buscarPorEmail(email) {
+  const [linhas] = await pool.query("SELECT * FROM usuarios WHERE email = ? LIMIT 1", [email]);
+  return paraUsuario(linhas[0]);
 }
 
-// SELECT * FROM usuarios WHERE id = ? LIMIT 1
-function buscarPorId(id) {
-  return listar().find((u) => u.id === id) || null;
+async function buscarPorId(id) {
+  const [linhas] = await pool.query("SELECT * FROM usuarios WHERE id_usuario = ? LIMIT 1", [id]);
+  return paraUsuario(linhas[0]);
 }
 
-// INSERT INTO usuarios (...) VALUES (...)
-function criar(usuario) {
-  const usuarios = listar();
-  usuarios.push(usuario);
-  salvar(ARQUIVO, usuarios);
-  return usuario;
+// Devolve o usuário criado, já com o id gerado pelo AUTO_INCREMENT.
+async function criar({ nome, email, senhaHash }) {
+  const [resultado] = await pool.query(
+    "INSERT INTO usuarios (nome, email, senha_hash) VALUES (?, ?, ?)",
+    [nome, email, senhaHash]
+  );
+  return buscarPorId(resultado.insertId);
 }
 
-module.exports = { listar, buscarPorEmail, buscarPorId, criar };
+module.exports = { buscarPorEmail, buscarPorId, criar };

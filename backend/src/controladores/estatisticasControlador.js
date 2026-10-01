@@ -1,7 +1,8 @@
 const estatisticasServico = require("../servicos/estatisticasServico");
+const assincrono = require("../utilitarios/assincrono");
 
-function listar(req, res) {
-  res.status(200).json(estatisticasServico.listar(req.usuarioId));
-}
+const listar = assincrono(async (req, res) => {
+  res.status(200).json(await estatisticasServico.listar(req.usuarioId));
+});
 
 module.exports = { listar };

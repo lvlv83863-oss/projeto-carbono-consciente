@@ -38,10 +38,10 @@ function calcularGlobais() {
 }
 
 // Logado: combina os hábitos do próprio usuário com os dados dos países.
-function calcularPersonalizadas(idUsuario) {
+async function calcularPersonalizadas(idUsuario) {
   const paises = estatisticasRepositorio.listarPaises();
   const lista = Object.values(paises);
-  const resumo = habitosServico.resumo(idUsuario);
+  const resumo = await habitosServico.resumo(idUsuario);
   const seuCo2Semana = resumo.semanaAtual.totalCo2;
 
   const mediaSemanalPaises = lista.length ? lista.reduce((soma, p) => soma + p.kgWeek, 0) / lista.length : 0;
@@ -75,9 +75,9 @@ function calcularPersonalizadas(idUsuario) {
   return { itens, saudePlanta };
 }
 
-function listar(idUsuario) {
+async function listar(idUsuario) {
   if (idUsuario) {
-    const { itens, saudePlanta } = calcularPersonalizadas(idUsuario);
+    const { itens, saudePlanta } = await calcularPersonalizadas(idUsuario);
     return { logado: true, itens, saudePlanta };
   }
   return { logado: false, itens: calcularGlobais() };
