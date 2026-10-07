@@ -18,6 +18,7 @@ ul { list-style: none; }
 
 button { font-family: inherit; cursor: pointer; border: none; background: none; }
 
+
 /* ---------- TOKENS DE TEMA ---------- */
 :root{
   /* Tema claro (referência: arquivo 9) */
@@ -56,7 +57,7 @@ html[data-theme="escuro"]{
   --cor-stats-bg: #1c0733;
   --cor-fundo: #0c0414;
   --cor-fundo-alt: #150726;
-  --cor-superficie: #1a0a2c;
+  --cor-superficie: #a571e0;
   --cor-card-escuro-1: #2c1049;
   --cor-card-escuro-2: #1c0730;
   --cor-curiosidades-bg: #1c0733;
@@ -696,100 +697,260 @@ html[data-theme="escuro"] .globo-nuvem-parte{
   transform: translateX(0) scale(1);
 }
 
-/* ---- Planta animada, reflete a saúde dos hábitos do usuário ---- */
+/* =========================================================
+   arvore.css — carregue DEPOIS de inicial.css
+   1) Árvore animada (seção "O que é Carbono Consciente?")
+   2) Cards de "Dicas Sustentáveis" em estilo ilustrado
+   ========================================================= */
+
+/* ---------- 1) ÁRVORE ---------- */
+/* Coluna da árvore: ocupa a altura do card do acordeão e fica mais à esquerda */
+.planta-coluna{ justify-content:flex-start; }
 .planta-cena{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 14px;
+  display:flex; flex-direction:column; align-items:center; gap:6px;
+  width:100%; margin-left:-7%;
+  cursor:pointer; -webkit-tap-highlight-color:transparent; border-radius:16px;
+}
+.planta-cena:focus-visible{ outline:3px solid rgba(255,255,255,.8); outline-offset:4px; }
+.planta-svg{ width:100%; max-width:540px; height:auto; overflow:visible; filter:none; transition:filter .4s ease, transform .4s ease; }
+.planta-cena:hover .planta-svg{ filter:drop-shadow(0 0 16px rgba(255,255,255,.35)); transform:scale(1.015); }
+.planta-cena:active .planta-svg{ transform:scale(.99); }
+
+/* Reinício instantâneo ao clicar na árvore (sem encolher devagar) */
+.resetando .tronco, .resetando .ramo, .resetando .folha,
+.resetando .flor-in, .resetando .planta-brilho{ transition:none !important; }
+
+.planta-dica{ font-size:.78rem; color:var(--cor-texto-claro,#fff); opacity:0; transition:opacity .8s ease; text-shadow:0 1px 6px rgba(0,0,0,.35); }
+.planta-viva .planta-dica{ opacity:.85; }
+
+@media (max-width:960px){
+  .planta-cena{ margin-left:0; }
+  .planta-svg{ max-width:400px; }
 }
 
-.planta-svg{
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  overflow: visible;
-  filter: drop-shadow(0 20px 26px rgba(0,0,0,0.25));
+.planta-brilho{ opacity:var(--brilho,0); transition:opacity 2s ease; }
+
+/* Terra e grama */
+.planta-terra{ fill:#4a3524; }
+.planta-terra-topo{ fill:#3b5d2e; transform-box:fill-box; transform-origin:50% 100%; }
+.grama{ stroke:#4c8a3f; stroke-width:2; stroke-linecap:round; fill:none; transform-box:fill-box; transform-origin:50% 100%; }
+.planta-viva .grama{ animation:gramaBalanca 3.4s ease-in-out infinite alternate; animation-delay:var(--d); }
+@keyframes gramaBalanca{ to{ transform:rotate(7deg); } }
+
+/* Semente cai girando; terra "pula" no impacto */
+.planta-semente{ fill:#6b4f2a; stroke:#8a6a3c; stroke-width:1; transform-box:fill-box; transform-origin:center; transform:none; transition:none; }
+.semente-caindo .planta-semente{ animation:cairSemente 1.05s cubic-bezier(.55,0,.85,.6) forwards; }
+@keyframes cairSemente{
+  0%{ transform:translate(0,0) rotate(0); opacity:1; }
+  35%{ transform:translate(6px,90px) rotate(160deg); }
+  70%{ transform:translate(-5px,190px) rotate(380deg); }
+  92%{ opacity:1; }
+  100%{ transform:translate(0,284px) rotate(540deg) scale(.7); opacity:0; }
+}
+.semente-caindo .planta-terra-topo{ animation:montinho .7s ease-out 1.05s; }
+@keyframes montinho{ 0%{transform:scale(1);} 35%{transform:scale(1.12,1.5);} 100%{transform:scale(1);} }
+
+/* Anel de energia no chão */
+.onda{ fill:none; stroke:#9bd47a; stroke-width:2; opacity:0; transform-box:fill-box; transform-origin:center; }
+.onda.pulsar{ animation:ondaChao 1.4s ease-out; }
+@keyframes ondaChao{ 0%{opacity:.9; transform:scale(.2);} 100%{opacity:0; transform:scale(2.8);} }
+
+/* Poeira, fagulhas e pétalas lançadas pelo JS */
+.fagulha{ transform-box:fill-box; transform-origin:center; animation:fagulha var(--t,.9s) cubic-bezier(.2,.7,.3,1) forwards; }
+@keyframes fagulha{
+  0%{ transform:translate(0,0) scale(.4) rotate(0); opacity:1; }
+  60%{ opacity:1; }
+  100%{ transform:translate(var(--dx),var(--dy)) scale(1.2) rotate(var(--rot,0deg)); opacity:0; }
 }
 
-.planta-vaso{ fill: #c96a3e; stroke: #9c4d29; stroke-width: 2; }
-.planta-terra{ fill: #4a3524; }
+/* Nuvem que rega a muda */
+.nuvem{ opacity:0; transform:translateY(-46px); transition:opacity .8s ease, transform 1s cubic-bezier(.3,1.3,.5,1); }
+.chovendo .nuvem{ opacity:1; transform:translateY(0); animation:nuvemMove 3s ease-in-out infinite alternate; }
+@keyframes nuvemMove{ to{ transform:translateX(10px); } }
+.gota{ stroke:#8fd0ff; stroke-width:1.6; stroke-linecap:round; opacity:0; }
+.chovendo .gota{ animation:gotaCai .9s linear infinite; animation-delay:var(--d); }
+@keyframes gotaCai{ 0%{opacity:0; transform:translateY(0);} 15%{opacity:.9;} 100%{opacity:0; transform:translateY(235px);} }
 
-.planta-corpo{
-  transform-origin: 110px 228px;
+/* Corpo balança depois de crescer */
+.planta-corpo{ transform-origin:160px 302px; }
+.planta-viva .planta-corpo{ animation:arvoreBalanca 6s ease-in-out infinite; }
+@keyframes arvoreBalanca{ 0%,100%{ transform:rotate(-.8deg);} 50%{ transform:rotate(.8deg);} }
+
+/* Tronco cresce de baixo para cima */
+.tronco{ fill:url(#grad-tronco); transform-box:view-box; transform-origin:160px 302px;
+  transform:scaleY(var(--tronco,0)); transition:transform 1.8s cubic-bezier(.25,1.2,.4,1); }
+
+/* Galhos se desenham sozinhos */
+.ramo{ fill:none; stroke:#5b3f27; stroke-linecap:round; stroke-dasharray:1; stroke-dashoffset:1; transition:stroke-dashoffset 1.2s ease; }
+.ramo.on{ stroke-dashoffset:0; transition-delay:1s; }
+
+/* Folhas (copas geradas por JS) */
+.copa{ transform-box:fill-box; transform-origin:50% 100%; }
+.planta-viva .copa{ animation:copaBalanca 5.5s ease-in-out infinite alternate; animation-delay:var(--d); }
+@keyframes copaBalanca{ to{ transform:rotate(2.4deg); } }
+.folha{ transform:rotate(var(--r)) scale(0); transform-origin:0 0; opacity:0;
+  transition:transform .8s cubic-bezier(.34,1.56,.64,1), opacity .5s ease, fill 1.2s ease; }
+.copa.on .folha{ opacity:1;
+  transform:rotate(calc(var(--r) + var(--planta-droop,0deg))) scale(calc(var(--s) * var(--planta-escala,1)));
+  transition-delay:calc(var(--d) + 1.5s); }
+.copa[data-emax].on .folha{ transition-delay:var(--d); }
+.copa.off .folha{ transform:rotate(var(--r)) scale(0); opacity:0; transition-delay:0s; }
+.t0{ fill:var(--planta-cor,#8d6e3f); }
+.t1{ fill:color-mix(in srgb, var(--planta-cor,#8d6e3f) 76%, #0b2a10); }
+.t2{ fill:color-mix(in srgb, var(--planta-cor,#8d6e3f) 80%, #eaff9e); }
+
+/* Flores */
+.flor-in{ fill:var(--cor-secundaria); transform:scale(0); transition:transform .9s cubic-bezier(.34,1.56,.64,1); }
+.flor.on .flor-in{ transform:scale(1); transition-delay:calc(var(--d) + 2.4s); }
+.flor-centro{ fill:#e8b23d; }
+
+/* Pétalas caindo e vagalumes (árvore completa) */
+.petala, .vagalume{ opacity:0; }
+.petala{ fill:var(--cor-secundaria); }
+.vagalume{ fill:#ffe9a0; }
+.planta-viva .petala.on{ animation:petalaCai 7s linear infinite; animation-delay:var(--d); }
+.planta-viva .vagalume.on{ animation:vagalumeVoa 5s ease-in-out infinite; animation-delay:var(--d); }
+@keyframes petalaCai{ 0%{opacity:0; transform:translate(0,0) rotate(0);} 10%{opacity:.9;} 100%{opacity:0; transform:translate(var(--dx),150px) rotate(300deg);} }
+@keyframes vagalumeVoa{ 0%,100%{opacity:0; transform:translate(0,0);} 50%{opacity:.95; transform:translate(var(--dx),-22px);} }
+
+.planta-legenda{ font-size:.95rem; font-style:italic; color:var(--cor-texto-claro,#fff); text-shadow:0 1px 8px rgba(0,0,0,.4); text-align:center; max-width:340px; min-height:2.6em; }
+
+@media (prefers-reduced-motion:reduce){
+  .planta-viva *{ animation:none !important; }
+  .tronco,.ramo,.folha,.flor-in{ transition-duration:.01s !important; transition-delay:0s !important; }
 }
 
-.planta-viva .planta-corpo{
-  animation: balancarPlanta 5.5s ease-in-out infinite;
+/* ---------- 2) CARDS DE DICAS (estilo ilustrado) ---------- */
+.dica-card{ height:330px; }
+
+.dica-face{
+  border-radius:4px;
+  border:1px solid rgba(20,32,25,.12);
+  box-shadow:0 1px 3px rgba(20,32,25,.10);
+  background:var(--cor-superficie);
+  transition:box-shadow .3s ease;
+}
+.dica-card:hover .dica-face-frente{ box-shadow:0 12px 28px rgba(20,32,25,.18); }
+
+.dica-face-frente figure{ flex:1; overflow:hidden; }
+
+/* Área da ilustração: cor pastel + padrão geométrico */
+.dica-imagem{ display:grid; place-items:center; background-size:auto; }
+.dica-card:hover .dica-imagem{ transform:scale(1.04); }
+
+.dica-imagem .icone-svg{
+  width:44px; height:44px; padding:16px; box-sizing:content-box;
+  color:var(--acc); stroke-width:1.6;
+  background:#fff; border:2px solid var(--acc); border-radius:12px;
+  box-shadow:6px 6px 0 color-mix(in srgb, var(--acc) 25%, transparent);
+  filter:none;
 }
 
-@keyframes balancarPlanta{
-  0%, 100%{ transform: rotate(-1.4deg); }
-  50%{ transform: rotate(1.4deg); }
+.dica-imagem.bg-casa{
+  --acc:#c58a10; background-color:#fdeeb2;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='48' viewBox='0 0 28 48'%3E%3Cpath d='M14 0l14 8v16l-14 8L0 24V8zM14 32v16' fill='none' stroke='%23d9a92b' stroke-opacity='.45' stroke-width='1.2'/%3E%3C/svg%3E");
+}
+.dica-imagem.bg-transporte{
+  --acc:#1f8fb0; background-color:#bdebf0;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='48' viewBox='0 0 28 48'%3E%3Cpath d='M14 0l14 8v16l-14 8L0 24V8zM14 16v16M14 16L0 8M14 16l14-8M14 32v16M0 40v8M0 40l14-8M28 40v8M28 40l-14-8' fill='none' stroke='%2335a7c4' stroke-opacity='.42' stroke-width='1.2'/%3E%3C/svg%3E");
+}
+.dica-imagem.bg-alimentacao{
+  --acc:#d9525e; background-color:#fdc8c8;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='24' viewBox='0 0 28 24'%3E%3Cpath d='M0 12h28M0 0l14 12L28 0M0 24l14-12 14 12' fill='none' stroke='%23e27f86' stroke-opacity='.4' stroke-width='1.2'/%3E%3C/svg%3E");
+}
+.dica-imagem.bg-reciclagem{
+  --acc:#1f9d6b; background-color:#c9f3dd;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='60' viewBox='0 0 80 60'%3E%3Cpath d='M0 10Q20-2 40 10T80 10M0 30Q20 18 40 30T80 30M0 50Q20 38 40 50T80 50' fill='none' stroke='%2338b887' stroke-opacity='.45' stroke-width='1.4'/%3E%3C/svg%3E");
 }
 
-.planta-caule{
-  fill: none;
-  stroke: var(--planta-cor, #8d6e3f);
-  stroke-width: 4;
-  stroke-linecap: round;
-  transition: stroke-dashoffset 1.7s ease .5s, stroke 1.2s ease;
+/* Legenda branca: título forte + descrição curta */
+.dica-card .tag{
+  flex-shrink:0; min-height:96px;
+  display:flex; flex-direction:column; justify-content:center; gap:6px;
+  padding:18px 18px 20px; text-align:center;
+  font-family:'Poppins',sans-serif; letter-spacing:0; text-transform:none;
+  background:var(--cor-superficie);
+}
+.dica-card .tag strong{ font-size:.88rem; font-weight:600; color:var(--cor-texto); }
+.dica-card .tag span{ font-size:.76rem; font-weight:400; line-height:1.5; color:var(--cor-texto-suave); }
+
+/* Verso (lista) acompanha o tema */
+.dica-lista{ color:var(--cor-texto); }
+
+/* ---------- 2) CARDS DE DICAS (estilo ilustrado) ---------- */
+.dica-card{ height:330px; }
+
+.dica-face{
+  border-radius:4px;
+  border:2px solid rgba(0, 0, 0, 0.171);
+  box-shadow:0 1px 3px rgba(20,32,25,.10);
+  background:var(--cor-superficie);
+  transition:box-shadow .3s ease;
+}
+.dica-card:hover .dica-face-frente{ box-shadow:0 12px 28px rgba(20,32,25,.18); }
+
+.dica-face-frente figure{ flex:1; overflow:hidden; }
+
+/* Área da ilustração: cor pastel + padrão geométrico */
+.dica-imagem{ display:grid; place-items:center; background-size:auto; }
+.dica-card:hover .dica-imagem{ transform:scale(1.04); }
+
+.dica-imagem .icone-svg{
+  width:44px; height:44px; padding:16px; box-sizing:content-box;
+  color:var(--acc); stroke-width:1.6;
+  background:#fff; border:2px solid var(--acc); border-radius:12px;
+  box-shadow:6px 6px 0 color-mix(in srgb, var(--acc) 25%, transparent);
+  filter:none;
 }
 
-.planta-semente{
-  fill: #6b4f2a;
-  opacity: 1;
-  transform: translateY(0);
-  transition: transform 1.05s cubic-bezier(.55,0,.85,.6), opacity .4s ease .85s;
+/* 🏠 CASA */
+.dica-imagem.bg-casa{
+  --acc:#b98cff;
+  background-color:#451f74;
+
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='48' viewBox='0 0 28 48'%3E%3Cpath d='M14 0l14 8v16l-14 8L0 24V8zM14 32v16' fill='none' stroke='%23d9c7ff' stroke-opacity='.40' stroke-width='1.2'/%3E%3C/svg%3E");
 }
 
-.semente-caindo .planta-semente{ transform: translateY(215px); opacity: 0; }
 
-.planta-folha{
-  opacity: 0;
-  fill: var(--planta-cor, #8d6e3f);
-  transform: scale(0.2);
-  transition: opacity .6s ease, transform .7s cubic-bezier(.34,1.56,.64,1), fill 1.2s ease;
+/* 🚗 TRANSPORTE */
+.dica-imagem.bg-transporte{
+  --acc:#67c7d9;
+  background-color:#116674;
+
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='48' viewBox='0 0 28 48'%3E%3Cpath d='M14 0l14 8v16l-14 8L0 24V8zM14 16v16M14 16L0 8M14 16l14-8M14 32v16M0 40v8M0 40l14-8M28 40v8M28 40l-14-8' fill='none' stroke='%239ce3ec' stroke-opacity='.40' stroke-width='1.2'/%3E%3C/svg%3E");
 }
 
-.planta-folha-1{ transform-origin: 110px 196px; transition-delay: 0s; }
-.planta-folha-2{ transform-origin: 108px 172px; transition-delay: .16s; }
-.planta-folha-3{ transform-origin: 112px 146px; transition-delay: .32s; }
-.planta-folha-4{ transform-origin: 106px 118px; transition-delay: .48s; }
-.planta-folha-5{ transform-origin: 110px 94px; transition-delay: .64s; }
 
-.folhas-aparecendo .planta-folha-1,
-.folhas-aparecendo .planta-folha-3,
-.folhas-aparecendo .planta-folha-5{
-  opacity: 1;
-  transform: scale(var(--planta-escala, 1)) rotate(var(--planta-droop, 0deg));
+/* 🍎 ALIMENTAÇÃO */
+.dica-imagem.bg-alimentacao{
+  --acc:#ff9a9f;
+  background-color:#6d2029;
+
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='24' viewBox='0 0 28 24'%3E%3Cpath d='M0 12h28M0 0l14 12L28 0M0 24l14-12 14 12' fill='none' stroke='%23ffc4c7' stroke-opacity='.38' stroke-width='1.2'/%3E%3C/svg%3E");
 }
 
-.folhas-aparecendo .planta-folha-2,
-.folhas-aparecendo .planta-folha-4{
-  opacity: 1;
-  transform: scale(var(--planta-escala, 1)) rotate(calc(var(--planta-droop, 0deg) * -1));
+
+/* ♻️ RECICLAGEM */
+.dica-imagem.bg-reciclagem{
+  --acc:#72d6a8;
+  background-color:#197753;
+
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='60' viewBox='0 0 80 60'%3E%3Cpath d='M0 10Q20-2 40 10T80 10M0 30Q20 18 40 30T80 30M0 50Q20 38 40 50T80 50' fill='none' stroke='%23a5e8c6' stroke-opacity='.40' stroke-width='1.4'/%3E%3C/svg%3E");
 }
 
-.planta-flor{
-  opacity: 0;
-  transform: scale(0);
-  transform-origin: 110px 60px;
-  fill: var(--cor-secundaria);
-  transition: opacity .8s ease, transform .8s cubic-bezier(.34,1.56,.64,1);
+/* Legenda branca: título forte + descrição curta */
+.dica-card .tag{
+  flex-shrink:0; min-height:96px;
+  display:flex; flex-direction:column; justify-content:center; gap:6px;
+  padding:18px 18px 20px; text-align:center;
+  font-family:'Poppins',sans-serif; letter-spacing:0; text-transform:none;
+  background:var(--cor-superficie);
 }
+.dica-card .tag strong{ font-size:.88rem; font-weight:600; color:rgb(77, 76, 76); }
+.dica-card .tag span{ font-size:.76rem; font-weight:400; line-height:1.5; color:rgb(122, 121, 121); }
 
-.planta-flor-centro{ fill: #e8b23d; }
-
-.flor-aberta .planta-flor{ opacity: 1; transform: scale(1); }
-
-.planta-legenda{
-  font-size: 0.85rem;
-  font-style: italic;
-  color: var(--cor-texto-suave);
-  text-align: center;
-  max-width: 280px;
-}
+/* Verso (lista) acompanha o tema */
+.dica-lista{ color:var(--cor-texto); }
 
 .acordeao-coluna{
   display: flex;
@@ -807,7 +968,7 @@ html[data-theme="escuro"] .globo-nuvem-parte{
 
 .acordeao-item{
   background: var(--cor-card-escuro-1);
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(190, 45, 45, 0.08);
 }
 
 .acordeao-item:nth-child(odd){
@@ -946,7 +1107,7 @@ html[data-theme="escuro"] .globo-nuvem-parte{
 .dica-face-verso h3{
   font-family: 'Playfair Display', serif;
   font-size: 1.1rem;
-  color: var(--cor-principal);
+  color: rgb(66, 19, 109);
   margin-bottom: 12px;
 }
 
@@ -1002,7 +1163,7 @@ html[data-theme="escuro"] .globo-nuvem-parte{
 }
 
 .dica-lista{
-  color: #2b3a30;
+  color: #000000;
   font-size: 0.86rem;
   line-height: 1.6;
 }
