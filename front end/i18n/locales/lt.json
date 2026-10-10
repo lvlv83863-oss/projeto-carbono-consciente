@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Atgal į pradžią",
+    "theme_toggle_aria": "Keisti šviesią/tamsią temą",
+    "menu_aria": "Atidaryti meniu",
+    "login_link": "prisijungti",
+    "sair_link": "atsijungti",
+    "painel_link": "skydelis",
+    "fechar": "Uždaryti",
+    "nav": {
+      "plataforma": "Platforma",
+      "impacto": "Poveikis",
+      "habitos": "Įpročiai",
+      "contato": "Kontaktai",
+      "dados": "Duomenys"
+    }
+  },
+  "header": {
+    "idioma_aria": "Keisti kalbą",
+    "idioma_buscar_placeholder": "Ieškoti kalbos..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Prisijungti",
+    "meta_descricao": "Prisijunkite arba registruokitės, kad galėtumėte sekti savo duomenis ir įpročius Carbono Consciente.",
+    "esquerda_titulo": "Kiekviena CO₂ tona palieka pėdsaką",
+    "esquerda_texto": "Prisijunkite, kad galėtumėte sekti savo duomenis, įpročius ir anglies pėdsaką.",
+    "google_botao": "Tęsti su Google",
+    "google_em_breve": "Prisijungimas su Google greitai bus pasiekiamas.",
+    "enviando": "siunčiama...",
+    "erro_servidor": "Nepavyko susisiekti su serveriu. Ar jis paleistas?",
+    "erro_generico": "Nepavyko atlikti operacijos.",
+    "login": {
+      "titulo": "Prisijungimas",
+      "email_label": "El. paštas",
+      "email_placeholder": "tavo@email.com",
+      "senha_label": "Slaptažodis",
+      "botao": "prisijungti",
+      "troca_texto": "Neturite paskyros?",
+      "troca_botao": "Registruotis"
+    },
+    "cadastro": {
+      "titulo": "Registracija",
+      "nome_label": "Vardas",
+      "nome_placeholder": "Jūsų vardas",
+      "email_label": "El. paštas",
+      "email_placeholder": "tavo@email.com",
+      "pais_label": "Šalis",
+      "pais_placeholder": "Ieškoti šalies...",
+      "senha_label": "Slaptažodis",
+      "confirmar_label": "Patvirtinti slaptažodį",
+      "botao": "registruotis",
+      "troca_texto": "Jau turite paskyrą?",
+      "troca_botao": "Prisijungti"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Slaptažodžiai nesutampa."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: aplinkosauginis švietimas apie anglies dioksido išmetimą, anglies pėdsaką, tvarumo patarimus, smagius faktus ir aplinkosaugos naujienas.",
+    "hero": {
+      "titulo": "Kiekvienas mažas įprotis mažiau sveria planetai",
+      "texto": "CARBONO CONSCIENTE NĖRA ŽALIASIS ŽENKLAS AR TOLIMAS TIKSLAS — TAI PAPRASTŲ, KASDIEN KARTOJAMŲ PASIRINKIMŲ VISUMA: KĄ SODINATE, KAIP KELIAUJATE, KADA UŽGESINATE ŠVIESĄ, KUR IŠMETATE ŠIUKŠLES.",
+      "botao": "Žiūrėti daugiau"
+    },
+    "acordeao": {
+      "titulo": "Kas yra Carbono Consciente?",
+      "emissao_titulo": "Anglies dioksido išmetimas",
+      "emissao_corpo": "Anglies dioksido išmetimas – tai dujų, tokių kaip CO₂, išskyrimas į atmosferą, dažniausiai deginant iškastinį kurą, dėl miškų kirtimo, pramoninės gamybos ir net kasdienio transporto.",
+      "clima_titulo": "Kaip tai veikia klimatą?",
+      "clima_corpo": "Šiltnamio efektą sukeliančios dujos sudaro sluoksnį, kuris sulaiko šilumą atmosferoje. Kuo daugiau išmetamų dujų, tuo stipresnis šis efektas — ir tai lemia globalinį atšilimą ir klimato kaitą.",
+      "pegada_titulo": "Anglies pėdsakas",
+      "pegada_corpo": "Tai bendras šiltnamio efektą sukeliančių dujų kiekis, tiesiogiai ar netiesiogiai sukeltas žmogaus, įmonės ar produkto veiklos kasdieniame gyvenime.",
+      "neutro_titulo": "Neutrali anglis × Carbono Consciente",
+      "neutro_corpo": "<strong>Neutrali anglis</strong> siekia subalansuoti arba kompensuoti sukeltą išmetimą. <strong>Carbono consciente</strong> pirmenybę teikia pasirinkimams, mažinantiems aplinkos poveikį, net nepradedant kalbėti apie kompensavimą."
+    },
+    "dicas": {
+      "titulo_secao": "Tvarumo patarimai",
+      "clique_voltar": "spustelėkite, kad apsiverstų atgal",
+      "casa": {
+        "titulo": "Namai",
+        "resumo": "Energijos ir vandens taupymas kasdien",
+        "item1": "Taupyti energiją",
+        "item2": "Užgesinti šviesą, kai jos nenaudojate",
+        "item3": "Naudoti prietaisus apgalvotai",
+        "item4": "Mažinti vandens švaistymą",
+        "item5": "Nešvaistyti maisto"
+      },
+      "transporte": {
+        "titulo": "Transportas",
+        "resumo": "Alternatyvos automobiliui lengvesnėms kelionėms",
+        "item1": "Vaikščioti, kai tai įmanoma",
+        "item2": "Naudoti dviratį",
+        "item3": "Naudoti viešąjį transportą",
+        "item4": "Dalintis kelionėmis, kai tai įmanoma",
+        "item5": "Mažinti nebūtinas keliones automobiliu"
+      },
+      "alimentacao": {
+        "titulo": "Mityba",
+        "resumo": "Pasirinkimai prie stalo, mažinantys švaistymą ir išmetimus",
+        "item1": "Pirkti vietinius produktus",
+        "item2": "Išvengti švaistymo",
+        "item3": "Planuoti valgius",
+        "item4": "Geriau išnaudoti maistą",
+        "item5": "Mažinti mėsos vartojimą"
+      },
+      "reciclagem": {
+        "titulo": "Perdirbimas",
+        "resumo": "Rūšiuokite, naudokite pakartotinai ir suteikite naują gyvenimą tam, kas liko",
+        "item1": "Taisyklingai rūšiuoti atliekas",
+        "item2": "Panaudoti medžiagas pakartotinai",
+        "item3": "Taisyklingai pašalinti perdirbamas atliekas",
+        "item4": "Išvengti vienkartinių produktų",
+        "item5": "Suteikti daiktams naują panaudojimą"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Aplinkosaugos faktai",
+      "subtitulo": "Ar žinojote?",
+      "carregando": "Kraunamas smagus faktas...",
+      "proxima": "Kitas smagus faktas",
+      "erro_carregar": "Dabar nepavyko įkelti smagių faktų."
+    },
+    "noticias": {
+      "titulo": "Aplinkosaugos naujienos",
+      "subtitulo": "Tikros ir naujausios žinios apie tvarumą",
+      "anteriores": "Ankstesnės naujienos",
+      "proximas": "Kitos naujienos",
+      "carregando": "Kraunamos naujienos...",
+      "erro_carregar": "Dabar nepavyko įkelti naujienų.",
+      "nenhuma": "Šiuo metu nėra prieinamų naujienų.",
+      "ler_na_origem": "skaityti originalo svetainėje →",
+      "sem_link": "Šiai naujienai nėra prieinamos išorinės nuorodos."
+    },
+    "rodape": {
+      "descricao": "Aplinkosauginis švietimas, paverčiantis mažus pasirinkimus didžiais rezultatais planetai.",
+      "navegacao": "Navigacija",
+      "contato": "Kontaktai",
+      "copyright": "© 2026 Carbono Consciente. Visos teisės saugomos."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Skydelis",
+    "meta_descricao": "Registruokite savo keliones ir sekite savo anglies pėdsaką laikui bėgant.",
+    "titulo": "Jūsų įpročių skydelis",
+    "subtitulo": "Registruokite savo keliones ir sekite savo anglies pėdsaką laikui bėgant.",
+    "card_hoje": "CO₂ šiandien",
+    "card_semana": "CO₂ šią savaitę",
+    "card_mes": "CO₂ šį mėnesį",
+    "grafico_titulo": "Pokyčiai per pastarąsias 14 dienų",
+    "grafico_aria": "CO₂ pokyčiai per pastarąsias {{dias}} dienas",
+    "form_titulo": "Pridėti kelionę",
+    "campo_meio": "Transporto priemonė",
+    "campo_distancia": "Atstumas (km)",
+    "campo_data": "Data",
+    "campo_observacao": "Pastaba (neobligatoriška)",
+    "campo_observacao_placeholder": "pvz.: kelionė į darbą",
+    "botao_adicionar": "pridėti",
+    "salvando": "išsaugoma...",
+    "registrado_sucesso": "Kelionė užregistruota!",
+    "registros_titulo": "Paskutiniai įrašai",
+    "registros_vazio": "Kol kas nėra įrašų — pridėkite savo pirmą kelionę aukščiau.",
+    "meio_removido": "Priemonė pašalinta",
+    "remover_registro": "Pašalinti įrašą",
+    "sessao_expirada": "Sesija baigėsi.",
+    "erro_servidor": "Nepavyko susisiekti su serveriu. Ar jis paleistas?",
+    "erro_generico": "Nepavyko atlikti operacijos.",
+    "delta_sem_registros": "šiuo laikotarpiu įrašų nėra",
+    "delta_primeiro_registro": "pirmas įrašas šiuo laikotarpiu",
+    "delta_estavel": "stabilu lyginant su ankstesniu laikotarpiu",
+    "delta_variacao": "{{percentual}}% lyginant su ankstesniu laikotarpiu"
+  },
+  "globo": {
+    "legenda_titulo": "Išmetimai vienam gyventojui",
+    "legenda_baixa": "Žema",
+    "legenda_alta": "Aukšta",
+    "sair_destaque": "Išeiti iš pažymėjimo režimo",
+    "buscar_placeholder": "Ieškoti šalies...",
+    "buscar_aria": "Ieškoti šalies gaublyje",
+    "sem_dados_co2": "nėra CO₂ duomenų",
+    "tonelada_ano_pessoa": "{{valor}} t/metus vienam žmogui",
+    "territorio": "Teritorija",
+    "fechar_painel": "Uždaryti skydelį",
+    "sem_dados_territorio": "Šiai teritorijai nėra prieinamų CO₂ išmetimo vienam gyventojui duomenų.",
+    "emissao_per_capita": "Išmetimai vienam gyventojui:",
+    "equivalente_diario": "Dienos atitikmuo:",
+    "equivalente_semanal": "Savaitės atitikmuo:",
+    "equivalente_mensal": "Mėnesio atitikmuo:",
+    "posicao_ranking": "Vieta reitinge (iš {{total}} šalių):",
+    "fonte_estimativa": "Iškastinio CO₂ išmetimo vienam gyventojui įvertis (Global Carbon Budget / Our World in Data, 2024 m. baziniai duomenys).",
+    "aria_interativo": "Interaktyvus anglies dioksido išmetimų gaublys. Tempkite, kad pasuktumėte, slinkite, kad priartintumėte, spustelėkite šalį, norėdami pamatyti duomenis, ir spustelėkite dukart, norėdami pažymėti gaublį.",
+    "aria_decorativo": "Dekoratyvinis besisukantis gaublys, iliustruojantis Carbono Consciente projekto globalų mastą.",
+    "continente_asia": "Azija",
+    "continente_africa": "Afrika",
+    "continente_europa": "Europa",
+    "continente_america_sul": "Pietų Amerika",
+    "continente_america_norte": "Šiaurės Amerika",
+    "continente_oceania": "Okeanija"
+  }
+}

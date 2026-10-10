@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Ana sayfaya dön",
+    "theme_toggle_aria": "Açık/koyu temayı değiştir",
+    "menu_aria": "Menüyü aç",
+    "login_link": "giriş yap",
+    "sair_link": "çıkış yap",
+    "painel_link": "panel",
+    "fechar": "Kapat",
+    "nav": {
+      "plataforma": "Platform",
+      "impacto": "Etki",
+      "habitos": "Alışkanlıklar",
+      "contato": "İletişim",
+      "dados": "Veriler"
+    }
+  },
+  "header": {
+    "idioma_aria": "Dili değiştir",
+    "idioma_buscar_placeholder": "Dil ara..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Giriş",
+    "meta_descricao": "Carbono Consciente'de verilerinizi ve alışkanlıklarınızı takip etmek için giriş yapın ya da kayıt olun.",
+    "esquerda_titulo": "Her ton CO₂ bir iz bırakır",
+    "esquerda_texto": "Verilerinizi, alışkanlıklarınızı ve karbon ayak izinizi takip etmek için giriş yapın.",
+    "google_botao": "Google ile devam et",
+    "google_em_breve": "Google ile giriş çok yakında.",
+    "enviando": "gönderiliyor...",
+    "erro_servidor": "Sunucuya ulaşılamadı. Çalışıyor mu?",
+    "erro_generico": "İşlem tamamlanamadı.",
+    "login": {
+      "titulo": "Giriş",
+      "email_label": "E-posta",
+      "email_placeholder": "siz@eposta.com",
+      "senha_label": "Şifre",
+      "botao": "giriş yap",
+      "troca_texto": "Henüz hesabınız yok mu?",
+      "troca_botao": "Kayıt ol"
+    },
+    "cadastro": {
+      "titulo": "Kayıt",
+      "nome_label": "Ad",
+      "nome_placeholder": "Adınız",
+      "email_label": "E-posta",
+      "email_placeholder": "siz@eposta.com",
+      "pais_label": "Ülke",
+      "pais_placeholder": "Ülke ara...",
+      "senha_label": "Şifre",
+      "confirmar_label": "Şifreyi doğrula",
+      "botao": "kayıt ol",
+      "troca_texto": "Hesabınız var mı?",
+      "troca_botao": "Giriş yap"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Şifreler birbiriyle uyuşmuyor."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: karbon emisyonları, karbon ayak izi, sürdürülebilir ipuçları, ilginç bilgiler ve çevre haberleri üzerine çevre eğitimi.",
+    "hero": {
+      "titulo": "Her küçük alışkanlık gezegene daha az yük bindirir",
+      "texto": "CARBONO CONSCIENTE BİR YEŞİL SERTİFİKA YA DA UZAK BİR HEDEF DEĞİL — HER GÜN YİNELENEN SIRADAN SEÇİMLERİN TOPLAMI: NE EKTİĞİNİZ, NASIL YOL ALDIĞINIZ, IŞIĞI NE ZAMAN KAPATTIĞINIZ, ÇÖPÜ NEREYE ATTIĞINIZ.",
+      "botao": "Daha Fazla"
+    },
+    "acordeao": {
+      "titulo": "Carbono Consciente nedir?",
+      "emissao_titulo": "Karbon Emisyonu",
+      "emissao_corpo": "Karbon emisyonu, CO₂ gibi gazların atmosfere salınmasıdır; başlıca kaynakları fosil yakıtların yakılması, orman kaybı, endüstriyel üretim ve hatta günlük ulaşımdır.",
+      "clima_titulo": "İklimi nasıl etkiliyor?",
+      "clima_corpo": "Sera gazları, atmosferde ısıyı tutan bir katman oluşturur. Emisyon arttıkça bu etki güçlenir — küresel ısınmayı ve iklim değişikliğini tetikleyen de budur.",
+      "pegada_titulo": "Karbon Ayak İzi",
+      "pegada_corpo": "Bir kişinin, şirketin ya da ürünün günlük faaliyetleri sonucunda doğrudan veya dolaylı olarak ortaya çıkan toplam sera gazı miktarıdır.",
+      "neutro_titulo": "Karbon Nötr × Carbono Consciente",
+      "neutro_corpo": "<strong>Karbon nötr</strong>, ortaya çıkan emisyonları dengelemeyi ya da telafi etmeyi hedefler. <strong>Carbono consciente</strong> ise telafiyi düşünmeden önce çevresel etkiyi azaltan seçimlere öncelik verir."
+    },
+    "dicas": {
+      "titulo_secao": "Sürdürülebilir İpuçları",
+      "clique_voltar": "geri dönmek için tıklayın",
+      "casa": {
+        "titulo": "Ev",
+        "resumo": "Günlük hayatta enerji ve su tasarrufu",
+        "item1": "Enerji tasarrufu yapın",
+        "item2": "Kullanmadığınızda ışıkları kapatın",
+        "item3": "Cihazları bilinçli kullanın",
+        "item4": "Su kaybını azaltın",
+        "item5": "Gıda israfından kaçının"
+      },
+      "transporte": {
+        "titulo": "Ulaşım",
+        "resumo": "Daha hafif yolculuklar için otomobile alternatifler",
+        "item1": "Mümkün olduğunda yürüyün",
+        "item2": "Bisiklet kullanın",
+        "item3": "Toplu taşıma kullanın",
+        "item4": "Mümkün olduğunda yolculukları paylaşın",
+        "item5": "Gereksiz araba yolculuklarını azaltın"
+      },
+      "alimentacao": {
+        "titulo": "Beslenme",
+        "resumo": "Sofrada israfı ve emisyonu azaltan seçimler",
+        "item1": "Yerel ürünler tüketin",
+        "item2": "İsraftan kaçının",
+        "item3": "Yemeklerinizi planlayın",
+        "item4": "Gıdaları daha iyi değerlendirin",
+        "item5": "Et tüketimini azaltın"
+      },
+      "reciclagem": {
+        "titulo": "Geri Dönüşüm",
+        "resumo": "Ayrıştırın, yeniden kullanın ve artanlara yeni bir hayat verin",
+        "item1": "Atıkları doğru şekilde ayrıştırın",
+        "item2": "Malzemeleri yeniden kullanın",
+        "item3": "Geri dönüştürülebilirleri doğru yere verin",
+        "item4": "Tek kullanımlık ürünlerden kaçının",
+        "item5": "Eşyalara yeni kullanımlar bulun"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Çevre Hakkında İlginç Bilgiler",
+      "subtitulo": "Biliyor muydunuz?",
+      "carregando": "İlginç bilgi yükleniyor...",
+      "proxima": "Sonraki bilgi",
+      "erro_carregar": "İlginç bilgiler şu anda yüklenemedi."
+    },
+    "noticias": {
+      "titulo": "Çevre Haberleri",
+      "subtitulo": "Sürdürülebilirlik hakkında gerçek ve güncel haberler",
+      "anteriores": "Önceki haberler",
+      "proximas": "Sonraki haberler",
+      "carregando": "Haberler yükleniyor...",
+      "erro_carregar": "Haberler şu anda yüklenemedi.",
+      "nenhuma": "Şu anda haber bulunmuyor.",
+      "ler_na_origem": "kaynağında oku →",
+      "sem_link": "Bu haber için harici bağlantı bulunmuyor."
+    },
+    "rodape": {
+      "descricao": "Küçük seçimleri gezegen için büyük sonuçlara dönüştüren çevre eğitimi.",
+      "navegacao": "Gezinme",
+      "contato": "İletişim",
+      "copyright": "© 2026 Carbono Consciente. Tüm hakları saklıdır."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Panel",
+    "meta_descricao": "Yolculuklarınızı kaydedin ve karbon ayak izinizi zaman içinde takip edin.",
+    "titulo": "Alışkanlık paneliniz",
+    "subtitulo": "Yolculuklarınızı kaydedin ve karbon ayak izinizi zaman içinde takip edin.",
+    "card_hoje": "Bugünkü CO₂",
+    "card_semana": "Bu haftaki CO₂",
+    "card_mes": "Bu ayki CO₂",
+    "grafico_titulo": "Son 14 gün",
+    "grafico_aria": "Son {{dias}} gündeki CO₂ seyri",
+    "form_titulo": "Yolculuk ekle",
+    "campo_meio": "Ulaşım aracı",
+    "campo_distancia": "Mesafe (km)",
+    "campo_data": "Tarih",
+    "campo_observacao": "Not (isteğe bağlı)",
+    "campo_observacao_placeholder": "örn.: işe gidiş yolu",
+    "botao_adicionar": "ekle",
+    "salvando": "kaydediliyor...",
+    "registrado_sucesso": "Yolculuk kaydedildi!",
+    "registros_titulo": "Son kayıtlar",
+    "registros_vazio": "Henüz kayıt yok — ilk yolculuğunuzu yukarıdan ekleyin.",
+    "meio_removido": "Kaldırılan araç",
+    "remover_registro": "Kaydı kaldır",
+    "sessao_expirada": "Oturum sona erdi.",
+    "erro_servidor": "Sunucuya ulaşılamadı. Çalışıyor mu?",
+    "erro_generico": "İşlem tamamlanamadı.",
+    "delta_sem_registros": "bu dönemde kayıt yok",
+    "delta_primeiro_registro": "bu dönemin ilk kaydı",
+    "delta_estavel": "önceki döneme göre sabit",
+    "delta_variacao": "önceki döneme göre %{{percentual}}"
+  },
+  "globo": {
+    "legenda_titulo": "Kişi başı emisyon",
+    "legenda_baixa": "Düşük",
+    "legenda_alta": "Yüksek",
+    "sair_destaque": "Odak modundan çık",
+    "buscar_placeholder": "Ülke ara...",
+    "buscar_aria": "Küre üzerinde ülke ara",
+    "sem_dados_co2": "CO₂ verisi yok",
+    "tonelada_ano_pessoa": "kişi başına {{valor}} t/yıl",
+    "territorio": "Bölge",
+    "fechar_painel": "Paneli kapat",
+    "sem_dados_territorio": "Bu bölge için kişi başı CO₂ emisyon verisi bulunmuyor.",
+    "emissao_per_capita": "Kişi başı emisyon:",
+    "equivalente_diario": "Günlük karşılığı:",
+    "equivalente_semanal": "Haftalık karşılığı:",
+    "equivalente_mensal": "Aylık karşılığı:",
+    "posicao_ranking": "Sıralamadaki yeri ({{total}} ülke içinde):",
+    "fonte_estimativa": "Kişi başı fosil kaynaklı CO₂ tahmini (Global Carbon Budget / Our World in Data, 2024 baz yılı).",
+    "aria_interativo": "Etkileşimli karbon emisyonu küresi. Döndürmek için sürükleyin, yakınlaştırmak için kaydırın, verilerini görmek için bir ülkeye tıklayın, küreyi odak moduna almak için çift tıklayın.",
+    "aria_decorativo": "Carbono Consciente projesinin küresel erişimini gösteren, dönen dekoratif küre.",
+    "continente_asia": "Asya",
+    "continente_africa": "Afrika",
+    "continente_europa": "Avrupa",
+    "continente_america_sul": "Güney Amerika",
+    "continente_america_norte": "Kuzey Amerika",
+    "continente_oceania": "Okyanusya"
+  }
+}

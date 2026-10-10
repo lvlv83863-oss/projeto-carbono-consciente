@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Vissza a főoldalra",
+    "theme_toggle_aria": "Világos/sötét téma váltása",
+    "menu_aria": "Menü megnyitása",
+    "login_link": "bejelentkezés",
+    "sair_link": "kijelentkezés",
+    "painel_link": "irányítópult",
+    "fechar": "Bezárás",
+    "nav": {
+      "plataforma": "Platform",
+      "impacto": "Hatás",
+      "habitos": "Szokások",
+      "contato": "Kapcsolat",
+      "dados": "Adatok"
+    }
+  },
+  "header": {
+    "idioma_aria": "Nyelv váltása",
+    "idioma_buscar_placeholder": "Nyelv keresése..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Bejelentkezés",
+    "meta_descricao": "Jelentkezzen be vagy regisztráljon, hogy nyomon követhesse adatait és szokásait a Carbono Conscienten.",
+    "esquerda_titulo": "Minden tonna CO₂ nyomot hagy",
+    "esquerda_texto": "Jelentkezzen be, hogy nyomon követhesse adatait, szokásait és szén-lábnyomát.",
+    "google_botao": "Folytatás Google-fiókkal",
+    "google_em_breve": "A Google-bejelentkezés hamarosan elérhető.",
+    "enviando": "küldés...",
+    "erro_servidor": "Nem sikerült kapcsolódni a szerverhez. Fut egyáltalán?",
+    "erro_generico": "Nem sikerült elvégezni a műveletet.",
+    "login": {
+      "titulo": "Bejelentkezés",
+      "email_label": "E-mail",
+      "email_placeholder": "te@email.com",
+      "senha_label": "Jelszó",
+      "botao": "bejelentkezés",
+      "troca_texto": "Még nincs fiókja?",
+      "troca_botao": "Regisztráljon"
+    },
+    "cadastro": {
+      "titulo": "Regisztráció",
+      "nome_label": "Név",
+      "nome_placeholder": "Az Ön neve",
+      "email_label": "E-mail",
+      "email_placeholder": "te@email.com",
+      "pais_label": "Ország",
+      "pais_placeholder": "Ország keresése...",
+      "senha_label": "Jelszó",
+      "confirmar_label": "Jelszó megerősítése",
+      "botao": "regisztrálás",
+      "troca_texto": "Már van fiókja?",
+      "troca_botao": "Bejelentkezés"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "A jelszavak nem egyeznek."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: környezeti nevelés a szén-dioxid-kibocsátásról, a szén-lábnyomról, fenntarthatósági tippekről, érdekességekről és környezeti hírekről.",
+    "hero": {
+      "titulo": "Minden kis szokás kevesebb terhet ró a bolygóra",
+      "texto": "A CARBONO CONSCIENTE NEM ZÖLD PECSÉT, ÉS NEM TÁVOLI CÉL — EZ A MINDENNAP MEGISMÉTELT, EGYSZERŰ VÁLASZTÁSOK ÖSSZESSÉGE: MIT ÜLTETSZ, HOGYAN KÖZLEKEDSZ, MIKOR KAPCSOLOD LE A VILLANYT, HOVÁ DOBOD A SZEMETET.",
+      "botao": "Tudj meg többet"
+    },
+    "acordeao": {
+      "titulo": "Mi az a Carbono Consciente?",
+      "emissao_titulo": "Szén-dioxid-kibocsátás",
+      "emissao_corpo": "A szén-dioxid-kibocsátás olyan gázok, mint a CO₂, légkörbe kerülése, amit főként a fosszilis tüzelőanyagok elégetése, az erdőirtás, az ipari termelés és a napi közlekedés okoz.",
+      "clima_titulo": "Hogyan hat az éghajlatra?",
+      "clima_corpo": "Az üvegházhatású gázok egy réteget alkotnak, amely hőt tart vissza a légkörben. Minél nagyobb a kibocsátás, annál erősebb ez a hatás — és ez hajtja a globális felmelegedést és az éghajlatváltozást.",
+      "pegada_titulo": "Szén-lábnyom",
+      "pegada_corpo": "Ez az üvegházhatású gázok teljes mennyisége, amelyet egy személy, vállalat vagy termék tevékenysége közvetlenül vagy közvetve termel a napi életében.",
+      "neutro_titulo": "Karbonsemlegesség × Carbono Consciente",
+      "neutro_corpo": "A <strong>karbonsemlegesség</strong> a keletkezett kibocsátások kiegyenlítésére vagy kompenzálására törekszik. A <strong>Carbono consciente</strong> olyan választásokat helyez előtérbe, amelyek már a kompenzáció gondolata előtt csökkentik a környezeti hatást."
+    },
+    "dicas": {
+      "titulo_secao": "Fenntarthatósági tippek",
+      "clique_voltar": "kattints a visszafordításhoz",
+      "casa": {
+        "titulo": "Otthon",
+        "resumo": "Energia- és vízmegtakarítás a mindennapokban",
+        "item1": "Energiát takarítani meg",
+        "item2": "Lekapcsolni a villanyt, ha nincs rá szükség",
+        "item3": "Tudatosan használni a készülékeket",
+        "item4": "Csökkenteni a vízfogyasztást",
+        "item5": "Elkerülni az élelmiszer-hulladékot"
+      },
+      "transporte": {
+        "titulo": "Közlekedés",
+        "resumo": "Alternatívák az autó helyett a könnyebb közlekedéshez",
+        "item1": "Gyalogolni, amikor lehet",
+        "item2": "Kerékpárt használni",
+        "item3": "Tömegközlekedést használni",
+        "item4": "Megosztani az utakat, amikor lehet",
+        "item5": "Csökkenteni a szükségtelen autós utakat"
+      },
+      "alimentacao": {
+        "titulo": "Étkezés",
+        "resumo": "Olyan választások az asztalnál, amelyek csökkentik a hulladékot és a kibocsátást",
+        "item1": "Helyi termékeket fogyasztani",
+        "item2": "Elkerülni a hulladékot",
+        "item3": "Megtervezni az étkezéseket",
+        "item4": "Jobban kihasználni az élelmiszereket",
+        "item5": "Csökkenteni a húsfogyasztást"
+      },
+      "reciclagem": {
+        "titulo": "Újrahasznosítás",
+        "resumo": "Szelektáld, használd újra, és adj új életet a maradéknak",
+        "item1": "Helyesen szelektálni a hulladékot",
+        "item2": "Újrahasznosítani az anyagokat",
+        "item3": "Helyesen elhelyezni az újrahasznosítható hulladékot",
+        "item4": "Elkerülni az eldobható termékeket",
+        "item5": "Új funkciót adni a tárgyaknak"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Környezeti érdekességek",
+      "subtitulo": "Tudtad?",
+      "carregando": "Érdekesség betöltése...",
+      "proxima": "Következő érdekesség",
+      "erro_carregar": "Jelenleg nem sikerült betölteni az érdekességeket."
+    },
+    "noticias": {
+      "titulo": "Környezeti hírek",
+      "subtitulo": "Valódi és friss hírek a fenntarthatóságról",
+      "anteriores": "Korábbi hírek",
+      "proximas": "Következő hírek",
+      "carregando": "Hírek betöltése...",
+      "erro_carregar": "Jelenleg nem sikerült betölteni a híreket.",
+      "nenhuma": "Jelenleg nincs elérhető hír.",
+      "ler_na_origem": "olvasd el az eredeti oldalon →",
+      "sem_link": "Ehhez a hírhez nincs elérhető külső link."
+    },
+    "rodape": {
+      "descricao": "Környezeti nevelés, amely kis döntéseket nagy eredményekké alakít a bolygó számára.",
+      "navegacao": "Navigáció",
+      "contato": "Kapcsolat",
+      "copyright": "© 2026 Carbono Consciente. Minden jog fenntartva."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Irányítópult",
+    "meta_descricao": "Rögzítsd az utazásaidat, és kövesd nyomon a szén-lábnyomodat az idő múlásával.",
+    "titulo": "A te szokásfigyelő irányítópultod",
+    "subtitulo": "Rögzítsd az utazásaidat, és kövesd nyomon a szén-lábnyomodat az idő múlásával.",
+    "card_hoje": "CO₂ ma",
+    "card_semana": "CO₂ ezen a héten",
+    "card_mes": "CO₂ ebben a hónapban",
+    "grafico_titulo": "Alakulás az elmúlt 14 napban",
+    "grafico_aria": "A CO₂ alakulása az elmúlt {{dias}} napban",
+    "form_titulo": "Utazás hozzáadása",
+    "campo_meio": "Közlekedési eszköz",
+    "campo_distancia": "Távolság (km)",
+    "campo_data": "Dátum",
+    "campo_observacao": "Megjegyzés (opcionális)",
+    "campo_observacao_placeholder": "pl.: munkába járás",
+    "botao_adicionar": "hozzáadás",
+    "salvando": "mentés...",
+    "registrado_sucesso": "Utazás rögzítve!",
+    "registros_titulo": "Legutóbbi bejegyzések",
+    "registros_vazio": "Még nincs bejegyzés — add hozzá az első utazásodat fent.",
+    "meio_removido": "Eszköz eltávolítva",
+    "remover_registro": "Bejegyzés eltávolítása",
+    "sessao_expirada": "A munkamenet lejárt.",
+    "erro_servidor": "Nem sikerült kapcsolódni a szerverhez. Fut egyáltalán?",
+    "erro_generico": "Nem sikerült elvégezni a műveletet.",
+    "delta_sem_registros": "nincs bejegyzés ebben az időszakban",
+    "delta_primeiro_registro": "ez az időszak első bejegyzése",
+    "delta_estavel": "stabil az előző időszakhoz képest",
+    "delta_variacao": "{{percentual}}% az előző időszakhoz képest"
+  },
+  "globo": {
+    "legenda_titulo": "Egy főre eső kibocsátás",
+    "legenda_baixa": "Alacsony",
+    "legenda_alta": "Magas",
+    "sair_destaque": "Kilépés a kiemelt módból",
+    "buscar_placeholder": "Ország keresése...",
+    "buscar_aria": "Ország keresése a földgömbön",
+    "sem_dados_co2": "nincs CO₂ adat",
+    "tonelada_ano_pessoa": "{{valor}} t/év/fő",
+    "territorio": "Terület",
+    "fechar_painel": "Panel bezárása",
+    "sem_dados_territorio": "Ehhez a területhez nincs elérhető egy főre eső CO₂-kibocsátási adat.",
+    "emissao_per_capita": "Egy főre eső kibocsátás:",
+    "equivalente_diario": "Napi egyenérték:",
+    "equivalente_semanal": "Heti egyenérték:",
+    "equivalente_mensal": "Havi egyenérték:",
+    "posicao_ranking": "Rangsorbeli helyezés ({{total}} ország közül):",
+    "fonte_estimativa": "Fosszilis eredetű, egy főre eső CO₂-kibocsátás becslése (Global Carbon Budget / Our World in Data, 2024-es bázisév).",
+    "aria_interativo": "Interaktív szén-dioxid-kibocsátási földgömb. Húzd a forgatáshoz, görgesd a nagyításhoz, kattints egy országra az adatok megtekintéséhez, és duplán kattintva emeld ki a földgömböt.",
+    "aria_decorativo": "Díszítő, forgó földgömb, amely a Carbono Consciente projekt globális kiterjedését illusztrálja.",
+    "continente_asia": "Ázsia",
+    "continente_africa": "Afrika",
+    "continente_europa": "Európa",
+    "continente_america_sul": "Dél-Amerika",
+    "continente_america_norte": "Észak-Amerika",
+    "continente_oceania": "Óceánia"
+  }
+}

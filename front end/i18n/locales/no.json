@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Tilbake til start",
+    "theme_toggle_aria": "Bytt mellom lyst/mørkt tema",
+    "menu_aria": "Åpne meny",
+    "login_link": "logg inn",
+    "sair_link": "logg ut",
+    "painel_link": "dashbord",
+    "fechar": "Lukk",
+    "nav": {
+      "plataforma": "Plattform",
+      "impacto": "Innvirkning",
+      "habitos": "Vaner",
+      "contato": "Kontakt",
+      "dados": "Data"
+    }
+  },
+  "header": {
+    "idioma_aria": "Endre språk",
+    "idioma_buscar_placeholder": "Søk etter språk..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Logg inn",
+    "meta_descricao": "Logg inn eller registrer deg for å følge dataene og vanene dine på Carbono Consciente.",
+    "esquerda_titulo": "Hvert tonn CO₂ setter spor",
+    "esquerda_texto": "Logg inn for å følge dataene, vanene og karbonavtrykket ditt.",
+    "google_botao": "Fortsett med Google",
+    "google_em_breve": "Innlogging med Google kommer snart.",
+    "enviando": "sender...",
+    "erro_servidor": "Kunne ikke nå serveren. Kjører den?",
+    "erro_generico": "Kunne ikke fullføre handlingen.",
+    "login": {
+      "titulo": "Logg inn",
+      "email_label": "E-post",
+      "email_placeholder": "din@epost.com",
+      "senha_label": "Passord",
+      "botao": "logg inn",
+      "troca_texto": "Har du ikke konto ennå?",
+      "troca_botao": "Registrer deg"
+    },
+    "cadastro": {
+      "titulo": "Registrering",
+      "nome_label": "Navn",
+      "nome_placeholder": "Ditt navn",
+      "email_label": "E-post",
+      "email_placeholder": "din@epost.com",
+      "pais_label": "Land",
+      "pais_placeholder": "Søk etter land...",
+      "senha_label": "Passord",
+      "confirmar_label": "Bekreft passord",
+      "botao": "registrer",
+      "troca_texto": "Har du allerede konto?",
+      "troca_botao": "Logg inn"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Passordene stemmer ikke."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: miljøopplæring om karbonutslipp, karbonavtrykk, bærekraftige tips, nysgjerrigheter og miljønyheter.",
+    "hero": {
+      "titulo": "Hver liten vane betyr mindre for planeten",
+      "texto": "CARBONO CONSCIENTE ER IKKE ET GRØNT STEMPEL ELLER ET FJERNT MÅL — DET ER SUMMEN AV VANLIGE VALG, GJENTATT HVER DAG: HVA DU PLANTER, HVORDAN DU FORFLYTTER DEG, NÅR DU SLÅR AV LYSET, HVOR DU KASTER SKROTET.",
+      "botao": "Se mer"
+    },
+    "acordeao": {
+      "titulo": "Hva er Carbono Consciente?",
+      "emissao_titulo": "Karbonutslipp",
+      "emissao_corpo": "Karbonutslipp er utslipp av gasser som CO₂ til atmosfæren, hovedsakelig fra forbrenning av fossilt brensel, avskoging, industriproduksjon og til og med daglig transport.",
+      "clima_titulo": "Hvordan påvirker det klimaet?",
+      "clima_corpo": "Klimagassene danner et lag som holder på varmen i atmosfæren. Flere utslipp gir sterkere effekt — og det er dette som driver global oppvarming og klimaendringer.",
+      "pegada_titulo": "Karbonavtrykk",
+      "pegada_corpo": "Det er den totale mengden klimagasser som skapes, direkte eller indirekte, av aktivitetene til en person, et selskap eller et produkt i hverdagen.",
+      "neutro_titulo": "Karbonnøytral × Carbono Consciente",
+      "neutro_corpo": "<strong>Karbonnøytral</strong> handler om å balansere eller kompensere for utslippene som skapes. <strong>Carbono consciente</strong> prioriterer valg som reduserer miljøpåvirkningen før man i det hele tatt tenker på kompensasjon."
+    },
+    "dicas": {
+      "titulo_secao": "Bærekraftige tips",
+      "clique_voltar": "klikk for å gå tilbake",
+      "casa": {
+        "titulo": "Hjem",
+        "resumo": "Energi- og vannsparing i hverdagen",
+        "item1": "Spare energi",
+        "item2": "Slå av lys når de ikke brukes",
+        "item3": "Bruke utstyr bevisst",
+        "item4": "Redusere vannsløsing",
+        "item5": "Unngå matsvinn"
+      },
+      "transporte": {
+        "titulo": "Transport",
+        "resumo": "Alternativer til bilen for lettere forflytning",
+        "item1": "Gå når det er mulig",
+        "item2": "Bruke sykkel",
+        "item3": "Bruke offentlig transport",
+        "item4": "Dele reiser når det er mulig",
+        "item5": "Redusere unødvendige bilturer"
+      },
+      "alimentacao": {
+        "titulo": "Mat",
+        "resumo": "Valg ved bordet som reduserer svinn og utslipp",
+        "item1": "Kjøpe lokale produkter",
+        "item2": "Unngå svinn",
+        "item3": "Planlegge måltidene",
+        "item4": "Utnytte maten bedre",
+        "item5": "Redusere kjøttforbruket"
+      },
+      "reciclagem": {
+        "titulo": "Resirkulering",
+        "resumo": "Sorter, gjenbruk og gi ny bruk til det som er igjen",
+        "item1": "Sortere avfallet riktig",
+        "item2": "Gjenbruke materialer",
+        "item3": "Levere resirkulerbart avfall riktig",
+        "item4": "Unngå engangsprodukter",
+        "item5": "Gi gjenstander nye bruksområder"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Miljønysgjerrigheter",
+      "subtitulo": "Visste du det?",
+      "carregando": "Laster nysgjerrighet...",
+      "proxima": "Neste nysgjerrighet",
+      "erro_carregar": "Kunne ikke laste nysgjerrighetene nå."
+    },
+    "noticias": {
+      "titulo": "Miljønyheter",
+      "subtitulo": "Ekte og nylige nyheter om bærekraft",
+      "anteriores": "Tidligere nyheter",
+      "proximas": "Neste nyheter",
+      "carregando": "Laster nyheter...",
+      "erro_carregar": "Kunne ikke laste nyhetene nå.",
+      "nenhuma": "Ingen nyheter tilgjengelig for øyeblikket.",
+      "ler_na_origem": "les hos kilden →",
+      "sem_link": "Ingen ekstern lenke tilgjengelig for denne nyheten."
+    },
+    "rodape": {
+      "descricao": "Miljøopplæring som gjør små valg til store resultater for planeten.",
+      "navegacao": "Navigasjon",
+      "contato": "Kontakt",
+      "copyright": "© 2026 Carbono Consciente. Alle rettigheter forbeholdt."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Dashbord",
+    "meta_descricao": "Registrer reisene dine og følg karbonavtrykket ditt over tid.",
+    "titulo": "Ditt vanedashbord",
+    "subtitulo": "Registrer reisene dine og følg karbonavtrykket ditt over tid.",
+    "card_hoje": "CO₂ i dag",
+    "card_semana": "CO₂ denne uken",
+    "card_mes": "CO₂ denne måneden",
+    "grafico_titulo": "Utvikling de siste 14 dagene",
+    "grafico_aria": "Utvikling av CO₂ de siste {{dias}} dagene",
+    "form_titulo": "Legg til reise",
+    "campo_meio": "Transportmiddel",
+    "campo_distancia": "Avstand (km)",
+    "campo_data": "Dato",
+    "campo_observacao": "Notat (valgfritt)",
+    "campo_observacao_placeholder": "f.eks.: reise til jobb",
+    "botao_adicionar": "legg til",
+    "salvando": "lagrer...",
+    "registrado_sucesso": "Reise registrert!",
+    "registros_titulo": "Siste registreringer",
+    "registros_vazio": "Ingen registreringer ennå — legg til din første reise ovenfor.",
+    "meio_removido": "Middel fjernet",
+    "remover_registro": "Fjern registrering",
+    "sessao_expirada": "Sesjonen er utløpt.",
+    "erro_servidor": "Kunne ikke nå serveren. Kjører den?",
+    "erro_generico": "Kunne ikke fullføre handlingen.",
+    "delta_sem_registros": "ingen registreringer i perioden",
+    "delta_primeiro_registro": "første registrering i perioden",
+    "delta_estavel": "stabil vs. forrige periode",
+    "delta_variacao": "{{percentual}}% vs. forrige periode"
+  },
+  "globo": {
+    "legenda_titulo": "Utslipp per innbygger",
+    "legenda_baixa": "Lav",
+    "legenda_alta": "Høy",
+    "sair_destaque": "Avslutt fremhevingsmodus",
+    "buscar_placeholder": "Søk etter land...",
+    "buscar_aria": "Søk etter land på globusen",
+    "sem_dados_co2": "ingen CO₂-data",
+    "tonelada_ano_pessoa": "{{valor}} tonn/år per person",
+    "territorio": "Territorium",
+    "fechar_painel": "Lukk panel",
+    "sem_dados_territorio": "Ingen data om CO₂-utslipp per innbygger tilgjengelig for dette territoriet.",
+    "emissao_per_capita": "Utslipp per innbygger:",
+    "equivalente_diario": "Daglig tilsvarende:",
+    "equivalente_semanal": "Ukentlig tilsvarende:",
+    "equivalente_mensal": "Månedlig tilsvarende:",
+    "posicao_ranking": "Plassering på rangeringen (av {{total}} land):",
+    "fonte_estimativa": "Estimat for fossilt CO₂ per innbygger (Global Carbon Budget / Our World in Data, basisår 2024).",
+    "aria_interativo": "Interaktiv globus for karbonutslipp. Dra for å rotere, rull for å zoome, klikk på et land for å se dataene, og dobbeltklikk for å sette globusen i fremhevingsmodus.",
+    "aria_decorativo": "Dekorativ roterende globus som illustrerer den globale rekkevidden til Carbono Consciente-prosjektet.",
+    "continente_asia": "Asia",
+    "continente_africa": "Afrika",
+    "continente_europa": "Europa",
+    "continente_america_sul": "Sør-Amerika",
+    "continente_america_norte": "Nord-Amerika",
+    "continente_oceania": "Oseania"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Bosh sahifaga qaytish",
+    "theme_toggle_aria": "Yorug'/qorong'u mavzuni almashtirish",
+    "menu_aria": "Menyuni ochish",
+    "login_link": "kirish",
+    "sair_link": "chiqish",
+    "painel_link": "panel",
+    "fechar": "Yopish",
+    "nav": {
+      "plataforma": "Platforma",
+      "impacto": "Ta'sir",
+      "habitos": "Odatlar",
+      "contato": "Aloqa",
+      "dados": "Ma'lumotlar"
+    }
+  },
+  "header": {
+    "idioma_aria": "Tilni o'zgartirish",
+    "idioma_buscar_placeholder": "Tilni qidirish..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Kirish",
+    "meta_descricao": "Carbono Consciente'da ma'lumotlaringiz va odatlaringizni kuzatish uchun kiring yoki ro'yxatdan o'ting.",
+    "esquerda_titulo": "Har bir tonna CO₂ iz qoldiradi",
+    "esquerda_texto": "Ma'lumotlaringiz, odatlaringiz va uglerod izingizni kuzatish uchun kiring.",
+    "google_botao": "Google orqali davom etish",
+    "google_em_breve": "Google orqali kirish tez orada qo'shiladi.",
+    "enviando": "yuborilmoqda...",
+    "erro_servidor": "Server bilan bog'lanib bo'lmadi. U ishlayaptimi?",
+    "erro_generico": "Amalni bajarib bo'lmadi.",
+    "login": {
+      "titulo": "Kirish",
+      "email_label": "Email",
+      "email_placeholder": "siz@email.com",
+      "senha_label": "Parol",
+      "botao": "kirish",
+      "troca_texto": "Hali hisobingiz yo'qmi?",
+      "troca_botao": "Ro'yxatdan o'tish"
+    },
+    "cadastro": {
+      "titulo": "Ro'yxatdan o'tish",
+      "nome_label": "Ism",
+      "nome_placeholder": "Ismingiz",
+      "email_label": "Email",
+      "email_placeholder": "siz@email.com",
+      "pais_label": "Davlat",
+      "pais_placeholder": "Davlatni qidirish...",
+      "senha_label": "Parol",
+      "confirmar_label": "Parolni tasdiqlash",
+      "botao": "ro'yxatdan o'tish",
+      "troca_texto": "Hisobingiz bormi?",
+      "troca_botao": "Kirish"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Parollar mos kelmadi."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: uglerod chiqindilari, uglerod izi, barqaror maslahatlar, qiziqarli faktlar va atrof-muhit yangiliklari haqida ekologik ta'lim.",
+    "hero": {
+      "titulo": "Har bir kichik odat sayyoraga kamroq yuk bo'ladi",
+      "texto": "CARBONO CONSCIENTE YASHIL NISHON HAM, UZOQ MAQSAD HAM EMAS — U HAR KUNI TAKRORLANADIGAN ODDIY TANLOVLAR YIG'INDISIDIR: NIMA EKASIZ, QANDAY HARAKATLANASIZ, CHIROQNI QACHON O'CHIRASIZ, CHIQINDINI QAYERGA TASHLAYSIZ.",
+      "botao": "Ko'proq ko'rish"
+    },
+    "acordeao": {
+      "titulo": "Carbono Consciente nima?",
+      "emissao_titulo": "Uglerod chiqindisi",
+      "emissao_corpo": "Uglerod chiqindisi — bu CO₂ kabi gazlarning atmosferaga chiqarilishi, asosan fosil yoqilg'ilarini yoqish, o'rmonlarni kesish, sanoat ishlab chiqarishi va hatto kundalik transport orqali.",
+      "clima_titulo": "Bu iqlimga qanday ta'sir qiladi?",
+      "clima_corpo": "Issiqxona gazlari atmosferada issiqlikni ushlab turadigan qatlam hosil qiladi. Chiqindilar qanchalik ko'p bo'lsa, bu ta'sir shunchalik kuchli bo'ladi — va aynan shu global isinish va iqlim o'zgarishini keltirib chiqaradi.",
+      "pegada_titulo": "Uglerod izi",
+      "pegada_corpo": "Bu bir inson, kompaniya yoki mahsulotning kundalik faoliyati natijasida to'g'ridan-to'g'ri yoki bilvosita hosil bo'ladigan issiqxona gazlarining umumiy miqdoridir.",
+      "neutro_titulo": "Uglerod neytralligi × Carbono Consciente",
+      "neutro_corpo": "<strong>Uglerod neytralligi</strong> hosil bo'lgan chiqindilarni muvozanatlashtirish yoki qoplashga intiladi. <strong>Carbono consciente</strong> esa qoplash haqida o'ylashdan oldin atrof-muhitga ta'sirni kamaytiradigan tanlovlarni ustun qo'yadi."
+    },
+    "dicas": {
+      "titulo_secao": "Barqaror maslahatlar",
+      "clique_voltar": "orqaga qaytarish uchun bosing",
+      "casa": {
+        "titulo": "Uy",
+        "resumo": "Kundalik energiya va suvni tejash",
+        "item1": "Energiyani tejash",
+        "item2": "Ishlatilmayotganda chiroqlarni o'chirish",
+        "item3": "Jihozlardan ongli foydalanish",
+        "item4": "Suv isrofini kamaytirish",
+        "item5": "Oziq-ovqat isrofidan qochish"
+      },
+      "transporte": {
+        "titulo": "Transport",
+        "resumo": "Yengilroq yurishlar uchun avtomobilga muqobillar",
+        "item1": "Imkon bo'lganda piyoda yurish",
+        "item2": "Velosipeddan foydalanish",
+        "item3": "Jamoat transportidan foydalanish",
+        "item4": "Imkon bo'lganda sayohatlarni baham ko'rish",
+        "item5": "Avtomobilda keraksiz yurishlarni kamaytirish"
+      },
+      "alimentacao": {
+        "titulo": "Ovqatlanish",
+        "resumo": "Chiqindi va chiqindilarni kamaytiradigan dasturxon tanlovlari",
+        "item1": "Mahalliy mahsulotlarni iste'mol qilish",
+        "item2": "Isrofdan qochish",
+        "item3": "Ovqatlanishni oldindan rejalashtirish",
+        "item4": "Oziq-ovqatdan yaxshiroq foydalanish",
+        "item5": "Go'sht iste'molini kamaytirish"
+      },
+      "reciclagem": {
+        "titulo": "Qayta ishlash",
+        "resumo": "Saralang, qayta ishlating va qolganlarga yangi hayot bering",
+        "item1": "Chiqindilarni to'g'ri saralash",
+        "item2": "Materiallarni qayta ishlatish",
+        "item3": "Qayta ishlanadigan chiqindilarni to'g'ri joyga topshirish",
+        "item4": "Bir martalik mahsulotlardan qochish",
+        "item5": "Buyumlarga yangi qo'llanish topish"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Atrof-muhit haqida qiziqarli faktlar",
+      "subtitulo": "Bilasizmi?",
+      "carregando": "Qiziqarli fakt yuklanmoqda...",
+      "proxima": "Keyingi qiziqarli fakt",
+      "erro_carregar": "Hozircha qiziqarli faktlarni yuklab bo'lmadi."
+    },
+    "noticias": {
+      "titulo": "Atrof-muhit yangiliklari",
+      "subtitulo": "Barqarorlik haqida haqiqiy va so'nggi yangiliklar",
+      "anteriores": "Oldingi yangiliklar",
+      "proximas": "Keyingi yangiliklar",
+      "carregando": "Yangiliklar yuklanmoqda...",
+      "erro_carregar": "Hozircha yangiliklarni yuklab bo'lmadi.",
+      "nenhuma": "Hozirda mavjud yangilik yo'q.",
+      "ler_na_origem": "manbada o'qish →",
+      "sem_link": "Bu yangilik uchun tashqi havola mavjud emas."
+    },
+    "rodape": {
+      "descricao": "Kichik tanlovlarni sayyora uchun katta natijalarga aylantiradigan ekologik ta'lim.",
+      "navegacao": "Navigatsiya",
+      "contato": "Aloqa",
+      "copyright": "© 2026 Carbono Consciente. Barcha huquqlar himoyalangan."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Panel",
+    "meta_descricao": "Sayohatlaringizni qayd eting va uglerod izingizni vaqt davomida kuzating.",
+    "titulo": "Sizning odatlar panelingiz",
+    "subtitulo": "Sayohatlaringizni qayd eting va uglerod izingizni vaqt davomida kuzating.",
+    "card_hoje": "Bugungi CO₂",
+    "card_semana": "Shu haftadagi CO₂",
+    "card_mes": "Shu oydagi CO₂",
+    "grafico_titulo": "Oxirgi 14 kundagi o'zgarish",
+    "grafico_aria": "Oxirgi {{dias}} kundagi CO₂ o'zgarishi",
+    "form_titulo": "Sayohat qo'shish",
+    "campo_meio": "Transport turi",
+    "campo_distancia": "Masofa (km)",
+    "campo_data": "Sana",
+    "campo_observacao": "Izoh (ixtiyoriy)",
+    "campo_observacao_placeholder": "masalan: ishga borish",
+    "botao_adicionar": "qo'shish",
+    "salvando": "saqlanmoqda...",
+    "registrado_sucesso": "Sayohat qayd etildi!",
+    "registros_titulo": "So'nggi yozuvlar",
+    "registros_vazio": "Hali yozuvlar yo'q — birinchi sayohatingizni yuqorida qo'shing.",
+    "meio_removido": "Transport turi o'chirildi",
+    "remover_registro": "Yozuvni o'chirish",
+    "sessao_expirada": "Sessiya muddati tugadi.",
+    "erro_servidor": "Server bilan bog'lanib bo'lmadi. U ishlayaptimi?",
+    "erro_generico": "Amalni bajarib bo'lmadi.",
+    "delta_sem_registros": "bu davrda yozuvlar yo'q",
+    "delta_primeiro_registro": "bu davrdagi birinchi yozuv",
+    "delta_estavel": "oldingi davrga nisbatan barqaror",
+    "delta_variacao": "oldingi davrga nisbatan {{percentual}}%"
+  },
+  "globo": {
+    "legenda_titulo": "Jon boshiga chiqindilar",
+    "legenda_baixa": "Past",
+    "legenda_alta": "Yuqori",
+    "sair_destaque": "Ajratib ko'rsatish rejimidan chiqish",
+    "buscar_placeholder": "Davlatni qidirish...",
+    "buscar_aria": "Globusda davlatni qidirish",
+    "sem_dados_co2": "CO₂ ma'lumotlari yo'q",
+    "tonelada_ano_pessoa": "jon boshiga {{valor}} t/yil",
+    "territorio": "Hudud",
+    "fechar_painel": "Panelni yopish",
+    "sem_dados_territorio": "Bu hudud uchun jon boshiga CO₂ chiqindilari haqida ma'lumot mavjud emas.",
+    "emissao_per_capita": "Jon boshiga chiqindilar:",
+    "equivalente_diario": "Kunlik ekvivalent:",
+    "equivalente_semanal": "Haftalik ekvivalent:",
+    "equivalente_mensal": "Oylik ekvivalent:",
+    "posicao_ranking": "Reytingdagi o'rin ({{total}} davlat ichida):",
+    "fonte_estimativa": "Fosil CO₂ ning jon boshiga taxminiy qiymati (Global Carbon Budget / Our World in Data, 2024 bazaviy yil).",
+    "aria_interativo": "Interaktiv uglerod chiqindilari globusi. Aylantirish uchun torting, kattalashtirish uchun aylantiring, ma'lumotlarni ko'rish uchun davlatni bosing va globusni ajratib ko'rsatish uchun ikki marta bosing.",
+    "aria_decorativo": "Carbono Consciente loyihasining global qamrovini ko'rsatuvchi dekorativ aylanuvchi globus.",
+    "continente_asia": "Osiyo",
+    "continente_africa": "Afrika",
+    "continente_europa": "Yevropa",
+    "continente_america_sul": "Janubiy Amerika",
+    "continente_america_norte": "Shimoliy Amerika",
+    "continente_oceania": "Okeaniya"
+  }
+}

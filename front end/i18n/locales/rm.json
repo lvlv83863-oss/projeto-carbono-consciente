@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Enavos a la pagina iniziala",
+    "theme_toggle_aria": "Midar il stil cler/stgir",
+    "menu_aria": "Avrir il menu",
+    "login_link": "annunzcha",
+    "sair_link": "sortir",
+    "painel_link": "survesta",
+    "fechar": "Serrar",
+    "nav": {
+      "plataforma": "Plattafurma",
+      "impacto": "Impact",
+      "habitos": "Costums",
+      "contato": "Contact",
+      "dados": "Datas"
+    }
+  },
+  "header": {
+    "idioma_aria": "Midar la lingua",
+    "idioma_buscar_placeholder": "Tschertgar la lingua..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — S'annunziar",
+    "meta_descricao": "S'annunzcha u registrescha per suandar tias datas e costums sin Carbono Consciente.",
+    "esquerda_titulo": "Mintga tonna da CO₂ lascha ina traccia",
+    "esquerda_texto": "Annunzcha per suandar tias datas, costums e tia impronta da carbon.",
+    "google_botao": "Cuntinuar cun Google",
+    "google_em_breve": "Annunzcha cun Google avant maun bainbaud.",
+    "enviando": "tramettend...",
+    "erro_servidor": "Impussibel da cuntactar il server. Funcziuna el?",
+    "erro_generico": "Impussibel da terminar l'operaziun.",
+    "login": {
+      "titulo": "Annunzcha",
+      "email_label": "Email",
+      "email_placeholder": "tiu@email.com",
+      "senha_label": "Pled-clav",
+      "botao": "s'annunziar",
+      "troca_texto": "Anc nagin conto?",
+      "troca_botao": "Registrar"
+    },
+    "cadastro": {
+      "titulo": "Registraziun",
+      "nome_label": "Num",
+      "nome_placeholder": "Tiu num",
+      "email_label": "Email",
+      "email_placeholder": "tiu@email.com",
+      "pais_label": "Pajais",
+      "pais_placeholder": "Tschertgar il pajais...",
+      "senha_label": "Pled-clav",
+      "confirmar_label": "Confermar il pled-clav",
+      "botao": "registrar",
+      "troca_texto": "Gia in conto?",
+      "troca_botao": "Annunzcha"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Ils pleds-clav n'enconcordan betg."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: educaziun ambientala davart emissiuns da carbon, impronta da carbon, cussegls sustenibels, curiositads e novitads ambientalas.",
+    "hero": {
+      "titulo": "Mintga pitschna costum pesa damain sin il planet",
+      "texto": "CARBONO CONSCIENTE NA È NINGINA LABEL VERDA NI IN OBJECTIV LUNTAN — I SA TRATGA DA LA SUMMA DA DECISIUNS NORMALAS, RIPETIDAS MINTGA DI: QUÈ CHE TI PLANTAS, CUM TI TA MOVAS, QUAND TI SCHMORZAS LA GLISCH, NUA TI GESCHTAS IL CHITTER.",
+      "botao": "Vair dapli"
+    },
+    "acordeao": {
+      "titulo": "Tge è Carbono Consciente?",
+      "emissao_titulo": "Emissiun da carbon",
+      "emissao_corpo": "L'emissiun da carbon è la liberaziun da gas sco il CO₂ en l'atmosfera, surtut cun arder combustibels fossils, deforestaziun, producziun industriala e perfin cun il traffic da mintgadi.",
+      "clima_titulo": "Co influenza quai il clima?",
+      "clima_corpo": "Ils gas da l'effect da serra furman ina chaschetta che tegna la chalur en l'atmosfera. Dapli emissiuns, pli grond quest effect — e quai è quai che manià il reschauf global e la midada da clima.",
+      "pegada_titulo": "Impronta da carbon",
+      "pegada_corpo": "Quai è la quantitad totala da gas da l'effect da serra generada, directamain u indirectamain, da las activitads d'ina persuna, d'ina interpresa u d'in product en lur mintgadi.",
+      "neutro_titulo": "Carbon neutral × Carbono Consciente",
+      "neutro_corpo": "<strong>Carbon neutral</strong> emprova da equilibrar u cumpensar las emissiuns generadas. <strong>Carbono consciente</strong> dat la priorità a decisiuns che reduceschan l'impact ambiental avant da pensar a la cumpensaziun."
+    },
+    "dicas": {
+      "titulo_secao": "Cussegls sustenibels",
+      "clique_voltar": "clicca per turnar",
+      "casa": {
+        "titulo": "Chasa",
+        "resumo": "Spargnar energia ed aua en il mintgadi",
+        "item1": "Spargnar energia",
+        "item2": "Stidar la glisch cur ch'ella n'è betg duvrada",
+        "item3": "Duvrar apparats cun resguard",
+        "item4": "Reducir la sprodigaziun d'aua",
+        "item5": "Evitar la sprodigaziun da victualias"
+      },
+      "transporte": {
+        "titulo": "Traffic",
+        "resumo": "Alternativas a l'auto per sa mover pli leicht",
+        "item1": "Ir a pe, sche pussibel",
+        "item2": "Duvrar la bicicletta",
+        "item3": "Duvrar il traffic public",
+        "item4": "Cundivider viadis sche pussibel",
+        "item5": "Reducir viadis betg necessaris cun l'auto"
+      },
+      "alimentacao": {
+        "titulo": "Alimentaziun",
+        "resumo": "Decisiuns a maisa che reduceschan la sprodigaziun e las emissiuns",
+        "item1": "Consumar products locals",
+        "item2": "Evitar la sprodigaziun",
+        "item3": "Planisar las maisas",
+        "item4": "Duvrar meglier las victualias",
+        "item5": "Reducir il consum da charn"
+      },
+      "reciclagem": {
+        "titulo": "Reciclaschi",
+        "resumo": "Separar, utilisar anc ina giada e dar in nov diever a quai che resta",
+        "item1": "Separar correctamain ils rument",
+        "item2": "Reutilisar materials",
+        "item3": "Directer correctamain materials reciclabels",
+        "item4": "Evitar products per ina sola giada",
+        "item5": "Dar in nov diever a las chaussas"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Curiositads ambientalas",
+      "subtitulo": "Savevas ti?",
+      "carregando": "Chargiond ina curiositad...",
+      "proxima": "Proxima curiositad",
+      "erro_carregar": "Impussibel da chargiar las curiositads en quest mument."
+    },
+    "noticias": {
+      "titulo": "Novitads ambientalas",
+      "subtitulo": "Novitads reaelas e recentas davart la sustenabilitad",
+      "anteriores": "Novitads anteriuras",
+      "proximas": "Proximas novitads",
+      "carregando": "Chargiond novitads...",
+      "erro_carregar": "Impussibel da chargiar las novitads en quest mument.",
+      "nenhuma": "Naginas novitads disponiblas al mument.",
+      "ler_na_origem": "leger a la funtauna →",
+      "sem_link": "Nagin link extern disponibel per questa novitad."
+    },
+    "rodape": {
+      "descricao": "Educaziun ambientala che transforma pitschnas decisiuns en grondas resultatas per il planet.",
+      "navegacao": "Navigaziun",
+      "contato": "Contact",
+      "copyright": "© 2026 Carbono Consciente. Tut ils dretgs reservads."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Survesta",
+    "meta_descricao": "Registrescha tes viadis e suonda tia impronta da carbon cun il temp.",
+    "titulo": "Tia survesta da costums",
+    "subtitulo": "Registrescha tes viadis e suonda tia impronta da carbon cun il temp.",
+    "card_hoje": "CO₂ oz",
+    "card_semana": "CO₂ questa emna",
+    "card_mes": "CO₂ quest mais",
+    "grafico_titulo": "Evoluziun durant ils ultims 14 dis",
+    "grafico_aria": "Evoluziun dal CO₂ durant ils ultims {{dias}} dis",
+    "form_titulo": "Agiuntar in viadi",
+    "campo_meio": "Meds da traffic",
+    "campo_distancia": "Distanza (km)",
+    "campo_data": "Data",
+    "campo_observacao": "Remartga (opziunal)",
+    "campo_observacao_placeholder": "p.ex.: viadi al lavur",
+    "botao_adicionar": "agiuntar",
+    "salvando": "memorisond...",
+    "registrado_sucesso": "Viadi registrà!",
+    "registros_titulo": "Ultims registraziuns",
+    "registros_vazio": "Anc naginas registraziuns — agiunta tes emprim viadi above.",
+    "meio_removido": "Med allontanà",
+    "remover_registro": "Allontanar la registraziun",
+    "sessao_expirada": "Sessiun scadida.",
+    "erro_servidor": "Impussibel da cuntactar il server. Funcziuna el?",
+    "erro_generico": "Impussibel da terminar l'operaziun.",
+    "delta_sem_registros": "naginas registraziuns en quest period",
+    "delta_primeiro_registro": "emprima registraziun en quest period",
+    "delta_estavel": "stabel cumpareglià cun il period precedent",
+    "delta_variacao": "{{percentual}}% cumpareglià cun il period precedent"
+  },
+  "globo": {
+    "legenda_titulo": "Emissiun per persuna",
+    "legenda_baixa": "Bassa",
+    "legenda_alta": "Auta",
+    "sair_destaque": "Bandunar il modus d'evidenziaziun",
+    "buscar_placeholder": "Tschertgar il pajais...",
+    "buscar_aria": "Tschertgar in pajais sin il glob",
+    "sem_dados_co2": "naginas datas da CO₂",
+    "tonelada_ano_pessoa": "{{valor}} t/onn per persuna",
+    "territorio": "Territori",
+    "fechar_painel": "Serrar il panel",
+    "sem_dados_territorio": "Naginas datas davart l'emissiun da CO₂ per persuna disponiblas per quest territori.",
+    "emissao_per_capita": "Emissiun per persuna:",
+    "equivalente_diario": "Equivalent per di:",
+    "equivalente_semanal": "Equivalent per emna:",
+    "equivalente_mensal": "Equivalent per mais:",
+    "posicao_ranking": "Posiziun en la glista (da {{total}} pajais):",
+    "fonte_estimativa": "Extimaziun da l'emissiun fossila da CO₂ per persuna (Global Carbon Budget / Our World in Data, onn da basa 2024).",
+    "aria_interativo": "Glob interactiv da las emissiuns da carbon. Tira per far rodar, scrolla per zoomar, clicca sin in pajais per vair las datas e clicca duas giadas per metter il glob en evidenza.",
+    "aria_decorativo": "Glob decorativ che rouda, illustrond la purtada globala dal project Carbono Consciente.",
+    "continente_asia": "Asia",
+    "continente_africa": "Africa",
+    "continente_europa": "Europa",
+    "continente_america_sul": "America dal Sid",
+    "continente_america_norte": "America dal Nord",
+    "continente_oceania": "Oceania"
+  }
+}

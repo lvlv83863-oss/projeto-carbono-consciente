@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Itzuli hasierara",
+    "theme_toggle_aria": "Aldatu gai argia/iluna",
+    "menu_aria": "Ireki menua",
+    "login_link": "hasi saioa",
+    "sair_link": "amaitu saioa",
+    "painel_link": "panela",
+    "fechar": "Itxi",
+    "nav": {
+      "plataforma": "Plataforma",
+      "impacto": "Eragina",
+      "habitos": "Ohiturak",
+      "contato": "Kontaktua",
+      "dados": "Datuak"
+    }
+  },
+  "header": {
+    "idioma_aria": "Aldatu hizkuntza",
+    "idioma_buscar_placeholder": "Bilatu hizkuntza..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Hasi saioa",
+    "meta_descricao": "Hasi saioa edo izena eman zure datuak eta ohiturak Carbono Conscienten jarraitzeko.",
+    "esquerda_titulo": "CO₂ tona bakoitzak arrastoa uzten du",
+    "esquerda_texto": "Hasi saioa zure datuak, ohiturak eta aztarna karbonikoa jarraitzeko.",
+    "google_botao": "Jarraitu Googlerekin",
+    "google_em_breve": "Googlerekin saioa hastea laster.",
+    "enviando": "bidaltzen...",
+    "erro_servidor": "Ezin izan da zerbitzariarekin hitz egin. Martxan dago?",
+    "erro_generico": "Ezin izan da eragiketa osatu.",
+    "login": {
+      "titulo": "Hasi saioa",
+      "email_label": "Helbide elektronikoa",
+      "email_placeholder": "zure@email.com",
+      "senha_label": "Pasahitza",
+      "botao": "hasi saioa",
+      "troca_texto": "Konturik ez duzu oraindik?",
+      "troca_botao": "Eman izena"
+    },
+    "cadastro": {
+      "titulo": "Izen-ematea",
+      "nome_label": "Izena",
+      "nome_placeholder": "Zure izena",
+      "email_label": "Helbide elektronikoa",
+      "email_placeholder": "zure@email.com",
+      "pais_label": "Herrialdea",
+      "pais_placeholder": "Bilatu herrialdea...",
+      "senha_label": "Pasahitza",
+      "confirmar_label": "Berretsi pasahitza",
+      "botao": "eman izena",
+      "troca_texto": "Kontua baduzu jada?",
+      "troca_botao": "Hasi saioa"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Pasahitzak ez datoz bat."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: ingurumen hezkuntza karbono-isurketei, aztarna karbonikoari, aholku jasangarriei, kuriositateei eta ingurumen-berriei buruz.",
+    "hero": {
+      "titulo": "Ohitura txiki bakoitzak gutxiago pisatzen du planetan",
+      "texto": "CARBONO CONSCIENTE EZ DA ZIGILU BERDE BAT EZ ETA HELBURU URRUN BAT — EGUNERO ERREPIKATZEN DIREN AUKERA ARRUNTEN BATURA DA: ZER LANDATZEN DUZUN, NOLA MUGITZEN ZAREN, NOIZ ITZALTZEN DUZUN ARGIA, NON BOTATZEN DUZUN ZABORRA.",
+      "botao": "Ikusi gehiago"
+    },
+    "acordeao": {
+      "titulo": "Zer da Carbono Consciente?",
+      "emissao_titulo": "Karbono-isuria",
+      "emissao_corpo": "Karbono-isuria CO₂ bezalako gasak atmosferara askatzea da, nagusiki erregai fosilak erretzearen, deforestazioaren, ekoizpen industrialaren eta eguneroko garraioaren ondorioz.",
+      "clima_titulo": "Nola eragiten dio klimari?",
+      "clima_corpo": "Berotegi-efektuko gasek atmosferan beroa atxikitzen duen geruza osatzen dute. Isuri gehiago, efektu handiagoa — eta horrek bultzatzen du berotze globala eta klima-aldaketa.",
+      "pegada_titulo": "Aztarna karbonikoa",
+      "pegada_corpo": "Pertsona, enpresa edo produktu batek egunerokoan, zuzenean edo zeharka, sortzen duen berotegi-efektuko gasen kopuru osoa da.",
+      "neutro_titulo": "Karbono neutroa × Carbono Consciente",
+      "neutro_corpo": "<strong>Karbono neutroa</strong> sortutako isuriak orekatzen edo konpentsatzen saiatzen da. <strong>Carbono consciente</strong>k ingurumen-eragina murrizten duten aukerei lehentasuna ematen die, konpentsazioan pentsatu baino lehen."
+    },
+    "dicas": {
+      "titulo_secao": "Aholku jasangarriak",
+      "clique_voltar": "sakatu itzultzeko",
+      "casa": {
+        "titulo": "Etxea",
+        "resumo": "Energia eta uraren aurrezpena egunerokoan",
+        "item1": "Aurreztu energia",
+        "item2": "Itzali argiak erabiltzen ez direnean",
+        "item3": "Erabili tresnak kontzientzia hartuta",
+        "item4": "Murriztu uraren xahutzea",
+        "item5": "Saihestu janari-xahutzea"
+      },
+      "transporte": {
+        "titulo": "Garraioa",
+        "resumo": "Autoaren ordezko aukerak mugikortasun arinagorako",
+        "item1": "Oinez joan ahal denean",
+        "item2": "Erabili bizikleta",
+        "item3": "Erabili garraio publikoa",
+        "item4": "Partekatu bidaiak ahal denean",
+        "item5": "Murriztu behar ez diren auto-bidaiak"
+      },
+      "alimentacao": {
+        "titulo": "Elikadura",
+        "resumo": "Mahaiko aukerak, xahutzea eta isuriak murrizteko",
+        "item1": "Erosi tokiko produktuak",
+        "item2": "Saihestu xahutzea",
+        "item3": "Planifikatu otorduak",
+        "item4": "Baliatu hobeto janaria",
+        "item5": "Murriztu haragi-kontsumoa"
+      },
+      "reciclagem": {
+        "titulo": "Birziklapena",
+        "resumo": "Bereizi, berrerabili eta eman bizitza berria soberan geratzen denari",
+        "item1": "Bereizi hondakinak behar bezala",
+        "item2": "Berrerabili materialak",
+        "item3": "Bideratu birziklagarriak behar bezala",
+        "item4": "Saihestu produktu botagarriak",
+        "item5": "Eman erabilera berria objektuei"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Ingurumen-kuriositateak",
+      "subtitulo": "Bazenekien?",
+      "carregando": "Kuriositatea kargatzen...",
+      "proxima": "Hurrengo kuriositatea",
+      "erro_carregar": "Ezin izan dira kuriositateak kargatu orain."
+    },
+    "noticias": {
+      "titulo": "Ingurumen-berriak",
+      "subtitulo": "Jasangarritasunari buruzko benetako eta azken berriak",
+      "anteriores": "Aurreko berriak",
+      "proximas": "Hurrengo berriak",
+      "carregando": "Berriak kargatzen...",
+      "erro_carregar": "Ezin izan dira berriak kargatu orain.",
+      "nenhuma": "Ez dago berriarik eskuragarri momentu honetan.",
+      "ler_na_origem": "irakurri jatorrizko webgunean →",
+      "sem_link": "Berri honek ez du esteka kanporik erabilgarri."
+    },
+    "rodape": {
+      "descricao": "Ingurumen hezkuntza, aukera txikiak planetarentzako emaitza handi bihurtzen dituena.",
+      "navegacao": "Nabigazioa",
+      "contato": "Kontaktua",
+      "copyright": "© 2026 Carbono Consciente. Eskubide guztiak erreserbatuta."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Panela",
+    "meta_descricao": "Erregistratu zure joan-etorriak eta jarraitu zure aztarna karbonikoa denboran.",
+    "titulo": "Zure ohituren panela",
+    "subtitulo": "Erregistratu zure joan-etorriak eta jarraitu zure aztarna karbonikoa denboran.",
+    "card_hoje": "CO₂ gaur",
+    "card_semana": "CO₂ aste honetan",
+    "card_mes": "CO₂ hilabete honetan",
+    "grafico_titulo": "Azken 14 egunen bilakaera",
+    "grafico_aria": "CO₂-aren bilakaera azken {{dias}} egunetan",
+    "form_titulo": "Gehitu joan-etorria",
+    "campo_meio": "Garraiobidea",
+    "campo_distancia": "Distantzia (km)",
+    "campo_data": "Data",
+    "campo_observacao": "Oharra (aukerakoa)",
+    "campo_observacao_placeholder": "adib.: lanerako joan-etorria",
+    "botao_adicionar": "gehitu",
+    "salvando": "gordetzen...",
+    "registrado_sucesso": "Joan-etorria erregistratuta!",
+    "registros_titulo": "Azken erregistroak",
+    "registros_vazio": "Oraindik erregistrorik ez — gehitu zure lehen joan-etorria goian.",
+    "meio_removido": "Garraiobidea kenduta",
+    "remover_registro": "Kendu erregistroa",
+    "sessao_expirada": "Saioa iraungi da.",
+    "erro_servidor": "Ezin izan da zerbitzariarekin hitz egin. Martxan dago?",
+    "erro_generico": "Ezin izan da eragiketa osatu.",
+    "delta_sem_registros": "aldi honetan erregistrorik ez",
+    "delta_primeiro_registro": "aldiko lehen erregistroa",
+    "delta_estavel": "egonkorra aurreko aldiarekin alderatuta",
+    "delta_variacao": "{{percentual}}% aurreko aldiarekin alderatuta"
+  },
+  "globo": {
+    "legenda_titulo": "Biztanleko isuria",
+    "legenda_baixa": "Baxua",
+    "legenda_alta": "Altua",
+    "sair_destaque": "Irten nabarmentze modutik",
+    "buscar_placeholder": "Bilatu herrialdea...",
+    "buscar_aria": "Bilatu herrialdea globoan",
+    "sem_dados_co2": "CO₂ daturik ez",
+    "tonelada_ano_pessoa": "{{valor}} t/urte pertsonako",
+    "territorio": "Lurraldea",
+    "fechar_painel": "Itxi panela",
+    "sem_dados_territorio": "Lurralde honentzat ez dago biztanleko CO₂ isuriei buruzko daturik eskuragarri.",
+    "emissao_per_capita": "Biztanleko isuria:",
+    "equivalente_diario": "Baliokide egunekoa:",
+    "equivalente_semanal": "Baliokide astekoa:",
+    "equivalente_mensal": "Baliokide hilekoa:",
+    "posicao_ranking": "Ranking-eko posizioa ({{total}} herrialdetik):",
+    "fonte_estimativa": "CO₂ fosilaren biztanleko isuriaren estimazioa (Global Carbon Budget / Our World in Data, 2024 oinarri-urtea).",
+    "aria_interativo": "Karbono-isurien globo interaktiboa. Arrastatu biratzeko, mugitu gurpila zooma egiteko, sakatu herrialde batean bere datuak ikusteko, eta egin klik bikoitza globoa nabarmentze modura jartzeko.",
+    "aria_decorativo": "Biratzen ari den globo apaingarria, Carbono Consciente proiektuaren munduko irismena irudikatzen duena.",
+    "continente_asia": "Asia",
+    "continente_africa": "Afrika",
+    "continente_europa": "Europa",
+    "continente_america_sul": "Hego Amerika",
+    "continente_america_norte": "Ipar Amerika",
+    "continente_oceania": "Oceania"
+  }
+}

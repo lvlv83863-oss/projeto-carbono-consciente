@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Về trang chủ",
+    "theme_toggle_aria": "Chuyển giao diện sáng/tối",
+    "menu_aria": "Mở menu",
+    "login_link": "đăng nhập",
+    "sair_link": "đăng xuất",
+    "painel_link": "bảng điều khiển",
+    "fechar": "Đóng",
+    "nav": {
+      "plataforma": "Nền tảng",
+      "impacto": "Tác động",
+      "habitos": "Thói quen",
+      "contato": "Liên hệ",
+      "dados": "Dữ liệu"
+    }
+  },
+  "header": {
+    "idioma_aria": "Đổi ngôn ngữ",
+    "idioma_buscar_placeholder": "Tìm ngôn ngữ..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Đăng nhập",
+    "meta_descricao": "Đăng nhập hoặc tạo tài khoản để theo dõi dữ liệu và thói quen của bạn trên Carbono Consciente.",
+    "esquerda_titulo": "Mỗi tấn CO₂ đều để lại dấu vết",
+    "esquerda_texto": "Đăng nhập để theo dõi dữ liệu, thói quen và dấu chân carbon của bạn.",
+    "google_botao": "Tiếp tục với Google",
+    "google_em_breve": "Đăng nhập bằng Google sẽ có sớm.",
+    "enviando": "đang gửi...",
+    "erro_servidor": "Không kết nối được với máy chủ. Máy chủ có đang chạy không?",
+    "erro_generico": "Không thể hoàn tất thao tác.",
+    "login": {
+      "titulo": "Đăng nhập",
+      "email_label": "Email",
+      "email_placeholder": "you@email.com",
+      "senha_label": "Mật khẩu",
+      "botao": "đăng nhập",
+      "troca_texto": "Chưa có tài khoản?",
+      "troca_botao": "Đăng ký"
+    },
+    "cadastro": {
+      "titulo": "Đăng ký",
+      "nome_label": "Tên",
+      "nome_placeholder": "Tên của bạn",
+      "email_label": "Email",
+      "email_placeholder": "you@email.com",
+      "pais_label": "Quốc gia",
+      "pais_placeholder": "Tìm quốc gia...",
+      "senha_label": "Mật khẩu",
+      "confirmar_label": "Xác nhận mật khẩu",
+      "botao": "đăng ký",
+      "troca_texto": "Đã có tài khoản?",
+      "troca_botao": "Đăng nhập"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Mật khẩu không trùng khớp."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: giáo dục môi trường về phát thải carbon, dấu chân carbon, mẹo sống bền vững, kiến thức thú vị và tin tức môi trường.",
+    "hero": {
+      "titulo": "Mỗi thói quen nhỏ là một gánh nặng nhẹ hơn cho hành tinh",
+      "texto": "CARBONO CONSCIENTE KHÔNG PHẢI MỘT NHÃN XANH HAY MỘT MỤC TIÊU XA VỜI — ĐÓ LÀ TỔNG HÒA CỦA NHỮNG LỰA CHỌN BÌNH THƯỜNG, LẶP LẠI MỖI NGÀY: BẠN TRỒNG GÌ, BẠN DI CHUYỂN THẾ NÀO, BẠN TẮT ĐÈN KHI NÀO, BẠN BỎ RÁC Ở ĐÂU.",
+      "botao": "Xem thêm"
+    },
+    "acordeao": {
+      "titulo": "Carbono Consciente là gì?",
+      "emissao_titulo": "Phát thải carbon",
+      "emissao_corpo": "Phát thải carbon là việc thải các loại khí như CO₂ vào khí quyển, chủ yếu từ việc đốt nhiên liệu hóa thạch, phá rừng, sản xuất công nghiệp và cả việc đi lại hằng ngày.",
+      "clima_titulo": "Điều đó ảnh hưởng đến khí hậu ra sao?",
+      "clima_corpo": "Khí nhà kính tạo thành một lớp giữ nhiệt lại trong khí quyển. Càng nhiều phát thải, hiệu ứng này càng mạnh — và đó chính là động lực của hiện tượng nóng lên toàn cầu và biến đổi khí hậu.",
+      "pegada_titulo": "Dấu chân carbon",
+      "pegada_corpo": "Đây là tổng lượng khí nhà kính được tạo ra, trực tiếp hoặc gián tiếp, từ các hoạt động hằng ngày của một người, một doanh nghiệp hay một sản phẩm.",
+      "neutro_titulo": "Trung hòa carbon × Carbono Consciente",
+      "neutro_corpo": "<strong>Trung hòa carbon</strong> hướng tới việc cân bằng hoặc bù đắp lượng phát thải đã tạo ra. <strong>Carbono Consciente</strong> ưu tiên những lựa chọn giúp giảm tác động đến môi trường, trước cả khi nghĩ đến chuyện bù đắp."
+    },
+    "dicas": {
+      "titulo_secao": "Mẹo sống bền vững",
+      "clique_voltar": "nhấn để quay lại",
+      "casa": {
+        "titulo": "Nhà",
+        "resumo": "Tiết kiệm điện và nước mỗi ngày",
+        "item1": "Tiết kiệm năng lượng",
+        "item2": "Tắt đèn khi không sử dụng",
+        "item3": "Dùng thiết bị điện một cách hợp lý",
+        "item4": "Giảm thất thoát nước",
+        "item5": "Tránh bỏ thừa thức ăn"
+      },
+      "transporte": {
+        "titulo": "Di chuyển",
+        "resumo": "Những cách đi lại nhẹ nhàng hơn so với xe hơi",
+        "item1": "Đi bộ khi có thể",
+        "item2": "Sử dụng xe đạp",
+        "item3": "Sử dụng giao thông công cộng",
+        "item4": "Đi chung xe khi có thể",
+        "item5": "Giảm những chuyến xe không cần thiết"
+      },
+      "alimentacao": {
+        "titulo": "Ăn uống",
+        "resumo": "Những lựa chọn trên bàn ăn giúp giảm rác thải và phát thải",
+        "item1": "Dùng thực phẩm địa phương",
+        "item2": "Tránh bỏ thừa",
+        "item3": "Lên kế hoạch cho các bữa ăn",
+        "item4": "Tận dụng thực phẩm tốt hơn",
+        "item5": "Giảm tiêu thụ thịt"
+      },
+      "reciclagem": {
+        "titulo": "Tái chế",
+        "resumo": "Phân loại, tái sử dụng và cho đồ còn lại một vòng đời mới",
+        "item1": "Phân loại rác đúng cách",
+        "item2": "Tái sử dụng vật liệu",
+        "item3": "Bỏ rác tái chế đúng nơi",
+        "item4": "Tránh sản phẩm dùng một lần",
+        "item5": "Tìm công dụng mới cho đồ cũ"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Kiến thức môi trường",
+      "subtitulo": "Bạn có biết?",
+      "carregando": "Đang tải kiến thức...",
+      "proxima": "Kiến thức tiếp theo",
+      "erro_carregar": "Hiện chưa tải được phần kiến thức."
+    },
+    "noticias": {
+      "titulo": "Tin tức môi trường",
+      "subtitulo": "Tin thật, mới nhất về phát triển bền vững",
+      "anteriores": "Tin trước",
+      "proximas": "Tin tiếp theo",
+      "carregando": "Đang tải tin tức...",
+      "erro_carregar": "Hiện chưa tải được tin tức.",
+      "nenhuma": "Hiện chưa có tin tức nào.",
+      "ler_na_origem": "đọc tại nguồn →",
+      "sem_link": "Tin này không có liên kết ngoài."
+    },
+    "rodape": {
+      "descricao": "Giáo dục môi trường để biến những lựa chọn nhỏ thành kết quả lớn cho hành tinh.",
+      "navegacao": "Điều hướng",
+      "contato": "Liên hệ",
+      "copyright": "© 2026 Carbono Consciente. Mọi quyền được bảo lưu."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Bảng điều khiển",
+    "meta_descricao": "Ghi lại các chuyến đi và theo dõi dấu chân carbon của bạn theo thời gian.",
+    "titulo": "Bảng điều khiển thói quen của bạn",
+    "subtitulo": "Ghi lại các chuyến đi và theo dõi dấu chân carbon của bạn theo thời gian.",
+    "card_hoje": "CO₂ hôm nay",
+    "card_semana": "CO₂ tuần này",
+    "card_mes": "CO₂ tháng này",
+    "grafico_titulo": "14 ngày qua",
+    "grafico_aria": "Diễn biến CO₂ trong {{dias}} ngày qua",
+    "form_titulo": "Thêm chuyến đi",
+    "campo_meio": "Phương tiện",
+    "campo_distancia": "Khoảng cách (km)",
+    "campo_data": "Ngày",
+    "campo_observacao": "Ghi chú (không bắt buộc)",
+    "campo_observacao_placeholder": "ví dụ: đi làm",
+    "botao_adicionar": "thêm",
+    "salvando": "đang lưu...",
+    "registrado_sucesso": "Đã ghi lại chuyến đi!",
+    "registros_titulo": "Các bản ghi mới nhất",
+    "registros_vazio": "Chưa có bản ghi nào — hãy thêm chuyến đi đầu tiên của bạn ở trên.",
+    "meio_removido": "Phương tiện đã xóa",
+    "remover_registro": "Xóa bản ghi",
+    "sessao_expirada": "Phiên đăng nhập đã hết hạn.",
+    "erro_servidor": "Không kết nối được với máy chủ. Máy chủ có đang chạy không?",
+    "erro_generico": "Không thể hoàn tất thao tác.",
+    "delta_sem_registros": "không có bản ghi nào trong kỳ này",
+    "delta_primeiro_registro": "bản ghi đầu tiên của kỳ này",
+    "delta_estavel": "ổn định so với kỳ trước",
+    "delta_variacao": "{{percentual}}% so với kỳ trước"
+  },
+  "globo": {
+    "legenda_titulo": "Phát thải bình quân đầu người",
+    "legenda_baixa": "Thấp",
+    "legenda_alta": "Cao",
+    "sair_destaque": "Thoát chế độ nổi bật",
+    "buscar_placeholder": "Tìm quốc gia...",
+    "buscar_aria": "Tìm quốc gia trên quả địa cầu",
+    "sem_dados_co2": "không có dữ liệu CO₂",
+    "tonelada_ano_pessoa": "{{valor}} t/năm mỗi người",
+    "territorio": "Vùng lãnh thổ",
+    "fechar_painel": "Đóng bảng thông tin",
+    "sem_dados_territorio": "Không có dữ liệu phát thải CO₂ bình quân đầu người cho vùng lãnh thổ này.",
+    "emissao_per_capita": "Phát thải bình quân đầu người:",
+    "equivalente_diario": "Tương đương mỗi ngày:",
+    "equivalente_semanal": "Tương đương mỗi tuần:",
+    "equivalente_mensal": "Tương đương mỗi tháng:",
+    "posicao_ranking": "Vị trí xếp hạng (trên {{total}} quốc gia):",
+    "fonte_estimativa": "Ước tính CO₂ từ nhiên liệu hóa thạch bình quân đầu người (Global Carbon Budget / Our World in Data, năm gốc 2024).",
+    "aria_interativo": "Quả địa cầu tương tác về phát thải carbon. Kéo để quay, lăn chuột để thu phóng, nhấn vào một quốc gia để xem dữ liệu và nhấn hai lần để đưa quả địa cầu vào chế độ nổi bật.",
+    "aria_decorativo": "Quả địa cầu trang trí đang quay, thể hiện tầm vươn toàn cầu của dự án Carbono Consciente.",
+    "continente_asia": "Châu Á",
+    "continente_africa": "Châu Phi",
+    "continente_europa": "Châu Âu",
+    "continente_america_sul": "Nam Mỹ",
+    "continente_america_norte": "Bắc Mỹ",
+    "continente_oceania": "Châu Đại Dương"
+  }
+}

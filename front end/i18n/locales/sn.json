@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Dzokera kumba",
+    "theme_toggle_aria": "Chinja chimiro chechena/chakasviba",
+    "menu_aria": "Vhura menu",
+    "login_link": "pinda",
+    "sair_link": "buda",
+    "painel_link": "dashboard",
+    "fechar": "Vhara",
+    "nav": {
+      "plataforma": "Nhandare",
+      "impacto": "Mugumisiro",
+      "habitos": "Tsika",
+      "contato": "Kubatana",
+      "dados": "Data"
+    }
+  },
+  "header": {
+    "idioma_aria": "Chinja mutauro",
+    "idioma_buscar_placeholder": "Tsvaga mutauro..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Pinda",
+    "meta_descricao": "Pinda kana unyore kuti utevere data yako netsika dzako paCarbono Consciente.",
+    "esquerda_titulo": "Tani imwe neimwe yeCO₂ inosiya tsoka",
+    "esquerda_texto": "Pinda kuti utevere data yako, tsika dzako netsoka yako yekabhoni.",
+    "google_botao": "Enderera mberi neGoogle",
+    "google_em_breve": "Kupinda neGoogle kuchauya munguva pfupi.",
+    "enviando": "kutumira...",
+    "erro_servidor": "Hatina kukwanisa kubata server. Iri kushanda here?",
+    "erro_generico": "Hatina kukwanisa kupedzisa basa iri.",
+    "login": {
+      "titulo": "Pinda",
+      "email_label": "Email",
+      "email_placeholder": "wako@email.com",
+      "senha_label": "Password",
+      "botao": "pinda",
+      "troca_texto": "Hausati wava neakaundi?",
+      "troca_botao": "Nyoresa"
+    },
+    "cadastro": {
+      "titulo": "Kunyoresa",
+      "nome_label": "Zita",
+      "nome_placeholder": "Zita rako",
+      "email_label": "Email",
+      "email_placeholder": "wako@email.com",
+      "pais_label": "Nyika",
+      "pais_placeholder": "Tsvaga nyika...",
+      "senha_label": "Password",
+      "confirmar_label": "Simbisa password",
+      "botao": "nyoresa",
+      "troca_texto": "Watova neakaundi?",
+      "troca_botao": "Pinda"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Ma password asina kufanana."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: dzidzo yezvakatipoteredza pamusoro pekubuda kwekabhoni, tsoka yekabhoni, mazano ekugara zvakanaka, zvinonakidza nenhau dzezvakatipoteredza.",
+    "hero": {
+      "titulo": "Tsika diki dzose dzinodzikisa mutoro panyika",
+      "texto": "CARBONO CONSCIENTE HAISI CHISIMBISO CHEGREEN KANA CHINANGWA CHIRI KURE — NDIKO KUWANDA KWESARUDZO DZEZUVA NEZUVA, DZINODZOKORORWA ZUVA RIMWE NERIMWE: ZVAUNODYARA, MAFAMBIRO AUNOITA, NGUVA YAUNODZIMA MWENJE, UKO KWAUNORASIRA MARARA.",
+      "botao": "Ona Zvimwe"
+    },
+    "acordeao": {
+      "titulo": "Chii chiri Carbono Consciente?",
+      "emissao_titulo": "Kubuda kweKabhoni",
+      "emissao_corpo": "Kubuda kwekabhoni ndiko kusunungurwa kwemagasi akaita seCO₂ mumhepo, kazhinji nekupisa mafuta emasalu, kutemwa kwemasango, kugadzirwa kwezvinhu mumafekitari, kana kutofambira kwezuva nezuva.",
+      "clima_titulo": "Zvinokanganisa sei mamiriro ekunze?",
+      "clima_corpo": "Magasi anokonzera kudziya kwenyika anoumba chinzvimbo chinobata kudziya mumhepo. Kuwanda kwekubuda kwegasi, kunowedzera simba rechinhu ichi — uye ndizvo zvinokonzera kudziya kwenyika pasi rose nekushanduka kwemamiriro ekunze.",
+      "pegada_titulo": "Tsoka yeKabhoni",
+      "pegada_corpo": "Ndiko kuwanda kwemagasi anokonzera kudziya kwenyika, anogadzirwa, zvakananga kana zvisina kunanga, nezvinoitwa nemunhu, kambani kana chigadzirwa muzuva nezuva rake.",
+      "neutro_titulo": "Kabhoni Isina Mhosva × Carbono Consciente",
+      "neutro_corpo": "<strong>Kabhoni isina mhosva</strong> inotsvaga kuenzanisa kana kudhindira kubuda kwegasi kwakaitwa. <strong>Carbono consciente</strong> inokoshesa sarudzo dzinodzikisa kukanganisa kwezvakatipoteredza, isati yatombofunga nezvekudhindira."
+    },
+    "dicas": {
+      "titulo_secao": "Mazano Ekugara Zvakanaka",
+      "clique_voltar": "dzvanya kuti udzokere",
+      "casa": {
+        "titulo": "Pamba",
+        "resumo": "Kuchengetedza magetsi nemvura zuva nezuva",
+        "item1": "Chengetedza magetsi",
+        "item2": "Dzima mwenje paunenge usiri kuushandisa",
+        "item3": "Shandisa midziyo nenzira yakanaka",
+        "item4": "Dzikisa kutambisa mvura",
+        "item5": "Siya kutambisa chikafu"
+      },
+      "transporte": {
+        "titulo": "Kufamba",
+        "resumo": "Nzira dzekufambisa dzinopfuura motokari dzinodzikisa mutoro",
+        "item1": "Famba netsoka paunokwanisa",
+        "item2": "Shandisa bhasikoro",
+        "item3": "Shandisa zvinofambisa vanhu zvepublic",
+        "item4": "Govana rwendo paunokwanisa",
+        "item5": "Dzikisa kufamba kwemotokari kusingadikanwi"
+      },
+      "alimentacao": {
+        "titulo": "Chikafu",
+        "resumo": "Sarudzo patafura dzinodzikisa kutambisa nekubuda kwegasi",
+        "item1": "Tenga zvigadzirwa zvemunharaunda",
+        "item2": "Siya kutambisa",
+        "item3": "Ronga zvekudya zvako",
+        "item4": "Shandisa chikafu zvakanaka",
+        "item5": "Dzikisa kudya nyama"
+      },
+      "reciclagem": {
+        "titulo": "Kudzorerazve",
+        "resumo": "Tsaura, shandisazve, uye upe zvasara basa idzva",
+        "item1": "Tsaura marara zvakanaka",
+        "item2": "Shandisazve zvinhu",
+        "item3": "Endesa zvinogona kudzorerwazve kunzvimbo yakakodzera",
+        "item4": "Siya zvigadzirwa zvekushandisa kamwe chete",
+        "item5": "Ipa zvinhu mabasa matsva"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Zvinonakidza Zvezvakatipoteredza",
+      "subtitulo": "Waiziva here?",
+      "carregando": "Kuri kutakura chinonakidza...",
+      "proxima": "Chinonakidza chinotevera",
+      "erro_carregar": "Hatina kukwanisa kutakura zvinonakidza izvozvi."
+    },
+    "noticias": {
+      "titulo": "Nhau Dzezvakatipoteredza",
+      "subtitulo": "Nhau chaizvo nedzichangoitika pamusoro pekugara zvakanaka",
+      "anteriores": "Nhau dzakapfuura",
+      "proximas": "Nhau dzinotevera",
+      "carregando": "Kuri kutakura nhau...",
+      "erro_carregar": "Hatina kukwanisa kutakura nhau izvozvi.",
+      "nenhuma": "Hapana nhau iripo panguva ino.",
+      "ler_na_origem": "verenga panzvimbo yekutanga →",
+      "sem_link": "Hapana link yekunze iripo yenhau iyi."
+    },
+    "rodape": {
+      "descricao": "Dzidzo yezvakatipoteredza, inoshandura sarudzo diki kuita mhedzisiro mikuru yenyika.",
+      "navegacao": "Kufamba-famba",
+      "contato": "Kubatana",
+      "copyright": "© 2026 Carbono Consciente. Kodzero dzose dzakachengetedzwa."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Dashboard",
+    "meta_descricao": "Nyora rwendo rwako uye utevere tsoka yako yekabhoni panguva.",
+    "titulo": "Dashboard yetsika dzako",
+    "subtitulo": "Nyora rwendo rwako uye utevere tsoka yako yekabhoni panguva.",
+    "card_hoje": "CO₂ nhasi",
+    "card_semana": "CO₂ vhiki rino",
+    "card_mes": "CO₂ mwedzi uno",
+    "grafico_titulo": "Shanduko mumazuva 14 apfuura",
+    "grafico_aria": "Shanduko yeCO₂ mumazuva {{dias}} apfuura",
+    "form_titulo": "Wedzera rwendo",
+    "campo_meio": "Mufambiro",
+    "campo_distancia": "Chinhambwe (km)",
+    "campo_data": "Zuva",
+    "campo_observacao": "Zvimwe (hazvina kumanikidzwa)",
+    "campo_observacao_placeholder": "semuenzaniso: rwendo rwekuenda kubasa",
+    "botao_adicionar": "wedzera",
+    "salvando": "kuchengetedza...",
+    "registrado_sucesso": "Rwendo rwanyorwa!",
+    "registros_titulo": "Zvakanyorwa zvekupedzisira",
+    "registros_vazio": "Hapasati pane zvakanyorwa — wedzera rwendo rwako rwekutanga pamusoro apo.",
+    "meio_removido": "Mufambiro wabviswa",
+    "remover_registro": "Bvisa chakanyorwa",
+    "sessao_expirada": "Nguva yakapera.",
+    "erro_servidor": "Hatina kukwanisa kubata server. Iri kushanda here?",
+    "erro_generico": "Hatina kukwanisa kupedzisa basa iri.",
+    "delta_sem_registros": "hapana zvakanyorwa munguva ino",
+    "delta_primeiro_registro": "chakanyorwa chekutanga munguva ino",
+    "delta_estavel": "zvakamira zvakafanana nenguva yakapfuura",
+    "delta_variacao": "{{percentual}}% kubva panguva yakapfuura"
+  },
+  "globo": {
+    "legenda_titulo": "Kubuda kwegasi pamunhu",
+    "legenda_baixa": "Shoma",
+    "legenda_alta": "Zhinji",
+    "sair_destaque": "Buda muchimiro chekuratidza",
+    "buscar_placeholder": "Tsvaga nyika...",
+    "buscar_aria": "Tsvaga nyika pamuglobhu",
+    "sem_dados_co2": "hapana data yeCO₂",
+    "tonelada_ano_pessoa": "{{valor}} t/gore pamunhu",
+    "territorio": "Nzvimbo",
+    "fechar_painel": "Vhara pandi",
+    "sem_dados_territorio": "Hapana data yekubuda kweCO₂ pamunhu iripo yenzvimbo iyi.",
+    "emissao_per_capita": "Kubuda kwegasi pamunhu:",
+    "equivalente_diario": "Zvakaenzana pazuva:",
+    "equivalente_semanal": "Zvakaenzana pavhiki:",
+    "equivalente_mensal": "Zvakaenzana pamwedzi:",
+    "posicao_ranking": "Chinzvimbo pamurongo (kubva pamanyika {{total}}):",
+    "fonte_estimativa": "Fungidziro yeCO₂ yemasalu pamunhu (Global Carbon Budget / Our World in Data, gore rekutanga 2024).",
+    "aria_interativo": "Globhu inoshamisira yekubuda kwekabhoni. Kweva kuti utenderere, dzungudza kuti usvedzere, dzvanya nyika kuti uone data, uye dzvanya kaviri kuti uise globhu muchimiro chekuratidza.",
+    "aria_decorativo": "Globhu inotenderera inoshongedza, ichiratidza kusvika kwepasi rose kweprojekiti yeCarbono Consciente.",
+    "continente_asia": "Asia",
+    "continente_africa": "Afrika",
+    "continente_europa": "Yuropi",
+    "continente_america_sul": "South America",
+    "continente_america_norte": "North America",
+    "continente_oceania": "Oceania"
+  }
+}

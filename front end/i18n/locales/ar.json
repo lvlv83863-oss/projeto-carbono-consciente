@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← العودة إلى الصفحة الرئيسية",
+    "theme_toggle_aria": "تبديل المظهر الفاتح/الداكن",
+    "menu_aria": "فتح القائمة",
+    "login_link": "تسجيل الدخول",
+    "sair_link": "تسجيل الخروج",
+    "painel_link": "لوحة المتابعة",
+    "fechar": "إغلاق",
+    "nav": {
+      "plataforma": "المنصة",
+      "impacto": "الأثر",
+      "habitos": "العادات",
+      "contato": "تواصل معنا",
+      "dados": "البيانات"
+    }
+  },
+  "header": {
+    "idioma_aria": "تغيير اللغة",
+    "idioma_buscar_placeholder": "ابحث عن لغة..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — تسجيل الدخول",
+    "meta_descricao": "سجّل الدخول أو أنشئ حسابًا لمتابعة بياناتك وعاداتك في Carbono Consciente.",
+    "esquerda_titulo": "كل طن من CO₂ يترك أثرًا",
+    "esquerda_texto": "سجّل الدخول لمتابعة بياناتك وعاداتك وبصمتك الكربونية.",
+    "google_botao": "المتابعة باستخدام Google",
+    "google_em_breve": "تسجيل الدخول عبر Google قريبًا.",
+    "enviando": "جارٍ الإرسال...",
+    "erro_servidor": "لم نتمكن من الوصول إلى الخادم. هل هو قيد التشغيل؟",
+    "erro_generico": "لم نتمكن من إتمام العملية.",
+    "login": {
+      "titulo": "تسجيل الدخول",
+      "email_label": "البريد الإلكتروني",
+      "email_placeholder": "you@email.com",
+      "senha_label": "كلمة المرور",
+      "botao": "دخول",
+      "troca_texto": "ليس لديك حساب بعد؟",
+      "troca_botao": "أنشئ حسابًا"
+    },
+    "cadastro": {
+      "titulo": "إنشاء حساب",
+      "nome_label": "الاسم",
+      "nome_placeholder": "اسمك",
+      "email_label": "البريد الإلكتروني",
+      "email_placeholder": "you@email.com",
+      "pais_label": "الدولة",
+      "pais_placeholder": "ابحث عن دولة...",
+      "senha_label": "كلمة المرور",
+      "confirmar_label": "تأكيد كلمة المرور",
+      "botao": "تسجيل",
+      "troca_texto": "لديك حساب بالفعل؟",
+      "troca_botao": "تسجيل الدخول"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "كلمتا المرور غير متطابقتين."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: تعليم بيئي عن انبعاثات الكربون والبصمة الكربونية ونصائح الاستدامة والمعلومات الطريفة والأخبار البيئية.",
+    "hero": {
+      "titulo": "كل عادة صغيرة تخفّف الحِمل عن الكوكب",
+      "texto": "ليس Carbono Consciente شهادةً خضراء ولا هدفًا بعيدًا — إنه مجموع خيارات عادية تتكرر كل يوم: ما تزرعه، وكيف تتنقل، ومتى تطفئ الضوء، وأين تُلقي نفاياتك.",
+      "botao": "اعرف المزيد"
+    },
+    "acordeao": {
+      "titulo": "ما هو Carbono Consciente؟",
+      "emissao_titulo": "انبعاث الكربون",
+      "emissao_corpo": "انبعاث الكربون هو إطلاق غازات مثل CO₂ في الغلاف الجوي، ويحدث أساسًا بسبب حرق الوقود الأحفوري وإزالة الغابات والإنتاج الصناعي، وحتى بسبب تنقّلات الحياة اليومية.",
+      "clima_titulo": "كيف يؤثر على المناخ؟",
+      "clima_corpo": "تُشكّل الغازات الدفيئة طبقة تحتجز الحرارة في الغلاف الجوي. وكلما زادت الانبعاثات، قوي هذا التأثير — وهذا ما يدفع الاحتباس الحراري وتغيّر المناخ.",
+      "pegada_titulo": "البصمة الكربونية",
+      "pegada_corpo": "هي إجمالي كمية الغازات الدفيئة الناتجة، بشكل مباشر أو غير مباشر، عن أنشطة شخص أو شركة أو منتج في الحياة اليومية.",
+      "neutro_titulo": "الحياد الكربوني × Carbono Consciente",
+      "neutro_corpo": "<strong>الحياد الكربوني</strong> يسعى إلى موازنة الانبعاثات الناتجة أو تعويضها. أما <strong>الكربون الواعي</strong> فيمنح الأولوية للخيارات التي تقلّل الأثر البيئي قبل التفكير في التعويض."
+    },
+    "dicas": {
+      "titulo_secao": "نصائح مستدامة",
+      "clique_voltar": "انقر للعودة",
+      "casa": {
+        "titulo": "المنزل",
+        "resumo": "توفير الطاقة والماء في الحياة اليومية",
+        "item1": "وفّر الطاقة",
+        "item2": "أطفئ الأنوار عند عدم استخدامها",
+        "item3": "استخدم الأجهزة بوعي",
+        "item4": "قلّل هدر الماء",
+        "item5": "تجنّب هدر الطعام"
+      },
+      "transporte": {
+        "titulo": "النقل",
+        "resumo": "بدائل للسيارة من أجل تنقّل أخفّ",
+        "item1": "امشِ عندما يكون ذلك ممكنًا",
+        "item2": "استخدم الدراجة",
+        "item3": "استخدم النقل العام",
+        "item4": "شارك الرحلات عندما يكون ذلك ممكنًا",
+        "item5": "قلّل الرحلات غير الضرورية بالسيارة"
+      },
+      "alimentacao": {
+        "titulo": "الغذاء",
+        "resumo": "خيارات على المائدة تقلّل الهدر والانبعاثات",
+        "item1": "استهلك المنتجات المحلية",
+        "item2": "تجنّب الهدر",
+        "item3": "خطّط لوجباتك",
+        "item4": "استفد من الطعام بشكل أفضل",
+        "item5": "قلّل استهلاك اللحوم"
+      },
+      "reciclagem": {
+        "titulo": "إعادة التدوير",
+        "resumo": "افرز، وأعد الاستخدام، وامنح ما يتبقّى حياة جديدة",
+        "item1": "افرز النفايات بشكل صحيح",
+        "item2": "أعد استخدام المواد",
+        "item3": "تخلّص من المواد القابلة للتدوير بشكل صحيح",
+        "item4": "تجنّب المنتجات ذات الاستخدام الواحد",
+        "item5": "امنح الأشياء استخدامات جديدة"
+      }
+    },
+    "curiosidades": {
+      "titulo": "معلومات بيئية",
+      "subtitulo": "هل تعلم؟",
+      "carregando": "جارٍ تحميل المعلومة...",
+      "proxima": "المعلومة التالية",
+      "erro_carregar": "لم نتمكن من تحميل المعلومات الآن."
+    },
+    "noticias": {
+      "titulo": "أخبار بيئية",
+      "subtitulo": "أخبار حقيقية وحديثة عن الاستدامة",
+      "anteriores": "الأخبار السابقة",
+      "proximas": "الأخبار التالية",
+      "carregando": "جارٍ تحميل الأخبار...",
+      "erro_carregar": "لم نتمكن من تحميل الأخبار الآن.",
+      "nenhuma": "لا توجد أخبار متاحة في الوقت الحالي.",
+      "ler_na_origem": "اقرأ في المصدر →",
+      "sem_link": "لا يوجد رابط خارجي متاح لهذا الخبر."
+    },
+    "rodape": {
+      "descricao": "تعليم بيئي يحوّل الخيارات الصغيرة إلى نتائج كبيرة للكوكب.",
+      "navegacao": "التنقّل",
+      "contato": "تواصل معنا",
+      "copyright": "© 2026 Carbono Consciente. جميع الحقوق محفوظة."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — لوحة المتابعة",
+    "meta_descricao": "سجّل تنقّلاتك وتابع بصمتك الكربونية على مدار الوقت.",
+    "titulo": "لوحة متابعة عاداتك",
+    "subtitulo": "سجّل تنقّلاتك وتابع بصمتك الكربونية على مدار الوقت.",
+    "card_hoje": "CO₂ اليوم",
+    "card_semana": "CO₂ هذا الأسبوع",
+    "card_mes": "CO₂ هذا الشهر",
+    "grafico_titulo": "آخر 14 يومًا",
+    "grafico_aria": "تطوّر CO₂ خلال آخر {{dias}} يومًا",
+    "form_titulo": "إضافة تنقّل",
+    "campo_meio": "وسيلة النقل",
+    "campo_distancia": "المسافة (كم)",
+    "campo_data": "التاريخ",
+    "campo_observacao": "ملاحظة (اختياري)",
+    "campo_observacao_placeholder": "مثال: الطريق إلى العمل",
+    "botao_adicionar": "إضافة",
+    "salvando": "جارٍ الحفظ...",
+    "registrado_sucesso": "تم تسجيل التنقّل!",
+    "registros_titulo": "أحدث السجلات",
+    "registros_vazio": "لا توجد سجلات بعد — أضف أول تنقّل لك في الأعلى.",
+    "meio_removido": "وسيلة محذوفة",
+    "remover_registro": "حذف السجل",
+    "sessao_expirada": "انتهت صلاحية الجلسة.",
+    "erro_servidor": "لم نتمكن من الوصول إلى الخادم. هل هو قيد التشغيل؟",
+    "erro_generico": "لم نتمكن من إتمام العملية.",
+    "delta_sem_registros": "لا سجلات في هذه الفترة",
+    "delta_primeiro_registro": "أول سجل في هذه الفترة",
+    "delta_estavel": "مستقر مقارنةً بالفترة السابقة",
+    "delta_variacao": "{{percentual}}% مقارنةً بالفترة السابقة"
+  },
+  "globo": {
+    "legenda_titulo": "الانبعاثات للفرد",
+    "legenda_baixa": "منخفضة",
+    "legenda_alta": "مرتفعة",
+    "sair_destaque": "الخروج من وضع الإبراز",
+    "buscar_placeholder": "ابحث عن دولة...",
+    "buscar_aria": "ابحث عن دولة على الكرة الأرضية",
+    "sem_dados_co2": "لا توجد بيانات CO₂",
+    "tonelada_ano_pessoa": "{{valor}} طن/سنة للفرد",
+    "territorio": "إقليم",
+    "fechar_painel": "إغلاق اللوحة",
+    "sem_dados_territorio": "لا تتوفر بيانات عن انبعاثات CO₂ للفرد في هذا الإقليم.",
+    "emissao_per_capita": "الانبعاثات للفرد:",
+    "equivalente_diario": "المكافئ اليومي:",
+    "equivalente_semanal": "المكافئ الأسبوعي:",
+    "equivalente_mensal": "المكافئ الشهري:",
+    "posicao_ranking": "الترتيب (من أصل {{total}} دولة):",
+    "fonte_estimativa": "تقدير انبعاثات CO₂ الأحفوري للفرد (Global Carbon Budget / Our World in Data، سنة الأساس 2024).",
+    "aria_interativo": "كرة أرضية تفاعلية لانبعاثات الكربون. اسحب للتدوير، ومرّر للتكبير، وانقر على دولة لعرض بياناتها، وانقر نقرًا مزدوجًا لإبراز الكرة الأرضية.",
+    "aria_decorativo": "كرة أرضية تزيينية تدور، تجسّد الامتداد العالمي لمشروع Carbono Consciente.",
+    "continente_asia": "آسيا",
+    "continente_africa": "أفريقيا",
+    "continente_europa": "أوروبا",
+    "continente_america_sul": "أمريكا الجنوبية",
+    "continente_america_norte": "أمريكا الشمالية",
+    "continente_oceania": "أوقيانوسيا"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Terug naar het begin",
+    "theme_toggle_aria": "Wissel tussen licht en donker thema",
+    "menu_aria": "Menu openen",
+    "login_link": "inloggen",
+    "sair_link": "uitloggen",
+    "painel_link": "dashboard",
+    "fechar": "Sluiten",
+    "nav": {
+      "plataforma": "Platform",
+      "impacto": "Impact",
+      "habitos": "Gewoonten",
+      "contato": "Contact",
+      "dados": "Gegevens"
+    }
+  },
+  "header": {
+    "idioma_aria": "Taal wijzigen",
+    "idioma_buscar_placeholder": "Zoek een taal..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Inloggen",
+    "meta_descricao": "Log in of maak een account om je gegevens en gewoonten bij te houden op Carbono Consciente.",
+    "esquerda_titulo": "Elke ton CO₂ laat een spoor achter",
+    "esquerda_texto": "Log in om je gegevens, je gewoonten en je CO₂-voetafdruk bij te houden.",
+    "google_botao": "Doorgaan met Google",
+    "google_em_breve": "Inloggen met Google komt binnenkort.",
+    "enviando": "versturen...",
+    "erro_servidor": "We konden de server niet bereiken. Draait hij wel?",
+    "erro_generico": "De bewerking kon niet worden voltooid.",
+    "login": {
+      "titulo": "Inloggen",
+      "email_label": "E-mail",
+      "email_placeholder": "jij@email.com",
+      "senha_label": "Wachtwoord",
+      "botao": "inloggen",
+      "troca_texto": "Nog geen account?",
+      "troca_botao": "Account maken"
+    },
+    "cadastro": {
+      "titulo": "Registreren",
+      "nome_label": "Naam",
+      "nome_placeholder": "Je naam",
+      "email_label": "E-mail",
+      "email_placeholder": "jij@email.com",
+      "pais_label": "Land",
+      "pais_placeholder": "Zoek een land...",
+      "senha_label": "Wachtwoord",
+      "confirmar_label": "Wachtwoord bevestigen",
+      "botao": "registreren",
+      "troca_texto": "Heb je al een account?",
+      "troca_botao": "Inloggen"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "De wachtwoorden komen niet overeen."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: milieueducatie over CO₂-uitstoot, je CO₂-voetafdruk, duurzame tips, wist-je-datjes en milieunieuws.",
+    "hero": {
+      "titulo": "Elke kleine gewoonte weegt lichter voor de planeet",
+      "texto": "CARBONO CONSCIENTE IS GEEN GROEN KEURMERK EN GEEN VER DOEL — HET IS DE SOM VAN HEEL GEWONE KEUZES, ELKE DAG HERHAALD: WAT JE PLANT, HOE JE JE VERPLAATST, WANNEER JE HET LICHT UITDOET, WAAR JE JE AFVAL WEGGOOIT.",
+      "botao": "Bekijk meer"
+    },
+    "acordeao": {
+      "titulo": "Wat is Carbono Consciente?",
+      "emissao_titulo": "CO₂-uitstoot",
+      "emissao_corpo": "CO₂-uitstoot is het vrijkomen van gassen zoals CO₂ in de atmosfeer, vooral door het verbranden van fossiele brandstoffen, ontbossing, industriële productie en zelfs door het dagelijkse verkeer.",
+      "clima_titulo": "Welk effect heeft dat op het klimaat?",
+      "clima_corpo": "Broeikasgassen vormen een laag die warmte vasthoudt in de atmosfeer. Hoe meer uitstoot, hoe sterker dat effect — en dat is precies wat de opwarming van de aarde en klimaatverandering aandrijft.",
+      "pegada_titulo": "CO₂-voetafdruk",
+      "pegada_corpo": "Dat is de totale hoeveelheid broeikasgassen die direct of indirect ontstaat door de dagelijkse activiteiten van een persoon, een bedrijf of een product.",
+      "neutro_titulo": "Klimaatneutraal × Carbono Consciente",
+      "neutro_corpo": "<strong>Klimaatneutraal</strong> wil de uitgestoten emissies in balans brengen of compenseren. <strong>Carbono Consciente</strong> kiest eerst voor keuzes die de impact op het milieu verkleinen, nog voordat je aan compensatie denkt."
+    },
+    "dicas": {
+      "titulo_secao": "Duurzame tips",
+      "clique_voltar": "klik om terug te gaan",
+      "casa": {
+        "titulo": "Thuis",
+        "resumo": "Elke dag energie en water besparen",
+        "item1": "Energie besparen",
+        "item2": "Lampen uitdoen als je ze niet gebruikt",
+        "item3": "Apparaten bewust gebruiken",
+        "item4": "Waterverspilling beperken",
+        "item5": "Voedselverspilling voorkomen"
+      },
+      "transporte": {
+        "titulo": "Vervoer",
+        "resumo": "Alternatieven voor de auto voor lichtere ritten",
+        "item1": "Lopen wanneer dat kan",
+        "item2": "De fiets gebruiken",
+        "item3": "Het openbaar vervoer gebruiken",
+        "item4": "Ritten delen wanneer dat kan",
+        "item5": "Onnodige autoritten beperken"
+      },
+      "alimentacao": {
+        "titulo": "Voeding",
+        "resumo": "Keuzes aan tafel die verspilling en uitstoot beperken",
+        "item1": "Lokale producten kopen",
+        "item2": "Verspilling voorkomen",
+        "item3": "Je maaltijden plannen",
+        "item4": "Eten beter benutten",
+        "item5": "Minder vlees eten"
+      },
+      "reciclagem": {
+        "titulo": "Recycling",
+        "resumo": "Scheid, hergebruik en geef restjes een nieuw leven",
+        "item1": "Afval goed scheiden",
+        "item2": "Materialen hergebruiken",
+        "item3": "Recyclebaar afval goed wegbrengen",
+        "item4": "Wegwerpproducten vermijden",
+        "item5": "Spullen een nieuwe bestemming geven"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Wist-je-datjes over het milieu",
+      "subtitulo": "Wist je dat?",
+      "carregando": "Wist-je-datje laden...",
+      "proxima": "Volgend wist-je-datje",
+      "erro_carregar": "De wist-je-datjes konden nu niet worden geladen."
+    },
+    "noticias": {
+      "titulo": "Milieunieuws",
+      "subtitulo": "Echt en recent nieuws over duurzaamheid",
+      "anteriores": "Vorig nieuws",
+      "proximas": "Volgend nieuws",
+      "carregando": "Nieuws laden...",
+      "erro_carregar": "Het nieuws kon nu niet worden geladen.",
+      "nenhuma": "Op dit moment is er geen nieuws beschikbaar.",
+      "ler_na_origem": "lees op de oorspronkelijke site →",
+      "sem_link": "Voor dit nieuwsbericht is geen externe link beschikbaar."
+    },
+    "rodape": {
+      "descricao": "Milieueducatie om kleine keuzes om te zetten in grote resultaten voor de planeet.",
+      "navegacao": "Navigatie",
+      "contato": "Contact",
+      "copyright": "© 2026 Carbono Consciente. Alle rechten voorbehouden."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Dashboard",
+    "meta_descricao": "Leg je ritten vast en volg je CO₂-voetafdruk in de loop van de tijd.",
+    "titulo": "Jouw gewoontendashboard",
+    "subtitulo": "Leg je ritten vast en volg je CO₂-voetafdruk in de loop van de tijd.",
+    "card_hoje": "CO₂ vandaag",
+    "card_semana": "CO₂ deze week",
+    "card_mes": "CO₂ deze maand",
+    "grafico_titulo": "Verloop van de laatste 14 dagen",
+    "grafico_aria": "Verloop van de CO₂ in de laatste {{dias}} dagen",
+    "form_titulo": "Rit toevoegen",
+    "campo_meio": "Vervoermiddel",
+    "campo_distancia": "Afstand (km)",
+    "campo_data": "Datum",
+    "campo_observacao": "Notitie (optioneel)",
+    "campo_observacao_placeholder": "bv.: rit naar werk",
+    "botao_adicionar": "toevoegen",
+    "salvando": "opslaan...",
+    "registrado_sucesso": "Rit vastgelegd!",
+    "registros_titulo": "Laatste registraties",
+    "registros_vazio": "Nog geen registraties — voeg hierboven je eerste rit toe.",
+    "meio_removido": "Verwijderd vervoermiddel",
+    "remover_registro": "Registratie verwijderen",
+    "sessao_expirada": "Sessie verlopen.",
+    "erro_servidor": "We konden de server niet bereiken. Draait hij wel?",
+    "erro_generico": "De bewerking kon niet worden voltooid.",
+    "delta_sem_registros": "geen registraties in deze periode",
+    "delta_primeiro_registro": "eerste registratie van deze periode",
+    "delta_estavel": "stabiel t.o.v. de vorige periode",
+    "delta_variacao": "{{percentual}}% t.o.v. de vorige periode"
+  },
+  "globo": {
+    "legenda_titulo": "Uitstoot per persoon",
+    "legenda_baixa": "Laag",
+    "legenda_alta": "Hoog",
+    "sair_destaque": "Uitlichtmodus verlaten",
+    "buscar_placeholder": "Zoek een land...",
+    "buscar_aria": "Zoek een land op de globe",
+    "sem_dados_co2": "geen CO₂-gegevens",
+    "tonelada_ano_pessoa": "{{valor}} t/jaar per persoon",
+    "territorio": "Gebied",
+    "fechar_painel": "Paneel sluiten",
+    "sem_dados_territorio": "Voor dit gebied zijn geen gegevens over CO₂-uitstoot per persoon beschikbaar.",
+    "emissao_per_capita": "Uitstoot per persoon:",
+    "equivalente_diario": "Omgerekend per dag:",
+    "equivalente_semanal": "Omgerekend per week:",
+    "equivalente_mensal": "Omgerekend per maand:",
+    "posicao_ranking": "Positie in de ranglijst (van {{total}} landen):",
+    "fonte_estimativa": "Schatting van de fossiele CO₂-uitstoot per persoon (Global Carbon Budget / Our World in Data, basisjaar 2024).",
+    "aria_interativo": "Interactieve globe met CO₂-uitstoot. Sleep om te draaien, scroll om in te zoomen, klik op een land om de gegevens te zien en dubbelklik om de globe uit te lichten.",
+    "aria_decorativo": "Decoratieve draaiende globe die het wereldwijde bereik van het project Carbono Consciente laat zien.",
+    "continente_asia": "Azië",
+    "continente_africa": "Afrika",
+    "continente_europa": "Europa",
+    "continente_america_sul": "Zuid-Amerika",
+    "continente_america_norte": "Noord-Amerika",
+    "continente_oceania": "Oceanië"
+  }
+}

@@ -14,6 +14,8 @@
 
   const CABECALHOS = { "Content-Type": "application/json", Authorization: `Bearer ${token}` };
 
+  function t(chave, vars) { return window.i18n ? window.i18n.t(chave, vars) : chave; }
+
   function saiuDaSessao() {
     localStorage.removeItem("carbono-token");
     localStorage.removeItem("carbono-usuario");
@@ -25,15 +27,15 @@
     try {
       resposta = await fetch(API_BASE + caminho, opcoes);
     } catch {
-      throw new Error("Não foi possível falar com o servidor. Ele está rodando?");
+      throw new Error(t("painel.erro_servidor"));
     }
     if (resposta.status === 401) {
       saiuDaSessao();
-      throw new Error("Sessão expirada.");
+      throw new Error(t("painel.sessao_expirada"));
     }
     if (resposta.status === 204) return null;
     const dados = await resposta.json().catch(() => ({}));
-    if (!resposta.ok) throw new Error(dados.erro || "Não foi possível completar a operação.");
+    if (!resposta.ok) throw new Error(dados.erro || t("painel.erro_generico"));
     return dados;
   }
 
@@ -43,7 +45,7 @@
 
   function fmtDataBR(iso) {
     try {
-      return new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "2-digit", year: "numeric" }).format(
+      return new Intl.DateTimeFormat(window.i18n ? window.i18n.idiomaAtual : "pt-BR", { day: "2-digit", month: "2-digit", year: "numeric" }).format(
         new Date(iso + "T00:00:00")
       );
     } catch {
@@ -58,13 +60,15 @@
 
   function calcularDelta(atual, anterior) {
     if (anterior === 0) {
-      return atual === 0 ? { texto: "sem registros no período", classe: "neutro" } : { texto: "primeiro registro do período", classe: "neutro" };
+      return atual === 0
+        ? { texto: t("painel.delta_sem_registros"), classe: "neutro" }
+        : { texto: t("painel.delta_primeiro_registro"), classe: "neutro" };
     }
     const variacao = ((atual - anterior) / anterior) * 100;
-    if (Math.abs(variacao) < 1) return { texto: "estável vs. período anterior", classe: "neutro" };
+    if (Math.abs(variacao) < 1) return { texto: t("painel.delta_estavel"), classe: "neutro" };
     const subiu = variacao > 0;
     return {
-      texto: `${subiu ? "▲" : "▼"} ${Math.abs(variacao).toFixed(0)}% vs. período anterior`,
+      texto: `${subiu ? "▲" : "▼"} ${t("painel.delta_variacao", { percentual: Math.abs(variacao).toFixed(0) })}`,
       classe: subiu ? "subiu" : "desceu",
     };
   }
@@ -139,13 +143,13 @@
           <div class="painel-item-info">
             <span class="painel-item-icone">${window.Icones.icone((r.meio && r.meio.icone) || "carro")}</span>
             <div class="painel-item-detalhes">
-              <strong>${(r.meio && r.meio.nome) || "Meio removido"}</strong>
+              <strong>${(r.meio && r.meio.nome) || t("painel.meio_removido")}</strong>
               <span>${fmtDataBR(r.data)} · ${r.distanciaKm.toString().replace(".", ",")} km${r.observacao ? " · " + r.observacao : ""}</span>
             </div>
           </div>
           <div class="painel-item-info">
             <span class="painel-item-co2">${fmtKg(r.co2)}</span>
-            <button class="painel-remover" title="Remover registro" data-id="${r.id}" aria-label="Remover registro">×</button>
+            <button class="painel-remover" title="${t("painel.remover_registro")}" data-id="${r.id}" aria-label="${t("painel.remover_registro")}">×</button>
           </div>
         </div>`
         )
@@ -172,7 +176,7 @@
       e.preventDefault();
       mostrarMensagem("", "erro");
       botaoEnviar.disabled = true;
-      botaoEnviar.textContent = "salvando...";
+      botaoEnviar.textContent = t("painel.salvando");
       try {
         await chamarApi("/habitos", {
           method: "POST",
@@ -186,13 +190,13 @@
         });
         campoDistancia.value = "";
         campoObservacao.value = "";
-        mostrarMensagem("Deslocamento registrado!", "sucesso");
+        mostrarMensagem(t("painel.registrado_sucesso"), "sucesso");
         await atualizarTudo();
       } catch (erro) {
         mostrarMensagem(erro.message, "erro");
       } finally {
         botaoEnviar.disabled = false;
-        botaoEnviar.textContent = "adicionar";
+        botaoEnviar.textContent = t("painel.botao_adicionar");
       }
     });
 

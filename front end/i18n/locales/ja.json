@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← ホームに戻る",
+    "theme_toggle_aria": "ライト/ダークテーマを切り替え",
+    "menu_aria": "メニューを開く",
+    "login_link": "ログイン",
+    "sair_link": "ログアウト",
+    "painel_link": "ダッシュボード",
+    "fechar": "閉じる",
+    "nav": {
+      "plataforma": "プラットフォーム",
+      "impacto": "インパクト",
+      "habitos": "習慣",
+      "contato": "お問い合わせ",
+      "dados": "データ"
+    }
+  },
+  "header": {
+    "idioma_aria": "言語を変更",
+    "idioma_buscar_placeholder": "言語を検索..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — ログイン",
+    "meta_descricao": "ログインまたは新規登録して、Carbono Consciente でご自身のデータと習慣を記録しましょう。",
+    "esquerda_titulo": "CO₂ 1トンごとに、足あとが残る",
+    "esquerda_texto": "ログインすると、データ・習慣・カーボンフットプリントを記録できます。",
+    "google_botao": "Google で続ける",
+    "google_em_breve": "Google ログインは近日公開予定です。",
+    "enviando": "送信中...",
+    "erro_servidor": "サーバーに接続できませんでした。起動しているかご確認ください。",
+    "erro_generico": "処理を完了できませんでした。",
+    "login": {
+      "titulo": "ログイン",
+      "email_label": "メールアドレス",
+      "email_placeholder": "you@email.com",
+      "senha_label": "パスワード",
+      "botao": "ログイン",
+      "troca_texto": "アカウントをお持ちでないですか？",
+      "troca_botao": "新規登録"
+    },
+    "cadastro": {
+      "titulo": "新規登録",
+      "nome_label": "お名前",
+      "nome_placeholder": "お名前",
+      "email_label": "メールアドレス",
+      "email_placeholder": "you@email.com",
+      "pais_label": "国",
+      "pais_placeholder": "国を検索...",
+      "senha_label": "パスワード",
+      "confirmar_label": "パスワードの確認",
+      "botao": "登録する",
+      "troca_texto": "すでにアカウントをお持ちですか？",
+      "troca_botao": "ログイン"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "パスワードが一致しません。"
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente：炭素排出量とカーボンフットプリントを学ぶ環境教育。サステナブルなヒント、環境の豆知識、最新ニュースをお届けします。",
+    "hero": {
+      "titulo": "小さな習慣ほど、地球への重さは軽くなる",
+      "texto": "CARBONO CONSCIENTE は、グリーンな認証マークでも遠い目標でもありません。毎日くり返される、ごくふつうの選択の積み重ねです。何を植えるか、どう移動するか、いつ電気を消すか、ごみをどこへ捨てるか。",
+      "botao": "もっと見る"
+    },
+    "acordeao": {
+      "titulo": "Carbono Consciente とは？",
+      "emissao_titulo": "炭素排出",
+      "emissao_corpo": "炭素排出とは、CO₂ などの気体が大気中に放出されることです。主な原因は化石燃料の燃焼、森林破壊、工業生産、そして日々の移動にまで及びます。",
+      "clima_titulo": "気候にどう影響するの？",
+      "clima_corpo": "温室効果ガスは大気中に熱を閉じ込める層をつくります。排出が増えるほどこの効果は強まり、それが地球温暖化と気候変動を進めているのです。",
+      "pegada_titulo": "カーボンフットプリント",
+      "pegada_corpo": "人や企業、製品が日々の活動を通じて直接または間接的に排出する温室効果ガスの総量のことです。",
+      "neutro_titulo": "カーボンニュートラル × Carbono Consciente",
+      "neutro_corpo": "<strong>カーボンニュートラル</strong>は、排出された分を均衡させたり相殺することを目指します。<strong>Carbono Consciente</strong>は、相殺を考える前に、環境への負荷そのものを減らす選択を大切にします。"
+    },
+    "dicas": {
+      "titulo_secao": "サステナブルなヒント",
+      "clique_voltar": "クリックで戻る",
+      "casa": {
+        "titulo": "住まい",
+        "resumo": "毎日の電気と水の節約",
+        "item1": "エネルギーを節約する",
+        "item2": "使わないときは照明を消す",
+        "item3": "家電を意識して使う",
+        "item4": "水の無駄を減らす",
+        "item5": "食べ物を無駄にしない"
+      },
+      "transporte": {
+        "titulo": "移動",
+        "resumo": "クルマに代わる、軽やかな移動手段",
+        "item1": "できるときは歩く",
+        "item2": "自転車を使う",
+        "item3": "公共交通機関を使う",
+        "item4": "可能なときは相乗りする",
+        "item5": "不要な車での移動を減らす"
+      },
+      "alimentacao": {
+        "titulo": "食事",
+        "resumo": "食卓の選択で、無駄と排出を減らす",
+        "item1": "地元の食材を選ぶ",
+        "item2": "食品ロスを避ける",
+        "item3": "献立を計画する",
+        "item4": "食材を使い切る",
+        "item5": "肉の消費を減らす"
+      },
+      "reciclagem": {
+        "titulo": "リサイクル",
+        "resumo": "分けて、使い直して、残ったものに新しい役目を",
+        "item1": "ごみを正しく分別する",
+        "item2": "素材を再利用する",
+        "item3": "資源ごみを正しく出す",
+        "item4": "使い捨て製品を避ける",
+        "item5": "モノに新しい使い道を見つける"
+      }
+    },
+    "curiosidades": {
+      "titulo": "環境の豆知識",
+      "subtitulo": "知っていましたか？",
+      "carregando": "豆知識を読み込み中...",
+      "proxima": "次の豆知識",
+      "erro_carregar": "いま豆知識を読み込めませんでした。"
+    },
+    "noticias": {
+      "titulo": "環境ニュース",
+      "subtitulo": "サステナビリティに関する最新の実際のニュース",
+      "anteriores": "前のニュース",
+      "proximas": "次のニュース",
+      "carregando": "ニュースを読み込み中...",
+      "erro_carregar": "いまニュースを読み込めませんでした。",
+      "nenhuma": "現在お届けできるニュースはありません。",
+      "ler_na_origem": "元の記事を読む →",
+      "sem_link": "このニュースには外部リンクがありません。"
+    },
+    "rodape": {
+      "descricao": "小さな選択を地球にとって大きな成果に変えるための環境教育。",
+      "navegacao": "ナビゲーション",
+      "contato": "お問い合わせ",
+      "copyright": "© 2026 Carbono Consciente. All rights reserved."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — ダッシュボード",
+    "meta_descricao": "移動を記録して、カーボンフットプリントの変化を追いかけましょう。",
+    "titulo": "あなたの習慣ダッシュボード",
+    "subtitulo": "移動を記録して、カーボンフットプリントの変化を追いかけましょう。",
+    "card_hoje": "今日の CO₂",
+    "card_semana": "今週の CO₂",
+    "card_mes": "今月の CO₂",
+    "grafico_titulo": "直近14日間",
+    "grafico_aria": "直近 {{dias}} 日間の CO₂ の推移",
+    "form_titulo": "移動を追加",
+    "campo_meio": "交通手段",
+    "campo_distancia": "距離（km）",
+    "campo_data": "日付",
+    "campo_observacao": "メモ（任意）",
+    "campo_observacao_placeholder": "例：通勤",
+    "botao_adicionar": "追加",
+    "salvando": "保存中...",
+    "registrado_sucesso": "移動を記録しました！",
+    "registros_titulo": "最近の記録",
+    "registros_vazio": "まだ記録がありません。上から最初の移動を追加してみましょう。",
+    "meio_removido": "削除された手段",
+    "remover_registro": "記録を削除",
+    "sessao_expirada": "セッションの有効期限が切れました。",
+    "erro_servidor": "サーバーに接続できませんでした。起動しているかご確認ください。",
+    "erro_generico": "処理を完了できませんでした。",
+    "delta_sem_registros": "この期間の記録はありません",
+    "delta_primeiro_registro": "この期間の最初の記録",
+    "delta_estavel": "前の期間と同水準",
+    "delta_variacao": "前の期間比 {{percentual}}%"
+  },
+  "globo": {
+    "legenda_titulo": "1人あたりの排出量",
+    "legenda_baixa": "少ない",
+    "legenda_alta": "多い",
+    "sair_destaque": "ハイライトモードを終了",
+    "buscar_placeholder": "国を検索...",
+    "buscar_aria": "地球儀で国を検索",
+    "sem_dados_co2": "CO₂ のデータなし",
+    "tonelada_ano_pessoa": "1人あたり年間 {{valor}} t",
+    "territorio": "地域",
+    "fechar_painel": "パネルを閉じる",
+    "sem_dados_territorio": "この地域の1人あたり CO₂ 排出量のデータはありません。",
+    "emissao_per_capita": "1人あたりの排出量：",
+    "equivalente_diario": "1日あたり換算：",
+    "equivalente_semanal": "1週間あたり換算：",
+    "equivalente_mensal": "1か月あたり換算：",
+    "posicao_ranking": "ランキング順位（{{total}} か国中）：",
+    "fonte_estimativa": "1人あたりの化石燃料由来 CO₂ 推定値（Global Carbon Budget / Our World in Data、2024年基準）。",
+    "aria_interativo": "炭素排出量のインタラクティブな地球儀。ドラッグで回転、スクロールで拡大縮小、国をクリックするとデータが表示され、ダブルクリックで地球儀をハイライトモードにできます。",
+    "aria_decorativo": "回転する装飾用の地球儀。Carbono Consciente プロジェクトの世界的な広がりを表しています。",
+    "continente_asia": "アジア",
+    "continente_africa": "アフリカ",
+    "continente_europa": "ヨーロッパ",
+    "continente_america_sul": "南アメリカ",
+    "continente_america_norte": "北アメリカ",
+    "continente_oceania": "オセアニア"
+  }
+}

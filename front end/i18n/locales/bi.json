@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Gobak long fes pej",
+    "theme_toggle_aria": "Jenisim setting blong tok lait/tudak",
+    "menu_aria": "Openem menu",
+    "login_link": "log in",
+    "sair_link": "log aut",
+    "painel_link": "panel",
+    "fechar": "Satem",
+    "nav": {
+      "plataforma": "Platform",
+      "impacto": "Impak",
+      "habitos": "Fasin",
+      "contato": "Kontak",
+      "dados": "Infomesen"
+    }
+  },
+  "header": {
+    "idioma_aria": "Jenisim lanwis",
+    "idioma_buscar_placeholder": "Lukaotem lanwis..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Log in",
+    "meta_descricao": "Log in o jointim grup blong wajem infomesen mo fasin blong yu long Carbono Consciente.",
+    "esquerda_titulo": "Evri tan CO₂ i livim mak",
+    "esquerda_texto": "Log in blong wajem infomesen, fasin, mo kabon futprint blong yu.",
+    "google_botao": "Gohed wetem Google",
+    "google_em_breve": "Log in wetem Google i klosap kam.",
+    "enviando": "sendem...",
+    "erro_servidor": "I no save kanektem server. Em i wok o no?",
+    "erro_generico": "I no save finisim wok ia.",
+    "login": {
+      "titulo": "Log in",
+      "email_label": "Imel",
+      "email_placeholder": "yu@email.com",
+      "senha_label": "Paswod",
+      "botao": "log in",
+      "troca_texto": "Yu no gat akaun yet?",
+      "troca_botao": "Jointim"
+    },
+    "cadastro": {
+      "titulo": "Jointim",
+      "nome_label": "Nem",
+      "nome_placeholder": "Nem blong yu",
+      "email_label": "Imel",
+      "email_placeholder": "yu@email.com",
+      "pais_label": "Kaontri",
+      "pais_placeholder": "Lukaotem kaontri...",
+      "senha_label": "Paswod",
+      "confirmar_label": "Bakegen paswod",
+      "botao": "jointim",
+      "troca_texto": "Yu gat akaun finis?",
+      "troca_botao": "Log in"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Tu paswod ia i no semak."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: edukesen long saed blong karbon emisen, kabon futprint, gudfala advaes blong sastenabiliti, nambawan infomesen mo nius long saed blong envaironment.",
+    "hero": {
+      "titulo": "Evri smol fasin i mekem plenet i karem lesmo hevi",
+      "texto": "CARBONO CONSCIENTE I NO WAN GRIN MAK NO WAN FAWE GOL — HEM I KAM FROM PLANTI SMOL JUIS WE YU MEKEM EVRIDE: WANEM YU PLANIM, OLSEM WANEM YU MUV RAUN, WANTAEM YU KILIM LAET I DAI, WEA YU TROMWEI RABIS.",
+      "botao": "Lukluk Moa"
+    },
+    "acordeao": {
+      "titulo": "Wanem nao Carbono Consciente?",
+      "emissao_titulo": "Karbon Emisen",
+      "emissao_corpo": "Karbon emisen hem i taem we gas olsem CO₂ i go aot long elpa, blong moa yet from faea blong fosil fuel, kilim daon bus, wok blong fektri, mo trafik blong evride.",
+      "clima_titulo": "Olsem wanem hem i afektem klaemet?",
+      "clima_corpo": "Gas blong grinhaos i mekem wan les we i holemtaet hit insaed elpa. Moa emisen, moa bigfala efek — mo hemia nao i pulum global wom mo jenis blong klaemet.",
+      "pegada_titulo": "Kabon Futprint",
+      "pegada_corpo": "Hem i totol blong gas blong grinhaos we i kamaot, stret o no stret, from wanem wan man, kompani, o prodak i mekem long laef blong hem evride.",
+      "neutro_titulo": "Kabon Niutral × Carbono Consciente",
+      "neutro_corpo": "<strong>Kabon niutral</strong> i traem balansem o pembak emisen we i kamaot. <strong>Carbono consciente</strong> i putum fas olgeta juis we i stretem efek long envaironment, bifo nomo we man i tingting long pembak."
+    },
+    "dicas": {
+      "titulo_secao": "Gudfala Advaes blong Sastenabiliti",
+      "clique_voltar": "klikim blong tanem bak",
+      "casa": {
+        "titulo": "Haos",
+        "resumo": "Sevem elektrisiti mo wota evride",
+        "item1": "Sevem elektrisiti",
+        "item2": "Kilim laet i dai sapos yu no yusum",
+        "item3": "Yusum masin gud gud",
+        "item4": "Lesem westem wota",
+        "item5": "No westem kakae"
+      },
+      "transporte": {
+        "titulo": "Transpot",
+        "resumo": "Narafala rod blong winim kar blong isi mufmuf",
+        "item1": "Wokbaot sapos yu save",
+        "item2": "Yusum baesikol",
+        "item3": "Yusum pablik transpot",
+        "item4": "Sherem trip sapos yu save",
+        "item5": "Lesem trip long kar we yu no nidim"
+      },
+      "alimentacao": {
+        "titulo": "Kakae",
+        "resumo": "Juis long tebol we i lesem wes mo emisen",
+        "item1": "Kakaem lokol prodak",
+        "item2": "No westem kakae",
+        "item3": "Planem kakae bifo",
+        "item4": "Yusum kakae gud gud",
+        "item5": "Lesem kakaem mit"
+      },
+      "reciclagem": {
+        "titulo": "Risaikel",
+        "resumo": "Setemaot, yusum bakegen, mo givim niu wok long samting we i stap",
+        "item1": "Setemaot rabis gud gud",
+        "item2": "Yusum material bakegen",
+        "item3": "Putum samting we yu save risaikel long stret ples",
+        "item4": "No yusum samting we man i trowem wan taem nomo",
+        "item5": "Givim niu wok long samting"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Gudfala Infomesen blong Envaironment",
+      "subtitulo": "Yu save finis?",
+      "carregando": "Lodim gudfala infomesen...",
+      "proxima": "Narafala gudfala infomesen",
+      "erro_carregar": "I no save lodim gudfala infomesen naoia."
+    },
+    "noticias": {
+      "titulo": "Nius blong Envaironment",
+      "subtitulo": "Trufala mo niu nius long saed blong sastenabiliti",
+      "anteriores": "Nius bifo",
+      "proximas": "Narafala nius",
+      "carregando": "Lodim nius...",
+      "erro_carregar": "I no save lodim nius naoia.",
+      "nenhuma": "I no gat nius naoia.",
+      "ler_na_origem": "ridim long ples we i kamaot →",
+      "sem_link": "I no gat link blong aotsaed blong nius ia."
+    },
+    "rodape": {
+      "descricao": "Edukesen blong envaironment we i tanem smol juis i kam bigfala rizalt blong plenet.",
+      "navegacao": "Navigesen",
+      "contato": "Kontak",
+      "copyright": "© 2026 Carbono Consciente. Evri raet i stap sef."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Panel",
+    "meta_descricao": "Raetemdaon trip blong yu mo wajem kabon futprint blong yu olong taem.",
+    "titulo": "Panel blong fasin blong yu",
+    "subtitulo": "Raetemdaon trip blong yu mo wajem kabon futprint blong yu olong taem.",
+    "card_hoje": "CO₂ tude",
+    "card_semana": "CO₂ long wik ia",
+    "card_mes": "CO₂ long manis ia",
+    "grafico_titulo": "Jenis long las 14 dei",
+    "grafico_aria": "Jenis blong CO₂ long las {{dias}} dei",
+    "form_titulo": "Adim wan trip",
+    "campo_meio": "Rod blong go",
+    "campo_distancia": "Distans (km)",
+    "campo_data": "Dei",
+    "campo_observacao": "Not (yu no mas raetem)",
+    "campo_observacao_placeholder": "eksampol: trip i go long wok",
+    "botao_adicionar": "adim",
+    "salvando": "sevem...",
+    "registrado_sucesso": "Trip i raetemdaon finis!",
+    "registros_titulo": "Las fala trip",
+    "registros_vazio": "No gat trip yet — adim fas trip blong yu antap.",
+    "meio_removido": "Rod i rimuv",
+    "remover_registro": "Rimuvum trip",
+    "sessao_expirada": "Sesen i finis.",
+    "erro_servidor": "I no save kanektem server. Em i wok o no?",
+    "erro_generico": "I no save finisim wok ia.",
+    "delta_sem_registros": "i no gat trip long taem ia",
+    "delta_primeiro_registro": "fas trip long taem ia",
+    "delta_estavel": "i semak wetem taem bifo",
+    "delta_variacao": "{{percentual}}% wetem taem bifo"
+  },
+  "globo": {
+    "legenda_titulo": "Emisen long wan wan man",
+    "legenda_baixa": "Les",
+    "legenda_alta": "Hae",
+    "sair_destaque": "Aotem mod blong soemaot",
+    "buscar_placeholder": "Lukaotem kaontri...",
+    "buscar_aria": "Lukaotem kaontri long globul",
+    "sem_dados_co2": "i no gat infomesen blong CO₂",
+    "tonelada_ano_pessoa": "{{valor}} tan/yia long wan wan man",
+    "territorio": "Teritori",
+    "fechar_painel": "Satem panel",
+    "sem_dados_territorio": "I no gat infomesen blong emisen CO₂ long wan wan man blong teritori ia.",
+    "emissao_per_capita": "Emisen long wan wan man:",
+    "equivalente_diario": "Semak blong evride:",
+    "equivalente_semanal": "Semak blong wik:",
+    "equivalente_mensal": "Semak blong manis:",
+    "posicao_ranking": "Ples long listim (aot long {{total}} kaontri):",
+    "fonte_estimativa": "Estimesen blong fosil CO₂ long wan wan man (Global Carbon Budget / Our World in Data, yia 2024).",
+    "aria_interativo": "Globul blong karbon emisen we yu save tajem. Pulum blong tanem, skrol blong kam klosap, klikim wan kaontri blong lukim infomesen, mo daboklik blong putum globul long mod blong soemaot.",
+    "aria_decorativo": "Globul we i tantanem nomo blong desorem, i soemaot olbaot wok blong Carbono Consciente projek i go olbaot wol.",
+    "continente_asia": "Esia",
+    "continente_africa": "Afrika",
+    "continente_europa": "Yurop",
+    "continente_america_sul": "Saot Amerika",
+    "continente_america_norte": "Not Amerika",
+    "continente_oceania": "Osenia"
+  }
+}

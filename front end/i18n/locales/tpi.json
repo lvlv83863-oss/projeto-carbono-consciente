@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Go bek long nambawan pes",
+    "theme_toggle_aria": "Senisim mod lait/tudak",
+    "menu_aria": "Opim menu",
+    "login_link": "login",
+    "sair_link": "logaut",
+    "painel_link": "panel",
+    "fechar": "Pasim",
+    "nav": {
+      "plataforma": "Ples wok",
+      "impacto": "Bikpela Effect",
+      "habitos": "Pasin",
+      "contato": "Kontak",
+      "dados": "Data"
+    }
+  },
+  "header": {
+    "idioma_aria": "Senisim tokples",
+    "idioma_buscar_placeholder": "Painim tokples..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Login",
+    "meta_descricao": "Login o kirapim niupela akaun bilong lukluk gut long data na pasin bilong yu long Carbono Consciente.",
+    "esquerda_titulo": "Olgeta wan tonof CO₂ i lusim mak",
+    "esquerda_texto": "Login long lukluk gut long data, pasin, na mak bilong karbon bilong yu.",
+    "google_botao": "Go het wantaim Google",
+    "google_em_breve": "Login wantaim Google bai kamap klostu.",
+    "enviando": "salim...",
+    "erro_servidor": "I no inap tokim wantaim seva. Em i wok?",
+    "erro_generico": "I no inap mekim dispela wok.",
+    "login": {
+      "titulo": "Login",
+      "email_label": "Email",
+      "email_placeholder": "yu@email.com",
+      "senha_label": "Pasword",
+      "botao": "login",
+      "troca_texto": "Yu no gat akaun yet?",
+      "troca_botao": "Kirapim akaun"
+    },
+    "cadastro": {
+      "titulo": "Kirapim Akaun",
+      "nome_label": "Nem",
+      "nome_placeholder": "Nem bilong yu",
+      "email_label": "Email",
+      "email_placeholder": "yu@email.com",
+      "pais_label": "Kantri",
+      "pais_placeholder": "Painim kantri...",
+      "senha_label": "Pasword",
+      "confirmar_label": "Tokaut gen long pasword",
+      "botao": "kirapim akaun",
+      "troca_texto": "Yu gat akaun pinis?",
+      "troca_botao": "Login"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Tupela pasword i no wankain."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: edukesen long sait bilong environment long karbon imisen, mak bilong karbon, gutpela tingting long sastenebol, interesen fakt, na nius long environment.",
+    "hero": {
+      "titulo": "Olgeta liklik pasin i karim liklik hevi long dispela graun",
+      "texto": "CARBONO CONSCIENTE I NO WANPELA GRIN MAK O WANPELA DISTAN GOL — EM I KOMBINESEN BILONG OLGETA DE-TU-DE SAMTING OLSAM: WANEM YU PLANIM, OLSEM WANEM YU MUVIM YU YET, WANEM TAIM YU SINDAUN LAIT, NA WE YU TRONIM KRAP.",
+      "botao": "Lukim Moa"
+    },
+    "acordeao": {
+      "titulo": "Wanem samting em Carbono Consciente?",
+      "emissao_titulo": "Imisen Bilong Karbon",
+      "emissao_corpo": "Imisen bilong karbon em taim gas olsem CO₂ i go insait long skai, bikpela taim long kukim ol fosil fyuel, katim bus, mekim samting long fektori, na tu long karim ol trensport long olgeta de.",
+      "clima_titulo": "Em i save afektim weda olsem wanem?",
+      "clima_corpo": "Ol grinhaus gas i mekim wanpela lapel insait long skai we i holim hot. Taim imisen i go antap, dispela efek tu i go strong moa — na em dispela samting i save mekim graun i hat moa na senisim pasin bilong weda.",
+      "pegada_titulo": "Mak Bilong Karbon",
+      "pegada_corpo": "Em olgeta hap bilong grinhaus gas, i kamap stret o long narapela rot, long wok bilong wanpela man, kampani, o prodak long olgeta de.",
+      "neutro_titulo": "Karbon Niutral × Carbono Consciente",
+      "neutro_corpo": "<strong>Karbon niutral</strong> i traim long balansim o peim bek bilong imisen i kamap. <strong>Carbono consciente</strong> i putim pastaim ol disisen i save daunim bikpela afek long environment, bipo long tingim long peim bek."
+    },
+    "dicas": {
+      "titulo_secao": "Gutpela Tingting Long Sastenebol",
+      "clique_voltar": "klikim long go bek",
+      "casa": {
+        "titulo": "Haus",
+        "resumo": "Seivim pawa na wara long olgeta de",
+        "item1": "Seivim pawa",
+        "item2": "Pasim lait taim i no yusim",
+        "item3": "Yusim masin gut tru",
+        "item4": "Daunim lus bilong wara",
+        "item5": "Abrusim lus bilong kaikai"
+      },
+      "transporte": {
+        "titulo": "Trensport",
+        "resumo": "Narapela rot i winim ka long isi muv",
+        "item1": "Wokabaut taim i inap",
+        "item2": "Yusim baisikel",
+        "item3": "Yusim pablik trensport",
+        "item4": "Sharim trip wantaim arapela taim i inap",
+        "item5": "Daunim trip long ka we i no bikpela nid"
+      },
+      "alimentacao": {
+        "titulo": "Kaikai",
+        "resumo": "Disisen long tebol i daunim lus na imisen",
+        "item1": "Kisim kaikai bilong lokal",
+        "item2": "Abrusim lus",
+        "item3": "Planim kaikai pastaim",
+        "item4": "Yusim kaikai gut moa",
+        "item5": "Daunim kaikai mit"
+      },
+      "reciclagem": {
+        "titulo": "Risaiklin",
+        "resumo": "Separetim, yusim gen, na givim niupela laip long samting i stap",
+        "item1": "Separetim rabis stret",
+        "item2": "Yusim gen ol material",
+        "item3": "Salim ol risaiklabol samting i go long rait ples",
+        "item4": "Abrusim samting yu yusim wanpela taim tasol",
+        "item5": "Givim niupela yus long olpela samting"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Interesen Fakt Long Environment",
+      "subtitulo": "Yu save?",
+      "carregando": "Lodim interesen fakt...",
+      "proxima": "Narapela interesen fakt",
+      "erro_carregar": "I no inap lodim interesen fakt nau."
+    },
+    "noticias": {
+      "titulo": "Nius Bilong Environment",
+      "subtitulo": "Trupela na niupela nius long sastenebiliti",
+      "anteriores": "Nius bipo",
+      "proximas": "Narapela nius",
+      "carregando": "Lodim nius...",
+      "erro_carregar": "I no inap lodim nius nau.",
+      "nenhuma": "I no gat nius i stap nau.",
+      "ler_na_origem": "ridim long orijinal ples →",
+      "sem_link": "I no gat link ausait bilong dispela nius."
+    },
+    "rodape": {
+      "descricao": "Edukesen long environment i save senisim liklik disisen i go kamap bikpela gutpela samting long graun.",
+      "navegacao": "Navigesen",
+      "contato": "Kontak",
+      "copyright": "© 2026 Carbono Consciente. Olgeta rait i stap protektim."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Panel",
+    "meta_descricao": "Raitim ol trip bilong yu na was long mak bilong karbon bilong yu i go het long taim.",
+    "titulo": "Panel bilong pasin bilong yu",
+    "subtitulo": "Raitim ol trip bilong yu na was long mak bilong karbon bilong yu i go het long taim.",
+    "card_hoje": "CO₂ tude",
+    "card_semana": "CO₂ long dispela wik",
+    "card_mes": "CO₂ long dispela mun",
+    "grafico_titulo": "Senis long las 14 de",
+    "grafico_aria": "Senis bilong CO₂ long las {{dias}} de",
+    "form_titulo": "Adim wanpela trip",
+    "campo_meio": "Kain trensport",
+    "campo_distancia": "Longwe (km)",
+    "campo_data": "De",
+    "campo_observacao": "Not (yu no mas raitim)",
+    "campo_observacao_placeholder": "eksampol: trip i go long wok",
+    "botao_adicionar": "adim",
+    "salvando": "seivim...",
+    "registrado_sucesso": "Trip i stap pinis!",
+    "registros_titulo": "Las ol rekod",
+    "registros_vazio": "I no gat rekod yet — adim namba wan trip bilong yu antap.",
+    "meio_removido": "Kain trensport i rausim pinis",
+    "remover_registro": "Rausim rekod",
+    "sessao_expirada": "Sesen i pinis.",
+    "erro_servidor": "I no inap tokim wantaim seva. Em i wok?",
+    "erro_generico": "I no inap mekim dispela wok.",
+    "delta_sem_registros": "i no gat rekod long dispela taim",
+    "delta_primeiro_registro": "namba wan rekod long dispela taim",
+    "delta_estavel": "stap stret olsem bipo taim",
+    "delta_variacao": "{{percentual}}% i winim bipo taim"
+  },
+  "globo": {
+    "legenda_titulo": "Imisen long wanwan man",
+    "legenda_baixa": "Daun",
+    "legenda_alta": "Antap",
+    "sair_destaque": "Go aut long mod hailait",
+    "buscar_placeholder": "Painim kantri...",
+    "buscar_aria": "Painim kantri long globu",
+    "sem_dados_co2": "i no gat data bilong CO₂",
+    "tonelada_ano_pessoa": "{{valor}} tonof/yia long wanwan man",
+    "territorio": "Teritori",
+    "fechar_painel": "Pasim panel",
+    "sem_dados_territorio": "I no gat data bilong imisen CO₂ long wanwan man i stap long dispela teritori.",
+    "emissao_per_capita": "Imisen long wanwan man:",
+    "equivalente_diario": "Wankain mak long wanwan de:",
+    "equivalente_semanal": "Wankain mak long wanwan wik:",
+    "equivalente_mensal": "Wankain mak long wanwan mun:",
+    "posicao_ranking": "Ples long resang (insait long {{total}} kantri):",
+    "fonte_estimativa": "Estimet bilong fosil CO₂ long wanwan man (Global Carbon Budget / Our World in Data, bes yia 2024).",
+    "aria_interativo": "Globu we yu inap wok wantaim bilong karbon imisen. Pulim long tanim, rol long klostu moa, klikim wanpela kantri long lukim data, na dabolklik long putim globu long mod hailait.",
+    "aria_decorativo": "Globu i tantanim bilong displei, i soim we projek Carbono Consciente i go inap long olgeta hap bilong graun.",
+    "continente_asia": "Esia",
+    "continente_africa": "Afrika",
+    "continente_europa": "Yurop",
+    "continente_america_sul": "Saut Amerika",
+    "continente_america_norte": "Not Amerika",
+    "continente_oceania": "Osenia"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Jevy ñepyrũrãme",
+    "theme_toggle_aria": "Moambue tema sakã/pytũ",
+    "menu_aria": "Embojuruja menu",
+    "login_link": "eike",
+    "sair_link": "esẽ",
+    "painel_link": "tembiapo renda",
+    "fechar": "Mboty",
+    "nav": {
+      "plataforma": "Plataforma",
+      "impacto": "Mba'apoite",
+      "habitos": "Jepokuaa",
+      "contato": "Ñemongeta",
+      "dados": "Marandu"
+    }
+  },
+  "header": {
+    "idioma_aria": "Moambue ñe'ẽ",
+    "idioma_buscar_placeholder": "Eheka ñe'ẽ..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Eike",
+    "meta_descricao": "Eike térã ejehaipy hag̃ua ehecha hag̃ua nde marandu ha jepokuaa Carbono Conscienteme.",
+    "esquerda_titulo": "Peteĩ-teĩ tonelada CO₂ oheja hendykue",
+    "esquerda_texto": "Eike ehecha hag̃ua nde marandu, jepokuaa ha nde pegada de carbono.",
+    "google_botao": "Eku'e Google reheve",
+    "google_em_breve": "Login Google ndive ág̃a g̃uive.",
+    "enviando": "oñemondo...",
+    "erro_servidor": "Ndaikatúi oñeñomongeta servidor ndive. ¿Oiko hína?",
+    "erro_generico": "Ndaikatúi ojejapo pe mba'apo.",
+    "login": {
+      "titulo": "Eike",
+      "email_label": "Email",
+      "email_placeholder": "nde@email.com",
+      "senha_label": "Ñe'ẽñemi",
+      "botao": "eike",
+      "troca_texto": "Nderereko'i cuenta?",
+      "troca_botao": "Ejehaipy"
+    },
+    "cadastro": {
+      "titulo": "Jehaipy",
+      "nome_label": "Tero",
+      "nome_placeholder": "Nde tero",
+      "email_label": "Email",
+      "email_placeholder": "nde@email.com",
+      "pais_label": "Tetã",
+      "pais_placeholder": "Eheka tetã...",
+      "senha_label": "Ñe'ẽñemi",
+      "confirmar_label": "Emoañete ñe'ẽñemi",
+      "botao": "ñemboheraguapy",
+      "troca_texto": "Reguerekóma cuenta?",
+      "troca_botao": "Eike"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Ñe'ẽñemi nd'ojojái."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: ñembo'e yvy rehegua emisión de carbono, pegada de carbono, mba'e porã yvy rehegua, mba'e hechapyrãva ha marandu yvy rehegua.",
+    "hero": {
+      "titulo": "Opa jepokuaa michĩva ohejave pohyi yvy ári",
+      "texto": "CARBONO CONSCIENTE NDAHA'ÉI PETEĨ SELLO HO'YVÁ TERÃ PETEĨ MBA'ERECHAGA MOMBYRY — HA'E PE JOAJUHA JEPORAVOITE OJEIPORÚVA, OJEJAPÓVA ARA ÑEMBOHASÁRÃ: MBA'ÉPA EÑOTỸ, MBA'ÉICHAPA REGUATA, MBA'ÉRÃPA REMBOGUE TATAINDY, MOÕPA EITY YVYKUE.",
+      "botao": "Ehecha Hetave"
+    },
+    "acordeao": {
+      "titulo": "Mba'épa Carbono Consciente?",
+      "emissao_titulo": "Emisión de Carbono",
+      "emissao_corpo": "Emisión de carbono ha'e pe gas CO₂ ojeguenohẽva yvytúpe, ijypykuégui pe tatakuára combustible fósil, ka'aguy ñehundi, industria ha avei pe guata ára ha ára.",
+      "clima_titulo": "Mba'éichapa ombyai yvy ára?",
+      "clima_corpo": "Umi gas efecto invernadero omoĩ peteĩ mbyky ohupytýva pytu yvytúpe. Hetave emisión, tuichave upe efecto — ha upéva omoheñói jehesape yvy ha ñemoambue clima rehegua.",
+      "pegada_titulo": "Pegada de Carbono",
+      "pegada_corpo": "Ha'e opaite gas efecto invernadero oñemoheñóiva, tapiveháme térã tapivehápe, peteĩ yvypóra, empresa térã produkto rembiapoite rupive ára ha ára.",
+      "neutro_titulo": "Carbono Neutro × Carbono Consciente",
+      "neutro_corpo": "<strong>Carbono neutro</strong> oheka ombojoja térã ombohasa pe emisión oñemoheñóiva. <strong>Carbono consciente</strong> omotenonde umi jeporavo omomichĩva mba'asy yvy ári, ni araka'eve ombohasa mboyve."
+    },
+    "dicas": {
+      "titulo_secao": "Jerovia Yvy Rehegua",
+      "clique_voltar": "eity jevyve hag̃ua",
+      "casa": {
+        "titulo": "Óga",
+        "resumo": "Ñemoñeno enerhia ha y rehegua ára ha ára",
+        "item1": "Emoñeno enerhia",
+        "item2": "Embogue tataindy nderejepurukuéi jave",
+        "item3": "Eiporu umi mba'epuru ñemoñenomante",
+        "item4": "Emomichĩ y reikuaa'ỹre",
+        "item5": "Ani embokueve tembi'u"
+      },
+      "transporte": {
+        "titulo": "Guata",
+        "resumo": "Mba'e ambue mo'õnguéra ikatúva repyru reheve",
+        "item1": "Eguata ikatúramo",
+        "item2": "Eiporu bicicleta",
+        "item3": "Eiporu transporte público",
+        "item4": "Eñompomoí ambue ndive ikatúramo",
+        "item5": "Emomichĩ guata mo'õnguéra oikotevẽ'ỹva"
+      },
+      "alimentacao": {
+        "titulo": "Tembi'u",
+        "resumo": "Jeporavo mesápe omomichĩva ñembyai ha emisión",
+        "item1": "Eñemu umi produkto táva rehegua",
+        "item2": "Ani embokueve",
+        "item3": "Embosako'i tembi'u",
+        "item4": "Eiporuporãve tembi'u",
+        "item5": "Emomichĩ so'o ñekaru"
+      },
+      "reciclagem": {
+        "titulo": "Mohendase jevy",
+        "resumo": "Emboja'o, eiporu jevy ha eme'ẽ tekove pyahu mba'e opávape",
+        "item1": "Emboja'oporã umi resíduo",
+        "item2": "Eiporu jevy mba'epuru",
+        "item3": "Eha'ã umi oñemohendaveséva tenda hekópe",
+        "item4": "Ani eiporu mba'e ojeitýva peteĩ jey",
+        "item5": "Eme'ẽ tapicha pyahu mba'e kuérape"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Mba'e Hechapyrã Yvy Rehegua",
+      "subtitulo": "Reikuaáma?",
+      "carregando": "Oñemyenyhẽ hína mba'e hechapyrã...",
+      "proxima": "Ambue mba'e hechapyrã",
+      "erro_carregar": "Ndaikatúi ojegueru mba'e hechapyrã ko'ág̃a."
+    },
+    "noticias": {
+      "titulo": "Marandu Yvy Rehegua",
+      "subtitulo": "Marandu añetegua ha pyahu sostenibilidad rehegua",
+      "anteriores": "Marandu mboyvegua",
+      "proximas": "Marandu ambueve",
+      "carregando": "Oñemyenyhẽ hína marandu...",
+      "erro_carregar": "Ndaikatúi ojegueru marandu ko'ág̃a.",
+      "nenhuma": "Ndaipóri marandu ko'ág̃a g̃uarã.",
+      "ler_na_origem": "emoñe'ẽ pe oikohague →",
+      "sem_link": "Ndaipóri enlace okaygua ko marandúpe g̃uarã."
+    },
+    "rodape": {
+      "descricao": "Ñembo'e yvy rehegua omoambuéva jeporavo michĩva mba'e tuicháva yvy ára g̃uarã.",
+      "navegacao": "Jeguata",
+      "contato": "Ñemongeta",
+      "copyright": "© 2026 Carbono Consciente. Opaite derécho ñemo'ã."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Tembiapo renda",
+    "meta_descricao": "Emoĩ nde guata ha ehecha nde pegada de carbono ára ha ára.",
+    "titulo": "Nde tembiapo renda jepokuaa rehegua",
+    "subtitulo": "Emoĩ nde guata ha ehecha nde pegada de carbono ára ha ára.",
+    "card_hoje": "CO₂ ko árape",
+    "card_semana": "CO₂ ko arapokõindýpe",
+    "card_mes": "CO₂ ko jasýpe",
+    "grafico_titulo": "Ojehasáva 14 ára ramóva",
+    "grafico_aria": "CO₂ rembiasakue umi {{dias}} ára ramóvape",
+    "form_titulo": "Embojuaju guata",
+    "campo_meio": "Guata rendáva",
+    "campo_distancia": "Mombyry (km)",
+    "campo_data": "Ára",
+    "campo_observacao": "Jehecha (ikatu'ỹva)",
+    "campo_observacao_placeholder": "techapyrã: tembiaporã guata",
+    "botao_adicionar": "embojuaju",
+    "salvando": "oñeñongatu...",
+    "registrado_sucesso": "Guata oñemboheraguapýma!",
+    "registros_titulo": "Ñemboheraguapy pahague",
+    "registros_vazio": "Ndaipóri ñemboheraguapy gueteri — embojuaju nde guata peteĩha yvate.",
+    "meio_removido": "Guatarenda oñemboguepyre",
+    "remover_registro": "Emboguete ñemboheraguapy",
+    "sessao_expirada": "Sesión opáma.",
+    "erro_servidor": "Ndaikatúi oñeñomongeta servidor ndive. ¿Oiko hína?",
+    "erro_generico": "Ndaikatúi ojejapo pe mba'apo.",
+    "delta_sem_registros": "ndaipóri ñemboheraguapy ko tiémpope",
+    "delta_primeiro_registro": "ñemboheraguapy peteĩha ko tiémpope",
+    "delta_estavel": "ojoja mboyvegua tiémpo ndive",
+    "delta_variacao": "{{percentual}}% mboyvegua tiémpo rehe"
+  },
+  "globo": {
+    "legenda_titulo": "Emisión peteĩ-teĩmegua",
+    "legenda_baixa": "Michĩ",
+    "legenda_alta": "Tuicha",
+    "sair_destaque": "Esẽ modo destaque-gui",
+    "buscar_placeholder": "Eheka tetã...",
+    "buscar_aria": "Eheka tetã globo-pe",
+    "sem_dados_co2": "ndaipóri marandu CO₂ rehegua",
+    "tonelada_ano_pessoa": "{{valor}} t/ary peteĩ-teĩme",
+    "territorio": "Yvy",
+    "fechar_painel": "Emboty panel",
+    "sem_dados_territorio": "Ndaipóri marandu emisión CO₂ peteĩ-teĩmegua ko yvýpe g̃uarã.",
+    "emissao_per_capita": "Emisión peteĩ-teĩmegua:",
+    "equivalente_diario": "Ojojaháva ára ha ára:",
+    "equivalente_semanal": "Ojojaháva arapokõindýpe:",
+    "equivalente_mensal": "Ojojaháva jasýpe:",
+    "posicao_ranking": "Renda ranking-pe ({{total}} tetã apytépe):",
+    "fonte_estimativa": "Ojeikuaaukáva CO₂ fósil peteĩ-teĩmegua (Global Carbon Budget / Our World in Data, ary 2024 guive).",
+    "aria_interativo": "Globo oñemongu'éva emisión de carbono rehegua. Embosyryry eipyguara hag̃ua, embojere embojere hag̃ua, eity tetã rehe ehecha hag̃ua marandu ha eity mokõi jey embojuaju hag̃ua modo destaque-pe.",
+    "aria_decorativo": "Globo ojerévante, ohechaukáva proyecto Carbono Consciente oguahẽha opárupi.",
+    "continente_asia": "Ásia",
+    "continente_africa": "África",
+    "continente_europa": "Europa",
+    "continente_america_sul": "América Sur",
+    "continente_america_norte": "América Norte",
+    "continente_oceania": "Oceanía"
+  }
+}

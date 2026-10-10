@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← 返回首页",
+    "theme_toggle_aria": "切换浅色/深色主题",
+    "menu_aria": "打开菜单",
+    "login_link": "登录",
+    "sair_link": "退出",
+    "painel_link": "仪表盘",
+    "fechar": "关闭",
+    "nav": {
+      "plataforma": "平台",
+      "impacto": "影响",
+      "habitos": "习惯",
+      "contato": "联系",
+      "dados": "数据"
+    }
+  },
+  "header": {
+    "idioma_aria": "切换语言",
+    "idioma_buscar_placeholder": "搜索语言..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — 登录",
+    "meta_descricao": "登录或注册，在 Carbono Consciente 上追踪你的数据和习惯。",
+    "esquerda_titulo": "每一吨 CO₂ 都会留下痕迹",
+    "esquerda_texto": "登录即可追踪你的数据、习惯和碳足迹。",
+    "google_botao": "使用 Google 账号继续",
+    "google_em_breve": "Google 登录即将上线。",
+    "enviando": "提交中...",
+    "erro_servidor": "无法连接服务器，请确认它是否正在运行。",
+    "erro_generico": "操作未能完成。",
+    "login": {
+      "titulo": "登录",
+      "email_label": "邮箱",
+      "email_placeholder": "you@email.com",
+      "senha_label": "密码",
+      "botao": "登录",
+      "troca_texto": "还没有账号？",
+      "troca_botao": "注册"
+    },
+    "cadastro": {
+      "titulo": "注册",
+      "nome_label": "姓名",
+      "nome_placeholder": "你的姓名",
+      "email_label": "邮箱",
+      "email_placeholder": "you@email.com",
+      "pais_label": "国家/地区",
+      "pais_placeholder": "搜索国家/地区...",
+      "senha_label": "密码",
+      "confirmar_label": "确认密码",
+      "botao": "注册",
+      "troca_texto": "已有账号？",
+      "troca_botao": "登录"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "两次输入的密码不一致。"
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente：关于碳排放与碳足迹的环境教育，提供可持续生活建议、环保小知识和环境新闻。",
+    "hero": {
+      "titulo": "每一个小习惯，都让地球轻一点",
+      "texto": "CARBONO CONSCIENTE 不是一枚绿色标签，也不是一个遥远的目标——它是日常选择的总和，每天不断重复：你种下什么，你如何出行，你何时关灯，你把垃圾丢在哪里。",
+      "botao": "了解更多"
+    },
+    "acordeao": {
+      "titulo": "什么是 Carbono Consciente？",
+      "emissao_titulo": "碳排放",
+      "emissao_corpo": "碳排放是指将 CO₂ 等气体释放到大气中，主要来自化石燃料燃烧、森林砍伐、工业生产，乃至日常的交通出行。",
+      "clima_titulo": "它如何影响气候？",
+      "clima_corpo": "温室气体会形成一层屏障，把热量锁在大气之中。排放越多，这种效应就越强——而这正是全球变暖和气候变化的推动力。",
+      "pegada_titulo": "碳足迹",
+      "pegada_corpo": "碳足迹是指一个人、一家企业或一件产品在日常活动中直接或间接产生的温室气体总量。",
+      "neutro_titulo": "碳中和 × Carbono Consciente",
+      "neutro_corpo": "<strong>碳中和</strong>致力于平衡或抵消已经产生的排放。<strong>Carbono Consciente</strong>则优先选择能减少环境影响的做法，而不是先考虑抵消。"
+    },
+    "dicas": {
+      "titulo_secao": "可持续生活建议",
+      "clique_voltar": "点击返回",
+      "casa": {
+        "titulo": "居家",
+        "resumo": "日常节约能源与用水",
+        "item1": "节约能源",
+        "item2": "不用时关灯",
+        "item3": "合理使用电器",
+        "item4": "减少水资源浪费",
+        "item5": "避免食物浪费"
+      },
+      "transporte": {
+        "titulo": "出行",
+        "resumo": "用更轻盈的方式替代开车",
+        "item1": "能走路时就走路",
+        "item2": "骑自行车",
+        "item3": "乘坐公共交通",
+        "item4": "尽量与他人拼车",
+        "item5": "减少不必要的驾车出行"
+      },
+      "alimentacao": {
+        "titulo": "饮食",
+        "resumo": "餐桌上的选择，减少浪费与排放",
+        "item1": "选择本地食材",
+        "item2": "避免浪费",
+        "item3": "提前规划餐食",
+        "item4": "更充分地利用食材",
+        "item5": "减少肉类消费"
+      },
+      "reciclagem": {
+        "titulo": "回收",
+        "resumo": "分类、再利用，让剩余物重获新生",
+        "item1": "正确分类垃圾",
+        "item2": "重复利用材料",
+        "item3": "正确投放可回收物",
+        "item4": "避免使用一次性产品",
+        "item5": "为旧物找到新用途"
+      }
+    },
+    "curiosidades": {
+      "titulo": "环保小知识",
+      "subtitulo": "你知道吗？",
+      "carregando": "正在加载小知识...",
+      "proxima": "下一条小知识",
+      "erro_carregar": "暂时无法加载小知识。"
+    },
+    "noticias": {
+      "titulo": "环境新闻",
+      "subtitulo": "关于可持续发展的真实近期新闻",
+      "anteriores": "上一批新闻",
+      "proximas": "下一批新闻",
+      "carregando": "正在加载新闻...",
+      "erro_carregar": "暂时无法加载新闻。",
+      "nenhuma": "目前暂无新闻。",
+      "ler_na_origem": "阅读原文 →",
+      "sem_link": "这条新闻暂无外部链接。"
+    },
+    "rodape": {
+      "descricao": "用环境教育，把微小的选择变成地球的巨大改变。",
+      "navegacao": "导航",
+      "contato": "联系",
+      "copyright": "© 2026 Carbono Consciente. 保留所有权利。"
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — 仪表盘",
+    "meta_descricao": "记录你的出行，持续追踪你的碳足迹。",
+    "titulo": "你的习惯仪表盘",
+    "subtitulo": "记录你的出行，持续追踪你的碳足迹。",
+    "card_hoje": "今日 CO₂",
+    "card_semana": "本周 CO₂",
+    "card_mes": "本月 CO₂",
+    "grafico_titulo": "最近 14 天",
+    "grafico_aria": "最近 {{dias}} 天的 CO₂ 变化趋势",
+    "form_titulo": "添加出行记录",
+    "campo_meio": "交通方式",
+    "campo_distancia": "距离（公里）",
+    "campo_data": "日期",
+    "campo_observacao": "备注（选填）",
+    "campo_observacao_placeholder": "例如：通勤上班",
+    "botao_adicionar": "添加",
+    "salvando": "保存中...",
+    "registrado_sucesso": "出行已记录！",
+    "registros_titulo": "最近记录",
+    "registros_vazio": "还没有记录——在上方添加你的第一条出行吧。",
+    "meio_removido": "已删除的方式",
+    "remover_registro": "删除记录",
+    "sessao_expirada": "登录已过期。",
+    "erro_servidor": "无法连接服务器，请确认它是否正在运行。",
+    "erro_generico": "操作未能完成。",
+    "delta_sem_registros": "该时段没有记录",
+    "delta_primeiro_registro": "该时段的第一条记录",
+    "delta_estavel": "与上一时段持平",
+    "delta_variacao": "{{percentual}}% 对比上一时段"
+  },
+  "globo": {
+    "legenda_titulo": "人均排放",
+    "legenda_baixa": "低",
+    "legenda_alta": "高",
+    "sair_destaque": "退出聚焦模式",
+    "buscar_placeholder": "搜索国家/地区...",
+    "buscar_aria": "在地球上搜索国家/地区",
+    "sem_dados_co2": "暂无 CO₂ 数据",
+    "tonelada_ano_pessoa": "人均每年 {{valor}} 吨",
+    "territorio": "地区",
+    "fechar_painel": "关闭面板",
+    "sem_dados_territorio": "该地区暂无人均 CO₂ 排放数据。",
+    "emissao_per_capita": "人均排放：",
+    "equivalente_diario": "每日相当于：",
+    "equivalente_semanal": "每周相当于：",
+    "equivalente_mensal": "每月相当于：",
+    "posicao_ranking": "排名（共 {{total}} 个国家）：",
+    "fonte_estimativa": "人均化石燃料 CO₂ 排放估算（Global Carbon Budget / Our World in Data，基准年 2024）。",
+    "aria_interativo": "可交互的碳排放地球。拖动以旋转，滚动以缩放，点击国家查看数据，双击可将地球切换到聚焦模式。",
+    "aria_decorativo": "装饰性的旋转地球，展现 Carbono Consciente 项目的全球视野。",
+    "continente_asia": "亚洲",
+    "continente_africa": "非洲",
+    "continente_europa": "欧洲",
+    "continente_america_sul": "南美洲",
+    "continente_america_norte": "北美洲",
+    "continente_oceania": "大洋洲"
+  }
+}

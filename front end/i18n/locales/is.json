@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Til baka á forsíðu",
+    "theme_toggle_aria": "Skipta um ljóst/dökkt þema",
+    "menu_aria": "Opna valmynd",
+    "login_link": "innskráning",
+    "sair_link": "útskráning",
+    "painel_link": "stjórnborð",
+    "fechar": "Loka",
+    "nav": {
+      "plataforma": "Vettvangur",
+      "impacto": "Áhrif",
+      "habitos": "Venjur",
+      "contato": "Hafa samband",
+      "dados": "Gögn"
+    }
+  },
+  "header": {
+    "idioma_aria": "Breyta tungumáli",
+    "idioma_buscar_placeholder": "Leita að tungumáli..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Innskráning",
+    "meta_descricao": "Skráðu þig inn eða nýskráðu þig til að fylgjast með gögnum þínum og venjum á Carbono Consciente.",
+    "esquerda_titulo": "Hvert tonn af CO₂ skilur eftir sig spor",
+    "esquerda_texto": "Skráðu þig inn til að fylgjast með gögnum þínum, venjum og kolefnisspori.",
+    "google_botao": "Halda áfram með Google",
+    "google_em_breve": "Innskráning með Google kemur bráðlega.",
+    "enviando": "sendi...",
+    "erro_servidor": "Ekki tókst að ná í vefþjóninn. Er hann í gangi?",
+    "erro_generico": "Ekki tókst að ljúka aðgerðinni.",
+    "login": {
+      "titulo": "Innskráning",
+      "email_label": "Netfang",
+      "email_placeholder": "tu@netfang.is",
+      "senha_label": "Lykilorð",
+      "botao": "skrá inn",
+      "troca_texto": "Ertu ekki með aðgang?",
+      "troca_botao": "Nýskrá"
+    },
+    "cadastro": {
+      "titulo": "Nýskráning",
+      "nome_label": "Nafn",
+      "nome_placeholder": "Nafnið þitt",
+      "email_label": "Netfang",
+      "email_placeholder": "tu@netfang.is",
+      "pais_label": "Land",
+      "pais_placeholder": "Leita að landi...",
+      "senha_label": "Lykilorð",
+      "confirmar_label": "Staðfesta lykilorð",
+      "botao": "nýskrá",
+      "troca_texto": "Ertu nú þegar með aðgang?",
+      "troca_botao": "Skrá inn"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Lykilorðin stemma ekki."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: umhverfisfræðsla um kolefnislosun, kolefnisspor, sjálfbærniráð, skemmtilegan fróðleik og umhverfisfréttir.",
+    "hero": {
+      "titulo": "Hver lítil venja léttir álagið á jörðina",
+      "texto": "CARBONO CONSCIENTE ER EKKI GRÆNT VOTTUNARMERKI EÐA FJARLÆGT MARKMIÐ — ÞETTA ER SAMANLÖGÐ ÁHRIF HVERSDAGSLEGRA VALKOSTA, ENDURTEKINNA Á HVERJUM DEGI: HVAÐ ÞÚ RÆKTAR, HVERNIG ÞÚ FERÐAST, HVENÆR ÞÚ SLEKKUR LJÓSIN, HVAR ÞÚ FLEYGIR RUSLI.",
+      "botao": "Sjá meira"
+    },
+    "acordeao": {
+      "titulo": "Hvað er Carbono Consciente?",
+      "emissao_titulo": "Kolefnislosun",
+      "emissao_corpo": "Kolefnislosun er losun lofttegunda eins og CO₂ út í andrúmsloftið, aðallega vegna brennslu jarðefnaeldsneytis, skógareyðingar, iðnaðarframleiðslu og jafnvel daglegra samgangna.",
+      "clima_titulo": "Hvernig hefur það áhrif á veðurfarið?",
+      "clima_corpo": "Gróðurhúsalofttegundir mynda lag sem heldur hita í andrúmsloftinu. Því meiri losun, því sterkari verða þessi áhrif — og það er það sem drífur áfram hnattræna hlýnun og veðurfarsbreytingar.",
+      "pegada_titulo": "Kolefnisspor",
+      "pegada_corpo": "Það er heildarmagn gróðurhúsalofttegunda sem myndast, beint eða óbeint, vegna athafna einstaklings, fyrirtækis eða vöru í daglegu lífi.",
+      "neutro_titulo": "Kolefnishlutleysi × Carbono Consciente",
+      "neutro_corpo": "<strong>Kolefnishlutleysi</strong> leitast við að jafna út eða vega upp á móti losuninni sem myndast. <strong>Carbono consciente</strong> setur í forgang valkosti sem draga úr umhverfisáhrifum áður en farið er að hugsa um að vega upp á móti þeim."
+    },
+    "dicas": {
+      "titulo_secao": "Sjálfbærniráð",
+      "clique_voltar": "smelltu til að fara til baka",
+      "casa": {
+        "titulo": "Heimili",
+        "resumo": "Orku- og vatnssparnaður í daglegu lífi",
+        "item1": "Spara orku",
+        "item2": "Slökkva ljós þegar þau eru ekki í notkun",
+        "item3": "Nota tæki á meðvitaðan hátt",
+        "item4": "Draga úr vatnssóun",
+        "item5": "Forðast matarsóun"
+      },
+      "transporte": {
+        "titulo": "Samgöngur",
+        "resumo": "Valkostir við bílinn fyrir léttari ferðir",
+        "item1": "Ganga þegar það er mögulegt",
+        "item2": "Nota reiðhjól",
+        "item3": "Nota almenningssamgöngur",
+        "item4": "Deila ferðum þegar það er mögulegt",
+        "item5": "Draga úr óþarfa bílferðum"
+      },
+      "alimentacao": {
+        "titulo": "Matur",
+        "resumo": "Valkostir við matarborðið sem draga úr sóun og losun",
+        "item1": "Kaupa staðbundnar vörur",
+        "item2": "Forðast sóun",
+        "item3": "Skipuleggja máltíðir",
+        "item4": "Nýta matinn betur",
+        "item5": "Minnka kjötneyslu"
+      },
+      "reciclagem": {
+        "titulo": "Endurvinnsla",
+        "resumo": "Flokka, endurnýta og gefa afgangi nýtt líf",
+        "item1": "Flokka úrgang rétt",
+        "item2": "Endurnýta efni",
+        "item3": "Koma endurvinnanlegum efnum á réttan stað",
+        "item4": "Forðast einnota vörur",
+        "item5": "Gefa hlutum nýtt hlutverk"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Umhverfisfróðleikur",
+      "subtitulo": "Vissir þú?",
+      "carregando": "Hleður fróðleik...",
+      "proxima": "Næsti fróðleikur",
+      "erro_carregar": "Ekki tókst að hlaða fróðleik núna."
+    },
+    "noticias": {
+      "titulo": "Umhverfisfréttir",
+      "subtitulo": "Raunverulegar og nýlegar fréttir um sjálfbærni",
+      "anteriores": "Fyrri fréttir",
+      "proximas": "Næstu fréttir",
+      "carregando": "Hleður fréttum...",
+      "erro_carregar": "Ekki tókst að hlaða fréttum núna.",
+      "nenhuma": "Engar fréttir í boði núna.",
+      "ler_na_origem": "lesa á upprunalegu síðunni →",
+      "sem_link": "Engin ytri tengill er til fyrir þessa frétt."
+    },
+    "rodape": {
+      "descricao": "Umhverfisfræðsla sem breytir litlum ákvörðunum í stórar niðurstöður fyrir jörðina.",
+      "navegacao": "Flakk",
+      "contato": "Hafa samband",
+      "copyright": "© 2026 Carbono Consciente. Allur réttur áskilinn."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Stjórnborð",
+    "meta_descricao": "Skráðu ferðir þínar og fylgstu með kolefnisspori þínu með tímanum.",
+    "titulo": "Stjórnborð venja þinna",
+    "subtitulo": "Skráðu ferðir þínar og fylgstu með kolefnisspori þínu með tímanum.",
+    "card_hoje": "CO₂ í dag",
+    "card_semana": "CO₂ þessa viku",
+    "card_mes": "CO₂ þennan mánuð",
+    "grafico_titulo": "Þróun síðustu 14 daga",
+    "grafico_aria": "Þróun CO₂ síðustu {{dias}} daga",
+    "form_titulo": "Bæta við ferð",
+    "campo_meio": "Ferðamáti",
+    "campo_distancia": "Vegalengd (km)",
+    "campo_data": "Dagsetning",
+    "campo_observacao": "Athugasemd (valkvætt)",
+    "campo_observacao_placeholder": "t.d.: ferð í vinnuna",
+    "botao_adicionar": "bæta við",
+    "salvando": "vista...",
+    "registrado_sucesso": "Ferð skráð!",
+    "registros_titulo": "Nýjustu færslur",
+    "registros_vazio": "Engar færslur ennþá — bættu við fyrstu ferðinni þinni hér fyrir ofan.",
+    "meio_removido": "Ferðamáti fjarlægður",
+    "remover_registro": "Fjarlægja færslu",
+    "sessao_expirada": "Lotan er útrunnin.",
+    "erro_servidor": "Ekki tókst að ná í vefþjóninn. Er hann í gangi?",
+    "erro_generico": "Ekki tókst að ljúka aðgerðinni.",
+    "delta_sem_registros": "engar færslur á þessu tímabili",
+    "delta_primeiro_registro": "fyrsta færsla tímabilsins",
+    "delta_estavel": "stöðugt miðað við fyrra tímabil",
+    "delta_variacao": "{{percentual}}% miðað við fyrra tímabil"
+  },
+  "globo": {
+    "legenda_titulo": "Losun á mann",
+    "legenda_baixa": "Lítil",
+    "legenda_alta": "Mikil",
+    "sair_destaque": "Fara úr áherslustillingu",
+    "buscar_placeholder": "Leita að landi...",
+    "buscar_aria": "Leita að landi á hnettinum",
+    "sem_dados_co2": "engin CO₂ gögn",
+    "tonelada_ano_pessoa": "{{valor}} t/ár á mann",
+    "territorio": "Svæði",
+    "fechar_painel": "Loka spjaldi",
+    "sem_dados_territorio": "Engin gögn um CO₂-losun á mann eru til fyrir þetta svæði.",
+    "emissao_per_capita": "Losun á mann:",
+    "equivalente_diario": "Dagslegt jafngildi:",
+    "equivalente_semanal": "Vikulegt jafngildi:",
+    "equivalente_mensal": "Mánaðarlegt jafngildi:",
+    "posicao_ranking": "Staða á lista (af {{total}} löndum):",
+    "fonte_estimativa": "Mat á jarðefna-CO₂ losun á mann (Global Carbon Budget / Our World in Data, viðmiðunarárið 2024).",
+    "aria_interativo": "Gagnvirkur hnöttur um kolefnislosun. Dragðu til að snúa, skrunaðu til að stækka, smelltu á land til að sjá gögn og tvísmelltu til að setja hnöttinn í áherslustillingu.",
+    "aria_decorativo": "Skrauthnöttur sem snýst og sýnir alþjóðlega útbreiðslu Carbono Consciente verkefnisins.",
+    "continente_asia": "Asía",
+    "continente_africa": "Afríka",
+    "continente_europa": "Evrópa",
+    "continente_america_sul": "Suður-Ameríka",
+    "continente_america_norte": "Norður-Ameríka",
+    "continente_oceania": "Eyjaálfa"
+  }
+}

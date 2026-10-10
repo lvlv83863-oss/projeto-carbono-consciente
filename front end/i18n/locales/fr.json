@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Retour à l'accueil",
+    "theme_toggle_aria": "Basculer entre le thème clair et sombre",
+    "menu_aria": "Ouvrir le menu",
+    "login_link": "connexion",
+    "sair_link": "déconnexion",
+    "painel_link": "tableau de bord",
+    "fechar": "Fermer",
+    "nav": {
+      "plataforma": "Plateforme",
+      "impacto": "Impact",
+      "habitos": "Habitudes",
+      "contato": "Contact",
+      "dados": "Données"
+    }
+  },
+  "header": {
+    "idioma_aria": "Changer de langue",
+    "idioma_buscar_placeholder": "Rechercher une langue..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Connexion",
+    "meta_descricao": "Connectez-vous ou créez un compte pour suivre vos données et vos habitudes sur Carbono Consciente.",
+    "esquerda_titulo": "Chaque tonne de CO₂ laisse une trace",
+    "esquerda_texto": "Connectez-vous pour suivre vos données, vos habitudes et votre empreinte carbone.",
+    "google_botao": "Continuer avec Google",
+    "google_em_breve": "La connexion avec Google arrive bientôt.",
+    "enviando": "envoi...",
+    "erro_servidor": "Impossible de joindre le serveur. Est-il bien démarré ?",
+    "erro_generico": "Impossible de terminer l'opération.",
+    "login": {
+      "titulo": "Connexion",
+      "email_label": "E-mail",
+      "email_placeholder": "vous@email.com",
+      "senha_label": "Mot de passe",
+      "botao": "se connecter",
+      "troca_texto": "Vous n'avez pas encore de compte ?",
+      "troca_botao": "Créer un compte"
+    },
+    "cadastro": {
+      "titulo": "Inscription",
+      "nome_label": "Nom",
+      "nome_placeholder": "Votre nom",
+      "email_label": "E-mail",
+      "email_placeholder": "vous@email.com",
+      "pais_label": "Pays",
+      "pais_placeholder": "Rechercher un pays...",
+      "senha_label": "Mot de passe",
+      "confirmar_label": "Confirmer le mot de passe",
+      "botao": "s'inscrire",
+      "troca_texto": "Vous avez déjà un compte ?",
+      "troca_botao": "Se connecter"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Les mots de passe ne correspondent pas."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente : éducation à l'environnement sur les émissions de carbone, l'empreinte carbone, des conseils durables, des faits surprenants et des actualités environnementales.",
+    "hero": {
+      "titulo": "Chaque petite habitude pèse moins sur la planète",
+      "texto": "CARBONO CONSCIENTE N'EST NI UN LABEL VERT NI UN OBJECTIF LOINTAIN — C'EST LA SOMME DE CHOIX ORDINAIRES, RÉPÉTÉS CHAQUE JOUR : CE QUE VOUS PLANTEZ, COMMENT VOUS VOUS DÉPLACEZ, QUAND VOUS ÉTEIGNEZ LA LUMIÈRE, OÙ VOUS JETEZ VOS DÉCHETS.",
+      "botao": "Voir plus"
+    },
+    "acordeao": {
+      "titulo": "Qu'est-ce que Carbono Consciente ?",
+      "emissao_titulo": "Émission de carbone",
+      "emissao_corpo": "L'émission de carbone est le rejet dans l'atmosphère de gaz comme le CO₂, principalement par la combustion d'énergies fossiles, la déforestation, la production industrielle et même les déplacements du quotidien.",
+      "clima_titulo": "Quel effet sur le climat ?",
+      "clima_corpo": "Les gaz à effet de serre forment une couche qui retient la chaleur dans l'atmosphère. Plus les émissions augmentent, plus cet effet est fort — et c'est ce qui alimente le réchauffement climatique et le changement climatique.",
+      "pegada_titulo": "Empreinte carbone",
+      "pegada_corpo": "C'est la quantité totale de gaz à effet de serre générée, directement ou indirectement, par les activités d'une personne, d'une entreprise ou d'un produit au quotidien.",
+      "neutro_titulo": "Neutralité carbone × Carbono Consciente",
+      "neutro_corpo": "<strong>La neutralité carbone</strong> cherche à équilibrer ou à compenser les émissions générées. <strong>Le carbone conscient</strong> privilégie les choix qui réduisent l'impact environnemental avant même de penser à la compensation."
+    },
+    "dicas": {
+      "titulo_secao": "Conseils durables",
+      "clique_voltar": "cliquez pour revenir",
+      "casa": {
+        "titulo": "Maison",
+        "resumo": "Économies d'énergie et d'eau au quotidien",
+        "item1": "Économiser l'énergie",
+        "item2": "Éteindre les lumières quand on ne s'en sert pas",
+        "item3": "Utiliser les appareils de façon responsable",
+        "item4": "Réduire le gaspillage d'eau",
+        "item5": "Éviter le gaspillage alimentaire"
+      },
+      "transporte": {
+        "titulo": "Transport",
+        "resumo": "Des alternatives à la voiture pour des trajets plus légers",
+        "item1": "Marcher quand c'est possible",
+        "item2": "Utiliser le vélo",
+        "item3": "Utiliser les transports en commun",
+        "item4": "Partager les trajets quand c'est possible",
+        "item5": "Réduire les trajets en voiture inutiles"
+      },
+      "alimentacao": {
+        "titulo": "Alimentation",
+        "resumo": "Des choix à table qui réduisent le gaspillage et les émissions",
+        "item1": "Consommer des produits locaux",
+        "item2": "Éviter le gaspillage",
+        "item3": "Planifier ses repas",
+        "item4": "Mieux valoriser les aliments",
+        "item5": "Réduire sa consommation de viande"
+      },
+      "reciclagem": {
+        "titulo": "Recyclage",
+        "resumo": "Triez, réutilisez et donnez une seconde vie aux restes",
+        "item1": "Trier correctement ses déchets",
+        "item2": "Réutiliser les matériaux",
+        "item3": "Déposer les recyclables au bon endroit",
+        "item4": "Éviter les produits jetables",
+        "item5": "Donner un nouvel usage aux objets"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Curiosités environnementales",
+      "subtitulo": "Le saviez-vous ?",
+      "carregando": "Chargement de la curiosité...",
+      "proxima": "Curiosité suivante",
+      "erro_carregar": "Impossible de charger les curiosités pour le moment."
+    },
+    "noticias": {
+      "titulo": "Actualités environnementales",
+      "subtitulo": "Des actualités réelles et récentes sur la durabilité",
+      "anteriores": "Actualités précédentes",
+      "proximas": "Actualités suivantes",
+      "carregando": "Chargement des actualités...",
+      "erro_carregar": "Impossible de charger les actualités pour le moment.",
+      "nenhuma": "Aucune actualité disponible pour le moment.",
+      "ler_na_origem": "lire sur le site d'origine →",
+      "sem_link": "Aucun lien externe disponible pour cette actualité."
+    },
+    "rodape": {
+      "descricao": "L'éducation à l'environnement pour transformer de petits choix en grands résultats pour la planète.",
+      "navegacao": "Navigation",
+      "contato": "Contact",
+      "copyright": "© 2026 Carbono Consciente. Tous droits réservés."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Tableau de bord",
+    "meta_descricao": "Enregistrez vos déplacements et suivez votre empreinte carbone au fil du temps.",
+    "titulo": "Votre tableau de bord des habitudes",
+    "subtitulo": "Enregistrez vos déplacements et suivez votre empreinte carbone au fil du temps.",
+    "card_hoje": "CO₂ aujourd'hui",
+    "card_semana": "CO₂ cette semaine",
+    "card_mes": "CO₂ ce mois-ci",
+    "grafico_titulo": "Évolution sur les 14 derniers jours",
+    "grafico_aria": "Évolution du CO₂ sur les {{dias}} derniers jours",
+    "form_titulo": "Ajouter un déplacement",
+    "campo_meio": "Moyen de transport",
+    "campo_distancia": "Distance (km)",
+    "campo_data": "Date",
+    "campo_observacao": "Remarque (facultatif)",
+    "campo_observacao_placeholder": "ex. : trajet vers le travail",
+    "botao_adicionar": "ajouter",
+    "salvando": "enregistrement...",
+    "registrado_sucesso": "Déplacement enregistré !",
+    "registros_titulo": "Derniers enregistrements",
+    "registros_vazio": "Aucun enregistrement pour l'instant — ajoutez votre premier déplacement ci-dessus.",
+    "meio_removido": "Moyen supprimé",
+    "remover_registro": "Supprimer l'enregistrement",
+    "sessao_expirada": "Session expirée.",
+    "erro_servidor": "Impossible de joindre le serveur. Est-il bien démarré ?",
+    "erro_generico": "Impossible de terminer l'opération.",
+    "delta_sem_registros": "aucun enregistrement sur la période",
+    "delta_primeiro_registro": "premier enregistrement de la période",
+    "delta_estavel": "stable par rapport à la période précédente",
+    "delta_variacao": "{{percentual}} % par rapport à la période précédente"
+  },
+  "globo": {
+    "legenda_titulo": "Émissions par habitant",
+    "legenda_baixa": "Faibles",
+    "legenda_alta": "Élevées",
+    "sair_destaque": "Quitter le mode mise en avant",
+    "buscar_placeholder": "Rechercher un pays...",
+    "buscar_aria": "Rechercher un pays sur le globe",
+    "sem_dados_co2": "aucune donnée de CO₂",
+    "tonelada_ano_pessoa": "{{valor}} t/an par personne",
+    "territorio": "Territoire",
+    "fechar_painel": "Fermer le panneau",
+    "sem_dados_territorio": "Aucune donnée d'émissions de CO₂ par habitant disponible pour ce territoire.",
+    "emissao_per_capita": "Émissions par habitant :",
+    "equivalente_diario": "Équivalent journalier :",
+    "equivalente_semanal": "Équivalent hebdomadaire :",
+    "equivalente_mensal": "Équivalent mensuel :",
+    "posicao_ranking": "Position au classement (sur {{total}} pays) :",
+    "fonte_estimativa": "Estimation des émissions de CO₂ fossile par habitant (Global Carbon Budget / Our World in Data, année de référence 2024).",
+    "aria_interativo": "Globe interactif des émissions de carbone. Faites glisser pour le faire tourner, défilez pour zoomer, cliquez sur un pays pour voir ses données et double-cliquez pour mettre le globe en avant.",
+    "aria_decorativo": "Globe décoratif en rotation, illustrant la portée mondiale du projet Carbono Consciente.",
+    "continente_asia": "Asie",
+    "continente_africa": "Afrique",
+    "continente_europa": "Europe",
+    "continente_america_sul": "Amérique du Sud",
+    "continente_america_norte": "Amérique du Nord",
+    "continente_oceania": "Océanie"
+  }
+}

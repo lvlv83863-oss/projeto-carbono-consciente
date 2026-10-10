@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Fila ba inísiu",
+    "theme_toggle_aria": "Troka tema naroman/nakukun",
+    "menu_aria": "Loke menu",
+    "login_link": "tama",
+    "sair_link": "sai",
+    "painel_link": "painel",
+    "fechar": "Taka",
+    "nav": {
+      "plataforma": "Plataforma",
+      "impacto": "Impaktu",
+      "habitos": "Hábitu",
+      "contato": "Kontaktu",
+      "dados": "Dadus"
+    }
+  },
+  "header": {
+    "idioma_aria": "Troka lian",
+    "idioma_buscar_placeholder": "Buka lian..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Tama",
+    "meta_descricao": "Tama ka rejista atu akompaña ita-nia dadus no hábitu iha Carbono Consciente.",
+    "esquerda_titulo": "Tonelada ida-ida CO₂ husik rasto",
+    "esquerda_texto": "Tama atu akompaña ita-nia dadus, hábitu no pegada karbonu.",
+    "google_botao": "Kontinua ho Google",
+    "google_em_breve": "Login ho Google sei iha lalais.",
+    "enviando": "hatama hela...",
+    "erro_servidor": "La bele kontaktu servidor. Nia hala'o funsiona ka lae?",
+    "erro_generico": "La bele kompleta operasaun.",
+    "login": {
+      "titulo": "Tama",
+      "email_label": "Email",
+      "email_placeholder": "ita@email.com",
+      "senha_label": "Password",
+      "botao": "tama",
+      "troca_texto": "Seidauk iha konta?",
+      "troca_botao": "Rejista"
+    },
+    "cadastro": {
+      "titulo": "Rejistu",
+      "nome_label": "Naran",
+      "nome_placeholder": "Ita-nia naran",
+      "email_label": "Email",
+      "email_placeholder": "ita@email.com",
+      "pais_label": "Nasaun",
+      "pais_placeholder": "Buka nasaun...",
+      "senha_label": "Password",
+      "confirmar_label": "Konfirma password",
+      "botao": "rejista",
+      "troca_texto": "Ita iha ona konta?",
+      "troca_botao": "Tama"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Password sira la hanesan."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: edukasaun ambiental kona-ba emisaun karbonu, pegada karbonu, dika sustentável, informasaun kuriozu no notísia ambiental.",
+    "hero": {
+      "titulo": "Hábitu ki'ik ida-ida hamenus pezu ba planeta",
+      "texto": "CARBONO CONSCIENTE LA'OS SELU VERDE KA METAS DISTANTE — NIA MAK SOMA ESKOLHA KOMUN SIRA, REPETE LORON-LORON: SAIDA MAK ITA HANORIN, ONEMA ITA LA'O, BAINHIRA ITA TUN LAMPU, IHA-NEBÉ ITA TUN LIXU.",
+      "botao": "Haree Tan"
+    },
+    "acordeao": {
+      "titulo": "Saida mak Carbono Consciente?",
+      "emissao_titulo": "Emisaun Karbonu",
+      "emissao_corpo": "Emisaun karbonu mak soltu gás sira hanesan CO₂ ba atmosfera, liu-liu hosi sunu kombustível fóssil, dezflorestasaun, prodúsaun industriál no to'o transporte loron-loron.",
+      "clima_titulo": "Oinsá nia afeta klima?",
+      "clima_corpo": "Gás efeitu estufa sira forma kamada ida ne'ebé kaer má'as iha atmosfera. Emisaun boot liu, efeitu ne'e forte liu — no ne'e mak impulsiona aumentu temperatura globál no mudansa klimátika.",
+      "pegada_titulo": "Pegada Karbonu",
+      "pegada_corpo": "Pegada karbonu mak totál gás efeitu estufa ne'ebé jerado, direta ka indireta, husi atividade ema ida, kompañia ka produtu iha sira-nia loron-loron.",
+      "neutro_titulo": "Karbonu Neutru × Carbono Consciente",
+      "neutro_corpo": "<strong>Karbonu neutru</strong> buka ekilibra ka ofsete emisaun ne'ebé jerado. <strong>Carbono consciente</strong> prioritiza eskolha sira ne'ebé hamenus impaktu ambiental antes hanoin kona-ba ofsete."
+    },
+    "dicas": {
+      "titulo_secao": "Dika Sustentável",
+      "clique_voltar": "klik atu fila fali",
+      "casa": {
+        "titulo": "Uma",
+        "resumo": "Ekonomiza enerjia no bee iha loron-loron",
+        "item1": "Ekonomiza enerjia",
+        "item2": "Tun lampu bainhira la uza",
+        "item3": "Uza ekipamentu sira ho matenek",
+        "item4": "Hamenus estragu bee",
+        "item5": "Labele estraga hahán"
+      },
+      "transporte": {
+        "titulo": "Transporte",
+        "resumo": "Alternativa ba kareta atu halo viajen ki'ik liu",
+        "item1": "La'o ain bainhira posível",
+        "item2": "Uza bisikleta",
+        "item3": "Uza transporte públiku",
+        "item4": "Fahe viajen bainhira posível",
+        "item5": "Hamenus viajen kareta la presiza"
+      },
+      "alimentacao": {
+        "titulo": "Hahán",
+        "resumo": "Eskolha iha meza ne'ebé hamenus estragu no emisaun",
+        "item1": "Konsumi produtu lokál",
+        "item2": "Labele estraga hahán",
+        "item3": "Planeia ita-nia hahán",
+        "item4": "Aproveita didi'ak hahán",
+        "item5": "Hamenus konsumu na'an"
+      },
+      "reciclagem": {
+        "titulo": "Reciclajen",
+        "resumo": "Separa, uza fali no fó utilidade foun ba buat sira ne'ebé hela",
+        "item1": "Separa didi'ak lixu sira",
+        "item2": "Uza fali materiál sira",
+        "item3": "Fó destinu lolos ba materiál ne'ebé bele recicla",
+        "item4": "Labele uza produtu dispoza'il",
+        "item5": "Fó utilidade foun ba objetu sira"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Kuriozidade Ambiental",
+      "subtitulo": "Ita hatene ona?",
+      "carregando": "Karega kuriozidade...",
+      "proxima": "Kuriozidade tuir mai",
+      "erro_carregar": "La bele karega kuriozidade sira agora."
+    },
+    "noticias": {
+      "titulo": "Notísia Ambiental",
+      "subtitulo": "Notísia real no resente kona-ba sustentabilidade",
+      "anteriores": "Notísia antes",
+      "proximas": "Notísia tuir mai",
+      "carregando": "Karega notísia...",
+      "erro_carregar": "La bele karega notísia sira agora.",
+      "nenhuma": "Laiha notísia disponível iha momentu ne'e.",
+      "ler_na_origem": "lee iha sítiu orijinál →",
+      "sem_link": "Laiha link esternu disponível ba notísia ida-ne'e."
+    },
+    "rodape": {
+      "descricao": "Edukasaun ambiental atu transforma eskolha ki'ik sira ba rezultadu boot ba planeta.",
+      "navegacao": "Navegasaun",
+      "contato": "Kontaktu",
+      "copyright": "© 2026 Carbono Consciente. Ita-nia direitu hotu rezerva."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Painel",
+    "meta_descricao": "Rejista ita-nia viajen sira no akompaña ita-nia pegada karbonu durante tempu.",
+    "titulo": "Ita-nia painel hábitu",
+    "subtitulo": "Rejista ita-nia viajen sira no akompaña ita-nia pegada karbonu durante tempu.",
+    "card_hoje": "CO₂ ohin",
+    "card_semana": "CO₂ semana ne'e",
+    "card_mes": "CO₂ fulan ne'e",
+    "grafico_titulo": "Evolusaun iha loron 14 ikus",
+    "grafico_aria": "Evolusaun CO₂ iha loron {{dias}} ikus",
+    "form_titulo": "Aumenta viajen",
+    "campo_meio": "Transporte nia forma",
+    "campo_distancia": "Distánsia (km)",
+    "campo_data": "Data",
+    "campo_observacao": "Observasaun (opsionál)",
+    "campo_observacao_placeholder": "ezemplu: viajen ba servisu",
+    "botao_adicionar": "aumenta",
+    "salvando": "rai hela...",
+    "registrado_sucesso": "Viajen rejistradu ona!",
+    "registros_titulo": "Rejistu ikus sira",
+    "registros_vazio": "Seidauk iha rejistu — aumenta ita-nia viajen primeiru iha leten.",
+    "meio_removido": "Forma hasai ona",
+    "remover_registro": "Hasai rejistu",
+    "sessao_expirada": "Sesaun expira ona.",
+    "erro_servidor": "La bele kontaktu servidor. Nia hala'o funsiona ka lae?",
+    "erro_generico": "La bele kompleta operasaun.",
+    "delta_sem_registros": "laiha rejistu iha períodu ne'e",
+    "delta_primeiro_registro": "rejistu primeiru iha períodu ne'e",
+    "delta_estavel": "estável kompara períodu antes",
+    "delta_variacao": "{{percentual}}% kompara períodu antes"
+  },
+  "globo": {
+    "legenda_titulo": "Emisaun per kapita",
+    "legenda_baixa": "Ki'ik",
+    "legenda_alta": "Boot",
+    "sair_destaque": "Sai hosi modu destaka",
+    "buscar_placeholder": "Buka nasaun...",
+    "buscar_aria": "Buka nasaun iha globu",
+    "sem_dados_co2": "laiha dadus CO₂",
+    "tonelada_ano_pessoa": "{{valor}} tonelada/tinan ba ema ida",
+    "territorio": "Território",
+    "fechar_painel": "Taka painel",
+    "sem_dados_territorio": "Laiha dadus emisaun CO₂ per kapita disponível ba território ida-ne'e.",
+    "emissao_per_capita": "Emisaun per kapita:",
+    "equivalente_diario": "Ekivalente loroloron:",
+    "equivalente_semanal": "Ekivalente semanál:",
+    "equivalente_mensal": "Ekivalente mensál:",
+    "posicao_ranking": "Pozisaun iha ranking (hosi nasaun {{total}}):",
+    "fonte_estimativa": "Estimativa CO₂ fóssil per kapita (Global Carbon Budget / Our World in Data, tinan-baze 2024).",
+    "aria_interativo": "Globu interativu kona-ba emisaun karbonu. Dada atu rotasaun, scroll atu zoom, klik iha nasaun ida atu haree dadus, no klik dala-rua atu halo globu ba modu destaka.",
+    "aria_decorativo": "Globu dekorativu ne'ebé rotasaun, ilustra alkanse globál projetu Carbono Consciente nian.",
+    "continente_asia": "Ázia",
+    "continente_africa": "África",
+    "continente_europa": "Europa",
+    "continente_america_sul": "Amérika Sul",
+    "continente_america_norte": "Amérika Norte",
+    "continente_oceania": "Oseania"
+  }
+}

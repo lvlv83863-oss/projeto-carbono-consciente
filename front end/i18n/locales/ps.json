@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← کور ته بیرته",
+    "theme_toggle_aria": "د رڼا/تیاره تھیم بدلون",
+    "menu_aria": "مینو خلاصول",
+    "login_link": "ننوتل",
+    "sair_link": "وتل",
+    "painel_link": "پینل",
+    "fechar": "بندول",
+    "nav": {
+      "plataforma": "پلیټفارم",
+      "impacto": "اثر",
+      "habitos": "عادتونه",
+      "contato": "اړیکه",
+      "dados": "ډاټا"
+    }
+  },
+  "header": {
+    "idioma_aria": "ژبه بدلول",
+    "idioma_buscar_placeholder": "ژبه ولټوئ..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — ننوتل",
+    "meta_descricao": "خپل ډاټا او عادتونه تعقیب کولو لپاره ننوځئ یا لاسلیک شئ Carbono Consciente کې.",
+    "esquerda_titulo": "هره ټنه CO₂ یو نښه پریږدي",
+    "esquerda_texto": "خپل ډاټا، عادتونه او کاربن نښه تعقیب کولو لپاره ننوځئ.",
+    "google_botao": "د Google سره دوام ورکړئ",
+    "google_em_breve": "د Google سره ننوتل ډېر ژر راځي.",
+    "enviando": "لیږل کیږي...",
+    "erro_servidor": "سرور سره اړیکه ونشو نیول. ایا دا چلېږي؟",
+    "erro_generico": "دا کار بشپړ نشو کړای.",
+    "login": {
+      "titulo": "ننوتل",
+      "email_label": "ایمیل",
+      "email_placeholder": "your@email.com",
+      "senha_label": "پټنوم",
+      "botao": "ننوتل",
+      "troca_texto": "لا تر اوسه حساب نلرئ؟",
+      "troca_botao": "لاسلیک شئ"
+    },
+    "cadastro": {
+      "titulo": "لاسلیک کول",
+      "nome_label": "نوم",
+      "nome_placeholder": "خپل نوم",
+      "email_label": "ایمیل",
+      "email_placeholder": "your@email.com",
+      "pais_label": "هیواد",
+      "pais_placeholder": "هیواد ولټوئ...",
+      "senha_label": "پټنوم",
+      "confirmar_label": "پټنوم تایید کړئ",
+      "botao": "لاسلیک",
+      "troca_texto": "مخکې حساب لرئ؟",
+      "troca_botao": "ننوتل"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "پټنومونه سره سمون نه خوري."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: د کاربن اېمیشن، کاربن نښې، دوامداره مشورو، زړه راښکونکو معلوماتو او چاپیریالي خبرونو په اړه چاپیریالي زده کړه.",
+    "hero": {
+      "titulo": "هره کوچنۍ عادت په ځمکې باندې لږ بار اچوي",
+      "texto": "CARBONO CONSCIENTE نه شنه نښان دی او نه لرې هدف — دا د ورځني عادي انتخابونو ټولګه ده چې هره ورځ بیا تکرارېږي: تاسو څه کري، څنګه ځاى پر ځای کیږئ، کله برق مړ کوئ، کثافت چیرته اچوئ.",
+      "botao": "نور وګورئ"
+    },
+    "acordeao": {
+      "titulo": "Carbono Consciente څه شی دی؟",
+      "emissao_titulo": "د کاربن اېمیشن",
+      "emissao_corpo": "د کاربن اېمیشن د ګازونو لکه CO₂ خوشې کول دي چاپیریال ته، چې ډیری وختونه د فوسیلي تیلو سوزېدنې، ځنګلونو ختمولو، صنعتي تولید او حتی ورځني ترانسپورټ له امله رامنځته کیږي.",
+      "clima_titulo": "دا څنګه اقلیم اخرباروي؟",
+      "clima_corpo": "د ګرمخانې ګازونه یوه طبقه جوړوي چې تودوخه په فضا کې ساتي. څومره چې اېمیشن ډیر وي، دغه اثر پیاوړی کیږي — او همدا د ځمکې ګرمیدل او د اقلیم بدلون لامل کیږي.",
+      "pegada_titulo": "د کاربن نښه",
+      "pegada_corpo": "دا د ګرمخانې ګازونو ټوله اندازه ده چې مستقیم یا غیر مستقیم، د یو شخص، شرکت یا محصول له فعالیتونو څخه د هرې ورځې په ژوند کې رامنځته کیږي.",
+      "neutro_titulo": "کاربن نیوټرال × Carbono Consciente",
+      "neutro_corpo": "<strong>کاربن نیوټرال</strong> هڅه کوي چې رامنځته شوي اېمیشن تعادل یا پوره کړي. <strong>Carbono consciente</strong> هغه انتخابونو ته لومړیتوب ورکوي چې د چاپیریالي اثر کموي، حتی مخکې له دې چې د پوره کولو په اړه فکر وشي."
+    },
+    "dicas": {
+      "titulo_secao": "دوامداره مشورې",
+      "clique_voltar": "بیرته راتلو لپاره کلیک وکړئ",
+      "casa": {
+        "titulo": "کور",
+        "resumo": "ورځني برق او اوبو سپما",
+        "item1": "برق سپما وکړئ",
+        "item2": "کله چې کار نه وي بریښنا مړه کړئ",
+        "item3": "وسایل په پوهیدلي ډول کاروئ",
+        "item4": "د اوبو ضیاع کمه کړئ",
+        "item5": "د خواړو ضیاع مخنیوي کړئ"
+      },
+      "transporte": {
+        "titulo": "ترانسپورټ",
+        "resumo": "د موټر پر ځای بدیل چې سفر ته اسانتیا ورکوي",
+        "item1": "کله چې امکان ولري پښو پیاده شئ",
+        "item2": "بایسکل وکاروئ",
+        "item3": "عامه ترانسپورټ وکاروئ",
+        "item4": "کله چې امکان ولري سفرونه شریک کړئ",
+        "item5": "د موټر غیر ضروري سفرونه کمه کړئ"
+      },
+      "alimentacao": {
+        "titulo": "خواړه",
+        "resumo": "د میز انتخابونه چې ضیاع او اېمیشن کموي",
+        "item1": "سیمه ایز محصولات واخلئ",
+        "item2": "ضیاع مخنیوي کړئ",
+        "item3": "خپل خواړه مخکې پلان کړئ",
+        "item4": "خواړه ښه وکاروئ",
+        "item5": "د غوښې خوړل کم کړئ"
+      },
+      "reciclagem": {
+        "titulo": "بیا کارونه",
+        "resumo": "کثافات بیل کړئ، بیا یې وکاروئ، او پاتې شیانو ته نوی کارول ورکړئ",
+        "item1": "کثافات په سمه توګه بیل کړئ",
+        "item2": "موادونه بیا وکاروئ",
+        "item3": "د بیا کارونې وړ موادونه سمې ځای ته وسپارئ",
+        "item4": "یو ځلي کارونکي محصولاتو مخنیوي کړئ",
+        "item5": "شیانو ته نوی کارول ورکړئ"
+      }
+    },
+    "curiosidades": {
+      "titulo": "چاپیریالي زړه راښکونکي معلومات",
+      "subtitulo": "ایا تاسو پوهیدئ؟",
+      "carregando": "زړه راښکونکي معلومات لوډ کیږي...",
+      "proxima": "راتلونکي زړه راښکونکي معلومات",
+      "erro_carregar": "اوس مهال زړه راښکونکي معلومات لوډ نشول کیدای."
+    },
+    "noticias": {
+      "titulo": "چاپیریالي خبرونه",
+      "subtitulo": "د دوامدارتوب په اړه واقعي او تازه خبرونه",
+      "anteriores": "پخواني خبرونه",
+      "proximas": "راتلونکي خبرونه",
+      "carregando": "خبرونه لوډ کیږي...",
+      "erro_carregar": "اوس مهال خبرونه لوډ نشول کیدای.",
+      "nenhuma": "اوس مهال هیڅ خبر نشته.",
+      "ler_na_origem": "اصلي ویب پاڼه کې ولولئ →",
+      "sem_link": "د دې خبر لپاره هیڅ بیرونی لینک نشته."
+    },
+    "rodape": {
+      "descricao": "چاپیریالي زده کړه چې کوچني انتخابونه د ځمکې لپاره لوی پیاوړي پایلو ته بدلوي.",
+      "navegacao": "ګرځنده",
+      "contato": "اړیکه",
+      "copyright": "© 2026 Carbono Consciente. ټول حقوق خوندي دي."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — پینل",
+    "meta_descricao": "خپل سفرونه ثبت کړئ او د وخت په تیرېدو سره خپله کاربن نښه تعقیب کړئ.",
+    "titulo": "ستاسو د عادتونو پینل",
+    "subtitulo": "خپل سفرونه ثبت کړئ او د وخت په تیرېدو سره خپله کاربن نښه تعقیب کړئ.",
+    "card_hoje": "نن ورځ CO₂",
+    "card_semana": "دا اونۍ CO₂",
+    "card_mes": "دا میاشت CO₂",
+    "grafico_titulo": "د تیرو ۱۴ ورځو بدلون",
+    "grafico_aria": "د تیرو {{dias}} ورځو د CO₂ بدلون",
+    "form_titulo": "سفر اضافه کړئ",
+    "campo_meio": "د ترانسپورټ ډول",
+    "campo_distancia": "واټن (km)",
+    "campo_data": "نیټه",
+    "campo_observacao": "یادونه (اختیاري)",
+    "campo_observacao_placeholder": "لکه: دفتر ته سفر",
+    "botao_adicionar": "اضافه کول",
+    "salvando": "ساتل کیږي...",
+    "registrado_sucesso": "سفر ثبت شو!",
+    "registros_titulo": "وروستي ثبتونه",
+    "registros_vazio": "لا تر اوسه هیڅ ثبت نشته — خپل لومړی سفر پورته اضافه کړئ.",
+    "meio_removido": "ډول لرې شو",
+    "remover_registro": "ثبت لرې کول",
+    "sessao_expirada": "ناسته پای ته رسیدلې.",
+    "erro_servidor": "سرور سره اړیکه ونشو نیول. ایا دا چلېږي؟",
+    "erro_generico": "دا کار بشپړ نشو کړای.",
+    "delta_sem_registros": "په دې موده کې هیڅ ثبت نشته",
+    "delta_primeiro_registro": "د دې مودې لومړی ثبت",
+    "delta_estavel": "د پخوانۍ مودې په پرتله ثابت",
+    "delta_variacao": "{{percentual}}% د پخوانۍ مودې په پرتله"
+  },
+  "globo": {
+    "legenda_titulo": "د هر تن اېمیشن",
+    "legenda_baixa": "ټیټ",
+    "legenda_alta": "لوړ",
+    "sair_destaque": "د ځلانده حالت څخه وتل",
+    "buscar_placeholder": "هیواد ولټوئ...",
+    "buscar_aria": "په ګلوب کې هیواد ولټوئ",
+    "sem_dados_co2": "د CO₂ ډاټا نشته",
+    "tonelada_ano_pessoa": "{{valor}} ټنه/کال د هر تن لپاره",
+    "territorio": "سیمه",
+    "fechar_painel": "پینل بندول",
+    "sem_dados_territorio": "د دې سیمې لپاره د هر تن د CO₂ اېمیشن ډاټا شتون نلري.",
+    "emissao_per_capita": "د هر تن اېمیشن:",
+    "equivalente_diario": "ورځني برابر:",
+    "equivalente_semanal": "اونیز برابر:",
+    "equivalente_mensal": "میاشتنی برابر:",
+    "posicao_ranking": "په درجه بندي کې ځای (د {{total}} هیوادونو څخه):",
+    "fonte_estimativa": "د هر تن فوسیلي CO₂ اټکل (Global Carbon Budget / Our World in Data، د ۲۰۲۴ کال اساس).",
+    "aria_interativo": "د کاربن اېمیشن متقابل ګلوب. د ګرځیدو لپاره یې راکاږئ، د نږدېوالي لپاره سکرول کړئ، د ډاټا لیدلو لپاره په یو هیواد کلیک وکړئ، او د ګلوب ځلانده حالت ته راوستلو لپاره دوه ځله کلیک وکړئ.",
+    "aria_decorativo": "یو ښایسته ګرځنده ګلوب، چې د Carbono Consciente پروژې نړیوال اثر ښیي.",
+    "continente_asia": "اسیا",
+    "continente_africa": "افریقا",
+    "continente_europa": "اروپا",
+    "continente_america_sul": "سویلي امریکا",
+    "continente_america_norte": "شمالي امریکا",
+    "continente_oceania": "اوشیانیا"
+  }
+}

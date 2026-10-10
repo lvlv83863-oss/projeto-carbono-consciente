@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Povratak na početnu",
+    "theme_toggle_aria": "Promijeni svijetlu/tamnu temu",
+    "menu_aria": "Otvori meni",
+    "login_link": "prijava",
+    "sair_link": "odjava",
+    "painel_link": "panel",
+    "fechar": "Zatvori",
+    "nav": {
+      "plataforma": "Platforma",
+      "impacto": "Utjecaj",
+      "habitos": "Navike",
+      "contato": "Kontakt",
+      "dados": "Podaci"
+    }
+  },
+  "header": {
+    "idioma_aria": "Promijeni jezik",
+    "idioma_buscar_placeholder": "Pretraži jezik..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Prijava",
+    "meta_descricao": "Prijavite se ili se registrujte da biste pratili svoje podatke i navike na Carbono Consciente.",
+    "esquerda_titulo": "Svaka tona CO₂ ostavlja trag",
+    "esquerda_texto": "Prijavite se da pratite svoje podatke, navike i svoj ugljenični otisak.",
+    "google_botao": "Nastavi s Google-om",
+    "google_em_breve": "Prijava putem Google-a uskoro.",
+    "enviando": "slanje...",
+    "erro_servidor": "Nije moguće povezati se sa serverom. Da li je pokrenut?",
+    "erro_generico": "Nije moguće završiti radnju.",
+    "login": {
+      "titulo": "Prijava",
+      "email_label": "Email",
+      "email_placeholder": "vi@email.com",
+      "senha_label": "Lozinka",
+      "botao": "prijava",
+      "troca_texto": "Još nemate račun?",
+      "troca_botao": "Registrujte se"
+    },
+    "cadastro": {
+      "titulo": "Registracija",
+      "nome_label": "Ime",
+      "nome_placeholder": "Vaše ime",
+      "email_label": "Email",
+      "email_placeholder": "vi@email.com",
+      "pais_label": "Država",
+      "pais_placeholder": "Pretraži državu...",
+      "senha_label": "Lozinka",
+      "confirmar_label": "Potvrdi lozinku",
+      "botao": "registruj se",
+      "troca_texto": "Već imate račun?",
+      "troca_botao": "Prijava"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Lozinke se ne poklapaju."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: ekološko obrazovanje o emisijama ugljenika, ugljeničnom otisku, održivim savjetima, interesantnim činjenicama i vijestima o okolišu.",
+    "hero": {
+      "titulo": "Svaka mala navika manje opterećuje planetu",
+      "texto": "CARBONO CONSCIENTE NIJE ZELENI ZNAK NI DALEKI CILJ — TO JE ZBIR OBIČNIH ODLUKA, KOJE SE PONAVLJAJU SVAKI DAN: ŠTA SADITE, KAKO SE KREĆETE, KADA GASITE SVJETLO, GDJE BACATE OTPAD.",
+      "botao": "Vidi Više"
+    },
+    "acordeao": {
+      "titulo": "Šta je Carbono Consciente?",
+      "emissao_titulo": "Emisija Ugljenika",
+      "emissao_corpo": "Emisija ugljenika je oslobađanje plinova kao što je CO₂ u atmosferu, uglavnom kroz sagorijevanje fosilnih goriva, krčenje šuma, industrijsku proizvodnju i čak svakodnevni transport.",
+      "clima_titulo": "Kako utiče na klimu?",
+      "clima_corpo": "Plinovi staklene bašte formiraju sloj koji zadržava toplinu u atmosferi. Što je više emisija, taj efekat je veći — i to je ono što pokreće globalno zagrijavanje i klimatske promjene.",
+      "pegada_titulo": "Ugljenični Otisak",
+      "pegada_corpo": "To je ukupna količina plinova staklene bašte koja se stvara, direktno ili indirektno, aktivnostima osobe, kompanije ili proizvoda u njihovom svakodnevnom životu.",
+      "neutro_titulo": "Ugljenična Neutralnost × Carbono Consciente",
+      "neutro_corpo": "<strong>Ugljenična neutralnost</strong> nastoji izbalansirati ili kompenzirati nastale emisije. <strong>Carbono consciente</strong> daje prioritet odlukama koje smanjuju utjecaj na okoliš prije nego se uopšte razmišlja o kompenzaciji."
+    },
+    "dicas": {
+      "titulo_secao": "Savjeti za Održivost",
+      "clique_voltar": "kliknite da se vratite",
+      "casa": {
+        "titulo": "Dom",
+        "resumo": "Svakodnevna ušteda energije i vode",
+        "item1": "Štedite energiju",
+        "item2": "Gasite svjetla kada ih ne koristite",
+        "item3": "Koristite uređaje svjesno",
+        "item4": "Smanjite rasipanje vode",
+        "item5": "Izbjegavajte rasipanje hrane"
+      },
+      "transporte": {
+        "titulo": "Transport",
+        "resumo": "Alternative automobilu za lakša kretanja",
+        "item1": "Hodajte pješice kada je moguće",
+        "item2": "Koristite bicikl",
+        "item3": "Koristite javni transport",
+        "item4": "Dijelite putovanja kada je moguće",
+        "item5": "Smanjite nepotrebna putovanja automobilom"
+      },
+      "alimentacao": {
+        "titulo": "Prehrana",
+        "resumo": "Izbori za stolom koji smanjuju otpad i emisije",
+        "item1": "Kupujte lokalne proizvode",
+        "item2": "Izbjegavajte rasipanje",
+        "item3": "Planirajte obroke",
+        "item4": "Bolje iskoristite hranu",
+        "item5": "Smanjite konzumaciju mesa"
+      },
+      "reciclagem": {
+        "titulo": "Recikliranje",
+        "resumo": "Razdvojite, ponovo iskoristite i dajte novu upotrebu onome što preostane",
+        "item1": "Pravilno razdvojite otpad",
+        "item2": "Ponovo iskoristite materijale",
+        "item3": "Pravilno usmjerite reciklažni otpad",
+        "item4": "Izbjegavajte proizvode za jednokratnu upotrebu",
+        "item5": "Dajte predmetima novu upotrebu"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Interesantne Činjenice o Okolišu",
+      "subtitulo": "Da li ste znali?",
+      "carregando": "Učitavanje interesantne činjenice...",
+      "proxima": "Sljedeća interesantna činjenica",
+      "erro_carregar": "Trenutno nije moguće učitati interesantne činjenice."
+    },
+    "noticias": {
+      "titulo": "Vijesti o Okolišu",
+      "subtitulo": "Stvarne i najnovije vijesti o održivosti",
+      "anteriores": "Prethodne vijesti",
+      "proximas": "Sljedeće vijesti",
+      "carregando": "Učitavanje vijesti...",
+      "erro_carregar": "Trenutno nije moguće učitati vijesti.",
+      "nenhuma": "Trenutno nema dostupnih vijesti.",
+      "ler_na_origem": "pročitajte na izvornoj stranici →",
+      "sem_link": "Nema dostupnog eksternog linka za ovu vijest."
+    },
+    "rodape": {
+      "descricao": "Ekološko obrazovanje koje pretvara male odluke u velike rezultate za planetu.",
+      "navegacao": "Navigacija",
+      "contato": "Kontakt",
+      "copyright": "© 2026 Carbono Consciente. Sva prava zadržana."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Panel",
+    "meta_descricao": "Bilježite svoja putovanja i pratite svoj ugljenični otisak tokom vremena.",
+    "titulo": "Vaš panel navika",
+    "subtitulo": "Bilježite svoja putovanja i pratite svoj ugljenični otisak tokom vremena.",
+    "card_hoje": "CO₂ danas",
+    "card_semana": "CO₂ ove sedmice",
+    "card_mes": "CO₂ ovog mjeseca",
+    "grafico_titulo": "Kretanje u posljednjih 14 dana",
+    "grafico_aria": "Kretanje CO₂ u posljednjih {{dias}} dana",
+    "form_titulo": "Dodaj putovanje",
+    "campo_meio": "Vrsta prijevoza",
+    "campo_distancia": "Udaljenost (km)",
+    "campo_data": "Datum",
+    "campo_observacao": "Napomena (opcionalno)",
+    "campo_observacao_placeholder": "npr.: put na posao",
+    "botao_adicionar": "dodaj",
+    "salvando": "spremanje...",
+    "registrado_sucesso": "Putovanje je zabilježeno!",
+    "registros_titulo": "Zadnji unosi",
+    "registros_vazio": "Još nema unosa — dodajte svoje prvo putovanje iznad.",
+    "meio_removido": "Vrsta uklonjena",
+    "remover_registro": "Ukloni unos",
+    "sessao_expirada": "Sesija je istekla.",
+    "erro_servidor": "Nije moguće povezati se sa serverom. Da li je pokrenut?",
+    "erro_generico": "Nije moguće završiti radnju.",
+    "delta_sem_registros": "nema unosa u ovom periodu",
+    "delta_primeiro_registro": "prvi unos u ovom periodu",
+    "delta_estavel": "stabilno u odnosu na prethodni period",
+    "delta_variacao": "{{percentual}}% u odnosu na prethodni period"
+  },
+  "globo": {
+    "legenda_titulo": "Emisije po glavi stanovnika",
+    "legenda_baixa": "Niska",
+    "legenda_alta": "Visoka",
+    "sair_destaque": "Izađi iz režima isticanja",
+    "buscar_placeholder": "Pretraži državu...",
+    "buscar_aria": "Pretraži državu na globusu",
+    "sem_dados_co2": "nema podataka o CO₂",
+    "tonelada_ano_pessoa": "{{valor}} t/godišnje po osobi",
+    "territorio": "Teritorija",
+    "fechar_painel": "Zatvori panel",
+    "sem_dados_territorio": "Nema dostupnih podataka o emisijama CO₂ po glavi stanovnika za ovu teritoriju.",
+    "emissao_per_capita": "Emisije po glavi stanovnika:",
+    "equivalente_diario": "Dnevni ekvivalent:",
+    "equivalente_semanal": "Sedmični ekvivalent:",
+    "equivalente_mensal": "Mjesečni ekvivalent:",
+    "posicao_ranking": "Pozicija u rangiranju (od {{total}} država):",
+    "fonte_estimativa": "Procjena fosilnog CO₂ po glavi stanovnika (Global Carbon Budget / Our World in Data, bazna 2024. godina).",
+    "aria_interativo": "Interaktivni globus emisija ugljenika. Povucite za rotiranje, skrolujte za zumiranje, kliknite na državu da vidite podatke i dvostruko kliknite da stavite globus u režim isticanja.",
+    "aria_decorativo": "Dekorativni rotirajući globus koji ilustruje globalni domet projekta Carbono Consciente.",
+    "continente_asia": "Azija",
+    "continente_africa": "Afrika",
+    "continente_europa": "Evropa",
+    "continente_america_sul": "Južna Amerika",
+    "continente_america_norte": "Sjeverna Amerika",
+    "continente_oceania": "Okeanija"
+  }
+}

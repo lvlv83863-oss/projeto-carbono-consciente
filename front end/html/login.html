@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Carbono Consciente — Entrar</title>
-<meta name="description" content="Entre ou cadastre-se para acompanhar seus dados e hábitos no Carbono Consciente.">
+<title data-i18n="auth.meta_titulo">Carbono Consciente — Entrar</title>
+<meta name="description" data-i18n-attr-content="auth.meta_descricao" content="Entre ou cadastre-se para acompanhar seus dados e hábitos no Carbono Consciente.">
 <link rel="stylesheet" href="../css/inicial.css">
 <script>
   document.documentElement.classList.add('pagina-carregando');
@@ -24,11 +24,11 @@
     </a>
 
     <nav class="nav-principal">
-      <a href="inicial.html">← Voltar ao início</a>
+      <a href="inicial.html" data-i18n="common.voltar_inicio">← Voltar ao início</a>
     </nav>
 
     <div class="header-acoes">
-      <button class="theme-toggle" aria-label="Alternar tema claro/escuro">
+      <button class="theme-toggle" data-i18n-attr-aria-label="common.theme_toggle_aria" aria-label="Alternar tema claro/escuro">
         <span class="icone"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /> <path d="M12 2v2" /> <path d="M12 20v2" /> <path d="m4.93 4.93 1.41 1.41" /> <path d="m17.66 17.66 1.41 1.41" /> <path d="M2 12h2" /> <path d="M20 12h2" /> <path d="m6.34 17.66-1.41 1.41" /> <path d="m19.07 4.93-1.41 1.41" /></svg></span>
         <span class="icone"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" /></svg></span>
         <span class="knob"></span>
@@ -41,8 +41,8 @@
 <main class="auth-pagina">
 
   <section class="auth-esquerda">
-    <h1>Cada tonelada de CO₂ deixa um rastro</h1>
-    <p>Entre para acompanhar seus dados, hábitos e sua pegada de carbono.</p>
+    <h1 data-i18n="auth.esquerda_titulo">Cada tonelada de CO₂ deixa um rastro</h1>
+    <p data-i18n="auth.esquerda_texto">Entre para acompanhar seus dados, hábitos e sua pegada de carbono.</p>
     <div class="globo-wrap auth-globo" data-decorativo="true"></div>
   </section>
 
@@ -51,63 +51,70 @@
 
       <!-- ---------- FORMULÁRIO DE LOGIN ---------- -->
       <form class="auth-form" id="form-login">
-        <h2>Login</h2>
+        <h2 data-i18n="auth.login.titulo">Login</h2>
 
         <div class="campo-form">
-          <label for="login-email">Email</label>
-          <input type="email" id="login-email" name="email" placeholder="seu@email.com" required>
+          <label for="login-email" data-i18n="auth.login.email_label">Email</label>
+          <input type="email" id="login-email" name="email" data-i18n-attr-placeholder="auth.login.email_placeholder" placeholder="seu@email.com" required>
         </div>
 
         <div class="campo-form">
-          <label for="login-senha">Senha</label>
+          <label for="login-senha" data-i18n="auth.login.senha_label">Senha</label>
           <input type="password" id="login-senha" name="senha" placeholder="••••••••" required>
         </div>
 
-        <button type="submit" class="btn-entrar">entrar</button>
+        <button type="submit" class="btn-entrar" data-i18n="auth.login.botao">entrar</button>
 
         <button type="button" class="btn-google">
           <svg viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3c-1.6 4.6-6 8-11.3 8-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.6 6 29.6 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.7-.4-4z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.6 15.9 18.9 13 24 13c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.6 6 29.6 4 24 4c-7.5 0-14 4.2-17.7 10.7z"/><path fill="#4CAF50" d="M24 44c5.5 0 10.4-1.9 14.3-5.1l-6.6-5.6C29.7 34.9 27 36 24 36c-5.2 0-9.6-3.3-11.2-8l-6.6 5.1C9.9 39.6 16.4 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.2 4.3-4.1 5.7l6.6 5.6C39.9 37.2 44 31.4 44 24c0-1.3-.1-2.7-.4-3.5z"/></svg>
-          Continuar com o Google
+          <span data-i18n="auth.google_botao">Continuar com o Google</span>
         </button>
 
         <div class="auth-troca">
-          Ainda não tem conta? <button type="button" id="ir-para-cadastro">Cadastre-se</button>
+          <span data-i18n="auth.login.troca_texto">Ainda não tem conta?</span> <button type="button" id="ir-para-cadastro" data-i18n="auth.login.troca_botao">Cadastre-se</button>
         </div>
       </form>
 
       <!-- ---------- FORMULÁRIO DE CADASTRO ---------- -->
       <form class="auth-form escondido" id="form-cadastro">
-        <h2>Cadastro</h2>
+        <h2 data-i18n="auth.cadastro.titulo">Cadastro</h2>
 
         <div class="campo-form">
-          <label for="cad-nome">Nome</label>
-          <input type="text" id="cad-nome" name="nome" placeholder="Seu nome" required>
+          <label for="cad-nome" data-i18n="auth.cadastro.nome_label">Nome</label>
+          <input type="text" id="cad-nome" name="nome" data-i18n-attr-placeholder="auth.cadastro.nome_placeholder" placeholder="Seu nome" required>
         </div>
 
         <div class="campo-form">
-          <label for="cad-email">Email</label>
-          <input type="email" id="cad-email" name="email" placeholder="seu@email.com" required>
+          <label for="cad-email" data-i18n="auth.cadastro.email_label">Email</label>
+          <input type="email" id="cad-email" name="email" data-i18n-attr-placeholder="auth.cadastro.email_placeholder" placeholder="seu@email.com" required>
         </div>
 
         <div class="campo-form">
-          <label for="cad-senha">Senha</label>
+          <label for="cad-pais" data-i18n="auth.cadastro.pais_label">País</label>
+          <input type="text" id="cad-pais" data-i18n-attr-placeholder="auth.cadastro.pais_placeholder" placeholder="Buscar país..." autocomplete="off">
+          <input type="hidden" id="cad-pais-codigo" name="pais">
+          <div class="seletor-busca-resultados" id="cad-pais-resultados"></div>
+        </div>
+
+        <div class="campo-form">
+          <label for="cad-senha" data-i18n="auth.cadastro.senha_label">Senha</label>
           <input type="password" id="cad-senha" name="senha" placeholder="••••••••" required>
         </div>
 
         <div class="campo-form">
-          <label for="cad-confirmar">Confirmar senha</label>
+          <label for="cad-confirmar" data-i18n="auth.cadastro.confirmar_label">Confirmar senha</label>
           <input type="password" id="cad-confirmar" name="confirmar" placeholder="••••••••" required>
         </div>
 
-        <button type="submit" class="btn-entrar">cadastrar</button>
+        <button type="submit" class="btn-entrar" data-i18n="auth.cadastro.botao">cadastrar</button>
 
         <button type="button" class="btn-google">
           <svg viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3c-1.6 4.6-6 8-11.3 8-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.6 6 29.6 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.7-.4-4z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.6 15.9 18.9 13 24 13c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.6 6 29.6 4 24 4c-7.5 0-14 4.2-17.7 10.7z"/><path fill="#4CAF50" d="M24 44c5.5 0 10.4-1.9 14.3-5.1l-6.6-5.6C29.7 34.9 27 36 24 36c-5.2 0-9.6-3.3-11.2-8l-6.6 5.1C9.9 39.6 16.4 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.2 4.3-4.1 5.7l6.6 5.6C39.9 37.2 44 31.4 44 24c0-1.3-.1-2.7-.4-3.5z"/></svg>
-          Continuar com o Google
+          <span data-i18n="auth.google_botao">Continuar com o Google</span>
         </button>
 
         <div class="auth-troca">
-          Já tem conta? <button type="button" id="ir-para-login">Entrar</button>
+          <span data-i18n="auth.cadastro.troca_texto">Já tem conta?</span> <button type="button" id="ir-para-login" data-i18n="auth.cadastro.troca_botao">Entrar</button>
         </div>
       </form>
 
@@ -116,6 +123,9 @@
 
 </main>
 
+<script src="../i18n/i18n.js"></script>
+<script src="../js/componentes/seletor-busca.js"></script>
+<script src="../js/componentes/idioma-switcher.js"></script>
 <script src="../js/vendor/globe.gl.min.js"></script>
 <script src="../js/globo.js"></script>
 <script src="../js/inicial.js"></script>

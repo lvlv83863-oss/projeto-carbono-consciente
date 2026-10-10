@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Takaisin etusivulle",
+    "theme_toggle_aria": "Vaihda vaalea/tumma teema",
+    "menu_aria": "Avaa valikko",
+    "login_link": "kirjaudu",
+    "sair_link": "kirjaudu ulos",
+    "painel_link": "kojelauta",
+    "fechar": "Sulje",
+    "nav": {
+      "plataforma": "Alusta",
+      "impacto": "Vaikutus",
+      "habitos": "Tavat",
+      "contato": "Yhteystiedot",
+      "dados": "Tiedot"
+    }
+  },
+  "header": {
+    "idioma_aria": "Vaihda kieltä",
+    "idioma_buscar_placeholder": "Hae kieltä..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Kirjaudu sisään",
+    "meta_descricao": "Kirjaudu sisään tai luo tili seurataksesi tietojasi ja tapojasi Carbono Consciente -palvelussa.",
+    "esquerda_titulo": "Jokainen hiilidioksiditonni jättää jälkensä",
+    "esquerda_texto": "Kirjaudu sisään seurataksesi tietojasi, tapojasi ja hiilijalanjälkeäsi.",
+    "google_botao": "Jatka Googlella",
+    "google_em_breve": "Kirjautuminen Googlella tulossa pian.",
+    "enviando": "lähetetään...",
+    "erro_servidor": "Palvelimeen ei saatu yhteyttä. Onko se käynnissä?",
+    "erro_generico": "Toimintoa ei voitu suorittaa loppuun.",
+    "login": {
+      "titulo": "Kirjaudu sisään",
+      "email_label": "Sähköposti",
+      "email_placeholder": "sinun@email.com",
+      "senha_label": "Salasana",
+      "botao": "kirjaudu",
+      "troca_texto": "Eikö sinulla ole vielä tiliä?",
+      "troca_botao": "Luo tili"
+    },
+    "cadastro": {
+      "titulo": "Rekisteröityminen",
+      "nome_label": "Nimi",
+      "nome_placeholder": "Sinun nimesi",
+      "email_label": "Sähköposti",
+      "email_placeholder": "sinun@email.com",
+      "pais_label": "Maa",
+      "pais_placeholder": "Hae maata...",
+      "senha_label": "Salasana",
+      "confirmar_label": "Vahvista salasana",
+      "botao": "luo tili",
+      "troca_texto": "Onko sinulla jo tili?",
+      "troca_botao": "Kirjaudu sisään"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Salasanat eivät täsmää."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: ympäristökasvatusta hiilidioksidipäästöistä, hiilijalanjäljestä, kestävistä vinkeistä, mielenkiintoisista tiedoista ja ympäristöuutisista.",
+    "hero": {
+      "titulo": "Joka pieni tapa painaa planeetalla vähemmän",
+      "texto": "CARBONO CONSCIENTE EI OLE VIHREÄ LEIMA EIKÄ KAUKAINEN TAVOITE — SE ON TAVALLISTEN, JOKA PÄIVÄ TOISTUVIEN VALINTOJEN SUMMA: MITÄ ISTUTAT, MITEN LIIKUT, MILLOIN SAMMUTAT VALON, MINNE HEITÄT ROSKASI.",
+      "botao": "Katso lisää"
+    },
+    "acordeao": {
+      "titulo": "Mikä on Carbono Consciente?",
+      "emissao_titulo": "Hiilidioksidipäästöt",
+      "emissao_corpo": "Hiilidioksidipäästö on kaasujen, kuten CO₂:n, vapautumista ilmakehään, pääasiassa fossiilisten polttoaineiden poltosta, metsäkadosta, teollisesta tuotannosta ja jopa arkipäiväisestä liikenteestä.",
+      "clima_titulo": "Miten se vaikuttaa ilmastoon?",
+      "clima_corpo": "Kasvihuonekaasut muodostavat kerroksen, joka pidättää lämpöä ilmakehässä. Mitä enemmän päästöjä, sitä voimakkaampi tämä vaikutus on — ja juuri se kiihdyttää ilmaston lämpenemistä ja ilmastonmuutosta.",
+      "pegada_titulo": "Hiilijalanjälki",
+      "pegada_corpo": "Se on kasvihuonekaasujen kokonaismäärä, joka syntyy suoraan tai välillisesti henkilön, yrityksen tai tuotteen päivittäisestä toiminnasta.",
+      "neutro_titulo": "Hiilineutraalius × Carbono Consciente",
+      "neutro_corpo": "<strong>Hiilineutraalius</strong> pyrkii tasapainottamaan tai kompensoimaan syntyneitä päästöjä. <strong>Carbono consciente</strong> asettaa etusijalle valinnat, jotka vähentävät ympäristövaikutusta ennen kuin kompensaatiota edes harkitaan."
+    },
+    "dicas": {
+      "titulo_secao": "Kestävät vinkit",
+      "clique_voltar": "napsauta kääntääksesi takaisin",
+      "casa": {
+        "titulo": "Koti",
+        "resumo": "Energian ja veden säästämistä arjessa",
+        "item1": "Säästä energiaa",
+        "item2": "Sammuta valot, kun niitä ei käytetä",
+        "item3": "Käytä laitteita harkiten",
+        "item4": "Vähennä vedenhukkaa",
+        "item5": "Vältä ruokahävikkiä"
+      },
+      "transporte": {
+        "titulo": "Liikenne",
+        "resumo": "Vaihtoehtoja autolle kevyempään liikkumiseen",
+        "item1": "Kävele, kun mahdollista",
+        "item2": "Käytä polkupyörää",
+        "item3": "Käytä julkista liikennettä",
+        "item4": "Jaa kyytejä, kun mahdollista",
+        "item5": "Vähennä tarpeettomia automatkoja"
+      },
+      "alimentacao": {
+        "titulo": "Ruoka",
+        "resumo": "Pöydän valintoja, jotka vähentävät hävikkiä ja päästöjä",
+        "item1": "Osta paikallisia tuotteita",
+        "item2": "Vältä hävikkiä",
+        "item3": "Suunnittele ateriasi",
+        "item4": "Hyödynnä ruoka paremmin",
+        "item5": "Vähennä lihankulutusta"
+      },
+      "reciclagem": {
+        "titulo": "Kierrätys",
+        "resumo": "Lajittele, käytä uudelleen ja anna jäljelle jäävälle uusi elämä",
+        "item1": "Lajittele jätteet oikein",
+        "item2": "Käytä materiaaleja uudelleen",
+        "item3": "Toimita kierrätettävät materiaalit oikein",
+        "item4": "Vältä kertakäyttötuotteita",
+        "item5": "Anna esineille uusi käyttötarkoitus"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Ympäristötietoa",
+      "subtitulo": "Tiesitkö?",
+      "carregando": "Ladataan tietoa...",
+      "proxima": "Seuraava tieto",
+      "erro_carregar": "Tietoja ei voitu ladata juuri nyt."
+    },
+    "noticias": {
+      "titulo": "Ympäristöuutiset",
+      "subtitulo": "Todellisia ja ajankohtaisia uutisia kestävyydestä",
+      "anteriores": "Edelliset uutiset",
+      "proximas": "Seuraavat uutiset",
+      "carregando": "Ladataan uutisia...",
+      "erro_carregar": "Uutisia ei voitu ladata juuri nyt.",
+      "nenhuma": "Uutisia ei ole saatavilla tällä hetkellä.",
+      "ler_na_origem": "lue alkuperäisellä sivustolla →",
+      "sem_link": "Tälle uutiselle ei ole ulkoista linkkiä."
+    },
+    "rodape": {
+      "descricao": "Ympäristökasvatusta, joka muuttaa pienet valinnat suuriksi tuloksiksi planeetalle.",
+      "navegacao": "Navigointi",
+      "contato": "Yhteystiedot",
+      "copyright": "© 2026 Carbono Consciente. Kaikki oikeudet pidätetään."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Kojelauta",
+    "meta_descricao": "Kirjaa matkasi ja seuraa hiilijalanjälkeäsi ajan myötä.",
+    "titulo": "Sinun tapakojelautasi",
+    "subtitulo": "Kirjaa matkasi ja seuraa hiilijalanjälkeäsi ajan myötä.",
+    "card_hoje": "CO₂ tänään",
+    "card_semana": "CO₂ tällä viikolla",
+    "card_mes": "CO₂ tässä kuussa",
+    "grafico_titulo": "Kehitys viimeisten 14 päivän aikana",
+    "grafico_aria": "CO₂-kehitys viimeisten {{dias}} päivän aikana",
+    "form_titulo": "Lisää matka",
+    "campo_meio": "Kulkutapa",
+    "campo_distancia": "Matka (km)",
+    "campo_data": "Päivämäärä",
+    "campo_observacao": "Huomautus (valinnainen)",
+    "campo_observacao_placeholder": "esim.: työmatka",
+    "botao_adicionar": "lisää",
+    "salvando": "tallennetaan...",
+    "registrado_sucesso": "Matka kirjattu!",
+    "registros_titulo": "Viimeisimmät merkinnät",
+    "registros_vazio": "Ei merkintöjä vielä — lisää ensimmäinen matkasi yllä.",
+    "meio_removido": "Kulkutapa poistettu",
+    "remover_registro": "Poista merkintä",
+    "sessao_expirada": "Istunto on vanhentunut.",
+    "erro_servidor": "Palvelimeen ei saatu yhteyttä. Onko se käynnissä?",
+    "erro_generico": "Toimintoa ei voitu suorittaa loppuun.",
+    "delta_sem_registros": "ei merkintöjä tällä ajanjaksolla",
+    "delta_primeiro_registro": "ajanjakson ensimmäinen merkintä",
+    "delta_estavel": "vakaa edelliseen ajanjaksoon verrattuna",
+    "delta_variacao": "{{percentual}} % edelliseen ajanjaksoon verrattuna"
+  },
+  "globo": {
+    "legenda_titulo": "Päästöt asukasta kohti",
+    "legenda_baixa": "Matala",
+    "legenda_alta": "Korkea",
+    "sair_destaque": "Poistu korostustilasta",
+    "buscar_placeholder": "Hae maata...",
+    "buscar_aria": "Hae maata maapallolta",
+    "sem_dados_co2": "ei CO₂-tietoja",
+    "tonelada_ano_pessoa": "{{valor}} t/vuosi henkilöä kohti",
+    "territorio": "Alue",
+    "fechar_painel": "Sulje paneeli",
+    "sem_dados_territorio": "Tälle alueelle ei ole saatavilla CO₂-päästötietoja asukasta kohti.",
+    "emissao_per_capita": "Päästöt asukasta kohti:",
+    "equivalente_diario": "Päivittäinen vastine:",
+    "equivalente_semanal": "Viikoittainen vastine:",
+    "equivalente_mensal": "Kuukausittainen vastine:",
+    "posicao_ranking": "Sijoitus listalla (yhteensä {{total}} maata):",
+    "fonte_estimativa": "Arvio fossiilisista CO₂-päästöistä asukasta kohti (Global Carbon Budget / Our World in Data, perusvuosi 2024).",
+    "aria_interativo": "Interaktiivinen hiilidioksidipäästöjen maapallo. Vedä kiertääksesi, vieritä lähentääksesi, napsauta maata nähdäksesi sen tiedot ja kaksoisnapsauta asettaaksesi maapallon korostustilaan.",
+    "aria_decorativo": "Koristeellinen pyörivä maapallo, joka kuvaa Carbono Consciente -hankkeen globaalia ulottuvuutta.",
+    "continente_asia": "Aasia",
+    "continente_africa": "Afrikka",
+    "continente_europa": "Eurooppa",
+    "continente_america_sul": "Etelä-Amerikka",
+    "continente_america_norte": "Pohjois-Amerikka",
+    "continente_oceania": "Oseania"
+  }
+}

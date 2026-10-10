@@ -30,8 +30,12 @@
       .map((d, i) => ({ i, texto: d.data.slice(5).split("-").reverse().join("/") }))
       .filter((r) => r.i === 0 || r.i === serie.length - 1 || r.i % 3 === 0);
 
+    const rotuloAria = window.i18n
+      ? window.i18n.t("painel.grafico_aria", { dias: serie.length })
+      : `Evolução do CO₂ nos últimos ${serie.length} dias`;
+
     container.innerHTML =
-      `<svg viewBox="0 0 ${largura} ${altura}" preserveAspectRatio="none" class="grafico-svg" role="img" aria-label="Evolução do CO₂ nos últimos ${serie.length} dias">` +
+      `<svg viewBox="0 0 ${largura} ${altura}" preserveAspectRatio="none" class="grafico-svg" role="img" aria-label="${rotuloAria}">` +
       `<polygon class="grafico-area" points="${area}" />` +
       `<polyline class="grafico-linha" points="${linha}" />` +
       pontos

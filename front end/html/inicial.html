@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Carbono Consciente</title>
-<meta name="description" content="Carbono Consciente: educação ambiental sobre emissões de carbono, pegada de carbono, dicas sustentáveis, curiosidades e notícias ambientais.">
+<title data-i18n="inicial.meta_titulo">Carbono Consciente</title>
+<meta name="description" data-i18n-attr-content="inicial.meta_descricao" content="Carbono Consciente: educação ambiental sobre emissões de carbono, pegada de carbono, dicas sustentáveis, curiosidades e notícias ambientais.">
 <link rel="stylesheet" href="../css/inicial.css">
 <link rel="stylesheet" href="../css/arvore.css">
 <script>document.documentElement.classList.add('pagina-carregando');</script>
@@ -19,21 +19,21 @@
     </a>
 
     <nav class="nav-principal">
-      <a href="#inicio">Plataforma</a>
-      <a href="#carbono">Impacto</a>
-      <a href="#dicas">Hábitos</a>
-      <a href="#rodape">Contato</a>
-      <a href="#estatisticas">Dados</a>
+      <a href="#inicio" data-i18n="common.nav.plataforma">Plataforma</a>
+      <a href="#carbono" data-i18n="common.nav.impacto">Impacto</a>
+      <a href="#dicas" data-i18n="common.nav.habitos">Hábitos</a>
+      <a href="#rodape" data-i18n="common.nav.contato">Contato</a>
+      <a href="#estatisticas" data-i18n="common.nav.dados">Dados</a>
     </nav>
 
     <div class="header-acoes">
-      <a href="login.html" class="btn-login" id="link-login">login</a>
-      <button class="theme-toggle" aria-label="Alternar tema claro/escuro">
+      <a href="login.html" class="btn-login" id="link-login" data-i18n="common.login_link">login</a>
+      <button class="theme-toggle" data-i18n-attr-aria-label="common.theme_toggle_aria" aria-label="Alternar tema claro/escuro">
         <span class="icone"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /> <path d="M12 2v2" /> <path d="M12 20v2" /> <path d="m4.93 4.93 1.41 1.41" /> <path d="m17.66 17.66 1.41 1.41" /> <path d="M2 12h2" /> <path d="M20 12h2" /> <path d="m6.34 17.66-1.41 1.41" /> <path d="m19.07 4.93-1.41 1.41" /></svg></span>
         <span class="icone"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" /></svg></span>
         <span class="knob"></span>
       </button>
-      <button class="menu-hamburguer" aria-label="Abrir menu">
+      <button class="menu-hamburguer" data-i18n-attr-aria-label="common.menu_aria" aria-label="Abrir menu">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -44,13 +44,13 @@
 <section class="hero" id="inicio">
   <div class="hero-inner">
     <div class="hero-texto">
-      <h1>Todo hábito pequeno pesa menos no planeta</h1>
-      <p>
+      <h1 data-i18n="inicial.hero.titulo">Todo hábito pequeno pesa menos no planeta</h1>
+      <p data-i18n="inicial.hero.texto">
         CARBONO CONSCIENTE NÃO É UM SELO VERDE NEM UMA META DISTANTE — É A SOMA DE
         ESCOLHAS COMUNS, REPETIDAS TODO DIA: O QUE VOCÊ PLANTA, COMO SE DESLOCA,
         QUANDO DESLIGA A LUZ, ONDE JOGA O LIXO.
       </p>
-      <a href="#carbono" class="btn-principal">Ver Mais</a>
+      <a href="#carbono" class="btn-principal" data-i18n="inicial.hero.botao">Ver Mais</a>
     </div>
 
     <div class="globo-wrap">
@@ -136,14 +136,14 @@
     </div>
 
     <div class="acordeao-coluna">
-      <div class="acordeao-titulo fonte-serif">O que é Carbono Consciente?</div>
+      <div class="acordeao-titulo fonte-serif" data-i18n="inicial.acordeao.titulo">O que é Carbono Consciente?</div>
 
       <div class="acordeao-item aberto">
         <button class="acordeao-cabecalho">
-          <span>Emissão de Carbono</span>
+          <span data-i18n="inicial.acordeao.emissao_titulo">Emissão de Carbono</span>
           <span class="acordeao-icone">→</span>
         </button>
-        <div class="acordeao-corpo">
+        <div class="acordeao-corpo" data-i18n="inicial.acordeao.emissao_corpo">
           Emissão de carbono é a liberação de gases como o CO₂ na atmosfera,
           principalmente pela queima de combustíveis fósseis, desmatamento,
           produção industrial e até pelo transporte do dia a dia.
@@ -152,10 +152,10 @@
 
       <div class="acordeao-item">
         <button class="acordeao-cabecalho">
-          <span>Como afeta o clima?</span>
+          <span data-i18n="inicial.acordeao.clima_titulo">Como afeta o clima?</span>
           <span class="acordeao-icone">→</span>
         </button>
-        <div class="acordeao-corpo">
+        <div class="acordeao-corpo" data-i18n="inicial.acordeao.clima_corpo">
           Os gases de efeito estufa formam uma camada que retém calor na
           atmosfera. Quanto mais emissões, maior esse efeito — e é isso que
           impulsiona o aquecimento global e as mudanças climáticas.
@@ -164,10 +164,10 @@
 
       <div class="acordeao-item">
         <button class="acordeao-cabecalho">
-          <span>Pegada de Carbono</span>
+          <span data-i18n="inicial.acordeao.pegada_titulo">Pegada de Carbono</span>
           <span class="acordeao-icone">→</span>
         </button>
-        <div class="acordeao-corpo">
+        <div class="acordeao-corpo" data-i18n="inicial.acordeao.pegada_corpo">
           É a quantidade total de gases de efeito estufa gerada, direta ou
           indiretamente, pelas atividades de uma pessoa, empresa ou produto
           no seu dia a dia.
@@ -176,10 +176,10 @@
 
       <div class="acordeao-item">
         <button class="acordeao-cabecalho">
-          <span>Carbono Neutro × Carbono Consciente</span>
+          <span data-i18n="inicial.acordeao.neutro_titulo">Carbono Neutro × Carbono Consciente</span>
           <span class="acordeao-icone">→</span>
         </button>
-        <div class="acordeao-corpo">
+        <div class="acordeao-corpo" data-i18n-html="inicial.acordeao.neutro_corpo">
           <strong>Carbono neutro</strong> busca equilibrar ou compensar as
           emissões geradas. <strong>Carbono consciente</strong> prioriza
           escolhas que reduzam o impacto ambiental antes mesmo de pensar em
@@ -193,7 +193,7 @@
 <!-- ===================== DICAS SUSTENTÁVEIS ===================== -->
 <section class="secao-dicas" id="dicas">
   <div class="container">
-    <h2 class="titulo-secao reveal">Dicas Sustentáveis</h2>
+    <h2 class="titulo-secao reveal" data-i18n="inicial.dicas.titulo_secao">Dicas Sustentáveis</h2>
 
     <div class="dicas-grid">
 
@@ -201,18 +201,18 @@
         <div class="dica-flip">
           <div class="dica-face dica-face-frente">
             <figure><div class="dica-imagem bg-casa"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" /> <path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /></svg></div></figure>
-            <div class="tag"><strong>Casa</strong><span>Economia de energia e água no dia a dia</span></div>
+            <div class="tag"><strong data-i18n="inicial.dicas.casa.titulo">Casa</strong><span data-i18n="inicial.dicas.casa.resumo">Economia de energia e água no dia a dia</span></div>
           </div>
           <div class="dica-face dica-face-verso">
-            <h3>Casa</h3>
+            <h3 data-i18n="inicial.dicas.casa.titulo">Casa</h3>
             <ul class="dica-lista">
-          <li>Economizar energia</li>
-          <li>Apagar luzes quando não estiver utilizando</li>
-          <li>Utilizar equipamentos de forma consciente</li>
-          <li>Reduzir desperdício de água</li>
-          <li>Evitar desperdício de alimentos</li>
+          <li data-i18n="inicial.dicas.casa.item1">Economizar energia</li>
+          <li data-i18n="inicial.dicas.casa.item2">Apagar luzes quando não estiver utilizando</li>
+          <li data-i18n="inicial.dicas.casa.item3">Utilizar equipamentos de forma consciente</li>
+          <li data-i18n="inicial.dicas.casa.item4">Reduzir desperdício de água</li>
+          <li data-i18n="inicial.dicas.casa.item5">Evitar desperdício de alimentos</li>
         </ul>
-            <span class="dica-verso-dica">clique para voltar</span>
+            <span class="dica-verso-dica" data-i18n="inicial.dicas.clique_voltar">clique para voltar</span>
           </div>
         </div>
       </article>
@@ -221,18 +221,18 @@
         <div class="dica-flip">
           <div class="dica-face dica-face-frente">
             <figure><div class="dica-imagem bg-transporte"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6v6" /> <path d="M15 6v6" /> <path d="M2 12h19.6" /> <path d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3" /> <circle cx="7" cy="18" r="2" /> <path d="M9 18h5" /> <circle cx="16" cy="18" r="2" /></svg></div></figure>
-            <div class="tag"><strong>Transporte</strong><span>Alternativas ao carro para deslocamentos mais leves</span></div>
+            <div class="tag"><strong data-i18n="inicial.dicas.transporte.titulo">Transporte</strong><span data-i18n="inicial.dicas.transporte.resumo">Alternativas ao carro para deslocamentos mais leves</span></div>
           </div>
           <div class="dica-face dica-face-verso">
-            <h3>Transporte</h3>
+            <h3 data-i18n="inicial.dicas.transporte.titulo">Transporte</h3>
             <ul class="dica-lista">
-          <li>Caminhar quando possível</li>
-          <li>Utilizar bicicleta</li>
-          <li>Utilizar transporte público</li>
-          <li>Compartilhar viagens quando possível</li>
-          <li>Reduzir deslocamentos desnecessários de carro</li>
+          <li data-i18n="inicial.dicas.transporte.item1">Caminhar quando possível</li>
+          <li data-i18n="inicial.dicas.transporte.item2">Utilizar bicicleta</li>
+          <li data-i18n="inicial.dicas.transporte.item3">Utilizar transporte público</li>
+          <li data-i18n="inicial.dicas.transporte.item4">Compartilhar viagens quando possível</li>
+          <li data-i18n="inicial.dicas.transporte.item5">Reduzir deslocamentos desnecessários de carro</li>
         </ul>
-            <span class="dica-verso-dica">clique para voltar</span>
+            <span class="dica-verso-dica" data-i18n="inicial.dicas.clique_voltar">clique para voltar</span>
           </div>
         </div>
       </article>
@@ -241,18 +241,18 @@
         <div class="dica-flip">
           <div class="dica-face dica-face-frente">
             <figure><div class="dica-imagem bg-alimentacao"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 21h10" /> <path d="M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9Z" /> <path d="M11.38 12a2.4 2.4 0 0 1-.4-4.77 2.4 2.4 0 0 1 3.2-2.77 2.4 2.4 0 0 1 3.47-.63 2.4 2.4 0 0 1 3.37 3.37 2.4 2.4 0 0 1-1.1 3.7 2.51 2.51 0 0 1 .03 1.1" /> <path d="m13 12 4-4" /> <path d="M10.9 7.25A3.99 3.99 0 0 0 4 10c0 .73.2 1.41.54 2" /></svg></div></figure>
-            <div class="tag"><strong>Alimentação</strong><span>Escolhas à mesa que reduzem desperdício e emissões</span></div>
+            <div class="tag"><strong data-i18n="inicial.dicas.alimentacao.titulo">Alimentação</strong><span data-i18n="inicial.dicas.alimentacao.resumo">Escolhas à mesa que reduzem desperdício e emissões</span></div>
           </div>
           <div class="dica-face dica-face-verso">
-            <h3>Alimentação</h3>
+            <h3 data-i18n="inicial.dicas.alimentacao.titulo">Alimentação</h3>
             <ul class="dica-lista">
-          <li>Consumir produtos locais</li>
-          <li>Evitar desperdício</li>
-          <li>Planejar as refeições</li>
-          <li>Aproveitar melhor os alimentos</li>
-          <li>Diminuir o consumo de carne</li>
+          <li data-i18n="inicial.dicas.alimentacao.item1">Consumir produtos locais</li>
+          <li data-i18n="inicial.dicas.alimentacao.item2">Evitar desperdício</li>
+          <li data-i18n="inicial.dicas.alimentacao.item3">Planejar as refeições</li>
+          <li data-i18n="inicial.dicas.alimentacao.item4">Aproveitar melhor os alimentos</li>
+          <li data-i18n="inicial.dicas.alimentacao.item5">Diminuir o consumo de carne</li>
         </ul>
-            <span class="dica-verso-dica">clique para voltar</span>
+            <span class="dica-verso-dica" data-i18n="inicial.dicas.clique_voltar">clique para voltar</span>
           </div>
         </div>
       </article>
@@ -261,18 +261,18 @@
         <div class="dica-flip">
           <div class="dica-face dica-face-frente">
             <figure><div class="dica-imagem bg-reciclagem"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5" /> <path d="M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12" /> <path d="m14 16-3 3 3 3" /> <path d="M8.293 13.596 7.196 9.5 3.1 10.598" /> <path d="m9.344 5.811 1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.784 1.784 0 0 1 1.546.888l3.943 6.843" /> <path d="m13.378 9.633 4.096 1.098 1.097-4.096" /></svg></div></figure>
-            <div class="tag"><strong>Reciclagem</strong><span>Separe, reutilize e dê novo uso ao que sobra</span></div>
+            <div class="tag"><strong data-i18n="inicial.dicas.reciclagem.titulo">Reciclagem</strong><span data-i18n="inicial.dicas.reciclagem.resumo">Separe, reutilize e dê novo uso ao que sobra</span></div>
           </div>
           <div class="dica-face dica-face-verso">
-            <h3>Reciclagem</h3>
+            <h3 data-i18n="inicial.dicas.reciclagem.titulo">Reciclagem</h3>
             <ul class="dica-lista">
-          <li>Separar corretamente os resíduos</li>
-          <li>Reutilizar materiais</li>
-          <li>Destinar recicláveis corretamente</li>
-          <li>Evitar produtos descartáveis</li>
-          <li>Dar novos usos aos objetos</li>
+          <li data-i18n="inicial.dicas.reciclagem.item1">Separar corretamente os resíduos</li>
+          <li data-i18n="inicial.dicas.reciclagem.item2">Reutilizar materiais</li>
+          <li data-i18n="inicial.dicas.reciclagem.item3">Destinar recicláveis corretamente</li>
+          <li data-i18n="inicial.dicas.reciclagem.item4">Evitar produtos descartáveis</li>
+          <li data-i18n="inicial.dicas.reciclagem.item5">Dar novos usos aos objetos</li>
         </ul>
-            <span class="dica-verso-dica">clique para voltar</span>
+            <span class="dica-verso-dica" data-i18n="inicial.dicas.clique_voltar">clique para voltar</span>
           </div>
         </div>
       </article>
@@ -285,11 +285,11 @@
 <section class="secao-curiosidades">
   <div class="container curiosidades-inner">
     <div>
-      <h2 class="fonte-serif">Curiosidades Ambientais</h2>
-      <p class="subtitulo-secao">Você sabia?</p>
+      <h2 class="fonte-serif" data-i18n="inicial.curiosidades.titulo">Curiosidades Ambientais</h2>
+      <p class="subtitulo-secao" data-i18n="inicial.curiosidades.subtitulo">Você sabia?</p>
       <div class="curiosidade-card">
-        <p id="curiosidade-texto">Carregando curiosidade...</p>
-        <button type="button" id="curiosidade-trocar" class="curiosidade-botao"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8" /> <path d="M21 3v5h-5" /> <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16" /> <path d="M8 16H3v5" /></svg> Próxima curiosidade</button>
+        <p id="curiosidade-texto" data-i18n="inicial.curiosidades.carregando">Carregando curiosidade...</p>
+        <button type="button" id="curiosidade-trocar" class="curiosidade-botao"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8" /> <path d="M21 3v5h-5" /> <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16" /> <path d="M8 16H3v5" /></svg> <span data-i18n="inicial.curiosidades.proxima">Próxima curiosidade</span></button>
       </div>
     </div>
   
@@ -300,16 +300,16 @@
 <section class="secao-noticias" id="noticias">
   <div class="container">
     <div class="noticias-cabecalho">
-      <h2 class="titulo-secao reveal"><span class="icone-titulo"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18h-5" /> <path d="M18 14h-8" /> <path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2" /> <rect width="8" height="4" x="10" y="6" rx="1" /></svg></span> Notícias Ambientais</h2>
+      <h2 class="titulo-secao reveal"><span class="icone-titulo"><svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18h-5" /> <path d="M18 14h-8" /> <path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2" /> <rect width="8" height="4" x="10" y="6" rx="1" /></svg></span> <span data-i18n="inicial.noticias.titulo">Notícias Ambientais</span></h2>
     </div>
-    <p class="subtitulo-secao reveal">Notícias reais e recentes sobre sustentabilidade</p>
+    <p class="subtitulo-secao reveal" data-i18n="inicial.noticias.subtitulo">Notícias reais e recentes sobre sustentabilidade</p>
 
     <div class="noticias-carrossel-wrap">
-      <button type="button" class="noticias-seta noticias-seta-esq" aria-label="Notícias anteriores">‹</button>
+      <button type="button" class="noticias-seta noticias-seta-esq" data-i18n-attr-aria-label="inicial.noticias.anteriores" aria-label="Notícias anteriores">‹</button>
       <div class="noticias-carrossel" id="noticias-carrossel">
-        <p class="noticias-carregando">Carregando notícias...</p>
+        <p class="noticias-carregando" data-i18n="inicial.noticias.carregando">Carregando notícias...</p>
       </div>
-      <button type="button" class="noticias-seta noticias-seta-dir" aria-label="Próximas notícias">›</button>
+      <button type="button" class="noticias-seta noticias-seta-dir" data-i18n-attr-aria-label="inicial.noticias.proximas" aria-label="Próximas notícias">›</button>
     </div>
   </div>
 </section>
@@ -318,7 +318,7 @@
 <div class="noticia-modal" id="noticia-modal" hidden>
   <div class="noticia-modal-fundo" id="noticia-modal-fundo"></div>
   <div class="noticia-modal-caixa" role="dialog" aria-modal="true">
-    <button type="button" class="noticia-modal-fechar" id="noticia-modal-fechar" aria-label="Fechar">×</button>
+    <button type="button" class="noticia-modal-fechar" id="noticia-modal-fechar" data-i18n-attr-aria-label="common.fechar" aria-label="Fechar">×</button>
     <div id="noticia-modal-conteudo"></div>
   </div>
 </div>
@@ -328,28 +328,31 @@
   <div class="container footer-inner">
     <div>
       <img src="../../img/logo.png" alt="Logo Carbono Consciente">
-      <p>Educação ambiental para transformar pequenas escolhas em grandes resultados para o planeta.</p>
+      <p data-i18n="inicial.rodape.descricao">Educação ambiental para transformar pequenas escolhas em grandes resultados para o planeta.</p>
     </div>
     <div class="footer-nav">
       <div class="footer-col">
-        <h4>Navegação</h4>
-        <a href="#inicio">Plataforma</a>
-        <a href="#carbono">Impacto</a>
-        <a href="#dicas">Hábitos</a>
-        <a href="#estatisticas">Dados</a>
+        <h4 data-i18n="inicial.rodape.navegacao">Navegação</h4>
+        <a href="#inicio" data-i18n="common.nav.plataforma">Plataforma</a>
+        <a href="#carbono" data-i18n="common.nav.impacto">Impacto</a>
+        <a href="#dicas" data-i18n="common.nav.habitos">Hábitos</a>
+        <a href="#estatisticas" data-i18n="common.nav.dados">Dados</a>
       </div>
       <div class="footer-col">
-        <h4>Contato</h4>
+        <h4 data-i18n="inicial.rodape.contato">Contato</h4>
         <a href="mailto:contato@carbonoconsciente.com.br">contato@carbonoconsciente.com.br</a>
-        <a href="#noticias">Notícias Ambientais</a>
+        <a href="#noticias" data-i18n="inicial.noticias.titulo">Notícias Ambientais</a>
       </div>
     </div>
   </div>
-  <div class="container footer-copy">
+  <div class="container footer-copy" data-i18n="inicial.rodape.copyright">
     © 2026 Carbono Consciente. Todos os direitos reservados.
   </div>
 </footer>
 
+<script src="../i18n/i18n.js"></script>
+<script src="../js/componentes/seletor-busca.js"></script>
+<script src="../js/componentes/idioma-switcher.js"></script>
 <script src="../js/vendor/globe.gl.min.js"></script>
 <script src="../js/globo.js"></script>
 <script src="../js/inicial.js"></script>

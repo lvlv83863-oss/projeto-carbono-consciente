@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← ወደ መነሻ ገፅ ተመለስ",
+    "theme_toggle_aria": "ብሩህ/ጨለማ ገፅታ ቀይር",
+    "menu_aria": "ዝርዝር ክፈት",
+    "login_link": "ግባ",
+    "sair_link": "ውጣ",
+    "painel_link": "ፓነል",
+    "fechar": "ዝጋ",
+    "nav": {
+      "plataforma": "መድረክ",
+      "impacto": "ተፅዕኖ",
+      "habitos": "ልማዶች",
+      "contato": "አግኙን",
+      "dados": "ውሂብ"
+    }
+  },
+  "header": {
+    "idioma_aria": "ቋንቋ ቀይር",
+    "idioma_buscar_placeholder": "ቋንቋ ፍለጋ..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — ግባ",
+    "meta_descricao": "ውሂብዎን እና ልማዶችዎን በ Carbono Consciente ለመከታተል ይግቡ ወይም ይመዝገቡ።",
+    "esquerda_titulo": "እያንዳንዷ ቶን CO₂ ምልክት ትተዋለች",
+    "esquerda_texto": "ውሂብዎን፣ ልማዶችዎን እና የካርቦን አሻራዎን ለመከታተል ይግቡ።",
+    "google_botao": "በGoogle ይቀጥሉ",
+    "google_em_breve": "በGoogle መግባት በቅርቡ ይመጣል።",
+    "enviando": "በመላክ ላይ...",
+    "erro_servidor": "ከሰርቫሩ ጋር መገናኘት አልተቻለም። እየሰራ ነውን?",
+    "erro_generico": "ተግባሩን ማጠናቀቅ አልተቻለም።",
+    "login": {
+      "titulo": "ግባ",
+      "email_label": "ኢሜይል",
+      "email_placeholder": "የእርስዎ@email.com",
+      "senha_label": "ፓስወርድ",
+      "botao": "ግባ",
+      "troca_texto": "እስካሁን አካውንት የለዎትም?",
+      "troca_botao": "ይመዝገቡ"
+    },
+    "cadastro": {
+      "titulo": "ይመዝገቡ",
+      "nome_label": "ስም",
+      "nome_placeholder": "ስምዎ",
+      "email_label": "ኢሜይል",
+      "email_placeholder": "የእርስዎ@email.com",
+      "pais_label": "ሀገር",
+      "pais_placeholder": "ሀገር ፍለጋ...",
+      "senha_label": "ፓስወርድ",
+      "confirmar_label": "ፓስወርድ ያረጋግጡ",
+      "botao": "ይመዝገቡ",
+      "troca_texto": "አካውንት አለዎት?",
+      "troca_botao": "ግባ"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "ፓስወርዶቹ አይጣጣሙም።"
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente፦ በካርቦን ልቀት፣ የካርቦን አሻራ፣ ቀጣይነት ያላቸው ምክሮች፣ አስገራሚ መረጃዎች እና የአካባቢ ዜናዎች ላይ የአካባቢ ትምህርት።",
+    "hero": {
+      "titulo": "እያንዳንዱ ትንሽ ልማድ በፕላኔቷ ላይ ያነሰ ጫና ያሳድራል",
+      "texto": "CARBONO CONSCIENTE አረንጓዴ ማህተም ወይም የራቀ ግብ አይደለም — በየቀኑ የሚደገሙ የተለመዱ ምርጫዎች ድምር ነው፦ ምን እንደሚተክሉ፣ እንዴት እንደሚጓዙ፣ መብራቱን መቼ እንደሚያጠፉ፣ ቆሻሻውን የት እንደሚጥሉ።",
+      "botao": "ተጨማሪ ይመልከቱ"
+    },
+    "acordeao": {
+      "titulo": "Carbono Consciente ምንድን ነው?",
+      "emissao_titulo": "የካርቦን ልቀት",
+      "emissao_corpo": "የካርቦን ልቀት እንደ CO₂ ያሉ ጋዞችን ወደ አየር ውስጥ መልቀቅ ነው፣ በተለይም የቀሪ ነዳጆችን በማቃጠል፣ ደን በመጨፍጨፍ፣ በኢንዱስትሪ ምርት እና በየቀኑ መጓጓዝ ምክንያት።",
+      "clima_titulo": "አየር ንብረትን እንዴት ይነካል?",
+      "clima_corpo": "የአረንጓዴ ቤት ጋዞች በከባቢ አየር ውስጥ ሙቀትን የሚያቆይ ንብብር ይፈጥራሉ። ልቀቱ እየጨመረ በሄደ መጠን ይህ ተፅዕኖ ይበልጣል — እናም ይህ የዓለም ሙቀት መጨመርን እና የአየር ንብረት ለውጥን ያስከትላል።",
+      "pegada_titulo": "የካርቦን አሻራ",
+      "pegada_corpo": "በቀጥታ ወይም በተዘዋዋሪ በአንድ ሰው፣ ድርጅት ወይም ምርት በየቀኑ እንቅስቃሴ የሚፈጠር አጠቃላይ የአረንጓዴ ቤት ጋዞች መጠን ነው።",
+      "neutro_titulo": "ካርቦን ገለልተኛ × Carbono Consciente",
+      "neutro_corpo": "<strong>ካርቦን ገለልተኛ</strong> የሚፈጠረውን ልቀት ለማመዛዘን ወይም ለማካካስ ይፈልጋል። <strong>Carbono consciente</strong> ማካካሻን ከማሰብ በፊት የአካባቢን ተፅዕኖ የሚቀንሱ ምርጫዎችን ያስቀድማል።"
+    },
+    "dicas": {
+      "titulo_secao": "ቀጣይነት ያላቸው ምክሮች",
+      "clique_voltar": "ለመመለስ ይጫኑ",
+      "casa": {
+        "titulo": "ቤት",
+        "resumo": "በየቀኑ የኤነርጂ እና የውሃ ቁጠባ",
+        "item1": "ኤነርጂ ይቆጥቡ",
+        "item2": "የማይጠቀሙ ከሆነ መብራቶችን ያጥፉ",
+        "item3": "መገልገያዎችን በንቃት ይጠቀሙ",
+        "item4": "የውሃ ብክነትን ይቀንሱ",
+        "item5": "የምግብ ብክነትን ያስወግዱ"
+      },
+      "transporte": {
+        "titulo": "መጓጓዣ",
+        "resumo": "ለቀለለ እንቅስቃሴ ከመኪና ሌላ አማራጮች",
+        "item1": "ሲቻል በእግር ይጓዙ",
+        "item2": "ቢስክሌት ይጠቀሙ",
+        "item3": "የህዝብ ትራንስፖርት ይጠቀሙ",
+        "item4": "ሲቻል ጉዞን ይጋሩ",
+        "item5": "አላስፈላጊ የመኪና ጉዞዎችን ይቀንሱ"
+      },
+      "alimentacao": {
+        "titulo": "ምግብ",
+        "resumo": "ብክነትን እና ልቀትን የሚቀንሱ የገበታ ላይ ምርጫዎች",
+        "item1": "የአካባቢ ምርቶችን ይጠቀሙ",
+        "item2": "ብክነትን ያስወግዱ",
+        "item3": "ምግቦችን አስቀድመው ያቅዱ",
+        "item4": "ምግብን በተሻለ ይጠቀሙ",
+        "item5": "የስጋ ፍጆታን ይቀንሱ"
+      },
+      "reciclagem": {
+        "titulo": "መልሶ መጠቀም",
+        "resumo": "የተረፈውን ይደርድሩ፣ እንደገና ይጠቀሙበት እና አዲስ አገልግሎት ይስጡት",
+        "item1": "ቆሻሻን በትክክል ይለዩ",
+        "item2": "ቁሳቁሶችን እንደገና ይጠቀሙ",
+        "item3": "መልሶ መጠቀም የሚችሉ ነገሮችን በትክክል ያድርሱ",
+        "item4": "አንድ ጊዜ ጥቅም ላይ የሚውሉ ምርቶችን ያስወግዱ",
+        "item5": "ለነገሮች አዲስ አገልግሎት ይስጡ"
+      }
+    },
+    "curiosidades": {
+      "titulo": "አስገራሚ የአካባቢ መረጃዎች",
+      "subtitulo": "ያውቁ ነበር?",
+      "carregando": "አስገራሚ መረጃ በመጫን ላይ...",
+      "proxima": "ተከታይ አስገራሚ መረጃ",
+      "erro_carregar": "አሁን አስገራሚ መረጃዎችን መጫን አልተቻለም።"
+    },
+    "noticias": {
+      "titulo": "የአካባቢ ዜናዎች",
+      "subtitulo": "ትክክለኛ እና ወቅታዊ የቀጣይነት ዜናዎች",
+      "anteriores": "የቀድሞ ዜናዎች",
+      "proximas": "ተከታይ ዜናዎች",
+      "carregando": "ዜናዎች በመጫን ላይ...",
+      "erro_carregar": "አሁን ዜናዎችን መጫን አልተቻለም።",
+      "nenhuma": "በዚህ ጊዜ ምንም ዜና የለም።",
+      "ler_na_origem": "በመጀመሪያ ምንጩ ላይ ያንብቡ →",
+      "sem_link": "ለዚህ ዜና ውጫዊ አገናኝ አልተገኘም።"
+    },
+    "rodape": {
+      "descricao": "ትንንሽ ምርጫዎችን ለፕላኔቷ ትልቅ ውጤት የሚያደርግ የአካባቢ ትምህርት።",
+      "navegacao": "ዳሰሳ",
+      "contato": "አግኙን",
+      "copyright": "© 2026 Carbono Consciente። መብቱ በህግ የተጠበቀ ነው።"
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — ፓነል",
+    "meta_descricao": "ጉዞዎችን ይመዝግቡ እና የካርቦን አሻራዎን በጊዜ ሂደት ይከታተሉ።",
+    "titulo": "የእርስዎ የልማድ ፓነል",
+    "subtitulo": "ጉዞዎችን ይመዝግቡ እና የካርቦን አሻራዎን በጊዜ ሂደት ይከታተሉ።",
+    "card_hoje": "የዛሬ CO₂",
+    "card_semana": "የዚህ ሳምንት CO₂",
+    "card_mes": "የዚህ ወር CO₂",
+    "grafico_titulo": "በመጨረሻዎቹ 14 ቀናት ውስጥ ያለው ለውጥ",
+    "grafico_aria": "በመጨረሻዎቹ {{dias}} ቀናት ውስጥ ያለው የCO₂ ለውጥ",
+    "form_titulo": "ጉዞ ይጨምሩ",
+    "campo_meio": "የመጓጓዣ መንገድ",
+    "campo_distancia": "ርቀት (ኪ.ሜ)",
+    "campo_data": "ቀን",
+    "campo_observacao": "ማስታወሻ (አማራጭ)",
+    "campo_observacao_placeholder": "ለምሳሌ፦ ወደ ስራ መጓዣ",
+    "botao_adicionar": "ጨምር",
+    "salvando": "በማስቀመጥ ላይ...",
+    "registrado_sucesso": "ጉዞው ተመዝግቧል!",
+    "registros_titulo": "የቅርብ ጊዜ ምዝገባዎች",
+    "registros_vazio": "እስካሁን ምዝገባ የለም — የመጀመሪያ ጉዞዎን ከላይ ይጨምሩ።",
+    "meio_removido": "መንገድ ተወግዷል",
+    "remover_registro": "ምዝገባ አስወግድ",
+    "sessao_expirada": "ክፍለ ጊዜው አልቋል።",
+    "erro_servidor": "ከሰርቫሩ ጋር መገናኘት አልተቻለም። እየሰራ ነውን?",
+    "erro_generico": "ተግባሩን ማጠናቀቅ አልተቻለም።",
+    "delta_sem_registros": "በዚህ ጊዜ ውስጥ ምዝገባ የለም",
+    "delta_primeiro_registro": "በዚህ ጊዜ ውስጥ የመጀመሪያ ምዝገባ",
+    "delta_estavel": "ከቀድሞው ጊዜ ጋር ተመሳሳይ",
+    "delta_variacao": "{{percentual}}% ከቀድሞው ጊዜ ጋር ሲነፃፀር"
+  },
+  "globo": {
+    "legenda_titulo": "የነፍስ ወከፍ ልቀት",
+    "legenda_baixa": "ዝቅተኛ",
+    "legenda_alta": "ከፍተኛ",
+    "sair_destaque": "ከማድመቅ ሁነታ ይውጡ",
+    "buscar_placeholder": "ሀገር ፍለጋ...",
+    "buscar_aria": "በግሎብ ላይ ሀገር ይፍለጉ",
+    "sem_dados_co2": "የCO₂ ውሂብ የለም",
+    "tonelada_ano_pessoa": "{{valor}} ቶን/ዓመት በነፍስ ወከፍ",
+    "territorio": "ግዛት",
+    "fechar_painel": "ፓነል ዝጋ",
+    "sem_dados_territorio": "ለዚህ ግዛት የነፍስ ወከፍ CO₂ ልቀት ውሂብ የለም።",
+    "emissao_per_capita": "የነፍስ ወከፍ ልቀት፦",
+    "equivalente_diario": "ዕለታዊ አቻ፦",
+    "equivalente_semanal": "ሳምንታዊ አቻ፦",
+    "equivalente_mensal": "ወርሃዊ አቻ፦",
+    "posicao_ranking": "የደረጃ ቅደም ተከተል (ከ{{total}} ሀገራት)፦",
+    "fonte_estimativa": "የቀሪ ነዳጅ CO₂ በነፍስ ወከፍ ግምት (Global Carbon Budget / Our World in Data, መሰረት ዓመት 2024)።",
+    "aria_interativo": "የካርቦን ልቀት መስተጋብራዊ ግሎብ። ለማዞር ይጎትቱ፣ ለማቅረብ ይሽከርከሩ፣ ውሂብ ለማየት ሀገር ይጫኑ እና ግሎብን ለማድመቅ ሁለት ጊዜ ይጫኑ።",
+    "aria_decorativo": "የCarbono Consciente ፕሮጀክት ዓለም አቀፍ ስፋትን የሚያሳይ ያሸበረቀ የሚሽከረከር ግሎብ።",
+    "continente_asia": "እስያ",
+    "continente_africa": "አፍሪካ",
+    "continente_europa": "አውሮፓ",
+    "continente_america_sul": "ደቡብ አሜሪካ",
+    "continente_america_norte": "ሰሜን አሜሪካ",
+    "continente_oceania": "ኦሽኒያ"
+  }
+}

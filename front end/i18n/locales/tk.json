@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Baş sahypa dolan",
+    "theme_toggle_aria": "Açyk/Garaňky temany üýtgetmek",
+    "menu_aria": "Menýuny açmak",
+    "login_link": "giriş",
+    "sair_link": "çykyş",
+    "painel_link": "panel",
+    "fechar": "Ýapmak",
+    "nav": {
+      "plataforma": "Platforma",
+      "impacto": "Täsir",
+      "habitos": "Endikler",
+      "contato": "Habarlaşmak",
+      "dados": "Maglumatlar"
+    }
+  },
+  "header": {
+    "idioma_aria": "Dili üýtgetmek",
+    "idioma_buscar_placeholder": "Dil gözle..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Giriş",
+    "meta_descricao": "Carbono Consciente-de maglumatlaryňyzy we endikleriňizi yzarlamak üçin giriň ýa-da hasaba alnyň.",
+    "esquerda_titulo": "Her tonna CO₂ yz galdyrýar",
+    "esquerda_texto": "Maglumatlaryňyzy, endikleriňizi we uglerod yzyňyzy yzarlamak üçin giriň.",
+    "google_botao": "Google bilen dowam et",
+    "google_em_breve": "Google bilen giriş ýakyn wagtda.",
+    "enviando": "iberilýär...",
+    "erro_servidor": "Serwer bilen habarlaşyp bolmady. Ol işleýärmi?",
+    "erro_generico": "Amaly ýerine ýetirip bolmady.",
+    "login": {
+      "titulo": "Giriş",
+      "email_label": "E-poçta",
+      "email_placeholder": "siz@email.com",
+      "senha_label": "Parol",
+      "botao": "giriş",
+      "troca_texto": "Entek hasabyňyz ýokmy?",
+      "troca_botao": "Hasaba al"
+    },
+    "cadastro": {
+      "titulo": "Hasaba alynmak",
+      "nome_label": "Ady",
+      "nome_placeholder": "Adyňyz",
+      "email_label": "E-poçta",
+      "email_placeholder": "siz@email.com",
+      "pais_label": "Ýurt",
+      "pais_placeholder": "Ýurt gözle...",
+      "senha_label": "Parol",
+      "confirmar_label": "Paroly tassyklamak",
+      "botao": "hasaba al",
+      "troca_texto": "Hasabyňyz barmy?",
+      "troca_botao": "Giriş"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Parollar gabat gelmeýär."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: uglerod zyňyndylary, uglerod yzy, durnukly maslahatlar, gyzykly maglumatlar we daşky gurşaw habarlary barada ekologik bilim.",
+    "hero": {
+      "titulo": "Her kiçi endik planeta üçin has az ýük bolýar",
+      "texto": "CARBONO CONSCIENTE ÝAŞYL NYŞAN HEM, DAŞDAKY MAKSAT HEM DÄL — OL HER GÜN GAÝTALANÝAN ADATY SAÝLAWLARYŇ JEMI: NÄME EKÝÄRSIŇIZ, NÄHILI HEREKET EDÝÄRSIŇIZ, ÇYRANY HAÇAN ÖÇÜRÝÄRSIŇIZ, HAPANY NIRÄ ZYŇÝARSYŇYZ.",
+      "botao": "Has köp gör"
+    },
+    "acordeao": {
+      "titulo": "Carbono Consciente näme?",
+      "emissao_titulo": "Uglerod zyňyndysy",
+      "emissao_corpo": "Uglerod zyňyndysy — CO₂ ýaly gazlaryň atmosfera goýberilmegidir, esasan gazylyp alynýan ýangyçlaryň ýakylmagy, tokaýlaryň ýok edilmegi, senagat önümçiligi we hatda gündelik ulag sebäpli.",
+      "clima_titulo": "Bu howa nähili täsir edýär?",
+      "clima_corpo": "Howa gazlary atmosferada ýylylygy saklaýan gatlak emele getirýär. Zyňyndylar näçe köp bolsa, bu täsir şonça güýçli bolýar — we ine şu zat global maýlamany we howa üýtgemegini güýçlendirýär.",
+      "pegada_titulo": "Uglerod yzy",
+      "pegada_corpo": "Bu bir adamyň, kompaniýanyň ýa-da önümiň gündelik işleriniň netijesinde göni ýa-da gytaklaýyn emele gelýän howa gazlarynyň umumy mukdarydyr.",
+      "neutro_titulo": "Uglerod bitaraplygy × Carbono Consciente",
+      "neutro_corpo": "<strong>Uglerod bitaraplygy</strong> emele gelen zyňyndylary deňagramlaşdyrmaga ýa-da öwezini dolmaga synanyşýar. <strong>Carbono consciente</strong> bolsa öwezini dolmak barada pikir etmezden ozal daşky gurşawa täsiri azaldýan saýlawlara ileri tutýar."
+    },
+    "dicas": {
+      "titulo_secao": "Durnukly maslahatlar",
+      "clique_voltar": "yzyna öwürmek üçin basyň",
+      "casa": {
+        "titulo": "Jaý",
+        "resumo": "Gündelik durmuşda energiýa we suw tygşytlylygy",
+        "item1": "Energiýany tygşytlamak",
+        "item2": "Ulanylmaýan wagty çyralary öçürmek",
+        "item3": "Enjamlary aňlylyk bilen ulanmak",
+        "item4": "Suw ýitgisini azaltmak",
+        "item5": "Iýmit zaýalanmagyndan gaça durmak"
+      },
+      "transporte": {
+        "titulo": "Ulag",
+        "resumo": "Has ýeňil syýahatlar üçin awtomobile alternatiwalar",
+        "item1": "Mümkin bolanda ýöräp gitmek",
+        "item2": "Welosiped ulanmak",
+        "item3": "Jemgyýetçilik ulagyny ulanmak",
+        "item4": "Mümkin bolanda syýahatlary paýlaşmak",
+        "item5": "Awtomobilde gereksiz syýahatlary azaltmak"
+      },
+      "alimentacao": {
+        "titulo": "Iýmitlenme",
+        "resumo": "Zyňyndy we zyňyndylary azaldýan saçak saýlawlary",
+        "item1": "Ýerli önümleri ulanmak",
+        "item2": "Zaýalanmagyndan gaça durmak",
+        "item3": "Naharlary öňünden meýilleşdirmek",
+        "item4": "Iýmitden has gowy peýdalanmak",
+        "item5": "Et iýmitini azaltmak"
+      },
+      "reciclagem": {
+        "titulo": "Gaýtadan işlemek",
+        "resumo": "Tertipläň, gaýtadan ulanyň we galanlaryna täze ömür beriň",
+        "item1": "Zyňyndylary dogry tertiplemek",
+        "item2": "Materiallary gaýtadan ulanmak",
+        "item3": "Gaýtadan işlenip bilinýän zatlary dogry ýere tabşyrmak",
+        "item4": "Bir gezek ulanylýan önümlerden gaça durmak",
+        "item5": "Zatlara täze ulanyş tapmak"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Daşky gurşaw barada gyzykly maglumatlar",
+      "subtitulo": "Bilýärsiňizmi?",
+      "carregando": "Gyzykly maglumat ýüklenýär...",
+      "proxima": "Indiki gyzykly maglumat",
+      "erro_carregar": "Häzir gyzykly maglumatlary ýüklemek bolmady."
+    },
+    "noticias": {
+      "titulo": "Daşky gurşaw habarlary",
+      "subtitulo": "Durnuklylyk barada hakyky we täze habarlar",
+      "anteriores": "Öňki habarlar",
+      "proximas": "Indiki habarlar",
+      "carregando": "Habarlar ýüklenýär...",
+      "erro_carregar": "Häzir habarlary ýüklemek bolmady.",
+      "nenhuma": "Häzirki wagtda elýeterli habar ýok.",
+      "ler_na_origem": "çeşmede okamak →",
+      "sem_link": "Bu habar üçin daşarky salgy ýok."
+    },
+    "rodape": {
+      "descricao": "Kiçi saýlawlary planeta üçin uly netijelere öwürýän ekologik bilim.",
+      "navegacao": "Nawigasiýa",
+      "contato": "Habarlaşmak",
+      "copyright": "© 2026 Carbono Consciente. Ähli hukuklar goralan."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Panel",
+    "meta_descricao": "Syýahatlaryňyzy ýazga alyň we wagtyň geçmegi bilen uglerod yzyňyzy yzarlaň.",
+    "titulo": "Siziň endikler paneliňiz",
+    "subtitulo": "Syýahatlaryňyzy ýazga alyň we wagtyň geçmegi bilen uglerod yzyňyzy yzarlaň.",
+    "card_hoje": "Şu günki CO₂",
+    "card_semana": "Şu hepdäniň CO₂-si",
+    "card_mes": "Şu aýyň CO₂-si",
+    "grafico_titulo": "Soňky 14 gündäki ösüş",
+    "grafico_aria": "Soňky {{dias}} gündäki CO₂ ösüşi",
+    "form_titulo": "Syýahat goşmak",
+    "campo_meio": "Ulag görnüşi",
+    "campo_distancia": "Aralyk (km)",
+    "campo_data": "Sene",
+    "campo_observacao": "Bellik (islege görä)",
+    "campo_observacao_placeholder": "mysal üçin: işe gatnaw",
+    "botao_adicionar": "goş",
+    "salvando": "ýatda saklanýar...",
+    "registrado_sucesso": "Syýahat ýazga alyndy!",
+    "registros_titulo": "Soňky ýazgylar",
+    "registros_vazio": "Entek ýazgy ýok — ýokardaky ilkinji syýahatyňyzy goşuň.",
+    "meio_removido": "Ulag görnüşi aýryldy",
+    "remover_registro": "Ýazgyny aýyrmak",
+    "sessao_expirada": "Sessiýanyň wagty tamamlandy.",
+    "erro_servidor": "Serwer bilen habarlaşyp bolmady. Ol işleýärmi?",
+    "erro_generico": "Amaly ýerine ýetirip bolmady.",
+    "delta_sem_registros": "bu döwürde ýazgy ýok",
+    "delta_primeiro_registro": "bu döwürdäki ilkinji ýazgy",
+    "delta_estavel": "öňki döwre garanyňda durnukly",
+    "delta_variacao": "öňki döwre garanyňda {{percentual}}%"
+  },
+  "globo": {
+    "legenda_titulo": "Jan başyna zyňyndylar",
+    "legenda_baixa": "Pes",
+    "legenda_alta": "Ýokary",
+    "sair_destaque": "Aýratynlaşdyrma re'imden çykmak",
+    "buscar_placeholder": "Ýurt gözle...",
+    "buscar_aria": "Globusda ýurt gözlemek",
+    "sem_dados_co2": "CO₂ maglumaty ýok",
+    "tonelada_ano_pessoa": "jan başyna ýylda {{valor}} t",
+    "territorio": "Çäk",
+    "fechar_painel": "Paneli ýapmak",
+    "sem_dados_territorio": "Bu çäk üçin jan başyna CO₂ zyňyndylary barada maglumat ýok.",
+    "emissao_per_capita": "Jan başyna zyňyndylar:",
+    "equivalente_diario": "Günlük deňeşdirme:",
+    "equivalente_semanal": "Hepdelik deňeşdirme:",
+    "equivalente_mensal": "Aýlyk deňeşdirme:",
+    "posicao_ranking": "Reýtingdäki orun ({{total}} ýurduň arasynda):",
+    "fonte_estimativa": "Gazylyp alynýan CO₂-niň jan başyna bahalandyrmasy (Global Carbon Budget / Our World in Data, 2024 baza ýyly).",
+    "aria_interativo": "Interaktiw uglerod zyňyndylary globusy. Aýlamak üçin süýşüriň, ulaltmak üçin aýlaň, maglumatlary görmek üçin ýurda basyň we globusy aýratynlaşdyrmak üçin iki gezek basyň.",
+    "aria_decorativo": "Carbono Consciente taslamasynyň global gerimini görkezýän bezeg aýlanýan globus.",
+    "continente_asia": "Aziýa",
+    "continente_africa": "Afrika",
+    "continente_europa": "Ýewropa",
+    "continente_america_sul": "Günorta Amerika",
+    "continente_america_norte": "Demirgazyk Amerika",
+    "continente_oceania": "Okeaniýa"
+  }
+}

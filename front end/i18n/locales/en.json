@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Back to home",
+    "theme_toggle_aria": "Toggle light/dark theme",
+    "menu_aria": "Open menu",
+    "login_link": "log in",
+    "sair_link": "log out",
+    "painel_link": "dashboard",
+    "fechar": "Close",
+    "nav": {
+      "plataforma": "Platform",
+      "impacto": "Impact",
+      "habitos": "Habits",
+      "contato": "Contact",
+      "dados": "Data"
+    }
+  },
+  "header": {
+    "idioma_aria": "Change language",
+    "idioma_buscar_placeholder": "Search language..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Sign in",
+    "meta_descricao": "Sign in or sign up to track your data and habits on Carbono Consciente.",
+    "esquerda_titulo": "Every tonne of CO₂ leaves a trace",
+    "esquerda_texto": "Sign in to track your data, habits and carbon footprint.",
+    "google_botao": "Continue with Google",
+    "google_em_breve": "Google login coming soon.",
+    "enviando": "sending...",
+    "erro_servidor": "Could not reach the server. Is it running?",
+    "erro_generico": "Could not complete the operation.",
+    "login": {
+      "titulo": "Log in",
+      "email_label": "Email",
+      "email_placeholder": "you@email.com",
+      "senha_label": "Password",
+      "botao": "log in",
+      "troca_texto": "Don't have an account yet?",
+      "troca_botao": "Sign up"
+    },
+    "cadastro": {
+      "titulo": "Sign up",
+      "nome_label": "Name",
+      "nome_placeholder": "Your name",
+      "email_label": "Email",
+      "email_placeholder": "you@email.com",
+      "pais_label": "Country",
+      "pais_placeholder": "Search country...",
+      "senha_label": "Password",
+      "confirmar_label": "Confirm password",
+      "botao": "sign up",
+      "troca_texto": "Already have an account?",
+      "troca_botao": "Log in"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Passwords don't match."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: environmental education on carbon emissions, carbon footprint, sustainable tips, fun facts and environmental news.",
+    "hero": {
+      "titulo": "Every small habit weighs less on the planet",
+      "texto": "CARBONO CONSCIENTE IS NOT A GREEN SEAL OR A DISTANT GOAL — IT'S THE SUM OF ORDINARY CHOICES, REPEATED EVERY DAY: WHAT YOU PLANT, HOW YOU GET AROUND, WHEN YOU TURN OFF THE LIGHT, WHERE YOU THROW YOUR TRASH.",
+      "botao": "See More"
+    },
+    "acordeao": {
+      "titulo": "What is Carbono Consciente?",
+      "emissao_titulo": "Carbon Emission",
+      "emissao_corpo": "Carbon emission is the release of gases such as CO₂ into the atmosphere, mainly from burning fossil fuels, deforestation, industrial production and even everyday transportation.",
+      "clima_titulo": "How does it affect the climate?",
+      "clima_corpo": "Greenhouse gases form a layer that traps heat in the atmosphere. The more emissions, the stronger this effect — and that's what drives global warming and climate change.",
+      "pegada_titulo": "Carbon Footprint",
+      "pegada_corpo": "It's the total amount of greenhouse gases generated, directly or indirectly, by the activities of a person, company or product in their day-to-day life.",
+      "neutro_titulo": "Carbon Neutral × Carbono Consciente",
+      "neutro_corpo": "<strong>Carbon neutral</strong> seeks to balance or offset the emissions generated. <strong>Carbono consciente</strong> prioritizes choices that reduce environmental impact before even thinking about offsetting."
+    },
+    "dicas": {
+      "titulo_secao": "Sustainable Tips",
+      "clique_voltar": "click to flip back",
+      "casa": {
+        "titulo": "Home",
+        "resumo": "Everyday energy and water savings",
+        "item1": "Save energy",
+        "item2": "Turn off lights when not in use",
+        "item3": "Use appliances mindfully",
+        "item4": "Reduce water waste",
+        "item5": "Avoid wasting food"
+      },
+      "transporte": {
+        "titulo": "Transport",
+        "resumo": "Alternatives to the car for lighter commutes",
+        "item1": "Walk when possible",
+        "item2": "Use a bicycle",
+        "item3": "Use public transport",
+        "item4": "Share rides when possible",
+        "item5": "Reduce unnecessary car trips"
+      },
+      "alimentacao": {
+        "titulo": "Food",
+        "resumo": "Choices at the table that cut waste and emissions",
+        "item1": "Buy local products",
+        "item2": "Avoid waste",
+        "item3": "Plan your meals",
+        "item4": "Make better use of food",
+        "item5": "Cut down on meat consumption"
+      },
+      "reciclagem": {
+        "titulo": "Recycling",
+        "resumo": "Sort, reuse and give new life to what's left over",
+        "item1": "Sort waste correctly",
+        "item2": "Reuse materials",
+        "item3": "Dispose of recyclables correctly",
+        "item4": "Avoid disposable products",
+        "item5": "Give objects new uses"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Environmental Facts",
+      "subtitulo": "Did you know?",
+      "carregando": "Loading fun fact...",
+      "proxima": "Next fun fact",
+      "erro_carregar": "Could not load fun facts right now."
+    },
+    "noticias": {
+      "titulo": "Environmental News",
+      "subtitulo": "Real, recent news about sustainability",
+      "anteriores": "Previous news",
+      "proximas": "Next news",
+      "carregando": "Loading news...",
+      "erro_carregar": "Could not load news right now.",
+      "nenhuma": "No news available at the moment.",
+      "ler_na_origem": "read at the source →",
+      "sem_link": "No external link available for this news item."
+    },
+    "rodape": {
+      "descricao": "Environmental education turning small choices into big results for the planet.",
+      "navegacao": "Navigation",
+      "contato": "Contact",
+      "copyright": "© 2026 Carbono Consciente. All rights reserved."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Dashboard",
+    "meta_descricao": "Log your trips and track your carbon footprint over time.",
+    "titulo": "Your habits dashboard",
+    "subtitulo": "Log your trips and track your carbon footprint over time.",
+    "card_hoje": "CO₂ today",
+    "card_semana": "CO₂ this week",
+    "card_mes": "CO₂ this month",
+    "grafico_titulo": "Last 14 days",
+    "grafico_aria": "CO₂ trend over the last {{dias}} days",
+    "form_titulo": "Add a trip",
+    "campo_meio": "Mode of transport",
+    "campo_distancia": "Distance (km)",
+    "campo_data": "Date",
+    "campo_observacao": "Note (optional)",
+    "campo_observacao_placeholder": "e.g.: commute to work",
+    "botao_adicionar": "add",
+    "salvando": "saving...",
+    "registrado_sucesso": "Trip logged!",
+    "registros_titulo": "Latest entries",
+    "registros_vazio": "No entries yet — add your first trip above.",
+    "meio_removido": "Removed mode",
+    "remover_registro": "Remove entry",
+    "sessao_expirada": "Session expired.",
+    "erro_servidor": "Could not reach the server. Is it running?",
+    "erro_generico": "Could not complete the operation.",
+    "delta_sem_registros": "no entries in this period",
+    "delta_primeiro_registro": "first entry in this period",
+    "delta_estavel": "stable vs. previous period",
+    "delta_variacao": "{{percentual}}% vs. previous period"
+  },
+  "globo": {
+    "legenda_titulo": "Per-capita emissions",
+    "legenda_baixa": "Low",
+    "legenda_alta": "High",
+    "sair_destaque": "Exit highlight mode",
+    "buscar_placeholder": "Search country...",
+    "buscar_aria": "Search country on the globe",
+    "sem_dados_co2": "no CO₂ data",
+    "tonelada_ano_pessoa": "{{valor}} t/year per person",
+    "territorio": "Territory",
+    "fechar_painel": "Close panel",
+    "sem_dados_territorio": "No per-capita CO₂ emissions data available for this territory.",
+    "emissao_per_capita": "Per-capita emissions:",
+    "equivalente_diario": "Daily equivalent:",
+    "equivalente_semanal": "Weekly equivalent:",
+    "equivalente_mensal": "Monthly equivalent:",
+    "posicao_ranking": "Ranking position (out of {{total}} countries):",
+    "fonte_estimativa": "Estimated fossil CO₂ per capita (Global Carbon Budget / Our World in Data, 2024 baseline).",
+    "aria_interativo": "Interactive carbon emissions globe. Drag to rotate, scroll to zoom, click a country to see its data, and double-click to bring the globe into highlight mode.",
+    "aria_decorativo": "Decorative rotating globe, illustrating the global reach of the Carbono Consciente project.",
+    "continente_asia": "Asia",
+    "continente_africa": "Africa",
+    "continente_europa": "Europe",
+    "continente_america_sul": "South America",
+    "continente_america_norte": "North America",
+    "continente_oceania": "Oceania"
+  }
+}

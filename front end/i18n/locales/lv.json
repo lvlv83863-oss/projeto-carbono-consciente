@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Atpakaļ uz sākumu",
+    "theme_toggle_aria": "Pārslēgt gaišo/tumšo tēmu",
+    "menu_aria": "Atvērt izvēlni",
+    "login_link": "pieslēgties",
+    "sair_link": "izrakstīties",
+    "painel_link": "panelis",
+    "fechar": "Aizvērt",
+    "nav": {
+      "plataforma": "Platforma",
+      "impacto": "Ietekme",
+      "habitos": "Ieradumi",
+      "contato": "Kontakti",
+      "dados": "Dati"
+    }
+  },
+  "header": {
+    "idioma_aria": "Mainīt valodu",
+    "idioma_buscar_placeholder": "Meklēt valodu..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Pieslēgties",
+    "meta_descricao": "Pieslēdzieties vai reģistrējieties, lai sekotu savi dati un ieradumi Carbono Consciente vietnē.",
+    "esquerda_titulo": "Katra CO₂ tonna atstāj savu pēdu",
+    "esquerda_texto": "Pieslēdzieties, lai sekotu savi dati, ieradumi un savu oglekļa pēdu.",
+    "google_botao": "Turpināt ar Google",
+    "google_em_breve": "Pieslēgšanās ar Google būs pieejama drīzumā.",
+    "enviando": "tiek nosūtīts...",
+    "erro_servidor": "Neizdevās sazināties ar serveri. Vai tas darbojas?",
+    "erro_generico": "Neizdevās pabeigt darbību.",
+    "login": {
+      "titulo": "Pieslēgšanās",
+      "email_label": "E-pasts",
+      "email_placeholder": "tavs@email.com",
+      "senha_label": "Parole",
+      "botao": "pieslēgties",
+      "troca_texto": "Vēl nav konta?",
+      "troca_botao": "Reģistrēties"
+    },
+    "cadastro": {
+      "titulo": "Reģistrācija",
+      "nome_label": "Vārds",
+      "nome_placeholder": "Tavs vārds",
+      "email_label": "E-pasts",
+      "email_placeholder": "tavs@email.com",
+      "pais_label": "Valsts",
+      "pais_placeholder": "Meklēt valsti...",
+      "senha_label": "Parole",
+      "confirmar_label": "Apstiprināt paroli",
+      "botao": "reģistrēties",
+      "troca_texto": "Jau ir konts?",
+      "troca_botao": "Pieslēgties"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Paroles nesakrīt."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: vides izglītība par oglekļa emisijām, oglekļa pēdu, ilgtspējas padomiem, interesantiem faktiem un vides ziņām.",
+    "hero": {
+      "titulo": "Katrs mazs ieradums mazāk nospiedz planētu",
+      "texto": "CARBONO CONSCIENTE NAV ZAĻAIS ZĪMOGS NE TĀLS MĒRKIS — TĀ IR VIENKĀRŠU, IKDIENĀ ATKĀRTOTU IZVĒLU KOPUMS: KO TU STĀDI, KĀ PĀRVIETOJIES, KAD IZSLĒDZ GAISMU, KUR IZMET ATKRITUMUS.",
+      "botao": "Skatīt vairāk"
+    },
+    "acordeao": {
+      "titulo": "Kas ir Carbono Consciente?",
+      "emissao_titulo": "Oglekļa emisija",
+      "emissao_corpo": "Oglekļa emisija ir gāzu, piemēram, CO₂, izdalīšanās atmosfērā, galvenokārt sadedzinot fosilo kurināmo, izcērtot mežus, rūpnieciskās ražošanas rezultātā un arī ikdienas transporta dēļ.",
+      "clima_titulo": "Kā tas ietekmē klimatu?",
+      "clima_corpo": "Siltumnīcefekta gāzes veido slāni, kas aiztur siltumu atmosfērā. Jo vairāk emisiju, jo spēcīgāks šis efekts — un tas tieši veicina globālo sasilšanu un klimata pārmaiņas.",
+      "pegada_titulo": "Oglekļa pēda",
+      "pegada_corpo": "Tas ir kopējais siltumnīcefekta gāzu apjoms, kuru tieši vai netieši rada personas, uzņēmuma vai produkta darbība ikdienā.",
+      "neutro_titulo": "Oglekļneitrāls × Carbono Consciente",
+      "neutro_corpo": "<strong>Oglekļneitralitāte</strong> tiecas līdzsvarot vai kompensēt radītās emisijas. <strong>Carbono consciente</strong> dod priekšroku izvēlēm, kas samazina ietekmi uz vidi, pirms vispār domāt par kompensāciju."
+    },
+    "dicas": {
+      "titulo_secao": "Ilgtspējas padomi",
+      "clique_voltar": "klikšķini, lai pagrieztu atpakaļ",
+      "casa": {
+        "titulo": "Māja",
+        "resumo": "Enerģijas un ūdens taupīšana ikdienā",
+        "item1": "Taupīt enerģiju",
+        "item2": "Izslēgt gaismas, kad tās netiek lietotas",
+        "item3": "Izmantot ierīces apdomīgi",
+        "item4": "Samazināt ūdens izšķērdēšanu",
+        "item5": "Nepieļaut pārtikas izšķērdēšanu"
+      },
+      "transporte": {
+        "titulo": "Transports",
+        "resumo": "Alternatīvas automašīnai vieglākiem pārvietojumiem",
+        "item1": "Iet kājām, kad tas ir iespējams",
+        "item2": "Izmantot velosipēdu",
+        "item3": "Izmantot sabiedrisko transportu",
+        "item4": "Dalīties braucienos, kad tas ir iespējams",
+        "item5": "Samazināt nevajadzīgus braucienus ar automašīnu"
+      },
+      "alimentacao": {
+        "titulo": "Uzturs",
+        "resumo": "Izvēles pie galda, kas mazina izšķērdēšanu un emisijas",
+        "item1": "Pirkt vietējos produktus",
+        "item2": "Izvairīties no izšķērdēšanas",
+        "item3": "Plānot ēdienreizes",
+        "item4": "Labāk izmantot pārtiku",
+        "item5": "Mazināt gaļas patēriņu"
+      },
+      "reciclagem": {
+        "titulo": "Pārstrāde",
+        "resumo": "Šķiro, lieto atkārtoti un dod jaunu dzīvi tam, kas paliek pāri",
+        "item1": "Pareizi šķirot atkritumus",
+        "item2": "Lietot materiālus atkārtoti",
+        "item3": "Pareizi nodot pārstrādājamos materiālus",
+        "item4": "Izvairīties no vienreizlietojamiem produktiem",
+        "item5": "Dot priekšmetiem jaunu pielietojumu"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Vides fakti",
+      "subtitulo": "Vai zinājāt?",
+      "carregando": "Ielādē interesantu faktu...",
+      "proxima": "Nākamais interesantais fakts",
+      "erro_carregar": "Pašlaik nevar ielādēt interesantos faktus."
+    },
+    "noticias": {
+      "titulo": "Vides ziņas",
+      "subtitulo": "Reālas un aktuālas ziņas par ilgtspēju",
+      "anteriores": "Iepriekšējās ziņas",
+      "proximas": "Nākamās ziņas",
+      "carregando": "Ielādē ziņas...",
+      "erro_carregar": "Pašlaik nevar ielādēt ziņas.",
+      "nenhuma": "Šobrīd nav pieejamu ziņu.",
+      "ler_na_origem": "lasīt oriģinālajā vietnē →",
+      "sem_link": "Šai ziņai nav pieejamas ārējas saites."
+    },
+    "rodape": {
+      "descricao": "Vides izglītība, kas pārvērš mazas izvēles lielos rezultātos planētai.",
+      "navegacao": "Navigācija",
+      "contato": "Kontakti",
+      "copyright": "© 2026 Carbono Consciente. Visas tiesības aizsargātas."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Panelis",
+    "meta_descricao": "Reģistrējiet savus pārvietojumus un sekojiet savai oglekļa pēdai laika gaitā.",
+    "titulo": "Tavs ieradumu panelis",
+    "subtitulo": "Reģistrējiet savus pārvietojumus un sekojiet savai oglekļa pēdai laika gaitā.",
+    "card_hoje": "CO₂ šodien",
+    "card_semana": "CO₂ šonedēļ",
+    "card_mes": "CO₂ šomēnes",
+    "grafico_titulo": "Izmaiņas pēdējās 14 dienās",
+    "grafico_aria": "CO₂ izmaiņas pēdējās {{dias}} dienās",
+    "form_titulo": "Pievienot pārvietojumu",
+    "campo_meio": "Transporta veids",
+    "campo_distancia": "Attālums (km)",
+    "campo_data": "Datums",
+    "campo_observacao": "Piezīme (nav obligāta)",
+    "campo_observacao_placeholder": "piem.: brauciens uz darbu",
+    "botao_adicionar": "pievienot",
+    "salvando": "saglabā...",
+    "registrado_sucesso": "Pārvietojums reģistrēts!",
+    "registros_titulo": "Jaunākie ieraksti",
+    "registros_vazio": "Vēl nav ierakstu — pievieno savu pirmo pārvietojumu augstāk.",
+    "meio_removido": "Veids noņemts",
+    "remover_registro": "Noņemt ierakstu",
+    "sessao_expirada": "Sesija beigusies.",
+    "erro_servidor": "Neizdevās sazināties ar serveri. Vai tas darbojas?",
+    "erro_generico": "Neizdevās pabeigt darbību.",
+    "delta_sem_registros": "šajā periodā nav ierakstu",
+    "delta_primeiro_registro": "pirmais ieraksts šajā periodā",
+    "delta_estavel": "stabils salīdzinot ar iepriekšējo periodu",
+    "delta_variacao": "{{percentual}}% salīdzinot ar iepriekšējo periodu"
+  },
+  "globo": {
+    "legenda_titulo": "Emisijas uz vienu iedzīvotāju",
+    "legenda_baixa": "Zema",
+    "legenda_alta": "Augsta",
+    "sair_destaque": "Iziet no izcelšanas režīma",
+    "buscar_placeholder": "Meklēt valsti...",
+    "buscar_aria": "Meklēt valsti uz globusa",
+    "sem_dados_co2": "nav CO₂ datu",
+    "tonelada_ano_pessoa": "{{valor}} t/gadā uz personu",
+    "territorio": "Teritorija",
+    "fechar_painel": "Aizvērt paneli",
+    "sem_dados_territorio": "Šai teritorijai nav pieejamu CO₂ emisiju uz vienu iedzīvotāju datu.",
+    "emissao_per_capita": "Emisijas uz vienu iedzīvotāju:",
+    "equivalente_diario": "Dienas ekvivalents:",
+    "equivalente_semanal": "Nedēļas ekvivalents:",
+    "equivalente_mensal": "Mēneša ekvivalents:",
+    "posicao_ranking": "Vieta reitingā (no {{total}} valstīm):",
+    "fonte_estimativa": "Fosilā CO₂ emisiju uz vienu iedzīvotāju aplēse (Global Carbon Budget / Our World in Data, 2024. gada bāzes dati).",
+    "aria_interativo": "Interaktīvs oglekļa emisiju globuss. Velc, lai pagrieztu, ritini, lai pietuvinātu, noklikšķini uz valsts, lai redzētu datus, un noklikšķini divreiz, lai izceltu globusu.",
+    "aria_decorativo": "Dekoratīvs rotējošs globuss, kas ilustrē Carbono Consciente projekta globālo tvērumu.",
+    "continente_asia": "Āzija",
+    "continente_africa": "Āfrika",
+    "continente_europa": "Eiropa",
+    "continente_america_sul": "Dienvidamerika",
+    "continente_america_norte": "Ziemeļamerika",
+    "continente_oceania": "Okeānija"
+  }
+}

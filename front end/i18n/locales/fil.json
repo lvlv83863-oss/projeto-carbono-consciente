@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Bumalik sa unang pahina",
+    "theme_toggle_aria": "Palitan ang maliwanag/madilim na tema",
+    "menu_aria": "Buksan ang menu",
+    "login_link": "mag-login",
+    "sair_link": "mag-logout",
+    "painel_link": "dashboard",
+    "fechar": "Isara",
+    "nav": {
+      "plataforma": "Plataporma",
+      "impacto": "Epekto",
+      "habitos": "Mga Gawi",
+      "contato": "Kontak",
+      "dados": "Datos"
+    }
+  },
+  "header": {
+    "idioma_aria": "Palitan ang wika",
+    "idioma_buscar_placeholder": "Hanapin ang wika..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Mag-login",
+    "meta_descricao": "Mag-login o mag-sign up para masubaybayan ang iyong datos at gawi sa Carbono Consciente.",
+    "esquerda_titulo": "Bawat tonelada ng CO₂ ay nag-iiwan ng bakas",
+    "esquerda_texto": "Mag-login para masubaybayan ang iyong datos, gawi, at carbon footprint.",
+    "google_botao": "Magpatuloy gamit ang Google",
+    "google_em_breve": "Malapit nang maging available ang pag-login gamit ang Google.",
+    "enviando": "ipinapadala...",
+    "erro_servidor": "Hindi nakausap ang server. Tumatakbo ba ito?",
+    "erro_generico": "Hindi nakumpleto ang operasyon.",
+    "login": {
+      "titulo": "Mag-login",
+      "email_label": "Email",
+      "email_placeholder": "iyong@email.com",
+      "senha_label": "Password",
+      "botao": "mag-login",
+      "troca_texto": "Wala ka pa bang account?",
+      "troca_botao": "Mag-sign up"
+    },
+    "cadastro": {
+      "titulo": "Pagpapatala",
+      "nome_label": "Pangalan",
+      "nome_placeholder": "Ang iyong pangalan",
+      "email_label": "Email",
+      "email_placeholder": "iyong@email.com",
+      "pais_label": "Bansa",
+      "pais_placeholder": "Hanapin ang bansa...",
+      "senha_label": "Password",
+      "confirmar_label": "Kumpirmahin ang password",
+      "botao": "mag-sign up",
+      "troca_texto": "May account ka na ba?",
+      "troca_botao": "Mag-login"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Hindi tugma ang mga password."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: edukasyon sa kapaligiran tungkol sa emisyon ng carbon, carbon footprint, mga tip para sa pagpapanatiling sustainable, mga kawili-wiling katotohanan, at balita sa kapaligiran.",
+    "hero": {
+      "titulo": "Bawat maliit na gawi, mas magaan ang bigat sa planeta",
+      "texto": "ANG CARBONO CONSCIENTE AY HINDI ISANG GREEN SEAL O MALAYONG LAYUNIN — ITO AY ANG KABUUAN NG KARANIWANG MGA PAGPILI, NA ULIT-ULITIN ARAW-ARAW: ANO ANG ITINATANIM MO, PAANO KA NAGLALAKBAY, KAILAN MO PINATAY ANG ILAW, SAAN MO ITINATAPON ANG BASURA.",
+      "botao": "Tingnan Pa"
+    },
+    "acordeao": {
+      "titulo": "Ano ang Carbono Consciente?",
+      "emissao_titulo": "Emisyon ng Carbon",
+      "emissao_corpo": "Ang emisyon ng carbon ay ang paglabas ng mga gas gaya ng CO₂ sa atmospera, pangunahin mula sa pagsunog ng fossil fuel, deforestation, industriyal na produksyon, at kahit sa pang-araw-araw na transportasyon.",
+      "clima_titulo": "Paano ito nakaapekto sa klima?",
+      "clima_corpo": "Ang mga greenhouse gas ay bumubuo ng isang layer na nagpapanatili ng init sa atmospera. Kung mas marami ang emisyon, mas malakas ang epekto nito — at ito ang nagpapatakbo ng global warming at pagbabago ng klima.",
+      "pegada_titulo": "Carbon Footprint",
+      "pegada_corpo": "Ito ang kabuuang dami ng greenhouse gas na nalilikha, direkta man o hindi direkta, ng mga aktibidad ng isang tao, kumpanya, o produkto sa kanilang araw-araw na buhay.",
+      "neutro_titulo": "Carbon Neutral × Carbono Consciente",
+      "neutro_corpo": "Hangad ng <strong>carbon neutral</strong> na timbangin o bawiin ang mga emisyong nalikha. Ang <strong>carbono consciente</strong> ay nagbibigay-priyoridad sa mga pagpili na nagpapababa ng epekto sa kapaligiran bago pa man isipin ang kompensasyon."
+    },
+    "dicas": {
+      "titulo_secao": "Mga Tip para sa Sustainability",
+      "clique_voltar": "i-click para bumalik",
+      "casa": {
+        "titulo": "Tahanan",
+        "resumo": "Pagtitipid sa enerhiya at tubig sa araw-araw",
+        "item1": "Mag-tipid ng enerhiya",
+        "item2": "Patayin ang ilaw kung hindi ginagamit",
+        "item3": "Gamitin ang mga kagamitan nang may kamalayan",
+        "item4": "Bawasan ang pag-aksaya ng tubig",
+        "item5": "Iwasan ang pag-aksaya ng pagkain"
+      },
+      "transporte": {
+        "titulo": "Transportasyon",
+        "resumo": "Mga alternatibo sa kotse para sa magaan na paglalakbay",
+        "item1": "Maglakad kung posible",
+        "item2": "Gumamit ng bisikleta",
+        "item3": "Gumamit ng pampublikong transportasyon",
+        "item4": "Magsama sa paglalakbay kung posible",
+        "item5": "Bawasan ang hindi kailangang paggamit ng kotse"
+      },
+      "alimentacao": {
+        "titulo": "Pagkain",
+        "resumo": "Mga pagpili sa hapag na nagpapababa ng pag-aksaya at emisyon",
+        "item1": "Suportahan ang mga lokal na produkto",
+        "item2": "Iwasan ang pag-aksaya",
+        "item3": "Planuhin ang iyong mga pagkain",
+        "item4": "Gamitin nang mas mahusay ang pagkain",
+        "item5": "Bawasan ang konsumo ng karne"
+      },
+      "reciclagem": {
+        "titulo": "Recycling",
+        "resumo": "Ihiwalay, gamitin muli, at bigyan ng bagong buhay ang natitira",
+        "item1": "Ihiwalay ang basura nang maayos",
+        "item2": "Gamitin muli ang mga materyales",
+        "item3": "Itapon nang maayos ang mga nire-recycle",
+        "item4": "Iwasan ang mga disposable na produkto",
+        "item5": "Bigyan ng bagong gamit ang mga bagay"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Kawili-wiling Impormasyon sa Kapaligiran",
+      "subtitulo": "Alam mo ba?",
+      "carregando": "Nilo-load ang kawili-wiling impormasyon...",
+      "proxima": "Susunod na impormasyon",
+      "erro_carregar": "Hindi ma-load ang mga kawili-wiling impormasyon ngayon."
+    },
+    "noticias": {
+      "titulo": "Balita sa Kapaligiran",
+      "subtitulo": "Tunay at bagong balita tungkol sa sustainability",
+      "anteriores": "Mga nakaraang balita",
+      "proximas": "Mga susunod na balita",
+      "carregando": "Nilo-load ang mga balita...",
+      "erro_carregar": "Hindi ma-load ang mga balita ngayon.",
+      "nenhuma": "Walang available na balita sa ngayon.",
+      "ler_na_origem": "basahin sa orihinal na site →",
+      "sem_link": "Walang available na external link para sa balitang ito."
+    },
+    "rodape": {
+      "descricao": "Edukasyon sa kapaligiran na ginagawang malaking resulta para sa planeta ang maliliit na pagpili.",
+      "navegacao": "Nabigasyon",
+      "contato": "Kontak",
+      "copyright": "© 2026 Carbono Consciente. Nakalaan ang lahat ng karapatan."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Dashboard",
+    "meta_descricao": "Itala ang iyong mga paglalakbay at subaybayan ang iyong carbon footprint sa paglipas ng panahon.",
+    "titulo": "Ang iyong dashboard ng gawi",
+    "subtitulo": "Itala ang iyong mga paglalakbay at subaybayan ang iyong carbon footprint sa paglipas ng panahon.",
+    "card_hoje": "CO₂ ngayon",
+    "card_semana": "CO₂ ngayong linggo",
+    "card_mes": "CO₂ ngayong buwan",
+    "grafico_titulo": "Takbo sa nakaraang 14 araw",
+    "grafico_aria": "Takbo ng CO₂ sa nakaraang {{dias}} araw",
+    "form_titulo": "Magdagdag ng paglalakbay",
+    "campo_meio": "Paraan ng paglalakbay",
+    "campo_distancia": "Distansya (km)",
+    "campo_data": "Petsa",
+    "campo_observacao": "Paalala (opsyonal)",
+    "campo_observacao_placeholder": "hal.: byahe papuntang trabaho",
+    "botao_adicionar": "idagdag",
+    "salvando": "nag-se-save...",
+    "registrado_sucesso": "Naitala ang paglalakbay!",
+    "registros_titulo": "Pinakahuling mga tala",
+    "registros_vazio": "Walang talang nakasaad pa — idagdag ang iyong unang paglalakbay sa itaas.",
+    "meio_removido": "Paraan ng paglalakbay ay inalis",
+    "remover_registro": "Alisin ang tala",
+    "sessao_expirada": "Nag-expire na ang sesyon.",
+    "erro_servidor": "Hindi nakausap ang server. Tumatakbo ba ito?",
+    "erro_generico": "Hindi nakumpleto ang operasyon.",
+    "delta_sem_registros": "walang tala sa panahong ito",
+    "delta_primeiro_registro": "unang tala ng panahong ito",
+    "delta_estavel": "stable kumpara sa nakaraang panahon",
+    "delta_variacao": "{{percentual}}% kumpara sa nakaraang panahon"
+  },
+  "globo": {
+    "legenda_titulo": "Emisyon kada tao",
+    "legenda_baixa": "Mababa",
+    "legenda_alta": "Mataas",
+    "sair_destaque": "Lumabas sa highlight mode",
+    "buscar_placeholder": "Hanapin ang bansa...",
+    "buscar_aria": "Hanapin ang bansa sa globo",
+    "sem_dados_co2": "walang datos ng CO₂",
+    "tonelada_ano_pessoa": "{{valor}} t/taon kada tao",
+    "territorio": "Teritoryo",
+    "fechar_painel": "Isara ang panel",
+    "sem_dados_territorio": "Walang available na datos ng emisyon ng CO₂ kada tao para sa teritoryong ito.",
+    "emissao_per_capita": "Emisyon kada tao:",
+    "equivalente_diario": "Pang-araw-araw na katumbas:",
+    "equivalente_semanal": "Lingguhang katumbas:",
+    "equivalente_mensal": "Buwanang katumbas:",
+    "posicao_ranking": "Posisyon sa ranggo (sa {{total}} bansa):",
+    "fonte_estimativa": "Tinatayang fossil CO₂ kada tao (Global Carbon Budget / Our World in Data, batayang taon 2024).",
+    "aria_interativo": "Interactive na globo ng emisyon ng carbon. I-drag para mag-ikot, i-scroll para mag-zoom, i-click ang isang bansa para makita ang datos, at i-double-click para ilagay ang globo sa highlight mode.",
+    "aria_decorativo": "Pandekorasyong umiikot na globo, na nagpapakita ng pandaigdigang saklaw ng proyektong Carbono Consciente.",
+    "continente_asia": "Asya",
+    "continente_africa": "Aprika",
+    "continente_europa": "Europa",
+    "continente_america_sul": "Timog Amerika",
+    "continente_america_norte": "Hilagang Amerika",
+    "continente_oceania": "Oceania"
+  }
+}

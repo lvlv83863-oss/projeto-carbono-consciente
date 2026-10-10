@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Zréck op d'Startsäit",
+    "theme_toggle_aria": "Hell/Donkel Thema wiesselen",
+    "menu_aria": "Menü opmaachen",
+    "login_link": "login",
+    "sair_link": "ausloggen",
+    "painel_link": "Iwwersiicht",
+    "fechar": "Zoumaachen",
+    "nav": {
+      "plataforma": "Plattform",
+      "impacto": "Impakt",
+      "habitos": "Gewunnechten",
+      "contato": "Kontakt",
+      "dados": "Donnéeën"
+    }
+  },
+  "header": {
+    "idioma_aria": "Sprooch wiesselen",
+    "idioma_buscar_placeholder": "Sprooch sichen..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Aloggen",
+    "meta_descricao": "Loggt Iech an oder registréiert Iech, fir Iech Donnéeën a Gewunnechten op Carbono Consciente ze suivéieren.",
+    "esquerda_titulo": "All Tonn CO₂ hannerléisst eng Spur",
+    "esquerda_texto": "Loggt Iech an, fir Iech Donnéeën, Gewunnechten an Äre Kuelestoffofdrock ze suivéieren.",
+    "google_botao": "Mat Google weiderfueren",
+    "google_em_breve": "Login mat Google kënnt geschwënn.",
+    "enviando": "gëtt geschéckt...",
+    "erro_servidor": "Konnt de Server net erreechen. Leeft en?",
+    "erro_generico": "D'Operatioun konnt net fäerdeg gemaach ginn.",
+    "login": {
+      "titulo": "Aloggen",
+      "email_label": "E-Mail",
+      "email_placeholder": "deng@email.com",
+      "senha_label": "Passwuert",
+      "botao": "aloggen",
+      "troca_texto": "Hues du nach kee Kont?",
+      "troca_botao": "Registréieren"
+    },
+    "cadastro": {
+      "titulo": "Registréierung",
+      "nome_label": "Numm",
+      "nome_placeholder": "Äre Numm",
+      "email_label": "E-Mail",
+      "email_placeholder": "deng@email.com",
+      "pais_label": "Land",
+      "pais_placeholder": "Land sichen...",
+      "senha_label": "Passwuert",
+      "confirmar_label": "Passwuert bestätegen",
+      "botao": "registréieren",
+      "troca_texto": "Hues du schonn en Kont?",
+      "troca_botao": "Aloggen"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "D'Passwierder stëmmen net iwwerteneen."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: Ëmweltbildung iwwer Kuelestoffemissiounen, Kuelestoffofdrock, nohalteg Tipps, kuriose Fakten an Ëmweltnoriichten.",
+    "hero": {
+      "titulo": "All kleng Gewunnecht hëlt der Äerd e bësse Gewiicht of",
+      "texto": "CARBONO CONSCIENTE ASS KEEN GRÉNG LABEL A KEEN FERNT ZIEL — ET ASS D'SUMM VU GEWÉINLECHE ENTSCHEEDUNGEN, JIDDEN DAG REPETÉIERT: WAT DU PLANZT, WÉI DU DECH BEWEEGS, WANN DU D'LIICHT ASSCHALTS, WOU DU DEE MËLL SCHMEISST.",
+      "botao": "Méi gesinn"
+    },
+    "acordeao": {
+      "titulo": "Wat ass Carbono Consciente?",
+      "emissao_titulo": "Kuelestoffemissioun",
+      "emissao_corpo": "Kuelestoffemissioun ass d'Fräiloossen vu Gasen wéi CO₂ an d'Atmosphär, haaptsächlech duerch d'Verbrenne vu fossille Brennstoffer, Ofholzung, industriell Produktioun a souguer deen alldeegleche Transport.",
+      "clima_titulo": "Wéi beaflosst dat d'Klima?",
+      "clima_corpo": "D'Treibhausgasen bilden eng Schicht, déi d'Wiermt an der Atmosphär zréckhält. Wat méi Emissiounen, wat méi staark dësen Effekt ass — a genau dat dreift d'global Erwiermung an de Klimawandel.",
+      "pegada_titulo": "Kuelestoffofdrock",
+      "pegada_corpo": "Dat ass déi total Quantitéit vun Treibhausgasen, déi direkt oder indirekt duerch d'Aktivitéiten vun enger Persoun, engem Betrib oder engem Produkt am Alldag entsteet.",
+      "neutro_titulo": "Klimaneutral × Carbono Consciente",
+      "neutro_corpo": "<strong>Klimaneutral</strong> sicht d'Emissiounen auszegläichen oder ze kompenséieren. <strong>Carbono consciente</strong> gëtt Entscheedungen Prioritéit, déi den Ëmweltimpakt reduzéieren, nach ier iwwerhaapt iwwer Kompensatioun geduecht gëtt."
+    },
+    "dicas": {
+      "titulo_secao": "Nohalteg Tipps",
+      "clique_voltar": "klickt fir zréckzedréinen",
+      "casa": {
+        "titulo": "Doheem",
+        "resumo": "Energie- a Waassersparen am Alldag",
+        "item1": "Energie spueren",
+        "item2": "Luuchten ausmaachen wann se net gebraucht ginn",
+        "item3": "Apparater bewosst benotzen",
+        "item4": "Waasserverschwendung reduzéieren",
+        "item5": "Liewensmëttelverschwendung vermeiden"
+      },
+      "transporte": {
+        "titulo": "Transport",
+        "resumo": "Alternativen zum Auto fir manner belaschtend Weeër",
+        "item1": "Zu Fouss goen wann méiglech",
+        "item2": "Vëlo benotzen",
+        "item3": "Ëffentlechen Transport benotzen",
+        "item4": "Reesen deelen wann méiglech",
+        "item5": "Onnëtzeg Autosfaarten reduzéieren"
+      },
+      "alimentacao": {
+        "titulo": "Iessen",
+        "resumo": "Wiel um Teller, déi Verschwendung an Emissiounen reduzéieren",
+        "item1": "Lokal Produkter kafen",
+        "item2": "Verschwendung vermeiden",
+        "item3": "Iessen plangen",
+        "item4": "Liewensmëttel besser notzen",
+        "item5": "Fleeschkonsum reduzéieren"
+      },
+      "reciclagem": {
+        "titulo": "Recycling",
+        "resumo": "Sortéier, benotz nach eng Kéier a gëf deem wat iwwreg bleift en neit Liewen",
+        "item1": "Offäll richteg sortéieren",
+        "item2": "Materialien nach eng Kéier benotzen",
+        "item3": "Recycelbart richteg entsorgen",
+        "item4": "Wegwerfprodukter vermeiden",
+        "item5": "Objeten en neit Benotzen gi loossen"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Ëmweltfakten",
+      "subtitulo": "Wousst Du dat?",
+      "carregando": "Fakt gëtt gelueden...",
+      "proxima": "Nächsten Fakt",
+      "erro_carregar": "Konnt d'Fakten elo net lueden."
+    },
+    "noticias": {
+      "titulo": "Ëmweltnoriichten",
+      "subtitulo": "Richteg an aktuell Noriichten iwwer Nohaltegkeet",
+      "anteriores": "Vireg Noriichten",
+      "proximas": "Nächst Noriichten",
+      "carregando": "Noriichten ginn gelueden...",
+      "erro_carregar": "Konnt d'Noriichten elo net lueden.",
+      "nenhuma": "Am Moment sinn keng Noriichten verfügbar.",
+      "ler_na_origem": "op der Originalsäit liesen →",
+      "sem_link": "Kee externe Link fir dës Noriicht verfügbar."
+    },
+    "rodape": {
+      "descricao": "Ëmweltbildung, déi kleng Entscheedungen a grouss Resultater fir d'Äerd verwandelt.",
+      "navegacao": "Navigatioun",
+      "contato": "Kontakt",
+      "copyright": "© 2026 Carbono Consciente. All Rechter reservéiert."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Iwwersiicht",
+    "meta_descricao": "Registréiert Iech Reesen a suivéiert Äre Kuelestoffofdrock mat der Zäit.",
+    "titulo": "Deng Gewunnechten-Iwwersiicht",
+    "subtitulo": "Registréiert Iech Reesen a suivéiert Äre Kuelestoffofdrock mat der Zäit.",
+    "card_hoje": "CO₂ haut",
+    "card_semana": "CO₂ dës Woch",
+    "card_mes": "CO₂ dëse Mount",
+    "grafico_titulo": "Entwécklung an den läschte 14 Deeg",
+    "grafico_aria": "CO₂-Entwécklung an den läschte {{dias}} Deeg",
+    "form_titulo": "Rees derbäisetzen",
+    "campo_meio": "Transportmëttel",
+    "campo_distancia": "Distanz (km)",
+    "campo_data": "Datum",
+    "campo_observacao": "Notiz (fräifakultativ)",
+    "campo_observacao_placeholder": "z.B.: Wee op d'Aarbecht",
+    "botao_adicionar": "derbäisetzen",
+    "salvando": "gëtt gespäichert...",
+    "registrado_sucesso": "Rees registréiert!",
+    "registros_titulo": "Lescht Aschreiwungen",
+    "registros_vazio": "Nach keng Aschreiwungen — füügt uewen Är éischt Rees derbäi.",
+    "meio_removido": "Mëttel geläscht",
+    "remover_registro": "Aschreiwung läschen",
+    "sessao_expirada": "Sitzung ofgelaf.",
+    "erro_servidor": "Konnt de Server net erreechen. Leeft en?",
+    "erro_generico": "D'Operatioun konnt net fäerdeg gemaach ginn.",
+    "delta_sem_registros": "keng Aschreiwungen an dëser Period",
+    "delta_primeiro_registro": "éischt Aschreiwung an dëser Period",
+    "delta_estavel": "stabil géint d'vireg Period",
+    "delta_variacao": "{{percentual}}% géint d'vireg Period"
+  },
+  "globo": {
+    "legenda_titulo": "Emissioun pro Awunner",
+    "legenda_baixa": "Niddreg",
+    "legenda_alta": "Héich",
+    "sair_destaque": "Markéierungsmodus verlooss",
+    "buscar_placeholder": "Land sichen...",
+    "buscar_aria": "Land op der Kugel sichen",
+    "sem_dados_co2": "keng CO₂-Donnéeën",
+    "tonelada_ano_pessoa": "{{valor}} t/Joer pro Persoun",
+    "territorio": "Territoire",
+    "fechar_painel": "Panel zoumaachen",
+    "sem_dados_territorio": "Keng Donnéeën iwwer CO₂-Emissioun pro Awunner verfügbar fir dëst Territoire.",
+    "emissao_per_capita": "Emissioun pro Awunner:",
+    "equivalente_diario": "Dagesequivalent:",
+    "equivalente_semanal": "Wochenequivalent:",
+    "equivalente_mensal": "Mounatsequivalent:",
+    "posicao_ranking": "Positioun am Rankinn (vu {{total}} Länner):",
+    "fonte_estimativa": "Schätzung vum fossille CO₂ pro Awunner (Global Carbon Budget / Our World in Data, Basisjoer 2024).",
+    "aria_interativo": "Interaktiv Kuelestoffemissiounskugel. Zéien fir ze dréinen, scrollen fir ze zoomen, op e Land klicken fir d'Donnéeën ze gesinn, an zweemol klicken fir d'Kugel ze markéieren.",
+    "aria_decorativo": "Dekorativ dréinend Kugel, déi d'global Reechwäit vum Carbono-Consciente-Projet illustréiert.",
+    "continente_asia": "Asien",
+    "continente_africa": "Afrika",
+    "continente_europa": "Europa",
+    "continente_america_sul": "Südamerika",
+    "continente_america_norte": "Nordamerika",
+    "continente_oceania": "Ozeanien"
+  }
+}

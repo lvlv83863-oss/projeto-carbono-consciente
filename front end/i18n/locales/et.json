@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Tagasi avalehele",
+    "theme_toggle_aria": "Vaheta heledat/tumedat teemat",
+    "menu_aria": "Ava menüü",
+    "login_link": "logi sisse",
+    "sair_link": "logi välja",
+    "painel_link": "töölaud",
+    "fechar": "Sulge",
+    "nav": {
+      "plataforma": "Platvorm",
+      "impacto": "Mõju",
+      "habitos": "Harjumused",
+      "contato": "Kontakt",
+      "dados": "Andmed"
+    }
+  },
+  "header": {
+    "idioma_aria": "Vaheta keelt",
+    "idioma_buscar_placeholder": "Otsi keelt..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Logi sisse",
+    "meta_descricao": "Logi sisse või registreeru, et jälgida oma andmeid ja harjumusi Carbono Consciente's.",
+    "esquerda_titulo": "Iga tonn CO₂ jätab oma jälje",
+    "esquerda_texto": "Logi sisse, et jälgida oma andmeid, harjumusi ja süsinikujalajälge.",
+    "google_botao": "Jätka Google'iga",
+    "google_em_breve": "Google'iga sisselogimine tuleb varsti.",
+    "enviando": "saadan...",
+    "erro_servidor": "Serveriga ei saadud ühendust. Kas see töötab?",
+    "erro_generico": "Toimingut ei saanud lõpule viia.",
+    "login": {
+      "titulo": "Logi sisse",
+      "email_label": "E-post",
+      "email_placeholder": "sinu@email.com",
+      "senha_label": "Parool",
+      "botao": "logi sisse",
+      "troca_texto": "Pole veel kontot?",
+      "troca_botao": "Registreeru"
+    },
+    "cadastro": {
+      "titulo": "Registreerimine",
+      "nome_label": "Nimi",
+      "nome_placeholder": "Sinu nimi",
+      "email_label": "E-post",
+      "email_placeholder": "sinu@email.com",
+      "pais_label": "Riik",
+      "pais_placeholder": "Otsi riiki...",
+      "senha_label": "Parool",
+      "confirmar_label": "Kinnita parool",
+      "botao": "registreeru",
+      "troca_texto": "Juba on konto?",
+      "troca_botao": "Logi sisse"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Paroolid ei kattu."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: keskkonnaharidus süsinikuheite, süsinikujalajälje, säästvate nõuannete, huvitavate faktide ja keskkonnauudiste teemal.",
+    "hero": {
+      "titulo": "Iga väike harjumus kaalub planeedile vähem",
+      "texto": "CARBONO CONSCIENTE EI OLE ROHELINE MÄRGIS EGA KAUGE EESMÄRK — SEE ON LIHTSATE, IGAPÄEVASTE VALIKUTE SUMMA: MIDA SA ISTUTAD, KUIDAS SA LIIGUD, MILLAL SA KUSTUTAD TULE, KUHU SA VISKAD PRÜGI.",
+      "botao": "Vaata rohkem"
+    },
+    "acordeao": {
+      "titulo": "Mis on Carbono Consciente?",
+      "emissao_titulo": "Süsinikuheide",
+      "emissao_corpo": "Süsinikuheide on gaaside, nagu CO₂, eraldumine atmosfääri, peamiselt fossiilkütuste põletamisest, raadamisest, tööstustoodangust ja isegi igapäevasest transpordist.",
+      "clima_titulo": "Kuidas see mõjutab kliimat?",
+      "clima_corpo": "Kasvuhoonegaasid moodustavad kihi, mis hoiab soojust atmosfääris. Mida rohkem heiteid, seda tugevam see mõju — ja just see põhjustab globaalset soojenemist ja kliimamuutusi.",
+      "pegada_titulo": "Süsinikujalajälg",
+      "pegada_corpo": "See on kasvuhoonegaaside koguhulk, mis tekib otse või kaudselt inimese, ettevõtte või toote igapäevategevusest.",
+      "neutro_titulo": "Süsinikuneutraalsus × Carbono Consciente",
+      "neutro_corpo": "<strong>Süsinikuneutraalsus</strong> püüab tasakaalustada või kompenseerida tekkinud heiteid. <strong>Carbono consciente</strong> seab esikohale valikud, mis vähendavad keskkonnamõju juba enne, kui mõeldakse kompenseerimisele."
+    },
+    "dicas": {
+      "titulo_secao": "Säästvad nõuanded",
+      "clique_voltar": "klõpsa, et pöörata tagasi",
+      "casa": {
+        "titulo": "Kodu",
+        "resumo": "Energia- ja veesäästmine igapäevaelus",
+        "item1": "Säästa energiat",
+        "item2": "Kustuta valgus, kui seda ei kasutata",
+        "item3": "Kasuta seadmeid teadlikult",
+        "item4": "Vähenda vee raiskamist",
+        "item5": "Väldi toidu raiskamist"
+      },
+      "transporte": {
+        "titulo": "Transport",
+        "resumo": "Autole alternatiivid kergemaks liikumiseks",
+        "item1": "Käi jala, kui võimalik",
+        "item2": "Kasuta jalgratast",
+        "item3": "Kasuta ühistransporti",
+        "item4": "Jaga sõite, kui võimalik",
+        "item5": "Vähenda tarbetuid autosõite"
+      },
+      "alimentacao": {
+        "titulo": "Toit",
+        "resumo": "Valikud toidulaual, mis vähendavad raiskamist ja heidet",
+        "item1": "Osta kohalikke tooteid",
+        "item2": "Väldi raiskamist",
+        "item3": "Planeeri oma toidukordi",
+        "item4": "Kasuta toitu paremini",
+        "item5": "Vähenda liha tarbimist"
+      },
+      "reciclagem": {
+        "titulo": "Taaskasutus",
+        "resumo": "Sorteeri, taaskasuta ja anna ülejäänule uus elu",
+        "item1": "Sorteeri jäätmeid õigesti",
+        "item2": "Taaskasuta materjale",
+        "item3": "Suuna taaskasutatavad materjalid õigesti",
+        "item4": "Väldi ühekordseid tooteid",
+        "item5": "Anna esemetele uus kasutus"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Keskkonnafaktid",
+      "subtitulo": "Kas sa teadsid?",
+      "carregando": "Faktide laadimine...",
+      "proxima": "Järgmine fakt",
+      "erro_carregar": "Fakte ei saanud praegu laadida."
+    },
+    "noticias": {
+      "titulo": "Keskkonnauudised",
+      "subtitulo": "Tõelised ja värsked uudised jätkusuutlikkusest",
+      "anteriores": "Eelmised uudised",
+      "proximas": "Järgmised uudised",
+      "carregando": "Uudiste laadimine...",
+      "erro_carregar": "Uudiseid ei saanud praegu laadida.",
+      "nenhuma": "Hetkel pole uudiseid saadaval.",
+      "ler_na_origem": "loe algallikast →",
+      "sem_link": "Sellel uudisel ei ole välist linki."
+    },
+    "rodape": {
+      "descricao": "Keskkonnaharidus, mis muudab väikesed valikud planeedi jaoks suurteks tulemusteks.",
+      "navegacao": "Navigatsioon",
+      "contato": "Kontakt",
+      "copyright": "© 2026 Carbono Consciente. Kõik õigused kaitstud."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Töölaud",
+    "meta_descricao": "Registreeri oma sõidud ja jälgi oma süsinikujalajälge aja jooksul.",
+    "titulo": "Sinu harjumuste töölaud",
+    "subtitulo": "Registreeri oma sõidud ja jälgi oma süsinikujalajälge aja jooksul.",
+    "card_hoje": "CO₂ täna",
+    "card_semana": "CO₂ sel nädalal",
+    "card_mes": "CO₂ sel kuul",
+    "grafico_titulo": "Viimase 14 päeva muutus",
+    "grafico_aria": "CO₂ muutus viimase {{dias}} päeva jooksul",
+    "form_titulo": "Lisa sõit",
+    "campo_meio": "Transpordiliik",
+    "campo_distancia": "Vahemaa (km)",
+    "campo_data": "Kuupäev",
+    "campo_observacao": "Märkus (valikuline)",
+    "campo_observacao_placeholder": "nt: töölesõit",
+    "botao_adicionar": "lisa",
+    "salvando": "salvestan...",
+    "registrado_sucesso": "Sõit registreeritud!",
+    "registros_titulo": "Viimased kanded",
+    "registros_vazio": "Kandeid veel ei ole — lisa oma esimene sõit ülal.",
+    "meio_removido": "Transpordiliik eemaldatud",
+    "remover_registro": "Eemalda kanne",
+    "sessao_expirada": "Seanss on aegunud.",
+    "erro_servidor": "Serveriga ei saadud ühendust. Kas see töötab?",
+    "erro_generico": "Toimingut ei saanud lõpule viia.",
+    "delta_sem_registros": "selles perioodis kandeid ei ole",
+    "delta_primeiro_registro": "perioodi esimene kanne",
+    "delta_estavel": "stabiilne võrreldes eelmise perioodiga",
+    "delta_variacao": "{{percentual}}% võrreldes eelmise perioodiga"
+  },
+  "globo": {
+    "legenda_titulo": "Heide elaniku kohta",
+    "legenda_baixa": "Madal",
+    "legenda_alta": "Kõrge",
+    "sair_destaque": "Välju esiletõsturežiimist",
+    "buscar_placeholder": "Otsi riiki...",
+    "buscar_aria": "Otsi riiki gloobusel",
+    "sem_dados_co2": "CO₂ andmed puuduvad",
+    "tonelada_ano_pessoa": "{{valor}} t/aasta inimese kohta",
+    "territorio": "Territoorium",
+    "fechar_painel": "Sulge paneel",
+    "sem_dados_territorio": "Selle territooriumi kohta puuduvad CO₂ heite andmed elaniku kohta.",
+    "emissao_per_capita": "Heide elaniku kohta:",
+    "equivalente_diario": "Päevane vaste:",
+    "equivalente_semanal": "Nädalane vaste:",
+    "equivalente_mensal": "Kuine vaste:",
+    "posicao_ranking": "Koht edetabelis ({{total}} riigist):",
+    "fonte_estimativa": "Fossiilse CO₂ hinnanguline heide elaniku kohta (Global Carbon Budget / Our World in Data, baasaasta 2024).",
+    "aria_interativo": "Interaktiivne süsinikuheite gloobus. Lohista, et pöörata, keri, et suumida, klõpsa riigil, et näha andmeid, ja klõpsa kaks korda, et seada gloobus esiletõsturežiimi.",
+    "aria_decorativo": "Dekoratiivne pöörlev gloobus, mis kujutab Carbono Consciente projekti ülemaailmset ulatust.",
+    "continente_asia": "Aasia",
+    "continente_africa": "Aafrika",
+    "continente_europa": "Euroopa",
+    "continente_america_sul": "Lõuna-Ameerika",
+    "continente_america_norte": "Põhja-Ameerika",
+    "continente_oceania": "Okeaania"
+  }
+}

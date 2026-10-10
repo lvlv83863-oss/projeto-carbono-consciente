@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Kiri na gbelenda",
+    "theme_toggle_aria": "Changé bongo ti lumière/bibe",
+    "menu_aria": "Zi menu",
+    "login_link": "lï",
+    "sair_link": "sigi",
+    "painel_link": "tableau",
+    "fechar": "Kanga",
+    "nav": {
+      "plataforma": "Plateforme",
+      "impacto": "Ngbanga ni",
+      "habitos": "Aye ti lakue lakue",
+      "contato": "Bâa e",
+      "dados": "Atënë"
+    }
+  },
+  "header": {
+    "idioma_aria": "Changé yanga",
+    "idioma_buscar_placeholder": "Gi yanga..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Lï na yâ ni",
+    "meta_descricao": "Lï wala sû iri ti mo ti bâa atënë na aye ti mo na Carbono Consciente.",
+    "esquerda_titulo": "Gbâ ti CO₂ oko oko azia tapa",
+    "esquerda_texto": "Lï ti bâa atënë ti mo, aye ti mo, na gbâ ti CO₂ ti mo.",
+    "google_botao": "Gue na Google",
+    "google_em_breve": "Lïngö na Google ayeke ga fini-fini.",
+    "enviando": "a yeke tokua...",
+    "erro_servidor": "A lingbi pëpe ti bâa serveur. A yeke sala kua?",
+    "erro_generico": "A lingbi pëpe ti leke kua ni.",
+    "login": {
+      "titulo": "Lïngö",
+      "email_label": "Email",
+      "email_placeholder": "mo@email.com",
+      "senha_label": "Kode",
+      "botao": "lï",
+      "troca_texto": "Mo yeke na compte pëpe?",
+      "troca_botao": "Sû iri ti mo"
+    },
+    "cadastro": {
+      "titulo": "Sû iri",
+      "nome_label": "Iri",
+      "nome_placeholder": "Iri ti mo",
+      "email_label": "Email",
+      "email_placeholder": "mo@email.com",
+      "pais_label": "Kodoro",
+      "pais_placeholder": "Gi kodoro...",
+      "senha_label": "Kode",
+      "confirmar_label": "Gbu kode ni mbeni fois",
+      "botao": "sû iri",
+      "troca_texto": "Mo yeke na compte awe?",
+      "troca_botao": "Lï"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Akode ni ague oko pëpe."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: fango-ye na ndo ti sese na ndö ti CO₂ so a yeke sigigi, gbâ ti CO₂, afango-ndo ti bata sese, akpengba-tënë, na atënë ti sese.",
+    "hero": {
+      "titulo": "Kete ye oko oko ayeke dü ngangü na sese kete",
+      "texto": "CARBONO CONSCIENTE AYEKE PËPE MBENI MARQUE TI NGU-KETE WALA MBENI YE SO AYEKE YORO NGBÂ — A YEKE GBÂ TI AMBA SORONGO YE TI LAKUE LAKUE, SO AYEKE SALA NI LÂ OKO OKO: YE SO MO LU, LEGE SO MO GUE NA NI, NGOI SO MO ZI LUMIÈRE, NDO SO MO BI BUNDA NI.",
+      "botao": "Bâa mingi"
+    },
+    "acordeao": {
+      "titulo": "Carbono Consciente ayeke nyen?",
+      "emissao_titulo": "Sigingo ti CO₂",
+      "emissao_corpo": "Sigingo ti CO₂ ayeke zingo ti ayorö tongana CO₂ na yâ ti yingo, mingi na ndö ti gingo wâ ti mafuta ti sese, kungbingo akeke, kua ti usine, na même gbungo lege ti lakue lakue.",
+      "clima_titulo": "A yeke sala nyen na ndo ti climat?",
+      "clima_corpo": "Ayorö so ayeke sala effet de serre ayeke sala mbeni bongo so akanga lipeme na yâ ti yingo. Tongana ayorö ague mingi, ngangü ni akono mingi — na a yeke ni la amû lege na ngangü ti wâ ti sese na changement ti climat.",
+      "pegada_titulo": "Gbâ ti CO₂",
+      "pegada_corpo": "A yeke gbâ kue ti ayorö so asala effet de serre, so azi na lege ti terê wala na lege ti ndani, na akua ti mbeni zo, mbeni société wala mbeni ye so a yeke kä ni na yâ ti lango oko oko.",
+      "neutro_titulo": "CO₂ so a zi ni kue × Carbono Consciente",
+      "neutro_corpo": "<strong>CO₂ so a zi ni kue (neutre)</strong> ague ti leke wala ti kiri na sigingo ti ayorö so asigigi. <strong>Carbono consciente</strong> azia na li ni asoro so akiri ngangü ti wâ na ndo ti sese kozo na ti bibe na ndo ti kirango."
+    },
+    "dicas": {
+      "titulo_secao": "Afango-ndo ti bata sese",
+      "clique_voltar": "pika ni ti kiri na gbelenda",
+      "casa": {
+        "titulo": "Da",
+        "resumo": "Batango ngangü na ngu na yâ ti lango oko oko",
+        "item1": "Bata ngangü",
+        "item2": "Zi lumière na ngoi so a lingbi na ni pëpe",
+        "item3": "Sala na akeke na lege ti ndaru",
+        "item4": "Kiri ngangü ti ngu so a yeke gï",
+        "item5": "Kpe gïngo ti kobe"
+      },
+      "transporte": {
+        "titulo": "Transport",
+        "resumo": "Angia ti kiri voiture ti gue na lege ti ndaru",
+        "item1": "Tambûla na gere tongana a lingbi",
+        "item2": "Sala na bicyclette",
+        "item3": "Sala na transport ti gbâ ti azo",
+        "item4": "Kangbi voyage na mbeni zo tongana a lingbi",
+        "item5": "Kiri voyage ti voiture so a lingbi na ni pëpe"
+      },
+      "alimentacao": {
+        "titulo": "Kobe",
+        "resumo": "Asoro na ndo ti table so akiri gïngo na ayorö",
+        "item1": "Vo akobe ti ndo ni mveni",
+        "item2": "Kpe gïngo",
+        "item3": "Leke akobe kozo",
+        "item4": "Sala na kobe na lege ti ndaru mingi",
+        "item5": "Kiri tengo ti nyama"
+      },
+      "reciclagem": {
+        "titulo": "Kiringo sarango",
+        "resumo": "Kangbi, kiri sala, na mû mbeni fini kua na ye so alungbi",
+        "item1": "Kangbi nzoni azu-zu",
+        "item2": "Kiri sala na akeke",
+        "item3": "Zia akeke so alingbi ti kiri sala na ndo ni nzoni",
+        "item4": "Kpe akeke so a sala na ni gï oko",
+        "item5": "Mû fini kua na ayê"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Akpengba-tënë ti sese",
+      "subtitulo": "Mo hinga awe?",
+      "carregando": "A yeke zi mbeni kpengba-tënë...",
+      "proxima": "Mbeni kpengba-tënë",
+      "erro_carregar": "A lingbi pëpe ti zi akpengba-tënë fadeso."
+    },
+    "noticias": {
+      "titulo": "Atënë ti sese",
+      "subtitulo": "Atënë ti tâa tënë na ti fini na ndo ti bata sese",
+      "anteriores": "Atënë so ahon awe",
+      "proximas": "Atënë so aga",
+      "carregando": "A yeke zi atënë...",
+      "erro_carregar": "A lingbi pëpe ti zi atënë fadeso.",
+      "nenhuma": "Atënë ôko pëpe fadeso.",
+      "ler_na_origem": "diko na ndo so a lü ni →",
+      "sem_link": "Lien ti ndo ôko pëpe ti tënë so."
+    },
+    "rodape": {
+      "descricao": "Fango-ye ti sese so achangé akete soro na agbâ nzoni ti sese.",
+      "navegacao": "Lege ti gue",
+      "contato": "Bâa e",
+      "copyright": "© 2026 Carbono Consciente. Angangü kue azia na terê ni."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Tableau",
+    "meta_descricao": "Sû avoyage ti mo na bâa gbâ ti CO₂ ti mo na yâ ti ngoi.",
+    "titulo": "Tableau ti aye ti mo ti lakue lakue",
+    "subtitulo": "Sû avoyage ti mo na bâa gbâ ti CO₂ ti mo na yâ ti ngoi.",
+    "card_hoje": "CO₂ laso",
+    "card_semana": "CO₂ na yâ ti semaine so",
+    "card_mes": "CO₂ na yâ ti nze so",
+    "grafico_titulo": "Changement na yâ ti lâ 14 so ahon",
+    "grafico_aria": "Changement ti CO₂ na yâ ti lâ {{dias}} so ahon",
+    "form_titulo": "Zia mbeni voyage",
+    "campo_meio": "Lege ti transport",
+    "campo_distancia": "Yongoro (km)",
+    "campo_data": "Lâ",
+    "campo_observacao": "Tënë ti ndaru (a lingbi na ni pëpe)",
+    "campo_observacao_placeholder": "tongaso: voyage ti gue na kua",
+    "botao_adicionar": "zia",
+    "salvando": "a yeke sû...",
+    "registrado_sucesso": "Voyage asû awe!",
+    "registros_titulo": "Angbene tënë ti pekô",
+    "registros_vazio": "Mbeni tënë ôko pëpe fadeso — zia voyage ti mo ti kozo na ndo so na li.",
+    "meio_removido": "Lege so azi",
+    "remover_registro": "Zi tënë ni",
+    "sessao_expirada": "Ngoi ti sessão ni ahon.",
+    "erro_servidor": "A lingbi pëpe ti bâa serveur. A yeke sala kua?",
+    "erro_generico": "A lingbi pëpe ti leke kua ni.",
+    "delta_sem_registros": "atënë ôko pëpe na yâ ti ngoi so",
+    "delta_primeiro_registro": "tënë ti kozo na yâ ti ngoi so",
+    "delta_estavel": "a luti ôko tongana ngoi so ahon",
+    "delta_variacao": "{{percentual}}% tongana ngoi so ahon"
+  },
+  "globo": {
+    "legenda_titulo": "CO₂ ti zo oko oko",
+    "legenda_baixa": "Kete",
+    "legenda_alta": "Mingi",
+    "sair_destaque": "Sigi na mode ti fa ni na gigi",
+    "buscar_placeholder": "Gi kodoro...",
+    "buscar_aria": "Gi kodoro na ndo ti sese",
+    "sem_dados_co2": "atënë ti CO₂ ôko pëpe",
+    "tonelada_ano_pessoa": "{{valor}} t/ngu na zo oko oko",
+    "territorio": "Territoire",
+    "fechar_painel": "Kanga tableau ni",
+    "sem_dados_territorio": "Atënë ti CO₂ ti zo oko oko ôko pëpe ti territoire so.",
+    "emissao_per_capita": "CO₂ ti zo oko oko:",
+    "equivalente_diario": "Gbâ ti lâ oko:",
+    "equivalente_semanal": "Gbâ ti semaine oko:",
+    "equivalente_mensal": "Gbâ ti nze oko:",
+    "posicao_ranking": "Ndo ni na yâ ti liste (na popo ti akodoro {{total}}):",
+    "fonte_estimativa": "Calcul ti CO₂ so alö na mafuta ti sese na zo oko oko (Global Carbon Budget / Our World in Data, ngu ti kozo 2024).",
+    "aria_interativo": "Sese ti ndaru so mo lingbi ti sala na ni na ndo ti CO₂. Gbu na kiri ni, zunga ti ga ndulu, pika na mbeni kodoro ti bâa atënë, na pika use fois ti zia kodoro so na gigi.",
+    "aria_decorativo": "Sese ti dessin so akiri lakue, afa lege so Carbono Consciente agbâ yâ ti sese kue.",
+    "continente_asia": "Asie",
+    "continente_africa": "Afrika",
+    "continente_europa": "Europe",
+    "continente_america_sul": "Amérique ti Sud",
+    "continente_america_norte": "Amérique ti Nord",
+    "continente_oceania": "Océanie"
+  }
+}

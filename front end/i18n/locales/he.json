@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← חזרה לדף הבית",
+    "theme_toggle_aria": "מעבר בין מצב בהיר וכהה",
+    "menu_aria": "פתיחת התפריט",
+    "login_link": "התחברות",
+    "sair_link": "התנתקות",
+    "painel_link": "לוח מחוונים",
+    "fechar": "סגירה",
+    "nav": {
+      "plataforma": "הפלטפורמה",
+      "impacto": "השפעה",
+      "habitos": "הרגלים",
+      "contato": "צור קשר",
+      "dados": "נתונים"
+    }
+  },
+  "header": {
+    "idioma_aria": "שינוי שפה",
+    "idioma_buscar_placeholder": "חיפוש שפה..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — התחברות",
+    "meta_descricao": "התחברו או הירשמו כדי לעקוב אחרי הנתונים וההרגלים שלכם ב-Carbono Consciente.",
+    "esquerda_titulo": "כל טון של CO₂ משאיר עקבות",
+    "esquerda_texto": "התחברו כדי לעקוב אחרי הנתונים, ההרגלים וטביעת הרגל הפחמנית שלכם.",
+    "google_botao": "המשך עם Google",
+    "google_em_breve": "התחברות עם Google תהיה זמינה בקרוב.",
+    "enviando": "שולח...",
+    "erro_servidor": "לא הצלחנו להתחבר לשרת. הוא פועל?",
+    "erro_generico": "לא הצלחנו להשלים את הפעולה.",
+    "login": {
+      "titulo": "התחברות",
+      "email_label": "אימייל",
+      "email_placeholder": "you@email.com",
+      "senha_label": "סיסמה",
+      "botao": "התחברות",
+      "troca_texto": "עוד אין לכם חשבון?",
+      "troca_botao": "הרשמה"
+    },
+    "cadastro": {
+      "titulo": "הרשמה",
+      "nome_label": "שם",
+      "nome_placeholder": "השם שלכם",
+      "email_label": "אימייל",
+      "email_placeholder": "you@email.com",
+      "pais_label": "מדינה",
+      "pais_placeholder": "חיפוש מדינה...",
+      "senha_label": "סיסמה",
+      "confirmar_label": "אימות סיסמה",
+      "botao": "הרשמה",
+      "troca_texto": "יש לכם כבר חשבון?",
+      "troca_botao": "התחברות"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "הסיסמאות אינן תואמות."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: חינוך סביבתי על פליטות פחמן, טביעת רגל פחמנית, טיפים לקיימות, עובדות מעניינות וחדשות סביבה.",
+    "hero": {
+      "titulo": "כל הרגל קטן מכביד פחות על הכוכב",
+      "texto": "Carbono Consciente הוא לא תו ירוק ולא מטרה רחוקה — הוא סכום של בחירות יומיומיות שחוזרות על עצמן כל יום: מה אתם שותלים, איך אתם מתניידים, מתי אתם מכבים את האור, לאן אתם זורקים את הפסולת.",
+      "botao": "קראו עוד"
+    },
+    "acordeao": {
+      "titulo": "מה זה Carbono Consciente?",
+      "emissao_titulo": "פליטת פחמן",
+      "emissao_corpo": "פליטת פחמן היא שחרור גזים כמו CO₂ לאטמוספירה, בעיקר משריפת דלקים מחצביים, כריתת יערות, ייצור תעשייתי ואפילו מהתחבורה היומיומית.",
+      "clima_titulo": "איך זה משפיע על האקלים?",
+      "clima_corpo": "גזי החממה יוצרים שכבה שלוכדת חום באטמוספירה. כמה שיש יותר פליטות, כך האפקט הזה חזק יותר — וזה מה שמניע את ההתחממות הגלובלית ואת שינוי האקלים.",
+      "pegada_titulo": "טביעת רגל פחמנית",
+      "pegada_corpo": "זו הכמות הכוללת של גזי חממה שנוצרת, במישרין או בעקיפין, מהפעילות היומיומית של אדם, חברה או מוצר.",
+      "neutro_titulo": "פחמן מאוזן × Carbono Consciente",
+      "neutro_corpo": "<strong>פחמן מאוזן</strong> שואף לאזן או לקזז את הפליטות שנוצרו. <strong>פחמן מודע</strong> נותן עדיפות לבחירות שמצמצמות את ההשפעה הסביבתית עוד לפני שחושבים על קיזוז."
+    },
+    "dicas": {
+      "titulo_secao": "טיפים לקיימות",
+      "clique_voltar": "לחצו כדי לחזור",
+      "casa": {
+        "titulo": "בית",
+        "resumo": "חיסכון באנרגיה ובמים ביום-יום",
+        "item1": "לחסוך באנרגיה",
+        "item2": "לכבות אורות כשלא משתמשים בהם",
+        "item3": "להשתמש במוצרי חשמל בתבונה",
+        "item4": "לצמצם בזבוז מים",
+        "item5": "להימנע מבזבוז מזון"
+      },
+      "transporte": {
+        "titulo": "תחבורה",
+        "resumo": "חלופות לרכב לנסיעות קלות יותר",
+        "item1": "ללכת ברגל כשאפשר",
+        "item2": "להשתמש באופניים",
+        "item3": "להשתמש בתחבורה ציבורית",
+        "item4": "לשתף נסיעות כשאפשר",
+        "item5": "לצמצם נסיעות מיותרות ברכב"
+      },
+      "alimentacao": {
+        "titulo": "תזונה",
+        "resumo": "בחירות על השולחן שמפחיתות בזבוז ופליטות",
+        "item1": "לצרוך תוצרת מקומית",
+        "item2": "להימנע מבזבוז",
+        "item3": "לתכנן את הארוחות",
+        "item4": "לנצל את המזון טוב יותר",
+        "item5": "להפחית את צריכת הבשר"
+      },
+      "reciclagem": {
+        "titulo": "מיחזור",
+        "resumo": "להפריד, לעשות שימוש חוזר ולתת חיים חדשים למה שנשאר",
+        "item1": "להפריד פסולת נכון",
+        "item2": "לעשות שימוש חוזר בחומרים",
+        "item3": "לפנות חומרים מתכלים למיחזור כראוי",
+        "item4": "להימנע ממוצרים חד-פעמיים",
+        "item5": "לתת שימושים חדשים לחפצים"
+      }
+    },
+    "curiosidades": {
+      "titulo": "עובדות על הסביבה",
+      "subtitulo": "הידעתם?",
+      "carregando": "טוען עובדה...",
+      "proxima": "העובדה הבאה",
+      "erro_carregar": "לא הצלחנו לטעון את העובדות כרגע."
+    },
+    "noticias": {
+      "titulo": "חדשות סביבה",
+      "subtitulo": "חדשות אמיתיות ועדכניות על קיימות",
+      "anteriores": "חדשות קודמות",
+      "proximas": "חדשות הבאות",
+      "carregando": "טוען חדשות...",
+      "erro_carregar": "לא הצלחנו לטעון את החדשות כרגע.",
+      "nenhuma": "אין חדשות זמינות כרגע.",
+      "ler_na_origem": "לקריאה באתר המקור →",
+      "sem_link": "אין קישור חיצוני זמין לידיעה הזו."
+    },
+    "rodape": {
+      "descricao": "חינוך סביבתי שהופך בחירות קטנות לתוצאות גדולות עבור הכוכב.",
+      "navegacao": "ניווט",
+      "contato": "צור קשר",
+      "copyright": "© 2026 Carbono Consciente. כל הזכויות שמורות."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — לוח מחוונים",
+    "meta_descricao": "תעדו את הנסיעות שלכם ועקבו אחרי טביעת הרגל הפחמנית שלכם לאורך זמן.",
+    "titulo": "לוח ההרגלים שלכם",
+    "subtitulo": "תעדו את הנסיעות שלכם ועקבו אחרי טביעת הרגל הפחמנית שלכם לאורך זמן.",
+    "card_hoje": "CO₂ היום",
+    "card_semana": "CO₂ בשבוע הזה",
+    "card_mes": "CO₂ בחודש הזה",
+    "grafico_titulo": "14 הימים האחרונים",
+    "grafico_aria": "מגמת CO₂ ב-{{dias}} הימים האחרונים",
+    "form_titulo": "הוספת נסיעה",
+    "campo_meio": "אמצעי תחבורה",
+    "campo_distancia": "מרחק (ק\"מ)",
+    "campo_data": "תאריך",
+    "campo_observacao": "הערה (לא חובה)",
+    "campo_observacao_placeholder": "לדוגמה: הנסיעה לעבודה",
+    "botao_adicionar": "הוספה",
+    "salvando": "שומר...",
+    "registrado_sucesso": "הנסיעה נרשמה!",
+    "registros_titulo": "הרשומות האחרונות",
+    "registros_vazio": "עוד אין רשומות — הוסיפו את הנסיעה הראשונה שלכם למעלה.",
+    "meio_removido": "אמצעי שהוסר",
+    "remover_registro": "הסרת רשומה",
+    "sessao_expirada": "פג תוקף ההתחברות.",
+    "erro_servidor": "לא הצלחנו להתחבר לשרת. הוא פועל?",
+    "erro_generico": "לא הצלחנו להשלים את הפעולה.",
+    "delta_sem_registros": "אין רשומות בתקופה הזו",
+    "delta_primeiro_registro": "הרשומה הראשונה בתקופה הזו",
+    "delta_estavel": "יציב מול התקופה הקודמת",
+    "delta_variacao": "{{percentual}}% מול התקופה הקודמת"
+  },
+  "globo": {
+    "legenda_titulo": "פליטות לנפש",
+    "legenda_baixa": "נמוכות",
+    "legenda_alta": "גבוהות",
+    "sair_destaque": "יציאה ממצב הדגשה",
+    "buscar_placeholder": "חיפוש מדינה...",
+    "buscar_aria": "חיפוש מדינה על הגלובוס",
+    "sem_dados_co2": "אין נתוני CO₂",
+    "tonelada_ano_pessoa": "{{valor}} טון לשנה לאדם",
+    "territorio": "טריטוריה",
+    "fechar_painel": "סגירת הפאנל",
+    "sem_dados_territorio": "אין נתוני פליטות CO₂ לנפש זמינים עבור הטריטוריה הזו.",
+    "emissao_per_capita": "פליטות לנפש:",
+    "equivalente_diario": "שווה ערך יומי:",
+    "equivalente_semanal": "שווה ערך שבועי:",
+    "equivalente_mensal": "שווה ערך חודשי:",
+    "posicao_ranking": "מקום בדירוג (מתוך {{total}} מדינות):",
+    "fonte_estimativa": "אומדן פליטות CO₂ ממאובנים לנפש (Global Carbon Budget / Our World in Data, שנת בסיס 2024).",
+    "aria_interativo": "גלובוס אינטראקטיבי של פליטות פחמן. גררו כדי לסובב, גלגלו כדי להתקרב, לחצו על מדינה כדי לראות את הנתונים שלה, ולחצו לחיצה כפולה כדי להעביר את הגלובוס למצב הדגשה.",
+    "aria_decorativo": "גלובוס דקורטיבי מסתובב, שממחיש את התפרוסת הגלובלית של פרויקט Carbono Consciente.",
+    "continente_asia": "אסיה",
+    "continente_africa": "אפריקה",
+    "continente_europa": "אירופה",
+    "continente_america_sul": "אמריקה הדרומית",
+    "continente_america_norte": "אמריקה הצפונית",
+    "continente_oceania": "אוקיאניה"
+  }
+}

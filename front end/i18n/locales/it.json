@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Torna all'inizio",
+    "theme_toggle_aria": "Alterna tema chiaro/scuro",
+    "menu_aria": "Apri il menu",
+    "login_link": "accedi",
+    "sair_link": "esci",
+    "painel_link": "pannello",
+    "fechar": "Chiudi",
+    "nav": {
+      "plataforma": "Piattaforma",
+      "impacto": "Impatto",
+      "habitos": "Abitudini",
+      "contato": "Contatti",
+      "dados": "Dati"
+    }
+  },
+  "header": {
+    "idioma_aria": "Cambia lingua",
+    "idioma_buscar_placeholder": "Cerca una lingua..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Accedi",
+    "meta_descricao": "Accedi o registrati per seguire i tuoi dati e le tue abitudini su Carbono Consciente.",
+    "esquerda_titulo": "Ogni tonnellata di CO₂ lascia una traccia",
+    "esquerda_texto": "Accedi per seguire i tuoi dati, le tue abitudini e la tua impronta di carbonio.",
+    "google_botao": "Continua con Google",
+    "google_em_breve": "L'accesso con Google arriverà presto.",
+    "enviando": "invio in corso...",
+    "erro_servidor": "Non è stato possibile raggiungere il server. È in esecuzione?",
+    "erro_generico": "Non è stato possibile completare l'operazione.",
+    "login": {
+      "titulo": "Accedi",
+      "email_label": "Email",
+      "email_placeholder": "tu@email.com",
+      "senha_label": "Password",
+      "botao": "accedi",
+      "troca_texto": "Non hai ancora un account?",
+      "troca_botao": "Registrati"
+    },
+    "cadastro": {
+      "titulo": "Registrazione",
+      "nome_label": "Nome",
+      "nome_placeholder": "Il tuo nome",
+      "email_label": "Email",
+      "email_placeholder": "tu@email.com",
+      "pais_label": "Paese",
+      "pais_placeholder": "Cerca un paese...",
+      "senha_label": "Password",
+      "confirmar_label": "Conferma password",
+      "botao": "registrati",
+      "troca_texto": "Hai già un account?",
+      "troca_botao": "Accedi"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Le password non corrispondono."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: educazione ambientale su emissioni di carbonio, impronta di carbonio, consigli sostenibili, curiosità e notizie ambientali.",
+    "hero": {
+      "titulo": "Ogni piccola abitudine pesa meno sul pianeta",
+      "texto": "CARBONO CONSCIENTE NON È UN BOLLINO VERDE NÉ UN OBIETTIVO LONTANO — È LA SOMMA DI SCELTE ORDINARIE, RIPETUTE OGNI GIORNO: QUELLO CHE PIANTI, COME TI SPOSTI, QUANDO SPEGNI LA LUCE, DOVE BUTTI I RIFIUTI.",
+      "botao": "Scopri di più"
+    },
+    "acordeao": {
+      "titulo": "Che cos'è Carbono Consciente?",
+      "emissao_titulo": "Emissione di carbonio",
+      "emissao_corpo": "L'emissione di carbonio è il rilascio nell'atmosfera di gas come la CO₂, dovuto soprattutto alla combustione di fonti fossili, alla deforestazione, alla produzione industriale e perfino agli spostamenti di ogni giorno.",
+      "clima_titulo": "Come influisce sul clima?",
+      "clima_corpo": "I gas serra formano uno strato che trattiene il calore nell'atmosfera. Più emissioni ci sono, più forte è questo effetto — ed è proprio questo che alimenta il riscaldamento globale e i cambiamenti climatici.",
+      "pegada_titulo": "Impronta di carbonio",
+      "pegada_corpo": "È la quantità totale di gas serra generata, direttamente o indirettamente, dalle attività quotidiane di una persona, di un'azienda o di un prodotto.",
+      "neutro_titulo": "Carbonio neutro × Carbono Consciente",
+      "neutro_corpo": "<strong>Il carbonio neutro</strong> cerca di bilanciare o compensare le emissioni generate. <strong>Il carbonio consapevole</strong> privilegia le scelte che riducono l'impatto ambientale prima ancora di pensare alla compensazione."
+    },
+    "dicas": {
+      "titulo_secao": "Consigli sostenibili",
+      "clique_voltar": "clicca per tornare",
+      "casa": {
+        "titulo": "Casa",
+        "resumo": "Risparmio di energia e acqua nella vita di ogni giorno",
+        "item1": "Risparmiare energia",
+        "item2": "Spegnere le luci quando non servono",
+        "item3": "Usare gli elettrodomestici in modo consapevole",
+        "item4": "Ridurre lo spreco di acqua",
+        "item5": "Evitare lo spreco di cibo"
+      },
+      "transporte": {
+        "titulo": "Trasporti",
+        "resumo": "Alternative all'auto per spostamenti più leggeri",
+        "item1": "Camminare quando è possibile",
+        "item2": "Usare la bicicletta",
+        "item3": "Usare i mezzi pubblici",
+        "item4": "Condividere i viaggi quando è possibile",
+        "item5": "Ridurre gli spostamenti in auto non necessari"
+      },
+      "alimentacao": {
+        "titulo": "Alimentazione",
+        "resumo": "Scelte a tavola che riducono sprechi ed emissioni",
+        "item1": "Consumare prodotti locali",
+        "item2": "Evitare gli sprechi",
+        "item3": "Pianificare i pasti",
+        "item4": "Sfruttare meglio il cibo",
+        "item5": "Ridurre il consumo di carne"
+      },
+      "reciclagem": {
+        "titulo": "Riciclo",
+        "resumo": "Differenzia, riusa e dai nuova vita a ciò che resta",
+        "item1": "Differenziare correttamente i rifiuti",
+        "item2": "Riutilizzare i materiali",
+        "item3": "Conferire correttamente i materiali riciclabili",
+        "item4": "Evitare i prodotti usa e getta",
+        "item5": "Dare nuovi usi agli oggetti"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Curiosità ambientali",
+      "subtitulo": "Lo sapevi?",
+      "carregando": "Caricamento della curiosità...",
+      "proxima": "Prossima curiosità",
+      "erro_carregar": "Non è stato possibile caricare le curiosità in questo momento."
+    },
+    "noticias": {
+      "titulo": "Notizie ambientali",
+      "subtitulo": "Notizie reali e recenti sulla sostenibilità",
+      "anteriores": "Notizie precedenti",
+      "proximas": "Notizie successive",
+      "carregando": "Caricamento delle notizie...",
+      "erro_carregar": "Non è stato possibile caricare le notizie in questo momento.",
+      "nenhuma": "Nessuna notizia disponibile al momento.",
+      "ler_na_origem": "leggi sul sito d'origine →",
+      "sem_link": "Nessun link esterno disponibile per questa notizia."
+    },
+    "rodape": {
+      "descricao": "Educazione ambientale per trasformare piccole scelte in grandi risultati per il pianeta.",
+      "navegacao": "Navigazione",
+      "contato": "Contatti",
+      "copyright": "© 2026 Carbono Consciente. Tutti i diritti riservati."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Pannello",
+    "meta_descricao": "Registra i tuoi spostamenti e segui la tua impronta di carbonio nel tempo.",
+    "titulo": "Il tuo pannello delle abitudini",
+    "subtitulo": "Registra i tuoi spostamenti e segui la tua impronta di carbonio nel tempo.",
+    "card_hoje": "CO₂ oggi",
+    "card_semana": "CO₂ questa settimana",
+    "card_mes": "CO₂ questo mese",
+    "grafico_titulo": "Andamento degli ultimi 14 giorni",
+    "grafico_aria": "Andamento della CO₂ negli ultimi {{dias}} giorni",
+    "form_titulo": "Aggiungi spostamento",
+    "campo_meio": "Mezzo di trasporto",
+    "campo_distancia": "Distanza (km)",
+    "campo_data": "Data",
+    "campo_observacao": "Nota (facoltativa)",
+    "campo_observacao_placeholder": "es.: tragitto per il lavoro",
+    "botao_adicionar": "aggiungi",
+    "salvando": "salvataggio...",
+    "registrado_sucesso": "Spostamento registrato!",
+    "registros_titulo": "Ultimi registri",
+    "registros_vazio": "Nessun registro per ora — aggiungi qui sopra il tuo primo spostamento.",
+    "meio_removido": "Mezzo rimosso",
+    "remover_registro": "Rimuovi registro",
+    "sessao_expirada": "Sessione scaduta.",
+    "erro_servidor": "Non è stato possibile raggiungere il server. È in esecuzione?",
+    "erro_generico": "Non è stato possibile completare l'operazione.",
+    "delta_sem_registros": "nessun registro nel periodo",
+    "delta_primeiro_registro": "primo registro del periodo",
+    "delta_estavel": "stabile rispetto al periodo precedente",
+    "delta_variacao": "{{percentual}}% rispetto al periodo precedente"
+  },
+  "globo": {
+    "legenda_titulo": "Emissioni per abitante",
+    "legenda_baixa": "Basse",
+    "legenda_alta": "Alte",
+    "sair_destaque": "Esci dalla modalità in evidenza",
+    "buscar_placeholder": "Cerca un paese...",
+    "buscar_aria": "Cerca un paese sul globo",
+    "sem_dados_co2": "nessun dato sulla CO₂",
+    "tonelada_ano_pessoa": "{{valor}} t/anno per persona",
+    "territorio": "Territorio",
+    "fechar_painel": "Chiudi il pannello",
+    "sem_dados_territorio": "Nessun dato sulle emissioni di CO₂ per abitante disponibile per questo territorio.",
+    "emissao_per_capita": "Emissioni per abitante:",
+    "equivalente_diario": "Equivalente giornaliero:",
+    "equivalente_semanal": "Equivalente settimanale:",
+    "equivalente_mensal": "Equivalente mensile:",
+    "posicao_ranking": "Posizione in classifica (su {{total}} paesi):",
+    "fonte_estimativa": "Stima della CO₂ fossile per abitante (Global Carbon Budget / Our World in Data, anno di riferimento 2024).",
+    "aria_interativo": "Globo interattivo delle emissioni di carbonio. Trascina per ruotarlo, scorri per ingrandire, clicca su un paese per vederne i dati e fai doppio clic per mettere il globo in evidenza.",
+    "aria_decorativo": "Globo decorativo che ruota, a illustrare la portata globale del progetto Carbono Consciente.",
+    "continente_asia": "Asia",
+    "continente_africa": "Africa",
+    "continente_europa": "Europa",
+    "continente_america_sul": "America del Sud",
+    "continente_america_norte": "America del Nord",
+    "continente_oceania": "Oceania"
+  }
+}

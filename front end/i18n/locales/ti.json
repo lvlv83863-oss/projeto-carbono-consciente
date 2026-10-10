@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← ናብ መበገሲ ተመለስ",
+    "theme_toggle_aria": "ኩነት ብርሃን/ጸልማት ቀያይር",
+    "menu_aria": "ዝርዝር ክፈት",
+    "login_link": "እቶ",
+    "sair_link": "ውጻእ",
+    "painel_link": "ፓነል",
+    "fechar": "ዕጾ",
+    "nav": {
+      "plataforma": "መድረክ",
+      "impacto": "ጽልዋ",
+      "habitos": "ልምዳት",
+      "contato": "ርክብ",
+      "dados": "ሓበሬታ"
+    }
+  },
+  "header": {
+    "idioma_aria": "ቋንቋ ቀያይር",
+    "idioma_buscar_placeholder": "ቋንቋ ድለይ..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — እቶ",
+    "meta_descricao": "ሓበሬታኻን ልምዳትካን ኣብ Carbono Consciente ክትከታተል እቶ ወይ ተመልክት።",
+    "esquerda_titulo": "ነፍስወከፍ ቶን CO₂ ኣሰር ትገድፍ",
+    "esquerda_texto": "ሓበሬታኻ፣ ልምዳትካን ኣሰር ካርቦንካን ክትከታተል እቶ።",
+    "google_botao": "ብGoogle ቀጽል",
+    "google_em_breve": "ብGoogle ምእታው ኣብ ቀረባ ጊዜ ክመጽእ እዩ።",
+    "enviando": "ይልኣኽ ኣሎ...",
+    "erro_servidor": "ምስ ሰርቨር ክራኸብ ኣይተኻእለን። እናሰርሐ ድዩ?",
+    "erro_generico": "እዚ ዕማም ክፍጸም ኣይተኻእለን።",
+    "login": {
+      "titulo": "እቶ",
+      "email_label": "ኢመይል",
+      "email_placeholder": "wena@email.com",
+      "senha_label": "ፓስዎርድ",
+      "botao": "እቶ",
+      "troca_texto": "ጌና ሕሳብ የብልካንድ?",
+      "troca_botao": "ተመልክት"
+    },
+    "cadastro": {
+      "titulo": "ምምልካት",
+      "nome_label": "ስም",
+      "nome_placeholder": "ስምካ",
+      "email_label": "ኢመይል",
+      "email_placeholder": "wena@email.com",
+      "pais_label": "ሃገር",
+      "pais_placeholder": "ሃገር ድለይ...",
+      "senha_label": "ፓስዎርድ",
+      "confirmar_label": "ፓስዎርድ ኣረጋግጽ",
+      "botao": "ተመልክት",
+      "troca_texto": "ሕሳብ ኣለካ ድዩ?",
+      "troca_botao": "እቶ"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "ፓስዎርድታት ኣይሳነያን።"
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: ትምህርቲ ኣከባቢ ብዛዕባ ልቀት ካርቦን፣ ኣሰር ካርቦን፣ ምኽርታት ዘይንዋት ቀጻልነት፣ መሳጢ ሓቅታትን ዜናታት ኣከባቢን።",
+    "hero": {
+      "titulo": "ነፍስወከፍ ንእሽቶ ልምዲ ንፕላኔት ውሑድ ጾር ይፍጥር",
+      "texto": "ካርቦኖ ኮንሽየንቴ ቀጠልያ ማሕተም ወይ ርሑቕ ሸቶ ኣይኮነን — ድምር ናይ መዓልታዊ ዝደጋገም ልሙድ ምርጫታት እዩ፦ እንታይ ትትክል፣ ብኸመይ ትግዓዝ፣ መዓስ ብርሃን ትጥፍእ፣ ኣበይ ጓሓፍ ትደፍእ።",
+      "botao": "ተመሊስ ርአ"
+    },
+    "acordeao": {
+      "titulo": "Carbono Consciente እንታይ እዩ?",
+      "emissao_titulo": "ልቀት ካርቦን",
+      "emissao_corpo": "ልቀት ካርቦን ማለት ናይ CO₂ ዝመሳሰሉ ጋዛት ኣብ ኣየር ምልቓቕ እዩ፣ ብዝበለጸ ብምንዳድ ፎሲላዊ ነዳድታት፣ ምምንጣል ኣግራብ፣ ኢንዱስትርያዊ ምህርትን ከምኡ'ውን ናይ መዓልታዊ መጓዓዝያ ምኽንያት።",
+      "clima_titulo": "ንክሊማ ብኸመይ ይጸሉ?",
+      "clima_corpo": "ናይ ኣቱን ቤት ጋዛት ኣብ ኣየር ሙቐት ዝሕዝ መግነጢ ይፈጥሩ። ልቀት እናበዝሐ ብምኻዱ፣ እዚ ጽልዋ እናበዝሐ ይኸይድ — እዚ ድማ ግላዊ ምውዳድ ምድርን ለውጢ ክሊማን ዘለዓዕል እዩ።",
+      "pegada_titulo": "ኣሰር ካርቦን",
+      "pegada_corpo": "እዚ ብቐጥታ ይኹን ብተዘዋዋሪ፣ ብንጥፈታት ሓደ ሰብ፣ ትካል ወይ ፍርያት ኣብ መዓልታዊ ህይወቱ ዝፍጠር ሓፈሻዊ መጠን ናይ ኣቱን ቤት ጋዛት እዩ።",
+      "neutro_titulo": "ገምጋም ናይ ዘይገደድ ካርቦን × Carbono Consciente",
+      "neutro_corpo": "<strong>ዘይገደድ ካርቦን</strong> ነቲ ዝፍጠር ልቀት ንምዕራይ ወይ ንምክሓስ ይጽዕር። <strong>Carbono consciente</strong> ቅድሚ ብዛዕባ ምክሓስ ምሕሳብ፣ ንጽልዋ ኣከባቢ ዝጎድሉ ምርጫታት ቅድምነት ይህብ።"
+    },
+    "dicas": {
+      "titulo_secao": "ምኽርታት ቀጻልነት",
+      "clique_voltar": "ንምምላስ ጠውቕ",
+      "casa": {
+        "titulo": "ቤት",
+        "resumo": "ዕቁር ጸዓትን ማይን ኣብ መዓልታዊ ህይወት",
+        "item1": "ጸዓት ዓቅብ",
+        "item2": "ክትጥቀመሉ ዘይደለኻ ናውቲ ኣጥፍእ",
+        "item3": "ናውቲ ብፍልጠት ተጠቐም",
+        "item4": "ጥፍኣት ማይ ኣንኣእስ",
+        "item5": "ጥፍኣት ምግቢ ኣወግድ"
+      },
+      "transporte": {
+        "titulo": "መጓዓዝያ",
+        "resumo": "ካብ መኪና ህድእ ዝበለ መፍትሒ ንቀሊል መጓዓዝያ",
+        "item1": "ክትከኣል ኣብ ዝኾነሉ ግዜ ብእግሪ ተመዓዘ",
+        "item2": "ብሽክለታ ተጠቐም",
+        "item3": "ህዝባዊ መጓዓዝያ ተጠቐም",
+        "item4": "ክትከኣል ኣብ ዝኾነሉ ግዜ መገሻ ተማቐል",
+        "item5": "ዘየድሊ ምጉዓዝ ብመኪና ኣንኣእስ"
+      },
+      "alimentacao": {
+        "titulo": "መግቢ",
+        "resumo": "ናይ ጣውላ ምርጫታት ጥፍኣትን ልቀትን ዝጎድሉ",
+        "item1": "ናይ ከባቢ ፍርያት ተጠቐም",
+        "item2": "ጥፍኣት ኣወግድ",
+        "item3": "ምግብታት ኣቐድም ኣዳልዎ",
+        "item4": "ምግቢ ብዝበለጸ ኣገባብ ተጠቐምሉ",
+        "item5": "ምብላዕ ስጋ ኣንኣእስ"
+      },
+      "reciclagem": {
+        "titulo": "ሪሳይክል",
+        "resumo": "ፈላሊ፣ ድጋም ተጠቐም፣ ነቲ ዝተረፈ ሓድሽ ጥቕም ሃቦ",
+        "item1": "ጎሓፍ ብግቡእ ፈላሊ",
+        "item2": "ንቁሳቁሳት ብድጋም ተጠቐም",
+        "item3": "ዳግም ዝጠቅሙ ነገራት ብግቡእ ኣቕምጦ",
+        "item4": "ንሓደ ግዜ ዝጠቀሙ ፍርያት ኣወግድ",
+        "item5": "ንነገራት ሓድሽ ጥቕም ሃቦ"
+      }
+    },
+    "curiosidades": {
+      "titulo": "መሳጢ ሓቅታት ኣከባቢ",
+      "subtitulo": "ትፈልጥ ዶ?",
+      "carregando": "መሳጢ ሓቂ ይጽዕን ኣሎ...",
+      "proxima": "ዝቕጽል መሳጢ ሓቂ",
+      "erro_carregar": "ሕጂ መሳጢ ሓቅታት ክጽዓን ኣይተኻእለን።"
+    },
+    "noticias": {
+      "titulo": "ዜናታት ኣከባቢ",
+      "subtitulo": "ናይ ቀጻልነት ሓቀኛን ናይ ቀረባ ግዜን ዜናታት",
+      "anteriores": "ዝሓለፉ ዜናታት",
+      "proximas": "ዝቕጽሉ ዜናታት",
+      "carregando": "ዜናታት ይጽዕን ኣሎ...",
+      "erro_carregar": "ሕጂ ዜናታት ክጽዓን ኣይተኻእለን።",
+      "nenhuma": "ሕጂ ዝርከብ ዜና የለን።",
+      "ler_na_origem": "ኣብ መበቆላዊ ድረ-ገጽ ኣንብብ →",
+      "sem_link": "ንዚ ዜና ናይ ደገ ርክብ የለን።"
+    },
+    "rodape": {
+      "descricao": "ንእሽቶ ምርጫታት ናብ ዓበይቲ ፍርያት ንፕላኔት ዝቕየር ትምህርቲ ኣከባቢ።",
+      "navegacao": "ምምራሕ",
+      "contato": "ርክብ",
+      "copyright": "© 2026 Carbono Consciente. ኩሎም መሰላት ዕቁባት እዮም።"
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — ፓነል",
+    "meta_descricao": "ናይ መጓዓዝያኻ ኣመዝግብ ከምኡ'ውን ናይ ካርቦን ኣሰርካ ብግዜ ተከታተል።",
+    "titulo": "ናይ ልምዳትካ ፓነል",
+    "subtitulo": "ናይ መጓዓዝያኻ ኣመዝግብ ከምኡ'ውን ናይ ካርቦን ኣሰርካ ብግዜ ተከታተል።",
+    "card_hoje": "CO₂ ሎሚ",
+    "card_semana": "CO₂ ኣብዚ ሰሙን",
+    "card_mes": "CO₂ ኣብዚ ወርሒ",
+    "grafico_titulo": "ምዕባለ ኣብ ዝሓለፉ 14 መዓልታት",
+    "grafico_aria": "ምዕባለ CO₂ ኣብ ዝሓለፉ {{dias}} መዓልታት",
+    "form_titulo": "መጓዓዝያ ጨምር",
+    "campo_meio": "ዓይነት መጓዓዝያ",
+    "campo_distancia": "ርሕቀት (ኪሜ)",
+    "campo_data": "ዕለት",
+    "campo_observacao": "መዘከር (ዘይግዱድ)",
+    "campo_observacao_placeholder": "ኣብነት፦ መገሻ ናብ ስራሕ",
+    "botao_adicionar": "ጨምር",
+    "salvando": "ይዕቅብ ኣሎ...",
+    "registrado_sucesso": "መጓዓዝያ ተመዝጊቡ!",
+    "registros_titulo": "ናይ ቀረባ መዝገባት",
+    "registros_vazio": "ጌና መዝገብ የለን — ናይ መጀመርታ መጓዓዝያኻ ኣብ ላይ ጨምር።",
+    "meio_removido": "ዓይነት ተኣልዩ",
+    "remover_registro": "መዝገብ ኣልግስ",
+    "sessao_expirada": "እቶት ተወዳኢ እዩ።",
+    "erro_servidor": "ምስ ሰርቨር ክራኸብ ኣይተኻእለን። እናሰርሐ ድዩ?",
+    "erro_generico": "እዚ ዕማም ክፍጸም ኣይተኻእለን።",
+    "delta_sem_registros": "ኣብዚ ግዜ መዝገብ የለን",
+    "delta_primeiro_registro": "ናይ መጀመርታ መዝገብ ኣብዚ ግዜ",
+    "delta_estavel": "ምስ ዝሓለፈ ግዜ ተማጣጣኒ",
+    "delta_variacao": "{{percentual}}% ምስ ዝሓለፈ ግዜ"
+  },
+  "globo": {
+    "legenda_titulo": "ልቀት ብሕታዊ",
+    "legenda_baixa": "ትሑት",
+    "legenda_alta": "ላዕለዋይ",
+    "sair_destaque": "ካብ ኩነት ምድመቕ ውጻእ",
+    "buscar_placeholder": "ሃገር ድለይ...",
+    "buscar_aria": "ኣብ ዓለም ሃገር ድለይ",
+    "sem_dados_co2": "ናይ CO₂ ሓበሬታ የለን",
+    "tonelada_ano_pessoa": "{{valor}} ቶን/ዓመት ንሓደ ሰብ",
+    "territorio": "ግዝኣት",
+    "fechar_painel": "ፓነል ዕጾ",
+    "sem_dados_territorio": "ንዚ ግዝኣት ናይ ልቀት CO₂ ብሕታዊ ሓበሬታ ኣይርከብን።",
+    "emissao_per_capita": "ልቀት ብሕታዊ፦",
+    "equivalente_diario": "ናይ መዓልቲ ማዕረ፦",
+    "equivalente_semanal": "ናይ ሰሙን ማዕረ፦",
+    "equivalente_mensal": "ናይ ወርሒ ማዕረ፦",
+    "posicao_ranking": "ደርጃ ኣብ ደረጃ (ካብ {{total}} ሃገራት)፦",
+    "fonte_estimativa": "ግምት ናይ ፎሲላዊ CO₂ ብሕታዊ (Global Carbon Budget / Our World in Data, መበገሲ ዓመት 2024)።",
+    "aria_interativo": "ህያዋኣዊ ዓለም ናይ ልቀት ካርቦን። ንምዝዋር ስሓብ፣ ንምቕራብ ስክሮል ግበር፣ ሓበሬታ ንምርኣይ ሃገር ጠውቕ፣ ንምድመቕ ድማ ክልተ ግዜ ጠውቕ።",
+    "aria_decorativo": "ናይ ጌጽ ዝዘውር ዓለም፣ ንኣድማሳዊ ርሕቀት ናይ ፕሮጀክት Carbono Consciente ዘርኢ።",
+    "continente_asia": "ኤስያ",
+    "continente_africa": "ኣፍሪቃ",
+    "continente_europa": "ኤውሮጳ",
+    "continente_america_sul": "ደቡብ ኣመሪካ",
+    "continente_america_norte": "ሰሜን ኣመሪካ",
+    "continente_oceania": "ኦሽያኒያ"
+  }
+}

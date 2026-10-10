@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Ar ais go dtí an leathanach baile",
+    "theme_toggle_aria": "Athraigh téama éadrom/dorcha",
+    "menu_aria": "Oscail roghchlár",
+    "login_link": "logáil isteach",
+    "sair_link": "logáil amach",
+    "painel_link": "painéal",
+    "fechar": "Dún",
+    "nav": {
+      "plataforma": "Ardán",
+      "impacto": "Tionchar",
+      "habitos": "Nósanna",
+      "contato": "Teagmháil",
+      "dados": "Sonraí"
+    }
+  },
+  "header": {
+    "idioma_aria": "Athraigh teanga",
+    "idioma_buscar_placeholder": "Cuardaigh teanga..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Logáil isteach",
+    "meta_descricao": "Logáil isteach nó cláraigh chun do shonraí agus do nósanna a leanúint ar Carbono Consciente.",
+    "esquerda_titulo": "Fágann gach tona CO₂ lorg ina diaidh",
+    "esquerda_texto": "Logáil isteach chun do shonraí, do nósanna agus do lorg carbóin a leanúint.",
+    "google_botao": "Lean ar aghaidh le Google",
+    "google_em_breve": "Beidh logáil isteach le Google ar fáil go luath.",
+    "enviando": "ag seoladh...",
+    "erro_servidor": "Níorbh fhéidir teagmháil a dhéanamh leis an bhfreastalaí. An bhfuil sé ag rith?",
+    "erro_generico": "Níorbh fhéidir an oibríocht a chur i gcrích.",
+    "login": {
+      "titulo": "Logáil isteach",
+      "email_label": "Ríomhphost",
+      "email_placeholder": "do@riomhphost.com",
+      "senha_label": "Pasfhocal",
+      "botao": "logáil isteach",
+      "troca_texto": "Nach bhfuil cuntas agat fós?",
+      "troca_botao": "Cláraigh"
+    },
+    "cadastro": {
+      "titulo": "Clárú",
+      "nome_label": "Ainm",
+      "nome_placeholder": "D'ainm",
+      "email_label": "Ríomhphost",
+      "email_placeholder": "do@riomhphost.com",
+      "pais_label": "Tír",
+      "pais_placeholder": "Cuardaigh tír...",
+      "senha_label": "Pasfhocal",
+      "confirmar_label": "Deimhnigh pasfhocal",
+      "botao": "cláraigh",
+      "troca_texto": "An bhfuil cuntas agat cheana féin?",
+      "troca_botao": "Logáil isteach"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Níl na pasfhocail ag teacht le chéile."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: oideachas comhshaoil faoi astaíochtaí carbóin, lorg carbóin, leideanna inbhuanaithe, eolas spéisiúil agus nuacht chomhshaoil.",
+    "hero": {
+      "titulo": "Laghdaíonn gach nós beag an meáchan ar an phláinéid",
+      "texto": "NÍ SÉALA GLAS É CARBONO CONSCIENTE NÁ SPRIOC I BHFAD I GCÉIN — IS SUIM É DE ROGHANNA COITIANTA, A DHÉANTAR GACH LÁ: AN RUD A CHUIREANN TÚ, AN tSLÍ A nGLUAISEANN TÚ, AN UAIR A MHÚCHANN TÚ AN tSOLAS, AN ÁIT A CHAITHEANN TÚ DO BHRUSCAR.",
+      "botao": "Féach níos mó"
+    },
+    "acordeao": {
+      "titulo": "Cad é Carbono Consciente?",
+      "emissao_titulo": "Astaíocht Charbóin",
+      "emissao_corpo": "Is í an astaíocht charbóin scaoileadh gásanna ar nós CO₂ isteach san atmaisféar, go príomha trí dhó breoslaí iontaise, dífhoraoisiú, táirgeadh tionsclaíoch agus fiú iompar laethúil.",
+      "clima_titulo": "Conas a théann sé i bhfeidhm ar an aeráid?",
+      "clima_corpo": "Cruthaíonn gásanna ceaptha teasa sraith a ghabhann teas san atmaisféar. Dá mhéad astaíochtaí, is ea is mó an éifeacht sin — agus is é sin a thiomáineann an t-aisiompú domhanda agus an athrú aeráide.",
+      "pegada_titulo": "Lorg Carbóin",
+      "pegada_corpo": "Is é an méid iomlán gásanna ceaptha teasa a ghintear, go díreach nó go hindíreach, trí ghníomhaíochtaí duine, cuideachta nó táirge ina saol laethúil.",
+      "neutro_titulo": "Carbón Neodrach × Carbono Consciente",
+      "neutro_corpo": "Féachann <strong>carbón neodrach</strong> le cothromaíocht a bhaint amach nó le cúiteamh a dhéanamh ar na hastaíochtaí a ghintear. Tugann <strong>carbono consciente</strong> tús áite do roghanna a laghdaíonn an tionchar comhshaoil fiú sula smaoinítear ar chúiteamh."
+    },
+    "dicas": {
+      "titulo_secao": "Leideanna Inbhuanaithe",
+      "clique_voltar": "cliceáil chun filleadh",
+      "casa": {
+        "titulo": "Baile",
+        "resumo": "Sábháil fuinnimh agus uisce sa saol laethúil",
+        "item1": "Fuinneamh a shábháil",
+        "item2": "Soilse a mhúchadh nuair nach bhfuil siad in úsáid",
+        "item3": "Trealamh a úsáid go stuama",
+        "item4": "Dramhaíl uisce a laghdú",
+        "item5": "Dramhaíl bia a sheachaint"
+      },
+      "transporte": {
+        "titulo": "Iompar",
+        "resumo": "Roghanna seachas an gluaisteán le haghaidh taistil éadroime",
+        "item1": "Siúl nuair is féidir",
+        "item2": "Rothar a úsáid",
+        "item3": "Iompar poiblí a úsáid",
+        "item4": "Turais a roinnt nuair is féidir",
+        "item5": "Turais gluaisteáin neamhriachtanacha a laghdú"
+      },
+      "alimentacao": {
+        "titulo": "Bia",
+        "resumo": "Roghanna ag an mbord a laghdaíonn dramhaíl agus astaíochtaí",
+        "item1": "Táirgí áitiúla a cheannach",
+        "item2": "Dramhaíl a sheachaint",
+        "item3": "Béilí a phleanáil",
+        "item4": "Bia a úsáid níos fearr",
+        "item5": "Tomhaltas feola a laghdú"
+      },
+      "reciclagem": {
+        "titulo": "Athchúrsáil",
+        "resumo": "Déan sórtáil, athúsáid agus tabhair saol nua don mhéid a fhanann",
+        "item1": "Dramhaíl a shórtáil i gceart",
+        "item2": "Ábhair a athúsáid",
+        "item3": "Ábhair in-athchúrsáilte a dhiúscairt i gceart",
+        "item4": "Táirgí indiúscartha a sheachaint",
+        "item5": "Úsáidí nua a thabhairt do rudaí"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Eolas Spéisiúil Comhshaoil",
+      "subtitulo": "An raibh a fhios agat?",
+      "carregando": "Eolas spéisiúil á luchtú...",
+      "proxima": "An chéad eolas spéisiúil eile",
+      "erro_carregar": "Níorbh fhéidir eolas spéisiúil a luchtú faoi láthair."
+    },
+    "noticias": {
+      "titulo": "Nuacht Chomhshaoil",
+      "subtitulo": "Nuacht fhíor agus nuálach faoi inbhuanaitheacht",
+      "anteriores": "Nuacht roimhe seo",
+      "proximas": "An chéad nuacht eile",
+      "carregando": "Nuacht á luchtú...",
+      "erro_carregar": "Níorbh fhéidir nuacht a luchtú faoi láthair.",
+      "nenhuma": "Níl aon nuacht ar fáil faoi láthair.",
+      "ler_na_origem": "léigh ar an suíomh bunaidh →",
+      "sem_link": "Níl nasc seachtrach ar fáil don nuacht seo."
+    },
+    "rodape": {
+      "descricao": "Oideachas comhshaoil a athraíonn roghanna beaga go torthaí móra don phláinéid.",
+      "navegacao": "Nascleanúint",
+      "contato": "Teagmháil",
+      "copyright": "© 2026 Carbono Consciente. Gach ceart ar cosaint."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Painéal",
+    "meta_descricao": "Taifead do thurais agus déan monatóireacht ar do lorg carbóin le himeacht ama.",
+    "titulo": "Do phainéal nósanna",
+    "subtitulo": "Taifead do thurais agus déan monatóireacht ar do lorg carbóin le himeacht ama.",
+    "card_hoje": "CO₂ inniu",
+    "card_semana": "CO₂ an tseachtain seo",
+    "card_mes": "CO₂ an mhí seo",
+    "grafico_titulo": "Forás le 14 lá anuas",
+    "grafico_aria": "Forás an CO₂ le {{dias}} lá anuas",
+    "form_titulo": "Cuir turas leis",
+    "campo_meio": "Modh taistil",
+    "campo_distancia": "Fad (km)",
+    "campo_data": "Dáta",
+    "campo_observacao": "Nóta (roghnach)",
+    "campo_observacao_placeholder": "m.sh.: turas chun na hoibre",
+    "botao_adicionar": "cuir leis",
+    "salvando": "ag sábháil...",
+    "registrado_sucesso": "Turas taifeadta!",
+    "registros_titulo": "Na taifid is déanaí",
+    "registros_vazio": "Níl taifead ar bith ann fós — cuir leis do chéad turas thuas.",
+    "meio_removido": "Modh bainte",
+    "remover_registro": "Bain taifead",
+    "sessao_expirada": "Tá an seisiún imithe in éag.",
+    "erro_servidor": "Níorbh fhéidir teagmháil a dhéanamh leis an bhfreastalaí. An bhfuil sé ag rith?",
+    "erro_generico": "Níorbh fhéidir an oibríocht a chur i gcrích.",
+    "delta_sem_registros": "gan taifid sa tréimhse seo",
+    "delta_primeiro_registro": "an chéad taifead den tréimhse",
+    "delta_estavel": "cobhsaí i gcomparáid leis an tréimhse roimhe seo",
+    "delta_variacao": "{{percentual}}% i gcomparáid leis an tréimhse roimhe seo"
+  },
+  "globo": {
+    "legenda_titulo": "Astaíochtaí in aghaidh an duine",
+    "legenda_baixa": "Íseal",
+    "legenda_alta": "Ard",
+    "sair_destaque": "Fág an modh aibhsithe",
+    "buscar_placeholder": "Cuardaigh tír...",
+    "buscar_aria": "Cuardaigh tír ar an chruinneog",
+    "sem_dados_co2": "gan sonraí CO₂",
+    "tonelada_ano_pessoa": "{{valor}} tona/bliain in aghaidh an duine",
+    "territorio": "Críoch",
+    "fechar_painel": "Dún painéal",
+    "sem_dados_territorio": "Níl sonraí ar fáil faoi astaíochtaí CO₂ in aghaidh an duine don chríoch seo.",
+    "emissao_per_capita": "Astaíochtaí in aghaidh an duine:",
+    "equivalente_diario": "Coibhéis laethúil:",
+    "equivalente_semanal": "Coibhéis sheachtainiúil:",
+    "equivalente_mensal": "Coibhéis mhíosúil:",
+    "posicao_ranking": "Ionad sa rangú (as {{total}} tír):",
+    "fonte_estimativa": "Meastachán ar CO₂ iontaise in aghaidh an duine (Global Carbon Budget / Our World in Data, bonnbhliain 2024).",
+    "aria_interativo": "Cruinneog idirghníomhach astaíochtaí carbóin. Tarraing chun rothlú, scrollaigh chun súmáil, cliceáil ar thír chun a sonraí a fheiceáil, agus déan cliceáil dhúbailte chun an chruinneog a chur i mód aibhsithe.",
+    "aria_decorativo": "Cruinneog mhaisiúil ag rothlú, a léiríonn raon domhanda an tionscadail Carbono Consciente.",
+    "continente_asia": "An Áise",
+    "continente_africa": "An Afraic",
+    "continente_europa": "An Eoraip",
+    "continente_america_sul": "Meiriceá Theas",
+    "continente_america_norte": "Meiriceá Thuaidh",
+    "continente_oceania": "An Aigéine"
+  }
+}

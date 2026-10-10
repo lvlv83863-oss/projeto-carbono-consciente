@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Powrót na początek",
+    "theme_toggle_aria": "Przełącz motyw jasny/ciemny",
+    "menu_aria": "Otwórz menu",
+    "login_link": "zaloguj się",
+    "sair_link": "wyloguj się",
+    "painel_link": "panel",
+    "fechar": "Zamknij",
+    "nav": {
+      "plataforma": "Platforma",
+      "impacto": "Wpływ",
+      "habitos": "Nawyki",
+      "contato": "Kontakt",
+      "dados": "Dane"
+    }
+  },
+  "header": {
+    "idioma_aria": "Zmień język",
+    "idioma_buscar_placeholder": "Szukaj języka..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Zaloguj się",
+    "meta_descricao": "Zaloguj się lub utwórz konto, aby śledzić swoje dane i nawyki w Carbono Consciente.",
+    "esquerda_titulo": "Każda tona CO₂ zostawia ślad",
+    "esquerda_texto": "Zaloguj się, aby śledzić swoje dane, nawyki i ślad węglowy.",
+    "google_botao": "Kontynuuj z Google",
+    "google_em_breve": "Logowanie przez Google już wkrótce.",
+    "enviando": "wysyłanie...",
+    "erro_servidor": "Nie udało się połączyć z serwerem. Czy jest uruchomiony?",
+    "erro_generico": "Nie udało się ukończyć operacji.",
+    "login": {
+      "titulo": "Logowanie",
+      "email_label": "E-mail",
+      "email_placeholder": "ty@email.com",
+      "senha_label": "Hasło",
+      "botao": "zaloguj się",
+      "troca_texto": "Nie masz jeszcze konta?",
+      "troca_botao": "Zarejestruj się"
+    },
+    "cadastro": {
+      "titulo": "Rejestracja",
+      "nome_label": "Imię",
+      "nome_placeholder": "Twoje imię",
+      "email_label": "E-mail",
+      "email_placeholder": "ty@email.com",
+      "pais_label": "Kraj",
+      "pais_placeholder": "Szukaj kraju...",
+      "senha_label": "Hasło",
+      "confirmar_label": "Potwierdź hasło",
+      "botao": "zarejestruj się",
+      "troca_texto": "Masz już konto?",
+      "troca_botao": "Zaloguj się"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Hasła nie są takie same."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: edukacja ekologiczna o emisjach dwutlenku węgla, śladzie węglowym, ekologicznych wskazówkach, ciekawostkach i wiadomościach o środowisku.",
+    "hero": {
+      "titulo": "Każdy mały nawyk mniej obciąża planetę",
+      "texto": "CARBONO CONSCIENTE TO NIE ZIELONY CERTYFIKAT ANI ODLEGŁY CEL — TO SUMA ZWYKŁYCH DECYZJI, POWTARZANYCH CODZIENNIE: CO SADZISZ, JAK SIĘ PRZEMIESZCZASZ, KIEDY GASISZ ŚWIATŁO, GDZIE WYRZUCASZ ŚMIECI.",
+      "botao": "Zobacz więcej"
+    },
+    "acordeao": {
+      "titulo": "Czym jest Carbono Consciente?",
+      "emissao_titulo": "Emisja dwutlenku węgla",
+      "emissao_corpo": "Emisja dwutlenku węgla to uwalnianie do atmosfery gazów takich jak CO₂ — przede wszystkim przez spalanie paliw kopalnych, wycinkę lasów, produkcję przemysłową, a także przez codzienny transport.",
+      "clima_titulo": "Jak wpływa to na klimat?",
+      "clima_corpo": "Gazy cieplarniane tworzą warstwę, która zatrzymuje ciepło w atmosferze. Im więcej emisji, tym silniejszy ten efekt — i właśnie to napędza globalne ocieplenie oraz zmiany klimatu.",
+      "pegada_titulo": "Ślad węglowy",
+      "pegada_corpo": "To całkowita ilość gazów cieplarnianych wytwarzana, bezpośrednio lub pośrednio, przez codzienne działania osoby, firmy albo przez dany produkt.",
+      "neutro_titulo": "Neutralność węglowa × Carbono Consciente",
+      "neutro_corpo": "<strong>Neutralność węglowa</strong> polega na zrównoważeniu lub skompensowaniu wytworzonych emisji. <strong>Carbono Consciente</strong> stawia na wybory, które zmniejszają wpływ na środowisko, jeszcze przed myśleniem o kompensacji."
+    },
+    "dicas": {
+      "titulo_secao": "Ekologiczne wskazówki",
+      "clique_voltar": "kliknij, aby wrócić",
+      "casa": {
+        "titulo": "Dom",
+        "resumo": "Codzienne oszczędzanie energii i wody",
+        "item1": "Oszczędzaj energię",
+        "item2": "Gaś światło, gdy go nie używasz",
+        "item3": "Korzystaj ze sprzętu świadomie",
+        "item4": "Ograniczaj marnowanie wody",
+        "item5": "Nie marnuj jedzenia"
+      },
+      "transporte": {
+        "titulo": "Transport",
+        "resumo": "Alternatywy dla samochodu na lżejsze podróże",
+        "item1": "Chodź pieszo, kiedy to możliwe",
+        "item2": "Jeźdź na rowerze",
+        "item3": "Korzystaj z transportu publicznego",
+        "item4": "Dziel przejazdy z innymi, kiedy to możliwe",
+        "item5": "Ograniczaj zbędne przejazdy samochodem"
+      },
+      "alimentacao": {
+        "titulo": "Jedzenie",
+        "resumo": "Wybory przy stole, które zmniejszają marnowanie i emisje",
+        "item1": "Kupuj produkty lokalne",
+        "item2": "Nie marnuj jedzenia",
+        "item3": "Planuj posiłki",
+        "item4": "Lepiej wykorzystuj produkty",
+        "item5": "Jedz mniej mięsa"
+      },
+      "reciclagem": {
+        "titulo": "Recykling",
+        "resumo": "Segreguj, używaj ponownie i daj drugie życie temu, co zostaje",
+        "item1": "Prawidłowo segreguj odpady",
+        "item2": "Używaj materiałów ponownie",
+        "item3": "Oddawaj surowce do właściwych pojemników",
+        "item4": "Unikaj produktów jednorazowych",
+        "item5": "Znajduj nowe zastosowania dla przedmiotów"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Ciekawostki o środowisku",
+      "subtitulo": "Czy wiesz, że...?",
+      "carregando": "Wczytywanie ciekawostki...",
+      "proxima": "Następna ciekawostka",
+      "erro_carregar": "Nie udało się teraz wczytać ciekawostek."
+    },
+    "noticias": {
+      "titulo": "Wiadomości o środowisku",
+      "subtitulo": "Prawdziwe i aktualne wiadomości o zrównoważonym rozwoju",
+      "anteriores": "Poprzednie wiadomości",
+      "proximas": "Następne wiadomości",
+      "carregando": "Wczytywanie wiadomości...",
+      "erro_carregar": "Nie udało się teraz wczytać wiadomości.",
+      "nenhuma": "Obecnie nie ma dostępnych wiadomości.",
+      "ler_na_origem": "czytaj w źródle →",
+      "sem_link": "Dla tej wiadomości nie ma zewnętrznego linku."
+    },
+    "rodape": {
+      "descricao": "Edukacja ekologiczna, która zamienia małe decyzje w wielkie efekty dla planety.",
+      "navegacao": "Nawigacja",
+      "contato": "Kontakt",
+      "copyright": "© 2026 Carbono Consciente. Wszelkie prawa zastrzeżone."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Panel",
+    "meta_descricao": "Zapisuj swoje podróże i śledź swój ślad węglowy w czasie.",
+    "titulo": "Twój panel nawyków",
+    "subtitulo": "Zapisuj swoje podróże i śledź swój ślad węglowy w czasie.",
+    "card_hoje": "CO₂ dzisiaj",
+    "card_semana": "CO₂ w tym tygodniu",
+    "card_mes": "CO₂ w tym miesiącu",
+    "grafico_titulo": "Zmiany w ciągu ostatnich 14 dni",
+    "grafico_aria": "Zmiany poziomu CO₂ w ciągu ostatnich {{dias}} dni",
+    "form_titulo": "Dodaj podróż",
+    "campo_meio": "Środek transportu",
+    "campo_distancia": "Odległość (km)",
+    "campo_data": "Data",
+    "campo_observacao": "Uwaga (opcjonalnie)",
+    "campo_observacao_placeholder": "np.: droga do pracy",
+    "botao_adicionar": "dodaj",
+    "salvando": "zapisywanie...",
+    "registrado_sucesso": "Podróż zapisana!",
+    "registros_titulo": "Ostatnie wpisy",
+    "registros_vazio": "Nie ma jeszcze żadnych wpisów — dodaj powyżej swoją pierwszą podróż.",
+    "meio_removido": "Usunięty środek transportu",
+    "remover_registro": "Usuń wpis",
+    "sessao_expirada": "Sesja wygasła.",
+    "erro_servidor": "Nie udało się połączyć z serwerem. Czy jest uruchomiony?",
+    "erro_generico": "Nie udało się ukończyć operacji.",
+    "delta_sem_registros": "brak wpisów w tym okresie",
+    "delta_primeiro_registro": "pierwszy wpis w tym okresie",
+    "delta_estavel": "stabilnie wobec poprzedniego okresu",
+    "delta_variacao": "{{percentual}}% wobec poprzedniego okresu"
+  },
+  "globo": {
+    "legenda_titulo": "Emisje na osobę",
+    "legenda_baixa": "Niskie",
+    "legenda_alta": "Wysokie",
+    "sair_destaque": "Wyjdź z trybu wyróżnienia",
+    "buscar_placeholder": "Szukaj kraju...",
+    "buscar_aria": "Szukaj kraju na globusie",
+    "sem_dados_co2": "brak danych o CO₂",
+    "tonelada_ano_pessoa": "{{valor}} t/rok na osobę",
+    "territorio": "Terytorium",
+    "fechar_painel": "Zamknij panel",
+    "sem_dados_territorio": "Dla tego terytorium nie ma dostępnych danych o emisjach CO₂ na osobę.",
+    "emissao_per_capita": "Emisje na osobę:",
+    "equivalente_diario": "Odpowiednik dzienny:",
+    "equivalente_semanal": "Odpowiednik tygodniowy:",
+    "equivalente_mensal": "Odpowiednik miesięczny:",
+    "posicao_ranking": "Miejsce w rankingu (na {{total}} krajów):",
+    "fonte_estimativa": "Szacunkowa emisja CO₂ ze źródeł kopalnych na osobę (Global Carbon Budget / Our World in Data, rok bazowy 2024).",
+    "aria_interativo": "Interaktywny globus emisji dwutlenku węgla. Przeciągaj, aby obracać, przewijaj, aby przybliżyć, kliknij kraj, aby zobaczyć jego dane, a kliknij dwukrotnie, aby wyróżnić globus.",
+    "aria_decorativo": "Dekoracyjny obracający się globus, który ilustruje globalny zasięg projektu Carbono Consciente.",
+    "continente_asia": "Azja",
+    "continente_africa": "Afryka",
+    "continente_europa": "Europa",
+    "continente_america_sul": "Ameryka Południowa",
+    "continente_america_norte": "Ameryka Północna",
+    "continente_oceania": "Oceania"
+  }
+}

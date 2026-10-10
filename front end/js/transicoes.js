@@ -11,8 +11,14 @@
   document.documentElement.classList.add("pagina-carregando");
 
   function mostrarPagina() {
-    requestAnimationFrame(() => {
-      document.documentElement.classList.remove("pagina-carregando");
+    // Espera a primeira passada de tradução (front end/i18n/i18n.js) antes de
+    // revelar a página, pra não piscar o texto em português e trocar na hora
+    // seguinte. window.i18nPronto é uma Promise resolvida de segurança mesmo
+    // que i18n.js não carregue, então isso nunca trava a página.
+    Promise.resolve(window.i18nPronto).then(() => {
+      requestAnimationFrame(() => {
+        document.documentElement.classList.remove("pagina-carregando");
+      });
     });
   }
 

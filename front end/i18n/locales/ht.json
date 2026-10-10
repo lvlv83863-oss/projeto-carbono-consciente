@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Tounen nan paj dakèy",
+    "theme_toggle_aria": "Chanje tèm klè/fènwa",
+    "menu_aria": "Louvri meni",
+    "login_link": "konekte",
+    "sair_link": "dekonekte",
+    "painel_link": "tablodbò",
+    "fechar": "Fèmen",
+    "nav": {
+      "plataforma": "Platfòm",
+      "impacto": "Enpak",
+      "habitos": "Abitid",
+      "contato": "Kontak",
+      "dados": "Done"
+    }
+  },
+  "header": {
+    "idioma_aria": "Chanje lang",
+    "idioma_buscar_placeholder": "Chèche lang..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Konekte",
+    "meta_descricao": "Konekte oswa enskri pou swiv done ak abitid ou sou Carbono Consciente.",
+    "esquerda_titulo": "Chak tòn CO₂ kite yon tras",
+    "esquerda_texto": "Konekte pou swiv done ou, abitid ou ak anprent kabòn ou.",
+    "google_botao": "Kontinye ak Google",
+    "google_em_breve": "Koneksyon ak Google ap disponib talè.",
+    "enviando": "ap voye...",
+    "erro_servidor": "Nou pa t kapab kontakte sèvè a. Èske li ap mache?",
+    "erro_generico": "Nou pa t kapab fini operasyon an.",
+    "login": {
+      "titulo": "Konekte",
+      "email_label": "Imèl",
+      "email_placeholder": "ou@imel.com",
+      "senha_label": "Modpas",
+      "botao": "konekte",
+      "troca_texto": "Ou pa gen kont toujou?",
+      "troca_botao": "Enskri"
+    },
+    "cadastro": {
+      "titulo": "Enskripsyon",
+      "nome_label": "Non",
+      "nome_placeholder": "Non ou",
+      "email_label": "Imèl",
+      "email_placeholder": "ou@imel.com",
+      "pais_label": "Peyi",
+      "pais_placeholder": "Chèche peyi...",
+      "senha_label": "Modpas",
+      "confirmar_label": "Konfime modpas",
+      "botao": "enskri",
+      "troca_texto": "Ou gen kont deja?",
+      "troca_botao": "Konekte"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Modpas yo pa menm."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: edikasyon anviwònmantal sou emisyon kabòn, anprent kabòn, konsèy dirab, fenomèn enteresan ak nouvèl anviwònmantal.",
+    "hero": {
+      "titulo": "Chak ti abitid peze mwens sou planèt la",
+      "texto": "CARBONO CONSCIENTE PA YON SÈTIFIKA VÈT NI YON OBJEKTIF LWEN — SE SOM TI CHWA ÒDINÈ, REPETE CHAK JOU: SA OU PLANTE, KIJAN OU DEPLASE, KILÈ OU FÈMEN LIMYÈ, KI KOTE OU JETE FATRA.",
+      "botao": "Wè plis"
+    },
+    "acordeao": {
+      "titulo": "Kisa Carbono Consciente ye?",
+      "emissao_titulo": "Emisyon kabòn",
+      "emissao_corpo": "Emisyon kabòn se lage gaz tankou CO₂ nan atmosfè a, sitou akoz boule konbistib fosil, debwazman, pwodiksyon endistriyèl e menm transpò chak jou.",
+      "clima_titulo": "Kijan sa afekte klima a?",
+      "clima_corpo": "Gaz lakòz efè tèmik fòme yon kouch ki kenbe chalè nan atmosfè a. Plis gen emisyon, plis efè sa a fò — e se sa ki lakòz rechofman global ak chanjman klimatik.",
+      "pegada_titulo": "Anprent kabòn",
+      "pegada_corpo": "Se kantite total gaz lakòz efè tèmik ki pwodui, dirèkteman oswa endirèkteman, pa aktivite yon moun, yon antrepriz oswa yon pwodui nan lavi chak jou.",
+      "neutro_titulo": "Kabòn Net × Carbono Consciente",
+      "neutro_corpo": "<strong>Kabòn net</strong> chèche balanse oswa konpanse emisyon yo pwodui. <strong>Carbono consciente</strong> bay priyorite a chwa ki diminye enpak sou anviwònman an anvan menm panse a konpansasyon."
+    },
+    "dicas": {
+      "titulo_secao": "Konsèy Dirab",
+      "clique_voltar": "klike pou tounen",
+      "casa": {
+        "titulo": "Kay",
+        "resumo": "Ekonomi enèji ak dlo nan lavi chak jou",
+        "item1": "Ekonomize enèji",
+        "item2": "Fèmen limyè lè w pa itilize yo",
+        "item3": "Itilize aparèy yo yon fason konsyan",
+        "item4": "Diminye gaspiyaj dlo",
+        "item5": "Evite gaspiyaj manje"
+      },
+      "transporte": {
+        "titulo": "Transpò",
+        "resumo": "Altènativ a machin pou deplasman pi lejè",
+        "item1": "Mache lè sa posib",
+        "item2": "Itilize bisiklèt",
+        "item3": "Itilize transpò piblik",
+        "item4": "Pataje vwayaj lè sa posib",
+        "item5": "Diminye deplasman machin ki pa nesesè"
+      },
+      "alimentacao": {
+        "titulo": "Manje",
+        "resumo": "Chwa sou tab ki diminye gaspiyaj ak emisyon",
+        "item1": "Konsome pwodui lokal",
+        "item2": "Evite gaspiyaj",
+        "item3": "Planifye repa yo",
+        "item4": "Pi byen itilize manje",
+        "item5": "Diminye konsomasyon vyann"
+      },
+      "reciclagem": {
+        "titulo": "Resiklaj",
+        "resumo": "Separe, re-itilize e bay sa ki rete yon nouvo lavi",
+        "item1": "Separe fatra kòrèkteman",
+        "item2": "Re-itilize materyo",
+        "item3": "Voye sa ki rekiklab nan bon kote",
+        "item4": "Evite pwodui jetab",
+        "item5": "Bay objè yo yon nouvo itilizasyon"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Fenomèn Anviwònmantal",
+      "subtitulo": "Ou te konnen?",
+      "carregando": "Ap chaje yon fenomèn...",
+      "proxima": "Pwochen fenomèn",
+      "erro_carregar": "Nou pa t kapab chaje fenomèn yo kounye a."
+    },
+    "noticias": {
+      "titulo": "Nouvèl Anviwònmantal",
+      "subtitulo": "Nouvèl reyèl ak resan sou dirabilite",
+      "anteriores": "Nouvèl anvan",
+      "proximas": "Pwochen nouvèl",
+      "carregando": "Ap chaje nouvèl yo...",
+      "erro_carregar": "Nou pa t kapab chaje nouvèl yo kounye a.",
+      "nenhuma": "Pa gen nouvèl disponib kounye a.",
+      "ler_na_origem": "li sou sit orijinal la →",
+      "sem_link": "Pa gen lyen ekstèn disponib pou nouvèl sa a."
+    },
+    "rodape": {
+      "descricao": "Edikasyon anviwònmantal ki transfòme ti chwa yo an gwo rezilta pou planèt la.",
+      "navegacao": "Navigasyon",
+      "contato": "Kontak",
+      "copyright": "© 2026 Carbono Consciente. Tout dwa rezève."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Tablodbò",
+    "meta_descricao": "Anrejistre deplasman ou yo e swiv anprent kabòn ou sou tan.",
+    "titulo": "Tablodbò abitid ou",
+    "subtitulo": "Anrejistre deplasman ou yo e swiv anprent kabòn ou sou tan.",
+    "card_hoje": "CO₂ jodi a",
+    "card_semana": "CO₂ semèn sa a",
+    "card_mes": "CO₂ mwa sa a",
+    "grafico_titulo": "Evolisyon nan dènye 14 jou yo",
+    "grafico_aria": "Evolisyon CO₂ nan dènye {{dias}} jou yo",
+    "form_titulo": "Ajoute yon deplasman",
+    "campo_meio": "Mwayen transpò",
+    "campo_distancia": "Distans (km)",
+    "campo_data": "Dat",
+    "campo_observacao": "Nòt (opsyonèl)",
+    "campo_observacao_placeholder": "pa egzanp: wout pou travay",
+    "botao_adicionar": "ajoute",
+    "salvando": "ap anrejistre...",
+    "registrado_sucesso": "Deplasman anrejistre!",
+    "registros_titulo": "Dènye anrejistreman",
+    "registros_vazio": "Pa gen anrejistreman toujou — ajoute premye deplasman ou anwo a.",
+    "meio_removido": "Mwayen retire",
+    "remover_registro": "Retire anrejistreman",
+    "sessao_expirada": "Sesyon an ekspire.",
+    "erro_servidor": "Nou pa t kapab kontakte sèvè a. Èske li ap mache?",
+    "erro_generico": "Nou pa t kapab fini operasyon an.",
+    "delta_sem_registros": "pa gen anrejistreman nan peryòd sa a",
+    "delta_primeiro_registro": "premye anrejistreman nan peryòd sa a",
+    "delta_estavel": "estab parapò a peryòd anvan",
+    "delta_variacao": "{{percentual}}% parapò a peryòd anvan"
+  },
+  "globo": {
+    "legenda_titulo": "Emisyon pa moun",
+    "legenda_baixa": "Ba",
+    "legenda_alta": "Wo",
+    "sair_destaque": "Kite mòd mete aksan",
+    "buscar_placeholder": "Chèche peyi...",
+    "buscar_aria": "Chèche peyi sou glòb la",
+    "sem_dados_co2": "pa gen done CO₂",
+    "tonelada_ano_pessoa": "{{valor}} t/an pa moun",
+    "territorio": "Teritwa",
+    "fechar_painel": "Fèmen panel",
+    "sem_dados_territorio": "Pa gen done disponib sou emisyon CO₂ pa moun pou teritwa sa a.",
+    "emissao_per_capita": "Emisyon pa moun:",
+    "equivalente_diario": "Ekivalan chak jou:",
+    "equivalente_semanal": "Ekivalan chak semèn:",
+    "equivalente_mensal": "Ekivalan chak mwa:",
+    "posicao_ranking": "Pozisyon nan klasman an (sou {{total}} peyi):",
+    "fonte_estimativa": "Estimasyon CO₂ fosil pa moun (Global Carbon Budget / Our World in Data, ane referans 2024).",
+    "aria_interativo": "Glòb entèraktif emisyon kabòn. Trennen pou vire, defile pou zoome, klike sou yon peyi pou wè done yo e doub-klike pou mete glòb la nan mòd mete aksan.",
+    "aria_decorativo": "Glòb dekoratif k ap vire, ki montre pòte global pwojè Carbono Consciente.",
+    "continente_asia": "Azi",
+    "continente_africa": "Afrik",
+    "continente_europa": "Ewòp",
+    "continente_america_sul": "Amerik di Sid",
+    "continente_america_norte": "Amerik di Nò",
+    "continente_oceania": "Oseyani"
+  }
+}

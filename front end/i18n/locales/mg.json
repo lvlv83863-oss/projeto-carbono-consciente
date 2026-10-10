@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Miverina any am-piandohana",
+    "theme_toggle_aria": "Mamadika ny endrika mazava/maizina",
+    "menu_aria": "Sokafy ny tolotra",
+    "login_link": "hiditra",
+    "sair_link": "hivoaka",
+    "painel_link": "tontonana",
+    "fechar": "Hidio",
+    "nav": {
+      "plataforma": "Sehatra",
+      "impacto": "Fiantraikany",
+      "habitos": "Fomba fiaina",
+      "contato": "Fifandraisana",
+      "dados": "Angon-drakitra"
+    }
+  },
+  "header": {
+    "idioma_aria": "Hanova fiteny",
+    "idioma_buscar_placeholder": "Mitady fiteny..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Hiditra",
+    "meta_descricao": "Midira na misoratra anarana mba hanaraha-maso ny angon-drakitrao sy ny fomba fiainanao ao amin'ny Carbono Consciente.",
+    "esquerda_titulo": "Isaky ny taonina CO₂ dia mamela dian-tongotra",
+    "esquerda_texto": "Midira mba hanaraha-maso ny angon-drakitrao, ny fomba fiainanao sy ny dian-karbonanao.",
+    "google_botao": "Hanohy amin'ny Google",
+    "google_em_breve": "Ho avy tsy ho ela ny fidirana amin'ny Google.",
+    "enviando": "mandefa...",
+    "erro_servidor": "Tsy voatohy ny mpizara. Mihodina ve izy?",
+    "erro_generico": "Tsy voavita ny asa.",
+    "login": {
+      "titulo": "Hiditra",
+      "email_label": "Mailaka",
+      "email_placeholder": "anarako@mailaka.com",
+      "senha_label": "Teny miafina",
+      "botao": "hiditra",
+      "troca_texto": "Mbola tsy manana kaonty ve ianao?",
+      "troca_botao": "Misoratra anarana"
+    },
+    "cadastro": {
+      "titulo": "Fisoratana anarana",
+      "nome_label": "Anarana",
+      "nome_placeholder": "Ny anaranao",
+      "email_label": "Mailaka",
+      "email_placeholder": "anarako@mailaka.com",
+      "pais_label": "Firenena",
+      "pais_placeholder": "Mitady firenena...",
+      "senha_label": "Teny miafina",
+      "confirmar_label": "Hamafiso ny teny miafina",
+      "botao": "misoratra anarana",
+      "troca_texto": "Manana kaonty efa ve ianao?",
+      "troca_botao": "Hiditra"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Tsy mitovy ny teny miafina."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: fampianarana momba ny tontolo iainana mikasika ny famoahana karbonina, ny dian-karbona, torohevitra maharitra, zava-mahaliana ary vaovao momba ny tontolo iainana.",
+    "hero": {
+      "titulo": "Ny fomba fiaina kely rehetra dia manamaivana ny enta-mavesatra eto an-tany",
+      "texto": "NY CARBONO CONSCIENTE DIA TSY MARIKA MAITSO NA TANJONA LAVITRA — FITAMBARAN'NY SAFIDY MAHAZATRA IZY, AVERIMBERINA ISAN'ANDRO: NY ZAVATRA AMBOLENAO, NY FOMBA FIFINDRA-MONINA, NY FOTOANA AMONOANAO NY JIRO, NY TOERANA ANARIANAO NY FAKO.",
+      "botao": "Hijery bebe kokoa"
+    },
+    "acordeao": {
+      "titulo": "Inona ny Carbono Consciente?",
+      "emissao_titulo": "Famoahana karbonina",
+      "emissao_corpo": "Ny famoahana karbonina dia ny famoahana entona toy ny CO₂ eny amin'ny habakabaka, indrindra noho ny fandorana solika fôsily, ny fandripahana ala, ny famokarana indostrialy ary na dia ny fitaterana andavanandro aza.",
+      "clima_titulo": "Ahoana no fiantraikany amin'ny toetr'andro?",
+      "clima_corpo": "Ny entona mampiakatra ny hafanana dia mamorona sosona mitahiry ny hafanana ao amin'ny habakabaka. Arakaraka ny hamaroan'ny famoahana no hihamafisan'io fiantraikany io — ary izany no mandrisika ny fampiakarana hafanana maneran-tany sy ny fiovaovan'ny toetr'andro.",
+      "pegada_titulo": "Dian-karbona",
+      "pegada_corpo": "Io no fitambaran'ny entona mampiakatra ny hafanana vokarin'ny asan'ny olona iray, orinasa iray na vokatra iray andavanandro, na mivantana na tsy mivantana.",
+      "neutro_titulo": "Karbona Maharitra × Carbono Consciente",
+      "neutro_corpo": "Ny <strong>karbona maharitra</strong> dia mikatsaka ny mandanjalanja na manonitra ny famoahana vokarina. Ny <strong>carbono consciente</strong> kosa dia manome lanja ny safidy mampihena ny fiantraikany amin'ny tontolo iainana, alohan'ny hieritreritra ny fanonerana mihitsy."
+    },
+    "dicas": {
+      "titulo_secao": "Torohevitra maharitra",
+      "clique_voltar": "tsindrio mba hiverenana",
+      "casa": {
+        "titulo": "Trano",
+        "resumo": "Fitsitsiana angovo sy rano andavanandro",
+        "item1": "Tsitsio ny angovo",
+        "item2": "Vonoy ny jiro raha tsy ampiasaina",
+        "item3": "Ampiasao am-pahendrena ny fitaovana",
+        "item4": "Hahena ny fandaniam-poana rano",
+        "item5": "Fadio ny fandaniam-poana sakafo"
+      },
+      "transporte": {
+        "titulo": "Fitaterana",
+        "resumo": "Safidy hafa ankoatry ny fiara ho amin'ny fifindra-monina maivana kokoa",
+        "item1": "Mandehana an-tongotra rehefa afaka",
+        "item2": "Ampiasao ny bisikileta",
+        "item3": "Ampiasao ny fitaterana iombonana",
+        "item4": "Iombonana amin'ny dia rehefa afaka",
+        "item5": "Hahena ny dia fiara tsy ilaina"
+      },
+      "alimentacao": {
+        "titulo": "Sakafo",
+        "resumo": "Safidy eo am-pandriana latabatra izay mampihena ny fandaniam-poana sy ny famoahana",
+        "item1": "Mividy vokatra avy eo an-toerana",
+        "item2": "Fadio ny fandaniam-poana",
+        "item3": "Mikasa mialoha ny sakafo",
+        "item4": "Ampiasao tsara ny sakafo",
+        "item5": "Hahena ny fihinanana hena"
+      },
+      "reciclagem": {
+        "titulo": "Fanodinana indray",
+        "resumo": "Avahao, ampiasao indray, ary omeo fampiasana vaovao izay sisa",
+        "item1": "Avahao araka ny tokony ho izy ny fako",
+        "item2": "Ampiasao indray ny zavatra",
+        "item3": "Ampitondrao araka ny tokony ho izy ny azo ovaina",
+        "item4": "Fadio ny vokatra indray mandeha ihany",
+        "item5": "Omeo fampiasana vaovao ny zavatra"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Zava-mahaliana momba ny tontolo iainana",
+      "subtitulo": "Fantatrao ve?",
+      "carregando": "Mampiditra zava-mahaliana...",
+      "proxima": "Zava-mahaliana manaraka",
+      "erro_carregar": "Tsy afaka naka ny zava-mahaliana amin'izao fotoana izao."
+    },
+    "noticias": {
+      "titulo": "Vaovao momba ny tontolo iainana",
+      "subtitulo": "Vaovao marina sy vaovao momba ny fampandrosoana maharitra",
+      "anteriores": "Vaovao teo aloha",
+      "proximas": "Vaovao manaraka",
+      "carregando": "Mampiditra vaovao...",
+      "erro_carregar": "Tsy afaka naka ny vaovao amin'izao fotoana izao.",
+      "nenhuma": "Tsy misy vaovao azo jerena amin'izao fotoana izao.",
+      "ler_na_origem": "vakio eo amin'ny tranonkala niaviany →",
+      "sem_link": "Tsy misy rohy ivelany azo jerena ho an'ity vaovao ity."
+    },
+    "rodape": {
+      "descricao": "Fampianarana momba ny tontolo iainana, manova safidy kely ho vokatra lehibe ho an'ny tany.",
+      "navegacao": "Fitetezana",
+      "contato": "Fifandraisana",
+      "copyright": "© 2026 Carbono Consciente. Voatahiry ny zo rehetra."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Tontonana",
+    "meta_descricao": "Soraty ny dianao ary araho maso ny dian-karbonanao mandritra ny fotoana.",
+    "titulo": "Ny tontonan'ny fomba fiainanao",
+    "subtitulo": "Soraty ny dianao ary araho maso ny dian-karbonanao mandritra ny fotoana.",
+    "card_hoje": "CO₂ anio",
+    "card_semana": "CO₂ amin'ity herinandro ity",
+    "card_mes": "CO₂ amin'ity volana ity",
+    "grafico_titulo": "Fivoarana tao anatin'ny 14 andro farany",
+    "grafico_aria": "Fivoaran'ny CO₂ tao anatin'ny {{dias}} andro farany",
+    "form_titulo": "Hanampy dia",
+    "campo_meio": "Fomba fitaterana",
+    "campo_distancia": "Halavan-dalana (km)",
+    "campo_data": "Daty",
+    "campo_observacao": "Fanamarihana (tsy voatery)",
+    "campo_observacao_placeholder": "oh.: dia mankany amin'ny asa",
+    "botao_adicionar": "ampio",
+    "salvando": "mitahiry...",
+    "registrado_sucesso": "Voasoratra ny dia!",
+    "registros_titulo": "Firaketana farany",
+    "registros_vazio": "Mbola tsy misy firaketana — ampio ny dia voalohanao etsy ambony.",
+    "meio_removido": "Fomba nesorina",
+    "remover_registro": "Esory ny firaketana",
+    "sessao_expirada": "Lany ny fotoam-piasana.",
+    "erro_servidor": "Tsy voatohy ny mpizara. Mihodina ve izy?",
+    "erro_generico": "Tsy voavita ny asa.",
+    "delta_sem_registros": "tsy misy firaketana tamin'io vanim-potoana io",
+    "delta_primeiro_registro": "firaketana voalohany amin'io vanim-potoana io",
+    "delta_estavel": "mitovy amin'ny vanim-potoana teo aloha",
+    "delta_variacao": "{{percentual}}% raha oharina amin'ny vanim-potoana teo aloha"
+  },
+  "globo": {
+    "legenda_titulo": "Famoahana isan-olona",
+    "legenda_baixa": "Ambany",
+    "legenda_alta": "Ambony",
+    "sair_destaque": "Mivoaha amin'ny fomba fanasongadinana",
+    "buscar_placeholder": "Mitady firenena...",
+    "buscar_aria": "Mitady firenena eo amin'ny tany boribory",
+    "sem_dados_co2": "tsy misy angon-drakitra CO₂",
+    "tonelada_ano_pessoa": "{{valor}} t/taona isan'olona",
+    "territorio": "Faritany",
+    "fechar_painel": "Hidio ny tontonana",
+    "sem_dados_territorio": "Tsy misy angon-drakitra momba ny famoahana CO₂ isan-olona ho an'ity faritany ity.",
+    "emissao_per_capita": "Famoahana isan-olona:",
+    "equivalente_diario": "Mitovy amin'ny isan'andro:",
+    "equivalente_semanal": "Mitovy amin'ny isan-kerinandro:",
+    "equivalente_mensal": "Mitovy amin'ny isam-bolana:",
+    "posicao_ranking": "Laharana amin'ny lisitra (amin'ny {{total}} firenena):",
+    "fonte_estimativa": "Tombantombana momba ny CO₂ fôsily isan-olona (Global Carbon Budget / Our World in Data, taona fototra 2024).",
+    "aria_interativo": "Tany boribory mifandray momba ny famoahana karbonina. Tariho mba hampihodinana, horohoroy mba hanakekezana, tsindrio ny firenena iray mba hahitana ny angon-drakitra, ary kitiho indroa mba hampidirana ny tany boribory amin'ny fomba fanasongadinana.",
+    "aria_decorativo": "Tany boribory mihodina ho fanatsarana, maneho ny fihenan'ny tontolo maneran-tany an'ny tetikasa Carbono Consciente.",
+    "continente_asia": "Azia",
+    "continente_africa": "Afrika",
+    "continente_europa": "Eoropa",
+    "continente_america_sul": "Amerika Atsimo",
+    "continente_america_norte": "Amerika Avaratra",
+    "continente_oceania": "Oseania"
+  }
+}

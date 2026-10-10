@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Buyela ekhaya",
+    "theme_toggle_aria": "Tshintsha umxholo okhanyayo/omnyama",
+    "menu_aria": "Vula imenyu",
+    "login_link": "ngena",
+    "sair_link": "phuma",
+    "painel_link": "ibhodi",
+    "fechar": "Vala",
+    "nav": {
+      "plataforma": "Iqonga",
+      "impacto": "Impembelelo",
+      "habitos": "Imikhwa",
+      "contato": "Qhagamshelana",
+      "dados": "Idatha"
+    }
+  },
+  "header": {
+    "idioma_aria": "Tshintsha ulwimi",
+    "idioma_buscar_placeholder": "Khangela ulwimi..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Ngena",
+    "meta_descricao": "Ngena okanye ubhalise ukulandelela idatha nemikhwa yakho kuCarbono Consciente.",
+    "esquerda_titulo": "Iton nganye yeCO₂ ishiya umkhondo",
+    "esquerda_texto": "Ngena ukulandelela idatha yakho, imikhwa yakho nomkhondo wakho wekhabhoni.",
+    "google_botao": "Qhubeka ngeGoogle",
+    "google_em_breve": "Ukungena nge-Google kuza kufika kungekudala.",
+    "enviando": "kuthunyelwa...",
+    "erro_servidor": "Ayikwazanga ukuqhagamshelana nesiva. Ingaba iyasebenza?",
+    "erro_generico": "Ayikwazanga ukugqibezela lo msebenzi.",
+    "login": {
+      "titulo": "Ngena",
+      "email_label": "I-imeyili",
+      "email_placeholder": "wena@imeyili.com",
+      "senha_label": "Iphasiwedi",
+      "botao": "ngena",
+      "troca_texto": "Awukabi na-akhawunti?",
+      "troca_botao": "Bhalisa"
+    },
+    "cadastro": {
+      "titulo": "Ubhaliso",
+      "nome_label": "Igama",
+      "nome_placeholder": "Igama lakho",
+      "email_label": "I-imeyili",
+      "email_placeholder": "wena@imeyili.com",
+      "pais_label": "Ilizwe",
+      "pais_placeholder": "Khangela ilizwe...",
+      "senha_label": "Iphasiwedi",
+      "confirmar_label": "Qinisekisa iphasiwedi",
+      "botao": "bhalisa",
+      "troca_texto": "Unayo kakade i-akhawunti?",
+      "troca_botao": "Ngena"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Iiphasiwedi azifani."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: imfundo yendalo malunga nokukhutshwa kwekhabhoni, umkhondo wekhabhoni, amacebiso ophila ngendlela esimeleyo, izinto ezinomdla kunye neendaba zendalo.",
+    "hero": {
+      "titulo": "Umkhwa ngamnye omncinci uthwalisa umhlaba umthwalo ongephi",
+      "texto": "ICARBONO CONSCIENTE AYIFANI NOLUHLAZA NOKUBA NGUYE UMNQOPHISO OKUDE — IYISAMBA SOKUKHETHA OKUQHELEKILEYO, OKUPHINDWA USUKU NGALUNYE: OKU UTYALAYO, INDLELA OHAMBA NGAYO, XESHA UCIMA UKHANYISO, APHO UPHOSA INKUNKUMA.",
+      "botao": "Bona Okungakumbi"
+    },
+    "acordeao": {
+      "titulo": "Yintoni iCarbono Consciente?",
+      "emissao_titulo": "Ukukhutshwa Kwekhabhoni",
+      "emissao_corpo": "Ukukhutshwa kwekhabhoni kukhutshwa kwegesi efana neCO₂ emoyeni, ngokukodwa ngokutshiswa kwamafutha asemlotheni, ukugawulwa kwamahlathi, imveliso yezimboni kananjalo nothutho lwemihla ngemihla.",
+      "clima_titulo": "Ichaphazela njani imozulu?",
+      "clima_corpo": "Igesi yendlu yenkukhu yenza umaleko obambe ubushushu emoyeni. Ngokwanda kokukhutshwa, uyakhula lo mphumela — nalonto ikhokelela kushushu kweplanethi nokutshintsha kwemozulu.",
+      "pegada_titulo": "Umkhondo Wekhabhoni",
+      "pegada_corpo": "Yisixa esipheleleyo segesi yendlu yenkukhu esivelayo, ngokuthe ngqo okanye ngokungathanga ngqo, kwimisebenzi yomntu, inkampani okanye imveliso yemihla ngemihla.",
+      "neutro_titulo": "Ikhabhoni Engathathi Cala × Carbono Consciente",
+      "neutro_corpo": "<strong>Ikhabhoni engathathi cala</strong> ifuna ukulinganisa okanye ukuhlawula ukukhutshwa okuvelayo. <strong>Carbono consciente</strong> ibeka phambili ukukhetha okunciphisa impembelelo kwindalo ngaphambi kokucinga ngokuhlawula."
+    },
+    "dicas": {
+      "titulo_secao": "Amacebiso Ophila Ngendlela Esimeleyo",
+      "clique_voltar": "cofa ukubuyela umva",
+      "casa": {
+        "titulo": "Ikhaya",
+        "resumo": "Ukonga amandla namanzi yonke imihla",
+        "item1": "Konga amandla",
+        "item2": "Cima izibane xa ungazisebenzisi",
+        "item3": "Sebenzisa izixhobo ngokunakekelekileyo",
+        "item4": "Nciphisa ukumoshwa kwamanzi",
+        "item5": "Phepha ukumoshwa kokutya"
+      },
+      "transporte": {
+        "titulo": "Uthutho",
+        "resumo": "Izinto ezingasebenziselwa imoto kuhambo olulula",
+        "item1": "Hamba ngeenyawo xa kunako",
+        "item2": "Sebenzisa ibhayisekile",
+        "item3": "Sebenzisa uthutho loluntu",
+        "item4": "Yabelana ngohambo xa kunako",
+        "item5": "Nciphisa uhambo olungafunekiyo ngemoto"
+      },
+      "alimentacao": {
+        "titulo": "Ukutya",
+        "resumo": "Ukukhetha etafileni okunciphisa ukumoshwa nokukhutshwa",
+        "item1": "Sebenzisa iimveliso zasekuhlaleni",
+        "item2": "Phepha ukumoshwa",
+        "item3": "Cwangcisa ukutya kwangaphambili",
+        "item4": "Sebenzisa ukutya ngcono",
+        "item5": "Nciphisa ukutya inyama"
+      },
+      "reciclagem": {
+        "titulo": "Ukuphinda Kusetyenziswe",
+        "resumo": "Hlula, phinda usebenzise, kwaye unike ubomi obutsha koko kuseleyo",
+        "item1": "Hlula inkunkuma ngokufanelekileyo",
+        "item2": "Phinda usebenzise izinto",
+        "item3": "Thumela izinto ezinokuphindwa zisetyenziswe apho kufanelekile",
+        "item4": "Phepha iimveliso ezilahlwayo",
+        "item5": "Nika izinto ukusetyenziswa okutsha"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Izinto Ezinomdla Zendalo",
+      "subtitulo": "Uyazi?",
+      "carregando": "Kulayishwa into enomdla...",
+      "proxima": "Into enomdla elandelayo",
+      "erro_carregar": "Ayikwazi ukulayisha izinto ezinomdla ngoku."
+    },
+    "noticias": {
+      "titulo": "Iindaba Zendalo",
+      "subtitulo": "Iindaba zenyaniso nezizintsha ngokusimamisa",
+      "anteriores": "Iindaba zangaphambili",
+      "proximas": "Iindaba ezilandelayo",
+      "carregando": "Kulayishwa iindaba...",
+      "erro_carregar": "Ayikwazi ukulayisha iindaba ngoku.",
+      "nenhuma": "Akukho ndaba ikhoyo okwangoku.",
+      "ler_na_origem": "funda kwisixelo sokuqala →",
+      "sem_link": "Akukho khonkco lwangaphandle lukhoyo kwali ndaba."
+    },
+    "rodape": {
+      "descricao": "Imfundo yendalo eguqula ukukhetha okuncinci kube ziziphumo ezinkulu kuplanethi.",
+      "navegacao": "Ukhangela",
+      "contato": "Qhagamshelana",
+      "copyright": "© 2026 Carbono Consciente. Zonke ilungelo zigcinelwe."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Ibhodi",
+    "meta_descricao": "Bhala uhambo lwakho kwaye ulandelele umkhondo wakho wekhabhoni ngexesha.",
+    "titulo": "Ibhodi yakho yemikhwa",
+    "subtitulo": "Bhala uhambo lwakho kwaye ulandelele umkhondo wakho wekhabhoni ngexesha.",
+    "card_hoje": "ICO₂ namhlanje",
+    "card_semana": "ICO₂ kweveki",
+    "card_mes": "ICO₂ kwinyanga",
+    "grafico_titulo": "Inkqubela kwintsuku 14 ezidlulileyo",
+    "grafico_aria": "Inkqubela yeCO₂ kwintsuku {{dias}} ezidlulileyo",
+    "form_titulo": "Yongeza uhambo",
+    "campo_meio": "Uhlobo lothutho",
+    "campo_distancia": "Umgama (km)",
+    "campo_data": "Umhla",
+    "campo_observacao": "Uphawu (ukhethwayo)",
+    "campo_observacao_placeholder": "umz.: uhambo ukuya emsebenzini",
+    "botao_adicionar": "yongeza",
+    "salvando": "kugcinwa...",
+    "registrado_sucesso": "Uhambo lurekhodiwe!",
+    "registros_titulo": "Iirekhodi zamva nje",
+    "registros_vazio": "Akukho rekhodi okwangoku — yongeza uhambo lwakho lokuqala ngasentla.",
+    "meio_removido": "Uhlobo lususiwe",
+    "remover_registro": "Susa irekhodi",
+    "sessao_expirada": "Iseshoni iphelelwe lixesha.",
+    "erro_servidor": "Ayikwazanga ukuqhagamshelana nesiva. Ingaba iyasebenza?",
+    "erro_generico": "Ayikwazanga ukugqibezela lo msebenzi.",
+    "delta_sem_registros": "akukho rekhodi kweli xesha",
+    "delta_primeiro_registro": "irekhodi yokuqala kweli xesha",
+    "delta_estavel": "izinzile kunexesha elidlulileyo",
+    "delta_variacao": "{{percentual}}% kunexesha elidlulileyo"
+  },
+  "globo": {
+    "legenda_titulo": "Ukukhutshwa ngomntu ngamnye",
+    "legenda_baixa": "Okuphantsi",
+    "legenda_alta": "Okuphezulu",
+    "sair_destaque": "Phuma kwimo yokugqama",
+    "buscar_placeholder": "Khangela ilizwe...",
+    "buscar_aria": "Khangela ilizwe emhlabeni",
+    "sem_dados_co2": "akukho datha yeCO₂",
+    "tonelada_ano_pessoa": "{{valor}} t/unyaka ngomntu ngamnye",
+    "territorio": "Ummandla",
+    "fechar_painel": "Vala ibhodi",
+    "sem_dados_territorio": "Akukho datha yokukhutshwa kweCO₂ ngomntu ngamnye ekhoyo kulo mmandla.",
+    "emissao_per_capita": "Ukukhutshwa ngomntu ngamnye:",
+    "equivalente_diario": "Okulinganayo kwemihla:",
+    "equivalente_semanal": "Okulinganayo kweveki:",
+    "equivalente_mensal": "Okulinganayo kwenyanga:",
+    "posicao_ranking": "Indawo kuluhlu (kwamazwe {{total}}):",
+    "fonte_estimativa": "Uqikelelo lweCO₂ yamafutha asemlotheni ngomntu ngamnye (Global Carbon Budget / Our World in Data, unyaka osisiseko 2024).",
+    "aria_interativo": "Umhlaba osebenzisanayo wokukhutshwa kwekhabhoni. Tsala ukujikeleza, skrola ukusondeza, cofa ilizwe ukubona idatha, kwaye ucofe kabini ukubeka umhlaba kwimo yokugqama.",
+    "aria_decorativo": "Umhlaba wokuhombisa ojikelezayo, obonisa ukufikelela komhlaba kwiprojekthi yeCarbono Consciente.",
+    "continente_asia": "Asia",
+    "continente_africa": "Afrika",
+    "continente_europa": "Yurophu",
+    "continente_america_sul": "Amerika Emzantsi",
+    "continente_america_norte": "Amerika Enyakatho",
+    "continente_oceania": "Oseniya"
+  }
+}

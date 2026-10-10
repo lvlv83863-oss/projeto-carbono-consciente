@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Späť na úvod",
+    "theme_toggle_aria": "Prepnúť svetlý/tmavý režim",
+    "menu_aria": "Otvoriť menu",
+    "login_link": "prihlásenie",
+    "sair_link": "odhlásenie",
+    "painel_link": "panel",
+    "fechar": "Zavrieť",
+    "nav": {
+      "plataforma": "Platforma",
+      "impacto": "Dopad",
+      "habitos": "Návyky",
+      "contato": "Kontakt",
+      "dados": "Údaje"
+    }
+  },
+  "header": {
+    "idioma_aria": "Zmeniť jazyk",
+    "idioma_buscar_placeholder": "Hľadať jazyk..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Prihlásenie",
+    "meta_descricao": "Prihláste sa alebo sa zaregistrujte, aby ste mohli sledovať svoje údaje a návyky na Carbono Consciente.",
+    "esquerda_titulo": "Každá tona CO₂ zanecháva stopu",
+    "esquerda_texto": "Prihláste sa, aby ste mohli sledovať svoje údaje, návyky a uhlíkovú stopu.",
+    "google_botao": "Pokračovať s Google",
+    "google_em_breve": "Prihlásenie cez Google už bude dostupné skoro.",
+    "enviando": "odosiela sa...",
+    "erro_servidor": "Nepodarilo sa spojiť sa so serverom. Je spustený?",
+    "erro_generico": "Operáciu sa nepodarilo dokončiť.",
+    "login": {
+      "titulo": "Prihlásenie",
+      "email_label": "Email",
+      "email_placeholder": "vy@email.com",
+      "senha_label": "Heslo",
+      "botao": "prihlásiť sa",
+      "troca_texto": "Ešte nemáte účet?",
+      "troca_botao": "Zaregistrovať sa"
+    },
+    "cadastro": {
+      "titulo": "Registrácia",
+      "nome_label": "Meno",
+      "nome_placeholder": "Vaše meno",
+      "email_label": "Email",
+      "email_placeholder": "vy@email.com",
+      "pais_label": "Krajina",
+      "pais_placeholder": "Hľadať krajinu...",
+      "senha_label": "Heslo",
+      "confirmar_label": "Potvrdiť heslo",
+      "botao": "zaregistrovať sa",
+      "troca_texto": "Už máte účet?",
+      "troca_botao": "Prihlásiť sa"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Heslá sa nezhodujú."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: environmentálne vzdelávanie o emisiách uhlíka, uhlíkovej stope, udržateľných tipoch, zaujímavostiach a správach o životnom prostredí.",
+    "hero": {
+      "titulo": "Každý malý návyk váži na planéte menej",
+      "texto": "CARBONO CONSCIENTE NIE JE ZELENÁ ZNAČKA ANI VZDIALENÝ CIEĽ — JE SÚČTOM BEŽNÝCH ROZHODNUTÍ, OPAKOVANÝCH KAŽDÝ DEŇ: ČO SADÍTE, AKO SA PRESÚVATE, KEDY ZHASÍNATE SVETLO, KAM HÁDŽETE ODPAD.",
+      "botao": "Zobraziť viac"
+    },
+    "acordeao": {
+      "titulo": "Čo je Carbono Consciente?",
+      "emissao_titulo": "Emisie uhlíka",
+      "emissao_corpo": "Emisia uhlíka je uvoľňovanie plynov, ako je CO₂, do atmosféry, hlavne spaľovaním fosílnych palív, odlesňovaním, priemyselnou výrobou a dokonca aj bežnou dopravou.",
+      "clima_titulo": "Ako to ovplyvňuje klímu?",
+      "clima_corpo": "Skleníkové plyny vytvárajú vrstvu, ktorá zadržiava teplo v atmosfére. Čím väčšie sú emisie, tým silnejší je tento efekt — a práve to poháňa globálne otepľovanie a zmenu klímy.",
+      "pegada_titulo": "Uhlíková stopa",
+      "pegada_corpo": "Je to celkové množstvo skleníkových plynov vyprodukovaných priamo alebo nepriamo činnosťami jednotlivca, firmy alebo výrobku v bežnom živote.",
+      "neutro_titulo": "Uhlíková neutralita × Carbono Consciente",
+      "neutro_corpo": "<strong>Uhlíková neutralita</strong> sa snaží vyvážiť alebo kompenzovať vyprodukované emisie. <strong>Carbono consciente</strong> dáva prednosť rozhodnutiam, ktoré znižujú dopad na životné prostredie ešte skôr, než sa začne uvažovať o kompenzácii."
+    },
+    "dicas": {
+      "titulo_secao": "Udržateľné tipy",
+      "clique_voltar": "kliknite na otočenie späť",
+      "casa": {
+        "titulo": "Domov",
+        "resumo": "Úspora energie a vody v bežnom živote",
+        "item1": "Šetrite energiou",
+        "item2": "Zhasínajte svetlá, keď ich nepotrebujete",
+        "item3": "Používajte spotrebiče uvedomelo",
+        "item4": "Znížte zbytočnú spotrebu vody",
+        "item5": "Zabráňte plytvaniu jedlom"
+      },
+      "transporte": {
+        "titulo": "Doprava",
+        "resumo": "Alternatívy k autu pre ľahšie presuny",
+        "item1": "Chodievajte pešo, kedy je to možné",
+        "item2": "Používajte bicykel",
+        "item3": "Používajte verejnú dopravu",
+        "item4": "Zdieľajte jazdy, kedy je to možné",
+        "item5": "Obmedzte zbytočné cesty autom"
+      },
+      "alimentacao": {
+        "titulo": "Stravovanie",
+        "resumo": "Rozhodnutia pri stole, ktoré znižujú plytvanie a emisie",
+        "item1": "Kupujte miestne produkty",
+        "item2": "Zabráňte plytvaniu",
+        "item3": "Plánujte jedlá",
+        "item4": "Lepšie využívajte potraviny",
+        "item5": "Znížte spotrebu mäsa"
+      },
+      "reciclagem": {
+        "titulo": "Recyklácia",
+        "resumo": "Triedte, opätovne využívajte a dajte zvyškom nový zmysel",
+        "item1": "Správne triedte odpad",
+        "item2": "Opätovne využívajte materiály",
+        "item3": "Správne odovzdávajte recyklovateľné materiály",
+        "item4": "Vyhýbajte sa jednorazovým výrobkom",
+        "item5": "Dajte predmetom nové využitie"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Zaujímavosti o životnom prostredí",
+      "subtitulo": "Vedeli ste, že?",
+      "carregando": "Načítava sa zaujímavosť...",
+      "proxima": "Ďalšia zaujímavosť",
+      "erro_carregar": "Zaujímavosti sa teraz nepodarilo načítať."
+    },
+    "noticias": {
+      "titulo": "Správy o životnom prostredí",
+      "subtitulo": "Skutočné a aktuálne správy o udržateľnosti",
+      "anteriores": "Predchádzajúce správy",
+      "proximas": "Ďalšie správy",
+      "carregando": "Načítavajú sa správy...",
+      "erro_carregar": "Správy sa teraz nepodarilo načítať.",
+      "nenhuma": "Momentálne nie sú k dispozícii žiadne správy.",
+      "ler_na_origem": "čítať na zdrojovej stránke →",
+      "sem_link": "Pre túto správu nie je k dispozícii žiadny externý odkaz."
+    },
+    "rodape": {
+      "descricao": "Environmentálne vzdelávanie, ktoré mení malé rozhodnutia na veľké výsledky pre planétu.",
+      "navegacao": "Navigácia",
+      "contato": "Kontakt",
+      "copyright": "© 2026 Carbono Consciente. Všetky práva vyhradené."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Panel",
+    "meta_descricao": "Zaznamenávajte svoje presuny a sledujte svoju uhlíkovú stopu v priebehu času.",
+    "titulo": "Váš panel návykov",
+    "subtitulo": "Zaznamenávajte svoje presuny a sledujte svoju uhlíkovú stopu v priebehu času.",
+    "card_hoje": "CO₂ dnes",
+    "card_semana": "CO₂ tento týždeň",
+    "card_mes": "CO₂ tento mesiac",
+    "grafico_titulo": "Vývoj za posledných 14 dní",
+    "grafico_aria": "Vývoj CO₂ za posledných {{dias}} dní",
+    "form_titulo": "Pridať presun",
+    "campo_meio": "Spôsob dopravy",
+    "campo_distancia": "Vzdialenosť (km)",
+    "campo_data": "Dátum",
+    "campo_observacao": "Poznámka (voliteľné)",
+    "campo_observacao_placeholder": "napr.: cesta do práce",
+    "botao_adicionar": "pridať",
+    "salvando": "ukladá sa...",
+    "registrado_sucesso": "Presun bol zaznamenaný!",
+    "registros_titulo": "Posledné záznamy",
+    "registros_vazio": "Zatiaľ žiadne záznamy — pridajte svoj prvý presun vyššie.",
+    "meio_removido": "Spôsob odstránený",
+    "remover_registro": "Odstrániť záznam",
+    "sessao_expirada": "Relácia vypršala.",
+    "erro_servidor": "Nepodarilo sa spojiť sa so serverom. Je spustený?",
+    "erro_generico": "Operáciu sa nepodarilo dokončiť.",
+    "delta_sem_registros": "žiadne záznamy v tomto období",
+    "delta_primeiro_registro": "prvý záznam v tomto období",
+    "delta_estavel": "stabilné oproti predchádzajúcemu obdobiu",
+    "delta_variacao": "{{percentual}} % oproti predchádzajúcemu obdobiu"
+  },
+  "globo": {
+    "legenda_titulo": "Emisie na obyvateľa",
+    "legenda_baixa": "Nízke",
+    "legenda_alta": "Vysoké",
+    "sair_destaque": "Opustiť režim zvýraznenia",
+    "buscar_placeholder": "Hľadať krajinu...",
+    "buscar_aria": "Hľadať krajinu na glóbuse",
+    "sem_dados_co2": "žiadne údaje o CO₂",
+    "tonelada_ano_pessoa": "{{valor}} t/rok na osobu",
+    "territorio": "Územie",
+    "fechar_painel": "Zavrieť panel",
+    "sem_dados_territorio": "Pre toto územie nie sú k dispozícii žiadne údaje o emisiách CO₂ na obyvateľa.",
+    "emissao_per_capita": "Emisie na obyvateľa:",
+    "equivalente_diario": "Denný ekvivalent:",
+    "equivalente_semanal": "Týždenný ekvivalent:",
+    "equivalente_mensal": "Mesačný ekvivalent:",
+    "posicao_ranking": "Pozícia v poradí (zo {{total}} krajín):",
+    "fonte_estimativa": "Odhad fosílnych emisií CO₂ na obyvateľa (Global Carbon Budget / Our World in Data, východiskový rok 2024).",
+    "aria_interativo": "Interaktívny glóbus emisií uhlíka. Ťahaním otáčajte, kolieskom priblížte, kliknutím na krajinu zobrazíte údaje a dvojitým kliknutím glóbus zvýraznite.",
+    "aria_decorativo": "Dekoratívny otáčajúci sa glóbus, ilustrujúci globálny dosah projektu Carbono Consciente.",
+    "continente_asia": "Ázia",
+    "continente_africa": "Afrika",
+    "continente_europa": "Európa",
+    "continente_america_sul": "Južná Amerika",
+    "continente_america_norte": "Severná Amerika",
+    "continente_oceania": "Oceánia"
+  }
+}

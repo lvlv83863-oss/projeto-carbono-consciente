@@ -13,9 +13,11 @@
     return token ? { Authorization: `Bearer ${token}` } : {};
   }
 
+  function t(chave) { return window.i18n ? window.i18n.t(chave) : chave; }
+
   function formatarData(dataIso) {
     try {
-      return new Intl.DateTimeFormat("pt-BR", { day: "numeric", month: "long", year: "numeric" }).format(new Date(dataIso));
+      return new Intl.DateTimeFormat(window.i18n ? window.i18n.idiomaAtual : "pt-BR", { day: "numeric", month: "long", year: "numeric" }).format(new Date(dataIso));
     } catch {
       return dataIso;
     }
@@ -72,8 +74,8 @@
       `<h3>${noticia.titulo}</h3>` +
       `<div class="noticia-modal-meta">${noticia.fonte ? noticia.fonte + " · " : ""}${formatarData(noticia.data)}</div>` +
       (noticia.linkExterno
-        ? `<a href="${noticia.linkExterno}" target="_blank" rel="noopener" class="link-ver-mais">ler no site de origem →</a>`
-        : "<p>Sem link externo disponível para esta notícia.</p>");
+        ? `<a href="${noticia.linkExterno}" target="_blank" rel="noopener" class="link-ver-mais">${t("inicial.noticias.ler_na_origem")}</a>`
+        : `<p>${t("inicial.noticias.sem_link")}</p>`);
 
     modal.hidden = false;
   }
@@ -109,12 +111,12 @@
       if (!resposta.ok) throw new Error("falhou");
       lista = await resposta.json();
     } catch {
-      carrossel.innerHTML = '<p class="noticias-carregando">Não foi possível carregar as notícias agora.</p>';
+      carrossel.innerHTML = `<p class="noticias-carregando">${t("inicial.noticias.erro_carregar")}</p>`;
       return;
     }
 
     if (!lista.length) {
-      carrossel.innerHTML = '<p class="noticias-carregando">Nenhuma notícia disponível no momento.</p>';
+      carrossel.innerHTML = `<p class="noticias-carregando">${t("inicial.noticias.nenhuma")}</p>`;
       return;
     }
 
@@ -151,7 +153,7 @@
       if (!resposta.ok) throw new Error("falhou");
       lista = await resposta.json();
     } catch {
-      textoEl.textContent = "Não foi possível carregar as curiosidades agora.";
+      textoEl.textContent = t("inicial.curiosidades.erro_carregar");
       return;
     }
     if (!lista.length) return;

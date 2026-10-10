@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Hoki ki te kāinga",
+    "theme_toggle_aria": "Huri i te kaupapa mārama/pōuri",
+    "menu_aria": "Whakatuwhera i te tahua",
+    "login_link": "takiuru",
+    "sair_link": "takiputa",
+    "painel_link": "papa mana",
+    "fechar": "Katia",
+    "nav": {
+      "plataforma": "Papaheere",
+      "impacto": "Pāpātanga",
+      "habitos": "Tikanga",
+      "contato": "Whakapā",
+      "dados": "Raraunga"
+    }
+  },
+  "header": {
+    "idioma_aria": "Huri reo",
+    "idioma_buscar_placeholder": "Rapu reo..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Takiuru",
+    "meta_descricao": "Takiuru mai, rēhita rānei, kia aro atu ki ō raraunga me ō tikanga i runga i Carbono Consciente.",
+    "esquerda_titulo": "He tapuwae kei muri i ia tana CO₂",
+    "esquerda_texto": "Takiuru mai kia aro atu koe ki ō raraunga, ō tikanga, me tō tapuwae waro.",
+    "google_botao": "Haere tonu mā Google",
+    "google_em_breve": "Ka tae mai te takiuru mā Google ā tōna wā.",
+    "enviando": "e tuku ana...",
+    "erro_servidor": "Kāore e taea te whakapā atu ki te tūmau. Kei te oma rānei?",
+    "erro_generico": "Kāore e taea te whakaoti i te mahi.",
+    "login": {
+      "titulo": "Takiuru",
+      "email_label": "Īmēra",
+      "email_placeholder": "koe@imera.com",
+      "senha_label": "Kupuhipa",
+      "botao": "takiuru",
+      "troca_texto": "Kāore anō koe i whai pūkete?",
+      "troca_botao": "Rēhita"
+    },
+    "cadastro": {
+      "titulo": "Rēhitatanga",
+      "nome_label": "Ingoa",
+      "nome_placeholder": "Tō ingoa",
+      "email_label": "Īmēra",
+      "email_placeholder": "koe@imera.com",
+      "pais_label": "Whenua",
+      "pais_placeholder": "Rapu whenua...",
+      "senha_label": "Kupuhipa",
+      "confirmar_label": "Whakaū kupuhipa",
+      "botao": "rēhita",
+      "troca_texto": "Kei a koe kē he pūkete?",
+      "troca_botao": "Takiuru"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Kāore i te ōrite ngā kupuhipa."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: mātauranga taiao mō te tukunga waro, te tapuwae waro, ngā tohutohu toitū, ngā mea whakamīharo, me ngā pūrongo taiao.",
+    "hero": {
+      "titulo": "He iti noa ngā tikanga, engari he māmā ake te taumaha ki te ao",
+      "texto": "EHARA A CARBONO CONSCIENTE I TE TOHU KĀKĀRIKI, EHARA ANŌ I TE WHĀINGA TAWHITI — KO TE HUA KĒ IA O NGĀ WHIRIWHIRINGA NOA, E TAUNGA TONU ANA I IA RĀ: KO TE AHA KEI TE WHAKATOKA KOE, PEHEA TŌ HAERENGA, ĀHUA AHA TE WĀ KA WEROA E KOE TE RAMA, KEI HEA TŌ MAKA PARA.",
+      "botao": "Tirohia Atu"
+    },
+    "acordeao": {
+      "titulo": "He aha a Carbono Consciente?",
+      "emissao_titulo": "Tukunga Waro",
+      "emissao_corpo": "Ko te tukunga waro ko te tukunga o ngā haurehu pēnei i te CO₂ ki te kōrahi, nā te tahu wāhie konukore, te tua ngahere, te hanga ahumahi, tae atu ki te waka o ia rā.",
+      "clima_titulo": "He pēhea tōna pāpātanga ki te āhuarangi?",
+      "clima_corpo": "Ka hanga ngā haurehu whare kāriki he papa pupuri wera i te kōrahi. Ka nui ake te tukunga, ka kaha ake tēnei pānga — ko tēnei te take o te whakamahana o te ao me te huringa āhuarangi.",
+      "pegada_titulo": "Tapuwae Waro",
+      "pegada_corpo": "Koinei te huinga katoa o ngā haurehu whare kāriki e puta ana, mā te ara tōtika, mā te ara autaki rānei, nā ngā mahi a te tangata, a te kamupene, a te hua rānei i tōna oranga o ia rā.",
+      "neutro_titulo": "Waro Taurite × Carbono Consciente",
+      "neutro_corpo": "Ko te <strong>waro taurite</strong> e ngana ana ki te whakatōpū, ki te whakarite rānei i ngā tukunga kua puta. Ko <strong>Carbono consciente</strong> e whakamua ana i ngā whiriwhiringa e whakaiti ana i te pāpātanga taiao, i mua tonu i te whakaaro ki te whakarite utu."
+    },
+    "dicas": {
+      "titulo_secao": "Ngā Tohutohu Toitū",
+      "clique_voltar": "pāwhiri kia hoki",
+      "casa": {
+        "titulo": "Kāinga",
+        "resumo": "Te tiaki pūngao me te wai i ia rā",
+        "item1": "Tiaki pūngao",
+        "item2": "Weroa ngā rama ina kore e whakamahia",
+        "item3": "Whakamahi taputapu mā te mahara",
+        "item4": "Whakaiti i te maumau wai",
+        "item5": "Karo i te maumau kai"
+      },
+      "transporte": {
+        "titulo": "Waka",
+        "resumo": "Ngā kōwhiringa atu i te motokā mō te haere māmā",
+        "item1": "Hīkoi ina taea",
+        "item2": "Whakamahi paihikara",
+        "item3": "Whakamahi waka tūmatanui",
+        "item4": "Tiritahi haerenga ina taea",
+        "item5": "Whakaiti i ngā haerenga motokā kāore e tika ana"
+      },
+      "alimentacao": {
+        "titulo": "Kai",
+        "resumo": "Ngā kōwhiringa kai e whakaiti ana i te maumau me te tukunga",
+        "item1": "Hoko hua ā-rohe",
+        "item2": "Karo i te maumau",
+        "item3": "Whakamahere kai",
+        "item4": "Whakamahi pai ake i te kai",
+        "item5": "Whakaiti i te kai mīti"
+      },
+      "reciclagem": {
+        "titulo": "Hangarua",
+        "resumo": "Wehewehea, whakamahia anō, hoatu he take hou ki te toenga",
+        "item1": "Wehewehea tika ngā para",
+        "item2": "Whakamahi anō i ngā rawa",
+        "item3": "Tuku tika ngā mea hangarua",
+        "item4": "Karo i ngā hua maka-kotahi",
+        "item5": "Hoatu he take hou ki ngā taonga"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Ngā Mea Whakamīharo o te Taiao",
+      "subtitulo": "I mōhio koe?",
+      "carregando": "E uta ana te mea whakamīharo...",
+      "proxima": "Te mea whakamīharo e whai ake nei",
+      "erro_carregar": "Kāore e taea ināianei te uta i ngā mea whakamīharo."
+    },
+    "noticias": {
+      "titulo": "Ngā Pūrongo Taiao",
+      "subtitulo": "He pūrongo pono, hou mō te toitūtanga",
+      "anteriores": "Ngā pūrongo o mua",
+      "proximas": "Ngā pūrongo e whai ake nei",
+      "carregando": "E uta ana ngā pūrongo...",
+      "erro_carregar": "Kāore e taea ināianei te uta i ngā pūrongo.",
+      "nenhuma": "Kāore he pūrongo e wātea ana ināianei.",
+      "ler_na_origem": "pānuitia kei tōna pūtake →",
+      "sem_link": "Kāore he hononga o waho e wātea ana mō tēnei pūrongo."
+    },
+    "rodape": {
+      "descricao": "He mātauranga taiao e huri ana i ngā kōwhiringa iti ki ngā hua nui mō te ao.",
+      "navegacao": "Whakatere",
+      "contato": "Whakapā",
+      "copyright": "© 2026 Carbono Consciente. Kua rāhuitia ngā tika katoa."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Papa Mana",
+    "meta_descricao": "Tuhia ō haerenga, arohia tō tapuwae waro i roto i te wā.",
+    "titulo": "Tō papa mana tikanga",
+    "subtitulo": "Tuhia ō haerenga, arohia tō tapuwae waro i roto i te wā.",
+    "card_hoje": "CO₂ i tēnei rā",
+    "card_semana": "CO₂ i tēnei wiki",
+    "card_mes": "CO₂ i tēnei marama",
+    "grafico_titulo": "Te ahunga i ngā rā 14 kua hipa",
+    "grafico_aria": "Te ahunga o te CO₂ i ngā rā {{dias}} kua hipa",
+    "form_titulo": "Tāpiri haerenga",
+    "campo_meio": "Momo waka",
+    "campo_distancia": "Tawhiti (km)",
+    "campo_data": "Rā",
+    "campo_observacao": "Kōrero āpiti (ko te kōwhiringa)",
+    "campo_observacao_placeholder": "hei tauira: te haere ki te mahi",
+    "botao_adicionar": "tāpiri",
+    "salvando": "e tiaki ana...",
+    "registrado_sucesso": "Kua tuhia te haerenga!",
+    "registros_titulo": "Ngā tuhinga whāmuri",
+    "registros_vazio": "Kāore anō he tuhinga — tāpirihia tō haerenga tuatahi i runga ake nei.",
+    "meio_removido": "Kua tangohia te momo waka",
+    "remover_registro": "Tango i te tuhinga",
+    "sessao_expirada": "Kua pau te wā noho.",
+    "erro_servidor": "Kāore e taea te whakapā atu ki te tūmau. Kei te oma rānei?",
+    "erro_generico": "Kāore e taea te whakaoti i te mahi.",
+    "delta_sem_registros": "kāore he tuhinga i tēnei wā",
+    "delta_primeiro_registro": "te tuhinga tuatahi o tēnei wā",
+    "delta_estavel": "taurite ki te wā o mua",
+    "delta_variacao": "{{percentual}}% ki te wā o mua"
+  },
+  "globo": {
+    "legenda_titulo": "Tukunga mō te tangata takitahi",
+    "legenda_baixa": "Iti",
+    "legenda_alta": "Nui",
+    "sair_destaque": "Puta i te aratau whakanui",
+    "buscar_placeholder": "Rapu whenua...",
+    "buscar_aria": "Rapu whenua i runga i te ao",
+    "sem_dados_co2": "kāore he raraunga CO₂",
+    "tonelada_ano_pessoa": "{{valor}} tana/tau mō te tangata",
+    "territorio": "Rohe",
+    "fechar_painel": "Katia te papa",
+    "sem_dados_territorio": "Kāore he raraunga mō te tukunga CO₂ mō te tangata takitahi mō tēnei rohe.",
+    "emissao_per_capita": "Tukunga mō te tangata takitahi:",
+    "equivalente_diario": "Ōrite ia rā:",
+    "equivalente_semanal": "Ōrite ia wiki:",
+    "equivalente_mensal": "Ōrite ia marama:",
+    "posicao_ranking": "Tūranga i te rārangi (o {{total}} whenua):",
+    "fonte_estimativa": "He tātai mō te CO₂ konukore mō te tangata takitahi (Global Carbon Budget / Our World in Data, tau tūāpapa 2024).",
+    "aria_interativo": "He ao whakapātaritari o ngā tukunga waro. Tōia kia hurihuri, pāwhiri rere kia whakanui, pāwhiritia tētahi whenua kia kite i ōna raraunga, ā, tāruatia te pāwhiri kia whakanui i te ao.",
+    "aria_decorativo": "He ao whakapaipai e hurihuri ana, e whakaatu ana i te whānuitanga o te ao o te kaupapa Carbono Consciente.",
+    "continente_asia": "Āhia",
+    "continente_africa": "Āwherika",
+    "continente_europa": "Ūropi",
+    "continente_america_sul": "Amerika ki te Tonga",
+    "continente_america_norte": "Amerika ki te Raki",
+    "continente_oceania": "Oseania"
+  }
+}

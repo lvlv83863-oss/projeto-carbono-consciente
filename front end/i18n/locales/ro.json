@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Înapoi la pagina principală",
+    "theme_toggle_aria": "Comută tema luminoasă/întunecată",
+    "menu_aria": "Deschide meniul",
+    "login_link": "conectare",
+    "sair_link": "deconectare",
+    "painel_link": "panou",
+    "fechar": "Închide",
+    "nav": {
+      "plataforma": "Platformă",
+      "impacto": "Impact",
+      "habitos": "Obiceiuri",
+      "contato": "Contact",
+      "dados": "Date"
+    }
+  },
+  "header": {
+    "idioma_aria": "Schimbă limba",
+    "idioma_buscar_placeholder": "Caută limba..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Conectare",
+    "meta_descricao": "Conectează-te sau înregistrează-te pentru a-ți urmări datele și obiceiurile pe Carbono Consciente.",
+    "esquerda_titulo": "Fiecare tonă de CO₂ lasă o urmă",
+    "esquerda_texto": "Conectează-te pentru a-ți urmări datele, obiceiurile și amprenta de carbon.",
+    "google_botao": "Continuă cu Google",
+    "google_em_breve": "Autentificarea cu Google va fi disponibilă în curând.",
+    "enviando": "se trimite...",
+    "erro_servidor": "Nu s-a putut contacta serverul. Este pornit?",
+    "erro_generico": "Nu s-a putut finaliza operațiunea.",
+    "login": {
+      "titulo": "Conectare",
+      "email_label": "Email",
+      "email_placeholder": "tu@email.com",
+      "senha_label": "Parolă",
+      "botao": "conectare",
+      "troca_texto": "Nu ai încă un cont?",
+      "troca_botao": "Înregistrează-te"
+    },
+    "cadastro": {
+      "titulo": "Înregistrare",
+      "nome_label": "Nume",
+      "nome_placeholder": "Numele tău",
+      "email_label": "Email",
+      "email_placeholder": "tu@email.com",
+      "pais_label": "Țară",
+      "pais_placeholder": "Caută țara...",
+      "senha_label": "Parolă",
+      "confirmar_label": "Confirmă parola",
+      "botao": "înregistrare",
+      "troca_texto": "Ai deja un cont?",
+      "troca_botao": "Conectează-te"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Parolele nu coincid."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: educație despre mediu privind emisiile de carbon, amprenta de carbon, sfaturi sustenabile, curiozități și știri despre mediu.",
+    "hero": {
+      "titulo": "Fiecare obicei mic apasă mai puțin pe planetă",
+      "texto": "CARBONO CONSCIENTE NU ESTE O ETICHETĂ VERDE, NICI UN OBIECTIV ÎNDEPĂRTAT — ESTE SUMA ALEGERILOR OBIȘNUITE, REPETATE ZILNIC: CE PLANTEZI, CUM TE DEPLASEZI, CÂND STINGI LUMINA, UNDE ARUNCI GUNOIUL.",
+      "botao": "Vezi mai mult"
+    },
+    "acordeao": {
+      "titulo": "Ce este Carbono Consciente?",
+      "emissao_titulo": "Emisii de carbon",
+      "emissao_corpo": "Emisia de carbon este eliberarea unor gaze precum CO₂ în atmosferă, în principal prin arderea combustibililor fosili, despăduriri, producție industrială și chiar prin transportul de zi cu zi.",
+      "clima_titulo": "Cum afectează clima?",
+      "clima_corpo": "Gazele cu efect de seră formează un strat care reține căldura în atmosferă. Cu cât sunt mai multe emisii, cu atât mai puternic este acest efect — și acesta este motorul încălzirii globale și al schimbărilor climatice.",
+      "pegada_titulo": "Amprenta de carbon",
+      "pegada_corpo": "Este cantitatea totală de gaze cu efect de seră generată, direct sau indirect, de activitățile unei persoane, companii sau produs în viața de zi cu zi.",
+      "neutro_titulo": "Carbon neutru × Carbono Consciente",
+      "neutro_corpo": "<strong>Carbonul neutru</strong> urmărește să echilibreze sau să compenseze emisiile generate. <strong>Carbono consciente</strong> prioritizează alegerile care reduc impactul asupra mediului chiar înainte de a te gândi la compensare."
+    },
+    "dicas": {
+      "titulo_secao": "Sfaturi sustenabile",
+      "clique_voltar": "apasă pentru a întoarce",
+      "casa": {
+        "titulo": "Casă",
+        "resumo": "Economie de energie și apă în viața de zi cu zi",
+        "item1": "Economisește energie",
+        "item2": "Stinge luminile când nu le folosești",
+        "item3": "Folosește echipamentele în mod conștient",
+        "item4": "Reduce risipa de apă",
+        "item5": "Evită risipa de alimente"
+      },
+      "transporte": {
+        "titulo": "Transport",
+        "resumo": "Alternative la mașină pentru deplasări mai ușoare",
+        "item1": "Mergi pe jos când este posibil",
+        "item2": "Folosește bicicleta",
+        "item3": "Folosește transportul public",
+        "item4": "Împarte călătoriile când este posibil",
+        "item5": "Redu deplasările inutile cu mașina"
+      },
+      "alimentacao": {
+        "titulo": "Alimentație",
+        "resumo": "Alegeri la masă care reduc risipa și emisiile",
+        "item1": "Consumă produse locale",
+        "item2": "Evită risipa",
+        "item3": "Planifică mesele",
+        "item4": "Valorifică mai bine alimentele",
+        "item5": "Redu consumul de carne"
+      },
+      "reciclagem": {
+        "titulo": "Reciclare",
+        "resumo": "Separă, reutilizează și dă o nouă utilizare celor rămase",
+        "item1": "Separă corect deșeurile",
+        "item2": "Reutilizează materialele",
+        "item3": "Direcționează corect materialele reciclabile",
+        "item4": "Evită produsele de unică folosință",
+        "item5": "Dă o nouă utilizare obiectelor"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Curiozități despre mediu",
+      "subtitulo": "Ai știut?",
+      "carregando": "Se încarcă o curiozitate...",
+      "proxima": "Următoarea curiozitate",
+      "erro_carregar": "Nu s-au putut încărca curiozitățile acum."
+    },
+    "noticias": {
+      "titulo": "Știri despre mediu",
+      "subtitulo": "Știri reale și recente despre sustenabilitate",
+      "anteriores": "Știri anterioare",
+      "proximas": "Știri următoare",
+      "carregando": "Se încarcă știrile...",
+      "erro_carregar": "Nu s-au putut încărca știrile acum.",
+      "nenhuma": "Nicio știre disponibilă în acest moment.",
+      "ler_na_origem": "citește la sursă →",
+      "sem_link": "Niciun link extern disponibil pentru această știre."
+    },
+    "rodape": {
+      "descricao": "Educație despre mediu, transformând alegeri mici în rezultate mari pentru planetă.",
+      "navegacao": "Navigare",
+      "contato": "Contact",
+      "copyright": "© 2026 Carbono Consciente. Toate drepturile rezervate."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Panou",
+    "meta_descricao": "Înregistrează-ți deplasările și urmărește-ți amprenta de carbon în timp.",
+    "titulo": "Panoul tău de obiceiuri",
+    "subtitulo": "Înregistrează-ți deplasările și urmărește-ți amprenta de carbon în timp.",
+    "card_hoje": "CO₂ astăzi",
+    "card_semana": "CO₂ în această săptămână",
+    "card_mes": "CO₂ în această lună",
+    "grafico_titulo": "Evoluție în ultimele 14 zile",
+    "grafico_aria": "Evoluția CO₂ în ultimele {{dias}} zile",
+    "form_titulo": "Adaugă o deplasare",
+    "campo_meio": "Mijloc de transport",
+    "campo_distancia": "Distanță (km)",
+    "campo_data": "Data",
+    "campo_observacao": "Observație (opțional)",
+    "campo_observacao_placeholder": "ex.: traseu spre muncă",
+    "botao_adicionar": "adaugă",
+    "salvando": "se salvează...",
+    "registrado_sucesso": "Deplasare înregistrată!",
+    "registros_titulo": "Ultimele înregistrări",
+    "registros_vazio": "Niciuna înregistrare încă — adaugă prima ta deplasare mai sus.",
+    "meio_removido": "Mijloc eliminat",
+    "remover_registro": "Elimină înregistrarea",
+    "sessao_expirada": "Sesiune expirată.",
+    "erro_servidor": "Nu s-a putut contacta serverul. Este pornit?",
+    "erro_generico": "Nu s-a putut finaliza operațiunea.",
+    "delta_sem_registros": "fără înregistrări în această perioadă",
+    "delta_primeiro_registro": "prima înregistrare din această perioadă",
+    "delta_estavel": "stabil față de perioada anterioară",
+    "delta_variacao": "{{percentual}}% față de perioada anterioară"
+  },
+  "globo": {
+    "legenda_titulo": "Emisii pe cap de locuitor",
+    "legenda_baixa": "Scăzută",
+    "legenda_alta": "Ridicată",
+    "sair_destaque": "Ieși din modul evidențiere",
+    "buscar_placeholder": "Caută țara...",
+    "buscar_aria": "Caută țara pe glob",
+    "sem_dados_co2": "fără date de CO₂",
+    "tonelada_ano_pessoa": "{{valor}} t/an pe persoană",
+    "territorio": "Teritoriu",
+    "fechar_painel": "Închide panoul",
+    "sem_dados_territorio": "Nu există date disponibile despre emisiile de CO₂ pe cap de locuitor pentru acest teritoriu.",
+    "emissao_per_capita": "Emisii pe cap de locuitor:",
+    "equivalente_diario": "Echivalent zilnic:",
+    "equivalente_semanal": "Echivalent săptămânal:",
+    "equivalente_mensal": "Echivalent lunar:",
+    "posicao_ranking": "Poziție în clasament (din {{total}} țări):",
+    "fonte_estimativa": "Estimare a emisiilor fosile de CO₂ pe cap de locuitor (Global Carbon Budget / Our World in Data, anul de referință 2024).",
+    "aria_interativo": "Glob interactiv al emisiilor de carbon. Trage pentru a roti, derulează pentru a mări, apasă pe o țară pentru a vedea datele și apasă de două ori pentru a evidenția globul.",
+    "aria_decorativo": "Glob decorativ rotativ, ilustrând acoperirea globală a proiectului Carbono Consciente.",
+    "continente_asia": "Asia",
+    "continente_africa": "Africa",
+    "continente_europa": "Europa",
+    "continente_america_sul": "America de Sud",
+    "continente_america_norte": "America de Nord",
+    "continente_oceania": "Oceania"
+  }
+}

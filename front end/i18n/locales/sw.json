@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Rudi mwanzo",
+    "theme_toggle_aria": "Badilisha mandhari angavu/nyeusi",
+    "menu_aria": "Fungua menyu",
+    "login_link": "ingia",
+    "sair_link": "toka",
+    "painel_link": "dashibodi",
+    "fechar": "Funga",
+    "nav": {
+      "plataforma": "Jukwaa",
+      "impacto": "Athari",
+      "habitos": "Tabia",
+      "contato": "Wasiliana",
+      "dados": "Data"
+    }
+  },
+  "header": {
+    "idioma_aria": "Badilisha lugha",
+    "idioma_buscar_placeholder": "Tafuta lugha..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Ingia",
+    "meta_descricao": "Ingia au jisajili ili kufuatilia data na tabia zako kwenye Carbono Consciente.",
+    "esquerda_titulo": "Kila tani ya CO₂ huacha alama",
+    "esquerda_texto": "Ingia ili kufuatilia data, tabia na alama yako ya kaboni.",
+    "google_botao": "Endelea na Google",
+    "google_em_breve": "Kuingia kwa Google kunakuja hivi karibuni.",
+    "enviando": "inatuma...",
+    "erro_servidor": "Haikuwezekana kufikia seva. Je, inaendeshwa?",
+    "erro_generico": "Haikuwezekana kukamilisha hatua hii.",
+    "login": {
+      "titulo": "Ingia",
+      "email_label": "Barua pepe",
+      "email_placeholder": "wewe@barua.com",
+      "senha_label": "Nenosiri",
+      "botao": "ingia",
+      "troca_texto": "Bado huna akaunti?",
+      "troca_botao": "Jisajili"
+    },
+    "cadastro": {
+      "titulo": "Kujisajili",
+      "nome_label": "Jina",
+      "nome_placeholder": "Jina lako",
+      "email_label": "Barua pepe",
+      "email_placeholder": "wewe@barua.com",
+      "pais_label": "Nchi",
+      "pais_placeholder": "Tafuta nchi...",
+      "senha_label": "Nenosiri",
+      "confirmar_label": "Thibitisha nenosiri",
+      "botao": "jisajili",
+      "troca_texto": "Una akaunti tayari?",
+      "troca_botao": "Ingia"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Manenosiri hayalingani."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: elimu ya mazingira kuhusu utoaji wa kaboni, alama ya kaboni, vidokezo vya maisha endelevu, mambo ya kufurahisha na habari za mazingira.",
+    "hero": {
+      "titulo": "Kila tabia ndogo huwa mzigo mdogo kwa sayari",
+      "texto": "CARBONO CONSCIENTE SI NEMBO YA KIJANI WALA LENGO LA MBALI — NI JUMLA YA MAAMUZI YA KAWAIDA, YANAYORUDIWA KILA SIKU: UNACHOPANDA, UNAVYOSAFIRI, UNAPOZIMA TAA, NA UNAPOTUPA TAKA.",
+      "botao": "Ona Zaidi"
+    },
+    "acordeao": {
+      "titulo": "Carbono Consciente ni nini?",
+      "emissao_titulo": "Utoaji wa Kaboni",
+      "emissao_corpo": "Utoaji wa kaboni ni kuachiliwa kwa gesi kama CO₂ angani, hususan kutokana na kuchoma nishati ya visukuku, ukataji wa miti, uzalishaji wa viwandani na hata usafiri wa kila siku.",
+      "clima_titulo": "Inaathiri hali ya hewa vipi?",
+      "clima_corpo": "Gesi joto huunda tabaka linalozuia joto lisitoke angani. Kadri utoaji unavyoongezeka, athari hii inazidi kuwa kubwa — na hiyo ndiyo inayochochea ongezeko la joto duniani na mabadiliko ya tabianchi.",
+      "pegada_titulo": "Alama ya Kaboni",
+      "pegada_corpo": "Ni kiasi chote cha gesi joto kinachotokana, moja kwa moja au kwa njia isiyo ya moja kwa moja, na shughuli za kila siku za mtu, kampuni au bidhaa.",
+      "neutro_titulo": "Kaboni Sifuri × Carbono Consciente",
+      "neutro_corpo": "<strong>Kaboni sifuri</strong> inalenga kusawazisha au kufidia utoaji uliokwisha kutokea. <strong>Carbono Consciente</strong> inatanguliza maamuzi yanayopunguza athari kwa mazingira kabla hata ya kufikiria kufidia."
+    },
+    "dicas": {
+      "titulo_secao": "Vidokezo vya Maisha Endelevu",
+      "clique_voltar": "bofya ili kurudi",
+      "casa": {
+        "titulo": "Nyumbani",
+        "resumo": "Kuhifadhi nishati na maji kila siku",
+        "item1": "Hifadhi nishati",
+        "item2": "Zima taa zisizotumika",
+        "item3": "Tumia vifaa kwa uangalifu",
+        "item4": "Punguza upotevu wa maji",
+        "item5": "Epuka kutupa chakula"
+      },
+      "transporte": {
+        "titulo": "Usafiri",
+        "resumo": "Njia nyepesi za kusafiri badala ya gari",
+        "item1": "Tembea kwa miguu inapowezekana",
+        "item2": "Tumia baiskeli",
+        "item3": "Tumia usafiri wa umma",
+        "item4": "Shirikiana safari inapowezekana",
+        "item5": "Punguza safari za gari zisizo za lazima"
+      },
+      "alimentacao": {
+        "titulo": "Chakula",
+        "resumo": "Maamuzi mezani yanayopunguza upotevu na utoaji wa kaboni",
+        "item1": "Tumia mazao ya hapa",
+        "item2": "Epuka upotevu",
+        "item3": "Panga milo yako mapema",
+        "item4": "Tumia chakula kwa ufanisi zaidi",
+        "item5": "Punguza matumizi ya nyama"
+      },
+      "reciclagem": {
+        "titulo": "Urejelezaji",
+        "resumo": "Tenganisha, tumia tena na upe matumizi mapya kile kinachosalia",
+        "item1": "Tenganisha taka kwa usahihi",
+        "item2": "Tumia tena vifaa",
+        "item3": "Weka taka zinazoweza kurejelezwa mahali pake",
+        "item4": "Epuka bidhaa za kutupwa mara moja",
+        "item5": "Tafuta matumizi mapya kwa vitu vya zamani"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Mambo ya Mazingira",
+      "subtitulo": "Ulijua?",
+      "carregando": "Inapakia kidokezo...",
+      "proxima": "Kidokezo kinachofuata",
+      "erro_carregar": "Haikuwezekana kupakia vidokezo kwa sasa."
+    },
+    "noticias": {
+      "titulo": "Habari za Mazingira",
+      "subtitulo": "Habari za kweli na za hivi karibuni kuhusu uendelevu",
+      "anteriores": "Habari zilizotangulia",
+      "proximas": "Habari zinazofuata",
+      "carregando": "Inapakia habari...",
+      "erro_carregar": "Haikuwezekana kupakia habari kwa sasa.",
+      "nenhuma": "Hakuna habari inayopatikana kwa sasa.",
+      "ler_na_origem": "soma kwenye chanzo →",
+      "sem_link": "Hakuna kiungo cha nje kwa habari hii."
+    },
+    "rodape": {
+      "descricao": "Elimu ya mazingira inayobadilisha maamuzi madogo kuwa matokeo makubwa kwa sayari.",
+      "navegacao": "Urambazaji",
+      "contato": "Wasiliana",
+      "copyright": "© 2026 Carbono Consciente. Haki zote zimehifadhiwa."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Dashibodi",
+    "meta_descricao": "Rekodi safari zako na fuatilia alama yako ya kaboni kwa muda.",
+    "titulo": "Dashibodi yako ya tabia",
+    "subtitulo": "Rekodi safari zako na fuatilia alama yako ya kaboni kwa muda.",
+    "card_hoje": "CO₂ leo",
+    "card_semana": "CO₂ wiki hii",
+    "card_mes": "CO₂ mwezi huu",
+    "grafico_titulo": "Siku 14 zilizopita",
+    "grafico_aria": "Mwenendo wa CO₂ katika siku {{dias}} zilizopita",
+    "form_titulo": "Ongeza safari",
+    "campo_meio": "Njia ya usafiri",
+    "campo_distancia": "Umbali (km)",
+    "campo_data": "Tarehe",
+    "campo_observacao": "Maelezo (si lazima)",
+    "campo_observacao_placeholder": "mf.: safari ya kwenda kazini",
+    "botao_adicionar": "ongeza",
+    "salvando": "inahifadhi...",
+    "registrado_sucesso": "Safari imerekodiwa!",
+    "registros_titulo": "Rekodi za hivi karibuni",
+    "registros_vazio": "Hakuna rekodi bado — ongeza safari yako ya kwanza hapo juu.",
+    "meio_removido": "Njia iliyoondolewa",
+    "remover_registro": "Ondoa rekodi",
+    "sessao_expirada": "Kipindi kimeisha.",
+    "erro_servidor": "Haikuwezekana kufikia seva. Je, inaendeshwa?",
+    "erro_generico": "Haikuwezekana kukamilisha hatua hii.",
+    "delta_sem_registros": "hakuna rekodi katika kipindi hiki",
+    "delta_primeiro_registro": "rekodi ya kwanza ya kipindi hiki",
+    "delta_estavel": "haibadiliki ikilinganishwa na kipindi kilichopita",
+    "delta_variacao": "{{percentual}}% ikilinganishwa na kipindi kilichopita"
+  },
+  "globo": {
+    "legenda_titulo": "Utoaji kwa kila mtu",
+    "legenda_baixa": "Chini",
+    "legenda_alta": "Juu",
+    "sair_destaque": "Ondoka kwenye hali ya msisitizo",
+    "buscar_placeholder": "Tafuta nchi...",
+    "buscar_aria": "Tafuta nchi kwenye tufe",
+    "sem_dados_co2": "hakuna data ya CO₂",
+    "tonelada_ano_pessoa": "tani {{valor}} kwa mwaka kwa kila mtu",
+    "territorio": "Eneo",
+    "fechar_painel": "Funga kidirisha",
+    "sem_dados_territorio": "Hakuna data ya utoaji wa CO₂ kwa kila mtu kwa eneo hili.",
+    "emissao_per_capita": "Utoaji kwa kila mtu:",
+    "equivalente_diario": "Sawa na kwa siku:",
+    "equivalente_semanal": "Sawa na kwa wiki:",
+    "equivalente_mensal": "Sawa na kwa mwezi:",
+    "posicao_ranking": "Nafasi katika orodha (kati ya nchi {{total}}):",
+    "fonte_estimativa": "Kipimo cha kadiri cha CO₂ ya visukuku kwa kila mtu (Global Carbon Budget / Our World in Data, mwaka msingi 2024).",
+    "aria_interativo": "Tufe shirikishi la utoaji wa kaboni. Vuta ili kuzungusha, sogeza ili kukuza, bofya nchi ili kuona data yake, na bofya mara mbili ili kuweka tufe katika hali ya msisitizo.",
+    "aria_decorativo": "Tufe la mapambo linalozunguka, likionyesha mawanda ya kimataifa ya mradi wa Carbono Consciente.",
+    "continente_asia": "Asia",
+    "continente_africa": "Afrika",
+    "continente_europa": "Ulaya",
+    "continente_america_sul": "Amerika Kusini",
+    "continente_america_norte": "Amerika Kaskazini",
+    "continente_oceania": "Oceania"
+  }
+}

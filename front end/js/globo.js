@@ -14,6 +14,26 @@
   const URL_PAISES = "../data/paises.geojson";
   const URL_EMISSOES = "../data/emissoes.json";
 
+  function t(chave, vars) {
+    return window.i18n ? window.i18n.t(chave, vars) : chave;
+  }
+
+  // emissoes.json só tem o nome do continente em português (6 valores fixos)
+  // — em vez de duplicar o dataset de 169 países por idioma, traduzimos só
+  // esse pequeno conjunto fechado de rótulos aqui.
+  const CHAVE_CONTINENTE = {
+    "Ásia": "globo.continente_asia",
+    "África": "globo.continente_africa",
+    "Europa": "globo.continente_europa",
+    "América do Sul": "globo.continente_america_sul",
+    "América do Norte": "globo.continente_america_norte",
+    "Oceania": "globo.continente_oceania",
+  };
+  function nomeContinente(original) {
+    const chave = CHAVE_CONTINENTE[original];
+    return chave ? t(chave) : original;
+  }
+
   /* ---------- Carregamento de dados (compartilhado entre instâncias) ---------- */
   let promessaDados = null;
   function carregarDados() {
@@ -100,18 +120,22 @@
 
     const legenda = document.createElement("div");
     legenda.className = "globo-legenda";
-    legenda.innerHTML =
-      "<span>Emissão per capita</span>" +
-      '<div class="linha">' +
-      "<span>Baixa</span>" +
-      '<div class="pontos">' +
-      [0.25, 0.5, 0.75, 1]
-        .map((s) => `<span class="ponto" style="width:${5 + s * 6}px;height:${5 + s * 6}px;opacity:${0.4 + s * 0.6}"></span>`)
-        .join("") +
-      "</div>" +
-      "<span>Alta</span>" +
-      "</div>";
+    function montarLegenda() {
+      legenda.innerHTML =
+        `<span>${t("globo.legenda_titulo")}</span>` +
+        '<div class="linha">' +
+        `<span>${t("globo.legenda_baixa")}</span>` +
+        '<div class="pontos">' +
+        [0.25, 0.5, 0.75, 1]
+          .map((s) => `<span class="ponto" style="width:${5 + s * 6}px;height:${5 + s * 6}px;opacity:${0.4 + s * 0.6}"></span>`)
+          .join("") +
+        "</div>" +
+        `<span>${t("globo.legenda_alta")}</span>` +
+        "</div>";
+    }
+    montarLegenda();
     wrap.appendChild(legenda);
+    document.addEventListener("i18n:mudou", montarLegenda);
 
     const painel = document.createElement("div");
     painel.className = "globo-painel";
@@ -121,7 +145,7 @@
 
     const botaoFecharFoco = document.createElement("button");
     botaoFecharFoco.className = "globo-fechar-foco";
-    botaoFecharFoco.setAttribute("aria-label", "Sair do modo destaque");
+    botaoFecharFoco.setAttribute("aria-label", t("globo.sair_destaque"));
     botaoFecharFoco.textContent = "×";
     botaoFecharFoco.style.display = "none";
     wrap.appendChild(botaoFecharFoco);
@@ -130,11 +154,16 @@
     const buscaWrap = document.createElement("div");
     buscaWrap.className = "globo-busca";
     buscaWrap.innerHTML =
-      '<input type="text" placeholder="Buscar país..." aria-label="Buscar país no globo" autocomplete="off">' +
+      `<input type="text" placeholder="${t("globo.buscar_placeholder")}" aria-label="${t("globo.buscar_aria")}" autocomplete="off">` +
       '<div class="globo-busca-resultados"></div>';
     wrap.appendChild(buscaWrap);
     const campoBusca = buscaWrap.querySelector("input");
     const resultadosBusca = buscaWrap.querySelector(".globo-busca-resultados");
+    document.addEventListener("i18n:mudou", () => {
+      botaoFecharFoco.setAttribute("aria-label", t("globo.sair_destaque"));
+      campoBusca.setAttribute("placeholder", t("globo.buscar_placeholder"));
+      campoBusca.setAttribute("aria-label", t("globo.buscar_aria"));
+    });
 
     /* ---------- estado ---------- */
     let world = null;
@@ -192,8 +221,8 @@
     function rotuloPais(feature) {
       const dado = emissoesPorIso[isoDoPais(feature)];
       const nome = nomeDoPais(feature);
-      if (!dado) return `<div class="globo-tooltip"><strong>${nome}</strong><br>sem dados de CO₂</div>`;
-      return `<div class="globo-tooltip"><strong>${nome}</strong><br>${fmt(dado.tonYear)} t/ano por pessoa</div>`;
+      if (!dado) return `<div class="globo-tooltip"><strong>${nome}</strong><br>${t("globo.sem_dados_co2")}</div>`;
+      return `<div class="globo-tooltip"><strong>${nome}</strong><br>${t("globo.tonelada_ano_pessoa", { valor: fmt(dado.tonYear) })}</div>`;
     }
 
     function fecharPainel() {
@@ -213,25 +242,25 @@
       if (!dado) {
         painel.innerHTML =
           '<div class="painel-topo">' +
-          `<div class="painel-nome">${feature.properties.NAME || "Território"}</div>` +
-          '<button class="painel-fechar" aria-label="Fechar painel">×</button>' +
+          `<div class="painel-nome">${feature.properties.NAME || t("globo.territorio")}</div>` +
+          `<button class="painel-fechar" aria-label="${t("globo.fechar_painel")}">×</button>` +
           "</div>" +
-          '<div class="painel-fonte">Sem dados de emissão de CO₂ per capita disponíveis para este território.</div>';
+          `<div class="painel-fonte">${t("globo.sem_dados_territorio")}</div>`;
       } else {
         painel.innerHTML =
           '<div class="painel-topo">' +
           `<div class="painel-nome">${dado.nome}</div>` +
-          '<button class="painel-fechar" aria-label="Fechar painel">×</button>' +
+          `<button class="painel-fechar" aria-label="${t("globo.fechar_painel")}">×</button>` +
           "</div>" +
-          `<div class="painel-continente">${dado.continente}</div>` +
+          `<div class="painel-continente">${nomeContinente(dado.continente)}</div>` +
           '<div class="painel-dados">' +
-          `<div><span>Emissão per capita: </span>${fmt(dado.tonYear)} t/ano</div>` +
-          `<div><span>Equivalente diário: </span>${fmt(dado.kgDay)} kg/dia</div>` +
-          `<div><span>Equivalente semanal: </span>${fmt(dado.kgWeek)} kg/sem</div>` +
-          `<div><span>Equivalente mensal: </span>${fmt(dado.kgMonth)} kg/mês</div>` +
-          `<div class="painel-rank" style="margin-top:6px;"><span>Posição no ranking (de ${rankedIsos.length} países): </span><strong>${rankOf(iso)}º</strong></div>` +
+          `<div><span>${t("globo.emissao_per_capita")} </span>${fmt(dado.tonYear)} t/ano</div>` +
+          `<div><span>${t("globo.equivalente_diario")} </span>${fmt(dado.kgDay)} kg/dia</div>` +
+          `<div><span>${t("globo.equivalente_semanal")} </span>${fmt(dado.kgWeek)} kg/sem</div>` +
+          `<div><span>${t("globo.equivalente_mensal")} </span>${fmt(dado.kgMonth)} kg/mês</div>` +
+          `<div class="painel-rank" style="margin-top:6px;"><span>${t("globo.posicao_ranking", { total: rankedIsos.length })} </span><strong>${rankOf(iso)}º</strong></div>` +
           "</div>" +
-          '<div class="painel-fonte">Estimativa de CO₂ fóssil per capita (Global Carbon Budget / Our World in Data, ano-base 2024).</div>';
+          `<div class="painel-fonte">${t("globo.fonte_estimativa")}</div>`;
       }
       painel.querySelector(".painel-fechar").addEventListener("click", fecharPainel);
       atualizarCamada();
@@ -449,10 +478,8 @@
 
       const canvasInterno = world.renderer().domElement;
       canvasInterno.setAttribute("role", "img");
-      canvasInterno.setAttribute(
-        "aria-label",
-        "Globo interativo de emissões de carbono. Arraste para girar, role para aproximar, clique num país para ver os dados e clique duas vezes para colocar o globo em destaque."
-      );
+      canvasInterno.setAttribute("aria-label", t("globo.aria_interativo"));
+      document.addEventListener("i18n:mudou", () => canvasInterno.setAttribute("aria-label", t("globo.aria_interativo")));
       canvasInterno.addEventListener("dblclick", () => {
         if (featureAtual) entrarFoco(featureAtual);
       });
@@ -536,7 +563,8 @@
 
       const canvasInterno = world.renderer().domElement;
       canvasInterno.setAttribute("role", "img");
-      canvasInterno.setAttribute("aria-label", "Globo decorativo girando, ilustrando o alcance global do projeto Carbono Consciente.");
+      canvasInterno.setAttribute("aria-label", t("globo.aria_decorativo"));
+      document.addEventListener("i18n:mudou", () => canvasInterno.setAttribute("aria-label", t("globo.aria_decorativo")));
 
       function redimensionar() {
         const r = globoDiv.getBoundingClientRect();

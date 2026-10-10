@@ -226,6 +226,68 @@ html[data-theme="escuro"] .theme-toggle .knob{
 
 html[data-theme="escuro"] .theme-toggle .icone svg{ color: var(--toggle-knob); }
 
+/* Botão de troca de idioma (injetado em .header-acoes via
+   front end/js/componentes/idioma-switcher.js, mesmo container do
+   .theme-toggle, sem precisar duplicar markup nos 3 HTMLs) */
+.idioma-switcher-wrap{
+  position: relative;
+}
+
+.idioma-switcher{
+  height: 36px;
+  min-width: 36px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: var(--toggle-bg);
+  color: var(--cor-header);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+html[data-theme="escuro"] .idioma-switcher{ color: var(--toggle-knob); }
+
+.idioma-painel{
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 50;
+  width: min(260px, 80vw);
+  background: var(--cor-superficie);
+  border: 1px solid var(--borda-suave);
+  border-radius: 14px;
+  padding: 12px;
+  box-shadow: var(--sombra);
+}
+
+.idioma-painel-busca{
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--borda-suave);
+  background: var(--cor-fundo-alt);
+  color: var(--cor-texto);
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
+}
+
+.idioma-painel-busca:focus{ outline: none; border-color: var(--cor-principal); }
+
+/* Dentro do popover (não de um campo de formulário), a lista de resultados
+   flui normalmente em vez de flutuar por cima — o popover já é o "flutuante" */
+.idioma-painel .seletor-busca-resultados{
+  position: static;
+  margin-top: 8px;
+  max-height: min(55vh, 340px);
+  background: var(--cor-fundo-alt);
+  border-color: var(--borda-suave);
+}
+
+.idioma-painel .seletor-busca-resultados button{ color: var(--cor-texto); }
+.idioma-painel .seletor-busca-resultados button:hover,
+.idioma-painel .seletor-busca-resultados button.em-foco{ background: var(--cor-superficie); }
+
 /* ---------- ÍCONES (substituem emoji em todo o site) ---------- */
 .icone-svg{
   width: 22px;
@@ -1772,8 +1834,43 @@ html[data-theme="escuro"] .globo-nuvem-parte{
 }
 
 .campo-form{
+  position: relative;
   margin-bottom: 20px;
 }
+
+/* Lista de resultados do seletor pesquisável (país no cadastro, idioma no
+   header) — front end/js/componentes/seletor-busca.js */
+.seletor-busca-resultados{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  margin-top: 4px;
+  background: var(--cor-card-escuro-1);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 10px;
+  overflow-y: auto;
+  max-height: 220px;
+  box-shadow: var(--sombra);
+}
+
+.seletor-busca-resultados.ativo{ display: block; }
+
+.seletor-busca-resultados button{
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 9px 14px;
+  font-size: 0.9rem;
+  color: #fff;
+  background: transparent;
+  cursor: pointer;
+}
+
+.seletor-busca-resultados button:hover,
+.seletor-busca-resultados button.em-foco{ background: rgba(255,255,255,0.12); }
 
 .campo-form label{
   display: block;
@@ -2189,3 +2286,17 @@ html[data-theme="escuro"] .painel-mensagem.sucesso{ color: #b9f0c4; }
 .noticia-esqueleto .esqueleto-linha{ height: 11px; margin-bottom: 10px; }
 
 #curiosidade-texto .esqueleto-linha{ height: 16px; margin-bottom: 10px; }
+
+/* =========================================================
+   SUPORTE A RTL (árabe, hebraico, persa, urdu, pashto, curdo sorani)
+   document.documentElement.dir é definido por front end/i18n/i18n.js
+   conforme o idioma ativo. A maioria do layout (flexbox com
+   justify-content/gap) já se inverte sozinha; só os elementos com
+   left/right fixos em absolute precisam de override explícito aqui.
+   ========================================================= */
+[dir="rtl"] .globo-legenda{ left: auto; right: 12px; }
+[dir="rtl"] .globo-busca{ left: auto; right: 14px; }
+[dir="rtl"] .idioma-painel{ right: auto; left: 0; }
+[dir="rtl"] .seletor-busca-resultados button,
+[dir="rtl"] .globo-busca-resultados button{ text-align: right; }
+[dir="rtl"] .campo-form label{ text-align: right; }

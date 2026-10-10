@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Boela ko tshimologong",
+    "theme_toggle_aria": "Fetola setaele sa lesedi/lefifi",
+    "menu_aria": "Bula lenaane",
+    "login_link": "tsena",
+    "sair_link": "tswa",
+    "painel_link": "boto",
+    "fechar": "Tswala",
+    "nav": {
+      "plataforma": "Lefelo",
+      "impacto": "Seabe",
+      "habitos": "Mekgwa",
+      "contato": "Ikgolaganye",
+      "dados": "Dintlha"
+    }
+  },
+  "header": {
+    "idioma_aria": "Fetola puo",
+    "idioma_buscar_placeholder": "Batla puo..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Tsena",
+    "meta_descricao": "Tsena kgotsa ikwadise go tlhoma matlho mo dintlheng le mekgweng ya gago mo Carbono Consciente.",
+    "esquerda_titulo": "Thane nngwe le nngwe ya CO₂ e tlogela sebe",
+    "esquerda_texto": "Tsena go tlhoma matlho mo dintlheng, mekgweng le mogatla wa gago wa khabone.",
+    "google_botao": "Tswelela ka Google",
+    "google_em_breve": "Go tsena ka Google go tla tloga go nna gona.",
+    "enviando": "e romela...",
+    "erro_servidor": "Go paletswe go kgolagana le seabi. A se dira?",
+    "erro_generico": "Go paletswe go fetsa tiro eo.",
+    "login": {
+      "titulo": "Tsena",
+      "email_label": "Imeile",
+      "email_placeholder": "wena@imeile.com",
+      "senha_label": "Lefoko la sephiri",
+      "botao": "tsena",
+      "troca_texto": "Ga o na akhaonto?",
+      "troca_botao": "Ikwadise"
+    },
+    "cadastro": {
+      "titulo": "Kwadiso",
+      "nome_label": "Leina",
+      "nome_placeholder": "Leina la gago",
+      "email_label": "Imeile",
+      "email_placeholder": "wena@imeile.com",
+      "pais_label": "Naga",
+      "pais_placeholder": "Batla naga...",
+      "senha_label": "Lefoko la sephiri",
+      "confirmar_label": "Netefatsa lefoko la sephiri",
+      "botao": "ikwadise",
+      "troca_texto": "A o na le akhaonto?",
+      "troca_botao": "Tsena"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Mafoko a sephiri ga a tshwane."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: thuto ya tikologo ka ga ditsamaiso tsa khabone, mogatla wa khabone, dikgakololo tsa go tshela ka tlhokomelo, dintlha tse di kgatlhang le dikgang tsa tikologo.",
+    "hero": {
+      "titulo": "Mokgwa mongwe le mongwe o monnye o tsenya boima jo bonnye mo lefatsheng",
+      "texto": "CARBONO CONSCIENTE GA SE LETSWAO LA TALA LE E SE GONE MASOLA WA KGAKALA — KE KGOBOKANO YA DITLHOPHO TSA GAUFI, TSE DI BOALOANG LETSATSI LENGWE LE LENGWE: SE O SE JALANG, KA MOKGWA O O TSAMAYANG KA ONE, FA O TIMANG LESEDI, FA O LATLHELANG DITLAKANA.",
+      "botao": "Bona Mo Go Oketsegileng"
+    },
+    "acordeao": {
+      "titulo": "Carbono Consciente ke eng?",
+      "emissao_titulo": "Thotloetso ya Khabone",
+      "emissao_corpo": "Thotloetso ya khabone ke go tsamaisiwa ga dikgasi jaaka CO₂ mo loaping, mo bontsi jwa nako ka go fisa dikgasi tsa gompieno, go rema dikgwa, tlhagiso ya indasteri le e leng dipalangwa tsa letsatsi le letsatsi.",
+      "clima_titulo": "E ama jang bosa jwa tikologo?",
+      "clima_corpo": "Dikgasi tse di dirang mogote di dira letlapa le le tshwarang mogote mo loaping. Jaaka thotloetso e ya oketsega, seabe se sona se nitametse — mme se ke sona se se tlhotlheletsa go tsha ga lefatshe le diphetogo tsa bosa.",
+      "pegada_titulo": "Mogatla wa Khabone",
+      "pegada_corpo": "Ke palo e e feletseng ya dikgasi tse di dirang mogote, tse di tlhagisiwang, ka tlhamalalo kgotsa ka tsela e sele, ke ditiro tsa motho, khamphani kgotsa sedirwa mo letsatsing le letsatsi.",
+      "neutro_titulo": "Khabone e e Sa Lekaneng × Carbono Consciente",
+      "neutro_corpo": "<strong>Khabone e e sa lekaneng</strong> e leka go lekanya kgotsa go duela madi a thotloetso e e dirwang. <strong>Carbono consciente</strong> e tlhoma pele ditlhopho tse di fokotsang seabe mo tikologong pele ga go akanya ka go duela."
+    },
+    "dicas": {
+      "titulo_secao": "Dikgakololo tsa go Tshela ka Tlhokomelo",
+      "clique_voltar": "tobetsa go boela morago",
+      "casa": {
+        "titulo": "Legae",
+        "resumo": "Poloka matla le metsi letsatsi le letsatsi",
+        "item1": "Boloka matla",
+        "item2": "Tima mabone fa o sa a dirise",
+        "item3": "Dirisa didirisiwa ka kelotlhoko",
+        "item4": "Fokotsa tshenyo ya metsi",
+        "item5": "Tila tshenyo ya dijo"
+      },
+      "transporte": {
+        "titulo": "Dipalangwa",
+        "resumo": "Mekgwa e sele go dira koloi go tsamaya gontle",
+        "item1": "Tsamaya ka dinao fa go kgonagala",
+        "item2": "Dirisa baesekele",
+        "item3": "Dirisa dipalangwa tsa setshaba",
+        "item4": "Abelana maeto fa go kgonagala",
+        "item5": "Fokotsa maeto a koloi a a sa tlhokegang"
+      },
+      "alimentacao": {
+        "titulo": "Dijo",
+        "resumo": "Ditlhopho tsa dijo tse di fokotsang tshenyo le thotloetso",
+        "item1": "Dirisa dikuno tsa selegae",
+        "item2": "Tila tshenyo",
+        "item3": "Rulaganya dijo pele",
+        "item4": "Dirisa dijo sentle",
+        "item5": "Fokotsa go ja nama"
+      },
+      "reciclagem": {
+        "titulo": "Go dirisa Sešwa",
+        "resumo": "Tlhopha, dirisa gape, ba fa dilo tse di setseng botshelo jo bosha",
+        "item1": "Tlhopha matlakala ka tshwanelo",
+        "item2": "Dirisa didiriswa gape",
+        "item3": "Isa dilo tse di ka dirisiwang gape kwa go tshwanetseng",
+        "item4": "Tila didirisiwa tse di latlhwang",
+        "item5": "Fa dilo tiriso e ntšha"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Dintlha tse di Kgatlhang tsa Tikologo",
+      "subtitulo": "A o itse?",
+      "carregando": "E tlisa ntlha e e kgatlhang...",
+      "proxima": "Ntlha e e latelang e e kgatlhang",
+      "erro_carregar": "Go paletswe go tlisa dintlha tse di kgatlhang jaanong."
+    },
+    "noticias": {
+      "titulo": "Dikgang tsa Tikologo",
+      "subtitulo": "Dikgang tsa boammaaruri le tsa bosheng ka ga tshelo e e tswelelang",
+      "anteriores": "Dikgang tse di fetileng",
+      "proximas": "Dikgang tse di latelang",
+      "carregando": "E tlisa dikgang...",
+      "erro_carregar": "Go paletswe go tlisa dikgang jaanong.",
+      "nenhuma": "Ga go na kgang e e teng jaanong.",
+      "ler_na_origem": "bala kwa motsweding →",
+      "sem_link": "Ga go na kgolagano ya kwa ntle e e teng ya kgang eno."
+    },
+    "rodape": {
+      "descricao": "Thuto ya tikologo e e fetolang ditlhopho tse dinnye go nna dipoelo tse dikgolo mo lefatsheng.",
+      "navegacao": "Tsamaiso",
+      "contato": "Ikgolaganye",
+      "copyright": "© 2026 Carbono Consciente. Ditshwanelo tsotlhe di sireletsegile."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Boto",
+    "meta_descricao": "Kwala maeto a gago mme o tlhoma matlho mo mogatleng wa gago wa khabone mo nakong.",
+    "titulo": "Boto ya gago ya mekgwa",
+    "subtitulo": "Kwala maeto a gago mme o tlhoma matlho mo mogatleng wa gago wa khabone mo nakong.",
+    "card_hoje": "CO₂ gompieno",
+    "card_semana": "CO₂ beke eno",
+    "card_mes": "CO₂ kgwedi eno",
+    "grafico_titulo": "Diphetogo mo malatsing a 14 a a fetileng",
+    "grafico_aria": "Diphetogo tsa CO₂ mo malatsing a {{dias}} a a fetileng",
+    "form_titulo": "Oketsa loeto",
+    "campo_meio": "Mokgwa wa palangwa",
+    "campo_distancia": "Bogolo jwa loeto (km)",
+    "campo_data": "Letlha",
+    "campo_observacao": "Tshwaelo (ga e patelesege)",
+    "campo_observacao_placeholder": "sek.: loeto go ya tirong",
+    "botao_adicionar": "oketsa",
+    "salvando": "e boloka...",
+    "registrado_sucesso": "Loeto lo kwadilwe!",
+    "registros_titulo": "Dikwalo tse di latelang morago",
+    "registros_vazio": "Ga go na dikwalo go sa le gona — oketsa loeto la gago la ntlha kwa godimo.",
+    "meio_removido": "Mokgwa o tlositswe",
+    "remover_registro": "Tlosa kwalo",
+    "sessao_expirada": "Nako ya go tsena e fedile.",
+    "erro_servidor": "Go paletswe go kgolagana le seabi. A se dira?",
+    "erro_generico": "Go paletswe go fetsa tiro eo.",
+    "delta_sem_registros": "ga go na dikwalo mo pakeng eno",
+    "delta_primeiro_registro": "kwalo ya ntlha mo pakeng eno",
+    "delta_estavel": "e tsitsitse go tswa mo pakeng e e fetileng",
+    "delta_variacao": "{{percentual}}% go tswa mo pakeng e e fetileng"
+  },
+  "globo": {
+    "legenda_titulo": "Thotloetso ka motho",
+    "legenda_baixa": "E Kwa Tlase",
+    "legenda_alta": "E Kwa Godimo",
+    "sair_destaque": "Tswa mo mokgweng wa go bontsha",
+    "buscar_placeholder": "Batla naga...",
+    "buscar_aria": "Batla naga mo lefatsheng le le dikologang",
+    "sem_dados_co2": "ga go na dintlha tsa CO₂",
+    "tonelada_ano_pessoa": "{{valor}} t/ngwaga ka motho",
+    "territorio": "Tikologo",
+    "fechar_painel": "Tswala boto",
+    "sem_dados_territorio": "Ga go na dintlha tsa thotloetso ya CO₂ ka motho tse di teng mo tikologong eno.",
+    "emissao_per_capita": "Thotloetso ka motho:",
+    "equivalente_diario": "Tekanyetso ya letsatsi:",
+    "equivalente_semanal": "Tekanyetso ya beke:",
+    "equivalente_mensal": "Tekanyetso ya kgwedi:",
+    "posicao_ranking": "Boemo mo thulaganyong (go tswa mo dinageng tse {{total}}):",
+    "fonte_estimativa": "Tekanyetso ya CO₂ ya dikgasi tsa gompieno ka motho (Global Carbon Budget / Our World in Data, ngwaga wa motheo 2024).",
+    "aria_interativo": "Lefatshe le le dikologang le le amanang la ditsamaiso tsa khabone. Gogela go dikologa, sikinya go atlanganya, tobetsa naga go bona dintlha mme o tobetse gabedi go baya lefatshe mo mokgweng wa go bontsha.",
+    "aria_decorativo": "Lefatshe le le dikologang la kgabo, le le bontshang bogolo jwa lefatshe jwa porojeke ya Carbono Consciente.",
+    "continente_asia": "Asia",
+    "continente_africa": "Aferika",
+    "continente_europa": "Yuropa",
+    "continente_america_sul": "Amerika Borwa",
+    "continente_america_norte": "Amerika Bokone",
+    "continente_oceania": "Oseania"
+  }
+}

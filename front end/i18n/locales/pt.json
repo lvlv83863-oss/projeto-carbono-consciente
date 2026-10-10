@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Voltar ao início",
+    "theme_toggle_aria": "Alternar tema claro/escuro",
+    "menu_aria": "Abrir menu",
+    "login_link": "login",
+    "sair_link": "sair",
+    "painel_link": "painel",
+    "fechar": "Fechar",
+    "nav": {
+      "plataforma": "Plataforma",
+      "impacto": "Impacto",
+      "habitos": "Hábitos",
+      "contato": "Contato",
+      "dados": "Dados"
+    }
+  },
+  "header": {
+    "idioma_aria": "Trocar idioma",
+    "idioma_buscar_placeholder": "Buscar idioma..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Entrar",
+    "meta_descricao": "Entre ou cadastre-se para acompanhar seus dados e hábitos no Carbono Consciente.",
+    "esquerda_titulo": "Cada tonelada de CO₂ deixa um rastro",
+    "esquerda_texto": "Entre para acompanhar seus dados, hábitos e sua pegada de carbono.",
+    "google_botao": "Continuar com o Google",
+    "google_em_breve": "Login com o Google em breve.",
+    "enviando": "enviando...",
+    "erro_servidor": "Não foi possível falar com o servidor. Ele está rodando?",
+    "erro_generico": "Não foi possível completar a operação.",
+    "login": {
+      "titulo": "Login",
+      "email_label": "Email",
+      "email_placeholder": "seu@email.com",
+      "senha_label": "Senha",
+      "botao": "entrar",
+      "troca_texto": "Ainda não tem conta?",
+      "troca_botao": "Cadastre-se"
+    },
+    "cadastro": {
+      "titulo": "Cadastro",
+      "nome_label": "Nome",
+      "nome_placeholder": "Seu nome",
+      "email_label": "Email",
+      "email_placeholder": "seu@email.com",
+      "pais_label": "País",
+      "pais_placeholder": "Buscar país...",
+      "senha_label": "Senha",
+      "confirmar_label": "Confirmar senha",
+      "botao": "cadastrar",
+      "troca_texto": "Já tem conta?",
+      "troca_botao": "Entrar"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "As senhas não conferem."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: educação ambiental sobre emissões de carbono, pegada de carbono, dicas sustentáveis, curiosidades e notícias ambientais.",
+    "hero": {
+      "titulo": "Todo hábito pequeno pesa menos no planeta",
+      "texto": "CARBONO CONSCIENTE NÃO É UM SELO VERDE NEM UMA META DISTANTE — É A SOMA DE ESCOLHAS COMUNS, REPETIDAS TODO DIA: O QUE VOCÊ PLANTA, COMO SE DESLOCA, QUANDO DESLIGA A LUZ, ONDE JOGA O LIXO.",
+      "botao": "Ver Mais"
+    },
+    "acordeao": {
+      "titulo": "O que é Carbono Consciente?",
+      "emissao_titulo": "Emissão de Carbono",
+      "emissao_corpo": "Emissão de carbono é a liberação de gases como o CO₂ na atmosfera, principalmente pela queima de combustíveis fósseis, desmatamento, produção industrial e até pelo transporte do dia a dia.",
+      "clima_titulo": "Como afeta o clima?",
+      "clima_corpo": "Os gases de efeito estufa formam uma camada que retém calor na atmosfera. Quanto mais emissões, maior esse efeito — e é isso que impulsiona o aquecimento global e as mudanças climáticas.",
+      "pegada_titulo": "Pegada de Carbono",
+      "pegada_corpo": "É a quantidade total de gases de efeito estufa gerada, direta ou indiretamente, pelas atividades de uma pessoa, empresa ou produto no seu dia a dia.",
+      "neutro_titulo": "Carbono Neutro × Carbono Consciente",
+      "neutro_corpo": "<strong>Carbono neutro</strong> busca equilibrar ou compensar as emissões geradas. <strong>Carbono consciente</strong> prioriza escolhas que reduzam o impacto ambiental antes mesmo de pensar em compensação."
+    },
+    "dicas": {
+      "titulo_secao": "Dicas Sustentáveis",
+      "clique_voltar": "clique para voltar",
+      "casa": {
+        "titulo": "Casa",
+        "resumo": "Economia de energia e água no dia a dia",
+        "item1": "Economizar energia",
+        "item2": "Apagar luzes quando não estiver utilizando",
+        "item3": "Utilizar equipamentos de forma consciente",
+        "item4": "Reduzir desperdício de água",
+        "item5": "Evitar desperdício de alimentos"
+      },
+      "transporte": {
+        "titulo": "Transporte",
+        "resumo": "Alternativas ao carro para deslocamentos mais leves",
+        "item1": "Caminhar quando possível",
+        "item2": "Utilizar bicicleta",
+        "item3": "Utilizar transporte público",
+        "item4": "Compartilhar viagens quando possível",
+        "item5": "Reduzir deslocamentos desnecessários de carro"
+      },
+      "alimentacao": {
+        "titulo": "Alimentação",
+        "resumo": "Escolhas à mesa que reduzem desperdício e emissões",
+        "item1": "Consumir produtos locais",
+        "item2": "Evitar desperdício",
+        "item3": "Planejar as refeições",
+        "item4": "Aproveitar melhor os alimentos",
+        "item5": "Diminuir o consumo de carne"
+      },
+      "reciclagem": {
+        "titulo": "Reciclagem",
+        "resumo": "Separe, reutilize e dê novo uso ao que sobra",
+        "item1": "Separar corretamente os resíduos",
+        "item2": "Reutilizar materiais",
+        "item3": "Destinar recicláveis corretamente",
+        "item4": "Evitar produtos descartáveis",
+        "item5": "Dar novos usos aos objetos"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Curiosidades Ambientais",
+      "subtitulo": "Você sabia?",
+      "carregando": "Carregando curiosidade...",
+      "proxima": "Próxima curiosidade",
+      "erro_carregar": "Não foi possível carregar as curiosidades agora."
+    },
+    "noticias": {
+      "titulo": "Notícias Ambientais",
+      "subtitulo": "Notícias reais e recentes sobre sustentabilidade",
+      "anteriores": "Notícias anteriores",
+      "proximas": "Próximas notícias",
+      "carregando": "Carregando notícias...",
+      "erro_carregar": "Não foi possível carregar as notícias agora.",
+      "nenhuma": "Nenhuma notícia disponível no momento.",
+      "ler_na_origem": "ler no site de origem →",
+      "sem_link": "Sem link externo disponível para esta notícia."
+    },
+    "rodape": {
+      "descricao": "Educação ambiental para transformar pequenas escolhas em grandes resultados para o planeta.",
+      "navegacao": "Navegação",
+      "contato": "Contato",
+      "copyright": "© 2026 Carbono Consciente. Todos os direitos reservados."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Painel",
+    "meta_descricao": "Registre seus deslocamentos e acompanhe sua pegada de carbono ao longo do tempo.",
+    "titulo": "Seu painel de hábitos",
+    "subtitulo": "Registre seus deslocamentos e acompanhe sua pegada de carbono ao longo do tempo.",
+    "card_hoje": "CO₂ hoje",
+    "card_semana": "CO₂ nesta semana",
+    "card_mes": "CO₂ neste mês",
+    "grafico_titulo": "Evolução nos últimos 14 dias",
+    "grafico_aria": "Evolução do CO₂ nos últimos {{dias}} dias",
+    "form_titulo": "Adicionar deslocamento",
+    "campo_meio": "Meio de transporte",
+    "campo_distancia": "Distância (km)",
+    "campo_data": "Data",
+    "campo_observacao": "Observação (opcional)",
+    "campo_observacao_placeholder": "ex.: trajeto pro trabalho",
+    "botao_adicionar": "adicionar",
+    "salvando": "salvando...",
+    "registrado_sucesso": "Deslocamento registrado!",
+    "registros_titulo": "Últimos registros",
+    "registros_vazio": "Nenhum registro ainda — adicione seu primeiro deslocamento acima.",
+    "meio_removido": "Meio removido",
+    "remover_registro": "Remover registro",
+    "sessao_expirada": "Sessão expirada.",
+    "erro_servidor": "Não foi possível falar com o servidor. Ele está rodando?",
+    "erro_generico": "Não foi possível completar a operação.",
+    "delta_sem_registros": "sem registros no período",
+    "delta_primeiro_registro": "primeiro registro do período",
+    "delta_estavel": "estável vs. período anterior",
+    "delta_variacao": "{{percentual}}% vs. período anterior"
+  },
+  "globo": {
+    "legenda_titulo": "Emissão per capita",
+    "legenda_baixa": "Baixa",
+    "legenda_alta": "Alta",
+    "sair_destaque": "Sair do modo destaque",
+    "buscar_placeholder": "Buscar país...",
+    "buscar_aria": "Buscar país no globo",
+    "sem_dados_co2": "sem dados de CO₂",
+    "tonelada_ano_pessoa": "{{valor}} t/ano por pessoa",
+    "territorio": "Território",
+    "fechar_painel": "Fechar painel",
+    "sem_dados_territorio": "Sem dados de emissão de CO₂ per capita disponíveis para este território.",
+    "emissao_per_capita": "Emissão per capita:",
+    "equivalente_diario": "Equivalente diário:",
+    "equivalente_semanal": "Equivalente semanal:",
+    "equivalente_mensal": "Equivalente mensal:",
+    "posicao_ranking": "Posição no ranking (de {{total}} países):",
+    "fonte_estimativa": "Estimativa de CO₂ fóssil per capita (Global Carbon Budget / Our World in Data, ano-base 2024).",
+    "aria_interativo": "Globo interativo de emissões de carbono. Arraste para girar, role para aproximar, clique num país para ver os dados e clique duas vezes para colocar o globo em destaque.",
+    "aria_decorativo": "Globo decorativo girando, ilustrando o alcance global do projeto Carbono Consciente.",
+    "continente_asia": "Ásia",
+    "continente_africa": "África",
+    "continente_europa": "Europa",
+    "continente_america_sul": "América do Sul",
+    "continente_america_norte": "América do Norte",
+    "continente_oceania": "Oceania"
+  }
+}

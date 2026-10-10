@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Tornar a l'inici",
+    "theme_toggle_aria": "Canviar tema clar/fosc",
+    "menu_aria": "Obrir menú",
+    "login_link": "iniciar sessió",
+    "sair_link": "tancar sessió",
+    "painel_link": "panell",
+    "fechar": "Tancar",
+    "nav": {
+      "plataforma": "Plataforma",
+      "impacto": "Impacte",
+      "habitos": "Hàbits",
+      "contato": "Contacte",
+      "dados": "Dades"
+    }
+  },
+  "header": {
+    "idioma_aria": "Canviar idioma",
+    "idioma_buscar_placeholder": "Cercar idioma..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Inicia sessió",
+    "meta_descricao": "Inicia sessió o registra't per fer seguiment de les teves dades i hàbits a Carbono Consciente.",
+    "esquerda_titulo": "Cada tona de CO₂ deixa un rastre",
+    "esquerda_texto": "Inicia sessió per fer seguiment de les teves dades, hàbits i la teva petjada de carboni.",
+    "google_botao": "Continuar amb Google",
+    "google_em_breve": "L'inici de sessió amb Google arribarà aviat.",
+    "enviando": "enviant...",
+    "erro_servidor": "No s'ha pogut connectar amb el servidor. Està en funcionament?",
+    "erro_generico": "No s'ha pogut completar l'operació.",
+    "login": {
+      "titulo": "Inici de sessió",
+      "email_label": "Correu electrònic",
+      "email_placeholder": "elteu@email.com",
+      "senha_label": "Contrasenya",
+      "botao": "iniciar sessió",
+      "troca_texto": "Encara no tens compte?",
+      "troca_botao": "Registra't"
+    },
+    "cadastro": {
+      "titulo": "Registre",
+      "nome_label": "Nom",
+      "nome_placeholder": "El teu nom",
+      "email_label": "Correu electrònic",
+      "email_placeholder": "elteu@email.com",
+      "pais_label": "País",
+      "pais_placeholder": "Cercar país...",
+      "senha_label": "Contrasenya",
+      "confirmar_label": "Confirma la contrasenya",
+      "botao": "registrar-se",
+      "troca_texto": "Ja tens compte?",
+      "troca_botao": "Inicia sessió"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Les contrasenyes no coincideixen."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: educació ambiental sobre emissions de carboni, petjada de carboni, consells sostenibles, curiositats i notícies ambientals.",
+    "hero": {
+      "titulo": "Cada petit hàbit pesa menys al planeta",
+      "texto": "CARBONO CONSCIENTE NO ÉS UN SEGELL VERD NI UNA META LLUNYANA — ÉS LA SUMA D'ELECCIONS QUOTIDIANES, REPETIDES CADA DIA: QUÈ PLANTES, COM ET DESPLACES, QUAN APAGUES EL LLUM, ON LLENCES LES ESCOMBRARIES.",
+      "botao": "Veure Més"
+    },
+    "acordeao": {
+      "titulo": "Què és Carbono Consciente?",
+      "emissao_titulo": "Emissió de Carboni",
+      "emissao_corpo": "L'emissió de carboni és l'alliberament de gasos com el CO₂ a l'atmosfera, principalment per la crema de combustibles fòssils, la desforestació, la producció industrial i fins i tot el transport quotidià.",
+      "clima_titulo": "Com afecta el clima?",
+      "clima_corpo": "Els gasos d'efecte hivernacle formen una capa que reté la calor a l'atmosfera. Com més emissions, més gran és aquest efecte — i això és el que impulsa l'escalfament global i el canvi climàtic.",
+      "pegada_titulo": "Petjada de Carboni",
+      "pegada_corpo": "És la quantitat total de gasos d'efecte hivernacle generats, directa o indirectament, per les activitats d'una persona, empresa o producte en el seu dia a dia.",
+      "neutro_titulo": "Carboni Neutre × Carbono Consciente",
+      "neutro_corpo": "<strong>Carboni neutre</strong> busca equilibrar o compensar les emissions generades. <strong>Carbono consciente</strong> prioritza eleccions que redueixin l'impacte ambiental abans fins i tot de pensar en la compensació."
+    },
+    "dicas": {
+      "titulo_secao": "Consells Sostenibles",
+      "clique_voltar": "clica per tornar",
+      "casa": {
+        "titulo": "Casa",
+        "resumo": "Estalvi d'energia i aigua en el dia a dia",
+        "item1": "Estalviar energia",
+        "item2": "Apagar els llums quan no s'utilitzin",
+        "item3": "Utilitzar els aparells de manera conscient",
+        "item4": "Reduir el malbaratament d'aigua",
+        "item5": "Evitar el malbaratament d'aliments"
+      },
+      "transporte": {
+        "titulo": "Transport",
+        "resumo": "Alternatives al cotxe per a desplaçaments més lleugers",
+        "item1": "Caminar quan sigui possible",
+        "item2": "Utilitzar la bicicleta",
+        "item3": "Utilitzar el transport públic",
+        "item4": "Compartir viatges quan sigui possible",
+        "item5": "Reduir desplaçaments innecessaris en cotxe"
+      },
+      "alimentacao": {
+        "titulo": "Alimentació",
+        "resumo": "Eleccions a taula que redueixen el malbaratament i les emissions",
+        "item1": "Consumir productes locals",
+        "item2": "Evitar el malbaratament",
+        "item3": "Planificar els àpats",
+        "item4": "Aprofitar millor els aliments",
+        "item5": "Reduir el consum de carn"
+      },
+      "reciclagem": {
+        "titulo": "Reciclatge",
+        "resumo": "Separa, reutilitza i dona un nou ús a allò que sobra",
+        "item1": "Separar correctament els residus",
+        "item2": "Reutilitzar materials",
+        "item3": "Destinar els reciclables correctament",
+        "item4": "Evitar productes d'un sol ús",
+        "item5": "Donar nous usos als objectes"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Curiositats Ambientals",
+      "subtitulo": "Sabies que?",
+      "carregando": "Carregant curiositat...",
+      "proxima": "Següent curiositat",
+      "erro_carregar": "Ara mateix no s'han pogut carregar les curiositats."
+    },
+    "noticias": {
+      "titulo": "Notícies Ambientals",
+      "subtitulo": "Notícies reals i recents sobre sostenibilitat",
+      "anteriores": "Notícies anteriors",
+      "proximas": "Notícies següents",
+      "carregando": "Carregant notícies...",
+      "erro_carregar": "Ara mateix no s'han pogut carregar les notícies.",
+      "nenhuma": "No hi ha cap notícia disponible en aquest moment.",
+      "ler_na_origem": "llegir a la font original →",
+      "sem_link": "No hi ha cap enllaç extern disponible per a aquesta notícia."
+    },
+    "rodape": {
+      "descricao": "Educació ambiental que transforma petites eleccions en grans resultats per al planeta.",
+      "navegacao": "Navegació",
+      "contato": "Contacte",
+      "copyright": "© 2026 Carbono Consciente. Tots els drets reservats."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Panell",
+    "meta_descricao": "Registra els teus desplaçaments i fes seguiment de la teva petjada de carboni al llarg del temps.",
+    "titulo": "El teu panell d'hàbits",
+    "subtitulo": "Registra els teus desplaçaments i fes seguiment de la teva petjada de carboni al llarg del temps.",
+    "card_hoje": "CO₂ avui",
+    "card_semana": "CO₂ aquesta setmana",
+    "card_mes": "CO₂ aquest mes",
+    "grafico_titulo": "Evolució dels últims 14 dies",
+    "grafico_aria": "Evolució del CO₂ en els últims {{dias}} dies",
+    "form_titulo": "Afegir desplaçament",
+    "campo_meio": "Mitjà de transport",
+    "campo_distancia": "Distància (km)",
+    "campo_data": "Data",
+    "campo_observacao": "Observació (opcional)",
+    "campo_observacao_placeholder": "p. ex.: trajecte a la feina",
+    "botao_adicionar": "afegir",
+    "salvando": "desant...",
+    "registrado_sucesso": "Desplaçament registrat!",
+    "registros_titulo": "Últims registres",
+    "registros_vazio": "Encara no hi ha registres — afegeix el teu primer desplaçament a dalt.",
+    "meio_removido": "Mitjà eliminat",
+    "remover_registro": "Eliminar registre",
+    "sessao_expirada": "Sessió expirada.",
+    "erro_servidor": "No s'ha pogut connectar amb el servidor. Està en funcionament?",
+    "erro_generico": "No s'ha pogut completar l'operació.",
+    "delta_sem_registros": "sense registres en aquest període",
+    "delta_primeiro_registro": "primer registre del període",
+    "delta_estavel": "estable respecte al període anterior",
+    "delta_variacao": "{{percentual}}% respecte al període anterior"
+  },
+  "globo": {
+    "legenda_titulo": "Emissions per càpita",
+    "legenda_baixa": "Baixa",
+    "legenda_alta": "Alta",
+    "sair_destaque": "Sortir del mode destacat",
+    "buscar_placeholder": "Cercar país...",
+    "buscar_aria": "Cercar país al globus",
+    "sem_dados_co2": "sense dades de CO₂",
+    "tonelada_ano_pessoa": "{{valor}} t/any per persona",
+    "territorio": "Territori",
+    "fechar_painel": "Tancar panell",
+    "sem_dados_territorio": "No hi ha dades d'emissions de CO₂ per càpita disponibles per a aquest territori.",
+    "emissao_per_capita": "Emissions per càpita:",
+    "equivalente_diario": "Equivalent diari:",
+    "equivalente_semanal": "Equivalent setmanal:",
+    "equivalente_mensal": "Equivalent mensual:",
+    "posicao_ranking": "Posició al rànquing (de {{total}} països):",
+    "fonte_estimativa": "Estimació de CO₂ fòssil per càpita (Global Carbon Budget / Our World in Data, any base 2024).",
+    "aria_interativo": "Globus interactiu d'emissions de carboni. Arrossega per girar, desplaça't per fer zoom, clica un país per veure les dades i fes doble clic per posar el globus en mode destacat.",
+    "aria_decorativo": "Globus decoratiu giratori, que il·lustra l'abast global del projecte Carbono Consciente.",
+    "continente_asia": "Àsia",
+    "continente_africa": "Àfrica",
+    "continente_europa": "Europa",
+    "continente_america_sul": "Amèrica del Sud",
+    "continente_america_norte": "Amèrica del Nord",
+    "continente_oceania": "Oceania"
+  }
+}

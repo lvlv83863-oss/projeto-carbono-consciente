@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Buyela ekhaya",
+    "theme_toggle_aria": "Shintja itemu lelikhanyako/lelimnyama",
+    "menu_aria": "Vula imenyu",
+    "login_link": "ngena",
+    "sair_link": "phuma",
+    "painel_link": "ibhodi",
+    "fechar": "Vala",
+    "nav": {
+      "plataforma": "Lipulatifomu",
+      "impacto": "Umphumela",
+      "habitos": "Imikhuba",
+      "contato": "Luxhumano",
+      "dados": "Imininingwane"
+    }
+  },
+  "header": {
+    "idioma_aria": "Shintja lulwimi",
+    "idioma_buscar_placeholder": "Sesha lulwimi..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Ngena",
+    "meta_descricao": "Ngena noma ubhalise kuze ulandzelele imininingwane yakho nemikhuba yakho ku Carbono Consciente.",
+    "esquerda_titulo": "Itoni yonkhe ye CO₂ ishiya luphawu",
+    "esquerda_texto": "Ngena kuze ulandzelele imininingwane yakho, imikhuba yakho nelutfuli lwakho lwekhabhoni.",
+    "google_botao": "Chubeka nge Google",
+    "google_em_breve": "Kungena nge Google kutawufika maduze.",
+    "enviando": "kutfunyelwa...",
+    "erro_servidor": "Angikhoni kukhuluma neservha. Ingasebenta yini?",
+    "erro_generico": "Angikhoni kucedzela sento.",
+    "login": {
+      "titulo": "Ngena",
+      "email_label": "I-imeyili",
+      "email_placeholder": "wakho@imeyili.com",
+      "senha_label": "Liphasiwedi",
+      "botao": "ngena",
+      "troca_texto": "Awukakabi nalo i-akhawunti?",
+      "troca_botao": "Bhalisa"
+    },
+    "cadastro": {
+      "titulo": "Bhalisa",
+      "nome_label": "Libito",
+      "nome_placeholder": "Libito lakho",
+      "email_label": "I-imeyili",
+      "email_placeholder": "wakho@imeyili.com",
+      "pais_label": "Live",
+      "pais_placeholder": "Sesha live...",
+      "senha_label": "Liphasiwedi",
+      "confirmar_label": "Chaza liphasiwedi",
+      "botao": "bhalisa",
+      "troca_texto": "Unayo yini kadze i-akhawunti?",
+      "troca_botao": "Ngena"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Amaphasiwedi awafani."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: fundzo lemvelo ngemikhiqizo yekhabhoni, lutfuli lwekhabhoni, maseluleko lokusimama, tintfo letimangalisa nendzaba temvelo.",
+    "hero": {
+      "titulo": "Nome ngumkhuba omncane uyehlisa kancane umtfwalo kulelive",
+      "texto": "CARBONO CONSCIENTE AYISIPHAWU LELIHLATSA NOMBE LIHLOSO LELIKUDZE — KULUHLANGANO LWEKUKHETSA KOJWAYELEKILE, KUPHINDWA LUSUKU NGALUNYE: KUTSI UTJALA NI, UHAMBA UNJANI, NGABE UVALA LIBHANYABHANYA, UKHALA KUPHI LUDZOVU.",
+      "botao": "Buka Kwengetiwe"
+    },
+    "acordeao": {
+      "titulo": "Yini Carbono Consciente?",
+      "emissao_titulo": "Kukhishwa kweKhabhoni",
+      "emissao_corpo": "Kukhishwa kwekhabhoni kukhishwa kwemagesi lafana ne-CO₂ emoyeni, ikakhulukati ngokushiswa kwemafutha lasendzalo, kugawulwa kwemahlatsi, kukhiqizwa kwemafektri kanye nangetfulelo lwelusuku nalusuku.",
+      "clima_titulo": "Kuphatamisa njani simo selitulu?",
+      "clima_corpo": "Emagesi akha umkhumbi lobamba kushisa emoyeni. Lokukhishwa kwemagesi kungakhula, umphumela uyakhula naye — yiko lokubangela kushisa kwemhlaba nakuphendukela kwesimo selitulu.",
+      "pegada_titulo": "Lutfuli lweKhabhoni",
+      "pegada_corpo": "Yinani lelipheletile lemagesi lacalisa kushisa emoyeni, akhiqizwa, ngalokucacile nome ngalokungacacile, kutenzo temuntfu, inkampani nome umkhiqizo mphumela welusuku nalusuku.",
+      "neutro_titulo": "Khabhoni Engacali × Carbono Consciente",
+      "neutro_corpo": "<strong>Khabhoni engacali</strong> ifuna kulinganisa nome kuvuselela lokukhishiwe. <strong>Carbono consciente</strong> ibeka cucu lekukhetsa lokuncipisa umphumela emvelweni ngaphambi kwekucabanga nge kuvuselela."
+    },
+    "dicas": {
+      "titulo_secao": "Maseluleko Lokusimama",
+      "clique_voltar": "cindzetela uze ubuyele emuva",
+      "casa": {
+        "titulo": "Likhaya",
+        "resumo": "Kongiwa kwemandla nemanti lusuku nalusuku",
+        "item1": "Kongela mandla",
+        "item2": "Vala tibani uma ungakasebenti",
+        "item3": "Sebentisa timphahla ngekucatulula",
+        "item4": "Ncipisa kumosakala kwemanti",
+        "item5": "Gwema kumosakala kwekudla"
+      },
+      "transporte": {
+        "titulo": "Lokutfutsa",
+        "resumo": "Tikhetho eletulu kuleviyi lokuhambela kancane",
+        "item1": "Hamba ngetinyawo uma kungenteka",
+        "item2": "Sebentisa libhayisikili",
+        "item3": "Sebentisa tikhwelwana telive",
+        "item4": "Habelana ngetikhwelo uma kungenteka",
+        "item5": "Ncipisa kuhamba ngeliviyi ngalokungadzingakali"
+      },
+      "alimentacao": {
+        "titulo": "Kudla",
+        "resumo": "Tikhetho yetafula letincipisa kumosakala nekukhishwa kwemagesi",
+        "item1": "Dla imikhiqizo yasekhaya",
+        "item2": "Gwema kumosakala",
+        "item3": "Hlela kudla kwakho",
+        "item4": "Sebentisa kudla kahle",
+        "item5": "Ncipisa kudla inyama"
+      },
+      "reciclagem": {
+        "titulo": "Kuphindza Kusetjentiswa",
+        "resumo": "Hlukanisa, phindze usebentise kabutjha futsi unike lusebenti lusha kutintfo letisele",
+        "item1": "Hlukanisa kahle insalela",
+        "item2": "Phindza usebentise timphahla",
+        "item3": "Yisa izimphahla letingasetjentiswa kabutjha endzaweni lefanele",
+        "item4": "Gwema imikhiqizo yekulahlwa kanye",
+        "item5": "Nika tintfo lusebenti losha"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Tintfo Letimangalisa Temvelo",
+      "subtitulo": "Bewati?",
+      "carregando": "Kulayisha intfo lemangalisa...",
+      "proxima": "Intfo lelandzelako lemangalisa",
+      "erro_carregar": "Akukhonakali kulayisha tintfo letimangalisa njengamanje."
+    },
+    "noticias": {
+      "titulo": "Tindzaba Temvelo",
+      "subtitulo": "Tindzaba teliciniso nalesanda kuvela ngekusimama",
+      "anteriores": "Tindzaba tangaphambilini",
+      "proximas": "Tindzaba letilandzelako",
+      "carregando": "Kulayishwa tindzaba...",
+      "erro_carregar": "Akukhonakali kulayisha tindzaba njengamanje.",
+      "nenhuma": "Akukho tindzaba letikhona njengamanje.",
+      "ler_na_origem": "funda endzaweni lekuphumele kona →",
+      "sem_link": "Akukho lusinci lwangephandle lolukhona kulendzaba."
+    },
+    "rodape": {
+      "descricao": "Fundzo lemvelo leguqula tikhetho tincane kuba miphumela yemikhulu yelive.",
+      "navegacao": "Kuzulazula",
+      "contato": "Luxhumano",
+      "copyright": "© 2026 Carbono Consciente. Emalungelo onkhe agodliwe."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Ibhodi",
+    "meta_descricao": "Bhalisa tikhwelo takho uphindze ulandzelele lutfuli lwakho lwekhabhoni ngesikhatsi.",
+    "titulo": "Ibhodi yakho yemikhuba",
+    "subtitulo": "Bhalisa tikhwelo takho uphindze ulandzelele lutfuli lwakho lwekhabhoni ngesikhatsi.",
+    "card_hoje": "CO₂ lamuhla",
+    "card_semana": "CO₂ kuleliviki",
+    "card_mes": "CO₂ kulenyanga",
+    "grafico_titulo": "Kuchubeka kwemalanga 14 lamuva",
+    "grafico_aria": "Kuchubeka kwe CO₂ kumalanga {{dias}} lamuva",
+    "form_titulo": "Faka kukhwela",
+    "campo_meio": "Indlela yekutfutsa",
+    "campo_distancia": "Ibanga (km)",
+    "campo_data": "Lusuku",
+    "campo_observacao": "Luphawu (kungasimcoka)",
+    "campo_observacao_placeholder": "sibonelo: luhambo lwemsebenti",
+    "botao_adicionar": "faka",
+    "salvando": "kugcinwa...",
+    "registrado_sucesso": "Luhambo lubhaliswe!",
+    "registros_titulo": "Kugcinwe kwamuva",
+    "registros_vazio": "Akukho kugcinwe ngandlela — faka luhambo lwakho lwekucala ngenhla.",
+    "meio_removido": "Indlela isusiwe",
+    "remover_registro": "Susa kugcinwe",
+    "sessao_expirada": "Sikhatsi sesheshini siphelile.",
+    "erro_servidor": "Angikhoni kukhuluma neservha. Ingasebenta yini?",
+    "erro_generico": "Angikhoni kucedzela sento.",
+    "delta_sem_registros": "akukho kugcinwe ngesikhatsi",
+    "delta_primeiro_registro": "kugcinwe kwekucala ngesikhatsi",
+    "delta_estavel": "kuzinzile kucabangwa nesikhatsi lesengulo",
+    "delta_variacao": "{{percentual}}% kucabangwa nesikhatsi lesengulo"
+  },
+  "globo": {
+    "legenda_titulo": "Kukhishwa ngamunwe ngamunye",
+    "legenda_baixa": "Kuphansi",
+    "legenda_alta": "Kuphakeme",
+    "sair_destaque": "Phuma endleleni yokuvezwa",
+    "buscar_placeholder": "Sesha live...",
+    "buscar_aria": "Sesha live embulungeni",
+    "sem_dados_co2": "akukho imininingwane yeCO₂",
+    "tonelada_ano_pessoa": "{{valor}} t/umnyaka ngemuntfu",
+    "territorio": "Live",
+    "fechar_painel": "Vala ibhodi",
+    "sem_dados_territorio": "Akukho imininingwane yekukhishwa kweCO₂ ngamunwe ngamunye lekhona kulelive.",
+    "emissao_per_capita": "Kukhishwa ngamunwe ngamunye:",
+    "equivalente_diario": "Kulinganisa kwelusuku:",
+    "equivalente_semanal": "Kulinganisa kweliviki:",
+    "equivalente_mensal": "Kulinganisa kwenyanga:",
+    "posicao_ranking": "Sikhundla kuluhlu (kutemave langu {{total}}):",
+    "fonte_estimativa": "Kulinganisa kweCO₂ yendzalo ngamunwe ngamunye (Global Carbon Budget / Our World in Data, umnyaka wesisekelo 2024).",
+    "aria_interativo": "Imbulunga lesebentisana nemuntfu yekukhishwa kwekhabhoni. Donsa kuze ijikeleze, skrola kuze isondzele, cindzetela live kuze ubone imininingwane, futsi ucindzetele kabili kuze imbulunga ibekwe endleleni yokuvezwa.",
+    "aria_decorativo": "Imbulunga yemhlobiso lejikelezako, ikhombisa ligadango lelive lelihlanganisene leprojekthi yeCarbono Consciente.",
+    "continente_asia": "Asia",
+    "continente_africa": "Afrika",
+    "continente_europa": "Europe",
+    "continente_america_sul": "America Leningizimu",
+    "continente_america_norte": "America Lenyakatho",
+    "continente_oceania": "Oceania"
+  }
+}

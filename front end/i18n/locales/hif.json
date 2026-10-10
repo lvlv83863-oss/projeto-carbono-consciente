@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← होम वापस जाओ",
+    "theme_toggle_aria": "लाइट/डार्क थीम बदलो",
+    "menu_aria": "मेनू खोलो",
+    "login_link": "लॉगिन",
+    "sair_link": "बाहर जाओ",
+    "painel_link": "पैनल",
+    "fechar": "बंद करो",
+    "nav": {
+      "plataforma": "प्लेटफार्म",
+      "impacto": "असर",
+      "habitos": "आदत",
+      "contato": "संपर्क",
+      "dados": "डाटा"
+    }
+  },
+  "header": {
+    "idioma_aria": "भाषा बदलो",
+    "idioma_buscar_placeholder": "भाषा खोजो..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — लॉगिन करो",
+    "meta_descricao": "अपना डाटा और आदत देखने के लिए लॉगिन या रजिस्टर करो Carbono Consciente में.",
+    "esquerda_titulo": "हर टन CO₂ एक निशान छोड़ता है",
+    "esquerda_texto": "अपना डाटा, आदत और कार्बन फुटप्रिंट देखने के लिए लॉगिन करो.",
+    "google_botao": "Google से जारी रखो",
+    "google_em_breve": "Google लॉगिन जल्दी आएगा.",
+    "enviando": "भेज रहा है...",
+    "erro_servidor": "सर्वर से बात नहीं हो पाया. क्या वो चल रहा है?",
+    "erro_generico": "यह काम पूरा नहीं हो पाया.",
+    "login": {
+      "titulo": "लॉगिन",
+      "email_label": "ईमेल",
+      "email_placeholder": "aapka@email.com",
+      "senha_label": "पासवर्ड",
+      "botao": "लॉगिन करो",
+      "troca_texto": "अभी तक खाता नहीं है?",
+      "troca_botao": "रजिस्टर करो"
+    },
+    "cadastro": {
+      "titulo": "रजिस्ट्रेशन",
+      "nome_label": "नाम",
+      "nome_placeholder": "अपना नाम",
+      "email_label": "ईमेल",
+      "email_placeholder": "aapka@email.com",
+      "pais_label": "देश",
+      "pais_placeholder": "देश खोजो...",
+      "senha_label": "पासवर्ड",
+      "confirmar_label": "पासवर्ड कन्फर्म करो",
+      "botao": "रजिस्टर करो",
+      "troca_texto": "पहिले से खाता है?",
+      "troca_botao": "लॉगिन करो"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "पासवर्ड मैच नहीं करता."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: कार्बन उत्सर्जन, कार्बन फुटप्रिंट, सस्टेनेबल टिप्स, मजेदार बात और एनवायरनमेंट की खबर पर शिक्षा.",
+    "hero": {
+      "titulo": "हर छोटी आदत धरती पर कम बोझ डालता है",
+      "texto": "CARBONO CONSCIENTE कोई ग्रीन सील या दूर का सपना नहीं है — यह रोज की सामान्य चीज़ों का जोड़ है, जो हर दिन दोहराई जाती है: तुम क्या लगाते हो, कैसे आना-जाना करते हो, कब लाइट बंद करते हो, कचरा कहाँ फेंकते हो.",
+      "botao": "ज्यादा देखो"
+    },
+    "acordeao": {
+      "titulo": "Carbono Consciente क्या है?",
+      "emissao_titulo": "कार्बन उत्सर्जन",
+      "emissao_corpo": "कार्बन उत्सर्जन मतलब वातावरण में CO₂ जैसे गैस का छूटना, जो मुख्य रूप से फॉसिल फ्यूल जलाने, जंगल काटने, इंडस्ट्री के काम और रोज के ट्रांसपोर्ट से होता है.",
+      "clima_titulo": "यह मौसम को कैसे असर करता है?",
+      "clima_corpo": "ग्रीनहाउस गैस वातावरण में एक परत बनाता है जो गरमी को रोक के रखता है. जितना ज्यादा उत्सर्जन, उतना बड़ा यह असर — और यही ग्लोबल वार्मिंग और क्लाइमेट चेंज को बढ़ावा देता है.",
+      "pegada_titulo": "कार्बन फुटप्रिंट",
+      "pegada_corpo": "यह एक इंसान, कंपनी या प्रोडक्ट के रोज के काम से डायरेक्ट या इनडायरेक्ट पैदा होने वाला ग्रीनहाउस गैस का कुल मात्रा है.",
+      "neutro_titulo": "कार्बन न्यूट्रल × कार्बन कॉन्शियस",
+      "neutro_corpo": "<strong>कार्बन न्यूट्रल</strong> उत्सर्जन को बैलेंस या भरपाई करने की कोशिश करता है. <strong>कार्बन कॉन्शियस</strong> भरपाई के बारे सोचने से पहिले ही, एनवायरनमेंट पर असर कम करने वाला चुनाव को पहिले रखता है."
+    },
+    "dicas": {
+      "titulo_secao": "सस्टेनेबल टिप्स",
+      "clique_voltar": "वापस जाने के लिए क्लिक करो",
+      "casa": {
+        "titulo": "घर",
+        "resumo": "रोज की एनर्जी और पानी की बचत",
+        "item1": "एनर्जी बचाओ",
+        "item2": "इस्तेमाल नहीं कर रहे तो लाइट बंद करो",
+        "item3": "इक्विपमेंट को समझ के इस्तेमाल करो",
+        "item4": "पानी की बर्बादी कम करो",
+        "item5": "खाना बर्बाद होने से बचाओ"
+      },
+      "transporte": {
+        "titulo": "ट्रांसपोर्ट",
+        "resumo": "हल्का सफर के लिए कार की जगह दूसरा रास्ता",
+        "item1": "जहाँ हो सके पैदल जाओ",
+        "item2": "साइकिल इस्तेमाल करो",
+        "item3": "पब्लिक ट्रांसपोर्ट इस्तेमाल करो",
+        "item4": "जहाँ हो सके सफर शेयर करो",
+        "item5": "बिना जरूरत की कार सफर कम करो"
+      },
+      "alimentacao": {
+        "titulo": "खाना",
+        "resumo": "खाने की मेज पर चुनाव जो बर्बादी और उत्सर्जन कम करता है",
+        "item1": "लोकल प्रोडक्ट खरीदो",
+        "item2": "बर्बादी से बचो",
+        "item3": "खाना पहिले से प्लान करो",
+        "item4": "खाने का अच्छे से इस्तेमाल करो",
+        "item5": "मांस का खाना कम करो"
+      },
+      "reciclagem": {
+        "titulo": "रीसाइक्लिंग",
+        "resumo": "अलग करो, फिर इस्तेमाल करो, और बचे हुए को नया काम दो",
+        "item1": "कचरा सही तरीका से अलग करो",
+        "item2": "सामान फिर इस्तेमाल करो",
+        "item3": "रीसाइक्लेबल चीज़ सही जगह भेजो",
+        "item4": "डिस्पोजेबल प्रोडक्ट से बचो",
+        "item5": "चीज़ों को नया इस्तेमाल दो"
+      }
+    },
+    "curiosidades": {
+      "titulo": "एनवायरनमेंट की मजेदार बात",
+      "subtitulo": "तुम्हे पता था?",
+      "carregando": "मजेदार बात लोड हो रहा है...",
+      "proxima": "आगे वाला मजेदार बात",
+      "erro_carregar": "अभी मजेदार बात लोड नहीं हो पाया."
+    },
+    "noticias": {
+      "titulo": "एनवायरनमेंट की खबर",
+      "subtitulo": "सस्टेनेबिलिटी पर असली और नई खबर",
+      "anteriores": "पहिले की खबर",
+      "proximas": "आगे की खबर",
+      "carregando": "खबर लोड हो रहा है...",
+      "erro_carregar": "अभी खबर लोड नहीं हो पाया.",
+      "nenhuma": "अभी कोई खबर नहीं है.",
+      "ler_na_origem": "ओरिजिनल साइट में पढ़ो →",
+      "sem_link": "इस खबर के लिए कोई बाहर का लिंक नहीं है."
+    },
+    "rodape": {
+      "descricao": "एनवायरनमेंट की शिक्षा, छोटी चुनाव को धरती के लिए बड़ा नतीजा में बदलने वाला.",
+      "navegacao": "नेविगेशन",
+      "contato": "संपर्क",
+      "copyright": "© 2026 Carbono Consciente. सब हक सुरक्षित."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — पैनल",
+    "meta_descricao": "अपना सफर लिखो और टाइम के साथ अपना कार्बन फुटप्रिंट देखो.",
+    "titulo": "तुम्हारा आदत का पैनल",
+    "subtitulo": "अपना सफर लिखो और टाइम के साथ अपना कार्बन फुटप्रिंट देखो.",
+    "card_hoje": "आज का CO₂",
+    "card_semana": "इस हफ्ता का CO₂",
+    "card_mes": "इस महीना का CO₂",
+    "grafico_titulo": "पिछला 14 दिन का बदलाव",
+    "grafico_aria": "पिछला {{dias}} दिन में CO₂ का बदलाव",
+    "form_titulo": "सफर जोड़ो",
+    "campo_meio": "ट्रांसपोर्ट का तरीका",
+    "campo_distancia": "दूरी (km)",
+    "campo_data": "तारीख",
+    "campo_observacao": "नोट (ऑप्शनल)",
+    "campo_observacao_placeholder": "जैसे: काम पर जाने का सफर",
+    "botao_adicionar": "जोड़ो",
+    "salvando": "सेव हो रहा है...",
+    "registrado_sucesso": "सफर लिख गया!",
+    "registros_titulo": "आखिरी एंट्री",
+    "registros_vazio": "अभी तक कोई एंट्री नहीं है — ऊपर अपना पहिला सफर जोड़ो.",
+    "meio_removido": "तरीका हटा दिया गया",
+    "remover_registro": "एंट्री हटाओ",
+    "sessao_expirada": "सेशन खतम हो गया.",
+    "erro_servidor": "सर्वर से बात नहीं हो पाया. क्या वो चल रहा है?",
+    "erro_generico": "यह काम पूरा नहीं हो पाया.",
+    "delta_sem_registros": "इस पीरियड में कोई एंट्री नहीं है",
+    "delta_primeiro_registro": "इस पीरियड का पहिला एंट्री",
+    "delta_estavel": "पिछला पीरियड के बराबर",
+    "delta_variacao": "{{percentual}}% पिछला पीरियड से"
+  },
+  "globo": {
+    "legenda_titulo": "हर इंसान का उत्सर्जन",
+    "legenda_baixa": "कम",
+    "legenda_alta": "ज्यादा",
+    "sair_destaque": "हाइलाइट मोड से बाहर जाओ",
+    "buscar_placeholder": "देश खोजो...",
+    "buscar_aria": "ग्लोब में देश खोजो",
+    "sem_dados_co2": "CO₂ का डाटा नहीं है",
+    "tonelada_ano_pessoa": "{{valor}} t/साल हर इंसान का",
+    "territorio": "क्षेत्र",
+    "fechar_painel": "पैनल बंद करो",
+    "sem_dados_territorio": "इस क्षेत्र के लिए हर इंसान का CO₂ उत्सर्जन का डाटा नहीं है.",
+    "emissao_per_capita": "हर इंसान का उत्सर्जन:",
+    "equivalente_diario": "रोज के बराबर:",
+    "equivalente_semanal": "हफ्ता के बराबर:",
+    "equivalente_mensal": "महीना के बराबर:",
+    "posicao_ranking": "रैंकिंग में जगह ({{total}} देश में से):",
+    "fonte_estimativa": "फॉसिल CO₂ हर इंसान का अंदाजा (Global Carbon Budget / Our World in Data, 2024 बेस साल).",
+    "aria_interativo": "इंटरैक्टिव कार्बन उत्सर्जन ग्लोब. घुमाने के लिए खींचो, जूम करने के लिए स्क्रोल करो, डाटा देखने के लिए देश पर क्लिक करो, और ग्लोब को हाइलाइट मोड में लाने के लिए डबल-क्लिक करो.",
+    "aria_decorativo": "घूमता हुआ डेकोरेटिव ग्लोब, Carbono Consciente प्रोजेक्ट का ग्लोबल पहुँच दिखाता हुआ.",
+    "continente_asia": "एशिया",
+    "continente_africa": "अफ्रीका",
+    "continente_europa": "यूरोप",
+    "continente_america_sul": "दक्षिण अमेरिका",
+    "continente_america_norte": "उत्तर अमेरिका",
+    "continente_oceania": "ओशिनिया"
+  }
+}

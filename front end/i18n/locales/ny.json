@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Bwererani kunyumba",
+    "theme_toggle_aria": "Sinthani maonekedwe owala/mdima",
+    "menu_aria": "Tsegulani menyu",
+    "login_link": "lowani",
+    "sair_link": "tulukani",
+    "painel_link": "dashibodi",
+    "fechar": "Tsekani",
+    "nav": {
+      "plataforma": "Nsanja",
+      "impacto": "Chiyambukiro",
+      "habitos": "Zizoloŵezi",
+      "contato": "Lumikizanani",
+      "dados": "Zambiri"
+    }
+  },
+  "header": {
+    "idioma_aria": "Sinthani chinenero",
+    "idioma_buscar_placeholder": "Funani chinenero..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Lowani",
+    "meta_descricao": "Lowani kapena lembetsani kuti mutsatire zambiri ndi zizoloŵezi zanu pa Carbono Consciente.",
+    "esquerda_titulo": "Thoni lililonse la CO₂ limasiya chizindikiro",
+    "esquerda_texto": "Lowani kuti mutsatire zambiri zanu, zizoloŵezi, ndi mapazi anu a carbon.",
+    "google_botao": "Pitirizani ndi Google",
+    "google_em_breve": "Kulowa ndi Google kukubwera posachedwa.",
+    "enviando": "kukutumiza...",
+    "erro_servidor": "Sizinathe kulumikizana ndi seva. Kodi ikugwira ntchito?",
+    "erro_generico": "Sizinathe kumaliza ntchitoyi.",
+    "login": {
+      "titulo": "Kulowa",
+      "email_label": "Imelo",
+      "email_placeholder": "wanu@imelo.com",
+      "senha_label": "Mawu achinsinsi",
+      "botao": "lowani",
+      "troca_texto": "Mulibe akaunti?",
+      "troca_botao": "Lembetsani"
+    },
+    "cadastro": {
+      "titulo": "Kulembetsa",
+      "nome_label": "Dzina",
+      "nome_placeholder": "Dzina lanu",
+      "email_label": "Imelo",
+      "email_placeholder": "wanu@imelo.com",
+      "pais_label": "Dziko",
+      "pais_placeholder": "Funani dziko...",
+      "senha_label": "Mawu achinsinsi",
+      "confirmar_label": "Tsimikizani mawu achinsinsi",
+      "botao": "lembetsani",
+      "troca_texto": "Muli kale ndi akaunti?",
+      "troca_botao": "Lowani"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Mawu achinsinsi safanana."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: maphunziro a chilengedwe okhudza kutulutsa mpweya wa carbon, mapazi a carbon, malangizo okhwima, zinthu zodabwitsa, ndi nkhani za chilengedwe.",
+    "hero": {
+      "titulo": "Chizoloŵezi chilichonse chaching'ono chimachititsa dziko kukhala ndi mavuto ochepa",
+      "texto": "CARBONO CONSCIENTE SI CHIZINDIKIRO CHOBIRIWIRA KAPENA CHOLINGA CHAKUTALI — NDI CHIWERENGERO CHA ZISANKHO ZOFALA, ZOBWEREZEDWA TSIKU LILILONSE: ZOMWE MUMABZALA, MMENE MUMAYENDERA, POTI MUMAZIMITSA NYALE, KUMENE MUMAPONYERA ZINYALALA.",
+      "botao": "Onani Zambiri"
+    },
+    "acordeao": {
+      "titulo": "Kodi Carbono Consciente ndi chiyani?",
+      "emissao_titulo": "Kutulutsa Mpweya wa Carbon",
+      "emissao_corpo": "Kutulutsa mpweya wa carbon ndiko kutulutsa mipweya monga CO₂ mumlengalenga, makamaka chifukwa cha kuyatsa mafuta akale, kudula mitengo, ntchito za makampani, ndiponso mayendedwe a tsiku ndi tsiku.",
+      "clima_titulo": "Zimakhudza bwanji nyengo?",
+      "clima_corpo": "Mipweya yowotha dziko imapanga chophimba chomwe chimasunga kutentha mumlengalenga. Kutulutsa kuchuluka, zotsatira zimakulirakulirabe — ndipo izi ndi zomwe zimachititsa kutentha kwa dziko ndi kusintha kwa nyengo.",
+      "pegada_titulo": "Mapazi a Carbon",
+      "pegada_corpo": "Ndi kuchuluka kwathunthu kwa mipweya yowotha dziko yomwe imapangidwa, mwachindunji kapena mosachindunji, ndi zochita za munthu, kampani, kapena chinthu pa moyo wa tsiku ndi tsiku.",
+      "neutro_titulo": "Kulinganiza Mpweya wa Carbon × Carbono Consciente",
+      "neutro_corpo": "<strong>Kulinganiza mpweya wa carbon</strong> kumafuna kufanizira kapena kulipirira mpweya wotulutsidwa. <strong>Carbono consciente</strong> amapereka patsogolo zisankho zomwe zimachepetsa zotsatira pa chilengedwe musanaganizire za kulipirira."
+    },
+    "dicas": {
+      "titulo_secao": "Malangizo Okhwima",
+      "clique_voltar": "dinani kuti mubwerere",
+      "casa": {
+        "titulo": "Nyumba",
+        "resumo": "Kusunga mphamvu ndi madzi pa tsiku ndi tsiku",
+        "item1": "Sungani mphamvu",
+        "item2": "Zimitsani magetsi mukasawagwiritsa ntchito",
+        "item3": "Gwiritsani ntchito zida mosamala",
+        "item4": "Chepetsani kuwononga madzi",
+        "item5": "Pewani kuwononga chakudya"
+      },
+      "transporte": {
+        "titulo": "Mayendedwe",
+        "resumo": "Njira zina osati galimoto kuti mayendedwe akhale opepuka",
+        "item1": "Yendani pansi mukakhoza",
+        "item2": "Gwiritsani ntchito njinga",
+        "item3": "Gwiritsani ntchito mayendedwe a anthu onse",
+        "item4": "Gawanani maulendo mukakhoza",
+        "item5": "Chepetsani maulendo a galimoto osafunikira"
+      },
+      "alimentacao": {
+        "titulo": "Chakudya",
+        "resumo": "Zisankho pa tebulo zomwe zimachepetsa kuwononga ndi mpweya",
+        "item1": "Gulani zinthu zapafupi",
+        "item2": "Pewani kuwononga",
+        "item3": "Konzekerani zakudya",
+        "item4": "Gwiritsani ntchito chakudya bwino",
+        "item5": "Chepetsani kudya nyama"
+      },
+      "reciclagem": {
+        "titulo": "Kubwezanso Kugwiritsa Ntchito",
+        "resumo": "Sankhani, gwiritsani ntchito nawonso, ndipo perekani ntchito yatsopano ku zotsalira",
+        "item1": "Sankhani zinyalala moyenera",
+        "item2": "Gwiritsani ntchito nawonso zinthu",
+        "item3": "Perekani zinthu zobwezeretsedwa moyenera",
+        "item4": "Pewani zinthu zogwiritsa ntchito kamodzi",
+        "item5": "Perekani ntchito yatsopano ku zinthu"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Zinthu Zodabwitsa za Chilengedwe",
+      "subtitulo": "Kodi munadziwa?",
+      "carregando": "Chikukweza chinthu chodabwitsa...",
+      "proxima": "Chinthu chodabwitsa chotsatira",
+      "erro_carregar": "Sizinathe kukweza zinthu zodabwitsa panopa."
+    },
+    "noticias": {
+      "titulo": "Nkhani za Chilengedwe",
+      "subtitulo": "Nkhani zoona ndi zaposachedwa za kukhwima",
+      "anteriores": "Nkhani zakale",
+      "proximas": "Nkhani zotsatira",
+      "carregando": "Zikukweza nkhani...",
+      "erro_carregar": "Sizinathe kukweza nkhani panopa.",
+      "nenhuma": "Palibe nkhani zilizonse pakali pano.",
+      "ler_na_origem": "werengani komwe kudachokera →",
+      "sem_link": "Palibe kulumikizana kwina kwa nkhani iyi."
+    },
+    "rodape": {
+      "descricao": "Maphunziro a chilengedwe osintha zisankho zazing'ono kukhala zotsatira zazikulu za dziko.",
+      "navegacao": "Mayendedwe a Tsamba",
+      "contato": "Lumikizanani",
+      "copyright": "© 2026 Carbono Consciente. Ufulu wonse wasungidwa."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Dashibodi",
+    "meta_descricao": "Lembani maulendo anu ndikutsatira mapazi anu a carbon pakapita nthawi.",
+    "titulo": "Dashibodi yanu ya zizoloŵezi",
+    "subtitulo": "Lembani maulendo anu ndikutsatira mapazi anu a carbon pakapita nthawi.",
+    "card_hoje": "CO₂ lero",
+    "card_semana": "CO₂ sabata lino",
+    "card_mes": "CO₂ mwezi uno",
+    "grafico_titulo": "Kusintha m'masiku 14 apitawa",
+    "grafico_aria": "Kusintha kwa CO₂ m'masiku {{dias}} apitawa",
+    "form_titulo": "Onjezani ulendo",
+    "campo_meio": "Njira yoyendera",
+    "campo_distancia": "Mtunda (km)",
+    "campo_data": "Tsiku",
+    "campo_observacao": "Zolemba (zosankha)",
+    "campo_observacao_placeholder": "mwachitsanzo: ulendo wopita kuntchito",
+    "botao_adicionar": "onjezani",
+    "salvando": "kukusunga...",
+    "registrado_sucesso": "Ulendo walembedwa!",
+    "registros_titulo": "Zolembedwa zaposachedwa",
+    "registros_vazio": "Palibe zolembedwa pano — onjezani ulendo wanu woyamba pamwambapa.",
+    "meio_removido": "Njira yachotsedwa",
+    "remover_registro": "Chotsani zolembedwa",
+    "sessao_expirada": "Nthawi yanu yatha.",
+    "erro_servidor": "Sizinathe kulumikizana ndi seva. Kodi ikugwira ntchito?",
+    "erro_generico": "Sizinathe kumaliza ntchitoyi.",
+    "delta_sem_registros": "palibe zolembedwa mu nthawi imeneyi",
+    "delta_primeiro_registro": "zolembedwa zoyamba mu nthawi imeneyi",
+    "delta_estavel": "yokhazikika poyerekeza ndi nthawi yapitayo",
+    "delta_variacao": "{{percentual}}% poyerekeza ndi nthawi yapitayo"
+  },
+  "globo": {
+    "legenda_titulo": "Kutulutsa mpweya pa munthu aliyense",
+    "legenda_baixa": "Yochepa",
+    "legenda_alta": "Yambiri",
+    "sair_destaque": "Chokani mu njira yowunikira",
+    "buscar_placeholder": "Funani dziko...",
+    "buscar_aria": "Funani dziko pa globu",
+    "sem_dados_co2": "palibe zambiri za CO₂",
+    "tonelada_ano_pessoa": "matani {{valor}}/chaka pa munthu aliyense",
+    "territorio": "Dera",
+    "fechar_painel": "Tsekani painelo",
+    "sem_dados_territorio": "Palibe zambiri za kutulutsa mpweya wa CO₂ pa munthu aliyense zomwe zilipo za deralo.",
+    "emissao_per_capita": "Kutulutsa pa munthu aliyense:",
+    "equivalente_diario": "Kufanana kwa tsiku ndi tsiku:",
+    "equivalente_semanal": "Kufanana kwa sabata:",
+    "equivalente_mensal": "Kufanana kwa mwezi:",
+    "posicao_ranking": "Udindo pa mndandanda (mwa mayiko {{total}}):",
+    "fonte_estimativa": "Kuyerekezera kwa CO₂ ya mafuta akale pa munthu aliyense (Global Carbon Budget / Our World in Data, chaka choyambira 2024).",
+    "aria_interativo": "Globu yolumikizana ya kutulutsa mpweya wa carbon. Kokani kuti izungulire, sikulolani kuti ikulire, dinani dziko kuti muone zambiri zake, ndipo dinani kaŵiri kuti muyike globu mu njira yowunikira.",
+    "aria_decorativo": "Globu yokongoletsera yozungulira, yosonyeza kufikira kwa padziko lonse kwa polojekiti ya Carbono Consciente.",
+    "continente_asia": "Asia",
+    "continente_africa": "Afirika",
+    "continente_europa": "Yuropu",
+    "continente_america_sul": "Amerika ya Kummwera",
+    "continente_america_norte": "Amerika ya Kumpoto",
+    "continente_oceania": "Oseania"
+  }
+}

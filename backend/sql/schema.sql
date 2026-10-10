@@ -11,9 +11,12 @@
 -- Adaptado a partir do arquivo original "base_banco.txt" — a tabela
 -- "usuarios" foi simplificada: os campos cpf, telefone e idade foram
 -- removidos (não são usados pelo site) e "endereco" virou "pais"
--- (só o país do usuário, não um endereço completo), já que o cadastro
--- hoje só pede nome/email/senha e esse dado fica opcional, preenchível
--- depois numa tela de perfil.
+-- (só o país do usuário, não um endereço completo). O cadastro envia o
+-- código ISO_A3 do país escolhido na busca (ex.: 'BRA'), não o nome por
+-- extenso — é o mesmo código usado em front end/data/emissoes.json e
+-- validado contra backend/src/dados/emissoesPaises.json. Esse código
+-- também decide o idioma inicial da interface (front end/data/pais-idioma.json).
+-- O campo continua opcional.
 -- =====================================================================
 
 CREATE DATABASE IF NOT EXISTS carbono_consciente
@@ -131,7 +134,7 @@ GROUP BY h.id_usuario, h.data_registro;
 -- Exemplo de inserção de um usuário e um registro de hábito
 -- ---------------------------------------------------------------------
 -- INSERT INTO usuarios (nome, email, senha_hash, pais)
--- VALUES ('Adriele', 'adriele@exemplo.com', '<hash_da_senha>', 'Brasil');
+-- VALUES ('Adriele', 'adriele@exemplo.com', '<hash_da_senha>', 'BRA');
 --
 -- INSERT INTO habitos (id_usuario, id_meio, data_registro, distancia_km, co2_emitido_kg)
 -- VALUES (1, 1, '2026-09-16', 12.5, NULL); -- co2 calculado pelo trigger

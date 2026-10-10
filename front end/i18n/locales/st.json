@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Khutlela hae",
+    "theme_toggle_aria": "Fetola mofuta oa khanya/lefifi",
+    "menu_aria": "Bula menu",
+    "login_link": "kena",
+    "sair_link": "tsoa",
+    "painel_link": "boto",
+    "fechar": "Koala",
+    "nav": {
+      "plataforma": "Sethala",
+      "impacto": "Phello",
+      "habitos": "Mekhoa",
+      "contato": "Khokahano",
+      "dados": "Lintlha"
+    }
+  },
+  "header": {
+    "idioma_aria": "Fetola puo",
+    "idioma_buscar_placeholder": "Batla puo..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Kena",
+    "meta_descricao": "Kena kapa ingolise ho latela lintlha tsa hau le mekhoa ea hau ho Carbono Consciente.",
+    "esquerda_titulo": "Thane e 'ngoe le e 'ngoe ea CO₂ e siea leshala",
+    "esquerda_texto": "Kena ho latela lintlha tsa hau, mekhoa ea hau le mohlala oa khabone ea hau.",
+    "google_botao": "Tsoela pele ka Google",
+    "google_em_breve": "Ho kena ka Google ho tla fihla haufinyane.",
+    "enviando": "e ntse e romelloa...",
+    "erro_servidor": "Ha ho khonahale ho bua le seva. Na e sebetsa?",
+    "erro_generico": "Ha ho khonahale ho phethela ketso ena.",
+    "login": {
+      "titulo": "Kena",
+      "email_label": "Imeile",
+      "email_placeholder": "oa_hau@imeile.com",
+      "senha_label": "Password",
+      "botao": "kena",
+      "troca_texto": "Ha u na le akhaonto?",
+      "troca_botao": "Ingolise"
+    },
+    "cadastro": {
+      "titulo": "Ngoliso",
+      "nome_label": "Lebitso",
+      "nome_placeholder": "Lebitso la hau",
+      "email_label": "Imeile",
+      "email_placeholder": "oa_hau@imeile.com",
+      "pais_label": "Naha",
+      "pais_placeholder": "Batla naha...",
+      "senha_label": "Password",
+      "confirmar_label": "Netefatsa password",
+      "botao": "ingolisa",
+      "troca_texto": "U na le akhaonto pele?",
+      "troca_botao": "Kena"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Password li ea hloka ho tšoana."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: thuto ea tikoloho ka ho ntša ha khabone, mohlala oa khabone, maqheka a ho boloka tikoloho, lintho tse hlollang le litaba tsa tikoloho.",
+    "hero": {
+      "titulo": "Mokhoa o mong le o mong o monyenyane oa fokotsa boima lefatšeng",
+      "texto": "CARBONO CONSCIENTE HA E LESO LA BOTALA KAPA SEPHEO SE HOLE — E LETOTO LA LIKHETHO TSE TLOAELEHILENG, TSE PHETOHANG LETSATSI LE LENG LE LE LENG: SEO U SE JALANG, KAMOO U TSAMAEANG KATEDO, NAKO EO U TIMANG LEBONE, MOO U LAHLELANG LITŠILA.",
+      "botao": "Bona Haholoanyane"
+    },
+    "acordeao": {
+      "titulo": "Carbono Consciente ke eng?",
+      "emissao_titulo": "Ntšo ea Khabone",
+      "emissao_corpo": "Ntšo ea khabone ke ho lokolla likhase joalo ka CO₂ moeeng, haholo-holo ka ho chesa mafura a fosili, ho rengoa ha meru, tlhahiso ea indasteri le esita le lipalangi tsa letsatsi le letsatsi.",
+      "clima_titulo": "E ama boemo ba leholimo joang?",
+      "clima_corpo": "Likhase tse bakang effect ea serurubele li theha lera le tšoarang mocheso moeeng. Haeba ntšo e eketseha, tšusumetso ena e matlafala — ke sona se bakang kgolo ea mocheso oa lefatše le phetoho ea boemo ba leholimo.",
+      "pegada_titulo": "Mohlala oa Khabone",
+      "pegada_corpo": "Ke palo e felletseng ea likhase tse bakang effect ea serurubele tse hlahisoang, ka kotloloho kapa ka ho se tobane, ke mesebetsi ea motho, k'hamphani kapa sehlahisoa letsatsi le letsatsi.",
+      "neutro_titulo": "Khabone e Sa Khethe Lehlakoreng × Carbono Consciente",
+      "neutro_corpo": "<strong>Khabone e sa khethe lehlakoreng</strong> e leka ho lekanya kapa ho fetola ntšo tse hlahisitsoeng. <strong>Carbono consciente</strong> e beha boemo ba pele liqheto tse fokotsang tšusumetso tikolohong pele e nahana ka ho fetola."
+    },
+    "dicas": {
+      "titulo_secao": "Maqheka a ho Boloka Tikoloho",
+      "clique_voltar": "tobetsa ho khutla morao",
+      "casa": {
+        "titulo": "Lapa",
+        "resumo": "Ho boloka matla le metsi letsatsi le letsatsi",
+        "item1": "Boloka matla",
+        "item2": "Tima mabone ha u sa a sebelisa",
+        "item3": "Sebelisa lisebelisoa ka tlhokomelo",
+        "item4": "Fokotsa tahlehelo ea metsi",
+        "item5": "Qoba tahlehelo ea lijo"
+      },
+      "transporte": {
+        "titulo": "Lipalangi",
+        "resumo": "Mekhoa e meng ntle ho koloi bakeng sa maeto a bobebe",
+        "item1": "Tsamaea ka maoto ha ho khonahala",
+        "item2": "Sebelisa baesekele",
+        "item3": "Sebelisa lipalangi tsa setjhaba",
+        "item4": "Arolelana maeto ha ho khonahala",
+        "item5": "Fokotsa maeto a koloi a sa hlokahaleng"
+      },
+      "alimentacao": {
+        "titulo": "Lijo",
+        "resumo": "Liqheto tafoleng tse fokotsang tahlehelo le ntšo",
+        "item1": "Reka lihlahisoa tsa lehae",
+        "item2": "Qoba tahlehelo",
+        "item3": "Rala lijo tsa hau",
+        "item4": "Sebelisa lijo ka katleho",
+        "item5": "Fokotsa ho ja nama"
+      },
+      "reciclagem": {
+        "titulo": "Ho Sebelisa Lintho Hape",
+        "resumo": "Arola, sebelisa hape 'me u fe tšohle tse setseng tšebeliso e ncha",
+        "item1": "Arola litšila ka nepo",
+        "item2": "Sebelisa thepa hape",
+        "item3": "Isa thepa e ka sebelisoang hape sebakeng se nepahetseng",
+        "item4": "Qoba lihlahisoa tse sebelisoang hang feela",
+        "item5": "Fa lintho tšebeliso e ncha"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Lintho tse Hlollang tsa Tikoloho",
+      "subtitulo": "Na u ne u tseba?",
+      "carregando": "E ntse e kenya ntho e hlollang...",
+      "proxima": "Ntho e latelang e hlollang",
+      "erro_carregar": "Ha ho khonahale ho kenya lintho tse hlollang hona joale."
+    },
+    "noticias": {
+      "titulo": "Litaba tsa Tikoloho",
+      "subtitulo": "Litaba tsa 'nete le tsa morao-rao ka ho boloka tikoloho",
+      "anteriores": "Litaba tse fetileng",
+      "proximas": "Litaba tse latelang",
+      "carregando": "E ntse e kenya litaba...",
+      "erro_carregar": "Ha ho khonahale ho kenya litaba hona joale.",
+      "nenhuma": "Ha ho litaba tse teng hona joale.",
+      "ler_na_origem": "bala moqapi oa pele →",
+      "sem_link": "Ha ho khokahano ea ka ntle e teng bakeng sa taba ena."
+    },
+    "rodape": {
+      "descricao": "Thuto ea tikoloho e fetolang liqheto tse nyane hore e be liphetho tse kholo bakeng sa lefatše.",
+      "navegacao": "Tsamaiso",
+      "contato": "Khokahano",
+      "copyright": "© 2026 Carbono Consciente. Litokelo tsohle li bolokeloe."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Boto",
+    "meta_descricao": "Ngolla maeto a hau 'me u latele mohlala oa khabone ea hau ha nako e ntse e ea.",
+    "titulo": "Boto ea hau ea mekhoa",
+    "subtitulo": "Ngolla maeto a hau 'me u latele mohlala oa khabone ea hau ha nako e ntse e ea.",
+    "card_hoje": "CO₂ kajeno",
+    "card_semana": "CO₂ bekeng ena",
+    "card_mes": "CO₂ khoeling ena",
+    "grafico_titulo": "Phetoho matsatsing a 14 a fetileng",
+    "grafico_aria": "Phetoho ea CO₂ matsatsing a {{dias}} a fetileng",
+    "form_titulo": "Eketsa leeto",
+    "campo_meio": "Mokhoa oa lipalangi",
+    "campo_distancia": "Sebaka (km)",
+    "campo_data": "Letsatsi",
+    "campo_observacao": "Tlhaloso (ha e hlokahale)",
+    "campo_observacao_placeholder": "mohlala: leeto la mosebetsi",
+    "botao_adicionar": "eketsa",
+    "salvando": "e ntse e bolokoa...",
+    "registrado_sucesso": "Leeto le ngolisitsoe!",
+    "registros_titulo": "Lingoliso tsa morao-rao",
+    "registros_vazio": "Ha ho ngoliso e teng — eketsa leeto la hau la pele ka holimo.",
+    "meio_removido": "Mokhoa o tlositsoe",
+    "remover_registro": "Tlosa ngoliso",
+    "sessao_expirada": "Nako ea u kena e felile.",
+    "erro_servidor": "Ha ho khonahale ho bua le seva. Na e sebetsa?",
+    "erro_generico": "Ha ho khonahale ho phethela ketso ena.",
+    "delta_sem_registros": "ha ho lingoliso nakong ena",
+    "delta_primeiro_registro": "ngoliso ea pele nakong ena",
+    "delta_estavel": "e tsitsitse ho bapisoa le nako e fetileng",
+    "delta_variacao": "{{percentual}}% ho bapisoa le nako e fetileng"
+  },
+  "globo": {
+    "legenda_titulo": "Ntšo ka motho ka mong",
+    "legenda_baixa": "E tlase",
+    "legenda_alta": "E phahameng",
+    "sair_destaque": "Tsoa mokhoa oa ho totobatsa",
+    "buscar_placeholder": "Batla naha...",
+    "buscar_aria": "Batla naha lefatšeng le potolohileng",
+    "sem_dados_co2": "ha ho lintlha tsa CO₂",
+    "tonelada_ano_pessoa": "{{valor}} dithane/selemo ho motho",
+    "territorio": "Tertitori",
+    "fechar_painel": "Koala boto",
+    "sem_dados_territorio": "Ha ho lintlha tsa ntšo ea CO₂ ka motho ka mong tse teng bakeng sa tertitori ena.",
+    "emissao_per_capita": "Ntšo ka motho ka mong:",
+    "equivalente_diario": "Tekano ea letsatsi le letsatsi:",
+    "equivalente_semanal": "Tekano ea beke:",
+    "equivalente_mensal": "Tekano ea khoeli:",
+    "posicao_ranking": "Boemo lethathamong (ho tsoa linaheng tse {{total}}):",
+    "fonte_estimativa": "Khakanyo ea CO₂ ea fosili ka motho ka mong (Global Carbon Budget / Our World in Data, selemo sa motheo 2024).",
+    "aria_interativo": "Lefatše le potolohileng le kopanetsoeng la ntšo ea khabone. Hula ho le phethoha, scrolla ho sutha, tobetsa naha u bone lintlha, 'me u tobetse habeli ho beha lefatše mokhoeng oa ho totobatsa.",
+    "aria_decorativo": "Lefatše le potolohileng la mohlala, le bontšang kakaretso ea lefatše lohle ea morero oa Carbono Consciente.",
+    "continente_asia": "Asia",
+    "continente_africa": "Afrika",
+    "continente_europa": "Europe",
+    "continente_america_sul": "Amerika Boroa",
+    "continente_america_norte": "Amerika Leboea",
+    "continente_oceania": "Oceania"
+  }
+}

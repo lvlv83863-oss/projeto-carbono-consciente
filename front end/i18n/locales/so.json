@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Ku noqo bogga hore",
+    "theme_toggle_aria": "U beddel mowduuca iftiinka/madow",
+    "menu_aria": "Fur menu-ga",
+    "login_link": "gal",
+    "sair_link": "ka bax",
+    "painel_link": "maamulka",
+    "fechar": "Xir",
+    "nav": {
+      "plataforma": "Madal",
+      "impacto": "Saamayn",
+      "habitos": "Caadooyin",
+      "contato": "Xiriir",
+      "dados": "Xogta"
+    }
+  },
+  "header": {
+    "idioma_aria": "Beddel luqadda",
+    "idioma_buscar_placeholder": "Raadi luqad..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Gal",
+    "meta_descricao": "Gal ama isdiiwaangeli si aad ula socoto xogtaada iyo caadooyinkaaga ee Carbono Consciente.",
+    "esquerda_titulo": "Ton kasta oo CO₂ wuxuu ka tagaa raad",
+    "esquerda_texto": "Gal si aad ula socoto xogtaada, caadooyinkaaga iyo raadkaaga kaarboonka.",
+    "google_botao": "Sii wad Google",
+    "google_em_breve": "Gelitaanka Google dhowaan ayuu imanayaa.",
+    "enviando": "waa la diraa...",
+    "erro_servidor": "Lama gaari karo server-ka. Ma shaqaynayaa?",
+    "erro_generico": "Lama dhammaystiri karin hawsha.",
+    "login": {
+      "titulo": "Gal",
+      "email_label": "Iimayl",
+      "email_placeholder": "adiga@email.com",
+      "senha_label": "Furaha sirta ah",
+      "botao": "gal",
+      "troca_texto": "Weli ma lihid akoon?",
+      "troca_botao": "Isdiiwaangeli"
+    },
+    "cadastro": {
+      "titulo": "Isdiiwaangelin",
+      "nome_label": "Magaca",
+      "nome_placeholder": "Magacaaga",
+      "email_label": "Iimayl",
+      "email_placeholder": "adiga@email.com",
+      "pais_label": "Dalka",
+      "pais_placeholder": "Raadi dal...",
+      "senha_label": "Furaha sirta ah",
+      "confirmar_label": "Xaqiiji furaha sirta ah",
+      "botao": "isdiiwaangeli",
+      "troca_texto": "Horey ma u lahayd akoon?",
+      "troca_botao": "Gal"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Furayaasha sirta ahi ma isku mid ahaan."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: waxbarasho deegaan ku saabsan qiiqa kaarboonka, raadka kaarboonka, talooyin waarid ah, xog yaab leh iyo wararka deegaanka.",
+    "hero": {
+      "titulo": "Caado kasta oo yar way culays ka yareeyaan dhulka",
+      "texto": "CARBONO CONSCIENTE MA AHA SUMAD CAGAARAN AMA UJEEDDO FOG — WAA ISUGEYNTA DOORASHOOYINKA CAADIGA AH, EE LOO SOO CELCELIYO MAALIN KASTA: WAXA AAD BEERTO, SIDA AY U DHAQAAQDO, MARKA AAD IFTIINKA DAMIYO, HALKA AAD QASHINKA KU TUURTO.",
+      "botao": "Arag wax dheeraad ah"
+    },
+    "acordeao": {
+      "titulo": "Waa maxay Carbono Consciente?",
+      "emissao_titulo": "Qiiqa Kaarboonka",
+      "emissao_corpo": "Qiiqa kaarboonku waa sii deynta gaasaska sida CO₂ ee hawada sare, inta badan sababtoo ah gubashada shidaalka fosil-ka, gooynta kaymaha, wax soo saarka warshadaha iyo xitaa gaadiidka maalinlaha ah.",
+      "clima_titulo": "Sidey u saameyntaa cimilada?",
+      "clima_corpo": "Gaasaska dhirta macdanta ah waxay sameeyaan lakab kaydiya kulaylka hawada sare. Marka qiiqu badnaado, saameyntani way sii xoogaysataa — taasina waa waxa keenaya kulaylka adduunka iyo isbeddelka cimilada.",
+      "pegada_titulo": "Raadka Kaarboonka",
+      "pegada_corpo": "Waa tirada guud ee gaasaska dhirta macdanta ah oo si toos ah ama aan toos ahayn ay abuuraan hawlaha qof, shirkad ama alaab maalin kasta.",
+      "neutro_titulo": "Kaarboon Dhexdhexaad × Carbono Consciente",
+      "neutro_corpo": "<strong>Kaarboon dhexdhexaad</strong> wuxuu doonayaa inuu dheelitiro ama beddelo qiiqa la abuuray. <strong>Carbono consciente</strong> wuxuu mudnaanta siinayaa doorashooyinka yareeya saameynta deegaanka xitaa ka hor inta aan la fikirin beddelka."
+    },
+    "dicas": {
+      "titulo_secao": "Talooyinka Waaridda",
+      "clique_voltar": "riix si aad u rogtid dib",
+      "casa": {
+        "titulo": "Guriga",
+        "resumo": "Keydinta tamarta iyo biyaha maalin kasta",
+        "item1": "Kaydi tamarta",
+        "item2": "Dami iftiinka marka aadan isticmaalayn",
+        "item3": "Isticmaal qalabka si miyir leh",
+        "item4": "Yarayn khasaaraha biyaha",
+        "item5": "Ka fogaato khasaaraha cuntada"
+      },
+      "transporte": {
+        "titulo": "Gaadiidka",
+        "resumo": "Ikhtiyaarro baabuurka ka badal oo socdaal fudud",
+        "item1": "Lugee marka suurtagal ah",
+        "item2": "Isticmaal baaskiil",
+        "item3": "Isticmaal gaadiidka dadweynaha",
+        "item4": "Wadaag safarrada marka suurtagal ah",
+        "item5": "Yarayn safarrada baabuurka ee aan looga baahnayn"
+      },
+      "alimentacao": {
+        "titulo": "Cuntada",
+        "resumo": "Doorashooyinka miiska ee yareeya khasaaraha iyo qiiqa",
+        "item1": "Isticmaal alaabta deegaanka",
+        "item2": "Ka fogaato khasaaraha",
+        "item3": "Qorsheeyu cuntooyinka",
+        "item4": "Si fiican u isticmaal cuntada",
+        "item5": "Yarayn isticmaalka hilibka"
+      },
+      "reciclagem": {
+        "titulo": "Dib-u-warshadaynta",
+        "resumo": "Kala saar, dib u isticmaal oo isticmaal cusub sii alaabta hadhay",
+        "item1": "Si sax ah kala saar qashinka",
+        "item2": "Dib u isticmaal alaabta",
+        "item3": "Si sax ah u geeyn alaabta dib loo warshadeyn karo",
+        "item4": "Ka fogaato alaabta mar la isticmaalo",
+        "item5": "Sii alaabta isticmaal cusub"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Xaqiiqooyin Deegaan",
+      "subtitulo": "Ma ogtahay?",
+      "carregando": "Waa la soo rarayaa xaqiiqada...",
+      "proxima": "Xaqiiqada xigta",
+      "erro_carregar": "Hadda lama soo rari karo xaqiiqooyinka."
+    },
+    "noticias": {
+      "titulo": "Wararka Deegaanka",
+      "subtitulo": "War dhab ah oo dhowaan ku saabsan waaridda",
+      "anteriores": "Wararkii hore",
+      "proximas": "Wararka xiga",
+      "carregando": "Waa la soo rarayaa wararka...",
+      "erro_carregar": "Hadda lama soo rari karo wararka.",
+      "nenhuma": "Hadda war lama heli karo.",
+      "ler_na_origem": "ka akhri bogga asalka ah →",
+      "sem_link": "Ma jiro xiriir dibadda ah oo loo heli karo warkan."
+    },
+    "rodape": {
+      "descricao": "Waxbarasho deegaan oo ka dhigaysa doorashooyin yaryar natiijooyin waaweyn dhulka.",
+      "navegacao": "Hagista",
+      "contato": "Xiriir",
+      "copyright": "© 2026 Carbono Consciente. Dhammaan xuquuqda way dhowran tahay."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Maamulka",
+    "meta_descricao": "Diiwaangeli safarradaada oo la soco raadkaaga kaarboonka wakhti ka dib.",
+    "titulo": "Maamulka caadooyinkaaga",
+    "subtitulo": "Diiwaangeli safarradaada oo la soco raadkaaga kaarboonka wakhti ka dib.",
+    "card_hoje": "CO₂ maanta",
+    "card_semana": "CO₂ toddobaadkan",
+    "card_mes": "CO₂ bishan",
+    "grafico_titulo": "Horumarka 14-kii maalmood ee la soo dhaafay",
+    "grafico_aria": "Horumarka CO₂ ee {{dias}} maalmood ee la soo dhaafay",
+    "form_titulo": "Ku dar safar",
+    "campo_meio": "Qaabka gaadiidka",
+    "campo_distancia": "Masaafada (km)",
+    "campo_data": "Taariikhda",
+    "campo_observacao": "Fiiro gaar ah (ikhtiyaari)",
+    "campo_observacao_placeholder": "tusaale: safarka shaqada",
+    "botao_adicionar": "ku dar",
+    "salvando": "waa la keydinayaa...",
+    "registrado_sucesso": "Safarka waa la diiwaangeliyay!",
+    "registros_titulo": "Diiwaannada ugu dambeeyay",
+    "registros_vazio": "Weli ma jiro diiwaan — ku dar safarkaaga ugu horreeya kore.",
+    "meio_removido": "Qaabka waa la saaray",
+    "remover_registro": "Ka saar diiwaanka",
+    "sessao_expirada": "Fadhigu wuu dhacay.",
+    "erro_servidor": "Lama gaari karo server-ka. Ma shaqaynayaa?",
+    "erro_generico": "Lama dhammaystiri karin hawsha.",
+    "delta_sem_registros": "wax diiwaan ah muddadan kuma jiraan",
+    "delta_primeiro_registro": "diiwaankii ugu horreeyay muddadan",
+    "delta_estavel": "deggan marka la barbardhigo muddada hore",
+    "delta_variacao": "{{percentual}}% marka la barbardhigo muddada hore"
+  },
+  "globo": {
+    "legenda_titulo": "Qiiqa qofkiiba",
+    "legenda_baixa": "Hooseeya",
+    "legenda_alta": "Sareeya",
+    "sair_destaque": "Ka bax habka xiisaha",
+    "buscar_placeholder": "Raadi dal...",
+    "buscar_aria": "Raadi dal kubbada dunida ku yaal",
+    "sem_dados_co2": "xog CO₂ lama hayo",
+    "tonelada_ano_pessoa": "{{valor}} t/sannadkii qofkiiba",
+    "territorio": "Dhul",
+    "fechar_painel": "Xir guddiga",
+    "sem_dados_territorio": "Xog kuma jirto qiiqa CO₂ ee qofkiiba oo loo heli karo dhulkan.",
+    "emissao_per_capita": "Qiiqa qofkiiba:",
+    "equivalente_diario": "La mid ka maalinlaha ah:",
+    "equivalente_semanal": "La mid ka toddobaadlaha ah:",
+    "equivalente_mensal": "La mid ka billaha ah:",
+    "posicao_ranking": "Booska ku jiro liiska (oo ka mid ah {{total}} dal):",
+    "fonte_estimativa": "Qiyaasta CO₂ fosil-ka ee qofkiiba (Global Carbon Budget / Our World in Data, sannadka saldhigga 2024).",
+    "aria_interativo": "Kubbadda dunida ee falcelinta leh ee qiiqa kaarboonka. Jiid si aad u wareejiso, scroll si aad u weynayso, guji dal si aad u aragto xogta oo laba jeer guji si aad kubbadda dunida uga dhigto habka xiisaha.",
+    "aria_decorativo": "Kubbadda dunida ee qurxinta ah oo wareegaysa, taas oo muujinaysa gaadhista caalamiga ah ee mashruuca Carbono Consciente.",
+    "continente_asia": "Aasiya",
+    "continente_africa": "Afrika",
+    "continente_europa": "Yurub",
+    "continente_america_sul": "Koonfurta Ameerika",
+    "continente_america_norte": "Waqooyiga Ameerika",
+    "continente_oceania": "Oceania"
+  }
+}

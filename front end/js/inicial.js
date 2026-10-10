@@ -54,6 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ---------- LOGIN / SAIR + PAINEL (cabeçalho) ---------- */
   const linkLogin = document.getElementById('link-login');
+  function t(chave) { return window.i18n ? window.i18n.t(chave) : chave; }
   if (linkLogin) {
     const usuarioLogado = localStorage.getItem('carbono-token');
     if (usuarioLogado) {
@@ -63,11 +64,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const linkPainel = document.createElement('a');
         linkPainel.href = 'painel.html';
         linkPainel.className = 'btn-login';
-        linkPainel.textContent = 'painel';
+        linkPainel.setAttribute('data-i18n', 'common.painel_link');
+        linkPainel.textContent = t('common.painel_link');
         linkLogin.parentNode.insertBefore(linkPainel, linkLogin);
       }
 
-      linkLogin.textContent = 'sair';
+      linkLogin.setAttribute('data-i18n', 'common.sair_link');
+      linkLogin.textContent = t('common.sair_link');
       linkLogin.setAttribute('href', '#');
       linkLogin.addEventListener('click', (e) => {
         e.preventDefault();

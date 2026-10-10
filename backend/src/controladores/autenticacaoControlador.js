@@ -3,8 +3,8 @@ const ErroApi = require("../utilitarios/erroApi");
 const assincrono = require("../utilitarios/assincrono");
 
 const registrar = assincrono(async (req, res) => {
-  const { nome, email, senha, confirmar } = req.body || {};
-  const resultado = await autenticacaoServico.registrar({ nome, email, senha, confirmarSenha: confirmar });
+  const { nome, email, senha, confirmar, pais } = req.body || {};
+  const resultado = await autenticacaoServico.registrar({ nome, email, senha, confirmarSenha: confirmar, pais });
   res.status(201).json(resultado);
 });
 

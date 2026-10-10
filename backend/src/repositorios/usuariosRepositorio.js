@@ -13,6 +13,7 @@ function paraUsuario(linha) {
     nome: linha.nome,
     email: linha.email,
     senhaHash: linha.senha_hash,
+    pais: linha.pais,
     provedor: "local",
     googleId: null,
     criadoEm: linha.criado_em,
@@ -30,10 +31,14 @@ async function buscarPorId(id) {
 }
 
 // Devolve o usuário criado, já com o id gerado pelo AUTO_INCREMENT.
-async function criar({ nome, email, senhaHash }) {
+// "pais" guarda o código ISO_A3 (ex.: "BRA"), não o nome por extenso —
+// é o mesmo código usado em front end/data/emissoes.json, o que permite
+// validar contra essa lista e re-derivar o nome localizado do país via
+// Intl.DisplayNames no frontend.
+async function criar({ nome, email, senhaHash, pais }) {
   const [resultado] = await pool.query(
-    "INSERT INTO usuarios (nome, email, senha_hash) VALUES (?, ?, ?)",
-    [nome, email, senhaHash]
+    "INSERT INTO usuarios (nome, email, senha_hash, pais) VALUES (?, ?, ?, ?)",
+    [nome, email, senhaHash, pais || null]
   );
   return buscarPorId(resultado.insertId);
 }

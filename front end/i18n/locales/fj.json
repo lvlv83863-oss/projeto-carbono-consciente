@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Lesu ki na tabana taumada",
+    "theme_toggle_aria": "Veisauta na rarama se butobuto ni tema",
+    "menu_aria": "Dolava na meniu",
+    "login_link": "curu",
+    "sair_link": "lako yani",
+    "painel_link": "iVolatukutuku",
+    "fechar": "Sogo",
+    "nav": {
+      "plataforma": "iVakarau",
+      "impacto": "iVakatarai",
+      "habitos": "iValavala",
+      "contato": "Veitaratara",
+      "dados": "iTukutuku"
+    }
+  },
+  "header": {
+    "idioma_aria": "Veisauta na vosa",
+    "idioma_buscar_placeholder": "Vaqara na vosa..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Curu",
+    "meta_descricao": "Curu se vola mo rawa ni raica na nomu iTukutuku kei na iValavala ena Carbono Consciente.",
+    "esquerda_titulo": "E dua na tani ni CO₂ e vakatosoya e dua na ivakatakilakila",
+    "esquerda_texto": "Curu mo raica kina na nomu iTukutuku, iValavala, kei na nomu ivakatakilakila ni carbon.",
+    "google_botao": "Toso Taucoko kei na Google",
+    "google_em_breve": "Na curu ena Google ena qai yaco mai.",
+    "enviando": "vakauta tiko...",
+    "erro_servidor": "E sega ni rawa me veitalanoa kei na seva. E cakacaka tiko?",
+    "erro_generico": "E sega ni rawa me vakataucoko na cakacaka.",
+    "login": {
+      "titulo": "Curu",
+      "email_label": "Imeli",
+      "email_placeholder": "nomu@imeli.com",
+      "senha_label": "Vosa Vuni",
+      "botao": "curu",
+      "troca_texto": "O sega beka ni tiko kina e dua na nomu iVolatukutuku?",
+      "troca_botao": "Vola"
+    },
+    "cadastro": {
+      "titulo": "Vola",
+      "nome_label": "Yaca",
+      "nome_placeholder": "Na yacamu",
+      "email_label": "Imeli",
+      "email_placeholder": "nomu@imeli.com",
+      "pais_label": "Vanua",
+      "pais_placeholder": "Vaqara na vanua...",
+      "senha_label": "Vosa Vuni",
+      "confirmar_label": "Vakadeitaka na Vosa Vuni",
+      "botao": "vola",
+      "troca_texto": "O tiko tale ga kina e dua na nomu iVolatukutuku?",
+      "troca_botao": "Curu"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Na Vosa Vuni erau sega ni tautauvata."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: vuli vakabibi me baleta na ivakasavuvuni ni carbon, ivakatakilakila ni carbon, ivakasala ni bula taucoko, itukutuku veivakamarautaki, kei na itukutuku vakabibi.",
+    "hero": {
+      "titulo": "E dua na iValavala lailai e vakalailaitaka na kena bosorosoro na vuravura",
+      "texto": "NA CARBONO CONSCIENTE E SEGA NI DUA NA IVAKATAKILAKILA DRAUNIKAU SE E DUA NA INAKI YAWA — E NA ISOQOSOQO NI VEIVAKATAUBENI VAKABAUTA ERA VAKAYACORI EDUA NA SIGA: NA KA O TEITEIA, NA KENA VAKA O LAKOVA, NA GAUNA O VAKABUTAKA NA RARAMA, NA VANUA O VIRIKA KINA NA VEIKA MAUMAU.",
+      "botao": "Raica Vakalevu"
+    },
+    "acordeao": {
+      "titulo": "Cava na Carbono Consciente?",
+      "emissao_titulo": "Na iVakasavuvuni ni Carbon",
+      "emissao_corpo": "Na ivakasavuvuni ni carbon oqo na kena biu ena draki na so na draki me vaka na CO₂, vakavuna vakalevu ena kena kama na waiwai kaukauwa makawa (fossil), na kena musuki na veikau, na cakacaka vakaindusitiri, kei na veilakoyaki ena veisiga taucoko.",
+      "clima_titulo": "E vakacava na kena vakatarai na draki ni vuravura?",
+      "clima_corpo": "Na so na draki e dau vakavuna me tiko e dua na kena ivakabulabulataki ena draki ni vuravura ka vakabulabulataka na katakata. Ke levu cake na ivakasavuvuni, ena qai kaukauwa cake na kena ivakatarai — oqori ga e vakavuna na kena vakamatua tiko na katakata ni vuravura kei na veisau ni draki.",
+      "pegada_titulo": "Na iVakatakilakila ni Carbon",
+      "pegada_corpo": "Oqo na iwiliwili taucoko ni so na draki e vakavuna, vakadodonu se sega vakadodonu, ena veicakacaka ni dua na tamata, kamapani, se iyau ena veisiga taucoko.",
+      "neutro_titulo": "Carbon Neutral × Carbono Consciente",
+      "neutro_corpo": "Na <strong>carbon neutral</strong> e vinakata me vakaitutu se vakavotuya na ivakasavuvuni era vakayacori. Na <strong>carbono consciente</strong> e vakaliuci na iVakatauben era vakalailaitaka na ivakatarai ki na draki ni bera ni nanumi na kena vakavotu."
+    },
+    "dicas": {
+      "titulo_secao": "iVakasala ni Bula Taucoko",
+      "clique_voltar": "clika mo lesu tale",
+      "casa": {
+        "titulo": "Vale",
+        "resumo": "Na kena maroroi na ilekitirisiti kei na wai ena veisiga",
+        "item1": "Vakalailaitaka na vakayagataki ni ilekitirisiti",
+        "item2": "Vakabuta na rarama ni sega ni vakayagataki",
+        "item3": "Vakayagataka vakavinaka na iyaya",
+        "item4": "Vakalailaitaka na kena maumau na wai",
+        "item5": "Kua ni vakamaumautaka na kakana"
+      },
+      "transporte": {
+        "titulo": "iLakolako",
+        "resumo": "Na so na iVakarau me sega ni vakayagataki na motoka ena veilakoyaki malua",
+        "item1": "Taubale ke rawa",
+        "item2": "Vakayagataka na basikete",
+        "item3": "Vakayagataka na ilakolako vakalevu",
+        "item4": "Wasea na ilakolako ke rawa",
+        "item5": "Vakalailaitaka na vakayagataki ni motoka ke sega ni gadrevi"
+      },
+      "alimentacao": {
+        "titulo": "Kakana",
+        "resumo": "Na veidigidigi ena vakayagataki ni kakana era vakalailaitaka na maumau kei na ivakasavuvuni",
+        "item1": "Volia na iyau ni vanua",
+        "item2": "Kua ni vakamaumautaka",
+        "item3": "Vakatulewa na nomu kakana",
+        "item4": "Vakayagataka vakavinaka na kakana",
+        "item5": "Vakalailaitaka na kena kani na lewe"
+      },
+      "reciclagem": {
+        "titulo": "Vakayagataka Tale",
+        "resumo": "Vakatulewataka, vakayagataka tale, ka solia e dua na bula vou ki na ka sa vo",
+        "item1": "Vakatulewataka vakadodonu na veika maumau",
+        "item2": "Vakayagataka tale na iyaya",
+        "item3": "Talevi vakadodonu na veika e rawa ni vakayagataki tale",
+        "item4": "Kua ni vakayagataka na iyaya virikatani",
+        "item5": "Solia e dua na kena ivakayagataki vou ki na veika"
+      }
+    },
+    "curiosidades": {
+      "titulo": "iTukutuku Veivakamarautaki ni Draki",
+      "subtitulo": "O kila beka?",
+      "carregando": "Vakauta tiko na itukutuku...",
+      "proxima": "Dua Tale na iTukutuku",
+      "erro_carregar": "E sega ni rawa me vakauti na itukutuku ena gauna oqo."
+    },
+    "noticias": {
+      "titulo": "iTukutuku Vou ni Draki",
+      "subtitulo": "iTukutuku dina ka vou me baleta na bula taucoko",
+      "anteriores": "iTukutuku Makawa",
+      "proximas": "iTukutuku e Tarava",
+      "carregando": "Vakauta tiko na itukutuku vou...",
+      "erro_carregar": "E sega ni rawa me vakauti na itukutuku vou ena gauna oqo.",
+      "nenhuma": "E sega ni dua na itukutuku vou e tu ena gauna oqo.",
+      "ler_na_origem": "wilika ena vanua taumada →",
+      "sem_link": "E sega ni dua na isokasoka tani e tu me baleta na itukutuku vou oqo."
+    },
+    "rodape": {
+      "descricao": "Vuli vakabibi ni draki me vakavuna na veidigidigi lailai me yaco na kena ivakarau levu ki na vuravura.",
+      "navegacao": "Veidusimaki",
+      "contato": "Veitaratara",
+      "copyright": "© 2026 Carbono Consciente. Taucoko na dodonu era taqomaki."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — iVolatukutuku",
+    "meta_descricao": "Volatukutuku na nomu veilakoyaki ka raica tiko na nomu ivakatakilakila ni carbon ena veigauna.",
+    "titulo": "Nomu iVolatukutuku ni iValavala",
+    "subtitulo": "Volatukutuku na nomu veilakoyaki ka raica tiko na nomu ivakatakilakila ni carbon ena veigauna.",
+    "card_hoje": "CO₂ ena siga nikua",
+    "card_semana": "CO₂ ena wiki oqo",
+    "card_mes": "CO₂ ena vula oqo",
+    "grafico_titulo": "Na kena Veisau ena 14 na siga sa oti",
+    "grafico_aria": "Na kena Veisau ni CO₂ ena {{dias}} na siga sa oti",
+    "form_titulo": "Vakacurumaka e dua na iLakolako",
+    "campo_meio": "iVakarau ni iLakolako",
+    "campo_distancia": "Kena Yawa (km)",
+    "campo_data": "Siga",
+    "campo_observacao": "iVakamacala (sega ni vakadodonu)",
+    "campo_observacao_placeholder": "me vaka: iLakolako ki na cakacaka",
+    "botao_adicionar": "vakacurumaka",
+    "salvando": "vakamaroroya tiko...",
+    "registrado_sucesso": "Sa volatukutukutaki na iLakolako!",
+    "registros_titulo": "iVolatukutuku Vou Sara",
+    "registros_vazio": "E sega na iVolatukutuku ni se vakacurumi — vakacurumaka na imatai ni nomu iLakolako e cake.",
+    "meio_removido": "iVakarau ni iLakolako sa kauta tani",
+    "remover_registro": "Kauta Tani na iVolatukutuku",
+    "sessao_expirada": "Sa oti na gauna ni veiqaravi.",
+    "erro_servidor": "E sega ni rawa me veitalanoa kei na seva. E cakacaka tiko?",
+    "erro_generico": "E sega ni rawa me vakataucoko na cakacaka.",
+    "delta_sem_registros": "e sega na iVolatukutuku ena gauna oqo",
+    "delta_primeiro_registro": "imatai ni iVolatukutuku ni gauna oqo",
+    "delta_estavel": "tudei vakatautauvata kei na gauna sa oti",
+    "delta_variacao": "{{percentual}}% vakatautauvata kei na gauna sa oti"
+  },
+  "globo": {
+    "legenda_titulo": "iVakasavuvuni me vaka na dua na tamata",
+    "legenda_baixa": "Lailai",
+    "legenda_alta": "Levu",
+    "sair_destaque": "Biuta na iVakarau ni Vakaraitaki",
+    "buscar_placeholder": "Vaqara na vanua...",
+    "buscar_aria": "Vaqara na vanua ena vuravura liliko",
+    "sem_dados_co2": "e sega na itukutuku ni CO₂",
+    "tonelada_ano_pessoa": "{{valor}} tani/yabaki me vaka na dua na tamata",
+    "territorio": "Vanua",
+    "fechar_painel": "Sogota na iVolatukutuku",
+    "sem_dados_territorio": "E sega na itukutuku ni ivakasavuvuni ni CO₂ me vaka na dua na tamata me baleta na vanua oqo.",
+    "emissao_per_capita": "iVakasavuvuni me vaka na dua na tamata:",
+    "equivalente_diario": "Kena Tautauvata ena Veisiga:",
+    "equivalente_semanal": "Kena Tautauvata ena Veiwiki:",
+    "equivalente_mensal": "Kena Tautauvata ena Veivula:",
+    "posicao_ranking": "iTuvatuva ena Dua na Lisi (ena kedra {{total}} na vanua):",
+    "fonte_estimativa": "Na kena vakatulewai ni CO₂ mai na waiwai kaukauwa makawa (fossil) me vaka na dua na tamata (Global Carbon Budget / Our World in Data, yabaki ivakatutu 2024).",
+    "aria_interativo": "E dua na vuravura liliko e rawa ni vakayagataki me baleta na ivakasavuvuni ni carbon. Qiova mo vuringa, gagadre mo vakalevu se vakalailai rawa, clika e dua na vanua mo raica na kena itukutuku, ka clika vakarua mo vakaraitaka vakalevu na vuravura.",
+    "aria_decorativo": "E dua na vuravura liliko ni vakaraitaki e vuringa tiko, e vakaraitaka na kena yawa levu na cakacaka Carbono Consciente ki na vuravura taucoko.",
+    "continente_asia": "Asia",
+    "continente_africa": "Aferika",
+    "continente_europa": "Iuropi",
+    "continente_america_sul": "Saute Amerika",
+    "continente_america_norte": "Noasi Amerika",
+    "continente_oceania": "Oseania"
+  }
+}

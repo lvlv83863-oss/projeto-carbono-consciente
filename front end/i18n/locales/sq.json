@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Kthehu në faqen kryesore",
+    "theme_toggle_aria": "Ndërro temën e çelur/errët",
+    "menu_aria": "Hap menynë",
+    "login_link": "hyrje",
+    "sair_link": "dilje",
+    "painel_link": "paneli",
+    "fechar": "Mbyll",
+    "nav": {
+      "plataforma": "Platforma",
+      "impacto": "Ndikimi",
+      "habitos": "Zakonet",
+      "contato": "Kontakti",
+      "dados": "Të dhënat"
+    }
+  },
+  "header": {
+    "idioma_aria": "Ndrysho gjuhën",
+    "idioma_buscar_placeholder": "Kërko gjuhën..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Hyrje",
+    "meta_descricao": "Hyr ose regjistrohu për të ndjekur të dhënat dhe zakonet e tua në Carbono Consciente.",
+    "esquerda_titulo": "Çdo ton CO₂ lë një gjurmë",
+    "esquerda_texto": "Hyr për të ndjekur të dhënat, zakonet dhe gjurmën tënde të karbonit.",
+    "google_botao": "Vazhdo me Google",
+    "google_em_breve": "Hyrja me Google së shpejti.",
+    "enviando": "duke dërguar...",
+    "erro_servidor": "Nuk u arrit të kontaktohej serveri. A është në punë?",
+    "erro_generico": "Nuk u arrit të përfundohej veprimi.",
+    "login": {
+      "titulo": "Hyrje",
+      "email_label": "Email",
+      "email_placeholder": "juaj@email.com",
+      "senha_label": "Fjalëkalimi",
+      "botao": "hyr",
+      "troca_texto": "Ende nuk ke llogari?",
+      "troca_botao": "Regjistrohu"
+    },
+    "cadastro": {
+      "titulo": "Regjistrim",
+      "nome_label": "Emri",
+      "nome_placeholder": "Emri yt",
+      "email_label": "Email",
+      "email_placeholder": "juaj@email.com",
+      "pais_label": "Shteti",
+      "pais_placeholder": "Kërko shtetin...",
+      "senha_label": "Fjalëkalimi",
+      "confirmar_label": "Konfirmo fjalëkalimin",
+      "botao": "regjistrohu",
+      "troca_texto": "Ke tashmë llogari?",
+      "troca_botao": "Hyr"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Fjalëkalimet nuk përputhen."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: edukim mjedisor mbi emetimet e karbonit, gjurmën e karbonit, këshilla të qëndrueshmërisë, kuriozitete dhe lajme mjedisore.",
+    "hero": {
+      "titulo": "Çdo zakon i vogël peshon më pak në planet",
+      "texto": "CARBONO CONSCIENTE NUK ËSHTË NJË VULË E GJELBËR, AS NJË QËLLIM I LARGËT — ËSHTË SHUMA E ZGJEDHJEVE TË ZAKONSHME, TË PËRSËRITURA ÇDO DITË: ÇFARË MBJELL, SI LËVIZ, KUR E FIK DRITËN, KU E HEDH MBETURINËN.",
+      "botao": "Shiko më shumë"
+    },
+    "acordeao": {
+      "titulo": "Çfarë është Carbono Consciente?",
+      "emissao_titulo": "Emetimi i Karbonit",
+      "emissao_corpo": "Emetimi i karbonit është lëshimi i gazeve si CO₂ në atmosferë, kryesisht nga djegia e karburanteve fosile, shpyllëzimi, prodhimi industrial dhe madje transporti i përditshëm.",
+      "clima_titulo": "Si ndikon në klimë?",
+      "clima_corpo": "Gazet e efektit serrë formojnë një shtresë që mban nxehtësinë në atmosferë. Sa më shumë emetime, aq më i fortë bëhet ky efekt — dhe kjo është ajo që shkakton ngrohjen globale dhe ndryshimet klimatike.",
+      "pegada_titulo": "Gjurma e Karbonit",
+      "pegada_corpo": "Është sasia totale e gazeve të efektit serrë e krijuar, drejtpërdrejt ose tërthorazi, nga aktivitetet e një personi, kompanie ose produkti në jetën e përditshme.",
+      "neutro_titulo": "Karbon Neutral × Carbono Consciente",
+      "neutro_corpo": "<strong>Karboni neutral</strong> synon të balancojë ose kompensojë emetimet e krijuara. <strong>Carbono consciente</strong> i jep përparësi zgjedhjeve që zvogëlojnë ndikimin mjedisor para se të mendohet fare për kompensimin."
+    },
+    "dicas": {
+      "titulo_secao": "Këshilla të Qëndrueshmërisë",
+      "clique_voltar": "kliko për t'u kthyer",
+      "casa": {
+        "titulo": "Shtëpia",
+        "resumo": "Kursim energjie dhe uji në përditshmëri",
+        "item1": "Kurse energji",
+        "item2": "Fik dritat kur nuk po i përdor",
+        "item3": "Përdor pajisjet me vetëdije",
+        "item4": "Zvogëlo humbjen e ujit",
+        "item5": "Shmang humbjen e ushqimit"
+      },
+      "transporte": {
+        "titulo": "Transporti",
+        "resumo": "Alternativa ndaj makinës për lëvizje më të lehta",
+        "item1": "Ec kur është e mundur",
+        "item2": "Përdor biçikletën",
+        "item3": "Përdor transportin publik",
+        "item4": "Ndaj udhëtimet kur është e mundur",
+        "item5": "Zvogëlo udhëtimet e panevojshme me makinë"
+      },
+      "alimentacao": {
+        "titulo": "Ushqimi",
+        "resumo": "Zgjedhje në tryezë që zvogëlojnë humbjen dhe emetimet",
+        "item1": "Konsumo produkte lokale",
+        "item2": "Shmang humbjen",
+        "item3": "Planifiko vaktet",
+        "item4": "Shfrytëzo më mirë ushqimin",
+        "item5": "Zvogëlo konsumin e mishit"
+      },
+      "reciclagem": {
+        "titulo": "Riciklimi",
+        "resumo": "Ndaj, ripërdor dhe jep jetë të re atyre që mbeten",
+        "item1": "Ndaj mbeturinat saktë",
+        "item2": "Ripërdor materialet",
+        "item3": "Çoji materialet e riciklueshme saktë",
+        "item4": "Shmang produktet një-përdorimshe",
+        "item5": "Jep përdorime të reja objekteve"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Kuriozitete Mjedisore",
+      "subtitulo": "A e dinit?",
+      "carregando": "Duke ngarkuar kuriozitetin...",
+      "proxima": "Kuriozitet tjetër",
+      "erro_carregar": "Nuk u arrit të ngarkoheshin kuriozitetet tani."
+    },
+    "noticias": {
+      "titulo": "Lajme Mjedisore",
+      "subtitulo": "Lajme reale dhe të fundit për qëndrueshmërinë",
+      "anteriores": "Lajme të mëparshme",
+      "proximas": "Lajme të tjera",
+      "carregando": "Duke ngarkuar lajmet...",
+      "erro_carregar": "Nuk u arrit të ngarkoheshin lajmet tani.",
+      "nenhuma": "Nuk ka lajme të disponueshme për momentin.",
+      "ler_na_origem": "lexo në faqen origjinale →",
+      "sem_link": "Nuk ka lidhje të jashtme të disponueshme për këtë lajm."
+    },
+    "rodape": {
+      "descricao": "Edukim mjedisor që shndërron zgjedhjet e vogla në rezultate të mëdha për planetin.",
+      "navegacao": "Navigimi",
+      "contato": "Kontakti",
+      "copyright": "© 2026 Carbono Consciente. Të gjitha të drejtat e rezervuara."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Paneli",
+    "meta_descricao": "Regjistro udhëtimet e tua dhe ndiq gjurmën tënde të karbonit me kalimin e kohës.",
+    "titulo": "Paneli yt i zakoneve",
+    "subtitulo": "Regjistro udhëtimet e tua dhe ndiq gjurmën tënde të karbonit me kalimin e kohës.",
+    "card_hoje": "CO₂ sot",
+    "card_semana": "CO₂ këtë javë",
+    "card_mes": "CO₂ këtë muaj",
+    "grafico_titulo": "Ecuria në 14 ditët e fundit",
+    "grafico_aria": "Ecuria e CO₂ në {{dias}} ditët e fundit",
+    "form_titulo": "Shto një udhëtim",
+    "campo_meio": "Mjeti i transportit",
+    "campo_distancia": "Distanca (km)",
+    "campo_data": "Data",
+    "campo_observacao": "Shënim (opsionale)",
+    "campo_observacao_placeholder": "p.sh.: udhëtimi për në punë",
+    "botao_adicionar": "shto",
+    "salvando": "duke ruajtur...",
+    "registrado_sucesso": "Udhëtimi u regjistrua!",
+    "registros_titulo": "Regjistrimet e fundit",
+    "registros_vazio": "Asnjë regjistrim ende — shto udhëtimin tënd të parë më sipër.",
+    "meio_removido": "Mjeti u hoq",
+    "remover_registro": "Hiq regjistrimin",
+    "sessao_expirada": "Sesioni ka skaduar.",
+    "erro_servidor": "Nuk u arrit të kontaktohej serveri. A është në punë?",
+    "erro_generico": "Nuk u arrit të përfundohej veprimi.",
+    "delta_sem_registros": "pa regjistrime në këtë periudhë",
+    "delta_primeiro_registro": "regjistrimi i parë në këtë periudhë",
+    "delta_estavel": "i qëndrueshëm krahasuar me periudhën e mëparshme",
+    "delta_variacao": "{{percentual}}% krahasuar me periudhën e mëparshme"
+  },
+  "globo": {
+    "legenda_titulo": "Emetimet për frymë",
+    "legenda_baixa": "E ulët",
+    "legenda_alta": "E lartë",
+    "sair_destaque": "Dil nga mënyra e theksuar",
+    "buscar_placeholder": "Kërko shtetin...",
+    "buscar_aria": "Kërko shtetin në glob",
+    "sem_dados_co2": "pa të dhëna CO₂",
+    "tonelada_ano_pessoa": "{{valor}} tonë/vit për person",
+    "territorio": "Territori",
+    "fechar_painel": "Mbyll panelin",
+    "sem_dados_territorio": "Nuk ka të dhëna të disponueshme për emetimet e CO₂ për frymë për këtë territor.",
+    "emissao_per_capita": "Emetimet për frymë:",
+    "equivalente_diario": "Ekuivalenti ditor:",
+    "equivalente_semanal": "Ekuivalenti javor:",
+    "equivalente_mensal": "Ekuivalenti mujor:",
+    "posicao_ranking": "Pozicioni në renditje (nga {{total}} vende):",
+    "fonte_estimativa": "Vlerësim i CO₂ fosil për frymë (Global Carbon Budget / Our World in Data, viti bazë 2024).",
+    "aria_interativo": "Glob interaktiv i emetimeve të karbonit. Tërhiq për të rrotulluar, lëviz për të zmadhuar, kliko një shtet për të parë të dhënat dhe kliko dy herë për ta vendosur globin në mënyrën e theksuar.",
+    "aria_decorativo": "Glob dekorativ rrotullues, që ilustron shtrirjen globale të projektit Carbono Consciente.",
+    "continente_asia": "Azia",
+    "continente_africa": "Afrika",
+    "continente_europa": "Evropa",
+    "continente_america_sul": "Amerika e Jugut",
+    "continente_america_norte": "Amerika e Veriut",
+    "continente_oceania": "Oqeania"
+  }
+}

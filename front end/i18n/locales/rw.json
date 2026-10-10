@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Subira ku ntangiriro",
+    "theme_toggle_aria": "Hindura insanganyamatsiko y'umucyo/umwijima",
+    "menu_aria": "Fungura menu",
+    "login_link": "injira",
+    "sair_link": "sohoka",
+    "painel_link": "ikibaho",
+    "fechar": "Funga",
+    "nav": {
+      "plataforma": "Urubuga",
+      "impacto": "Ingaruka",
+      "habitos": "Imyitwarire",
+      "contato": "Twandikire",
+      "dados": "Amakuru"
+    }
+  },
+  "header": {
+    "idioma_aria": "Hindura ururimi",
+    "idioma_buscar_placeholder": "Shakisha ururimi..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Kwinjira",
+    "meta_descricao": "Injira cyangwa wiyandikishe kugira ngo ukurikirane amakuru n'imyitwarire yawe kuri Carbono Consciente.",
+    "esquerda_titulo": "Toni imwe ya CO₂ isiga ikimenyetso",
+    "esquerda_texto": "Injira kugira ngo ukurikirane amakuru yawe, imyitwarire, n'ikigero cyawe cya karubone.",
+    "google_botao": "Komeza na Google",
+    "google_em_breve": "Kwinjira ukoresheje Google bizaboneka vuba.",
+    "enviando": "kohereza...",
+    "erro_servidor": "Ntibyashobotse kuvugana na seriveri. Waba irimo gukora?",
+    "erro_generico": "Ntibyashobotse kurangiza igikorwa.",
+    "login": {
+      "titulo": "Kwinjira",
+      "email_label": "Imeyili",
+      "email_placeholder": "wewe@imeyili.com",
+      "senha_label": "Ijambobanga",
+      "botao": "injira",
+      "troca_texto": "Nta konti ufite?",
+      "troca_botao": "Iyandikishe"
+    },
+    "cadastro": {
+      "titulo": "Kwiyandikisha",
+      "nome_label": "Izina",
+      "nome_placeholder": "Izina ryawe",
+      "email_label": "Imeyili",
+      "email_placeholder": "wewe@imeyili.com",
+      "pais_label": "Igihugu",
+      "pais_placeholder": "Shakisha igihugu...",
+      "senha_label": "Ijambobanga",
+      "confirmar_label": "Emeza ijambobanga",
+      "botao": "iyandikishe",
+      "troca_texto": "Ufite konti?",
+      "troca_botao": "Injira"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Amagambobanga ntahuye."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: uburezi ku bidukikije ku byerekeye ibyuka bihumanya ikirere, ikigero cya karubone, inama z'iterambere rirambye, ibintu bitangaje, n'amakuru y'ibidukikije.",
+    "hero": {
+      "titulo": "Buri myitwarire ntoya igabanya uburemere ku isi",
+      "texto": "CARBONO CONSCIENTE SI IKIMENYETSO CY'ICATSI CYANGWA INTEGO Y'INTARA — NI UMUBARE W'IBYEMEZO BISANZWE, BISUBIRAMO BURI MUNSI: IBYO UTERA, UKO WIMUKA, IGIHE UZIMYA UMUCYO, AHO UJUGUNYA IMYANDA.",
+      "botao": "Reba birenzeho"
+    },
+    "acordeao": {
+      "titulo": "Carbono Consciente ni iki?",
+      "emissao_titulo": "Ibyuka bya karubone",
+      "emissao_corpo": "Ibyuka bya karubone ni ugusohora imyuka nka CO₂ mu kirere, cyane cyane biturutse mu gutwika lavuta y'ibinyabutabire by'imyaka myinshi, gutema amashyamba, inganda, no mu gutwara abantu busanzwe.",
+      "clima_titulo": "Bigira ingaruka ite ku kirere?",
+      "clima_corpo": "Ibyuka bihumanya ikirere bigira urwego rufata ubushyuhe mu kirere. Uko ibyuka byiyongera, ni ko ingaruka ziba nini — kandi ni byo bitera ubushyuhe bw'isi n'imihindagurikire y'ikirere.",
+      "pegada_titulo": "Ikigero cya karubone",
+      "pegada_corpo": "Ni umubare wose w'ibyuka bihumanya ikirere, bitewe ku buryo butaziguye cyangwa buziguye, n'ibikorwa by'umuntu, isosiyete cyangwa igicuruzwa mu buzima bwa buri munsi.",
+      "neutro_titulo": "Karubone isanzwe × Carbono Consciente",
+      "neutro_corpo": "<strong>Karubone isanzwe (neutre)</strong> igerageza guhuza cyangwa guhemba ibyuka byasohowe. <strong>Carbono consciente</strong> ishyira imbere ibyemezo bigabanya ingaruka ku bidukikije mbere n'uko hatekerezwa ku guhemba."
+    },
+    "dicas": {
+      "titulo_secao": "Inama z'iterambere rirambye",
+      "clique_voltar": "kanda kugira ngo usubire inyuma",
+      "casa": {
+        "titulo": "Urugo",
+        "resumo": "Kuzigama ingufu n'amazi mu buzima bwa buri munsi",
+        "item1": "Kuzigama ingufu",
+        "item2": "Zimya amatara igihe adakenewe",
+        "item3": "Gukoresha ibikoresho mu bwenge",
+        "item4": "Kugabanya gusesagura amazi",
+        "item5": "Kwirinda gusesagura ibiryo"
+      },
+      "transporte": {
+        "titulo": "Ubwikorezi",
+        "resumo": "Uburyo bwo gusimbuza imodoka mu kugenda neza",
+        "item1": "Kugenda n'amaguru aho bishoboka",
+        "item2": "Gukoresha igare",
+        "item3": "Gukoresha ubwikorezi rusange",
+        "item4": "Gusangira urugendo aho bishoboka",
+        "item5": "Kugabanya urugendo rudakenewe rw'imodoka"
+      },
+      "alimentacao": {
+        "titulo": "Ibiryo",
+        "resumo": "Ibyemezo ku meza bigabanya gusesagura n'ibyuka",
+        "item1": "Kugura ibikomoka ku gace utuyemo",
+        "item2": "Kwirinda gusesagura",
+        "item3": "Gutegura ibyo kurya",
+        "item4": "Gukoresha neza ibiryo",
+        "item5": "Kugabanya kurya inyama"
+      },
+      "reciclagem": {
+        "titulo": "Ongera ukoreshe",
+        "resumo": "Tandukanya, ongera ukoreshe, uhe ikindi gikoreshwa ibisigaye",
+        "item1": "Gutandukanya neza imyanda",
+        "item2": "Ongera ukoreshe ibikoresho",
+        "item3": "Kuyobora neza ibishobora kongera gukoreshwa",
+        "item4": "Kwirinda ibikoresho bikoreshwa inshuro imwe",
+        "item5": "Guha ibintu ikindi gikoreshwa"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Ibintu bitangaje ku bidukikije",
+      "subtitulo": "Wari ubizi?",
+      "carregando": "Gutangiza ikintu gitangaje...",
+      "proxima": "Ikindi kintu gitangaje",
+      "erro_carregar": "Ntibyashobotse gutangiza ibintu bitangaje muri iki gihe."
+    },
+    "noticias": {
+      "titulo": "Amakuru y'ibidukikije",
+      "subtitulo": "Amakuru nyayo kandi mashya ku iterambere rirambye",
+      "anteriores": "Amakuru yahise",
+      "proximas": "Amakuru akurikira",
+      "carregando": "Gutangiza amakuru...",
+      "erro_carregar": "Ntibyashobotse gutangiza amakuru muri iki gihe.",
+      "nenhuma": "Nta makuru ahari muri iki gihe.",
+      "ler_na_origem": "soma ku isoko →",
+      "sem_link": "Nta link y'inyuma iboneka kuri aya makuru."
+    },
+    "rodape": {
+      "descricao": "Uburezi ku bidukikije buhindura ibyemezo bito ibisubizo binini ku isi.",
+      "navegacao": "Kuyobora",
+      "contato": "Twandikire",
+      "copyright": "© 2026 Carbono Consciente. Uburenganzira bwose burabitswe."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Ikibaho",
+    "meta_descricao": "Andika urugendo rwawe kandi ukurikirane ikigero cyawe cya karubone mu gihe.",
+    "titulo": "Ikibaho cy'imyitwarire yawe",
+    "subtitulo": "Andika urugendo rwawe kandi ukurikirane ikigero cyawe cya karubone mu gihe.",
+    "card_hoje": "CO₂ uyu munsi",
+    "card_semana": "CO₂ iki cyumweru",
+    "card_mes": "CO₂ uku kwezi",
+    "grafico_titulo": "Impinduka mu minsi 14 ishize",
+    "grafico_aria": "Impinduka za CO₂ mu minsi {{dias}} ishize",
+    "form_titulo": "Ongeramo urugendo",
+    "campo_meio": "Uburyo bw'ubwikorezi",
+    "campo_distancia": "Intera (km)",
+    "campo_data": "Itariki",
+    "campo_observacao": "Icyitonderwa (si itegeko)",
+    "campo_observacao_placeholder": "urugero: urugendo rw'akazi",
+    "botao_adicionar": "ongeramo",
+    "salvando": "kubika...",
+    "registrado_sucesso": "Urugendo rwanditswe!",
+    "registros_titulo": "Ibyanditswe bya nyuma",
+    "registros_vazio": "Nta cyanditswe kirahari — ongeramo urugendo rwawe rwa mbere hejuru.",
+    "meio_removido": "Uburyo bwakuweho",
+    "remover_registro": "Kuramo icyanditswe",
+    "sessao_expirada": "Igihe cyarangiye.",
+    "erro_servidor": "Ntibyashobotse kuvugana na seriveri. Waba irimo gukora?",
+    "erro_generico": "Ntibyashobotse kurangiza igikorwa.",
+    "delta_sem_registros": "nta cyanditswe muri iki gihe",
+    "delta_primeiro_registro": "icyanditswe cya mbere muri iki gihe",
+    "delta_estavel": "bihamye ugereranyije n'igihe cyabanjirije",
+    "delta_variacao": "{{percentual}}% ugereranyije n'igihe cyabanjirije"
+  },
+  "globo": {
+    "legenda_titulo": "Ibyuka kuri buri muntu",
+    "legenda_baixa": "Bike",
+    "legenda_alta": "Byinshi",
+    "sair_destaque": "Gusohoka mu buryo bwo kwerekana",
+    "buscar_placeholder": "Shakisha igihugu...",
+    "buscar_aria": "Shakisha igihugu ku isi",
+    "sem_dados_co2": "nta makuru ya CO₂",
+    "tonelada_ano_pessoa": "toni {{valor}}/umwaka kuri buri muntu",
+    "territorio": "Intara",
+    "fechar_painel": "Funga ikibaho",
+    "sem_dados_territorio": "Nta makuru ku byuka bya CO₂ kuri buri muntu abonetse kuri iyi ntara.",
+    "emissao_per_capita": "Ibyuka kuri buri muntu:",
+    "equivalente_diario": "Ingana ku munsi:",
+    "equivalente_semanal": "Ingana ku cyumweru:",
+    "equivalente_mensal": "Ingana ku kwezi:",
+    "posicao_ranking": "Umwanya ku rutonde (mu bihugu {{total}}):",
+    "fonte_estimativa": "Igitekerezo ku byuka bya CO₂ biturutse mu bikomoka ku binyabutabire by'imyaka myinshi kuri buri muntu (Global Carbon Budget / Our World in Data, umwaka ngenderwaho 2024).",
+    "aria_interativo": "Isi y'ikoranabuhanga ishoboka gukoreshwaho ku byerekeye ibyuka bya karubone. Kurura kugira izenguruke, zenguruka kugira wegereze, kanda ku gihugu kugira urebe amakuru, hanyuma ukande kabiri kugira wereke iyo isi.",
+    "aria_decorativo": "Isi y'ikinyoreza izenguruka, yerekana uko umushinga Carbono Consciente ugera ku isi yose.",
+    "continente_asia": "Aziya",
+    "continente_africa": "Afurika",
+    "continente_europa": "Uburayi",
+    "continente_america_sul": "Amerika y'Epfo",
+    "continente_america_norte": "Amerika y'Amajyaruguru",
+    "continente_oceania": "Oseyaniya"
+  }
+}

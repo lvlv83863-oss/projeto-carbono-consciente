@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Aallaqqaasiumut uterit",
+    "theme_toggle_aria": "Qaamaneq/taarneq allanngortikkit",
+    "menu_aria": "Menu ammaajuk",
+    "login_link": "iserit",
+    "sair_link": "anigit",
+    "painel_link": "nalunaarsuiffik",
+    "fechar": "Matugit",
+    "nav": {
+      "plataforma": "Platformi",
+      "impacto": "Sunniineq",
+      "habitos": "Ileqqut",
+      "contato": "Attaveqaatit",
+      "dados": "Paasissutissat"
+    }
+  },
+  "header": {
+    "idioma_aria": "Oqaatsit allanngortikkit",
+    "idioma_buscar_placeholder": "Oqaatsit ujaasigit..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Iserit",
+    "meta_descricao": "Iserit imaluunniit nalunaarsorit paasissutissatit ileqqutitlu Carbono Consciente-mi malinnaaniassagukku.",
+    "esquerda_titulo": "CO₂ tonni ataaseq tumeqartarpoq",
+    "esquerda_texto": "Iserit paasissutissatit, ileqqutitit CO₂ tumisallu malinnaaniarlugit.",
+    "google_botao": "Google atorlugu ingerlaannarit",
+    "google_em_breve": "Google-ikkut iserneq qanittukkut pissaaq.",
+    "enviando": "nassiutilerpoq...",
+    "erro_servidor": "Serverimut attaveqarneq ajornartorpoq. Ingerlasooriva?",
+    "erro_generico": "Suliaq naammassinneqarsinnaanngilaq.",
+    "login": {
+      "titulo": "Iserneq",
+      "email_label": "E-mail",
+      "email_placeholder": "illit@email.com",
+      "senha_label": "Isertitassaq",
+      "botao": "iserit",
+      "troca_texto": "Kontoqanngilatit?",
+      "troca_botao": "Nalunaarsorit"
+    },
+    "cadastro": {
+      "titulo": "Nalunaarsorneq",
+      "nome_label": "Ateq",
+      "nome_placeholder": "Atit",
+      "email_label": "E-mail",
+      "email_placeholder": "illit@email.com",
+      "pais_label": "Nuna",
+      "pais_placeholder": "Nuna ujaasigit...",
+      "senha_label": "Isertitassaq",
+      "confirmar_label": "Isertitassaq uppernarsagit",
+      "botao": "nalunaarsorit",
+      "troca_texto": "Kontoqarpit?",
+      "troca_botao": "Iserit"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Isertitassat naligiinngillat."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: avatangiisinut ilinniartitsineq CO₂ anniaaneq, CO₂ tumeqarneq, atugarissaarnermut siunnersuutit, soqutiginartorsiortitat avatangiisinullu nutaarsiassat pillugit.",
+    "hero": {
+      "titulo": "Ileqqoriaaseq mikisorpalaartoq nunarsuarmut oqimaannaassavoq",
+      "texto": "CARBONO CONSCIENTE AVATANGIISIMUT NALUNAAJAATAATAASSAANNGILAQ SIUNISSAMI ANGUSSAMILU — TAAMAALILLUNI ULLUT TAMAASA ILEQQUT MIKISUT ATAATSIMOORNERISA KATERSUGAAT: SUNA SIORNARPIT, QANOQ INGERLAVIT, QAAMANEQ QANGA QARFIGIVIT, ERQAT SUMI IGINNARPATIT.",
+      "botao": "Annerusunik Takuuk"
+    },
+    "acordeao": {
+      "titulo": "Carbono Consciente — suna taanna?",
+      "emissao_titulo": "CO₂ Anniaaneq",
+      "emissao_corpo": "CO₂ anniaaneq tassaavoq gassit, soorlu CO₂, silarsuup qaavanut aniffigineqarnerat, pingaarnertut orersaataasartut ikuallatsinneranit, orpiit piiareqqinneqarnerannit, suliffeqarfiit tunisassiorneranit aammalu ullutsinni angallanneqarnermit.",
+      "clima_titulo": "Qanoq silap pissusianik sunniutigisarpa?",
+      "clima_corpo": "Silaannaap kissarsiortitsisartut gassitaa silaannaap qaavani kissarsiorfiusumik toqqorsisarput. Anniaanerit amerlanerujartorpata, tamanna sunniutaa nukillerujartorpoq — taannalu nunarsuaq kissarsiortitsisarpoq aamma silaannaap allanngoriartornerani kinguneqarpoq.",
+      "pegada_titulo": "CO₂ Tumeqarnera",
+      "pegada_corpo": "Tassaavoq inuup, suliffeqarfiup imaluunniit tunisap ullormut atugaanit, naammattumik imaluunniit naammanngitsumik, gassit kissarsiortitsisartut tamakkiisumik amerlassusiat.",
+      "neutro_titulo": "CO₂ Naatsorsuutigineqartoq × Carbono Consciente",
+      "neutro_corpo": "<strong>CO₂ naatsorsuutigineqartoq</strong> anniaanerit naligiissarniarlugit imaluunniit akiitsuutigiumallugit siunertaqarpoq. <strong>Carbono consciente</strong>-mi akiitsuutigineq eqqarsaatigalugu siornatigut avatangiisinut sunniuteqannginnerusunik toqqaanermut pingaaruteqartorsiuutigaa."
+    },
+    "dicas": {
+      "titulo_secao": "Atugarissaarnermut Siunnersuutit",
+      "clique_voltar": "toorniariuk uteqqissavat",
+      "casa": {
+        "titulo": "Illu",
+        "resumo": "Ullormut uuttorfik imeqarfillu sianeqarnerat",
+        "item1": "Uuttorfik sianeqarnerat",
+        "item2": "Qaamaneq qarfigikku atorneqannginnami",
+        "item3": "Atortut eqqarsaatigalugit atuineq",
+        "item4": "Imeq annertuumik atorneq unitsigit",
+        "item5": "Nerisassanik annertuumik aserorsaanermik unitsigit"
+      },
+      "transporte": {
+        "titulo": "Angallanneq",
+        "resumo": "Biilimut taarsiullugit angallatsiorneq naatsukinerusumik",
+        "item1": "Pisinnaagaangamik pisuttuarit",
+        "item2": "Sikkili atorlugu angallanneq",
+        "item3": "Innuttaasunut angallatit atorlugit angallanneq",
+        "item4": "Pisinnaagaangamik angallannerit avitseqatigiiffigiuk",
+        "item5": "Biilimik pisariaqanngitsumik angallanneq unitsigit"
+      },
+      "alimentacao": {
+        "titulo": "Nerisassiorneq",
+        "resumo": "Nerrivimmi toqqaanerit aliikkusiissutaanik anniaanernillu annikillisitsisut",
+        "item1": "Nunaqqavinni pilersorneqartunik pisiniaqqusiuk",
+        "item2": "Aliikkusiissutaassamik unitsigit",
+        "item3": "Nerisassiornissaq pilersaarusiuk",
+        "item4": "Nerisassat pitsaanerusumik atuaruk",
+        "item5": "Neqinik nerineq annikillisigit"
+      },
+      "reciclagem": {
+        "titulo": "Atortoqqinneq",
+        "resumo": "Avitseqqaarit, atorusaatigiuk, aamma sinnersakka atortoqqinneqarnissaannik pilersitsigit",
+        "item1": "Assakiorsat eqqortumik avitseqqaarit",
+        "item2": "Atortut atorusaatigiuk",
+        "item3": "Atortoqqinneqarsinnaasut eqqortumik tunniutigiuk",
+        "item4": "Atortoqqinneqarsinnaanngitsut atorneq unitsigit",
+        "item5": "Atortunut atuisarnerit nutaanik pilersitsigit"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Avatangiisit Pillugit Soqutiginartut",
+      "subtitulo": "Nalunngilatit?",
+      "carregando": "Soqutiginartoq nittarsaalerpoq...",
+      "proxima": "Soqutiginartoq kingullerpaaq",
+      "erro_carregar": "Soqutiginartut massakkut nittarsaassinnaanngillat."
+    },
+    "noticias": {
+      "titulo": "Avatangiisit Nutaarsiassaat",
+      "subtitulo": "Atugarissaarneq pillugu nutaarsiassat ilumoortut nutaat",
+      "anteriores": "Nutaarsiassat siornatigut",
+      "proximas": "Nutaarsiassat kingulliit",
+      "carregando": "Nutaarsiassat nittarsaalerput...",
+      "erro_carregar": "Nutaarsiassat massakkut nittarsaassinnaanngillat.",
+      "nenhuma": "Massakkut nutaarsiassaq peqanngilaq.",
+      "ler_na_origem": "pilersitsisup nittartagaani atuaruk →",
+      "sem_link": "Nutaarsiamut uumut silataani attaveqaat peqanngilaq."
+    },
+    "rodape": {
+      "descricao": "Avatangiisinut ilinniartitsineq toqqaanerit mikisut nunarsuarmut iluaqutaanerujartortitsisartut.",
+      "navegacao": "Ingerlaarnerit",
+      "contato": "Attaveqaatit",
+      "copyright": "© 2026 Carbono Consciente. Piginneqatigiit tamarmik illersorneqarput."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Nalunaarsuiffik",
+    "meta_descricao": "Angallannerit nalunaarsuk aammalu CO₂ tumeqarnerit ullut ingerlagaangata malinnaaffigiuk.",
+    "titulo": "Ileqqutit Nalunaarsuiffiat",
+    "subtitulo": "Angallannerit nalunaarsuk aammalu CO₂ tumeqarnerit ullut ingerlagaangata malinnaaffigiuk.",
+    "card_hoje": "CO₂ ullumi",
+    "card_semana": "CO₂ sapaatip-akunnerami matumani",
+    "card_mes": "CO₂ qaammatimi matumani",
+    "grafico_titulo": "Ullut 14 kingullit ingerlanerat",
+    "grafico_aria": "CO₂ ullut {{dias}} kingullit ingerlanerat",
+    "form_titulo": "Angallanneq ilanngussuk",
+    "campo_meio": "Angallatissaq",
+    "campo_distancia": "Ungasissusia (km)",
+    "campo_data": "Ulloq",
+    "campo_observacao": "Allaaserineq (pisariaqanngitsoq)",
+    "campo_observacao_placeholder": "assersuutigalugu: sulisarfinnut angallanneq",
+    "botao_adicionar": "ilanngussuk",
+    "salvando": "toqqorneqalerpoq...",
+    "registrado_sucesso": "Angallanneq nalunaarsorneqarpoq!",
+    "registros_titulo": "Nalunaarsuutit kingullerpaat",
+    "registros_vazio": "Nalunaarsuutit suli peqanngillat — angallannerit siullermik qulaani ilanngussuk.",
+    "meio_removido": "Angallatissaq peerneqarpoq",
+    "remover_registro": "Nalunaarsuut peeruk",
+    "sessao_expirada": "Session naammassereerpoq.",
+    "erro_servidor": "Serverimut attaveqarneq ajornartorpoq. Ingerlasooriva?",
+    "erro_generico": "Suliaq naammassinneqarsinnaanngilaq.",
+    "delta_sem_registros": "piffissami matumani nalunaarsuutit peqanngillat",
+    "delta_primeiro_registro": "piffissami matumani nalunaarsuut siulleq",
+    "delta_estavel": "piffissap siornatigoortup saniatigut allanngunani",
+    "delta_variacao": "piffissap siornatigoortup saniatigut {{percentual}}%"
+  },
+  "globo": {
+    "legenda_titulo": "Inuk ataaseq anniaanera",
+    "legenda_baixa": "Appasik",
+    "legenda_alta": "Angisooq",
+    "sair_destaque": "Erseqqissaaffigisaq unitsigit",
+    "buscar_placeholder": "Nuna ujaasigit...",
+    "buscar_aria": "Globe-imi nuna ujaasigit",
+    "sem_dados_co2": "CO₂ pillugu paasissutissat peqanngillat",
+    "tonelada_ano_pessoa": "{{valor}} t/ukiumut inuk ataaseq",
+    "territorio": "Nunap immikkoortua",
+    "fechar_painel": "Nalunaarsuiffik matugit",
+    "sem_dados_territorio": "Nunap immikkoortuata CO₂ inuk ataaseq anniaanissaanut paasissutissaqanngilaq.",
+    "emissao_per_capita": "Inuk ataaseq anniaanera:",
+    "equivalente_diario": "Ulloq ataaseq naligaa:",
+    "equivalente_semanal": "Sapaatip-akunnera naligaa:",
+    "equivalente_mensal": "Qaammat ataaseq naligaa:",
+    "posicao_ranking": "Rangi-isigineqarnerani inissisimanera (nunat {{total}}-nit):",
+    "fonte_estimativa": "CO₂ orersaataasartut inuk ataaseq naatsorsuutigineqartut (Global Carbon Budget / Our World in Data, 2024-imi aallaqqaasoq).",
+    "aria_interativo": "Nunarsuaq CO₂ anniaanerinik interaktiivikkut takutitsisoq. Sikkersimaffigiuk uuttortinnissannut, qaannguteqarfigiuk angissusilersuinissannut, nuna ataaseq qarfigiuk paasissutissanik takuniassagukku aamma marlunnik qarfigiuk globe erseqqissaaffigiumallugu.",
+    "aria_decorativo": "Globe-i takorlooruteqartoq sikkersimasoq, Carbono Consciente-p suliaraa nunarsuarmioqatigiinnut siammarsimanera takutitsisartoq.",
+    "continente_asia": "Asia",
+    "continente_africa": "Afrika",
+    "continente_europa": "Europa",
+    "continente_america_sul": "Amerika Kujataani",
+    "continente_america_norte": "Amerika Avannaani",
+    "continente_oceania": "Oseania"
+  }
+}

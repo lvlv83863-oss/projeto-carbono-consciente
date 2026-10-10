@@ -1,0 +1,201 @@
+{
+  "common": {
+    "voltar_inicio": "← Kembali ke halaman utama",
+    "theme_toggle_aria": "Tukar tema terang/gelap",
+    "menu_aria": "Buka menu",
+    "login_link": "log masuk",
+    "sair_link": "log keluar",
+    "painel_link": "papan pemuka",
+    "fechar": "Tutup",
+    "nav": {
+      "plataforma": "Platform",
+      "impacto": "Impak",
+      "habitos": "Tabiat",
+      "contato": "Hubungi",
+      "dados": "Data"
+    }
+  },
+  "header": {
+    "idioma_aria": "Tukar bahasa",
+    "idioma_buscar_placeholder": "Cari bahasa..."
+  },
+  "auth": {
+    "meta_titulo": "Carbono Consciente — Log Masuk",
+    "meta_descricao": "Log masuk atau daftar untuk menjejaki data dan tabiat anda di Carbono Consciente.",
+    "esquerda_titulo": "Setiap tan CO₂ meninggalkan kesan",
+    "esquerda_texto": "Log masuk untuk menjejaki data, tabiat dan jejak karbon anda.",
+    "google_botao": "Teruskan dengan Google",
+    "google_em_breve": "Log masuk dengan Google akan tersedia tidak lama lagi.",
+    "enviando": "menghantar...",
+    "erro_servidor": "Tidak dapat menghubungi pelayan. Adakah ia sedang berjalan?",
+    "erro_generico": "Tidak dapat melengkapkan operasi.",
+    "login": {
+      "titulo": "Log Masuk",
+      "email_label": "Emel",
+      "email_placeholder": "anda@emel.com",
+      "senha_label": "Kata Laluan",
+      "botao": "log masuk",
+      "troca_texto": "Belum ada akaun?",
+      "troca_botao": "Daftar"
+    },
+    "cadastro": {
+      "titulo": "Pendaftaran",
+      "nome_label": "Nama",
+      "nome_placeholder": "Nama anda",
+      "email_label": "Emel",
+      "email_placeholder": "anda@emel.com",
+      "pais_label": "Negara",
+      "pais_placeholder": "Cari negara...",
+      "senha_label": "Kata Laluan",
+      "confirmar_label": "Sahkan kata laluan",
+      "botao": "daftar",
+      "troca_texto": "Sudah ada akaun?",
+      "troca_botao": "Log Masuk"
+    },
+    "validacao": {
+      "senhas_nao_conferem": "Kata laluan tidak sepadan."
+    }
+  },
+  "inicial": {
+    "meta_titulo": "Carbono Consciente",
+    "meta_descricao": "Carbono Consciente: pendidikan alam sekitar mengenai pelepasan karbon, jejak karbon, petua lestari, fakta menarik dan berita alam sekitar.",
+    "hero": {
+      "titulo": "Setiap tabiat kecil memberi kesan lebih ringan kepada planet",
+      "texto": "CARBONO CONSCIENTE BUKAN LABEL HIJAU ATAU SASARAN JAUH — IA ADALAH GABUNGAN PILIHAN BIASA, YANG DIULANG SETIAP HARI: APA YANG ANDA TANAM, BAGAIMANA ANDA BERGERAK, BILA ANDA MEMATIKAN LAMPU, DI MANA ANDA MEMBUANG SAMPAH.",
+      "botao": "Lihat Lagi"
+    },
+    "acordeao": {
+      "titulo": "Apa itu Carbono Consciente?",
+      "emissao_titulo": "Pelepasan Karbon",
+      "emissao_corpo": "Pelepasan karbon adalah pembebasan gas seperti CO₂ ke atmosfera, terutamanya daripada pembakaran bahan api fosil, penebangan hutan, pengeluaran industri dan juga pengangkutan harian.",
+      "clima_titulo": "Bagaimana ia menjejaskan cuaca?",
+      "clima_corpo": "Gas rumah hijau membentuk lapisan yang memerangkap haba di atmosfera. Semakin banyak pelepasan, semakin besar kesan ini — dan inilah yang mendorong pemanasan global dan perubahan iklim.",
+      "pegada_titulo": "Jejak Karbon",
+      "pegada_corpo": "Ia adalah jumlah keseluruhan gas rumah hijau yang dihasilkan, secara langsung atau tidak langsung, oleh aktiviti seseorang, syarikat atau produk dalam kehidupan seharian.",
+      "neutro_titulo": "Karbon Neutral × Carbono Consciente",
+      "neutro_corpo": "<strong>Karbon neutral</strong> bertujuan mengimbangi atau mengimbal pelepasan yang dihasilkan. <strong>Carbono consciente</strong> mengutamakan pilihan yang mengurangkan kesan alam sekitar sebelum memikirkan tentang pengimbalan."
+    },
+    "dicas": {
+      "titulo_secao": "Petua Lestari",
+      "clique_voltar": "klik untuk kembali",
+      "casa": {
+        "titulo": "Rumah",
+        "resumo": "Penjimatan tenaga dan air dalam kehidupan seharian",
+        "item1": "Jimat tenaga",
+        "item2": "Padamkan lampu apabila tidak digunakan",
+        "item3": "Gunakan peralatan secara bijak",
+        "item4": "Kurangkan pembaziran air",
+        "item5": "Elakkan pembaziran makanan"
+      },
+      "transporte": {
+        "titulo": "Pengangkutan",
+        "resumo": "Alternatif kepada kereta untuk pergerakan yang lebih ringan",
+        "item1": "Berjalan apabila boleh",
+        "item2": "Gunakan basikal",
+        "item3": "Gunakan pengangkutan awam",
+        "item4": "Berkongsi perjalanan apabila boleh",
+        "item5": "Kurangkan perjalanan kereta yang tidak perlu"
+      },
+      "alimentacao": {
+        "titulo": "Pemakanan",
+        "resumo": "Pilihan di meja makan yang mengurangkan pembaziran dan pelepasan",
+        "item1": "Membeli produk tempatan",
+        "item2": "Elakkan pembaziran",
+        "item3": "Rancang hidangan",
+        "item4": "Memanfaatkan makanan dengan lebih baik",
+        "item5": "Kurangkan pengambilan daging"
+      },
+      "reciclagem": {
+        "titulo": "Kitar Semula",
+        "resumo": "Asingkan, guna semula dan berikan kegunaan baharu kepada bahan yang berlebihan",
+        "item1": "Asingkan sisa dengan betul",
+        "item2": "Guna semula bahan",
+        "item3": "Hantar bahan kitar semula dengan betul",
+        "item4": "Elakkan produk pakai buang",
+        "item5": "Beri kegunaan baharu kepada objek"
+      }
+    },
+    "curiosidades": {
+      "titulo": "Fakta Alam Sekitar",
+      "subtitulo": "Tahukah anda?",
+      "carregando": "Memuatkan fakta...",
+      "proxima": "Fakta seterusnya",
+      "erro_carregar": "Tidak dapat memuatkan fakta sekarang."
+    },
+    "noticias": {
+      "titulo": "Berita Alam Sekitar",
+      "subtitulo": "Berita sebenar dan terkini tentang kelestarian",
+      "anteriores": "Berita sebelumnya",
+      "proximas": "Berita seterusnya",
+      "carregando": "Memuatkan berita...",
+      "erro_carregar": "Tidak dapat memuatkan berita sekarang.",
+      "nenhuma": "Tiada berita tersedia pada masa ini.",
+      "ler_na_origem": "baca di sumber asal →",
+      "sem_link": "Tiada pautan luar tersedia untuk berita ini."
+    },
+    "rodape": {
+      "descricao": "Pendidikan alam sekitar yang mengubah pilihan kecil menjadi hasil besar untuk planet ini.",
+      "navegacao": "Navigasi",
+      "contato": "Hubungi",
+      "copyright": "© 2026 Carbono Consciente. Hak cipta terpelihara."
+    }
+  },
+  "painel": {
+    "meta_titulo": "Carbono Consciente — Papan Pemuka",
+    "meta_descricao": "Rekodkan perjalanan anda dan jejaki jejak karbon anda dari semasa ke semasa.",
+    "titulo": "Papan pemuka tabiat anda",
+    "subtitulo": "Rekodkan perjalanan anda dan jejaki jejak karbon anda dari semasa ke semasa.",
+    "card_hoje": "CO₂ hari ini",
+    "card_semana": "CO₂ minggu ini",
+    "card_mes": "CO₂ bulan ini",
+    "grafico_titulo": "Perkembangan dalam 14 hari lepas",
+    "grafico_aria": "Perkembangan CO₂ dalam {{dias}} hari lepas",
+    "form_titulo": "Tambah perjalanan",
+    "campo_meio": "Cara pengangkutan",
+    "campo_distancia": "Jarak (km)",
+    "campo_data": "Tarikh",
+    "campo_observacao": "Catatan (pilihan)",
+    "campo_observacao_placeholder": "cth.: perjalanan ke tempat kerja",
+    "botao_adicionar": "tambah",
+    "salvando": "menyimpan...",
+    "registrado_sucesso": "Perjalanan direkodkan!",
+    "registros_titulo": "Rekod terbaharu",
+    "registros_vazio": "Tiada rekod lagi — tambah perjalanan pertama anda di atas.",
+    "meio_removido": "Cara pengangkutan dialih keluar",
+    "remover_registro": "Alih keluar rekod",
+    "sessao_expirada": "Sesi telah tamat tempoh.",
+    "erro_servidor": "Tidak dapat menghubungi pelayan. Adakah ia sedang berjalan?",
+    "erro_generico": "Tidak dapat melengkapkan operasi.",
+    "delta_sem_registros": "tiada rekod dalam tempoh ini",
+    "delta_primeiro_registro": "rekod pertama dalam tempoh ini",
+    "delta_estavel": "stabil berbanding tempoh sebelumnya",
+    "delta_variacao": "{{percentual}}% berbanding tempoh sebelumnya"
+  },
+  "globo": {
+    "legenda_titulo": "Pelepasan per kapita",
+    "legenda_baixa": "Rendah",
+    "legenda_alta": "Tinggi",
+    "sair_destaque": "Keluar daripada mod sorotan",
+    "buscar_placeholder": "Cari negara...",
+    "buscar_aria": "Cari negara pada glob",
+    "sem_dados_co2": "tiada data CO₂",
+    "tonelada_ano_pessoa": "{{valor}} tan/tahun bagi setiap orang",
+    "territorio": "Wilayah",
+    "fechar_painel": "Tutup panel",
+    "sem_dados_territorio": "Tiada data pelepasan CO₂ per kapita tersedia untuk wilayah ini.",
+    "emissao_per_capita": "Pelepasan per kapita:",
+    "equivalente_diario": "Persamaan harian:",
+    "equivalente_semanal": "Persamaan mingguan:",
+    "equivalente_mensal": "Persamaan bulanan:",
+    "posicao_ranking": "Kedudukan dalam ranking (daripada {{total}} negara):",
+    "fonte_estimativa": "Anggaran CO₂ fosil per kapita (Global Carbon Budget / Our World in Data, tahun asas 2024).",
+    "aria_interativo": "Glob interaktif pelepasan karbon. Seret untuk putar, skrol untuk zum, klik sebuah negara untuk melihat data dan klik dua kali untuk meletakkan glob dalam mod sorotan.",
+    "aria_decorativo": "Glob hiasan yang berputar, menggambarkan capaian global projek Carbono Consciente.",
+    "continente_asia": "Asia",
+    "continente_africa": "Afrika",
+    "continente_europa": "Eropah",
+    "continente_america_sul": "Amerika Selatan",
+    "continente_america_norte": "Amerika Utara",
+    "continente_oceania": "Oceania"
+  }
+}
