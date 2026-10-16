@@ -36,6 +36,9 @@ async function main() {
   const texto = fs.readFileSync(path.join(__dirname, "schema.sql"), "utf-8");
   const comandos = separarComandos(texto);
 
+  // No Aiven o SSL é obrigatório; localmente fica desligado.
+  const ssl = process.env.DB_SSL === "true" ? { rejectUnauthorized: false } : undefined;
+
   // Conecta SEM escolher banco: o próprio schema.sql faz CREATE DATABASE / USE.
   const conexao = await mysql.createConnection({
     host: env.banco.host,
@@ -43,8 +46,8 @@ async function main() {
     user: env.banco.usuario,
     password: env.banco.senha,
     charset: "utf8mb4",
+    ssl,
   });
-
   console.log(`Aplicando schema em ${env.banco.host}:${env.banco.porta} ...`);
   for (const comando of comandos) {
     await conexao.query(comando);
