@@ -10,7 +10,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://lvlv83863-oss.github.io/projeto-carbono-consciente/", // troque se o seu site tiver outro domínio
+      "https://lvlv83863-oss.github.io", // troque se o seu site tiver outro domínio
       "http://localhost:3307",
       "http://127.0.0.1:3307",
     ],
