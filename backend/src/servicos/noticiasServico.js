@@ -5,9 +5,9 @@ const ErroApi = require("../utilitarios/erroApi");
 // Notícias reais (RSS) são a fonte principal; se a busca externa falhar
 // (sem internet, Google fora do ar, etc.) cai para o conteúdo semeado em
 // noticiasRepositorio, pra a seção nunca ficar vazia.
-async function listar() {
+async function listar(idioma = "pt") {
   try {
-    const reais = await noticiasFonteServico.buscarNoticiasReais();
+    const reais = await noticiasFonteServico.buscarNoticiasReais(idioma);
     if (reais.length) return reais;
   } catch (erro) {
     console.error("Falha ao buscar notícias reais, usando fallback:", erro.message);
@@ -15,8 +15,8 @@ async function listar() {
   return noticiasRepositorio.listar();
 }
 
-async function buscarPorId(id) {
-  const todas = await listar();
+async function buscarPorId(id, idioma = "pt") {
+  const todas = await listar(idioma);
   const noticia = todas.find((n) => n.id === id);
   if (!noticia) throw new ErroApi(404, "Notícia não encontrada.");
   return noticia;

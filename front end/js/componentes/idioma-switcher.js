@@ -10,9 +10,12 @@
 (function () {
   "use strict";
 
-  function nomeIdioma(codigo, emQueIdioma) {
+  // Cada idioma aparece escrito em si mesmo (autônimo — "Español", "العربية",
+  // "中文"), não traduzido para o idioma atual da UI. É assim que se reconhece
+  // a própria língua de relance numa lista de 96 opções.
+  function nomeIdioma(codigo) {
     try {
-      return new Intl.DisplayNames([emQueIdioma], { type: "language" }).of(codigo);
+      return new Intl.DisplayNames([codigo], { type: "language" }).of(codigo);
     } catch {
       return codigo.toUpperCase();
     }
@@ -54,7 +57,7 @@
     }
 
     function textoOpcao(opcao) {
-      return nomeIdioma(opcao.codigo, window.i18n.idiomaAtual);
+      return nomeIdioma(opcao.codigo);
     }
 
     const seletor = window.SeletorBusca.criar({

@@ -16,6 +16,24 @@
 
   function t(chave, vars) { return window.i18n ? window.i18n.t(chave, vars) : chave; }
 
+  // Os 8 meios de transporte são um conjunto fechado e fixo (seed do banco,
+  // backend/sql/schema.sql) — mesmo padrão de tradução via lookup já usado
+  // pros 6 nomes de continente em front end/js/globo.js (CHAVE_CONTINENTE).
+  const CHAVE_MEIO = {
+    "Carro (gasolina)": "painel.meios.carro_gasolina",
+    "Carro (etanol)": "painel.meios.carro_etanol",
+    "Carro (elétrico)": "painel.meios.carro_eletrico",
+    "Motocicleta": "painel.meios.motocicleta",
+    "Ônibus": "painel.meios.onibus",
+    "Metrô/Trem": "painel.meios.metro_trem",
+    "Bicicleta": "painel.meios.bicicleta",
+    "A pé": "painel.meios.a_pe",
+  };
+  function nomeMeio(nomeOriginal) {
+    const chave = CHAVE_MEIO[nomeOriginal];
+    return chave ? t(chave) : nomeOriginal;
+  }
+
   function saiuDaSessao() {
     localStorage.removeItem("carbono-token");
     localStorage.removeItem("carbono-usuario");
@@ -98,7 +116,7 @@
       const meios = await chamarApi("/meios-transporte", { headers: CABECALHOS });
       // <option> só aceita texto — o ícone (SVG) aparece na lista de
       // registros abaixo, que é HTML de verdade.
-      seletorMeio.innerHTML = meios.map((m) => `<option value="${m.id}">${m.nome}</option>`).join("");
+      seletorMeio.innerHTML = meios.map((m) => `<option value="${m.id}">${nomeMeio(m.nome)}</option>`).join("");
     }
 
     async function carregarResumo() {
@@ -133,7 +151,7 @@
     async function carregarLista() {
       const registros = await chamarApi("/habitos", { headers: CABECALHOS });
       if (!registros.length) {
-        lista.innerHTML = '<p class="painel-vazio">Nenhum registro ainda — adicione seu primeiro deslocamento acima.</p>';
+        lista.innerHTML = `<p class="painel-vazio">${t("painel.registros_vazio")}</p>`;
         return;
       }
       lista.innerHTML = registros
@@ -143,7 +161,7 @@
           <div class="painel-item-info">
             <span class="painel-item-icone">${window.Icones.icone((r.meio && r.meio.icone) || "carro")}</span>
             <div class="painel-item-detalhes">
-              <strong>${(r.meio && r.meio.nome) || t("painel.meio_removido")}</strong>
+              <strong>${(r.meio && nomeMeio(r.meio.nome)) || t("painel.meio_removido")}</strong>
               <span>${fmtDataBR(r.data)} · ${r.distanciaKm.toString().replace(".", ",")} km${r.observacao ? " · " + r.observacao : ""}</span>
             </div>
           </div>

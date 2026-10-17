@@ -13,7 +13,9 @@
       "habitos": "Imyitwarire",
       "contato": "Twandikire",
       "dados": "Amakuru"
-    }
+    },
+    "logo_alt": "Ikirango cya Carbono Consciente",
+    "redirecionamento_html": "Turi kugushyira ahandi... <a href=\"front%20end/html/inicial.html\">kanda hano</a> niba utoherejwe ahandi."
   },
   "header": {
     "idioma_aria": "Hindura ururimi",
@@ -120,7 +122,27 @@
       "subtitulo": "Wari ubizi?",
       "carregando": "Gutangiza ikintu gitangaje...",
       "proxima": "Ikindi kintu gitangaje",
-      "erro_carregar": "Ntibyashobotse gutangiza ibintu bitangaje muri iki gihe."
+      "erro_carregar": "Ntibyashobotse gutangiza ibintu bitangaje muri iki gihe.",
+      "fatos": {
+        "fato1": "Igiti kigeze mu bukure gifata impuzandengo ya kg 22 za CO₂ ku mwaka — ni yo mpamvu gutera ibiti bushya ari kimwe mu buryo bworoshye cyane bwo kuringaniza ibyuka bihumanya ikirere bisohoka.",
+        "fato2": "Inyanja zifata impuzandengo ya kimwe cya kane cy'ibyuka bya CO₂ byose abantu basohora ku mwaka, zikaba nk'igikoresho kinini kigenzura ikirere ku isi.",
+        "fato3": "Gusubiramo gukoresha toni imwe y'impapuro bizigama ibiti nka 17 n'amazi n'ingufu nyinshi ugereranyije no gukora impapuro nshya.",
+        "fato4": "Ubwikorezi bufata impuzandengo ya kimwe cya kane cy'ibyuka bya CO₂ byose biva ku ngufu ku isi — guhindura imodoka ukoresha igare cyangwa ubwikorezi rusange mu ngendo ngufi bigira ingaruka nziza nyazo.",
+        "fato5": "Ishyamba rya Amazone ni ho hava hafi 10% by'ibinyabuzima byose bizwi ku isi, kandi ribika amamiliyari y'amatoni ya karubone mu bimera byaryo.",
+        "fato6": "Utubaho tw'izuba two ku mazu dushobora kugabanya ingaruka za karubone z'inzu ku toni za CO₂ ku mwaka, bitewe n'uburyo ingufu zikoreshwa aho uba.",
+        "fato7": "Kurya inyama nke z'umutuku birashobora kugabanya cyane ingaruka za karubone z'umuntu, kubera ko korora inka ari kimwe mu bikorwa by'ubuhinzi bisohora ibyuka byinshi byangiza ikirere.",
+        "fato8": "Gushonga kw'urubura rw'inyanja ya Arctique bigabanya ubushobozi bw'isi bwo kugaruza urumuri rw'izuba mu kirere, bikongera ubushyuhe — ikintu kizwi nka 'albedo feedback' (ingaruka zisubiramo z'urumuri).",
+        "fato9": "Amatara ya LED akoresha ingufu nke ku kigero kigera kuri 80% ugereranyije n'amatara asanzwe, kandi amara igihe kirekire, bigatuma hagabanuka ibyuka n'imyanda.",
+        "fato10": "Amasezerano ya Paris, yashyizweho umukono n'ibihugu bigera kuri 200, agamije kugabanya iyongezwa ry'ubushyuhe bw'isi munsi cyane ya 2°C hejuru y'urugero rwabayeho mbere y'inganda.",
+        "fato11": "Hafi kimwe cya gatatu cy'ibiribwa byose bikorerwa ku isi birajugunywa — kandi ubwo buhunzi bwonyine bisohora igice kinini cy'ibyuka byangiza ikirere ku isi.",
+        "fato12": "Imashini z'umuyaga zigezweho zishobora gukora ingufu zihagije zo gutanga amashanyarazi mu mazu agera ku bihumbi, bitarangiza CO₂ mu gihe zikora.",
+        "fato13": "Ubutaka buzima bubika karubone nyinshi kurusha ibimera byose n'ikirere byose hamwe — uburyo bw'ubuhinzi busubiza ubutaka ubuzima butuma iyo karubone igumira mu butaka.",
+        "fato14": "Amahurizo ya korali, nubwo atwikira munsi ya 1% cy'ikibaya cy'inyanja, afasha hafi 25% by'ibinyabuzima byose bizwi by'inyanja — kandi arumva cyane iyo amazi ashyushye.",
+        "fato15": "Kugabanya gutakaza amazi ashyushye mu rugo (urugero, koga mu gihe gito) nabyo bigabanya ibyuka, kubera ko gushyusha amazi gukoresha ingufu.",
+        "fato16": "Imodoka z'amashanyarazi, nubwo twitwaje uko bateri zikorwa, akenshi zisohora CO₂ nke mu gihe cyose zizamara ugereranyije n'imodoka zikoresha lisansi, cyane cyane aho amashanyarazi aturuka ku ngufu zitanduye.",
+        "fato17": "Guhindura imyanda y'ibinyabuzima mu rugo kugira ngo ibe ifumbire kurinda ko isohora gaze metani mu hantu h'imyanda — gaze yangiza ikirere kurusha CO₂ mu gihe gito.",
+        "fato18": "Urubura rw'i Groenlande no muri Antarctique hamwe burahunga mu myaka iheze amamiliyari magana y'amatoni ku mwaka, bikagira uruhara runini mu kuzamura urwego rw'amazi y'inyanja."
+      }
     },
     "noticias": {
       "titulo": "Amakuru y'ibidukikije",
@@ -138,6 +160,31 @@
       "navegacao": "Kuyobora",
       "contato": "Twandikire",
       "copyright": "© 2026 Carbono Consciente. Uburenganzira bwose burabitswe."
+    },
+    "planta": {
+      "aria_svg": "Igiti kimera kigahinduka igiti kinini bitewe n'ubuzima bw'imyitwarire yawe mu rugendo",
+      "carregando_placeholder": "Igiti cyawe kirimo gupakira...",
+      "aria_arvore": "Igiti. Kanda kugira ngo wongere kuterwa",
+      "dica_replantar": "Kanda ku giti kugira ngo wongere kuterwa",
+      "legenda_0": "Imbuto yawe irimo guterwa...",
+      "legenda_1": "Hamerewe igishishwa gito. Urugendo rwose rudakoresha ibyangiza ibidukikije ruragifasha gukura.",
+      "legenda_2": "Ubu ni igiti gikomeye. Imyitwarire yawe irafata imizi.",
+      "legenda_3": "Igiti gito, cuzuye amababi. Komeza utyo!",
+      "legenda_4": "Igiti kinini gishashe amashami. Imyitwarire yawe irashimishije!"
+    },
+    "estatisticas": {
+      "media_mundial": "impuzandengo ya CO₂ ku muntu, mu bihugu bikurikiranwa",
+      "maior_emissor": "igihugu gisohora CO₂ nyinshi ku muntu: {{pais}}",
+      "menor_emissor": "igihugu gisohora CO₂ nke ku muntu: {{pais}}",
+      "paises_monitorados": "ibihugu bikurikiranwa kw'isi",
+      "seu_co2_semana": "CO₂ yawe muri iki cyumweru",
+      "vs_media_paises": "ugereranyije n'impuzandengo y'ibihugu ya cyumweru",
+      "ranking_mundial": "umwanya ugereranywa mu bihugu {{total}}",
+      "sem_dados_suficientes": "amakuru ahagije ntabwo ahari",
+      "fallback_co2_evitado": "impuzandengo ya CO₂ yakumiriwe kuri igikorwa kimwe gihuza / ukwezi",
+      "fallback_variacao_emissoes": "ibisohoka ugereranyije n'igihe kimwe umwaka ushize",
+      "fallback_abaixo_media_setor": "munsi y'impuzandengo y'urwego, mu makonti akurikiranwa",
+      "fallback_paises_ativos": "ibihugu bifite ama node y'amakuru akora kuri network"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "nta cyanditswe muri iki gihe",
     "delta_primeiro_registro": "icyanditswe cya mbere muri iki gihe",
     "delta_estavel": "bihamye ugereranyije n'igihe cyabanjirije",
-    "delta_variacao": "{{percentual}}% ugereranyije n'igihe cyabanjirije"
+    "delta_variacao": "{{percentual}}% ugereranyije n'igihe cyabanjirije",
+    "meios": {
+      "carro_gasolina": "Imodoka (lisansi)",
+      "carro_etanol": "Imodoka (etanoli)",
+      "carro_eletrico": "Imodoka (amashanyarazi)",
+      "motocicleta": "Moto",
+      "onibus": "Bisi",
+      "metro_trem": "Metero/Gari",
+      "bicicleta": "Igare",
+      "a_pe": "Mu maguru"
+    }
   },
   "globo": {
     "legenda_titulo": "Ibyuka kuri buri muntu",

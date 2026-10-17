@@ -13,7 +13,9 @@
       "habitos": "Imikhuba",
       "contato": "Xhumana",
       "dados": "Idatha"
-    }
+    },
+    "logo_alt": "Ilogo ye-Carbono Consciente",
+    "redirecionamento_html": "Kuqondiswa kabusha... <a href=\"front%20end/html/inicial.html\">chofoza lapha</a> uma ungaqondiswa."
   },
   "header": {
     "idioma_aria": "Shintsha ulimi",
@@ -120,7 +122,27 @@
       "subtitulo": "Uyazi?",
       "carregando": "Kulayishwa into ethakazelisayo...",
       "proxima": "Into ethakazelisayo elandelayo",
-      "erro_carregar": "Ayikwazi ukulayisha izinto ezithakazelisayo njengamanje."
+      "erro_carregar": "Ayikwazi ukulayisha izinto ezithakazelisayo njengamanje.",
+      "fatos": {
+        "fato1": "Isihlahla esidala simunca cishe amakhilogremu angu-22 we-CO₂ ngonyaka — yingakho ukutshalwa kabusha kwamahlathi kuyindlela eqondile yokulungisa ukukhutshwa kwemigqomo.",
+        "fato2": "Olwandle lumunca cishe ikota yawo wonke umoya we-CO₂ okhutshwa yisintu minyaka yonke, lusebenza njengesilungiselela esikhulu sesimo sezulu somhlaba.",
+        "fato3": "Ukuphinda ukusetshenziswa kwethoni eyodwa yephepha kongeleza izihlahla ezingaba ngu-17 kanye nenani elikhulu lamanzi namandla uma kuqhathaniswa nokukhiqiza iphepha elisha.",
+        "fato4": "Ukuthuthwa kunesibopho sekota yokukhutshwa komoya we-CO₂ emhlabeni jikelele ehlobene namandla — ukushintsha imoto ibhayisikili noma izokuthutha zomphakathi ohambweni olufushane kwenza umehluko wangempela.",
+        "fato5": "I-Amazon ikhaya lezinhlobonhlobo zokuphila ezingaba ngu-10% zazo zonke ezaziwayo emhlabeni, futhi igcina izigidigidi zethoni zekhabhoni ezitshalweni zayo.",
+        "fato6": "Amaphaneli elanga asendlini angehlisa izinyathelo zekhabhoni zendlu ngamathoni e-CO₂ ngonyaka, kuncike kumxube wamandla endawo.",
+        "fato7": "Ukudla okunenyama ebomvu encane kungancishisa kakhulu izinyathelo zekhabhoni zomuntu, ngoba ukufuya izinkomo kuyingxenye yomsebenzi wokulima okhipha imigqomo eminingi.",
+        "fato8": "Ukuncibilika kweqhwa lolwandle e-Arctic kwehlisa amandla omhlaba okubuyisela ukukhanya kwelanga esikhaleni, okusheshisa ukushisa — umphumela owaziwa ngokubuyela kwe-albedo.",
+        "fato9": "Izibani ze-LED zisebenzisa amandla ancishisiwe ngamaphesenti engaba ngu-80 kunezibani zendabuko, futhi zihlala isikhathi eside kakhulu, zincishisa kokubili ukukhishwa kwemigqomo nemfucuza.",
+        "fato10": "Isivumelwano saseParis, esisayinwe amazwe acishe abe ngu-200, sihlose ukunciphisa ukufuduma komhlaba ukuba kube ngaphansi kuka-2°C ngaphezu kwezinga langaphambi kwemboni.",
+        "fato11": "Cishe ingxenye yesithathu yalo lonke ukudla okukhiqizwa emhlabeni kuchithwa — lokhu kuchitha kodwa kukhiqiza ingxenye enkulu yokukhutshwa komoya womhlaba wezingxenye zokushisa.",
+        "fato12": "Amathobhini omoya ahlobo lwanamuhla angakhiqiza amandla anele ukunika amakhaya ayizinkulungwane, ngaphandle kokukhipha i-CO₂ ngesikhathi sokusebenza.",
+        "fato13": "Umhlabathi onempilo ugcina ikhabhoni eningi kunazo zonke izitshalo nomkhathi kuhlanganisiwe — izinqubo zokulima ezivuselela zisiza ukugcina leyo khabhoni phansi.",
+        "fato14": "Izintaba zamakorali, nakuba zisibekela ngaphansi kuka-1% yesisekelo solwandle, zisekela cishe u-25% wayo yonke impilo yolwandle eyaziwayo — futhi zinzwayo kakhulu kokufudumala kwamanzi.",
+        "fato15": "Ukunciphisa ukumoshwa kwamanzi ashisayo ekhaya (isibonelo, ukugeza ngesikhathi esifushane) nakho kuncishisa ukukhishwa kwemigqomo, ngoba ukufudumeza amanzi kusebenzisa amandla.",
+        "fato16": "Izimoto zogesi, ngisho noma kubhekwa ukukhiqizwa kwebhethri, zivame ukukhipha i-CO₂ encane ngesikhathi sayo sonke sokusebenza kunezimoto zokushisa, ikakhulukazi lapho ugesi uvela emithombo emsulwa.",
+        "fato17": "Ukwenza umquba wemfucuza yemvelo ekhaya kuvimbela ukuba ikhiqize igesi yemethane endaweni yokulahla izibi — igesi yesimo sezulu enamandla ngaphezu kwe-CO₂ esikhathini esifushane.",
+        "fato18": "Amankqwazi aseGreenland nase-Antarctica ndawonye alahlekelwa amakhulu ezigidigidi zethoni zeqhwa ngonyaka eminyakeni yamuva, okufaka isandla ngqo ekukhukhumaleni kwamazinga olwandle."
+      }
     },
     "noticias": {
       "titulo": "Izindaba Zemvelo",
@@ -138,6 +160,31 @@
       "navegacao": "Ukuzula",
       "contato": "Xhumana",
       "copyright": "© 2026 Carbono Consciente. Wonke amalungelo agodliwe."
+    },
+    "planta": {
+      "aria_svg": "Isitshalo esikhula sibe isihlahla ngokuxhomeke kwempilo yemikhuba yakho yokuhamba",
+      "carregando_placeholder": "Kulayishwa isitshalo sakho...",
+      "aria_arvore": "Isihlahla. Chofoza ukuthi utshale kabusha",
+      "dica_replantar": "Chofoza isihlahla ukuthi utshale kabusha",
+      "legenda_0": "Sitshala imbewu yakho...",
+      "legenda_1": "Kuzalwe ihlumela elincane. Uhambo ngalunye oluzimele imvelo lusiza likhule.",
+      "legenda_2": "Manje liyisihlahla esiqinile. Imikhuba yakho iqala ukugxiliswa.",
+      "legenda_3": "Isihlahla esisha, esigcwele amaqabunga. Qhubeka kanjalo!",
+      "legenda_4": "Isihlahla esikhulu esiqhakazile. Imikhuba yakho imangalisa!"
+    },
+    "estatisticas": {
+      "media_mundial": "iCO₂ elinganiselwe ngomuntu, emazweni abhekwayo",
+      "maior_emissor": "izwe elikhipha kakhulu ngamunye womuntu: {{pais}}",
+      "menor_emissor": "izwe elikhipha kancane ngamunye womuntu: {{pais}}",
+      "paises_monitorados": "amazwe abhekwayo emhlabeni",
+      "seu_co2_semana": "iCO₂ yakho kuleli sonto",
+      "vs_media_paises": "kuqhathaniswa nesilinganiso samasonto emazweni",
+      "ranking_mundial": "isikhundla esilinganiselwe phakathi kwamazwe {{total}}",
+      "sem_dados_suficientes": "imininingwane engenele",
+      "fallback_co2_evitado": "iCO₂ elinganiselwe egwemwe ngomsebenzi oxhumene / ngenyanga",
+      "fallback_variacao_emissoes": "ukukhishwa kuqhathaniswa nenkathi efanayo nonyaka odlule",
+      "fallback_abaixo_media_setor": "ngaphansi kwesilinganiso somkhakha, phakathi kwama-akhawunti abhekwayo",
+      "fallback_paises_ativos": "amazwe anama-node emininingwane asebenza ohlelweni"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "awekho amarekhodi kulesi sikhathi",
     "delta_primeiro_registro": "irekhodi lokuqala kulesi sikhathi",
     "delta_estavel": "kuzinzile uqhathaniswa nenkathi edlule",
-    "delta_variacao": "{{percentual}}% uqhathaniswa nenkathi edlule"
+    "delta_variacao": "{{percentual}}% uqhathaniswa nenkathi edlule",
+    "meios": {
+      "carro_gasolina": "Imoto (upetrol)",
+      "carro_etanol": "Imoto (ethanol)",
+      "carro_eletrico": "Imoto (eyogesi)",
+      "motocicleta": "Isithuthuthu",
+      "onibus": "Ibhasi",
+      "metro_trem": "Isitimela",
+      "bicicleta": "Ibhayisikili",
+      "a_pe": "Ngezinyawo"
+    }
   },
   "globo": {
     "legenda_titulo": "Ukukhishwa ngomuntu ngamunye",

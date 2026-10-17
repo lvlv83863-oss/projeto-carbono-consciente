@@ -7,6 +7,8 @@
     "sair_link": "uitloggen",
     "painel_link": "dashboard",
     "fechar": "Sluiten",
+    "logo_alt": "Carbono Consciente-logo",
+    "redirecionamento_html": "Je wordt doorgestuurd... <a href=\"front%20end/html/inicial.html\">klik hier</a> als dat niet automatisch gebeurt.",
     "nav": {
       "plataforma": "Platform",
       "impacto": "Impact",
@@ -120,7 +122,27 @@
       "subtitulo": "Wist je dat?",
       "carregando": "Wist-je-datje laden...",
       "proxima": "Volgend wist-je-datje",
-      "erro_carregar": "De wist-je-datjes konden nu niet worden geladen."
+      "erro_carregar": "De wist-je-datjes konden nu niet worden geladen.",
+      "fatos": {
+        "fato1": "Een volwassen boom absorbeert gemiddeld ongeveer 22 kg CO₂ per jaar — daarom is herbebossing een van de meest directe manieren om uitstoot te compenseren.",
+        "fato2": "De oceanen absorberen jaarlijks ongeveer een kwart van alle CO₂ die de mensheid uitstoot en fungeren zo als een enorme regulator van het wereldwijde klimaat.",
+        "fato3": "Het recyclen van een ton papier bespaart ongeveer 17 bomen en een aanzienlijke hoeveelheid water en energie in vergelijking met het produceren van nieuw papier.",
+        "fato4": "Vervoer is verantwoordelijk voor ongeveer een kwart van de wereldwijde energiegerelateerde CO₂-uitstoot — de auto op korte afstanden vervangen door de fiets of het openbaar vervoer maakt een echt verschil.",
+        "fato5": "De Amazone herbergt ongeveer 10% van alle bekende biodiversiteit op de planeet en slaat daarnaast miljarden tonnen koolstof op in zijn vegetatie.",
+        "fato6": "Zonnepanelen op woningen kunnen de koolstofvoetafdruk van een huishouden met meerdere tonnen CO₂ per jaar verlagen, afhankelijk van de lokale energiemix.",
+        "fato7": "Een dieet met minder rood vlees kan de persoonlijke koolstofvoetafdruk aanzienlijk verlagen, omdat de rundveehouderij een van de meest emissie-intensieve landbouwactiviteiten is.",
+        "fato8": "Het smelten van zee-ijs in het noordpoolgebied vermindert het vermogen van de aarde om zonlicht terug de ruimte in te reflecteren, waardoor de opwarming versnelt — een effect dat bekend staat als albedo-terugkoppeling.",
+        "fato9": "Ledlampen verbruiken tot 80% minder energie dan gloeilampen en gaan veel langer mee, waardoor zowel uitstoot als afval worden verminderd.",
+        "fato10": "Het Klimaatakkoord van Parijs, ondertekend door bijna 200 landen, heeft als doel de opwarming van de aarde te beperken tot ruim onder 2°C boven het pre-industriële niveau.",
+        "fato11": "Ongeveer een derde van al het voedsel dat wereldwijd wordt geproduceerd, gaat verloren — en die verspilling alleen al zorgt voor een aanzienlijk deel van de wereldwijde uitstoot van broeikasgassen.",
+        "fato12": "Moderne windturbines kunnen genoeg energie opwekken om duizenden huishoudens te voorzien, zonder tijdens het functioneren CO₂ uit te stoten.",
+        "fato13": "Gezonde grond slaat meer koolstof op dan alle vegetatie en de atmosfeer samen — regeneratieve landbouwmethoden helpen die koolstof in de bodem te houden.",
+        "fato14": "Koraalriffen bedekken minder dan 1% van de oceaanbodem, maar ondersteunen ongeveer 25% van al het bekende zeeleven — en zijn extreem gevoelig voor de opwarming van het water.",
+        "fato15": "Het verminderen van warmwaterverbruik thuis (bijvoorbeeld kortere douches) vermindert ook de uitstoot, omdat het verwarmen van water energie kost.",
+        "fato16": "Elektrische auto's stoten, zelfs rekening houdend met de productie van de batterij, over hun hele levensduur doorgaans minder CO₂ uit dan auto's met verbrandingsmotor, vooral waar de elektriciteit uit schone bronnen komt.",
+        "fato17": "Het composteren van organisch afval thuis voorkomt dat het methaan produceert op stortplaatsen — een broeikasgas dat op korte termijn veel krachtiger is dan CO₂.",
+        "fato18": "De gletsjers van Groenland en Antarctica verliezen de afgelopen jaren samen honderden miljarden tonnen ijs per jaar, wat direct bijdraagt aan de stijging van de zeespiegel."
+      }
     },
     "noticias": {
       "titulo": "Milieunieuws",
@@ -138,6 +160,31 @@
       "navegacao": "Navigatie",
       "contato": "Contact",
       "copyright": "© 2026 Carbono Consciente. Alle rechten voorbehouden."
+    },
+    "planta": {
+      "aria_svg": "Plant die uitgroeit tot een boom op basis van hoe gezond je verplaatsingsgewoonten zijn",
+      "carregando_placeholder": "Je plant wordt geladen...",
+      "aria_arvore": "Boom. Klik om opnieuw te planten",
+      "dica_replantar": "Klik op de boom om opnieuw te planten",
+      "legenda_0": "Je zaadje wordt geplant...",
+      "legenda_1": "Er is een klein scheutje geboren. Elke duurzame rit laat het groeien.",
+      "legenda_2": "Het is al een stevig jong plantje. Je gewoonten schieten wortel.",
+      "legenda_3": "Een jonge boom, vol bladeren. Ga zo door!",
+      "legenda_4": "Een weelderige boom in bloei. Je gewoonten zijn geweldig!"
+    },
+    "estatisticas": {
+      "media_mundial": "gemiddelde CO₂ per persoon, onder de gevolgde landen",
+      "maior_emissor": "hoogste uitstoot per hoofd: {{pais}}",
+      "menor_emissor": "laagste uitstoot per hoofd: {{pais}}",
+      "paises_monitorados": "gevolgde landen op de wereldbol",
+      "seu_co2_semana": "jouw CO₂ deze week",
+      "vs_media_paises": "vergeleken met het weekgemiddelde van de landen",
+      "ranking_mundial": "geschatte positie onder {{total}} landen",
+      "sem_dados_suficientes": "niet genoeg gegevens",
+      "fallback_co2_evitado": "gemiddeld vermeden CO₂ per aangesloten vestiging / maand",
+      "fallback_variacao_emissoes": "uitstoot vs. dezelfde periode vorig jaar",
+      "fallback_abaixo_media_setor": "onder het sectorgemiddelde, bij gevolgde accounts",
+      "fallback_paises_ativos": "landen met actieve dataknooppunten op het netwerk"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "geen registraties in deze periode",
     "delta_primeiro_registro": "eerste registratie van deze periode",
     "delta_estavel": "stabiel t.o.v. de vorige periode",
-    "delta_variacao": "{{percentual}}% t.o.v. de vorige periode"
+    "delta_variacao": "{{percentual}}% t.o.v. de vorige periode",
+    "meios": {
+      "carro_gasolina": "Auto (benzine)",
+      "carro_etanol": "Auto (ethanol)",
+      "carro_eletrico": "Auto (elektrisch)",
+      "motocicleta": "Motor",
+      "onibus": "Bus",
+      "metro_trem": "Metro/Trein",
+      "bicicleta": "Fiets",
+      "a_pe": "Te voet"
+    }
   },
   "globo": {
     "legenda_titulo": "Uitstoot per persoon",

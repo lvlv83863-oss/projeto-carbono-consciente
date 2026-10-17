@@ -7,6 +7,8 @@
     "sair_link": "logi välja",
     "painel_link": "töölaud",
     "fechar": "Sulge",
+    "logo_alt": "Carbono Consciente logo",
+    "redirecionamento_html": "Suunamine... <a href=\"front%20end/html/inicial.html\">klõpsa siia</a>, kui sind ei suunata.",
     "nav": {
       "plataforma": "Platvorm",
       "impacto": "Mõju",
@@ -120,7 +122,27 @@
       "subtitulo": "Kas sa teadsid?",
       "carregando": "Faktide laadimine...",
       "proxima": "Järgmine fakt",
-      "erro_carregar": "Fakte ei saanud praegu laadida."
+      "erro_carregar": "Fakte ei saanud praegu laadida.",
+      "fatos": {
+          "fato1": "Täiskasvanud puu seob keskmiselt umbes 22 kg CO₂ aastas — seepärast on metsastamine üks otsesemaid viise heitmete kompenseerimiseks.",
+          "fato2": "Ookeanid seovad igal aastal umbes veerandi kogu inimkonna paisatud CO₂-st, toimides globaalse kliima tohutu regulaatorina.",
+          "fato3": "Ühe tonni paberi ringlussevõtt säästab umbes 17 puud ning märkimisväärse koguse vett ja energiat võrreldes uue paberi tootmisega.",
+          "fato4": "Transport põhjustab umbes veerandi maailma energiaga seotud CO₂ heitmetest — auto vahetamine jalgratta või ühistranspordi vastu lühematel sõitudel annab tõelise tulemuse.",
+          "fato5": "Amazonases elab umbes 10% kogu planeedi teadaolevast elurikkusest ja selle taimestik talletab miljardeid tonne süsinikku.",
+          "fato6": "Kodused päikesepaneelid võivad vähendada majapidamise süsinikujalajälge tonnide CO₂ võrra aastas, olenevalt kohalikust energiaallikate jaotusest.",
+          "fato7": "Vähem punast liha sisaldav toitumine võib isiklikku süsinikujalajälge tunduvalt vähendada, sest veisekasvatus on üks heitmemahukamaid põllumajandustegevusi.",
+          "fato8": "Arktika merejää sulamine vähendab planeedi võimet peegeldada päikesevalgust tagasi kosmosesse ja kiirendab soojenemist — seda nähtust tuntakse albeedo tagasisidena.",
+          "fato9": "LED-lambid tarbivad kuni 80% vähem energiat kui hõõglambid ja kestavad palju kauem, vähendades nii heitmeid kui ka jäätmeid.",
+          "fato10": "Pariisi kokkulepe, millele on alla kirjutanud ligi 200 riiki, seab eesmärgiks hoida globaalne soojenemine tublisti alla 2°C võrreldes industriaalajastu eelse tasemega.",
+          "fato11": "Umbes kolmandik kogu maailmas toodetud toidust läheb raisku — ja ainuüksi see raiskamine tekitab olulise osa maailma kasvuhoonegaaside heitmetest.",
+          "fato12": "Kaasaegsed tuulikud suudavad toota piisavalt energiat tuhandete kodude varustamiseks, paiskamata töö ajal välja CO₂.",
+          "fato13": "Terve muld talletab rohkem süsinikku kui kogu taimestik ja atmosfäär kokku — taastav põllumajandus aitab seda süsinikku mullas hoida.",
+          "fato14": "Korallrahud katavad vähem kui 1% ookeanipõhjast, ent elatavad umbes 25% kogu teadaolevast mereelustikust — ja nad on vee soojenemise suhtes äärmiselt tundlikud.",
+          "fato15": "Kuuma vee raiskamise vähendamine kodus (näiteks lühemad dušid) vähendab samuti heitmeid, sest vee soojendamine kulutab energiat.",
+          "fato16": "Elektriautod kipuvad kogu kasutusea jooksul paiskama välja vähem CO₂ kui sisepõlemismootoriga autod, isegi kui arvestada aku tootmist — eriti seal, kus elekter tuleb puhastest allikatest.",
+          "fato17": "Biojäätmete kompostimine kodus hoiab ära metaani tekke prügilates — see on kasvuhoonegaas, mis on lühikeses perspektiivis CO₂-st palju võimsam.",
+          "fato18": "Gröönimaa ja Antarktika liustikud on viimastel aastatel kaotanud kokku sadu miljardeid tonne jääd aastas, panustades otseselt meretaseme tõusu."
+      }
     },
     "noticias": {
       "titulo": "Keskkonnauudised",
@@ -138,6 +160,31 @@
       "navegacao": "Navigatsioon",
       "contato": "Kontakt",
       "copyright": "© 2026 Carbono Consciente. Kõik õigused kaitstud."
+    },
+    "planta": {
+      "aria_svg": "Taim, mis kasvab puuks sõltuvalt teie liikumisharjumuste tervislikkusest",
+      "carregando_placeholder": "Teie taime laadimine...",
+      "aria_arvore": "Puu. Klõpsa, et uuesti istutada",
+      "dica_replantar": "Klõpsa puul, et uuesti istutada",
+      "legenda_0": "Seemne istutamine...",
+      "legenda_1": "Sündis väike võrse. Iga säästlik sõit aitab tal kasvada.",
+      "legenda_2": "See on juba kindel istik. Teie harjumused juurduvad.",
+      "legenda_3": "Noor puu, lehti täis. Jätka samas vaimus!",
+      "legenda_4": "Õitsev lopsakas puu. Teie harjumused on hämmastavad!"
+    },
+    "estatisticas": {
+      "media_mundial": "Keskmine CO₂ inimese kohta jälgitavate riikide seas",
+      "maior_emissor": "suurim heitja elaniku kohta: {{pais}}",
+      "menor_emissor": "väikseim heitja elaniku kohta: {{pais}}",
+      "paises_monitorados": "jälgitavad riigid maailmas",
+      "seu_co2_semana": "teie CO₂ sel nädalal",
+      "vs_media_paises": "võrreldes riikide nädala keskmisega",
+      "ranking_mundial": "hinnanguline positsioon {{total}} riigi seas",
+      "sem_dados_suficientes": "andmeid ei piisa",
+      "fallback_co2_evitado": "keskmine välditud CO₂ ühendatud toimingu / kuu kohta",
+      "fallback_variacao_emissoes": "heitkogused vs. eelmise aasta samal perioodil",
+      "fallback_abaixo_media_setor": "sektori keskmisest madalam, jälgitavate kontode seas",
+      "fallback_paises_ativos": "riigid, kus võrgus on aktiivsed andmesõlmed"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "selles perioodis kandeid ei ole",
     "delta_primeiro_registro": "perioodi esimene kanne",
     "delta_estavel": "stabiilne võrreldes eelmise perioodiga",
-    "delta_variacao": "{{percentual}}% võrreldes eelmise perioodiga"
+    "delta_variacao": "{{percentual}}% võrreldes eelmise perioodiga",
+    "meios": {
+      "carro_gasolina": "Auto (bensiin)",
+      "carro_etanol": "Auto (etanool)",
+      "carro_eletrico": "Auto (elektriline)",
+      "motocicleta": "Mootorratas",
+      "onibus": "Buss",
+      "metro_trem": "Metroo/Rong",
+      "bicicleta": "Jalgratas",
+      "a_pe": "Jalgsi"
+    }
   },
   "globo": {
     "legenda_titulo": "Heide elaniku kohta",

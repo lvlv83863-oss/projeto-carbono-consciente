@@ -11,6 +11,7 @@
   if (!cena) return;
   const svg = cena.querySelector('.planta-svg');
   const leg = document.getElementById('planta-legenda');
+  function t(chave, vars) { return window.i18n ? window.i18n.t(chave, vars) : chave; }
   const reduz = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const NS = 'http://www.w3.org/2000/svg';
 
@@ -74,13 +75,12 @@
     b.style.setProperty('--d', (rnd() * 2).toFixed(2) + 's');
   }
 
-  const legendas = [
-    'Plantando sua semente...',
-    'Um brotinho nasceu. Cada trajeto sustentável faz ele crescer.',
-    'Já é uma muda firme. Seus hábitos estão ganhando raiz.',
-    'Uma árvore jovem, cheia de folhas. Continue assim!',
-    'Uma árvore frondosa em flor. Seus hábitos estão incríveis!'
-  ];
+  let legendaAtivada = false;
+  function aplicarLegenda(e) {
+    if (!leg) return;
+    legendaAtivada = true;
+    leg.textContent = t(`inicial.planta.legenda_${e}`);
+  }
   const TRONCO = [0, .3, .55, .8, 1], BRILHO = [0, .1, .25, .5, .85], TOPO = [0, 252, 212, 172, 108];
   const estagioDe = n => n < 20 ? 1 : n < 45 ? 2 : n < 70 ? 3 : 4;
 
@@ -100,7 +100,7 @@
       n.classList.toggle('on', e >= +n.dataset.e && e <= max);
       n.classList.toggle('off', e > max);
     });
-    if (leg) leg.textContent = legendas[e];
+    aplicarLegenda(e);
   }
 
   // ---- Efeitos ----
@@ -175,11 +175,19 @@
   // ---- Clique na árvore: semeia e cresce de novo ----
   cena.setAttribute('role', 'button');
   cena.setAttribute('tabindex', '0');
-  cena.setAttribute('aria-label', 'Árvore. Clique para plantar de novo');
   const dica = document.createElement('span');
   dica.className = 'planta-dica';
-  dica.textContent = 'Clique na árvore para plantar de novo';
+  function aplicarTextosEstaticos() {
+    cena.setAttribute('aria-label', t('inicial.planta.aria_arvore'));
+    dica.textContent = t('inicial.planta.dica_replantar');
+  }
+  aplicarTextosEstaticos();
   cena.appendChild(dica);
+
+  document.addEventListener('i18n:mudou', () => {
+    aplicarTextosEstaticos();
+    if (legendaAtivada) aplicarLegenda(atual);
+  });
 
   const replantar = () => {
     if (Date.now() - ultimoInicio < 700) return;                // evita cliques duplos acidentais

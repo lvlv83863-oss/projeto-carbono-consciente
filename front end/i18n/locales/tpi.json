@@ -13,7 +13,9 @@
       "habitos": "Pasin",
       "contato": "Kontak",
       "dados": "Data"
-    }
+    },
+    "logo_alt": "Lógo bilong Carbono Consciente",
+    "redirecionamento_html": "I go long narapela ples... <a href=\"front%20end/html/inicial.html\">klikim hia</a> sapos i no go stret."
   },
   "header": {
     "idioma_aria": "Senisim tokples",
@@ -120,7 +122,27 @@
       "subtitulo": "Yu save?",
       "carregando": "Lodim interesen fakt...",
       "proxima": "Narapela interesen fakt",
-      "erro_carregar": "I no inap lodim interesen fakt nau."
+      "erro_carregar": "I no inap lodim interesen fakt nau.",
+      "fatos": {
+        "fato1": "Wanpela bikpela diwai i save pulim klostu olsem 22 kg CO₂ long wanpela yia — olsem na planim gen bus em wanpela gutpela rot bilong daunim doti gas.",
+        "fato2": "Solwara ol i save pulim klostu wanpela hap foa bilong olgeta CO₂ manmeri i save putim long win long olgeta yia, na ol i wok olsem bikpela masin bilong stretim klaimet bilong wol.",
+        "fato3": "Taim yumi kirapim gen wanpela ton pepa, dispela i save seivim klostu 17 diwai na bikpela hap bilong wara na pawa, winim taim ol i wokim nupela pepa.",
+        "fato4": "Transpot em i kirapim klostu wanpela hap foa bilong olgeta doti gas CO₂ long wol i kam long pawa — senisim ka long baisikel o bus bilong ol manmeri long sot rot em i save mekim bikpela senis tru.",
+        "fato5": "Amazon em ples bilong klostu 10% bilong olgeta narapela narapela laip bilong animal na plang long wol, na em i save holim bilion bilion ton bilong carbon insait long diwai bilong en.",
+        "fato6": "Solar panel long haus i ken daunim doti gas carbon bilong wanpela haus olsem planti ton CO₂ long wanpela yia, dispela em i depen long kain pawa ol i yusim long dispela hap.",
+        "fato7": "Kaikai i gat liklik hap bret retmit i ken daunim doti gas carbon bilong wanpela man tru tumas, long wanem bikpela bulmakau bisnis em wanpela bilong ol wok bilong gaden i kirapim planti doti gas.",
+        "fato8": "Ais long solwara long Arctic i save melt, na dispela i daunim pawa bilong wol long salim bek lait bilong san i go long spes, na dispela i hariapim hotim bilong wol — ol i kolim dispela samting albedo feedback.",
+        "fato9": "LED lait i save kisim inap 80% sotpela pawa winim olpela lait, na i save stap longtaim moa, olsem na i daunim doti gas na rabis tu.",
+        "fato10": "Pris Agrimen, klostu 200 kantri i bin sainim, i gat tingting bilong daunim hotim bilong wol i stap aninit long 2°C antap long levol bipo long indastri i kamap.",
+        "fato11": "Klostu wanpela hap tri bilong olgeta kaikai ol i wokim long wol i save lus nating — na dispela wes wanpela yet i save kirapim bikpela hap bilong doti gas long wol olgeta.",
+        "fato12": "Nupela kain turbin win i ken wokim inap pawa bilong givim lait long planti tausen haus, na i no save salim CO₂ taim i wok.",
+        "fato13": "Gutpela graun i save holim planti moa carbon winim olgeta diwai na plang na skai wantaim — gutpela wok bilong gaden i helpim long holim dispela carbon i stap long graun.",
+        "fato14": "Coral reef, maski em i karamap liklik hap aninit long 1% bilong aninit solwara, i helpim i stap klostu 25% bilong olgeta laip bilong solwara ol man i save long en — na em i sensitiv tru long hotim bilong wara.",
+        "fato15": "Daunim wes bilong hot wara long haus (olsem, sotim taim bilong sawa) i save daunim doti gas tu, long wanem hotim wara i kisim pawa.",
+        "fato16": "Ka i ran long karen (electric car), maski yumi tingim wok bilong wokim battery tu, oltaim i save salim sotpela CO₂ long olgeta laip bilong en winim ka i ran long benzin, moa yet taim karen i kam long klin sos.",
+        "fato17": "Taim yumi compost ol rabis bilong plang na kaikai long haus, dispela i pasim ol long wokim methane long ples bilong tromoi rabis — em wanpela doti gas i strongim moa winim CO₂ long sotpela taim.",
+        "fato18": "Ais bilong Greenland na Antarctica wantaim, long ol yia i go pas, i save lusim planti handret bilion ton ais long wanpela yia, na dispela i helpim stret long solwara i go antap."
+      }
     },
     "noticias": {
       "titulo": "Nius Bilong Environment",
@@ -138,6 +160,31 @@
       "navegacao": "Navigesen",
       "contato": "Kontak",
       "copyright": "© 2026 Carbono Consciente. Olgeta rait i stap protektim."
+    },
+    "planta": {
+      "aria_svg": "Plaua i wok long kamap diwai, dependim long gutpela bilong pasin bilong yu long raun",
+      "carregando_placeholder": "Plaua bilong yu i lod yet...",
+      "aria_arvore": "Diwai. Klikim bilong planim gen",
+      "dica_replantar": "Klikim diwai bilong planim gen",
+      "legenda_0": "Mipela i planim pikinini bilong yu...",
+      "legenda_1": "Wanpela liklik sut i kamap. Olgeta gutpela wokabaut i helpim em long grow.",
+      "legenda_2": "Nau em i wanpela strongpela yangpela diwai. Pasin bilong yu i stat long putim rop daun.",
+      "legenda_3": "Wanpela yangpela diwai, pulap long lip. Wokim moa olsem!",
+      "legenda_4": "Wanpela bikpela diwai i gat plaua. Pasin bilong yu i gutpela tru!"
+    },
+    "estatisticas": {
+      "media_mundial": "avirej CO₂ long wanwan man, namel long olgeta kantri i stap aninit long was",
+      "maior_emissor": "kantri i save kamapim planti CO₂ moa long wanwan man: {{pais}}",
+      "menor_emissor": "kantri i save kamapim liklik CO₂ long wanwan man: {{pais}}",
+      "paises_monitorados": "kantri i stap aninit long was long graun",
+      "seu_co2_semana": "CO₂ bilong yu long dispela wik",
+      "vs_media_paises": "skelim wantaim avirej wik bilong olgeta kantri",
+      "ranking_mundial": "ples we yu kamap namel long {{total}} kantri",
+      "sem_dados_suficientes": "no inap infomesen",
+      "fallback_co2_evitado": "avirej CO₂ ol i stopim long wanwan wok i join / long wanwan mun",
+      "fallback_variacao_emissoes": "CO₂ i kamap, skelim wantaim seim taim long las yia",
+      "fallback_abaixo_media_setor": "aninit long avirej bilong sekta, namel long akaun ol i was long en",
+      "fallback_paises_ativos": "kantri ol i gat node bilong infomesen i wok yet long netwok"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "i no gat rekod long dispela taim",
     "delta_primeiro_registro": "namba wan rekod long dispela taim",
     "delta_estavel": "stap stret olsem bipo taim",
-    "delta_variacao": "{{percentual}}% i winim bipo taim"
+    "delta_variacao": "{{percentual}}% i winim bipo taim",
+    "meios": {
+      "carro_gasolina": "Ka (petrol)",
+      "carro_etanol": "Ka (etanol)",
+      "carro_eletrico": "Ka (elektrik)",
+      "motocicleta": "Motosaikel",
+      "onibus": "Bas",
+      "metro_trem": "Tren",
+      "bicicleta": "Baisikel",
+      "a_pe": "Wokabaut long lek"
+    }
   },
   "globo": {
     "legenda_titulo": "Imisen long wanwan man",

@@ -13,7 +13,9 @@
       "habitos": "Imikhuba",
       "contato": "Luxhumano",
       "dados": "Imininingwane"
-    }
+    },
+    "logo_alt": "Lilogo le Carbono Consciente",
+    "redirecionamento_html": "Kuyadluliselwa... <a href=\"front%20end/html/inicial.html\">chofota lapha</a> uma ungakadluliselwa."
   },
   "header": {
     "idioma_aria": "Shintja lulwimi",
@@ -120,7 +122,27 @@
       "subtitulo": "Bewati?",
       "carregando": "Kulayisha intfo lemangalisa...",
       "proxima": "Intfo lelandzelako lemangalisa",
-      "erro_carregar": "Akukhonakali kulayisha tintfo letimangalisa njengamanje."
+      "erro_carregar": "Akukhonakali kulayisha tintfo letimangalisa njengamanje.",
+      "fatos": {
+        "fato1": "Sihlahla lesikhulile sitfunga, ngekulinganisa, ema-kg langu-22 CO₂ ngemnyaka — ngulesizatfu kugcwalisa tihlahla kabusha kuyindlela yimbili yekulinganisa lokukhishwa kwemoya.",
+        "fato2": "Lwandle lutfunga ngekulinganisa inkhigho yinye kwemine yeCO₂ yonkhe lekhishwa bantfu ngemnyaka wonkhe, lusebenta njengelilungisa likhulu lelilawula simo-sulwelwe lwemhlaba wonkhe.",
+        "fato3": "Kuphindze kusetjentiswa kwelitoni lelinye lemaphepha kongela tihlahla ema-17 kanye nemanti nemandla lamanyenti, uma kucatsaniswa nekukhiqizwa kwemaphepha lamasha.",
+        "fato4": "Tetfulula letihhambisa babantfu tingumtimba lebangela kulinganiso yinkhigho yinye kwemine yeCO₂ yemhlaba lehlobene nemandla — kushintja imoto ngelivigikili nome tetfulula temphakatsi emhambeni lemfishane kwenta umehluko wecinisile.",
+        "fato5": "Igceke le-Amazon likhaya lezinto letiphila eti-10% tako kwehlukahlukana kwetintfo letiphilako letatiwa emhlabeni, futsi licongza ema-billion yetoni tekhabhoni etihlahleni tako.",
+        "fato6": "Amapaneli yelilanga emakhaya angancisisa umlayeto wekhabhoni wendlu kutonitoni teCO₂ ngemnyaka, kusho kudzinga kuhlobene nendlela yemandla yasendaweni.",
+        "fato7": "Kudla inyama lebovu lencane kungancisisa kakhulu umlayeto wekhabhoni womuntfu, ngobe kufuywa kwetinkhomo kungekunye kwemisebenti yetelimo lenemkhiqizo lomnyenti wekukhishwa kwemoya.",
+        "fato8": "Kuncibilikisa kwelichaba lwelwandle le-Arctic kuncisisa amandla emhlaba wekubuyisela kukhanya kwelilanga esibhakabhakeni, kusheshisa kushisa — umphumela lowatiwa 'njengembuyiselo yealbedo'.",
+        "fato9": "Ema-LED asebentisa mandla lamancane kufikela ku-80% kunemabhalbhu akudzala, futsi ahlala sikhatsi lesidze, kungcisise kukhishwa kanye nemadoti.",
+        "fato10": "Sivumelwano se-Paris, lesayinwe matiko langaba ngu-200, sinenhloso yekunciphisa kushisa kwemhlaba ngaphansi kwa-2°C ngenhla kwamazinga langaphambi kwemisebenti yemafektri.",
+        "fato11": "Kungaba ingxenye yinye kwetintathu tekudla konkhe lokukhiqizwa emhlabeni kulahlwa — futsi loku kulahla kodvwa kukhiqiza ingxenye lebalulekile yekukhishwa kwemoya temhlaba.",
+        "fato12": "Tiphothela temoya temanje tingakhiqiza mandla lanele kunika magesi emakhaya lafikela etinkhulungwane, ngaphandle kwekukhipha CO₂ ngesikhatsi sisebenta.",
+        "fato13": "Umhlabatsi lophilile ucongza khabhoni lenyenti kunetintfo tonkhe letiphilako kanye nelisibhakabhaka kuhlangene — tendlela temasimu letivuselela tisita kugcina khabhoni emhlabatsini.",
+        "fato14": "Imifantfu yekorali, nakuba imboza ngaphansi kwa-1% yelisisekelo lwelwandle, isekela kungaba ema-25% kwimphilo yelwandle yonkhe letiwako — futsi inemtelelo kakhulu kushisa kwemanti.",
+        "fato15": "Kuncisisa kulahlwa kwemanti lashisa ekhaya (sibonelo, kugeza sikhatsi lesifishane) kuncisisa nako kukhishwa kwemoya, ngobe kushisisa emanti kusebentisa mandla.",
+        "fato16": "Timoto temagesi, nakuba kubalwa nekukhiqizwa kwelibhethri, titsandza kukhipha CO₂ lencane ngesikhatsi sako sonkhe sekuphila kunetimoto tefueli, ikakhulukati lapho magesi avela etinhlotsini letihlobile.",
+        "fato17": "Kwenta kompost yemadoti lavela etintfweni letiphilako ekhaya kuvimbela kukhishwa kwegesi lemethane etindzaweni temadoti — ligesi lelimbi kakhulu kuneCO₂ esikhatsini lesifishane.",
+        "fato18": "Ema-glacier aseGreenland kanye ne-Antarctica ndzawonye alahlekelwa, eminyakeni yakamuva, emakhulu ebhiliyoni etoni telichaba ngemnyaka, kusita ngekusheshisa kukhuphuka kwelizinga lwelwandle."
+      }
     },
     "noticias": {
       "titulo": "Tindzaba Temvelo",
@@ -138,6 +160,31 @@
       "navegacao": "Kuzulazula",
       "contato": "Luxhumano",
       "copyright": "© 2026 Carbono Consciente. Emalungelo onkhe agodliwe."
+    },
+    "planta": {
+      "aria_svg": "Sitjalo lesikhula sibe sihlahla ngokulandzela buhle bemikhuba yakho yekuhamba",
+      "carregando_placeholder": "Kulayisha sitjalo sakho...",
+      "aria_arvore": "Sihlahla. Chofota kutjala kabusha",
+      "dica_replantar": "Chofota sihlahla kutsi utjale kabusha",
+      "legenda_0": "Kutjala inhlanyelo yakho...",
+      "legenda_1": "Kuzalwe lihlumela lelincane. Luhambo lonkhe loluhlanganyela nemvelo lusita likhulise.",
+      "legenda_2": "Manje sitjalo sesiqine. Imikhuba yakho iyagxila.",
+      "legenda_3": "Sihlahla lesisha, lesigcwele macembe. Chubeka njalo!",
+      "legenda_4": "Sihlahla lesikhule kahle lesichakazile. Imikhuba yakho imangalisa!"
+    },
+    "estatisticas": {
+      "media_mundial": "liphesenthi le-CO₂ emuntfwini munye, emaveni laboniswako",
+      "maior_emissor": "sive lesikhipha kakhulu ngamunye wemuntfu: {{pais}}",
+      "menor_emissor": "sive lesikhipha kancane ngamunye wemuntfu: {{pais}}",
+      "paises_monitorados": "tive letiboniswako emhlabeni",
+      "seu_co2_semana": "CO₂ yakho kuleli vikhi",
+      "vs_media_paises": "kucatjangiswa nelisavwedji lemaviki letiveni",
+      "ranking_mundial": "indzawo yekulinganisela emkhatsini wetive {{total}}",
+      "sem_dados_suficientes": "imininingwane ingenele",
+      "fallback_co2_evitado": "CO₂ eyelekelelwako ngamunye wemsebenti lohlanganisiwe / ngenyanga",
+      "fallback_variacao_emissoes": "kukhishwa kwemoya kucatjangiswa nesikhatsi lesifanako lesidlulile umnyaka ophelile",
+      "fallback_abaixo_media_setor": "ngaphansi kwesilinganiso semkhakha, emaakhawuntu laboniswako",
+      "fallback_paises_ativos": "tive letinemanodi emininingwane lesebenta eluchungechungeni"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "akukho kugcinwe ngesikhatsi",
     "delta_primeiro_registro": "kugcinwe kwekucala ngesikhatsi",
     "delta_estavel": "kuzinzile kucabangwa nesikhatsi lesengulo",
-    "delta_variacao": "{{percentual}}% kucabangwa nesikhatsi lesengulo"
+    "delta_variacao": "{{percentual}}% kucabangwa nesikhatsi lesengulo",
+    "meios": {
+      "carro_gasolina": "Imoto (phetroli)",
+      "carro_etanol": "Imoto (ethanol)",
+      "carro_eletrico": "Imoto (yagezi)",
+      "motocicleta": "Sithuthuthu",
+      "onibus": "Bhasi",
+      "metro_trem": "Metro/Sitimela",
+      "bicicleta": "Libhayisikili",
+      "a_pe": "Ngetinyawo"
+    }
   },
   "globo": {
     "legenda_titulo": "Kukhishwa ngamunwe ngamunye",

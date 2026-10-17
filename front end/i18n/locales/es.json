@@ -7,6 +7,8 @@
     "sair_link": "cerrar sesión",
     "painel_link": "panel",
     "fechar": "Cerrar",
+    "logo_alt": "Logo de Carbono Consciente",
+    "redirecionamento_html": "Redirigiendo... <a href=\"front%20end/html/inicial.html\">haz clic aquí</a> si no se te redirige.",
     "nav": {
       "plataforma": "Plataforma",
       "impacto": "Impacto",
@@ -120,7 +122,27 @@
       "subtitulo": "¿Sabías que...?",
       "carregando": "Cargando curiosidad...",
       "proxima": "Siguiente curiosidad",
-      "erro_carregar": "No se pudieron cargar las curiosidades en este momento."
+      "erro_carregar": "No se pudieron cargar las curiosidades en este momento.",
+      "fatos": {
+        "fato1": "Un árbol adulto absorbe, en promedio, unos 22 kg de CO₂ al año; por eso la reforestación es una de las formas más directas de compensar emisiones.",
+        "fato2": "Los océanos absorben alrededor de un cuarto de todo el CO₂ que la humanidad emite cada año, actuando como un enorme regulador del clima global.",
+        "fato3": "Reciclar una tonelada de papel ahorra unos 17 árboles y una cantidad significativa de agua y energía en comparación con producir papel nuevo.",
+        "fato4": "El transporte es responsable de alrededor de un cuarto de las emisiones globales de CO₂ ligadas a la energía; cambiar el coche por la bicicleta o el transporte público en trayectos cortos marca una diferencia real.",
+        "fato5": "La Amazonía alberga alrededor del 10% de toda la biodiversidad conocida del planeta, además de almacenar miles de millones de toneladas de carbono en su vegetación.",
+        "fato6": "Los paneles solares residenciales pueden reducir la huella de carbono de un hogar en toneladas de CO₂ al año, según la matriz energética local.",
+        "fato7": "Una dieta con menos carne roja puede reducir significativamente la huella de carbono personal, ya que la ganadería bovina es una de las actividades agrícolas más intensivas en emisiones.",
+        "fato8": "El deshielo del hielo marino en el Ártico reduce la capacidad del planeta para reflejar la luz solar de vuelta al espacio, acelerando el calentamiento, un efecto conocido como retroalimentación del albedo.",
+        "fato9": "Las bombillas LED consumen hasta un 80% menos de energía que las incandescentes y duran mucho más tiempo, reduciendo tanto las emisiones como los residuos.",
+        "fato10": "El Acuerdo de París, firmado por casi 200 países, tiene como meta limitar el calentamiento global muy por debajo de 2°C por encima de los niveles preindustriales.",
+        "fato11": "Alrededor de un tercio de todo el alimento producido en el mundo se desperdicia, y ese desperdicio por sí solo genera una parte importante de las emisiones globales de gases de efecto invernadero.",
+        "fato12": "Las turbinas eólicas modernas pueden generar suficiente energía para abastecer a miles de hogares, sin emitir CO₂ durante su operación.",
+        "fato13": "El suelo sano almacena más carbono que toda la vegetación y la atmósfera juntas; las prácticas agrícolas regenerativas ayudan a mantener ese carbono en la tierra.",
+        "fato14": "Los arrecifes de coral, aunque cubren menos del 1% del fondo oceánico, sostienen alrededor del 25% de toda la vida marina conocida, y son extremadamente sensibles al calentamiento de las aguas.",
+        "fato15": "Reducir el desperdicio de agua caliente en casa (duchas más cortas, por ejemplo) también reduce emisiones, ya que calentar agua consume energía.",
+        "fato16": "Los coches eléctricos, incluso considerando la fabricación de la batería, tienden a emitir menos CO₂ a lo largo de su vida útil que los coches de combustión, especialmente donde la electricidad proviene de fuentes limpias.",
+        "fato17": "Compostar residuos orgánicos en casa evita que produzcan metano en los vertederos, un gas de efecto invernadero mucho más potente que el CO₂ a corto plazo.",
+        "fato18": "Los glaciares de Groenlandia y la Antártida pierden juntos, en años recientes, cientos de miles de millones de toneladas de hielo al año, contribuyendo directamente al aumento del nivel del mar."
+      }
     },
     "noticias": {
       "titulo": "Noticias ambientales",
@@ -138,6 +160,31 @@
       "navegacao": "Navegación",
       "contato": "Contacto",
       "copyright": "© 2026 Carbono Consciente. Todos los derechos reservados."
+    },
+    "planta": {
+      "aria_svg": "Planta que crece hasta convertirse en árbol según la salud de tus hábitos de desplazamiento",
+      "carregando_placeholder": "Cargando tu planta...",
+      "aria_arvore": "Árbol. Haz clic para plantar de nuevo",
+      "dica_replantar": "Haz clic en el árbol para plantar de nuevo",
+      "legenda_0": "Plantando tu semilla...",
+      "legenda_1": "Ha nacido un brote. Cada trayecto sostenible lo hace crecer.",
+      "legenda_2": "Ya es un plantón firme. Tus hábitos están echando raíces.",
+      "legenda_3": "Un árbol joven, lleno de hojas. ¡Sigue así!",
+      "legenda_4": "Un árbol frondoso en flor. ¡Tus hábitos son increíbles!"
+    },
+    "estatisticas": {
+      "media_mundial": "CO₂ medio por persona, entre los países monitoreados",
+      "maior_emissor": "mayor emisor per cápita: {{pais}}",
+      "menor_emissor": "menor emisor per cápita: {{pais}}",
+      "paises_monitorados": "países monitoreados en el globo",
+      "seu_co2_semana": "tu CO₂ esta semana",
+      "vs_media_paises": "comparado con la media semanal de los países",
+      "ranking_mundial": "posición estimada entre {{total}} países",
+      "sem_dados_suficientes": "sin datos suficientes",
+      "fallback_co2_evitado": "CO₂ medio evitado por operación conectada / mes",
+      "fallback_variacao_emissoes": "emisiones vs. el mismo periodo del año anterior",
+      "fallback_abaixo_media_setor": "por debajo de la media del sector, en cuentas monitoreadas",
+      "fallback_paises_ativos": "países con nodos de datos activos en la red"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "sin registros en el periodo",
     "delta_primeiro_registro": "primer registro del periodo",
     "delta_estavel": "estable frente al periodo anterior",
-    "delta_variacao": "{{percentual}}% frente al periodo anterior"
+    "delta_variacao": "{{percentual}}% frente al periodo anterior",
+    "meios": {
+      "carro_gasolina": "Coche (gasolina)",
+      "carro_etanol": "Coche (etanol)",
+      "carro_eletrico": "Coche (eléctrico)",
+      "motocicleta": "Motocicleta",
+      "onibus": "Autobús",
+      "metro_trem": "Metro/Tren",
+      "bicicleta": "Bicicleta",
+      "a_pe": "A pie"
+    }
   },
   "globo": {
     "legenda_titulo": "Emisión per cápita",

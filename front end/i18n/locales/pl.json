@@ -7,6 +7,8 @@
     "sair_link": "wyloguj się",
     "painel_link": "panel",
     "fechar": "Zamknij",
+    "logo_alt": "Logo Carbono Consciente",
+    "redirecionamento_html": "Przekierowywanie... <a href=\"front%20end/html/inicial.html\">kliknij tutaj</a>, jeśli przekierowanie nie nastąpi.",
     "nav": {
       "plataforma": "Platforma",
       "impacto": "Wpływ",
@@ -120,7 +122,27 @@
       "subtitulo": "Czy wiesz, że...?",
       "carregando": "Wczytywanie ciekawostki...",
       "proxima": "Następna ciekawostka",
-      "erro_carregar": "Nie udało się teraz wczytać ciekawostek."
+      "erro_carregar": "Nie udało się teraz wczytać ciekawostek.",
+      "fatos": {
+        "fato1": "Dorosłe drzewo absorbuje średnio około 22 kg CO₂ rocznie — dlatego ponowne zalesianie jest jednym z najbardziej bezpośrednich sposobów kompensowania emisji.",
+        "fato2": "Oceany absorbują co roku około jednej czwartej całego CO₂ emitowanego przez ludzkość, działając jako ogromny regulator globalnego klimatu.",
+        "fato3": "Recykling jednej tony papieru pozwala zaoszczędzić około 17 drzew oraz znaczną ilość wody i energii w porównaniu z produkcją nowego papieru.",
+        "fato4": "Transport odpowiada za około jedną czwartą globalnych emisji CO₂ związanych z energią — zamiana samochodu na rower lub transport publiczny na krótkich trasach daje realną różnicę.",
+        "fato5": "Amazonia jest domem dla około 10% całej znanej bioróżnorodności planety, a jej roślinność magazynuje miliardy ton węgla.",
+        "fato6": "Domowe panele słoneczne mogą zmniejszyć ślad węglowy gospodarstwa domowego o tony CO₂ rocznie, w zależności od lokalnego miksu energetycznego.",
+        "fato7": "Dieta z mniejszą ilością czerwonego mięsa może znacznie zmniejszyć osobisty ślad węglowy, ponieważ chów bydła jest jedną z najbardziej emisyjnych działalności rolniczych.",
+        "fato8": "Topnienie lodu morskiego w Arktyce zmniejsza zdolność planety do odbijania światła słonecznego z powrotem w kosmos, przyspieszając ocieplenie — efekt znany jako sprzężenie zwrotne albedo.",
+        "fato9": "Żarówki LED zużywają do 80% mniej energii niż żarówki tradycyjne i działają znacznie dłużej, ograniczając zarówno emisje, jak i odpady.",
+        "fato10": "Porozumienie paryskie, podpisane przez niemal 200 krajów, ma na celu ograniczenie globalnego ocieplenia do poziomu znacznie niższego niż 2°C powyżej poziomu przedprzemysłowego.",
+        "fato11": "Około jednej trzeciej całej żywności produkowanej na świecie jest wyrzucane — a samo to marnotrawstwo generuje znaczną część globalnych emisji gazów cieplarnianych.",
+        "fato12": "Nowoczesne turbiny wiatrowe mogą wytwarzać wystarczającą ilość energii, by zasilić tysiące domów, nie emitując CO₂ podczas pracy.",
+        "fato13": "Zdrowa gleba przechowuje więcej węgla niż cała roślinność i atmosfera razem wzięte — regeneracyjne praktyki rolnicze pomagają utrzymać ten węgiel w ziemi.",
+        "fato14": "Rafy koralowe, choć zajmują mniej niż 1% dna oceanicznego, podtrzymują około 25% całego znanego życia morskiego — i są wyjątkowo wrażliwe na ocieplenie wód.",
+        "fato15": "Ograniczenie zużycia ciepłej wody w domu (na przykład krótsze prysznice) również zmniejsza emisje, ponieważ podgrzewanie wody wymaga energii.",
+        "fato16": "Samochody elektryczne, nawet uwzględniając produkcję baterii, zwykle emitują mniej CO₂ w całym cyklu życia niż samochody spalinowe, zwłaszcza tam, gdzie energia elektryczna pochodzi z czystych źródeł.",
+        "fato17": "Kompostowanie odpadów organicznych w domu zapobiega powstawaniu metanu na wysypiskach — gazu cieplarnianego znacznie silniejszego niż CO₂ w krótkim okresie.",
+        "fato18": "Lodowce Grenlandii i Antarktydy razem tracą w ostatnich latach setki miliardów ton lodu rocznie, co bezpośrednio przyczynia się do wzrostu poziomu morza."
+      }
     },
     "noticias": {
       "titulo": "Wiadomości o środowisku",
@@ -138,6 +160,31 @@
       "navegacao": "Nawigacja",
       "contato": "Kontakt",
       "copyright": "© 2026 Carbono Consciente. Wszelkie prawa zastrzeżone."
+    },
+    "planta": {
+      "aria_svg": "Roślina, która wyrasta w drzewo w zależności od tego, jak zdrowe są twoje nawyki transportowe",
+      "carregando_placeholder": "Wczytywanie twojej rośliny...",
+      "aria_arvore": "Drzewo. Kliknij, aby zasadzić od nowa",
+      "dica_replantar": "Kliknij drzewo, aby zasadzić od nowa",
+      "legenda_0": "Sadzimy twoje nasiono...",
+      "legenda_1": "Pojawił się mały pęd. Każda ekologiczna podróż pomaga mu rosnąć.",
+      "legenda_2": "To już mocna siewka. Twoje nawyki zapuszczają korzenie.",
+      "legenda_3": "Młode drzewo pełne liści. Tak dalej!",
+      "legenda_4": "Rozłożyste, kwitnące drzewo. Twoje nawyki są niesamowite!"
+    },
+    "estatisticas": {
+      "media_mundial": "średnie CO₂ na osobę w monitorowanych krajach",
+      "maior_emissor": "największy emitent na mieszkańca: {{pais}}",
+      "menor_emissor": "najmniejszy emitent na mieszkańca: {{pais}}",
+      "paises_monitorados": "monitorowane kraje na świecie",
+      "seu_co2_semana": "twoje CO₂ w tym tygodniu",
+      "vs_media_paises": "w porównaniu ze średnią tygodniową krajów",
+      "ranking_mundial": "szacowana pozycja wśród {{total}} krajów",
+      "sem_dados_suficientes": "za mało danych",
+      "fallback_co2_evitado": "średnie uniknięte CO₂ na podłączoną operację / miesiąc",
+      "fallback_variacao_emissoes": "emisje w porównaniu z tym samym okresem poprzedniego roku",
+      "fallback_abaixo_media_setor": "poniżej średniej w branży, wśród monitorowanych kont",
+      "fallback_paises_ativos": "kraje z aktywnymi węzłami danych w sieci"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "brak wpisów w tym okresie",
     "delta_primeiro_registro": "pierwszy wpis w tym okresie",
     "delta_estavel": "stabilnie wobec poprzedniego okresu",
-    "delta_variacao": "{{percentual}}% wobec poprzedniego okresu"
+    "delta_variacao": "{{percentual}}% wobec poprzedniego okresu",
+    "meios": {
+      "carro_gasolina": "Samochód (benzyna)",
+      "carro_etanol": "Samochód (etanol)",
+      "carro_eletrico": "Samochód (elektryczny)",
+      "motocicleta": "Motocykl",
+      "onibus": "Autobus",
+      "metro_trem": "Metro/Pociąg",
+      "bicicleta": "Rower",
+      "a_pe": "Pieszo"
+    }
   },
   "globo": {
     "legenda_titulo": "Emisje na osobę",

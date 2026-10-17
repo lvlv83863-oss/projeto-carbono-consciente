@@ -7,6 +7,8 @@
     "sair_link": "log aut",
     "painel_link": "panel",
     "fechar": "Satem",
+    "logo_alt": "Loko blong Carbono Consciente",
+    "redirecionamento_html": "I stap sanemgo... <a href=\"front%20end/html/inicial.html\">klik long hia</a> sapos i no sanemgo yu.",
     "nav": {
       "plataforma": "Platform",
       "impacto": "Impak",
@@ -120,7 +122,27 @@
       "subtitulo": "Yu save finis?",
       "carregando": "Lodim gudfala infomesen...",
       "proxima": "Narafala gudfala infomesen",
-      "erro_carregar": "I no save lodim gudfala infomesen naoia."
+      "erro_carregar": "I no save lodim gudfala infomesen naoia.",
+      "fatos": {
+        "fato1": "Wan bigfala tri we i mature i save tekem raonabaot 22 kg CO₂ evri yia — dat i mekem se plantim bak trii (reforestesen) hem i wan long ol gudfala wei blong stretem doun emisen.",
+        "fato2": "Ol solwota long wol i tekem raonabaot wan kwata (1/4) blong olgeta CO₂ we man i mekem i kamaot evri yia, olsem wan bigfala masin blong kontrolim klaemet blong wol.",
+        "fato3": "Taem yu risaikolem wan ton pepa, yu sevim raonabaot 17 trii mo bigfala hamas wota mo paoa, winim taem yu mekem niufala pepa.",
+        "fato4": "Transpot i mekem raonabaot wan kwata blong olgeta emisen CO₂ long wol we i joen wetem paoa — jenisim ka wetem baesikol o pablik transpot long sot trip i mekem rili defrens.",
+        "fato5": "Amazon i stap haos blong raonabaot 10% blong olgeta kaen laef (baiodaevesiti) we man i save long wol, mo i stoarem bilian-bilian ton blong kabon insaed long ol plant blong hem.",
+        "fato6": "Solar panel long haos i save stretem doun kabon futprint blong wan haos wetem sam ton CO₂ evri yia, i dipen long kaen paoa we eria blong yu i yusum.",
+        "fato7": "Fudmoa wetem smol red mit nomo i save stretem doun kabon futprint blong wan man tumas, from we kaoa famin i wan long ol fama wok we i mekem bigfala emisen.",
+        "fato8": "Ael long Aktik we i melt i mekem se paoa blong wol blong sanwe bak lelaet blong san i go long spes i go doun, mo i mekem se wol i hot kwik — oli kolim disfala samting albedo fidbak.",
+        "fato9": "LED laet i yusum 80% les paoa winim ol olfala laet (insandesen) mo i stap longtaem moa, mo i stretem doun emisen mo rabis.",
+        "fato10": "Paris Agrimen we klosap 200 kantri i saenem, i gat gol blong holembak hot blong wol aninit long 2°C antap long level bifo indastri i stat.",
+        "fato11": "Raonabaot wan haf blong tri (1/3) blong olgeta kakae we wol i mekem i westem — mo disfala wan nomo i mekem bigfala pat blong emisen blong greenhouse gas long wol.",
+        "fato12": "Ol niufala win tarbin i save mekem inaf paoa blong givim paoa long taosen-taosen haos, wetaot we i aotem CO₂ taem i wok.",
+        "fato13": "Gudfala graon i stoarem moa kabon winim evri plant mo earskae tugeta — ol fama wok we i rijenaretiv i halpem blong holem kabon ya insaed long graon.",
+        "fato14": "Ol koral rif, nomata we i kavremap les long 1% blong botom blong solwota, i holemap raonabaot 25% blong olgeta laef long solwota we man i save — mo oli sensitiv tumas long hot blong wota.",
+        "fato15": "Stretem doun westem blong hot wota long haos (olsem, sotfala wash) i stretem doun emisen tu, from we hotim wota i yusum paoa.",
+        "fato16": "Ol elektrik ka, nomata yu kaontem taem oli mekem battery, oli save aotem les CO₂ long fulap laef blong olgeta winim ol ka we i yusum fuel, speseli sapos elektrisiti i kamaot long klin sos.",
+        "fato17": "Taem yu compostem ol rabis we i kamaot long plant mo kakae long haos, i blokem methane blong kamaot long lanfil — wan greenhouse gas we i strong moa winim CO₂ long sot taem.",
+        "fato18": "Ol aesblok blong Greenland mo Antarctica tugeta i lusum, long lastfala sam yia, handred-handred bilian ton blong aes evri yia, mo i mekem se wota blong solwota i go antap."
+      }
     },
     "noticias": {
       "titulo": "Nius blong Envaironment",
@@ -138,6 +160,31 @@
       "navegacao": "Navigesen",
       "contato": "Kontak",
       "copyright": "© 2026 Carbono Consciente. Evri raet i stap sef."
+    },
+    "planta": {
+      "aria_svg": "Plan we i gru i kam big tri folem helt blong ol fasin blong yu blong travel",
+      "carregando_placeholder": "I stap lodim plan blong yu...",
+      "aria_arvore": "Big tri. Klik blong planim bakegen",
+      "dica_replantar": "Klik long big tri blong planim bakegen",
+      "legenda_0": "I stap planim sid blong yu...",
+      "legenda_1": "Smol sut i bon. Evri gudfala trip i mekem i gru.",
+      "legenda_2": "Naoia hemi wan strong smol tri. Ol fasin blong yu i stap tekem rut.",
+      "legenda_3": "Wan yangfala tri, fulap long lif. Yu go yet olsem!",
+      "legenda_4": "Wan bigfala tri we i gat flaoa. Ol fasin blong yu i gud tumas!"
+    },
+    "estatisticas": {
+      "media_mundial": "Avres CO₂ long wan man, insaed long ol kantri we oli wajem",
+      "maior_emissor": "kantri we i mekem i bigwan tumas long wan man: {{pais}}",
+      "menor_emissor": "kantri we i mekem i smol tumas long wan man: {{pais}}",
+      "paises_monitorados": "ol kantri we oli wajem long wol",
+      "seu_co2_semana": "CO₂ blong yu long wik ia",
+      "vs_media_paises": "i kompea wetem avres blong ol kantri wan wik",
+      "ranking_mundial": "pleis we yumi gesem insaed long {{total}} kantri",
+      "sem_dados_suficientes": "i no gat inaf infomesen",
+      "fallback_co2_evitado": "avres CO₂ we i stop long wan wok we i konektem / wan manis",
+      "fallback_variacao_emissoes": "emisen i kompea wetem sem taem long las yia",
+      "fallback_abaixo_media_setor": "i stap aondanit long avres blong sekta ia, long ol akaon we oli wajem",
+      "fallback_paises_ativos": "ol kantri we oli gat nod blong infomesen we i wok yet long netwok"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "i no gat trip long taem ia",
     "delta_primeiro_registro": "fas trip long taem ia",
     "delta_estavel": "i semak wetem taem bifo",
-    "delta_variacao": "{{percentual}}% wetem taem bifo"
+    "delta_variacao": "{{percentual}}% wetem taem bifo",
+    "meios": {
+      "carro_gasolina": "Ka (benzin)",
+      "carro_etanol": "Ka (etanol)",
+      "carro_eletrico": "Ka (elektrik)",
+      "motocicleta": "Motobaek",
+      "onibus": "Bas",
+      "metro_trem": "Tren/Metro",
+      "bicicleta": "Baeskol",
+      "a_pe": "Wokbaot"
+    }
   },
   "globo": {
     "legenda_titulo": "Emisen long wan wan man",

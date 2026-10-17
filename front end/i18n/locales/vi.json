@@ -7,6 +7,8 @@
     "sair_link": "đăng xuất",
     "painel_link": "bảng điều khiển",
     "fechar": "Đóng",
+    "logo_alt": "Logo Carbono Consciente",
+    "redirecionamento_html": "Đang chuyển hướng... <a href=\"front%20end/html/inicial.html\">bấm vào đây</a> nếu bạn không được chuyển hướng.",
     "nav": {
       "plataforma": "Nền tảng",
       "impacto": "Tác động",
@@ -120,7 +122,27 @@
       "subtitulo": "Bạn có biết?",
       "carregando": "Đang tải kiến thức...",
       "proxima": "Kiến thức tiếp theo",
-      "erro_carregar": "Hiện chưa tải được phần kiến thức."
+      "erro_carregar": "Hiện chưa tải được phần kiến thức.",
+      "fatos": {
+        "fato1": "Một cây trưởng thành trung bình hấp thụ khoảng 22 kg CO₂ mỗi năm — đó là lý do tái trồng rừng là một trong những cách trực tiếp nhất để bù đắp lượng khí thải.",
+        "fato2": "Các đại dương hấp thụ khoảng một phần tư tổng lượng CO₂ mà con người thải ra mỗi năm, đóng vai trò như một bộ điều hòa khổng lồ cho khí hậu toàn cầu.",
+        "fato3": "Tái chế một tấn giấy giúp tiết kiệm khoảng 17 cây xanh cùng một lượng nước và năng lượng đáng kể so với sản xuất giấy mới.",
+        "fato4": "Giao thông chiếm khoảng một phần tư lượng khí thải CO₂ toàn cầu liên quan đến năng lượng — việc thay ô tô bằng xe đạp hoặc phương tiện công cộng cho các chuyến đi ngắn tạo ra sự khác biệt thực sự.",
+        "fato5": "Rừng Amazon là nơi cư trú của khoảng 10% toàn bộ đa dạng sinh học đã biết trên hành tinh, đồng thời lưu trữ hàng tỷ tấn carbon trong thảm thực vật của nó.",
+        "fato6": "Các tấm pin năng lượng mặt trời lắp đặt tại nhà có thể giảm lượng khí thải carbon của một hộ gia đình tới hàng tấn CO₂ mỗi năm, tùy thuộc vào cơ cấu năng lượng của địa phương.",
+        "fato7": "Một chế độ ăn ít thịt đỏ có thể giảm đáng kể lượng khí thải carbon cá nhân, vì chăn nuôi bò là một trong những hoạt động nông nghiệp phát thải nhiều nhất.",
+        "fato8": "Băng biển tan ở Bắc Cực làm giảm khả năng phản xạ ánh sáng mặt trời trở lại không gian của hành tinh, khiến sự nóng lên diễn ra nhanh hơn — hiệu ứng này được gọi là phản hồi suất phản chiếu (albedo).",
+        "fato9": "Đèn LED tiêu thụ ít hơn tới 80% năng lượng so với đèn sợi đốt và có tuổi thọ dài hơn nhiều, giúp giảm cả khí thải và rác thải.",
+        "fato10": "Hiệp định Paris, được gần 200 quốc gia ký kết, đặt mục tiêu giữ mức tăng nhiệt độ toàn cầu thấp hơn nhiều so với 2°C so với mức thời kỳ tiền công nghiệp.",
+        "fato11": "Khoảng một phần ba tổng lượng thực phẩm sản xuất trên thế giới bị lãng phí — và riêng sự lãng phí này đã tạo ra một phần đáng kể lượng khí thải nhà kính toàn cầu.",
+        "fato12": "Các turbine gió hiện đại có thể tạo ra đủ năng lượng để cung cấp cho hàng nghìn hộ gia đình mà không thải ra CO₂ trong quá trình hoạt động.",
+        "fato13": "Đất khỏe mạnh lưu trữ nhiều carbon hơn tất cả thảm thực vật và khí quyển cộng lại — các phương pháp canh tác phục hồi giúp giữ lượng carbon đó trong đất.",
+        "fato14": "Các rạn san hô, dù chỉ che phủ chưa đến 1% đáy đại dương, lại nuôi dưỡng khoảng 25% toàn bộ sinh vật biển đã biết — và vô cùng nhạy cảm với sự nóng lên của nước biển.",
+        "fato15": "Giảm lãng phí nước nóng trong nhà (ví dụ tắm trong thời gian ngắn hơn) cũng giúp giảm khí thải, vì việc làm nóng nước tiêu tốn năng lượng.",
+        "fato16": "Xe điện, ngay cả khi tính đến việc sản xuất pin, thường thải ra ít CO₂ hơn trong suốt tuổi thọ của xe so với xe động cơ đốt trong, đặc biệt ở những nơi điện được tạo ra từ các nguồn sạch.",
+        "fato17": "Ủ phân hữu cơ tại nhà giúp ngăn chúng tạo ra khí methane tại các bãi chôn lấp — một loại khí nhà kính mạnh hơn CO₂ rất nhiều trong ngắn hạn.",
+        "fato18": "Các sông băng ở Greenland và Nam Cực cùng nhau mất đi hàng trăm tỷ tấn băng mỗi năm trong những năm gần đây, trực tiếp góp phần làm mực nước biển dâng cao."
+      }
     },
     "noticias": {
       "titulo": "Tin tức môi trường",
@@ -138,6 +160,31 @@
       "navegacao": "Điều hướng",
       "contato": "Liên hệ",
       "copyright": "© 2026 Carbono Consciente. Mọi quyền được bảo lưu."
+    },
+    "planta": {
+      "aria_svg": "Cây lớn dần thành cây trưởng thành tùy theo mức độ lành mạnh của thói quen di chuyển của bạn",
+      "carregando_placeholder": "Đang tải cây của bạn...",
+      "aria_arvore": "Cây. Bấm để trồng lại",
+      "dica_replantar": "Bấm vào cây để trồng lại",
+      "legenda_0": "Đang gieo hạt của bạn...",
+      "legenda_1": "Một mầm nhỏ đã nhú lên. Mỗi chuyến đi bền vững giúp nó lớn thêm.",
+      "legenda_2": "Giờ đã là một cây con cứng cáp. Thói quen của bạn đang bén rễ.",
+      "legenda_3": "Một cây non xanh mướt lá. Cứ tiếp tục như vậy nhé!",
+      "legenda_4": "Một cây sum suê đang ra hoa. Thói quen của bạn thật tuyệt!"
+    },
+    "estatisticas": {
+      "media_mundial": "CO₂ trung bình mỗi người, trong các quốc gia được theo dõi",
+      "maior_emissor": "phát thải bình quân đầu người cao nhất: {{pais}}",
+      "menor_emissor": "phát thải bình quân đầu người thấp nhất: {{pais}}",
+      "paises_monitorados": "quốc gia được theo dõi trên toàn cầu",
+      "seu_co2_semana": "CO₂ của bạn trong tuần này",
+      "vs_media_paises": "so với mức trung bình hằng tuần của các quốc gia",
+      "ranking_mundial": "vị trí ước tính trong {{total}} quốc gia",
+      "sem_dados_suficientes": "chưa đủ dữ liệu",
+      "fallback_co2_evitado": "CO₂ trung bình tránh được trên mỗi hoạt động được kết nối / tháng",
+      "fallback_variacao_emissoes": "phát thải so với cùng kỳ năm trước",
+      "fallback_abaixo_media_setor": "dưới mức trung bình của ngành, trong các tài khoản được theo dõi",
+      "fallback_paises_ativos": "quốc gia có nút dữ liệu đang hoạt động trên mạng"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "không có bản ghi nào trong kỳ này",
     "delta_primeiro_registro": "bản ghi đầu tiên của kỳ này",
     "delta_estavel": "ổn định so với kỳ trước",
-    "delta_variacao": "{{percentual}}% so với kỳ trước"
+    "delta_variacao": "{{percentual}}% so với kỳ trước",
+    "meios": {
+      "carro_gasolina": "Ô tô (xăng)",
+      "carro_etanol": "Ô tô (ethanol)",
+      "carro_eletrico": "Ô tô (điện)",
+      "motocicleta": "Xe máy",
+      "onibus": "Xe buýt",
+      "metro_trem": "Tàu điện/Tàu hỏa",
+      "bicicleta": "Xe đạp",
+      "a_pe": "Đi bộ"
+    }
   },
   "globo": {
     "legenda_titulo": "Phát thải bình quân đầu người",

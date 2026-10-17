@@ -13,7 +13,9 @@
       "habitos": "Caadooyin",
       "contato": "Xiriir",
       "dados": "Xogta"
-    }
+    },
+    "logo_alt": "Shaxda Carbono Consciente",
+    "redirecionamento_html": "Waa lagu wareejinayaa... <a href=\"front%20end/html/inicial.html\">halkan guji</a> haddii aan lagu wareejin."
   },
   "header": {
     "idioma_aria": "Beddel luqadda",
@@ -120,7 +122,27 @@
       "subtitulo": "Ma ogtahay?",
       "carregando": "Waa la soo rarayaa xaqiiqada...",
       "proxima": "Xaqiiqada xigta",
-      "erro_carregar": "Hadda lama soo rari karo xaqiiqooyinka."
+      "erro_carregar": "Hadda lama soo rari karo xaqiiqooyinka.",
+      "fatos": {
+        "fato1": "Geed waayeel ah wuxuu si celceliska ah u nuugaa ku dhawaad 22 kg CO₂ sannadkiiba — taas awgeed dib u beeridda geedaha waa mid ka mid ah hababka ugu toosan ee lagu dheelitiro qiiqa la sii daayo.",
+        "fato2": "Badaha waxay sannad kasta ku dhawaad rubuc ka nuugaan dhammaan CO₂-da aadanuhu sii daayo, iyagoo u shaqeeya sida xakame weyn oo xakameeya cimilada caalamiga ah.",
+        "fato3": "Dib u warshadaynta tan hal oo waraaq ayaa keydisa ku dhawaad 17 geed iyo xoogaa biyo iyo tamar oo la taaban karo marka la barbar dhigo soo saarista waraaq cusub.",
+        "fato4": "Gaadiidku waa mid ka mid ah waxyaabaha keena ku dhawaad rubuc ka mid ah qiiqa CO₂ ee caalamiga ah ee la xidhiidha tamarta — u bedelidda baabuurka baaskiil ama gaadiidka dadweynaha socdaalka gaaban ayaa sameeya farqi dhab ah.",
+        "fato5": "Kaynta Amazon waxay hoy u tahay ku dhawaad 10% dhammaan kala duwanaanshaha noolaha ee la yaqaan ee adduunka, iyadoo sidoo kale ay kaydsato malyuun malyuun oo tan oo kaarboon ah ee ku jira dhirteeda.",
+        "fato6": "Gogoshaha qorraxda ee guryaha waxay dhimi karaan raadka kaarboon ee guri ku dhawaad tanka CO₂ sannadkiiba, taas oo ku xiran isku-darka tamarta maxalliga ah.",
+        "fato7": "Cunto hooseeya ee hilib cas waxay si weyn u yareyn kartaa raadka kaarboon ee shakhsiga, maadaama korinta lo'da ay tahay mid ka mid ah hawlaha beeraha ee ugu badan qiiqa.",
+        "fato8": "Dhalaalka barafka badda Arctic-ka ayaa yareynaya awoodda adduunka ee ay ku celin karto iftiinka qorraxda hawada sare, taasoo dardargeliyaysa kulaylka — saamayn loo yaqaan 'feedback-ka albedo'.",
+        "fato9": "Nalalka LED waxay isticmaalaan tamar ka yar ilaa 80% marka loo eego nalalka caadiga ah, waxayna sii socdaan muddo dheer, iyagoo yareynaya qiiqa iyo qashinka labadaba.",
+        "fato10": "Heshiiska Paris, oo ay saxiixeen ku dhawaad 200 oo waddan, wuxuu ujeeddadiisu tahay in uu xaddido kulaylka caalamiga ah si aad ugu hooseeya 2°C ee heerarka horaantii warshadaha.",
+        "fato11": "Ku dhawaad saddex meelood meel dhammaan cuntada adduunka laga soo saaro waa lagu tuuraa — tuuritaanka oo kaliya ayaa keena qayb muhiim ah oo ka mid ah qiiqa gaaska hoostagaha caalamiga ah.",
+        "fato12": "Turbiinnada dabaysha ee casriga ahi waxay soo saari karaan tamar ku filan oo u gudbisa kumanaan guri, iyadoo aan la soo dayn CO₂ inta ay shaqaynayaan.",
+        "fato13": "Carrada caafimaadka qabta waxay keydisaa kaarboon ka badan dhirta oo dhan iyo hawada isku darsan — dhaqamada beeraha soo nooleeya ayaa gacan ka geysta sii hayntaas kaarboonka carrada gudaheeda.",
+        "fato14": "Jasiiradaha koral-ka, in kasta oo ay daboolaan ka yar 1% dhulka hoose ee badda, waxay taageeraan ku dhawaad 25% noolaha badda ee la yaqaan oo dhan — waxayna aad ugu nugul yihiin kulaylka biyaha.",
+        "fato15": "Yareynta khasaaraha biyaha kulul ee guriga (tusaale ahaan, qubaysta gaaban) sidoo kale ayaa yareysa qiiqa, maadaama kululaynta biyaha ay isticmaalayso tamar.",
+        "fato16": "Baabuurta korontada, xitaa marka la tixgeliyo wax-soo-saarka batteri-ga, waxay inta badan si ka yar u sii daayaan CO₂ intii ay nool yihiin marka la barbar dhigo baabuurta shidaalka, gaar ahaan meelaha koronta ay ka timaaddo ilo nadiif ah.",
+        "fato17": "Samaynta compost-ka qashinka dabiiciga ah ee guriga ayaa ka hortagaysa in ay soo saaraan gaaska methane-ka ee meelaha qashinka — gaas hoostage oo ka xooggan CO₂ muddo gaaban.",
+        "fato18": "Barafyada Greenland iyo Antarctica waxay wadajir u lumiyaan, sannadihii dambe, boqolaal bilyan oo tan oo barafka ah sannadkiiba, taas oo si toos ah ugu sii kordhaysa heerka badda."
+      }
     },
     "noticias": {
       "titulo": "Wararka Deegaanka",
@@ -138,6 +160,31 @@
       "navegacao": "Hagista",
       "contato": "Xiriir",
       "copyright": "© 2026 Carbono Consciente. Dhammaan xuquuqda way dhowran tahay."
+    },
+    "planta": {
+      "aria_svg": "Geed yar oo u koraya geed weyn iyadoo ku xiran caafimaadka caadooyinkaaga socodka",
+      "carregando_placeholder": "Geedkaaga waa la soo rarayaa...",
+      "aria_arvore": "Geed. Guji si aad mar kale u beerato",
+      "dica_replantar": "Guji geedka si aad mar kale u beerato",
+      "legenda_0": "Abuurkaaga waa la beeranayaa...",
+      "legenda_1": "Biqil yar ayaa dhashay. Socod kasta oo waara wuxuu caawiyaa korriinkiisa.",
+      "legenda_2": "Hadda waa geed-yaro adag. Caadooyinkaagu waxay bilaabeen xidid dhigid.",
+      "legenda_3": "Geed da'yar oo caleemo buuxa. Sii wad sidaas oo kale!",
+      "legenda_4": "Geed cagaaran oo ubaxay. Caadooyinkaagu waa la yaab leeyihiin!"
+    },
+    "estatisticas": {
+      "media_mundial": "celceliska CO₂ qofkiiba, dhexdhexaadka waddammada la kormeerayo",
+      "maior_emissor": "waddanka qofka ugu badan soo saara: {{pais}}",
+      "menor_emissor": "waddanka qofka ugu yar soo saara: {{pais}}",
+      "paises_monitorados": "waddammada la kormeerayo adduunka",
+      "seu_co2_semana": "CO₂-gaaga toddobaadkan",
+      "vs_media_paises": "marka la barbardhigo celceliska toddobaadlaha ee waddammada",
+      "ranking_mundial": "darajada lagu qiyaasay ee {{total}} waddan",
+      "sem_dados_suficientes": "xog ku filan ma jirto",
+      "fallback_co2_evitado": "celceliska CO₂ laga ilaaliyay hawl kasta oo isku xirnaan / bil",
+      "fallback_variacao_emissoes": "soosaarka marka la barbardhigo isla xilligan sannadkii hore",
+      "fallback_abaixo_media_setor": "ka hooseeya celceliska qaybta, dhexdhexaadka akoonnada la kormeerayo",
+      "fallback_paises_ativos": "waddammada leh node-ka xogta firfircoon ee shabakadda"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "wax diiwaan ah muddadan kuma jiraan",
     "delta_primeiro_registro": "diiwaankii ugu horreeyay muddadan",
     "delta_estavel": "deggan marka la barbardhigo muddada hore",
-    "delta_variacao": "{{percentual}}% marka la barbardhigo muddada hore"
+    "delta_variacao": "{{percentual}}% marka la barbardhigo muddada hore",
+    "meios": {
+      "carro_gasolina": "Baabuur (shidaal)",
+      "carro_etanol": "Baabuur (ethanol)",
+      "carro_eletrico": "Baabuur (korontada)",
+      "motocicleta": "Mooto",
+      "onibus": "Bas",
+      "metro_trem": "Metro/Tareen",
+      "bicicleta": "Baaskiil",
+      "a_pe": "Lugaynta"
+    }
   },
   "globo": {
     "legenda_titulo": "Qiiqa qofkiiba",

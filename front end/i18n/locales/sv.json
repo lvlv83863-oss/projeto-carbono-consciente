@@ -13,7 +13,9 @@
       "habitos": "Vanor",
       "contato": "Kontakt",
       "dados": "Data"
-    }
+    },
+    "logo_alt": "Carbono Consciente-logotyp",
+    "redirecionamento_html": "Omdirigerar... <a href=\"front%20end/html/inicial.html\">klicka här</a> om du inte omdirigeras."
   },
   "header": {
     "idioma_aria": "Byt språk",
@@ -120,7 +122,27 @@
       "subtitulo": "Visste du det?",
       "carregando": "Laddar kuriosa...",
       "proxima": "Nästa kuriosa",
-      "erro_carregar": "Det gick inte att ladda kuriosan just nu."
+      "erro_carregar": "Det gick inte att ladda kuriosan just nu.",
+      "fatos": {
+        "fato1": "En vuxen träd absorberar i genomsnitt cirka 22 kg CO₂ per år — därför är återplantering av skog ett av de mest direkta sätten att kompensera för utsläpp.",
+        "fato2": "Haven absorberar cirka en fjärdedel av allt CO₂ som mänskligheten släpper ut varje år, och fungerar som en enorm regulator för det globala klimatet.",
+        "fato3": "Att återvinna ett ton papper sparar cirka 17 träd samt en betydande mängd vatten och energi jämfört med att producera nytt papper.",
+        "fato4": "Transporter står för cirka en fjärdedel av de globala energirelaterade CO₂-utsläppen — att byta bilen mot cykel eller kollektivtrafik på korta resor gör verklig skillnad.",
+        "fato5": "Amazonas är hem för cirka 10% av all känd biologisk mångfald på planeten, och lagrar dessutom miljarder ton kol i sin vegetation.",
+        "fato6": "Solpaneler på bostäder kan minska ett hushålls koldioxidavtryck med flera ton CO₂ per år, beroende på den lokala energimixen.",
+        "fato7": "En kost med mindre rött kött kan avsevärt minska en persons koldioxidavtryck, eftersom nötköttsproduktion är en av de mest utsläppsintensiva jordbruksaktiviteterna.",
+        "fato8": "Smältande havsis i Arktis minskar planetens förmåga att reflektera solljus tillbaka ut i rymden, vilket accelererar uppvärmningen — en effekt känd som albedo-återkoppling.",
+        "fato9": "LED-lampor förbrukar upp till 80% mindre energi än glödlampor och håller mycket längre, vilket minskar både utsläpp och avfall.",
+        "fato10": "Parisavtalet, undertecknat av nästan 200 länder, syftar till att begränsa den globala uppvärmningen till väl under 2°C över förindustriella nivåer.",
+        "fato11": "Cirka en tredjedel av all mat som produceras i världen går till spillo — och detta slöseri ensamt genererar en betydande andel av de globala växthusgasutsläppen.",
+        "fato12": "Moderna vindkraftverk kan generera nog energi för att försörja tusentals hushåll, utan att släppa ut CO₂ under drift.",
+        "fato13": "Hälsosam jord lagrar mer kol än all vegetation och atmosfären tillsammans — regenerativa jordbruksmetoder hjälper till att hålla kvar detta kol i marken.",
+        "fato14": "Korallrev, trots att de täcker mindre än 1% av havsbotten, upprätthåller cirka 25% av allt känt marint liv — och är extremt känsliga för uppvärmning av vattnet.",
+        "fato15": "Att minska slöseriet med varmvatten hemma (till exempel kortare duschar) minskar också utsläpp, eftersom uppvärmning av vatten kräver energi.",
+        "fato16": "Elbilar, även med hänsyn till batteritillverkningen, tenderar att släppa ut mindre CO₂ under sin livstid än förbränningsbilar, särskilt där elen kommer från rena källor.",
+        "fato17": "Att kompostera organiskt avfall hemma förhindrar att det bildar metan på soptippar — en växthusgas som är mycket starkare än CO₂ på kort sikt.",
+        "fato18": "Glaciärerna på Grönland och Antarktis har tillsammans under senare år förlorat hundratals miljarder ton is per år, vilket direkt bidrar till havsnivåhöjningen."
+      }
     },
     "noticias": {
       "titulo": "Miljönyheter",
@@ -138,6 +160,31 @@
       "navegacao": "Navigering",
       "contato": "Kontakt",
       "copyright": "© 2026 Carbono Consciente. Alla rättigheter förbehållna."
+    },
+    "planta": {
+      "aria_svg": "Planta som växer till ett träd beroende på hur sunda dina resvanor är",
+      "carregando_placeholder": "Laddar din planta...",
+      "aria_arvore": "Träd. Klicka för att plantera igen",
+      "dica_replantar": "Klicka på trädet för att plantera om",
+      "legenda_0": "Planterar ditt frö...",
+      "legenda_1": "En liten grodd föddes. Varje hållbar resa hjälper den att växa.",
+      "legenda_2": "Nu är det en stadig planta. Dina vanor slår rot.",
+      "legenda_3": "Ett ungt träd, fullt av löv. Fortsätt så!",
+      "legenda_4": "Ett mäktigt träd i blom. Dina vanor är fantastiska!"
+    },
+    "estatisticas": {
+      "media_mundial": "genomsnittlig CO₂ per person, bland övervakade länder",
+      "maior_emissor": "störst utsläpp per capita: {{pais}}",
+      "menor_emissor": "minst utsläpp per capita: {{pais}}",
+      "paises_monitorados": "övervakade länder i världen",
+      "seu_co2_semana": "din CO₂ denna vecka",
+      "vs_media_paises": "jämfört med ländernas veckogenomsnitt",
+      "ranking_mundial": "uppskattad placering bland {{total}} länder",
+      "sem_dados_suficientes": "inte tillräckligt med data",
+      "fallback_co2_evitado": "genomsnittlig CO₂ som undvikits per ansluten verksamhet/månad",
+      "fallback_variacao_emissoes": "utsläpp jämfört med samma period föregående år",
+      "fallback_abaixo_media_setor": "under branschgenomsnittet, bland övervakade konton",
+      "fallback_paises_ativos": "länder med aktiva datanoder i nätverket"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "inga registreringar under perioden",
     "delta_primeiro_registro": "första registreringen under perioden",
     "delta_estavel": "stabilt jämfört med föregående period",
-    "delta_variacao": "{{percentual}}% jämfört med föregående period"
+    "delta_variacao": "{{percentual}}% jämfört med föregående period",
+    "meios": {
+      "carro_gasolina": "Bil (bensin)",
+      "carro_etanol": "Bil (etanol)",
+      "carro_eletrico": "Bil (eldriven)",
+      "motocicleta": "Motorcykel",
+      "onibus": "Buss",
+      "metro_trem": "Tunnelbana/Tåg",
+      "bicicleta": "Cykel",
+      "a_pe": "Till fots"
+    }
   },
   "globo": {
     "legenda_titulo": "Utsläpp per capita",

@@ -13,7 +13,9 @@
       "habitos": "Ieradumi",
       "contato": "Kontakti",
       "dados": "Dati"
-    }
+    },
+    "logo_alt": "Carbono Consciente logotips",
+    "redirecionamento_html": "Notiek pāradresācija... <a href=\"front%20end/html/inicial.html\">noklikšķiniet šeit</a>, ja netiekat pāradresēts."
   },
   "header": {
     "idioma_aria": "Mainīt valodu",
@@ -120,7 +122,27 @@
       "subtitulo": "Vai zinājāt?",
       "carregando": "Ielādē interesantu faktu...",
       "proxima": "Nākamais interesantais fakts",
-      "erro_carregar": "Pašlaik nevar ielādēt interesantos faktus."
+      "erro_carregar": "Pašlaik nevar ielādēt interesantos faktus.",
+      "fatos": {
+        "fato1": "Pieaugušs koks gada laikā absorbē vidēji apmēram 22 kg CO₂ — tāpēc mežu atjaunošana ir viens no tiešākajiem veidiem, kā kompensēt emisijas.",
+        "fato2": "Okeāni katru gadu absorbē aptuveni ceturto daļu no visa CO₂, ko cilvēce izdala, darbojoties kā milzīgs globālā klimata regulators.",
+        "fato3": "Vienas tonnas papīra pārstrāde ietaupa apmēram 17 kokus un nozīmīgu daudzumu ūdens un enerģijas, salīdzinot ar jauna papīra ražošanu.",
+        "fato4": "Transports ir atbildīgs par aptuveni ceturto daļu no globālajām ar enerģiju saistītajām CO₂ emisijām — automašīnas apmaiņa pret velosipēdu vai sabiedrisko transportu īsos braucienos rada reālu atšķirību.",
+        "fato5": "Amazone ir mājvieta aptuveni 10% no visas zināmās bioloģiskās daudzveidības uz planētas, un tās veģetācijā tiek uzkrāti miljardi tonnu oglekļa.",
+        "fato6": "Dzīvojamo māju saules paneļi var samazināt mājsaimniecības oglekļa pēdas nospiedumu par tonnām CO₂ gadā, atkarībā no vietējā energoresursu sastāva.",
+        "fato7": "Diēta ar mazāk sarkanās gaļas var būtiski samazināt personīgo oglekļa pēdas nospiedumu, jo liellopu audzēšana ir viena no visvairāk emisiju radošajām lauksaimniecības nozarēm.",
+        "fato8": "Arktikas jūras ledus kušana samazina planētas spēju atspoguļot saules gaismu atpakaļ kosmosā, tā paātrinot sasilšanu — šo efektu pazīst kā albedo atgriezenisko saiti.",
+        "fato9": "LED spuldzes izmanto līdz 80% mazāk enerģijas nekā kvēlspuldzes un darbojas ievērojami ilgāk, samazinot gan emisijas, gan atkritumus.",
+        "fato10": "Parīzes nolīgums, ko parakstījušas gandrīz 200 valstis, izvirza mērķi ierobežot globālo sasilšanu krietni zem 2°C salīdzinot ar pirmsindustriālo laikmetu.",
+        "fato11": "Apmēram trešdaļa no visa pasaulē ražotā pārtikas tiek izšķiesta — un tikai šī izšķērdēšana rada nozīmīgu daļu no globālajām siltumnīcefekta gāzu emisijām.",
+        "fato12": "Modernas vēja turbīnas var ražot pietiekami daudz enerģijas, lai apgādātu tūkstošiem mājsaimniecību, darbības laikā neizdalot CO₂.",
+        "fato13": "Veselīga augsne uzkrāj vairāk oglekļa nekā visa veģetācija un atmosfēra kopā — reģeneratīvās lauksaimniecības prakses palīdz šo oglekli saglabāt augsnē.",
+        "fato14": "Koraļļu rifi, lai gan aizņem mazāk par 1% no okeāna dibena, uztur aptuveni 25% no visas zināmās jūras dzīvības — un ir ārkārtīgi jutīgi pret ūdeņu sasilšanu.",
+        "fato15": "Karstā ūdens izšķērdēšanas mazināšana mājās (piemēram, īsāka duša) arī samazina emisijas, jo ūdens sildīšanai nepieciešama enerģija.",
+        "fato16": "Elektromobiļi, pat ņemot vērā akumulatora ražošanu, parasti savas darbmūža laikā izdala mazāk CO₂ nekā iekšdedzes automašīnas, it īpaši, ja elektrība nāk no tīriem avotiem.",
+        "fato17": "Organisko atkritumu kompostēšana mājās novērš metāna veidošanos atkritumu izgāztuvēs — siltumnīcefekta gāze, kas īstermiņā ir daudz spēcīgāka nekā CO₂.",
+        "fato18": "Grenlandes un Antarktikas ledāji pēdējos gados kopā zaudē simtiem miljardu tonnu ledus gadā, tieši veicinot jūras līmeņa celšanos."
+      }
     },
     "noticias": {
       "titulo": "Vides ziņas",
@@ -138,6 +160,31 @@
       "navegacao": "Navigācija",
       "contato": "Kontakti",
       "copyright": "© 2026 Carbono Consciente. Visas tiesības aizsargātas."
+    },
+    "planta": {
+      "aria_svg": "Augs, kas izaug par koku atbilstoši jūsu pārvietošanās ieradumu veselībai",
+      "carregando_placeholder": "Jūsu augs tiek ielādēts...",
+      "aria_arvore": "Koks. Noklikšķiniet, lai iestādītu no jauna",
+      "dica_replantar": "Noklikšķiniet uz koka, lai iestādītu no jauna",
+      "legenda_0": "Jūs stādāt savu sēklu...",
+      "legenda_1": "Piedzimis mazs asns. Katrs ilgtspējīgs pārvietojums palīdz tam augt.",
+      "legenda_2": "Tagad tas ir stabils stādiņš. Jūsu ieradumi sakņojas.",
+      "legenda_3": "Jauns koks, pilns lapu. Turpiniet tā!",
+      "legenda_4": "Krāšņs ziedošs koks. Jūsu ieradumi ir izcili!"
+    },
+    "estatisticas": {
+      "media_mundial": "vidējais CO₂ uz vienu personu starp uzraudzītajām valstīm",
+      "maior_emissor": "lielākais emitētājs uz iedzīvotāju: {{pais}}",
+      "menor_emissor": "mazākais emitētājs uz iedzīvotāju: {{pais}}",
+      "paises_monitorados": "uzraudzītās valstis pasaulē",
+      "seu_co2_semana": "jūsu CO₂ šonedēļ",
+      "vs_media_paises": "salīdzinājumā ar valstu nedēļas vidējo rādītāju",
+      "ranking_mundial": "aplēstā vieta starp {{total}} valstīm",
+      "sem_dados_suficientes": "nav pietiekami daudz datu",
+      "fallback_co2_evitado": "vidēji novērstais CO₂ uz pieslēgtu darbību / mēnesī",
+      "fallback_variacao_emissoes": "emisijas salīdzinājumā ar tādu pašu periodu iepriekšējā gadā",
+      "fallback_abaixo_media_setor": "zemāks par nozares vidējo rādītāju, uzraudzītajos kontos",
+      "fallback_paises_ativos": "valstis ar aktīviem datu mezgliem tīklā"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "šajā periodā nav ierakstu",
     "delta_primeiro_registro": "pirmais ieraksts šajā periodā",
     "delta_estavel": "stabils salīdzinot ar iepriekšējo periodu",
-    "delta_variacao": "{{percentual}}% salīdzinot ar iepriekšējo periodu"
+    "delta_variacao": "{{percentual}}% salīdzinot ar iepriekšējo periodu",
+    "meios": {
+      "carro_gasolina": "Automašīna (benzīns)",
+      "carro_etanol": "Automašīna (etanols)",
+      "carro_eletrico": "Automašīna (elektriskā)",
+      "motocicleta": "Motocikls",
+      "onibus": "Autobuss",
+      "metro_trem": "Metro/Vilciens",
+      "bicicleta": "Velosipēds",
+      "a_pe": "Kājām"
+    }
   },
   "globo": {
     "legenda_titulo": "Emisijas uz vienu iedzīvotāju",

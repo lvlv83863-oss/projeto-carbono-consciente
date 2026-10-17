@@ -7,6 +7,8 @@
     "sair_link": "abmelden",
     "painel_link": "Dashboard",
     "fechar": "Schließen",
+    "logo_alt": "Carbono-Consciente-Logo",
+    "redirecionamento_html": "Weiterleitung... <a href=\"front%20end/html/inicial.html\">hier klicken</a>, falls du nicht weitergeleitet wirst.",
     "nav": {
       "plataforma": "Plattform",
       "impacto": "Wirkung",
@@ -120,7 +122,27 @@
       "subtitulo": "Wusstest du?",
       "carregando": "Wissenswertes wird geladen ...",
       "proxima": "Nächster Fakt",
-      "erro_carregar": "Wissenswertes konnte gerade nicht geladen werden."
+      "erro_carregar": "Wissenswertes konnte gerade nicht geladen werden.",
+      "fatos": {
+        "fato1": "Ein ausgewachsener Baum absorbiert im Durchschnitt etwa 22 kg CO₂ pro Jahr — deshalb ist Wiederaufforstung eine der direktesten Möglichkeiten, Emissionen auszugleichen.",
+        "fato2": "Die Ozeane absorbieren jährlich etwa ein Viertel des gesamten von der Menschheit ausgestoßenen CO₂ und wirken damit als riesiger Regulator des globalen Klimas.",
+        "fato3": "Das Recycling einer Tonne Papier spart etwa 17 Bäume sowie eine erhebliche Menge Wasser und Energie im Vergleich zur Herstellung neuen Papiers.",
+        "fato4": "Der Verkehr ist für etwa ein Viertel der globalen energiebedingten CO₂-Emissionen verantwortlich — das Auto auf kurzen Strecken durch das Fahrrad oder öffentliche Verkehrsmittel zu ersetzen, macht einen echten Unterschied.",
+        "fato5": "Der Amazonas beherbergt etwa 10% der gesamten bekannten Biodiversität des Planeten und speichert zudem Milliarden Tonnen Kohlenstoff in seiner Vegetation.",
+        "fato6": "Solaranlagen auf Wohnhäusern können den CO₂-Fußabdruck eines Haushalts je nach lokalem Energiemix um Tonnen CO₂ pro Jahr senken.",
+        "fato7": "Eine Ernährung mit weniger rotem Fleisch kann den persönlichen CO₂-Fußabdruck erheblich senken, da die Rinderhaltung eine der emissionsintensivsten landwirtschaftlichen Tätigkeiten ist.",
+        "fato8": "Das Schmelzen des arktischen Meereises verringert die Fähigkeit des Planeten, Sonnenlicht zurück ins All zu reflektieren, und beschleunigt so die Erwärmung — ein Effekt, der als Albedo-Rückkopplung bekannt ist.",
+        "fato9": "LED-Lampen verbrauchen bis zu 80% weniger Energie als Glühlampen und halten deutlich länger, wodurch sowohl Emissionen als auch Abfall reduziert werden.",
+        "fato10": "Das von fast 200 Ländern unterzeichnete Pariser Abkommen hat das Ziel, die globale Erwärmung auf deutlich unter 2°C über dem vorindustriellen Niveau zu begrenzen.",
+        "fato11": "Etwa ein Drittel aller weltweit produzierten Lebensmittel wird verschwendet — und allein diese Verschwendung verursacht einen erheblichen Anteil der globalen Treibhausgasemissionen.",
+        "fato12": "Moderne Windturbinen können genug Energie erzeugen, um Tausende von Haushalten zu versorgen, ohne während des Betriebs CO₂ auszustoßen.",
+        "fato13": "Gesunder Boden speichert mehr Kohlenstoff als die gesamte Vegetation und die Atmosphäre zusammen — regenerative Landwirtschaft hilft dabei, diesen Kohlenstoff im Boden zu halten.",
+        "fato14": "Korallenriffe bedecken weniger als 1% des Meeresbodens, beherbergen aber etwa 25% des gesamten bekannten Meereslebens — und sind extrem empfindlich gegenüber der Erwärmung der Gewässer.",
+        "fato15": "Weniger Warmwasserverbrauch im Haushalt (zum Beispiel kürzeres Duschen) senkt ebenfalls die Emissionen, da das Erwärmen von Wasser Energie verbraucht.",
+        "fato16": "Elektroautos stoßen über ihre gesamte Lebensdauer betrachtet, selbst unter Berücksichtigung der Batterieherstellung, tendenziell weniger CO₂ aus als Verbrenner — besonders dort, wo der Strom aus sauberen Quellen stammt.",
+        "fato17": "Das Kompostieren organischer Abfälle im Haushalt verhindert, dass diese auf Deponien Methan erzeugen — ein Treibhausgas, das kurzfristig weit stärker wirkt als CO₂.",
+        "fato18": "Die Gletscher Grönlands und der Antarktis verlieren zusammen in den letzten Jahren jährlich Hunderte von Milliarden Tonnen Eis, was direkt zum Anstieg des Meeresspiegels beiträgt."
+      }
     },
     "noticias": {
       "titulo": "Umweltnachrichten",
@@ -138,6 +160,31 @@
       "navegacao": "Navigation",
       "contato": "Kontakt",
       "copyright": "© 2026 Carbono Consciente. Alle Rechte vorbehalten."
+    },
+    "planta": {
+      "aria_svg": "Pflanze, die je nach Gesundheit deiner Mobilitätsgewohnheiten zu einem Baum wächst",
+      "carregando_placeholder": "Deine Pflanze wird geladen...",
+      "aria_arvore": "Baum. Klicke, um neu zu pflanzen",
+      "dica_replantar": "Klicke auf den Baum, um neu zu pflanzen",
+      "legenda_0": "Dein Samen wird gepflanzt...",
+      "legenda_1": "Ein kleiner Sprössling ist entstanden. Jeder nachhaltige Weg lässt ihn wachsen.",
+      "legenda_2": "Schon ein kräftiger Setzling. Deine Gewohnheiten schlagen Wurzeln.",
+      "legenda_3": "Ein junger Baum voller Blätter. Weiter so!",
+      "legenda_4": "Ein üppiger Baum in Blüte. Deine Gewohnheiten sind fantastisch!"
+    },
+    "estatisticas": {
+      "media_mundial": "durchschnittliches CO₂ pro Person in den beobachteten Ländern",
+      "maior_emissor": "höchster Pro-Kopf-Emittent: {{pais}}",
+      "menor_emissor": "niedrigster Pro-Kopf-Emittent: {{pais}}",
+      "paises_monitorados": "beobachtete Länder auf dem Globus",
+      "seu_co2_semana": "dein CO₂ in dieser Woche",
+      "vs_media_paises": "im Vergleich zum Wochendurchschnitt der Länder",
+      "ranking_mundial": "geschätzte Position unter {{total}} Ländern",
+      "sem_dados_suficientes": "nicht genügend Daten",
+      "fallback_co2_evitado": "durchschnittlich vermiedenes CO₂ pro angebundenem Betrieb / Monat",
+      "fallback_variacao_emissoes": "Emissionen im Vergleich zum gleichen Zeitraum des Vorjahres",
+      "fallback_abaixo_media_setor": "unter dem Branchendurchschnitt, bei beobachteten Konten",
+      "fallback_paises_ativos": "Länder mit aktiven Datenknoten im Netzwerk"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "keine Einträge im Zeitraum",
     "delta_primeiro_registro": "erster Eintrag im Zeitraum",
     "delta_estavel": "stabil gegenüber dem Vorzeitraum",
-    "delta_variacao": "{{percentual}} % gegenüber dem Vorzeitraum"
+    "delta_variacao": "{{percentual}} % gegenüber dem Vorzeitraum",
+    "meios": {
+      "carro_gasolina": "Auto (Benzin)",
+      "carro_etanol": "Auto (Ethanol)",
+      "carro_eletrico": "Auto (elektrisch)",
+      "motocicleta": "Motorrad",
+      "onibus": "Bus",
+      "metro_trem": "U-Bahn/Zug",
+      "bicicleta": "Fahrrad",
+      "a_pe": "Zu Fuß"
+    }
   },
   "globo": {
     "legenda_titulo": "Emissionen pro Kopf",

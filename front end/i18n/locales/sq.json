@@ -13,7 +13,9 @@
       "habitos": "Zakonet",
       "contato": "Kontakti",
       "dados": "Të dhënat"
-    }
+    },
+    "logo_alt": "Logoja Carbono Consciente",
+    "redirecionamento_html": "Duke ridrejtuar... <a href=\"front%20end/html/inicial.html\">klikoni këtu</a> nëse nuk ridrejtoheni."
   },
   "header": {
     "idioma_aria": "Ndrysho gjuhën",
@@ -120,7 +122,27 @@
       "subtitulo": "A e dinit?",
       "carregando": "Duke ngarkuar kuriozitetin...",
       "proxima": "Kuriozitet tjetër",
-      "erro_carregar": "Nuk u arrit të ngarkoheshin kuriozitetet tani."
+      "erro_carregar": "Nuk u arrit të ngarkoheshin kuriozitetet tani.",
+      "fatos": {
+        "fato1": "Një pemë e rritur përthith, mesatarisht, rreth 22 kg CO₂ në vit — kjo është arsyeja pse ripyllëzimi është një nga mënyrat më të drejtpërdrejta për të kompensuar emetimet.",
+        "fato2": "Oqeanet përthithin rreth një të katërtën e të gjithë CO₂-së që njerëzimi emeton çdo vit, duke funksionuar si një rregullator i madh i klimës globale.",
+        "fato3": "Riciklimi i një toni letre kursen rreth 17 pemë dhe një sasi të konsiderueshme uji dhe energjie, krahasuar me prodhimin e letrës së re.",
+        "fato4": "Transporti është përgjegjës për rreth një të katërtën e emetimeve globale të CO₂ të lidhura me energjinë — zëvendësimi i makinës me biçikletën ose transportin publik në udhëtime të shkurtra bën një ndryshim real.",
+        "fato5": "Amazona është shtëpia e rreth 10% të gjithë biodiversitetit të njohur të planetit, përveç që ruan miliarda tonë karbon në vegjetacionin e saj.",
+        "fato6": "Panelet diellore shtëpiake mund të ulin gjurmën e karbonit të një familjeje me tonë CO₂ në vit, në varësi të kombinimit lokal të energjisë.",
+        "fato7": "Një dietë me më pak mish të kuq mund të ulë ndjeshëm gjurmën e karbonit personale, pasi rritja e gjedhëve është një nga aktivitetet bujqësore me intensitetin më të lartë të emetimeve.",
+        "fato8": "Shkrirja e akullit detar arktik ul aftësinë e planetit për të reflektuar dritën e diellit përsëri në hapësirë, duke përshpejtuar ngrohjen — një efekt i njohur si reagimi i albedos.",
+        "fato9": "Llambat LED konsumojnë deri në 80% më pak energji se llambat me incandeshencë dhe zgjasin shumë më gjatë, duke ulur si emetimet ashtu edhe mbeturinat.",
+        "fato10": "Marrëveshja e Parisit, e nënshkruar nga gati 200 vende, ka si synim kufizimin e ngrohjes globale dukshëm poshtë 2°C mbi nivelet para-industriale.",
+        "fato11": "Rreth një e treta e të gjithë ushqimit të prodhuar në botë shkon dëm — dhe vetëm kjo humbje gjeneron një pjesë të rëndësishme të emetimeve globale të gazeve serrë.",
+        "fato12": "Turbinat moderne të erës mund të gjenerojnë energji të mjaftueshme për të furnizuar mijëra shtëpi, pa emetuar CO₂ gjatë funksionimit.",
+        "fato13": "Toka e shëndetshme ruan më shumë karbon sesa i gjithë vegjetacioni dhe atmosfera të bashkuar — praktikat bujqësore rigjeneruese ndihmojnë në mbajtjen e këtij karboni në tokë.",
+        "fato14": "Shkëmbet koralore, megjithëse mbulojnë më pak se 1% të fundit të oqeanit, mbështesin rreth 25% të të gjithë jetës detare të njohur — dhe janë jashtëzakonisht të ndjeshme ndaj ngrohjes së ujërave.",
+        "fato15": "Reduktimi i humbjes së ujit të ngrohtë në shtëpi (dush më të shkurtër, për shembull) gjithashtu ul emetimet, pasi ngrohja e ujit konsumon energji.",
+        "fato16": "Makinat elektrike, edhe duke marrë në konsideratë prodhimin e baterisë, tendojnë të emetojnë më pak CO₂ gjatë gjithë jetës së tyre sesa makinat me djegie, veçanërisht atje ku energjia elektrike vjen nga burime të pastra.",
+        "fato17": "Kompostimi i mbeturinave organike në shtëpi parandalon prodhimin e metanit në landfille — një gaz serrë shumë më i fuqishëm se CO₂ në afat të shkurtër.",
+        "fato18": "Akullnajat e Groenlandës dhe Antarktikës bashkë humbasin, në vitet e fundit, qindra miliarda tonë akull në vit, duke kontribuar drejtpërdrejt në rritjen e nivelit të detit."
+      }
     },
     "noticias": {
       "titulo": "Lajme Mjedisore",
@@ -138,6 +160,31 @@
       "navegacao": "Navigimi",
       "contato": "Kontakti",
       "copyright": "© 2026 Carbono Consciente. Të gjitha të drejtat e rezervuara."
+    },
+    "planta": {
+      "aria_svg": "Bimë që rritet në pemë sipas shëndetit të zakoneve tuaja të lëvizjes",
+      "carregando_placeholder": "Duke ngarkuar bimën tuaj...",
+      "aria_arvore": "Pemë. Klikoni për ta mbjellë përsëri",
+      "dica_replantar": "Klikoni mbi pemë për ta mbjellë përsëri",
+      "legenda_0": "Duke mbjellë farën tuaj...",
+      "legenda_1": "Lindi një fidan i vogël. Çdo udhëtim i qëndrueshëm e ndihmon të rritet.",
+      "legenda_2": "Tani është një fidan i fortë. Zakonet tuaja po zënë rrënjë.",
+      "legenda_3": "Një pemë e re, plot gjethe. Vazhdoni kështu!",
+      "legenda_4": "Një pemë e harlisur në lulëzim. Zakonet tuaja janë të mahnitshme!"
+    },
+    "estatisticas": {
+      "media_mundial": "CO₂ mesatar për person, mes vendeve të monitoruara",
+      "maior_emissor": "emetuesi më i madh për kokë banori: {{pais}}",
+      "menor_emissor": "emetuesi më i vogël për kokë banori: {{pais}}",
+      "paises_monitorados": "vende të monitoruara në glob",
+      "seu_co2_semana": "CO₂ juaj kjo javë",
+      "vs_media_paises": "krahasuar me mesataren javore të vendeve",
+      "ranking_mundial": "renditja e vlerësuar mes {{total}} vendeve",
+      "sem_dados_suficientes": "të dhëna të pamjaftueshme",
+      "fallback_co2_evitado": "CO₂ mesatar i shmangur për operacion të lidhur / muaj",
+      "fallback_variacao_emissoes": "emetimet në krahasim me të njëjtën periudhë të vitit të kaluar",
+      "fallback_abaixo_media_setor": "nën mesataren e sektorit, mes llogarive të monitoruara",
+      "fallback_paises_ativos": "vende me nyje të dhënash aktive në rrjet"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "pa regjistrime në këtë periudhë",
     "delta_primeiro_registro": "regjistrimi i parë në këtë periudhë",
     "delta_estavel": "i qëndrueshëm krahasuar me periudhën e mëparshme",
-    "delta_variacao": "{{percentual}}% krahasuar me periudhën e mëparshme"
+    "delta_variacao": "{{percentual}}% krahasuar me periudhën e mëparshme",
+    "meios": {
+      "carro_gasolina": "Makinë (benzinë)",
+      "carro_etanol": "Makinë (etanol)",
+      "carro_eletrico": "Makinë (elektrike)",
+      "motocicleta": "Motoçikletë",
+      "onibus": "Autobus",
+      "metro_trem": "Metro/Tren",
+      "bicicleta": "Biçikletë",
+      "a_pe": "Në këmbë"
+    }
   },
   "globo": {
     "legenda_titulo": "Emetimet për frymë",

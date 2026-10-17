@@ -7,6 +7,8 @@
     "sair_link": "退出",
     "painel_link": "仪表盘",
     "fechar": "关闭",
+    "logo_alt": "Carbono Consciente 标识",
+    "redirecionamento_html": "正在跳转…… 如果没有自动跳转，请<a href=\"front%20end/html/inicial.html\">点击这里</a>。",
     "nav": {
       "plataforma": "平台",
       "impacto": "影响",
@@ -120,7 +122,27 @@
       "subtitulo": "你知道吗？",
       "carregando": "正在加载小知识...",
       "proxima": "下一条小知识",
-      "erro_carregar": "暂时无法加载小知识。"
+      "erro_carregar": "暂时无法加载小知识。",
+      "fatos": {
+        "fato1": "一棵成年树木平均每年吸收约 22 千克的 CO₂——这正是植树造林成为抵消碳排放最直接方式之一的原因。",
+        "fato2": "海洋每年吸收人类排放的 CO₂ 总量的约四分之一,充当着调节全球气候的巨大调节器。",
+        "fato3": "回收一吨纸张可节省约 17 棵树,以及比生产新纸张所需更多的水和能源。",
+        "fato4": "交通运输约占全球与能源相关的 CO₂ 排放的四分之一——在短途出行中以自行车或公共交通代替汽车能带来真正的改变。",
+        "fato5": "亚马逊雨林拥有地球已知生物多样性的约 10%,其植被还储存着数十亿吨碳。",
+        "fato6": "住宅太阳能板每年可为家庭减少数吨 CO₂ 的碳足迹,具体取决于当地的能源结构。",
+        "fato7": "减少红肉摄入的饮食方式可以显著降低个人碳足迹,因为养牛业是碳排放最密集的农业活动之一。",
+        "fato8": "北极海冰融化会降低地球将阳光反射回太空的能力,从而加速变暖——这种效应被称为反照率反馈。",
+        "fato9": "LED 灯泡比白炽灯泡省电多达 80%,使用寿命也更长,同时减少了排放和废弃物。",
+        "fato10": "近 200 个国家签署的《巴黎协定》,目标是将全球变暖幅度限制在远低于工业化前水平 2°C 以内。",
+        "fato11": "全球生产的食物中约有三分之一被浪费——仅这部分浪费就产生了全球温室气体排放中相当可观的一部分。",
+        "fato12": "现代风力发电机产生的能源足以供应数千个家庭使用,运行过程中不排放 CO₂。",
+        "fato13": "健康的土壤储存的碳比所有植被和大气加起来还多——再生农业的做法有助于把碳留在土壤中。",
+        "fato14": "珊瑚礁覆盖的海床面积不到 1%,却支撑着已知海洋生物约 25% 的多样性——并且对海水变暖极为敏感。",
+        "fato15": "减少家中热水的浪费(例如缩短淋浴时间)也能减少排放,因为加热水需要消耗能源。",
+        "fato16": "即使算上电池制造的影响,电动汽车在整个使用周期内排放的 CO₂ 往往也比燃油车少,尤其是在电力来自清洁能源的地区。",
+        "fato17": "在家堆肥有机垃圾可以避免它们在垃圾填埋场中产生甲烷——这是一种在短期内比 CO₂ 威力大得多的温室气体。",
+        "fato18": "格陵兰岛和南极洲的冰川近年来每年合计损失数千亿吨冰量,直接导致海平面上升。"
+      }
     },
     "noticias": {
       "titulo": "环境新闻",
@@ -138,6 +160,31 @@
       "navegacao": "导航",
       "contato": "联系",
       "copyright": "© 2026 Carbono Consciente. 保留所有权利。"
+    },
+    "planta": {
+      "aria_svg": "根据你出行习惯的健康程度，从小苗长成大树的植物",
+      "carregando_placeholder": "正在加载你的植物……",
+      "aria_arvore": "树。点击可重新种植",
+      "dica_replantar": "点击树即可重新种植",
+      "legenda_0": "正在种下你的种子……",
+      "legenda_1": "一棵小芽发出来了。每一次低碳出行都会让它长大。",
+      "legenda_2": "已经是一棵结实的小树苗了。你的习惯正在扎根。",
+      "legenda_3": "一棵枝叶繁茂的小树。继续保持！",
+      "legenda_4": "一棵开花的参天大树。你的习惯太棒了！"
+    },
+    "estatisticas": {
+      "media_mundial": "受监测国家的人均 CO₂ 平均值",
+      "maior_emissor": "人均排放最高：{{pais}}",
+      "menor_emissor": "人均排放最低：{{pais}}",
+      "paises_monitorados": "全球受监测的国家数",
+      "seu_co2_semana": "你本周的 CO₂",
+      "vs_media_paises": "与各国周平均值相比",
+      "ranking_mundial": "在 {{total}} 个国家中的估计排名",
+      "sem_dados_suficientes": "数据不足",
+      "fallback_co2_evitado": "每个已接入运营每月平均减少的 CO₂",
+      "fallback_variacao_emissoes": "排放量与去年同期相比",
+      "fallback_abaixo_media_setor": "在受监测账户中低于行业平均水平",
+      "fallback_paises_ativos": "网络中拥有活跃数据节点的国家"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "该时段没有记录",
     "delta_primeiro_registro": "该时段的第一条记录",
     "delta_estavel": "与上一时段持平",
-    "delta_variacao": "{{percentual}}% 对比上一时段"
+    "delta_variacao": "{{percentual}}% 对比上一时段",
+    "meios": {
+      "carro_gasolina": "汽车（汽油）",
+      "carro_etanol": "汽车（乙醇）",
+      "carro_eletrico": "汽车（电动）",
+      "motocicleta": "摩托车",
+      "onibus": "公交车",
+      "metro_trem": "地铁/火车",
+      "bicicleta": "自行车",
+      "a_pe": "步行"
+    }
   },
   "globo": {
     "legenda_titulo": "人均排放",

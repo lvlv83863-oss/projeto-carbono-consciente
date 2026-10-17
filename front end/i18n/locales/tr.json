@@ -7,6 +7,8 @@
     "sair_link": "çıkış yap",
     "painel_link": "panel",
     "fechar": "Kapat",
+    "logo_alt": "Carbono Consciente logosu",
+    "redirecionamento_html": "Yönlendiriliyor... Yönlendirilmezseniz <a href=\"front%20end/html/inicial.html\">buraya tıklayın</a>.",
     "nav": {
       "plataforma": "Platform",
       "impacto": "Etki",
@@ -120,7 +122,27 @@
       "subtitulo": "Biliyor muydunuz?",
       "carregando": "İlginç bilgi yükleniyor...",
       "proxima": "Sonraki bilgi",
-      "erro_carregar": "İlginç bilgiler şu anda yüklenemedi."
+      "erro_carregar": "İlginç bilgiler şu anda yüklenemedi.",
+      "fatos": {
+        "fato1": "Yetişkin bir ağaç ortalama olarak her yıl yaklaşık 22 kg CO₂ emer — bu yüzden ağaçlandırma, emisyonları dengelemenin en doğrudan yollarından biridir.",
+        "fato2": "Okyanuslar, insanlığın her yıl saldığı toplam CO₂'nin yaklaşık dörtte birini emerek küresel iklimin devasa bir düzenleyicisi gibi işlev görür.",
+        "fato3": "Bir ton kağıdı geri dönüştürmek, yeni kağıt üretimine kıyasla yaklaşık 17 ağacı ve önemli miktarda su ile enerjiyi korur.",
+        "fato4": "Ulaşım, enerjiyle ilişkili küresel CO₂ emisyonlarının yaklaşık dörtte birinden sorumludur — kısa mesafelerde arabayı bisiklet veya toplu taşımayla değiştirmek gerçek bir fark yaratır.",
+        "fato5": "Amazon, gezegendeki bilinen tüm biyoçeşitliliğin yaklaşık %10'una ev sahipliği yapar ve bitki örtüsünde milyarlarca ton karbon depolar.",
+        "fato6": "Evlere kurulan güneş panelleri, yerel enerji karışımına bağlı olarak bir hanenin karbon ayak izini yılda tonlarca CO₂ kadar azaltabilir.",
+        "fato7": "Daha az kırmızı et içeren bir beslenme düzeni, kişisel karbon ayak izini önemli ölçüde azaltabilir, çünkü sığır yetiştiriciliği en fazla emisyon üreten tarımsal faaliyetlerden biridir.",
+        "fato8": "Arktik'teki deniz buzunun erimesi, gezegenin güneş ışığını uzaya geri yansıtma kapasitesini azaltarak ısınmayı hızlandırır — bu etki albedo geri besleme olarak bilinir.",
+        "fato9": "LED ampuller, akkor ampullere kıyasla %80'e kadar daha az enerji tüketir ve çok daha uzun ömürlüdür; böylece hem emisyonları hem de atıkları azaltır.",
+        "fato10": "Neredeyse 200 ülke tarafından imzalanan Paris Anlaşması, küresel ısınmayı sanayi öncesi seviyelerin 2°C üzerinin çok altında tutmayı hedefler.",
+        "fato11": "Dünyada üretilen tüm gıdanın yaklaşık üçte biri çöpe gitmektedir — ve bu tek başına israf, küresel sera gazı emisyonlarının önemli bir bölümünü oluşturur.",
+        "fato12": "Modern rüzgâr türbinleri, çalışma sırasında CO₂ salmadan binlerce evi besleyecek kadar enerji üretebilir.",
+        "fato13": "Sağlıklı toprak, tüm bitki örtüsü ve atmosferin toplamından daha fazla karbon depolar — rejeneratif tarım uygulamaları bu karbonun toprakta kalmasına yardımcı olur.",
+        "fato14": "Mercan resifleri, okyanus tabanının %1'inden azını kaplamasına rağmen, bilinen tüm deniz canlılarının yaklaşık %25'ini barındırır — ve suların ısınmasına son derece hassastır.",
+        "fato15": "Evde sıcak su israfını azaltmak (örneğin daha kısa duşlar almak) da emisyonları düşürür, çünkü suyu ısıtmak enerji gerektirir.",
+        "fato16": "Elektrikli arabalar, pil üretimi hesaba katılsa bile, kullanım ömrü boyunca içten yanmalı arabalardan genellikle daha az CO₂ salar; özellikle elektriğin temiz kaynaklardan geldiği yerlerde bu fark daha büyüktür.",
+        "fato17": "Evde organik atıkları kompostlamak, bunların çöp sahalarında metan üretmesini önler — metan, kısa vadede CO₂'den çok daha güçlü bir sera gazıdır.",
+        "fato18": "Grönland ve Antarktika'daki buzullar son yıllarda birlikte her yıl yüzlerce milyar ton buz kaybediyor ve bu doğrudan deniz seviyesinin yükselmesine katkıda bulunuyor."
+      }
     },
     "noticias": {
       "titulo": "Çevre Haberleri",
@@ -138,6 +160,31 @@
       "navegacao": "Gezinme",
       "contato": "İletişim",
       "copyright": "© 2026 Carbono Consciente. Tüm hakları saklıdır."
+    },
+    "planta": {
+      "aria_svg": "Ulaşım alışkanlıklarınızın sağlığına göre büyüyüp ağaca dönüşen bitki",
+      "carregando_placeholder": "Bitkiniz yükleniyor...",
+      "aria_arvore": "Ağaç. Yeniden dikmek için tıklayın",
+      "dica_replantar": "Yeniden dikmek için ağaca tıklayın",
+      "legenda_0": "Tohumunuz ekiliyor...",
+      "legenda_1": "Küçük bir filiz çıktı. Her sürdürülebilir yolculuk onu büyütüyor.",
+      "legenda_2": "Artık sağlam bir fidan. Alışkanlıklarınız kök salıyor.",
+      "legenda_3": "Yapraklarla dolu genç bir ağaç. Böyle devam!",
+      "legenda_4": "Çiçek açmış gür bir ağaç. Alışkanlıklarınız harika!"
+    },
+    "estatisticas": {
+      "media_mundial": "izlenen ülkeler arasında kişi başı ortalama CO₂",
+      "maior_emissor": "kişi başı en yüksek emisyon: {{pais}}",
+      "menor_emissor": "kişi başı en düşük emisyon: {{pais}}",
+      "paises_monitorados": "dünya genelinde izlenen ülke",
+      "seu_co2_semana": "bu haftaki CO₂ miktarınız",
+      "vs_media_paises": "ülkelerin haftalık ortalamasıyla karşılaştırıldığında",
+      "ranking_mundial": "{{total}} ülke arasında tahmini sıra",
+      "sem_dados_suficientes": "yeterli veri yok",
+      "fallback_co2_evitado": "bağlı operasyon başına aylık ortalama önlenen CO₂",
+      "fallback_variacao_emissoes": "geçen yılın aynı dönemine kıyasla emisyonlar",
+      "fallback_abaixo_media_setor": "izlenen hesaplarda, sektör ortalamasının altında",
+      "fallback_paises_ativos": "ağda etkin veri düğümü bulunan ülkeler"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "bu dönemde kayıt yok",
     "delta_primeiro_registro": "bu dönemin ilk kaydı",
     "delta_estavel": "önceki döneme göre sabit",
-    "delta_variacao": "önceki döneme göre %{{percentual}}"
+    "delta_variacao": "önceki döneme göre %{{percentual}}",
+    "meios": {
+      "carro_gasolina": "Araba (benzin)",
+      "carro_etanol": "Araba (etanol)",
+      "carro_eletrico": "Araba (elektrikli)",
+      "motocicleta": "Motosiklet",
+      "onibus": "Otobüs",
+      "metro_trem": "Metro/Tren",
+      "bicicleta": "Bisiklet",
+      "a_pe": "Yürüyerek"
+    }
   },
   "globo": {
     "legenda_titulo": "Kişi başı emisyon",

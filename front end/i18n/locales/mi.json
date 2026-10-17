@@ -13,7 +13,9 @@
       "habitos": "Tikanga",
       "contato": "Whakapā",
       "dados": "Raraunga"
-    }
+    },
+    "logo_alt": "Waitohu Carbono Consciente",
+    "redirecionamento_html": "Me ārahi anō... <a href=\"front%20end/html/inicial.html\">pāwhiritia i konei</a> mēnā kāore koe e ārahina."
   },
   "header": {
     "idioma_aria": "Huri reo",
@@ -120,7 +122,27 @@
       "subtitulo": "I mōhio koe?",
       "carregando": "E uta ana te mea whakamīharo...",
       "proxima": "Te mea whakamīharo e whai ake nei",
-      "erro_carregar": "Kāore e taea ināianei te uta i ngā mea whakamīharo."
+      "erro_carregar": "Kāore e taea ināianei te uta i ngā mea whakamīharo.",
+      "fatos": {
+        "fato1": "Ko te rakau pakeke, waihanga noa, ka ngote i te 22 kg CO₂ ia tau — koia te take e kiia ai ko te whakatō ano i te ngahere tētahi o nga huarahi tino tika hei whakatutuki i nga tukunga.",
+        "fato2": "Ko nga moana e ngote ana tata ki te kotahi hautau e whā o nga CO₂ katoa ka tukuna e te tangata ia tau, e mahi ana hei kaiwhakahaere nui mo te rererangi o te ao.",
+        "fato3": "Ko te hangaia ano o te tana pepa kotahi ka tiaki tata ki te 17 rakau me tetahi nui o te wai me te hiko, ki te whakaritea ki te hanga pepa hou.",
+        "fato4": "Ko te kawe waka te take mo tata ki te kotahi hautau e whā o nga tukunga CO₂ e pā ana ki te hiko o te ao — ko te whakakapi i te motoka ki te paihikara, ki te waka tūmatanui mō nga haerenga poto ka whai hua nui.",
+        "fato5": "Ko te Amazon te kainga o te 10% o nga momo koiora mohiotia katoa o te ao, me te rokiroki hoki i nga piriona tana waro i roto i ona tipu.",
+        "fato6": "Ka taea e nga pae rā o nga whare noho te whakaiti i te tapuae waro o te whare mā nga tana CO₂ ia tau, i runga i te momo hiko e whakamahia ana i te rohe.",
+        "fato7": "Ko te kai iti ake te mīti whero ka taea te whakaiti nui ake i te tapuae waro ake, no te mea ko te ahuwhenua kau tetahi o nga mahi ahuwhenua tino nui rawa atu te tuku.",
+        "fato8": "Ko te rewa o te huka moana o te Arctic ka whakaiti i te kaha o te ao ki te whakaata i te raa ki te mokowhiti, e tere ake ai te whakamahana — he painga e kiia nei ko te albedo feedback.",
+        "fato9": "Ko nga rama LED ka whakamahi 80% iti ake te hiko i nga rama tawhito, ka roa ake te oranga, e whakaiti ana i nga tukunga me te para.",
+        "fato10": "Ko te Whakaaetanga o Paris, i hainatia e tata ki te 200 nga whenua, ko tana whāinga kia pupuri te whakamahana o te ao kia tino iti iho i te 2°C ki runga ake i nga taumata o mua i te umanga.",
+        "fato11": "Tata ki te kotahi hautoru o nga kai katoa e hangaia ana i te ao ka maumahara — a ko tenei maumahara anake ka whakaputa i tetahi wahanga nui o nga tukunga haurehu whare kāriho o te ao.",
+        "fato12": "Ka taea e nga tiupine hau hou te whakaputa hiko e rahi ana mo nga mano whare, me te kore e tuku CO₂ i te wā e mahi ana.",
+        "fato13": "Ko te oneone hauora ka rokiroki i te waro nui ake i nga tipu me te hau katoa huihuia — ko nga tikanga ahuwhenua whakaora ka awhina ki te pupuri i tenei waro ki te whenua.",
+        "fato14": "Ko nga toka koura, ahakoa he iti iho i te 1% o te papa moana e hipokina ana, ka tautoko i te 25% o nga koiora moana mohiotia katoa — a he tino ngoikore ki te whakamahanatanga o te wai.",
+        "fato15": "Ko te whakaiti i te maumahara wai wera i te kainga (hei tauira, he kaukau poto ake) ka whakaiti ano i nga tukunga, no te mea ko te whakawera wai ka pau te hiko.",
+        "fato16": "Ko nga motoka hiko, ahakoa e whai whakaaro ki te hanga pākahiko, he iti ake te CO₂ ka tukuna i roto i to raua oranga i tua atu i nga motoka tahu waikura, ina koa mena ka ahu mai te hiko i nga puna mā.",
+        "fato17": "Ko te whakangahuru i nga para koiora i te kainga ka arai i a raua kei whakaputa i te haurehu methane i nga wāhi para — he haurehu whare kāriho e kaha ake ana i te CO₂ i roto i te wā poto.",
+        "fato18": "Ko nga hukapapa o Greenland me Antarctica, i roto i nga tau tata nei, kua ngaro ngatahi i nga rau piriona tana huka ia tau, e whai wāhi pono ana ki te pikinga o te taumata moana."
+      }
     },
     "noticias": {
       "titulo": "Ngā Pūrongo Taiao",
@@ -138,6 +160,31 @@
       "navegacao": "Whakatere",
       "contato": "Whakapā",
       "copyright": "© 2026 Carbono Consciente. Kua rāhuitia ngā tika katoa."
+    },
+    "planta": {
+      "aria_svg": "He tipu ka tipu ki te rākau i runga i te hauora o ō tikanga haereere",
+      "carregando_placeholder": "Kei te utaina tō tipu...",
+      "aria_arvore": "He rākau. Pāwhiritia kia whakatōkia anō",
+      "dica_replantar": "Pāwhiritia te rākau kia whakatōkia anō",
+      "legenda_0": "Kei te whakatōkia tō kākano...",
+      "legenda_1": "Kua whānau mai he tupu iti. Ko ia haerenga toitū ka āwhina kia tipu.",
+      "legenda_2": "Inaianei he tupu kaha. Kei te pūtake ō tikanga.",
+      "legenda_3": "He rākau rangatahi, kī tonu i te rau. Me haere tonu!",
+      "legenda_4": "He rākau ātaahua kua puāwai. He whakamīharo ō tikanga!"
+    },
+    "estatisticas": {
+      "media_mundial": "te toharite CO₂ mō te tangata, i waenga i ngā whenua e arotakehia ana",
+      "maior_emissor": "te kaituku nui rawa mō te tangata: {{pais}}",
+      "menor_emissor": "te kaituku iti rawa mō te tangata: {{pais}}",
+      "paises_monitorados": "ngā whenua e arotakehia ana puta noa i te ao",
+      "seu_co2_semana": "tō CO₂ i tēnei wiki",
+      "vs_media_paises": "e whakataurite ana ki te toharite ā-wiki o ngā whenua",
+      "ranking_mundial": "te tūranga i whakatauhia i waenga i ngā whenua {{total}}",
+      "sem_dados_suficientes": "kāore e rawaka ngā raraunga",
+      "fallback_co2_evitado": "te CO₂ toharite i karohia mō ia mahinga hononga / ia marama",
+      "fallback_variacao_emissoes": "ngā tukunga ina whakataurite ki te wā ōrite i tērā tau",
+      "fallback_abaixo_media_setor": "kei raro iho i te toharite ā-rāngai, i waenga i ngā pūkete e arotakehia ana",
+      "fallback_paises_ativos": "ngā whenua kei a rātou ngā pona raraunga hohe i te whatunga"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "kāore he tuhinga i tēnei wā",
     "delta_primeiro_registro": "te tuhinga tuatahi o tēnei wā",
     "delta_estavel": "taurite ki te wā o mua",
-    "delta_variacao": "{{percentual}}% ki te wā o mua"
+    "delta_variacao": "{{percentual}}% ki te wā o mua",
+    "meios": {
+      "carro_gasolina": "Waka (penehīni)",
+      "carro_etanol": "Waka (etanōra)",
+      "carro_eletrico": "Waka (hiko)",
+      "motocicleta": "Motopaika",
+      "onibus": "Pahi",
+      "metro_trem": "Rerewhenua/Tereina",
+      "bicicleta": "Paihikara",
+      "a_pe": "Hīkoi"
+    }
   },
   "globo": {
     "legenda_titulo": "Tukunga mō te tangata takitahi",

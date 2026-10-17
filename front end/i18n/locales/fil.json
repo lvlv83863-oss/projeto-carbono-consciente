@@ -7,6 +7,8 @@
     "sair_link": "mag-logout",
     "painel_link": "dashboard",
     "fechar": "Isara",
+    "logo_alt": "Logo ng Carbono Consciente",
+    "redirecionamento_html": "Nire-redirect... <a href=\"front%20end/html/inicial.html\">i-click dito</a> kung hindi ka na-redirect.",
     "nav": {
       "plataforma": "Plataporma",
       "impacto": "Epekto",
@@ -120,7 +122,27 @@
       "subtitulo": "Alam mo ba?",
       "carregando": "Nilo-load ang kawili-wiling impormasyon...",
       "proxima": "Susunod na impormasyon",
-      "erro_carregar": "Hindi ma-load ang mga kawili-wiling impormasyon ngayon."
+      "erro_carregar": "Hindi ma-load ang mga kawili-wiling impormasyon ngayon.",
+      "fatos": {
+        "fato1": "Ang isang hinog na puno ay sumisipsip ng humigit-kumulang 22 kg ng CO₂ bawat taon — kaya ang muling pagtatanim ng kagubatan ay isa sa pinakadirektang paraan para mabawi ang mga emisyon.",
+        "fato2": "Sinisipsip ng mga karagatan ang humigit-kumulang isang-kapat ng lahat ng CO₂ na pinalalabas ng sangkatauhan bawat taon, kumikilos bilang isang malaking regulator ng pandaigdigang klima.",
+        "fato3": "Ang pag-recycle ng isang tonelada ng papel ay nakakatipid ng humigit-kumulang 17 puno at isang malaking dami ng tubig at enerhiya kumpara sa paggawa ng bagong papel.",
+        "fato4": "Ang transportasyon ay responsable sa humigit-kumulang isang-kapat ng pandaigdigang emisyon ng CO₂ na kaugnay sa enerhiya — ang pagpalit ng kotse sa bisikleta o pampublikong transportasyon sa maiikling biyahe ay gumagawa ng tunay na pagbabago.",
+        "fato5": "Ang Amazon ay tahanan ng humigit-kumulang 10% ng lahat ng kilalang biodiversity sa planeta, at nag-iimbak din ng bilyon-bilyong tonelada ng carbon sa mga halaman nito.",
+        "fato6": "Ang mga residential solar panel ay makakabawas sa carbon footprint ng isang tahanan nang ilang tonelada ng CO₂ kada taon, depende sa lokal na energy mix.",
+        "fato7": "Ang diyeta na may mas kaunting pulang karne ay makabuluhang makakabawas sa personal na carbon footprint, dahil ang pag-aalaga ng baka ay isa sa mga pinakamasinsinan sa emisyon na aktibidad sa agrikultura.",
+        "fato8": "Ang natutunaw na sea ice sa Arctic ay nagpapababa sa kakayahan ng planeta na ipasalamin pabalik ang sikat ng araw patungong kalawakan, pinabibilis ang pag-init — isang epekto na kilala bilang albedo feedback.",
+        "fato9": "Ang mga LED bulb ay gumagamit ng hanggang 80% na mas kaunting enerhiya kaysa sa incandescent bulb at tumatagal nang mas matagal, binabawasan ang emisyon at basura.",
+        "fato10": "Ang Paris Agreement, na nilagdaan ng malapit sa 200 bansa, ay naglalayong limitahan ang pandaigdigang pag-init sa mas mababa pa sa 2°C mula sa antas bago ang industriyalisasyon.",
+        "fato11": "Humigit-kumulang isang-katlo ng lahat ng pagkain na ginagawa sa mundo ay nasasayang — at ang pagsayang na ito mismo ay gumagawa ng malaking bahagi ng pandaigdigang emisyon ng greenhouse gas.",
+        "fato12": "Ang mga modernong wind turbine ay kayang gumawa ng sapat na enerhiya para mapagkuryente ang libo-libong tahanan, nang walang inilalabas na CO₂ habang umaandar.",
+        "fato13": "Ang malusog na lupa ay nag-iimbak ng mas maraming carbon kaysa sa lahat ng halaman at atmospera na pinagsama — ang regenerative farming practices ay tumutulong na panatilihin ang carbon na ito sa lupa.",
+        "fato14": "Ang mga coral reef, bagaman sumasakop lamang sa mas mababa sa 1% ng sahig ng karagatan, ay sinusuportahan ang humigit-kumulang 25% ng lahat ng kilalang buhay sa dagat — at lubhang sensitibo sa pag-init ng tubig.",
+        "fato15": "Ang pagbawas ng pag-aaksaya ng mainit na tubig sa bahay (halimbawa, mas maikling pagligo) ay nakakabawas din ng emisyon, dahil ang pagpainit ng tubig ay gumagamit ng enerhiya.",
+        "fato16": "Ang mga electric car, kahit isama ang paggawa ng baterya, ay mas kaunti ang CO₂ na inilalabas sa buong buhay nito kaysa sa mga de-gasolinang kotse, lalo na kung ang kuryente ay mula sa malinis na pinagmumulan.",
+        "fato17": "Ang pag-compost ng organikong basura sa bahay ay pumipigil dito sa paggawa ng methane sa mga landfill — isang greenhouse gas na mas malakas kaysa sa CO₂ sa maikling panahon.",
+        "fato18": "Ang mga glacier ng Greenland at Antarctica ay sama-samang nawawalan, sa mga nakalipas na taon, ng daan-daang bilyong tonelada ng yelo kada taon, direktang nag-aambag sa pagtaas ng antas ng dagat."
+      }
     },
     "noticias": {
       "titulo": "Balita sa Kapaligiran",
@@ -138,6 +160,31 @@
       "navegacao": "Nabigasyon",
       "contato": "Kontak",
       "copyright": "© 2026 Carbono Consciente. Nakalaan ang lahat ng karapatan."
+    },
+    "planta": {
+      "aria_svg": "Halamang lumalago hanggang maging punongkahoy ayon sa kalusugan ng iyong mga gawi sa paglalakbay",
+      "carregando_placeholder": "Nilo-load ang iyong halaman...",
+      "aria_arvore": "Punongkahoy. I-click para magtanim ulit",
+      "dica_replantar": "I-click ang punongkahoy para magtanim ulit",
+      "legenda_0": "Itinatanim ang iyong binhi...",
+      "legenda_1": "Isinilang ang isang maliit na usbong. Pinalalago ito ng bawat sustainable na biyahe.",
+      "legenda_2": "Isa na itong matibay na supling. Lumalalim ang ugat ng iyong mga gawi.",
+      "legenda_3": "Isang batang punongkahoy, puno ng dahon. Ipagpatuloy mo!",
+      "legenda_4": "Isang maayos na namumulaklak na punongkahoy. Kahanga-hanga ang iyong mga gawi!"
+    },
+    "estatisticas": {
+      "media_mundial": "karaniwang CO₂ kada tao, sa mga bansang sinusubaybayan",
+      "maior_emissor": "pinakamataas na emitter kada tao: {{pais}}",
+      "menor_emissor": "pinakamababang emitter kada tao: {{pais}}",
+      "paises_monitorados": "mga bansang sinusubaybayan sa globo",
+      "seu_co2_semana": "ang iyong CO₂ ngayong linggo",
+      "vs_media_paises": "kumpara sa lingguhang average ng mga bansa",
+      "ranking_mundial": "tinatayang ranggo sa {{total}} bansa",
+      "sem_dados_suficientes": "hindi sapat ang datos",
+      "fallback_co2_evitado": "karaniwang CO₂ na naiwasan kada konektadong operasyon / buwan",
+      "fallback_variacao_emissoes": "emisyon kumpara sa parehong panahon noong nakaraang taon",
+      "fallback_abaixo_media_setor": "mas mababa sa average ng sektor, sa mga sinusubaybayang account",
+      "fallback_paises_ativos": "mga bansang may aktibong data node sa network"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "walang tala sa panahong ito",
     "delta_primeiro_registro": "unang tala ng panahong ito",
     "delta_estavel": "stable kumpara sa nakaraang panahon",
-    "delta_variacao": "{{percentual}}% kumpara sa nakaraang panahon"
+    "delta_variacao": "{{percentual}}% kumpara sa nakaraang panahon",
+    "meios": {
+      "carro_gasolina": "Kotse (gasolina)",
+      "carro_etanol": "Kotse (etanol)",
+      "carro_eletrico": "Kotse (de-kuryente)",
+      "motocicleta": "Motorsiklo",
+      "onibus": "Bus",
+      "metro_trem": "Metro/Tren",
+      "bicicleta": "Bisikleta",
+      "a_pe": "Paglalakad"
+    }
   },
   "globo": {
     "legenda_titulo": "Emisyon kada tao",

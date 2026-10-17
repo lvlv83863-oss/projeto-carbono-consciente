@@ -7,6 +7,8 @@
     "sair_link": "logáil amach",
     "painel_link": "painéal",
     "fechar": "Dún",
+    "logo_alt": "Lógó Carbono Consciente",
+    "redirecionamento_html": "Á atreorú... <a href=\"front%20end/html/inicial.html\">cliceáil anseo</a> mura n-atreorófar thú.",
     "nav": {
       "plataforma": "Ardán",
       "impacto": "Tionchar",
@@ -120,7 +122,27 @@
       "subtitulo": "An raibh a fhios agat?",
       "carregando": "Eolas spéisiúil á luchtú...",
       "proxima": "An chéad eolas spéisiúil eile",
-      "erro_carregar": "Níorbh fhéidir eolas spéisiúil a luchtú faoi láthair."
+      "erro_carregar": "Níorbh fhéidir eolas spéisiúil a luchtú faoi láthair.",
+      "fatos": {
+        "fato1": "Ólann crann fásta, ar an meán, thart ar 22 kg CO₂ in aghaidh na bliana — sin an fáth gur foraoisiú ar cheann de na bealaí is dírí chun astaíochtaí a fhritháireamh.",
+        "fato2": "Súnn na haigéin thart ar cheathrú de gach CO₂ a astaíonn an chine daonna gach bliain, ag feidhmiú mar rialtóir ollmhór ar an aeráid dhomhanda.",
+        "fato3": "Trí thonna páipéir a athchúrsáil, sábhálfar thart ar 17 crann agus méid suntasach uisce agus fuinnimh i gcomparáid le páipéar nua a tháirgeadh.",
+        "fato4": "Tá iompar freagrach as thart ar cheathrú de na hastaíochtaí domhanda CO₂ a bhaineann le fuinneamh — má mhalartaítear an carr ar rothar nó ar iompar poiblí ar thaistil ghearra, bíonn difear fíor ann.",
+        "fato5": "Tá thart ar 10% de bhithéagsúlacht ar fad an domhain atá ar eolas lonnaithe san Amasóin, agus stórálann sí billiúin tonna carbóin ina fásra.",
+        "fato6": "Is féidir le painéil ghrianchumhachta tí laghdú tonnaí CO₂ in aghaidh na bliana a dhéanamh ar lorg carbóin tí, ag brath ar an meascán fuinnimh áitiúil.",
+        "fato7": "Is féidir le réim bia a bhfuil níos lú feoil dhearg ann lorg carbóin pearsanta a laghdú go suntasach, ós rud é go bhfuil feirmeoireacht eallaí ar cheann de na gníomhaíochtaí talmhaíochta is déine ó thaobh astaíochtaí.",
+        "fato8": "Laghdaíonn leá an oighir mhuirí san Artaic cumas an phláinéid solas na gréine a athfhrithbheochan amach go spás, rud a thapaíonn téamh — éifeacht ar a dtugtar aisfhotha albedo.",
+        "fato9": "Úsáideann bolgáin LED suas le 80% níos lú fuinnimh ná bolgáin ionchandascópach agus mairfidh siad go mórán níos faide, rud a laghdaíonn astaíochtaí agus dramhaíl araon.",
+        "fato10": "Tá sé mar aidhm ag Comhaontú Pháras, a shínigh beagnach 200 tír, teas domhanda a theorannú go mór faoi bhun 2°C os cionn na leibhéal réamhthionsclaíoch.",
+        "fato11": "Cuirtear amú thart ar an tríú cuid de gach bia a tháirgtear ar fud an domhain — agus gineann an dramhaíl sin amháin sciar suntasach de na hastaíochtaí gás ceaptha teasa domhanda.",
+        "fato12": "Is féidir le tuirbíní gaoithe nua-aimseartha dóthain fuinnimh a ghiniúint chun mílte tithe a sholáthar, gan CO₂ a astú le linn oibríochta.",
+        "fato13": "Stórálann ithir shláintiúil níos mó carbóin ná an fásra ar fad agus an atmaisféar le chéile — cuidíonn cleachtais fheirmeoireachta athghiniúnacha carbón a choinneáil san ithir.",
+        "fato14": "Cé nach gcumhdaíonn sceireacha coiréil níos lú ná 1% de ghrinneall na n-aigéan, tacaíonn siad le thart ar 25% den saol mara ar fad atá ar eolas — agus tá siad thar a bheith íogair maidir le téamh an uisce.",
+        "fato15": "Má laghdaítear dramhaíl uisce the sa bhaile (cithfholcadh níos giorra, mar shampla), laghdaíonn sé astaíochtaí freisin, ós rud é go n-úsáideann téamh uisce fuinneamh.",
+        "fato16": "Is gnách go n-astaíonn gluaisteáin leictreacha, fiú ag cur monarú na cadhnra san áireamh, níos lú CO₂ ar feadh a saolré ná gluaisteáin dócháin, go háirithe nuair a thagann an leictreachas ó fhoinsí glana.",
+        "fato17": "Trí dhramhaíl orgánach a chomhleasú sa bhaile, seachnaítear meatán a tháirgeadh i líonta talaimh — gás ceaptha teasa a bhfuil sé i bhfad níos cumhachtaí ná CO₂ san ghearrthéarma.",
+        "fato18": "Cailleann oighearshruthanna na Graonlainne agus Antartaice le chéile, i mblianta le déanaí, na céadta billiún tonna oighir in aghaidh na bliana, rud a chuireann go díreach le hardú leibhéal na farraige."
+      }
     },
     "noticias": {
       "titulo": "Nuacht Chomhshaoil",
@@ -138,6 +160,31 @@
       "navegacao": "Nascleanúint",
       "contato": "Teagmháil",
       "copyright": "© 2026 Carbono Consciente. Gach ceart ar cosaint."
+    },
+    "planta": {
+      "aria_svg": "Planda a fhásann go crann bunaithe ar fholláine do nósanna taistil",
+      "carregando_placeholder": "Do phlanda á luchtú...",
+      "aria_arvore": "Crann. Cliceáil le cur arís",
+      "dica_replantar": "Cliceáil ar an gcrann le cur arís é",
+      "legenda_0": "Do shíol á chur...",
+      "legenda_1": "Rugadh péacán beag. Cuireann gach turas inbhuanaithe ag fás é.",
+      "legenda_2": "Is planda óg daingean é anois. Tá fréamh á chur ag do nósanna.",
+      "legenda_3": "Crann óg, lán de dhuilleoga. Lean ort!",
+      "legenda_4": "Crann méith faoi bhláth. Tá do nósanna iontach!"
+    },
+    "estatisticas": {
+      "media_mundial": "meán CO₂ in aghaidh an duine, i measc na tíortha a bhfuil monatóireacht orthu",
+      "maior_emissor": "an t-astaíoch is airde in aghaidh an duine: {{pais}}",
+      "menor_emissor": "an t-astaíoch is ísle in aghaidh an duine: {{pais}}",
+      "paises_monitorados": "tíortha a bhfuil monatóireacht orthu ar an chruinneog",
+      "seu_co2_semana": "do CO₂ an tseachtain seo",
+      "vs_media_paises": "i gcomparáid le meán seachtainiúil na dtíortha",
+      "ranking_mundial": "rangú measta i measc {{total}} tír",
+      "sem_dados_suficientes": "gan sonraí dóthanacha",
+      "fallback_co2_evitado": "meán CO₂ seachanta in aghaidh gach oibríocht nasctha / in aghaidh na míosa",
+      "fallback_variacao_emissoes": "astaíochtaí i gcomparáid leis an tréimhse chéanna anuraidh",
+      "fallback_abaixo_media_setor": "faoi bhun meán na hearnála, i measc cuntais a bhfuil monatóireacht orthu",
+      "fallback_paises_ativos": "tíortha a bhfuil nóid sonraí gníomhach acu ar an líonra"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "gan taifid sa tréimhse seo",
     "delta_primeiro_registro": "an chéad taifead den tréimhse",
     "delta_estavel": "cobhsaí i gcomparáid leis an tréimhse roimhe seo",
-    "delta_variacao": "{{percentual}}% i gcomparáid leis an tréimhse roimhe seo"
+    "delta_variacao": "{{percentual}}% i gcomparáid leis an tréimhse roimhe seo",
+    "meios": {
+      "carro_gasolina": "Carr (peitreal)",
+      "carro_etanol": "Carr (eatánól)",
+      "carro_eletrico": "Carr (leictreach)",
+      "motocicleta": "Gluaisrothar",
+      "onibus": "Bus",
+      "metro_trem": "Meitreo/Traein",
+      "bicicleta": "Rothar",
+      "a_pe": "De shiúl"
+    }
   },
   "globo": {
     "legenda_titulo": "Astaíochtaí in aghaidh an duine",

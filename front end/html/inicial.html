@@ -15,7 +15,7 @@
 <header class="site-header">
   <div class="header-inner">
     <a href="#inicio" class="logo-link">
-      <img src="../../img/logo.png" alt="Logo Carbono Consciente">
+      <img src="../../img/logo.png" data-i18n-attr-alt="common.logo_alt" alt="Logo Carbono Consciente">
     </a>
 
     <nav class="nav-principal">
@@ -64,19 +64,19 @@
   <div class="stats-inner">
     <div class="stat reveal" data-chave="co2_evitado">
       <strong>2,4 t</strong>
-      <span>CO₂ médio evitado por operação conectada / mês</span>
+      <span data-i18n="inicial.estatisticas.fallback_co2_evitado">CO₂ médio evitado por operação conectada / mês</span>
     </div>
     <div class="stat reveal" data-chave="variacao_emissoes">
       <strong>−12%</strong>
-      <span>emissões vs. o mesmo período do ano anterior</span>
+      <span data-i18n="inicial.estatisticas.fallback_variacao_emissoes">emissões vs. o mesmo período do ano anterior</span>
     </div>
     <div class="stat reveal" data-chave="abaixo_media_setor">
       <strong>36%</strong>
-      <span>abaixo da média do setor, em contas monitoradas</span>
+      <span data-i18n="inicial.estatisticas.fallback_abaixo_media_setor">abaixo da média do setor, em contas monitoradas</span>
     </div>
     <div class="stat reveal" data-chave="paises_ativos">
       <strong>118</strong>
-      <span>países com nós de dados ativos na rede</span>
+      <span data-i18n="inicial.estatisticas.fallback_paises_ativos">países com nós de dados ativos na rede</span>
     </div>
   </div>
 </section>
@@ -89,6 +89,7 @@
     <div class="planta-coluna">
       <div class="planta-cena" id="planta-cena">
         <svg class="planta-svg" viewBox="0 0 320 340" data-estagio="0" role="img"
+             data-i18n-attr-aria-label="inicial.planta.aria_svg"
              aria-label="Planta que cresce até virar árvore conforme a saúde dos seus hábitos de deslocamento">
           <defs>
             <radialGradient id="grad-brilho"><stop offset="0" stop-color="#fff3b0" stop-opacity=".55"/><stop offset="1" stop-color="#fff3b0" stop-opacity="0"/></radialGradient>
@@ -131,7 +132,7 @@
 
           <ellipse class="planta-semente" cx="160" cy="18" rx="4.5" ry="7"/>
         </svg>
-        <p class="planta-legenda" id="planta-legenda">Carregando sua planta...</p>
+        <p class="planta-legenda" id="planta-legenda" data-i18n="inicial.planta.carregando_placeholder">Carregando sua planta...</p>
       </div>
     </div>
 
@@ -327,7 +328,7 @@
 <footer class="site-footer" id="rodape">
   <div class="container footer-inner">
     <div>
-      <img src="../../img/logo.png" alt="Logo Carbono Consciente">
+      <img src="../../img/logo.png" data-i18n-attr-alt="common.logo_alt" alt="Logo Carbono Consciente">
       <p data-i18n="inicial.rodape.descricao">Educação ambiental para transformar pequenas escolhas em grandes resultados para o planeta.</p>
     </div>
     <div class="footer-nav">

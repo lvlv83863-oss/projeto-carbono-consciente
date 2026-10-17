@@ -1,0 +1,386 @@
+{
+  "af": {
+    "hl": "en-ZA",
+    "gl": "ZA"
+  },
+  "am": {
+    "hl": "en-ET",
+    "gl": "ET"
+  },
+  "ar": {
+    "hl": "ar",
+    "gl": "EG"
+  },
+  "az": {
+    "hl": "ru",
+    "gl": "RU"
+  },
+  "be": {
+    "hl": "ru",
+    "gl": "RU"
+  },
+  "bg": {
+    "hl": "bg",
+    "gl": "BG"
+  },
+  "bi": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "bn": {
+    "hl": "bn",
+    "gl": "BD"
+  },
+  "bs": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "ca": {
+    "hl": "ca-ES",
+    "gl": "ES"
+  },
+  "cs": {
+    "hl": "cs",
+    "gl": "CZ"
+  },
+  "da": {
+    "hl": "no",
+    "gl": "NO"
+  },
+  "de": {
+    "hl": "de",
+    "gl": "DE"
+  },
+  "dz": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "el": {
+    "hl": "el",
+    "gl": "GR"
+  },
+  "en": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "es": {
+    "hl": "es-419",
+    "gl": "MX"
+  },
+  "et": {
+    "hl": "et-EE",
+    "gl": "EE"
+  },
+  "eu": {
+    "hl": "es",
+    "gl": "ES"
+  },
+  "fa": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "fi": {
+    "hl": "fi-FI",
+    "gl": "FI"
+  },
+  "fil": {
+    "hl": "en-PH",
+    "gl": "PH"
+  },
+  "fj": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "fr": {
+    "hl": "fr",
+    "gl": "FR"
+  },
+  "ga": {
+    "hl": "en-IE",
+    "gl": "IE"
+  },
+  "gl": {
+    "hl": "es",
+    "gl": "ES"
+  },
+  "gn": {
+    "hl": "es-419",
+    "gl": "US"
+  },
+  "he": {
+    "hl": "he",
+    "gl": "IL"
+  },
+  "hi": {
+    "hl": "hi",
+    "gl": "IN"
+  },
+  "hif": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "hr": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "ht": {
+    "hl": "fr",
+    "gl": "FR"
+  },
+  "hu": {
+    "hl": "hu",
+    "gl": "HU"
+  },
+  "hy": {
+    "hl": "ru",
+    "gl": "RU"
+  },
+  "id": {
+    "hl": "id",
+    "gl": "ID"
+  },
+  "is": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "it": {
+    "hl": "it",
+    "gl": "IT"
+  },
+  "ja": {
+    "hl": "ja",
+    "gl": "JP"
+  },
+  "ka": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "kk": {
+    "hl": "ru",
+    "gl": "RU"
+  },
+  "kl": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "km": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "ko": {
+    "hl": "ko",
+    "gl": "KR"
+  },
+  "ku": {
+    "hl": "tr",
+    "gl": "TR"
+  },
+  "ky": {
+    "hl": "ru",
+    "gl": "RU"
+  },
+  "lb": {
+    "hl": "de",
+    "gl": "DE"
+  },
+  "lo": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "lt": {
+    "hl": "lt",
+    "gl": "LT"
+  },
+  "lv": {
+    "hl": "lv",
+    "gl": "LV"
+  },
+  "mg": {
+    "hl": "fr",
+    "gl": "FR"
+  },
+  "mi": {
+    "hl": "en-NZ",
+    "gl": "NZ"
+  },
+  "mk": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "mn": {
+    "hl": "ru",
+    "gl": "RU"
+  },
+  "ms": {
+    "hl": "ms-MY",
+    "gl": "MY"
+  },
+  "my": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "nd": {
+    "hl": "en-ZW",
+    "gl": "ZW"
+  },
+  "ne": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "nl": {
+    "hl": "nl",
+    "gl": "NL"
+  },
+  "no": {
+    "hl": "no",
+    "gl": "NO"
+  },
+  "ny": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "pl": {
+    "hl": "pl",
+    "gl": "PL"
+  },
+  "ps": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "pt": {
+    "hl": "pt-BR",
+    "gl": "BR"
+  },
+  "rm": {
+    "hl": "de",
+    "gl": "CH"
+  },
+  "rn": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "ro": {
+    "hl": "ro",
+    "gl": "RO"
+  },
+  "ru": {
+    "hl": "ru",
+    "gl": "RU"
+  },
+  "rw": {
+    "hl": "fr",
+    "gl": "FR"
+  },
+  "sg": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "si": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "sk": {
+    "hl": "sk",
+    "gl": "SK"
+  },
+  "sl": {
+    "hl": "sl",
+    "gl": "SI"
+  },
+  "sn": {
+    "hl": "en-ZW",
+    "gl": "ZW"
+  },
+  "so": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "sq": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "sr": {
+    "hl": "sr",
+    "gl": "RS"
+  },
+  "ss": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "st": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "sv": {
+    "hl": "sv",
+    "gl": "SE"
+  },
+  "sw": {
+    "hl": "en-KE",
+    "gl": "KE"
+  },
+  "ta": {
+    "hl": "ta",
+    "gl": "IN"
+  },
+  "tet": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "tg": {
+    "hl": "ru",
+    "gl": "RU"
+  },
+  "th": {
+    "hl": "th",
+    "gl": "TH"
+  },
+  "ti": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "tk": {
+    "hl": "ru",
+    "gl": "RU"
+  },
+  "tn": {
+    "hl": "en-BW",
+    "gl": "BW"
+  },
+  "tpi": {
+    "hl": "en-US",
+    "gl": "US"
+  },
+  "tr": {
+    "hl": "tr",
+    "gl": "TR"
+  },
+  "uk": {
+    "hl": "uk",
+    "gl": "UA"
+  },
+  "ur": {
+    "hl": "en-PK",
+    "gl": "PK"
+  },
+  "uz": {
+    "hl": "ru",
+    "gl": "RU"
+  },
+  "vi": {
+    "hl": "vi",
+    "gl": "VN"
+  },
+  "xh": {
+    "hl": "en-ZA",
+    "gl": "ZA"
+  },
+  "zh": {
+    "hl": "zh-CN",
+    "gl": "CN"
+  },
+  "zu": {
+    "hl": "en-ZA",
+    "gl": "ZA"
+  }
+}

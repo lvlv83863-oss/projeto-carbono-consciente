@@ -13,7 +13,9 @@
       "habitos": "Fomba fiaina",
       "contato": "Fifandraisana",
       "dados": "Angon-drakitra"
-    }
+    },
+    "logo_alt": "Lôgô Carbono Consciente",
+    "redirecionamento_html": "Mamerina... <a href=\"front%20end/html/inicial.html\">tsindrio eto</a> raha tsy averina ianao."
   },
   "header": {
     "idioma_aria": "Hanova fiteny",
@@ -120,7 +122,27 @@
       "subtitulo": "Fantatrao ve?",
       "carregando": "Mampiditra zava-mahaliana...",
       "proxima": "Zava-mahaliana manaraka",
-      "erro_carregar": "Tsy afaka naka ny zava-mahaliana amin'izao fotoana izao."
+      "erro_carregar": "Tsy afaka naka ny zava-mahaliana amin'izao fotoana izao.",
+      "fatos": {
+        "fato1": "Ny hazo efa lehibe dia mitroka CO₂ eo amin'ny 22 kg isan-taona — izany no antony ahoana ny famerenana ny ala ho iray amin'ireo fomba mivantana indrindra hanonerana ny entona.",
+        "fato2": "Ny ranomasimbe dia mitroka ny ampahefatry ny CO₂ rehetra avoakan'ny olombelona isan-taona, ary mitovy amin'ny mpandrindra lehibe ny toetrandro eran-tany.",
+        "fato3": "Ny famerenana taratasy iray taonina dia mitahiry hazo 17 teo ho eo mahalana sy rano ary angovo be dia be raha ampitahaina amin'ny famokarana taratasy vaovao.",
+        "fato4": "Ny fitaterana no tompon'andraikitra amin'ny ampahefatry ny famoahana CO₂ eran-tany mifandray amin'ny angovo — ny fanoloana ny fiara amin'ny bisikileta na fitaterana iraisam-bahoaka amin'ny dia fohy manova zava-dehibe.",
+        "fato5": "Ny Amazonia dia fonenan'ny 10%-n'ny karazan-javaboary fantatra eran-tany, ary mitahiry billiona taonina karbaona ao anatin'ny zava-maniry ao aminy.",
+        "fato6": "Ny takelaka solar amin'ny trano dia mety mihena ny tombo-kase karbaona an'ny tokantrano amin'ny taonina CO₂ maro isan-taona, arakaraka ny karazan-angovo ampiasaina ao an-toerana.",
+        "fato7": "Ny sakafo misy henambiby mena kely kokoa dia mety mampihena betsaka ny tombo-kase karbaona manokana, satria ny fiompiana omby no iray amin'ireo asa fambolena manome entona be indrindra.",
+        "fato8": "Ny fitsonin'ny ranomandry an-dranomasina any Arctique dia mampihena ny fahafaha-manan'ny tany mamerina ny tara-masoandro any amin'ny habakabaka, mampitombo ny fitondran-afana — antsoina hoe fiverenan'ny albedo io voka-dratsy io.",
+        "fato9": "Ny jiro LED dia mampiasa angovo 80% latsaka kokoa noho ny jiro incandescent, ary maharitra be dia be, mampihena ny entona sy ny fako.",
+        "fato10": "Ny Fifanarahana any Paris, nosoniavin'ny firenena 200 eo ho eo, dia mikendry hametra ny fitondran-afana eran-tany ho ambany lavitra noho ny 2°C ambonin'ny ambaratonga talohan'ny indostria.",
+        "fato11": "Ampahatelon'ny sakafo vokarina eran-tany no lany maina — ary io fatiantoka io irery dia miteraka anjara betsaka amin'ny entona mamafana ny atmosfera eran-tany.",
+        "fato12": "Ny turbine rivotra maoderina dia afaka mamokatra angovo ampy ho an'ny tokantrano an'arivony, nefa tsy mamoaka CO₂ mandritra ny fampiasana azy.",
+        "fato13": "Ny tany salama dia mitahiry karbaona be kokoa noho ny zava-maniry rehetra sy ny atmosfera nampiarahina — ny fomba fambolena mamerina ny harena voajanahary manampy mitazona io karbaona ao amin'ny tany io.",
+        "fato14": "Ny haran-tsarindrano, na dia mandrakotra latsaka ny 1%-n'ny farihin-dranomasina aza, dia manohana ny 25%-n'ny fiainana an-dranomasina fantatra — ary mora voan'ny firafitry ny rano mafana izy.",
+        "fato15": "Ny fampihenana ny fandaniana rano mafana ao an-trano (ohatra, fandroana fohy kokoa) dia mampihena koa ny entona, satria mamaritra angovo ny fanafanana rano.",
+        "fato16": "Ny fiara maimaika herinaratra, na dia heverina aza ny famokarana ny bateria, dia mamoaka CO₂ kely kokoa mandritra ny androm-piainany noho ny fiara mandeha lasantsy, indrindra raha avy amin'ny loharanon'angovo madio ny herinaratra.",
+        "fato17": "Ny fanaovana compost ny fako biolojika ao an-trano dia misakana azy tsy hamokatra methane ao amin'ny toerana fandavana fako — entona mamafana ny atmosfera izay matanjaka kokoa noho ny CO₂ amin'ny fe-potoana fohy.",
+        "fato18": "Ny glacier any Groenland sy Antarctique miaraka dia mihena ho an-jatony lavitrisa taonina ranomandry isan-taona tato ho ato, manampahefana mivantana amin'ny fiakaran'ny haavon'ny ranomasina."
+      }
     },
     "noticias": {
       "titulo": "Vaovao momba ny tontolo iainana",
@@ -138,6 +160,31 @@
       "navegacao": "Fitetezana",
       "contato": "Fifandraisana",
       "copyright": "© 2026 Carbono Consciente. Voatahiry ny zo rehetra."
+    },
+    "planta": {
+      "aria_svg": "Zavamaniry izay mitombo ho hazo arakaraka ny fahasalaman'ny fomba fiasanao amin'ny fifindra-monina",
+      "carregando_placeholder": "Mandefa ny zavamaniryanao...",
+      "aria_arvore": "Hazo. Tsindrio mba hamboly indray",
+      "dica_replantar": "Tsindrio ny hazo mba hamboly indray",
+      "legenda_0": "Mamboly ny voanao...",
+      "legenda_1": "Teraka ny zana-kazo kely. Ny dia maharitra tsirairay dia manampy azy hitombo.",
+      "legenda_2": "Zana-kazo matanjaka izy izao. Mifaka ny fahazaranao.",
+      "legenda_3": "Hazo tanora feno ravina. Tohizo!",
+      "legenda_4": "Hazo be voninkazo mamirapiratra. Mahatalanjona ny fahazaranao!"
+    },
+    "estatisticas": {
+      "media_mundial": "CO₂ antonony isan'olona, eo amin'ireo firenena voakaroka",
+      "maior_emissor": "ilay mamoaka be indrindra isan'olona: {{pais}}",
+      "menor_emissor": "ilay mamoaka kely indrindra isan'olona: {{pais}}",
+      "paises_monitorados": "firenena voakaroka maneran-tany",
+      "seu_co2_semana": "ny CO₂-nao amin'ity herinandro ity",
+      "vs_media_paises": "oharina amin'ny antonony isan-kerinandron'ny firenena",
+      "ranking_mundial": "laharana tombanana eo amin'ireo firenena {{total}}",
+      "sem_dados_suficientes": "tsy ampy angon-drakitra",
+      "fallback_co2_evitado": "CO₂ antonony voasoroka isaky ny asa mifandray / isam-bolana",
+      "fallback_variacao_emissoes": "fiovan'ny taham-pamoahana CO₂ raha oharina amin'ny vanim-potoana mitovy tamin'ny taona teo aloha",
+      "fallback_abaixo_media_setor": "ambany kokoa noho ny antonony ara-sehatra, amin'ireo kaonty voakaroka",
+      "fallback_paises_ativos": "firenena manana koandrina angon-drakitra mavitrika ao amin'ny tambajotra"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "tsy misy firaketana tamin'io vanim-potoana io",
     "delta_primeiro_registro": "firaketana voalohany amin'io vanim-potoana io",
     "delta_estavel": "mitovy amin'ny vanim-potoana teo aloha",
-    "delta_variacao": "{{percentual}}% raha oharina amin'ny vanim-potoana teo aloha"
+    "delta_variacao": "{{percentual}}% raha oharina amin'ny vanim-potoana teo aloha",
+    "meios": {
+      "carro_gasolina": "Fiara (lasantsy)",
+      "carro_etanol": "Fiara (etanôla)",
+      "carro_eletrico": "Fiara (herinaratra)",
+      "motocicleta": "Môtô",
+      "onibus": "Bisy",
+      "metro_trem": "Metro/Lamasinina",
+      "bicicleta": "Bisikileta",
+      "a_pe": "An-tongotra"
+    }
   },
   "globo": {
     "legenda_titulo": "Famoahana isan-olona",

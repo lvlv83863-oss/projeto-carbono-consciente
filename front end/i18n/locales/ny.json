@@ -13,7 +13,9 @@
       "habitos": "Zizoloŵezi",
       "contato": "Lumikizanani",
       "dados": "Zambiri"
-    }
+    },
+    "logo_alt": "Chizindikiro cha Carbono Consciente",
+    "redirecionamento_html": "Kutumizanso kukuchitika... <a href=\"front%20end/html/inicial.html\">dinani pano</a> ngati simunatumizidwenso."
   },
   "header": {
     "idioma_aria": "Sinthani chinenero",
@@ -120,7 +122,27 @@
       "subtitulo": "Kodi munadziwa?",
       "carregando": "Chikukweza chinthu chodabwitsa...",
       "proxima": "Chinthu chodabwitsa chotsatira",
-      "erro_carregar": "Sizinathe kukweza zinthu zodabwitsa panopa."
+      "erro_carregar": "Sizinathe kukweza zinthu zodabwitsa panopa.",
+      "fatos": {
+        "fato1": "Mtengo wamkulu umayamwa pafupifupi makilogalamu 22 a CO₂ pachaka — ndicho chifukwa chake kubzala nkhalango kuchitika kwina ndi njira imodzi yowongoka kwambiri yolipirira mpweya wotulutsidwa.",
+        "fato2": "Nyanja zimayamwa pafupifupi gawo limodzi mwa magawo anayi a CO₂ yonse yomwe anthu amatulutsa chaka ndi chaka, zimagwira ntchito ngati chowongolera chachikulu cha nyengo yapadziko lonse.",
+        "fato3": "Kugwiritsitsa ntchito papepala tani imodzi kumasunga mitengo pafupifupi 17 ndiponso madzi ndi mphamvu zambiri poyerekeza ndi kupanga pepala latsopano.",
+        "fato4": "Mayendedwe akuyankha mlandu pa gawo limodzi mwa magawo anayi a mpweya wa CO₂ padziko lonse wokhudzana ndi mphamvu — kusintha galimoto kukhala njinga kapena mayendedwe a anthu onse paulendo wachifupi kumasiyanitsa kwenikweni.",
+        "fato5": "Amazon ndi nyumba ya pafupifupi 10% ya zamoyo zonse zodziwika padziko lapansi, ndiponso imasunga matani mabiliyoni a kaboni m'zomera zake.",
+        "fato6": "Mapaneli a dzuwa a m'nyumba angachepetse mapazi a kaboni a banja ndi matani angapo a CO₂ pachaka, kutengera mphamvu zomwe zimagwiritsidwa ntchito m'deralo.",
+        "fato7": "Zakudya zokhala ndi nyama yofiira yochepa zingathe kuchepetsa kwambiri mapazi a kaboni a munthu, chifukwa ulimi wa ng'ombe ndi umodzi mwa ntchito zaulimi zotulutsa mpweya wambiri kwambiri.",
+        "fato8": "Kusungunuka kwa madzi oundana a nyanja ku Arctic kumachepetsa mphamvu ya dziko lapansi yowonetsera kuwala kwa dzuwa kubwerera kumlengalenga, zimafulumizitsa kutentha — zotsatira izi zimadziwika kuti albedo feedback.",
+        "fato9": "Nyali za LED zimagwiritsa ntchito mphamvu zochepa mpaka 80% kuposa nyali zakale ndipo zimakhalitsa nthawi yaitali kwambiri, zimachepetsa mpweya ndi zinyalala zonse ziwiri.",
+        "fato10": "Pangano la Paris, losainidwa ndi mayiko pafupifupi 200, lili ndi cholinga choletsa kutentha kwadziko lonse kukhala pansi pa 2°C kuposa magawo omwe analipo nthawi yopanda mafakitale.",
+        "fato11": "Pafupifupi gawo limodzi mwa magawo atatu a chakudya chonse chopangidwa padziko lapansi chimawonongedwa — ndipo kuwonongekaku kokha kumatulutsa gawo lalikulu la mpweya wotenthetsa dziko padziko lonse.",
+        "fato12": "Ma turbine amakono a mphepo amatha kupanga mphamvu zokwanira kuyatsa nyumba zikwizikwi, popanda kutulutsa CO₂ pamene akugwira ntchito.",
+        "fato13": "Nthaka yathanzi imasunga kaboni yambiri kuposa zomera zonse ndi mlengalenga pamodzi — njira zaulimi zobwezeretsanso zimathandiza kusunga kaboniyi m'nthaka.",
+        "fato14": "Zisumbu za coral, ngakhale zimakuta pang'ono pa 1% ya pansi pa nyanja, zimathandizira pafupifupi 25% ya zamoyo zonse za m'nyanja zodziwika — ndipo ndi zosavuta kukhudzidwa ndi kutentha kwa madzi.",
+        "fato15": "Kuchepetsa kuwononga madzi otentha kunyumba (mwachitsanzo, kusamba mwachidule) kumachepetsanso mpweya, chifukwa kutentha madzi kumagwiritsa ntchito mphamvu.",
+        "fato16": "Magalimoto amagetsi, ngakhale tikuganizira zopanga mabatire, amatulutsa CO₂ wochepa pa moyo wawo wonse poyerekeza ndi magalimoto oyaka mafuta, makamaka pamene magetsi amachokera ku magwero oyera.",
+        "fato17": "Kukolowera zinyalala zachilengedwe kunyumba kumalepheretsa kuti zitulutse methane pamalo otayira zinyalala — mpweya wotenthetsa dziko womwe ndi wamphamvu kwambiri kuposa CO₂ mu nthawi yaifupi.",
+        "fato18": "Madzi oundana a Greenland ndi Antarctica pamodzi akhala akutaya matani mabiliyoni mazana a ayezi pachaka m'zaka zaposachedwa, zimathandizira mwachindunji kukwera kwa nyanja."
+      }
     },
     "noticias": {
       "titulo": "Nkhani za Chilengedwe",
@@ -138,6 +160,31 @@
       "navegacao": "Mayendedwe a Tsamba",
       "contato": "Lumikizanani",
       "copyright": "© 2026 Carbono Consciente. Ufulu wonse wasungidwa."
+    },
+    "planta": {
+      "aria_svg": "Chomera chomwe chimakula kukhala mtengo malinga ndi mikhalidwe yanu yoyendera",
+      "carregando_placeholder": "Chomera chanu chikutsegulidwa...",
+      "aria_arvore": "Mtengo. Dinani kuti mubzale kachiwiri",
+      "dica_replantar": "Dinani mtengo kuti mubzale kachiwiri",
+      "legenda_0": "Mukubzala mbewu yanu...",
+      "legenda_1": "Kamera kakang'ono kabadwa. Ulendo uliwonse wokhazikika umathandiza kukula kwake.",
+      "legenda_2": "Tsopano ndi mphukira yolimba. Mikhalidwe yanu ikumera mizu.",
+      "legenda_3": "Mtengo waung'ono, wodzaza ndi masamba. Pitirizani!",
+      "legenda_4": "Mtengo wobiriwira wamaluwa. Mikhalidwe yanu ndi yodabwitsa!"
+    },
+    "estatisticas": {
+      "media_mundial": "CO₂ wapakatikati pa munthu, pakati pa mayiko oyang'aniridwa",
+      "maior_emissor": "amene amatulutsa kwambiri pa munthu aliyense: {{pais}}",
+      "menor_emissor": "amene amatulutsa pang'ono pa munthu aliyense: {{pais}}",
+      "paises_monitorados": "mayiko oyang'aniridwa padziko lonse",
+      "seu_co2_semana": "CO₂ yanu sabata ino",
+      "vs_media_paises": "poyerekeza ndi avareji ya mlungu ya mayiko",
+      "ranking_mundial": "udindo woyerekezera pakati pa mayiko {{total}}",
+      "sem_dados_suficientes": "palibe deta yokwanira",
+      "fallback_co2_evitado": "CO₂ wapakatikati yemwe sanatulutsidwe pa ntchito iliyonse yolumikizidwa / mwezi",
+      "fallback_variacao_emissoes": "kutulutsa mpweya poyerekeza ndi nthawi yomweyo chaka chatha",
+      "fallback_abaixo_media_setor": "pansi pa avareji ya gawo, pakati pa maakaunti oyang'aniridwa",
+      "fallback_paises_ativos": "mayiko omwe ali ndi ma node a deta ogwira ntchito pa network"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "palibe zolembedwa mu nthawi imeneyi",
     "delta_primeiro_registro": "zolembedwa zoyamba mu nthawi imeneyi",
     "delta_estavel": "yokhazikika poyerekeza ndi nthawi yapitayo",
-    "delta_variacao": "{{percentual}}% poyerekeza ndi nthawi yapitayo"
+    "delta_variacao": "{{percentual}}% poyerekeza ndi nthawi yapitayo",
+    "meios": {
+      "carro_gasolina": "Galimoto (petulo)",
+      "carro_etanol": "Galimoto (ethanol)",
+      "carro_eletrico": "Galimoto (magetsi)",
+      "motocicleta": "Njinga yamoto",
+      "onibus": "Basi",
+      "metro_trem": "Metro/Sitima",
+      "bicicleta": "Njinga",
+      "a_pe": "Kuyenda pansi"
+    }
   },
   "globo": {
     "legenda_titulo": "Kutulutsa mpweya pa munthu aliyense",

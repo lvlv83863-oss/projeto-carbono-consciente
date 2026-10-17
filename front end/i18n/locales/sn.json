@@ -13,7 +13,9 @@
       "habitos": "Tsika",
       "contato": "Kubatana",
       "dados": "Data"
-    }
+    },
+    "logo_alt": "Mufananidzo weCarbono Consciente",
+    "redirecionamento_html": "Kuendeswa kune imwe peji kuri kuitika... <a href=\"front%20end/html/inicial.html\">dzvanya pano</a> kana ukasaendeswa."
   },
   "header": {
     "idioma_aria": "Chinja mutauro",
@@ -120,7 +122,27 @@
       "subtitulo": "Waiziva here?",
       "carregando": "Kuri kutakura chinonakidza...",
       "proxima": "Chinonakidza chinotevera",
-      "erro_carregar": "Hatina kukwanisa kutakura zvinonakidza izvozvi."
+      "erro_carregar": "Hatina kukwanisa kutakura zvinonakidza izvozvi.",
+      "fatos": {
+        "fato1": "Muti wakura unotora mukati memakore, mukirogiramu anosvika ku22 eCO₂ pagore, ndokusaka kudyarazve miti kuri imwe yenzira dzakananga dzinobatsira kuenzanisa utsi hunobuda.",
+        "fato2": "Makungwa anotora kusvika pachikamu chimwe muzvinhu zvina zveCO₂ inobudiswa nevanhu pagore rimwe nerimwe, achishanda sechinhu chikuru chinodzora mamiriro ekunze enyika yose.",
+        "fato3": "Kugadziridza tani imwe yepepa kunochengetedza miti inosvika ku17 uye mvura nemagetsi akawanda, kana zvichienzaniswa nekugadzira pepa idzva.",
+        "fato4": "Kufamba-famba (transport) ndiko kunokonzera chikamu chimwe muzvina zveCO₂ inobudiswa panyika yose ine chekuita nemagetsi — kuchinja kufamba nemota uchienda nebhasikoro kana transport yepublic parwendo rupfupi kunoita musiyano chaiwo.",
+        "fato5": "Sango reAmazon rine zvisikwa zvinosvika pa10% pezvisikwa zvose zvinozivikanwa panyika, uye rinochengeta mabhiriyoni emakarbhoni mumiti yaro.",
+        "fato6": "Mapanel ezuva pamba anogona kuderedza utsi hweimba hunosvika patani dzeCO₂ pagore, zvichienderana nekusanganiswa kwemagetsi anoshandiswa munzvimbo iyoyo.",
+        "fato7": "Kudya nyama tsvuku shoma kunogona kuderedza zvakanyanya utsi hwemunhu, sezvo kuchengeta mombe kuri chimwe chezvirimo zvinobudisa utsi hwakawandisa.",
+        "fato8": "Kunyungudika kwechando mugungwa reArctic kunoderedza masimba enyika okudzorera chiedza chezuva kudenga, zvichimhanyisa kudziya kwenyika — chinhu chinonzi 'albedo feedback'.",
+        "fato9": "Mabhandi eLED anoshandisa magetsi mashoma anosvika ku80% kudarika mabhandi akare, uye anogara kwenguva yakareba, achideredza utsi uye marara.",
+        "fato10": "Chibvumirano cheParis, chakasainwa nenyika dzinosvika ku200, chine chinangwa chekudzikisira kudziya kwenyika pasi pe2°C pamusoro pemwero wakanga uripo pamberi pemaindasitiri.",
+        "fato11": "Chikamu chimwe muzvitatu zvezvokudya zvose zvinogadzirwa panyika zvinoraswa — uye kurasa uku kwoga kunobudisa chikamu chikuru chemagasi anosvibisa mhepo panyika yose.",
+        "fato12": "Mapombi emhepo emazuva ano anogona kugadzira magetsi akakwana kupa magetsi kumba dzinosvika muzviuru, pasina kubudisa CO₂ parinenge richishanda.",
+        "fato13": "Ivhu rakanaka rinochengeta karbhoni akawanda kudarika zvisikwa zvose nemhepo zvakasanganiswa — mazano ekurima anovandudza ivhu anobatsira kuchengeta karbhoni iyoyo muvhu.",
+        "fato14": "Matombo ematanga (coral reefs), kunyangwe achifukidza pasi pe1% pasi pegungwa, anotsigira zvinosvika ku25% pezvipenyu zvose zvegungwa zvinozivikanwa — uye anonzwa kunyanya kudziya kwemvura.",
+        "fato15": "Kuderedza kurasa mvura inopisa mumba (semuenzaniso, kugezera nguva pfupi) kunodzorawo utsi, sezvo kudziisa mvura kuchishandisa magetsi.",
+        "fato16": "Mota dzemagetsi, kunyangwe tichifunga nezvekugadzirwa kwebhatiri, dzinowanzobudisa CO₂ shoma mukati meupenyu hwadzo kudarika mota dzinoshandisa mafuta, kunyanya kana magetsi achibva kuzvinhu zvisina kusvibisa.",
+        "fato17": "Kuita compost yemarara anobva kuzvipenyu mumba kunodzivirira kubudiswa kwegasi remethane kunzvimbo dzinoiswa marara — gasi rinonyanya kusvibisa mhepo kudarika CO₂ panguva pfupi.",
+        "fato18": "Chando cheGreenland neAntarctica pamwe chinorasikirwa, mumakore apfuura, nemazana emabhiriyoni etani dzechando pagore, zvichibatsira zvakananga mukukwira kwemvura yegungwa."
+      }
     },
     "noticias": {
       "titulo": "Nhau Dzezvakatipoteredza",
@@ -138,6 +160,31 @@
       "navegacao": "Kufamba-famba",
       "contato": "Kubatana",
       "copyright": "© 2026 Carbono Consciente. Kodzero dzose dzakachengetedzwa."
+    },
+    "planta": {
+      "aria_svg": "Chirimwa chinokura kuita muti zvichienderana nehutano hwetsika dzako dzokufamba",
+      "carregando_placeholder": "Chirimwa chako chiri kurodhwa...",
+      "aria_arvore": "Muti. Dzvanya kuti udyare zvakare",
+      "dica_replantar": "Dzvanya pamuti kuti udyare zvakare",
+      "legenda_0": "Mbeu yako iri kudyarwa...",
+      "legenda_1": "Chinyorokoto chidiki chakaberekwa. Rwendo rwese rwunochengetedza zvakanaka runobatsira kukura kwayo.",
+      "legenda_2": "Zvino ichi muchichi chakasimba. Tsika dzako dziri kudzika midzi.",
+      "legenda_3": "Muti muduku, wakazara mashizha. Ramba uchiita izvi!",
+      "legenda_4": "Muti wakasvibira une maruva. Tsika dzako dzinoshamisa!"
+    },
+    "estatisticas": {
+      "media_mundial": "CO₂ yepakati pamunhu, pakati penyika dzinotariswa",
+      "maior_emissor": "nyika inobudisa CO₂ zhinji pamunhu: {{pais}}",
+      "menor_emissor": "nyika inobudisa CO₂ shoma pamunhu: {{pais}}",
+      "paises_monitorados": "nyika dzinotariswa panyika yose",
+      "seu_co2_semana": "CO₂ yako vhiki rino",
+      "vs_media_paises": "zvichienzaniswa nepakati pavhiki penyika",
+      "ranking_mundial": "chinzvimbo chinofungidzirwa pakati penyika {{total}}",
+      "sem_dados_suficientes": "hapana ruzivo rwakakwana",
+      "fallback_co2_evitado": "CO₂ yepakati yakadzivirirwa pabasa rimwe rakabatanidzwa / mwedzi",
+      "fallback_variacao_emissoes": "kubuda kweCO₂ zvichienzaniswa nenguva mumwechete gore rapfuura",
+      "fallback_abaixo_media_setor": "pasi pepakati pedunhu, pakati pemaakaundi anotariswa",
+      "fallback_paises_ativos": "nyika dzine node dzeruzivo dzinoshanda panetiweki"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "hapana zvakanyorwa munguva ino",
     "delta_primeiro_registro": "chakanyorwa chekutanga munguva ino",
     "delta_estavel": "zvakamira zvakafanana nenguva yakapfuura",
-    "delta_variacao": "{{percentual}}% kubva panguva yakapfuura"
+    "delta_variacao": "{{percentual}}% kubva panguva yakapfuura",
+    "meios": {
+      "carro_gasolina": "Mota (peturo)",
+      "carro_etanol": "Mota (ethanol)",
+      "carro_eletrico": "Mota (magetsi)",
+      "motocicleta": "Bhasikoro remoto",
+      "onibus": "Bhazi",
+      "metro_trem": "Metro/Chitima",
+      "bicicleta": "Bhasikoro",
+      "a_pe": "Netsoka"
+    }
   },
   "globo": {
     "legenda_titulo": "Kubuda kwegasi pamunhu",

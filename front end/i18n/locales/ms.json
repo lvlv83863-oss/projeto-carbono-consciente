@@ -13,7 +13,9 @@
       "habitos": "Tabiat",
       "contato": "Hubungi",
       "dados": "Data"
-    }
+    },
+    "logo_alt": "Logo Carbono Consciente",
+    "redirecionamento_html": "Mengalihkan... <a href=\"front%20end/html/inicial.html\">klik di sini</a> jika anda tidak dialihkan."
   },
   "header": {
     "idioma_aria": "Tukar bahasa",
@@ -120,7 +122,27 @@
       "subtitulo": "Tahukah anda?",
       "carregando": "Memuatkan fakta...",
       "proxima": "Fakta seterusnya",
-      "erro_carregar": "Tidak dapat memuatkan fakta sekarang."
+      "erro_carregar": "Tidak dapat memuatkan fakta sekarang.",
+      "fatos": {
+        "fato1": "Sebatang pokok matang menyerap purata kira-kira 22 kg CO₂ setahun — itulah sebabnya penghutanan semula adalah salah satu cara paling langsung untuk mengimbangi pelepasan.",
+        "fato2": "Lautan menyerap kira-kira satu perempat daripada semua CO₂ yang dilepaskan oleh manusia setiap tahun, berfungsi sebagai pengawal atur iklim global yang besar.",
+        "fato3": "Mengitar semula satu tan kertas menjimatkan kira-kira 17 pokok dan sejumlah besar air serta tenaga berbanding menghasilkan kertas baharu.",
+        "fato4": "Pengangkutan bertanggungjawab untuk kira-kira satu perempat daripada pelepasan CO₂ global yang berkaitan dengan tenaga — menukar kereta kepada basikal atau pengangkutan awam untuk perjalanan pendek membuat perbezaan yang nyata.",
+        "fato5": "Amazon merupakan habitat kepada kira-kira 10% daripada semua biodiversiti dunia yang dikenali, selain menyimpan berbilion tan karbon dalam tumbuh-tumbuhannya.",
+        "fato6": "Panel solar kediaman boleh mengurangkan jejak karbon sesebuah rumah sebanyak beberapa tan CO₂ setahun, bergantung kepada gabungan tenaga tempatan.",
+        "fato7": "Diet dengan kurang daging merah boleh mengurangkan jejak karbon peribadi dengan ketara, kerana penternakan lembu merupakan antara aktiviti pertanian yang paling tinggi pelepasannya.",
+        "fato8": "Pencairan ais laut Artik mengurangkan keupayaan bumi untuk memantulkan cahaya matahari kembali ke angkasa, mempercepatkan pemanasan — kesan ini dikenali sebagai maklum balas albedo.",
+        "fato9": "Lampu LED menggunakan tenaga sehingga 80% lebih sedikit berbanding lampu mentol pijar dan tahan lebih lama, mengurangkan kedua-dua pelepasan dan sisa.",
+        "fato10": "Perjanjian Paris, ditandatangani oleh hampir 200 negara, bertujuan mengehadkan pemanasan global jauh di bawah 2°C berbanding tahap pra-perindustrian.",
+        "fato11": "Kira-kira satu pertiga daripada semua makanan yang dihasilkan di dunia dibazirkan — dan pembaziran ini sahaja menyumbang sebahagian besar pelepasan gas rumah hijau global.",
+        "fato12": "Turbin angin moden boleh menghasilkan tenaga yang cukup untuk membekalkan ribuan rumah, tanpa melepaskan CO₂ semasa operasi.",
+        "fato13": "Tanah yang sihat menyimpan lebih banyak karbon berbanding semua tumbuh-tumbuhan dan atmosfera digabungkan — amalan pertanian regeneratif membantu mengekalkan karbon tersebut di dalam tanah.",
+        "fato14": "Terumbu karang, walaupun hanya meliputi kurang daripada 1% lantai lautan, menampung kira-kira 25% daripada semua kehidupan laut yang dikenali — dan amat sensitif terhadap pemanasan air.",
+        "fato15": "Mengurangkan pembaziran air panas di rumah (contohnya mandi yang lebih singkat) juga mengurangkan pelepasan, kerana memanaskan air memerlukan tenaga.",
+        "fato16": "Kereta elektrik, walaupun mengambil kira pembuatan bateri, cenderung melepaskan CO₂ yang lebih sedikit sepanjang hayatnya berbanding kereta pembakaran, terutamanya apabila elektrik berasal daripada sumber bersih.",
+        "fato17": "Mengkomposkan sisa organik di rumah menghalang ia menghasilkan metana di tapak pelupusan — gas rumah hijau yang jauh lebih kuat daripada CO₂ dalam jangka pendek.",
+        "fato18": "Glasier Greenland dan Antartika bersama-sama kehilangan beratus-ratus bilion tan ais setahun pada tahun-tahun kebelakangan ini, menyumbang secara langsung kepada kenaikan paras laut."
+      }
     },
     "noticias": {
       "titulo": "Berita Alam Sekitar",
@@ -138,6 +160,31 @@
       "navegacao": "Navigasi",
       "contato": "Hubungi",
       "copyright": "© 2026 Carbono Consciente. Hak cipta terpelihara."
+    },
+    "planta": {
+      "aria_svg": "Tumbuhan yang membesar menjadi pokok berdasarkan kesihatan tabiat perjalanan anda",
+      "carregando_placeholder": "Memuatkan tumbuhan anda...",
+      "aria_arvore": "Pokok. Klik untuk menanam semula",
+      "dica_replantar": "Klik pada pokok untuk menanam semula",
+      "legenda_0": "Menanam benih anda...",
+      "legenda_1": "Pucuk kecil telah lahir. Setiap perjalanan lestari membantunya membesar.",
+      "legenda_2": "Kini ia menjadi anak pokok yang kukuh. Tabiat anda sedang berakar.",
+      "legenda_3": "Pokok muda, penuh dengan daun. Teruskan begini!",
+      "legenda_4": "Pokok rimbun yang sedang berbunga. Tabiat anda sangat hebat!"
+    },
+    "estatisticas": {
+      "media_mundial": "purata CO₂ setiap orang, antara negara yang dipantau",
+      "maior_emissor": "pelepas per kapita tertinggi: {{pais}}",
+      "menor_emissor": "pelepas per kapita terendah: {{pais}}",
+      "paises_monitorados": "negara yang dipantau di seluruh dunia",
+      "seu_co2_semana": "CO₂ anda minggu ini",
+      "vs_media_paises": "berbanding purata mingguan negara",
+      "ranking_mundial": "kedudukan anggaran antara {{total}} negara",
+      "sem_dados_suficientes": "data tidak mencukupi",
+      "fallback_co2_evitado": "purata CO₂ yang dielakkan bagi setiap operasi bersambung / bulan",
+      "fallback_variacao_emissoes": "pelepasan berbanding tempoh yang sama tahun lepas",
+      "fallback_abaixo_media_setor": "di bawah purata sektor, dalam akaun yang dipantau",
+      "fallback_paises_ativos": "negara dengan nod data aktif dalam rangkaian"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "tiada rekod dalam tempoh ini",
     "delta_primeiro_registro": "rekod pertama dalam tempoh ini",
     "delta_estavel": "stabil berbanding tempoh sebelumnya",
-    "delta_variacao": "{{percentual}}% berbanding tempoh sebelumnya"
+    "delta_variacao": "{{percentual}}% berbanding tempoh sebelumnya",
+    "meios": {
+      "carro_gasolina": "Kereta (petrol)",
+      "carro_etanol": "Kereta (etanol)",
+      "carro_eletrico": "Kereta (elektrik)",
+      "motocicleta": "Motosikal",
+      "onibus": "Bas",
+      "metro_trem": "Metro/Kereta Api",
+      "bicicleta": "Basikal",
+      "a_pe": "Berjalan kaki"
+    }
   },
   "globo": {
     "legenda_titulo": "Pelepasan per kapita",

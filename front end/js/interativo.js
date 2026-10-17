@@ -22,7 +22,7 @@
   }
 
   function formatarNumero(valor, casas) {
-    return valor.toLocaleString("pt-BR", { minimumFractionDigits: casas, maximumFractionDigits: casas });
+    return valor.toLocaleString(window.i18n ? window.i18n.idiomaAtual : "pt-BR", { minimumFractionDigits: casas, maximumFractionDigits: casas });
   }
 
   function animarValor(elemento, textoFinal) {

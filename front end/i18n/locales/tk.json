@@ -13,7 +13,9 @@
       "habitos": "Endikler",
       "contato": "Habarlaşmak",
       "dados": "Maglumatlar"
-    }
+    },
+    "logo_alt": "Carbono Consciente logotipi",
+    "redirecionamento_html": "Ugrukdyrylýar... <a href=\"front%20end/html/inicial.html\">şu ýere basyň</a>, eger ugrukdyrylmasaňyz."
   },
   "header": {
     "idioma_aria": "Dili üýtgetmek",
@@ -120,7 +122,27 @@
       "subtitulo": "Bilýärsiňizmi?",
       "carregando": "Gyzykly maglumat ýüklenýär...",
       "proxima": "Indiki gyzykly maglumat",
-      "erro_carregar": "Häzir gyzykly maglumatlary ýüklemek bolmady."
+      "erro_carregar": "Häzir gyzykly maglumatlary ýüklemek bolmady.",
+      "fatos": {
+        "fato1": "Ösen bir agaç ýylda ortaça 22 kg CO₂ siňdirýär — şonuň üçin tokaýlary dikeltmek zyňyndylary öwezini dolmagyň iň göni usullaryndan biridir.",
+        "fato2": "Okeanlar adamzadyň her ýyl zyňýan CO₂-niň takmynan dörtden birini siňdirip, global howanyň uly düzgünleşdirijisi hökmünde işleýär.",
+        "fato3": "Bir tonna kagyzy gaýtadan işlemek, täze kagyz öndürmek bilen deňeşdirilende takmynan 17 agajy we köp mukdarda suw hem-de energiýany tygşytlaýar.",
+        "fato4": "Ulag energiya bilen baglanyşykly global CO₂ zyňyndylarynyň takmynan dörtden birine jogapkärdir — gysga aralyklarda ulagy welosiped ýa-da jemgyýetçilik ulagy bilen çalyşmak hakyky tapawut döredýär.",
+        "fato5": "Amazonka planetadaky bellidir biologik dürlüligiň takmynan 10 göterimine eýelik edýär, şeýle-de öz ösümliklerinde milliardlarça tonna uglerody saklaýar.",
+        "fato6": "Ýaşaýyş jaýlarynda gurnalan Gün panelleri, ýerli energiýa düzümine baglylykda, bir hojalygyň uglerod yzyny ýylda birnäçe tonna CO₂ azaldyp bilýär.",
+        "fato7": "Az gyzyl et bolan iýmitlenme şahsy uglerod yzyny ep-esli azaldyp bilýär, sebäbi iri mal maldarçylygy iň köp zyňyndy çykarýan oba hojalyk işlerinden biridir.",
+        "fato8": "Arktikada deňiz buzunyň erän zaman, planetanyň Gün şöhlesini kosmosa gaýtaryp beriş ukybyny azaldýar we maýlamagy çaltlandyrýar — bu täsir albedo gaýtadan baglanyşygy diýlip atlandyrylýar.",
+        "fato9": "LED lampalar ýanýan lampalardan 80 göterime çenli az energiýa sarp edýär we has uzak hyzmat edýär, bu bolsa zyňyndylary we zibilleri azaldýar.",
+        "fato10": "Takmynan 200 ýurt tarapyndan gol çekilen Pariž ylalaşygy, global maýlamagy senagatdan öňki derejeden 2°C-den has pes derejede çäklendirmegi maksat edinýär.",
+        "fato11": "Dünýäde öndürilen iýmitiň takmynan üçden biri zaýa bolýar — we bu ýeke-täk zaýaçylyk global parnik gazlarynyň zyňyndylarynyň ep-esli bölegini döredýär.",
+        "fato12": "Häzirki zaman ýel turbinalary, işleýän wagtynda CO₂ zyňmazdan, müňlerçe öýi üpjün etmek üçin ýeterlik energiýa öndürip bilýär.",
+        "fato13": "Sagdyn topragy ähli ösümlikler we atmosferanyň jemine garanda has köp uglerody saklaýar — dikeldiş oba hojalyk tejribeleri bu uglerody ýerde saklamaga kömek edýär.",
+        "fato14": "Mellek gaýalary (korallar) okean düýbüniň 1 göteriminden azyny tutsa-da, bellidir deňiz ýaşaýşynyň takmynan 25 göterimini goldaýar — we suwuň maýlamagyna örän duýgur.",
+        "fato15": "Öýde yssy suwuň zaýa bolmagyny azaltmak (mysal üçin, gysga duş almak) hem zyňyndylary azaldýar, sebäbi suwy gyzdyrmak energiýa talap edýär.",
+        "fato16": "Elektrik ulaglary, batareýa önümçiligini hasaba alanda-da, aýratynda elektrik energiýasy arassa çeşmelerden gelende, içki ýanyş motorly ulaglardan bütin hyzmat möhletinde az CO₂ zyňýar.",
+        "fato17": "Öýde organiki galyndylary kompostlamak, olaryň zibil taşlanýan ýerlerde metan emele getirmeginiň öňüni alýar — bu gysga möhletde CO₂-den has güýçli parnik gazydyr.",
+        "fato18": "Grenlandiýa we Antarktidanyň buzluklary soňky ýyllarda bilelikde ýylda ýüzlerçe milliard tonna buzy ýitirýär, bu bolsa deňiz derejesiniň ýokarlanmagyna gönüden-göni goşant goşýar."
+      }
     },
     "noticias": {
       "titulo": "Daşky gurşaw habarlary",
@@ -138,6 +160,31 @@
       "navegacao": "Nawigasiýa",
       "contato": "Habarlaşmak",
       "copyright": "© 2026 Carbono Consciente. Ähli hukuklar goralan."
+    },
+    "planta": {
+      "aria_svg": "Hereket endikleriniň sagdynlygyna görä aga öwrülip ösýän ösümlik",
+      "carregando_placeholder": "Ösümliginiz ýüklenýär...",
+      "aria_arvore": "Agaç. Täzeden ekmek üçin basyň",
+      "dica_replantar": "Täzeden ekmek üçin agaja basyň",
+      "legenda_0": "Tohumyňyz ekilýär...",
+      "legenda_1": "Kiçijik gögeriş döredi. Her durnukly syýahat onuň ösmegine kömek edýär.",
+      "legenda_2": "Indi ol berk bir şitil. Endikleriňiz kök urýar.",
+      "legenda_3": "Ýapraklara doly ýaş agaç. Şeýle dowam ediň!",
+      "legenda_4": "Gülleýän şahana agaç. Endikleriňiz ajaýyp!"
+    },
+    "estatisticas": {
+      "media_mundial": "gözegçilik edilýän ýurtlaryň arasynda adam başyna ortaça CO₂",
+      "maior_emissor": "jan başyna iň köp zyňyndy çykarýan: {{pais}}",
+      "menor_emissor": "jan başyna iň az zyňyndy çykarýan: {{pais}}",
+      "paises_monitorados": "dünýäde gözegçilik edilýän ýurtlar",
+      "seu_co2_semana": "şu hepdedäki CO₂-ňiz",
+      "vs_media_paises": "ýurtlaryň hepdelik ortaçasy bilen deňeşdirilende",
+      "ranking_mundial": "{{total}} ýurduň arasynda çaklanylýan orun",
+      "sem_dados_suficientes": "ýeterlik maglumat ýok",
+      "fallback_co2_evitado": "birikdirilen amal / aýda öňüni alnan ortaça CO₂",
+      "fallback_variacao_emissoes": "geçen ýylyň şol döwri bilen deňeşdirilen zyňyndylar",
+      "fallback_abaixo_media_setor": "gözegçilik edilýän hasaplaryň arasynda pudagyň ortaçasyndan pes",
+      "fallback_paises_ativos": "ulgamda işjeň maglumat düwünleri bolan ýurtlar"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "bu döwürde ýazgy ýok",
     "delta_primeiro_registro": "bu döwürdäki ilkinji ýazgy",
     "delta_estavel": "öňki döwre garanyňda durnukly",
-    "delta_variacao": "öňki döwre garanyňda {{percentual}}%"
+    "delta_variacao": "öňki döwre garanyňda {{percentual}}%",
+    "meios": {
+      "carro_gasolina": "Awtoulag (benzin)",
+      "carro_etanol": "Awtoulag (etanol)",
+      "carro_eletrico": "Awtoulag (elektrikli)",
+      "motocicleta": "Motosikl",
+      "onibus": "Awtobus",
+      "metro_trem": "Metro/Otly",
+      "bicicleta": "Welosiped",
+      "a_pe": "Pyýada"
+    }
   },
   "globo": {
     "legenda_titulo": "Jan başyna zyňyndylar",

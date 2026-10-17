@@ -7,6 +7,8 @@
     "sair_link": "keluar",
     "painel_link": "dasbor",
     "fechar": "Tutup",
+    "logo_alt": "Logo Carbono Consciente",
+    "redirecionamento_html": "Mengalihkan... <a href=\"front%20end/html/inicial.html\">klik di sini</a> jika Anda tidak dialihkan.",
     "nav": {
       "plataforma": "Platform",
       "impacto": "Dampak",
@@ -120,7 +122,27 @@
       "subtitulo": "Tahukah kamu?",
       "carregando": "Memuat fakta menarik...",
       "proxima": "Fakta berikutnya",
-      "erro_carregar": "Fakta menarik belum bisa dimuat saat ini."
+      "erro_carregar": "Fakta menarik belum bisa dimuat saat ini.",
+      "fatos": {
+        "fato1": "Sebatang pohon dewasa menyerap rata-rata sekitar 22 kg CO₂ per tahun — itulah sebabnya reboisasi adalah salah satu cara paling langsung untuk mengimbangi emisi.",
+        "fato2": "Lautan menyerap sekitar seperempat dari semua CO₂ yang dihasilkan manusia setiap tahun, berfungsi sebagai pengatur besar iklim global.",
+        "fato3": "Mendaur ulang satu ton kertas menghemat sekitar 17 pohon serta sejumlah besar air dan energi dibandingkan memproduksi kertas baru.",
+        "fato4": "Transportasi bertanggung jawab atas sekitar seperempat emisi CO₂ global yang terkait energi — mengganti mobil dengan sepeda atau transportasi umum untuk jarak pendek membuat perbedaan nyata.",
+        "fato5": "Amazon menjadi rumah bagi sekitar 10% dari seluruh keanekaragaman hayati yang dikenal di planet ini, serta menyimpan miliaran ton karbon dalam vegetasinya.",
+        "fato6": "Panel surya rumahan dapat mengurangi jejak karbon sebuah rumah hingga beberapa ton CO₂ per tahun, tergantung pada matriks energi setempat.",
+        "fato7": "Diet dengan lebih sedikit daging merah dapat secara signifikan mengurangi jejak karbon pribadi, karena peternakan sapi adalah salah satu aktivitas pertanian dengan emisi paling intensif.",
+        "fato8": "Mencairnya es laut Arktik mengurangi kemampuan planet untuk memantulkan cahaya matahari kembali ke angkasa, mempercepat pemanasan — efek yang dikenal sebagai umpan balik albedo.",
+        "fato9": "Lampu LED mengonsumsi energi hingga 80% lebih sedikit daripada lampu pijar dan bertahan jauh lebih lama, mengurangi emisi maupun limbah.",
+        "fato10": "Perjanjian Paris, yang ditandatangani oleh hampir 200 negara, bertujuan membatasi pemanasan global jauh di bawah 2°C di atas tingkat pra-industri.",
+        "fato11": "Sekitar sepertiga dari semua makanan yang diproduksi di dunia terbuang — dan pemborosan ini saja menghasilkan sebagian besar emisi gas rumah kaca global.",
+        "fato12": "Turbin angin modern dapat menghasilkan energi yang cukup untuk memasok ribuan rumah tangga, tanpa mengeluarkan CO₂ selama pengoperasian.",
+        "fato13": "Tanah yang sehat menyimpan lebih banyak karbon daripada seluruh vegetasi dan atmosfer jika digabungkan — praktik pertanian regeneratif membantu menjaga karbon tersebut tetap di dalam tanah.",
+        "fato14": "Terumbu karang, meski menutupi kurang dari 1% dasar laut, menopang sekitar 25% dari seluruh kehidupan laut yang dikenal — dan sangat sensitif terhadap pemanasan air.",
+        "fato15": "Mengurangi pemborosan air panas di rumah (misalnya, mandi lebih singkat) juga mengurangi emisi, karena memanaskan air membutuhkan energi.",
+        "fato16": "Mobil listrik, bahkan dengan memperhitungkan produksi baterainya, cenderung menghasilkan lebih sedikit CO₂ sepanjang masa pakainya dibandingkan mobil berbahan bakar bensin, terutama jika listriknya berasal dari sumber bersih.",
+        "fato17": "Mengompos sampah organik di rumah mencegahnya menghasilkan metana di tempat pembuangan akhir — gas rumah kaca yang jauh lebih kuat daripada CO₂ dalam jangka pendek.",
+        "fato18": "Gletser Greenland dan Antartika bersama-sama kehilangan, dalam beberapa tahun terakhir, ratusan miliar ton es per tahun, yang berkontribusi langsung pada naiknya permukaan laut."
+      }
     },
     "noticias": {
       "titulo": "Berita Lingkungan",
@@ -138,6 +160,31 @@
       "navegacao": "Navigasi",
       "contato": "Kontak",
       "copyright": "© 2026 Carbono Consciente. Seluruh hak dilindungi."
+    },
+    "planta": {
+      "aria_svg": "Tanaman yang tumbuh menjadi pohon sesuai kesehatan kebiasaan perjalanan Anda",
+      "carregando_placeholder": "Memuat tanaman Anda...",
+      "aria_arvore": "Pohon. Klik untuk menanam lagi",
+      "dica_replantar": "Klik pohonnya untuk menanam lagi",
+      "legenda_0": "Menanam benih Anda...",
+      "legenda_1": "Kecambah kecil telah muncul. Setiap perjalanan ramah lingkungan membantunya tumbuh.",
+      "legenda_2": "Kini sudah menjadi bibit yang kokoh. Kebiasaan Anda mulai berakar.",
+      "legenda_3": "Pohon muda yang penuh dedaunan. Pertahankan!",
+      "legenda_4": "Pohon rimbun yang sedang berbunga. Kebiasaan Anda luar biasa!"
+    },
+    "estatisticas": {
+      "media_mundial": "CO₂ rata-rata per orang, di antara negara yang dipantau",
+      "maior_emissor": "pengemisi per kapita tertinggi: {{pais}}",
+      "menor_emissor": "pengemisi per kapita terendah: {{pais}}",
+      "paises_monitorados": "negara yang dipantau di seluruh dunia",
+      "seu_co2_semana": "CO₂ Anda minggu ini",
+      "vs_media_paises": "dibandingkan rata-rata mingguan negara-negara",
+      "ranking_mundial": "perkiraan peringkat di antara {{total}} negara",
+      "sem_dados_suficientes": "data belum cukup",
+      "fallback_co2_evitado": "rata-rata CO₂ yang dihindari per operasi terhubung / bulan",
+      "fallback_variacao_emissoes": "emisi vs. periode yang sama tahun lalu",
+      "fallback_abaixo_media_setor": "di bawah rata-rata sektor, pada akun yang dipantau",
+      "fallback_paises_ativos": "negara dengan node data aktif di jaringan"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "tidak ada catatan pada periode ini",
     "delta_primeiro_registro": "catatan pertama pada periode ini",
     "delta_estavel": "stabil dibanding periode sebelumnya",
-    "delta_variacao": "{{percentual}}% dibanding periode sebelumnya"
+    "delta_variacao": "{{percentual}}% dibanding periode sebelumnya",
+    "meios": {
+      "carro_gasolina": "Mobil (bensin)",
+      "carro_etanol": "Mobil (etanol)",
+      "carro_eletrico": "Mobil (listrik)",
+      "motocicleta": "Motor",
+      "onibus": "Bus",
+      "metro_trem": "MRT/Kereta",
+      "bicicleta": "Sepeda",
+      "a_pe": "Jalan kaki"
+    }
   },
   "globo": {
     "legenda_titulo": "Emisi per kapita",

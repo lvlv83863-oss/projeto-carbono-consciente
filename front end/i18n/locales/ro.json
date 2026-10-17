@@ -13,7 +13,9 @@
       "habitos": "Obiceiuri",
       "contato": "Contact",
       "dados": "Date"
-    }
+    },
+    "logo_alt": "Logo Carbono Consciente",
+    "redirecionamento_html": "Redirecționare... <a href=\"front%20end/html/inicial.html\">apasă aici</a> dacă nu ești redirecționat."
   },
   "header": {
     "idioma_aria": "Schimbă limba",
@@ -120,7 +122,27 @@
       "subtitulo": "Ai știut?",
       "carregando": "Se încarcă o curiozitate...",
       "proxima": "Următoarea curiozitate",
-      "erro_carregar": "Nu s-au putut încărca curiozitățile acum."
+      "erro_carregar": "Nu s-au putut încărca curiozitățile acum.",
+      "fatos": {
+        "fato1": "Un copac matur absoarbe, în medie, circa 22 kg de CO₂ pe an — de aceea împădurirea este una dintre cele mai directe modalități de a compensa emisiile.",
+        "fato2": "Oceanele absorb aproximativ un sfert din tot CO₂-ul emis de omenire în fiecare an, funcționând ca un imens regulator al climei globale.",
+        "fato3": "Recicarea unei tone de hârtie economisește circa 17 copaci și o cantitate semnificativă de apă și energie, comparativ cu producerea hârtiei noi.",
+        "fato4": "Transportul este responsabil pentru aproximativ un sfert din emisiile globale de CO₂ legate de energie — înlocuirea mașinii cu bicicleta sau transportul public pe distanțe scurte face o diferență reală.",
+        "fato5": "Amazonia găzduiește circa 10% din toată biodiversitatea cunoscută a planetei, pe lângă faptul că stochează miliarde de tone de carbon în vegetația sa.",
+        "fato6": "Panourile solare rezidențiale pot reduce amprenta de carbon a unei gospodării cu tone de CO₂ pe an, în funcție de mixul energetic local.",
+        "fato7": "O dietă cu mai puțină carne roșie poate reduce semnificativ amprenta de carbon personală, întrucât creșterea bovinelor este una dintre cele mai intensive activități agricole în privința emisiilor.",
+        "fato8": "Topirea gheții marine din Arctica reduce capacitatea planetei de a reflecta lumina solară înapoi în spațiu, accelerând încălzirea — un efect cunoscut ca feedback-ul albedo.",
+        "fato9": "Becurile LED consumă cu până la 80% mai puțină energie decât cele incandescente și durează mult mai mult, reducând atât emisiile, cât și deșeurile.",
+        "fato10": "Acordul de la Paris, semnat de aproape 200 de țări, are ca obiectiv limitarea încălzirii globale la mult sub 2°C peste nivelurile preindustriale.",
+        "fato11": "Aproximativ o treime din toate alimentele produse în lume sunt irosite — iar această risipă generează, singură, o parte semnificativă din emisiile globale de gaze cu efect de seră.",
+        "fato12": "Turbinele eoliene moderne pot genera suficientă energie pentru a alimenta mii de locuințe, fără a emite CO₂ în timpul funcționării.",
+        "fato13": "Solul sănătos stochează mai mult carbon decât toată vegetația și atmosfera la un loc — practicile agricole regenerative ajută la păstrarea acestui carbon în sol.",
+        "fato14": "Recifele de corali, în ciuda faptului că acoperă mai puțin de 1% din fundul oceanic, susțin circa 25% din toată viața marină cunoscută — și sunt extrem de sensibile la încălzirea apelor.",
+        "fato15": "Reducerea risipei de apă caldă în casă (dușuri mai scurte, de exemplu) reduce de asemenea emisiile, întrucât încălzirea apei consumă energie.",
+        "fato16": "Mașinile electrice, chiar luând în calcul fabricarea bateriei, tind să emită mai puțin CO₂ pe durata de viață decât mașinile cu combustie, mai ales acolo unde electricitatea provine din surse curate.",
+        "fato17": "Compostarea deșeurilor organice acasă previne producerea de metan în gropile de gunoi — un gaz cu efect de seră mult mai puternic decât CO₂ pe termen scurt.",
+        "fato18": "Ghețarii din Groenlanda și Antarctica pierd împreună, în ultimii ani, sute de miliarde de tone de gheață pe an, contribuind direct la creșterea nivelului mării."
+      }
     },
     "noticias": {
       "titulo": "Știri despre mediu",
@@ -138,6 +160,31 @@
       "navegacao": "Navigare",
       "contato": "Contact",
       "copyright": "© 2026 Carbono Consciente. Toate drepturile rezervate."
+    },
+    "planta": {
+      "aria_svg": "Plantă care crește într-un copac în funcție de sănătatea obiceiurilor tale de deplasare",
+      "carregando_placeholder": "Se încarcă planta ta...",
+      "aria_arvore": "Copac. Apasă pentru a planta din nou",
+      "dica_replantar": "Apasă pe copac pentru a-l planta din nou",
+      "legenda_0": "Se plantează sămânța ta...",
+      "legenda_1": "S-a născut un mic lăstar. Fiecare călătorie sustenabilă îl ajută să crească.",
+      "legenda_2": "Acum este un puiet puternic. Obiceiurile tale prind rădăcini.",
+      "legenda_3": "Un copac tânăr, plin de frunze. Continuă așa!",
+      "legenda_4": "Un copac bogat, înflorit. Obiceiurile tale sunt uimitoare!"
+    },
+    "estatisticas": {
+      "media_mundial": "CO₂ mediu per persoană, între țările monitorizate",
+      "maior_emissor": "cel mai mare emițător per capita: {{pais}}",
+      "menor_emissor": "cel mai mic emițător per capita: {{pais}}",
+      "paises_monitorados": "țări monitorizate pe glob",
+      "seu_co2_semana": "CO₂-ul tău în această săptămână",
+      "vs_media_paises": "comparat cu media săptămânală a țărilor",
+      "ranking_mundial": "poziție estimată între {{total}} țări",
+      "sem_dados_suficientes": "date insuficiente",
+      "fallback_co2_evitado": "CO₂ mediu evitat per operațiune conectată / lună",
+      "fallback_variacao_emissoes": "emisii vs. aceeași perioadă a anului trecut",
+      "fallback_abaixo_media_setor": "sub media sectorului, în conturile monitorizate",
+      "fallback_paises_ativos": "țări cu noduri de date active în rețea"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "fără înregistrări în această perioadă",
     "delta_primeiro_registro": "prima înregistrare din această perioadă",
     "delta_estavel": "stabil față de perioada anterioară",
-    "delta_variacao": "{{percentual}}% față de perioada anterioară"
+    "delta_variacao": "{{percentual}}% față de perioada anterioară",
+    "meios": {
+      "carro_gasolina": "Mașină (benzină)",
+      "carro_etanol": "Mașină (etanol)",
+      "carro_eletrico": "Mașină (electrică)",
+      "motocicleta": "Motocicletă",
+      "onibus": "Autobuz",
+      "metro_trem": "Metrou/Tren",
+      "bicicleta": "Bicicletă",
+      "a_pe": "Pe jos"
+    }
   },
   "globo": {
     "legenda_titulo": "Emisii pe cap de locuitor",

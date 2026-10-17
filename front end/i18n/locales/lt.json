@@ -13,7 +13,9 @@
       "habitos": "Įpročiai",
       "contato": "Kontaktai",
       "dados": "Duomenys"
-    }
+    },
+    "logo_alt": "Carbono Consciente logotipas",
+    "redirecionamento_html": "Nukreipiama... <a href=\"front%20end/html/inicial.html\">spustelėkite čia</a>, jei nesate nukreipiami."
   },
   "header": {
     "idioma_aria": "Keisti kalbą",
@@ -120,7 +122,27 @@
       "subtitulo": "Ar žinojote?",
       "carregando": "Kraunamas smagus faktas...",
       "proxima": "Kitas smagus faktas",
-      "erro_carregar": "Dabar nepavyko įkelti smagių faktų."
+      "erro_carregar": "Dabar nepavyko įkelti smagių faktų.",
+      "fatos": {
+        "fato1": "Suaugęs medis per metus sugeria vidutiniškai apie 22 kg CO₂ — todėl miškų atkūrimas yra vienas iš tiesiausių būdų kompensuoti išmetamas dujas.",
+        "fato2": "Vandenynai kasmet sugeria apie ketvirtadalį viso žmonijos išmetamo CO₂, veikdami kaip didžiulis pasaulio klimato reguliatorius.",
+        "fato3": "Vienos tonos popieriaus perdirbimas sutaupo apie 17 medžių ir nemažą kiekį vandens bei energijos, lyginant su naujo popieriaus gamyba.",
+        "fato4": "Transportas yra atsakingas už apie ketvirtadalį pasaulio su energija susijusių CO₂ išmetimų — automobilio keitimas dviračiu ar viešuoju transportu trumpuose kelionėse padaro realų skirtumą.",
+        "fato5": "Amazonijoje yra apie 10 % visos žinomos planetos biologinės įvairovės, o jos augmenijoje kaupiama milijardai tonų anglies.",
+        "fato6": "Namų ūkių saulės baterijos gali sumažinti namų ūkio anglies pėdsaką keliomis tonomis CO₂ per metus, atsižvelgiant į vietinį energijos derinį.",
+        "fato7": "Mityba su mažiau raudonos mėsos gali reikšmingai sumažinti asmeninį anglies pėdsaką, nes galvijininkystė yra viena iš labiausiai dujas išmetančių žemės ūkio veiklų.",
+        "fato8": "Arkties jūros ledo tirpimas mažina planetos gebėjimą atspindėti saulės šviesą atgal į kosmosą, taip paspartindamas atšilimą — šis efektas žinomas kaip albedo grįžtamasis ryšys.",
+        "fato9": "LED lemputės naudoja iki 80 % mažiau energijos nei kaitrinės lemputės ir tarnauja kur kas ilgiau, mažinant tiek emisijas, tiek atliekas.",
+        "fato10": "Paryžiaus susitarimas, kurį pasirašė beveik 200 šalių, siekia apriboti pasaulinį atšilimą gerokai mažiau nei 2 °C virš ikiindustrinio lygio.",
+        "fato11": "Apie trečdalis viso pasaulyje pagaminto maisto yra išmetama — ir vien šis švaistymas sukelia reikšmingą dalį pasaulio šiltnamio efektą sukeliančių dujų emisijų.",
+        "fato12": "Modernios vėjo turbinos gali pagaminti pakankamai energijos tūkstančiams namų ūkių, veikimo metu neišmesdamos CO₂.",
+        "fato13": "Sveika dirva sukaupia daugiau anglies nei visa augalija ir atmosfera kartu – regeneracinio ūkininkavimo praktikos padeda šią anglį išlaikyti dirvoje.",
+        "fato14": "Koralų rifai, nors ir užima mažiau nei 1 % vandenyno dugno, išlaiko apie 25 % visos žinomos jūrų gyvybės — ir yra itin jautrūs vandens atšilimui.",
+        "fato15": "Karšto vandens švaistymo namuose mažinimas (pavyzdžiui, trumpesnis dušas) taip pat mažina emisijas, nes vandens šildymui reikia energijos.",
+        "fato16": "Elektromobiliai, net atsižvelgiant į baterijos gamybą, per savo tarnavimo laiką dažniausiai išmeta mažiau CO₂ nei degalais varomi automobiliai, ypač kai elektra gaunama iš švarių šaltinių.",
+        "fato17": "Organinių atliekų kompostavimas namuose apsaugo, kad jos nesukeltų metano sąvartynuose — šiltnamio efektą sukeliančios dujos, kuri trumpuoju laikotarpiu yra daug stipresnė nei CO₂.",
+        "fato18": "Grenlandijos ir Antarktidos ledynai pastaraisiais metais kartu per metus praranda šimtus milijardų tonų ledo, tiesiogiai prisidedant prie jūros lygio kilimo."
+      }
     },
     "noticias": {
       "titulo": "Aplinkosaugos naujienos",
@@ -138,6 +160,31 @@
       "navegacao": "Navigacija",
       "contato": "Kontaktai",
       "copyright": "© 2026 Carbono Consciente. Visos teisės saugomos."
+    },
+    "planta": {
+      "aria_svg": "Augalas, kuris, atsižvelgiant į jūsų kelionių įpročių sveikumą, išauga į medį",
+      "carregando_placeholder": "Kraunamas jūsų augalas...",
+      "aria_arvore": "Medis. Spustelėkite, kad pasodintumėte iš naujo",
+      "dica_replantar": "Spustelėkite medį, kad pasodintumėte iš naujo",
+      "legenda_0": "Sodinate savo sėklą...",
+      "legenda_1": "Gimė mažas daigelis. Kiekviena tvari kelionė padeda jam augti.",
+      "legenda_2": "Dabar tai tvirtas sodinukas. Jūsų įpročiai leidžia šaknis.",
+      "legenda_3": "Jaunas medis, pilnas lapų. Tęskite taip!",
+      "legenda_4": "Prabangus žydintis medis. Jūsų įpročiai nuostabūs!"
+    },
+    "estatisticas": {
+      "media_mundial": "vidutinis CO₂ vienam žmogui, tarp stebimų šalių",
+      "maior_emissor": "didžiausias išmetėjas vienam gyventojui: {{pais}}",
+      "menor_emissor": "mažiausias išmetėjas vienam gyventojui: {{pais}}",
+      "paises_monitorados": "stebimos šalys pasaulyje",
+      "seu_co2_semana": "jūsų CO₂ šią savaitę",
+      "vs_media_paises": "lyginant su šalių savaitiniu vidurkiu",
+      "ranking_mundial": "numatoma vieta tarp {{total}} šalių",
+      "sem_dados_suficientes": "nepakanka duomenų",
+      "fallback_co2_evitado": "vidutiniškai išvengta CO₂ vienai prijungtai operacijai / mėnesį",
+      "fallback_variacao_emissoes": "išmetimai, lyginant su tuo pačiu praėjusių metų laikotarpiu",
+      "fallback_abaixo_media_setor": "žemiau sektoriaus vidurkio, stebimose sąskaitose",
+      "fallback_paises_ativos": "šalys su aktyviais duomenų mazgais tinkle"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "šiuo laikotarpiu įrašų nėra",
     "delta_primeiro_registro": "pirmas įrašas šiuo laikotarpiu",
     "delta_estavel": "stabilu lyginant su ankstesniu laikotarpiu",
-    "delta_variacao": "{{percentual}}% lyginant su ankstesniu laikotarpiu"
+    "delta_variacao": "{{percentual}}% lyginant su ankstesniu laikotarpiu",
+    "meios": {
+      "carro_gasolina": "Automobilis (benzinas)",
+      "carro_etanol": "Automobilis (etanolis)",
+      "carro_eletrico": "Automobilis (elektra)",
+      "motocicleta": "Motociklas",
+      "onibus": "Autobusas",
+      "metro_trem": "Metro/Traukinys",
+      "bicicleta": "Dviratis",
+      "a_pe": "Pėsčiomis"
+    }
   },
   "globo": {
     "legenda_titulo": "Išmetimai vienam gyventojui",

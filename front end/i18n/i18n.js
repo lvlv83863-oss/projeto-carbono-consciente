@@ -32,12 +32,14 @@
 
   const CHAVE_LOCALSTORAGE = "carbono-idioma";
   const IDIOMA_PADRAO = "pt";
-  const CAMINHO_BASE = (function () {
-    // i18n.js vive em "front end/i18n/"; as páginas vivem em
-    // "front end/html/" — então os caminhos relativos a partir daqui
-    // precisam subir um nível, igual os outros scripts já fazem com "../".
-    return "../i18n/locales/";
-  })();
+  // i18n.js vive em "front end/i18n/"; as páginas em "front end/html/" usam
+  // o padrão "../" (sobem um nível) pra chegar em "front end/". A única
+  // exceção é o index.html da raiz do projeto, que fica um nível ACIMA de
+  // "front end/" — ele define window.I18N_PREFIXO = "front end/" antes de
+  // carregar este script, pra apontar os mesmos três fetches pro lugar certo
+  // sem duplicar o motor de tradução numa cópia só pra essa página.
+  const PREFIXO = window.I18N_PREFIXO || "../";
+  const CAMINHO_BASE = PREFIXO + "i18n/locales/";
 
   let idiomaAtual = IDIOMA_PADRAO;
   let dicionarioAtual = {};
@@ -179,12 +181,12 @@
 
   async function iniciar() {
     try {
-      idiomasDisponiveis = await buscarJson("../i18n/idiomas.json");
+      idiomasDisponiveis = await buscarJson(PREFIXO + "i18n/idiomas.json");
     } catch {
       idiomasDisponiveis = { pt: { rtl: false, tier: 1 }, en: { rtl: false, tier: 1 } };
     }
     try {
-      window.__paisIdioma = await buscarJson("../data/pais-idioma.json");
+      window.__paisIdioma = await buscarJson(PREFIXO + "data/pais-idioma.json");
     } catch {
       window.__paisIdioma = {};
     }

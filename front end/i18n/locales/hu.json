@@ -7,6 +7,8 @@
     "sair_link": "kijelentkezés",
     "painel_link": "irányítópult",
     "fechar": "Bezárás",
+    "logo_alt": "Carbono Consciente logó",
+    "redirecionamento_html": "Átirányítás... <a href=\"front%20end/html/inicial.html\">kattints ide</a>, ha nem irányítottak át.",
     "nav": {
       "plataforma": "Platform",
       "impacto": "Hatás",
@@ -120,7 +122,27 @@
       "subtitulo": "Tudtad?",
       "carregando": "Érdekesség betöltése...",
       "proxima": "Következő érdekesség",
-      "erro_carregar": "Jelenleg nem sikerült betölteni az érdekességeket."
+      "erro_carregar": "Jelenleg nem sikerült betölteni az érdekességeket.",
+      "fatos": {
+        "fato1": "Egy felnőtt fa átlagosan évente körülbelül 22 kg CO₂-t nyel el — ezért az erdőtelepítés az egyik legegyszerűbb módja a kibocsátás kompenzálásának.",
+        "fato2": "Az óceánok évente az emberiség által kibocsátott CO₂ körülbelül egynegyedét nyelik el, így a globális éghajlat egyik legfontosabb szabályozójaként működnek.",
+        "fato3": "Egy tonna papír újrahasznosítása körülbelül 17 fát takarít meg, valamint jelentős mennyiségű vizet és energiát az új papír előállításához képest.",
+        "fato4": "A közlekedés felelős a globális, energiával összefüggő CO₂-kibocsátás körülbelül egynegyedéért — rövid utakon az autó helyett kerékpár vagy tömegközlekedés használata valódi különbséget jelent.",
+        "fato5": "Az Amazonas a bolygó ismert biodiverzitásának körülbelül 10%-ának ad otthont, és vegetációjában milliárd tonna szén-dioxidot tárol.",
+        "fato6": "A háztartási napelemek a helyi energiamixtől függően évente akár több tonna CO₂-vel is csökkenthetik egy háztartás karbonlábnyomát.",
+        "fato7": "A kevesebb vörös húst tartalmazó étrend jelentősen csökkentheti a személyes karbonlábnyomot, mivel a szarvasmarha-tartás az egyik legkibocsátás-intenzívebb mezőgazdasági tevékenység.",
+        "fato8": "Az Északi-sark tengeri jegének olvadása csökkenti a bolygó azon képességét, hogy a napfényt visszatükrözze az űrbe, ami felgyorsítja a felmelegedést — ezt a hatást albedó-visszacsatolásnak nevezik.",
+        "fato9": "A LED-lámpák akár 80%-kal kevesebb energiát használnak, mint a hagyományos izzók, és sokkal tovább tartanak, így csökkentik a kibocsátást és a hulladékot is.",
+        "fato10": "A Párizsi Megállapodást, amelyet csaknem 200 ország írt alá, célja, hogy a globális felmelegedést az iparosodás előtti szint fölött jóval 2°C alatt tartsa.",
+        "fato11": "A világon megtermelt élelmiszer körülbelül egyharmada kárba megy — és ez a hulladék önmagában is jelentős részét adja a globális üvegházhatású gázok kibocsátásának.",
+        "fato12": "A modern szélturbinák elegendő energiát tudnak előállítani ahhoz, hogy több ezer otthont ellássanak, működés közben CO₂-kibocsátás nélkül.",
+        "fato13": "Az egészséges talaj több szenet tárol, mint az összes növényzet és a légkör együtt — a regeneratív gazdálkodási módszerek segítenek ezt a szenet a földben tartani.",
+        "fato14": "A korallzátonyok, bár az óceán fenekének kevesebb mint 1%-át fedik, az ismert tengeri élet körülbelül 25%-ának adnak otthont — és rendkívül érzékenyek a vizek felmelegedésére.",
+        "fato15": "Az otthoni melegvíz-fogyasztás csökkentése (például rövidebb zuhanyzással) is csökkenti a kibocsátást, mivel a víz melegítése energiát igényel.",
+        "fato16": "Az elektromos autók, még az akkumulátor gyártását is figyelembe véve, élettartamuk alatt általában kevesebb CO₂-t bocsátanak ki, mint a belső égésű motoros autók, különösen ott, ahol az elektromos áram tiszta forrásokból származik.",
+        "fato17": "Az otthoni szerves hulladék komposztálása megakadályozza, hogy az hulladéklerakókban metánt termeljen — ez egy üvegházhatású gáz, amely rövid távon sokkal erősebb hatású, mint a CO₂.",
+        "fato18": "Grönland és az Antarktisz gleccserei együttesen az utóbbi években évente több száz milliárd tonna jeget veszítenek, ami közvetlenül hozzájárul a tengerszint emelkedéséhez."
+      }
     },
     "noticias": {
       "titulo": "Környezeti hírek",
@@ -138,6 +160,31 @@
       "navegacao": "Navigáció",
       "contato": "Kapcsolat",
       "copyright": "© 2026 Carbono Consciente. Minden jog fenntartva."
+    },
+    "planta": {
+      "aria_svg": "Növény, amely fává nő a közlekedési szokásaid egészségétől függően",
+      "carregando_placeholder": "A növényed betöltése...",
+      "aria_arvore": "Fa. Kattints az újbóli elültetéshez",
+      "dica_replantar": "Kattints a fára az újbóli elültetéshez",
+      "legenda_0": "A magod elültetése...",
+      "legenda_1": "Egy kis hajtás született. Minden fenntartható utazás segít neki növekedni.",
+      "legenda_2": "Már egy szilárd facsemete. A szokásaid gyökeret eresztenek.",
+      "legenda_3": "Egy fiatal fa, tele levelekkel. Folytasd így!",
+      "legenda_4": "Egy pompás, virágzó fa. A szokásaid fantasztikusak!"
+    },
+    "estatisticas": {
+      "media_mundial": "átlagos CO₂ egy főre, a figyelt országok között",
+      "maior_emissor": "legnagyobb egy főre eső kibocsátó: {{pais}}",
+      "menor_emissor": "legkisebb egy főre eső kibocsátó: {{pais}}",
+      "paises_monitorados": "figyelt országok a földgömbön",
+      "seu_co2_semana": "a CO₂-od ezen a héten",
+      "vs_media_paises": "az országok heti átlagához képest",
+      "ranking_mundial": "becsült helyezés {{total}} ország között",
+      "sem_dados_suficientes": "nincs elég adat",
+      "fallback_co2_evitado": "átlagosan elkerült CO₂ kapcsolt műveletenként / havonta",
+      "fallback_variacao_emissoes": "kibocsátás az előző év azonos időszakához képest",
+      "fallback_abaixo_media_setor": "az ágazati átlag alatt, a figyelt fiókok között",
+      "fallback_paises_ativos": "aktív adatcsomópontokkal rendelkező országok a hálózaton"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "nincs bejegyzés ebben az időszakban",
     "delta_primeiro_registro": "ez az időszak első bejegyzése",
     "delta_estavel": "stabil az előző időszakhoz képest",
-    "delta_variacao": "{{percentual}}% az előző időszakhoz képest"
+    "delta_variacao": "{{percentual}}% az előző időszakhoz képest",
+    "meios": {
+      "carro_gasolina": "Autó (benzin)",
+      "carro_etanol": "Autó (etanol)",
+      "carro_eletrico": "Autó (elektromos)",
+      "motocicleta": "Motorkerékpár",
+      "onibus": "Busz",
+      "metro_trem": "Metró/Vonat",
+      "bicicleta": "Kerékpár",
+      "a_pe": "Gyalog"
+    }
   },
   "globo": {
     "legenda_titulo": "Egy főre eső kibocsátás",

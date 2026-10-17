@@ -7,6 +7,8 @@
     "sair_link": "odhlásit se",
     "painel_link": "panel",
     "fechar": "Zavřít",
+    "logo_alt": "Logo Carbono Consciente",
+    "redirecionamento_html": "Přesměrování... <a href=\"front%20end/html/inicial.html\">klikněte sem</a>, pokud nebudete přesměrováni.",
     "nav": {
       "plataforma": "Platforma",
       "impacto": "Dopad",
@@ -120,7 +122,27 @@
       "subtitulo": "Víte, že?",
       "carregando": "Načítání zajímavosti...",
       "proxima": "Další zajímavost",
-      "erro_carregar": "Nyní se nepodařilo načíst zajímavosti."
+      "erro_carregar": "Nyní se nepodařilo načíst zajímavosti.",
+      "fatos": {
+          "fato1": "Dospělý strom pohltí v průměru asi 22 kg CO₂ za rok — proto je zalesňování jedním z nejpřímějších způsobů, jak kompenzovat emise.",
+          "fato2": "Oceány každoročně pohltí přibližně čtvrtinu veškerého CO₂, který lidstvo vypustí, a fungují tak jako obrovský regulátor globálního klimatu.",
+          "fato3": "Recyklace jedné tuny papíru uspoří asi 17 stromů a značné množství vody a energie ve srovnání s výrobou nového papíru.",
+          "fato4": "Doprava má na svědomí asi čtvrtinu globálních emisí CO₂ spojených s energií — vyměnit auto za kolo nebo veřejnou dopravu na krátkých cestách má skutečný dopad.",
+          "fato5": "Amazonie je domovem asi 10 % veškeré známé biodiverzity planety a navíc ve své vegetaci ukládá miliardy tun uhlíku.",
+          "fato6": "Domácí solární panely mohou snížit uhlíkovou stopu domácnosti o tuny CO₂ za rok, v závislosti na místním energetickém mixu.",
+          "fato7": "Strava s menším množstvím červeného masa může výrazně snížit osobní uhlíkovou stopu, protože chov hovězího skotu patří k zemědělským činnostem s nejvyššími emisemi.",
+          "fato8": "Tání mořského ledu v Arktidě snižuje schopnost planety odrážet sluneční světlo zpět do prostoru a zrychluje ohřívání — tento jev je známý jako zpětná vazba albeda.",
+          "fato9": "LED žárovky spotřebují až o 80 % méně energie než žárovky klasické a vydrží mnohem delší dobu, což snižuje emise i množství odpadu.",
+          "fato10": "Pařížská dohoda, kterou podepsalo téměř 200 zemí, si dává za cíl udržet globální ohřívání výrazně pod 2°C nad předindustriální úrovní.",
+          "fato11": "Asi třetina všech potravin vyprodukovaných ve světě skončí jako odpad — a samotné toto plýtvání vytváří významnou část globálních emisí skleníkových plynů.",
+          "fato12": "Moderní větrné turbíny dokážou vyrobit dost energie pro tisíce domácností, a to bez emisí CO₂ během provozu.",
+          "fato13": "Zdravá půda ukládá více uhlíku než veškerá vegetace a atmosféra dohromady — regenerativní zemědělské postupy pomáhají tento uhlík udržet v zemi.",
+          "fato14": "Korálové útesy pokrývají méně než 1 % dna oceánů, a přesto poskytují domov asi 25 % veškerého známého mořského života — a jsou nesmírně citlivé na ohřívání vody.",
+          "fato15": "Omezení plýtvání teplou vodou doma (například kratší sprchování) také snižuje emise, protože ohřev vody spotřebovává energii.",
+          "fato16": "Elektromobily, i když se zohlední výroba baterie, mají za celou dobu životnosti nižší emise CO₂ než spalovací auta, zvláště tam, kde elektřina pochází z čistých zdrojů.",
+          "fato17": "Domácí kompostování organického odpadu zabrání tomu, aby na skládkách vznikal metan — skleníkový plyn, který je v krátkém horizontu mnohem silnější než CO₂.",
+          "fato18": "Ledovce Grónska a Antarktidy společně v posledních letech ztrácejí stovky miliard tun ledu ročně, čímž přímo přispívají ke zvyšování hladiny moří."
+      }
     },
     "noticias": {
       "titulo": "Zprávy o Životním Prostředí",
@@ -138,6 +160,31 @@
       "navegacao": "Navigace",
       "contato": "Kontakt",
       "copyright": "© 2026 Carbono Consciente. Všechna práva vyhrazena."
+    },
+    "planta": {
+      "aria_svg": "Rostlina, která roste až se stane stromem podle zdraví vašich dopravních návyků",
+      "carregando_placeholder": "Načítání vaší rostliny...",
+      "aria_arvore": "Strom. Klikněte pro opětovné zasazení",
+      "dica_replantar": "Klikněte na strom pro opětovné zasazení",
+      "legenda_0": "Sázení vašeho semínka...",
+      "legenda_1": "Narodil se malý výhonek. Každá udržitelná cesta mu pomáhá růst.",
+      "legenda_2": "Už je to pevná sazenice. Vaše návyky zapouštějí kořeny.",
+      "legenda_3": "Mladý strom plný listů. Pokračujte takto!",
+      "legenda_4": "Bujný kvetoucí strom. Vaše návyky jsou neuvěřitelné!"
+    },
+    "estatisticas": {
+      "media_mundial": "Průměrné CO₂ na osobu mezi sledovanými zeměmi",
+      "maior_emissor": "největší producent na obyvatele: {{pais}}",
+      "menor_emissor": "nejmenší producent na obyvatele: {{pais}}",
+      "paises_monitorados": "sledovaných zemí na světě",
+      "seu_co2_semana": "váš CO₂ tento týden",
+      "vs_media_paises": "ve srovnání s týdenním průměrem zemí",
+      "ranking_mundial": "odhadovaná pozice mezi {{total}} zeměmi",
+      "sem_dados_suficientes": "nedostatek dat",
+      "fallback_co2_evitado": "průměrné CO₂ ušetřené na připojenou operaci / měsíc",
+      "fallback_variacao_emissoes": "emise vs. stejné období předchozího roku",
+      "fallback_abaixo_media_setor": "pod průměrem odvětví, u sledovaných účtů",
+      "fallback_paises_ativos": "zemí s aktivními datovými uzly v síti"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "žádné záznamy v tomto období",
     "delta_primeiro_registro": "první záznam v tomto období",
     "delta_estavel": "stabilní vůči předchozímu období",
-    "delta_variacao": "{{percentual}}% vůči předchozímu období"
+    "delta_variacao": "{{percentual}}% vůči předchozímu období",
+    "meios": {
+      "carro_gasolina": "Auto (benzín)",
+      "carro_etanol": "Auto (etanol)",
+      "carro_eletrico": "Auto (elektrické)",
+      "motocicleta": "Motorka",
+      "onibus": "Autobus",
+      "metro_trem": "Metro/Vlak",
+      "bicicleta": "Jízdní kolo",
+      "a_pe": "Pěšky"
+    }
   },
   "globo": {
     "legenda_titulo": "Emise na obyvatele",

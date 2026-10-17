@@ -7,6 +7,8 @@
     "sair_link": "dekonekte",
     "painel_link": "tablodbò",
     "fechar": "Fèmen",
+    "logo_alt": "Logo Carbono Consciente",
+    "redirecionamento_html": "Redireksyon an kou... <a href=\"front%20end/html/inicial.html\">klike isit</a> si ou pa redirije.",
     "nav": {
       "plataforma": "Platfòm",
       "impacto": "Enpak",
@@ -120,7 +122,27 @@
       "subtitulo": "Ou te konnen?",
       "carregando": "Ap chaje yon fenomèn...",
       "proxima": "Pwochen fenomèn",
-      "erro_carregar": "Nou pa t kapab chaje fenomèn yo kounye a."
+      "erro_carregar": "Nou pa t kapab chaje fenomèn yo kounye a.",
+      "fatos": {
+        "fato1": "Yon pyebwa granmoun, an mwayèn, absòbe anviwon 22 kg CO₂ pa an — se poutèt sa, replante bwa se youn nan fason ki pi dirèk pou konpanse emisyon.",
+        "fato2": "Lanmè yo absòbe anviwon yon ka nan tout CO₂ limanite rejte chak an, yo fonksyone kon yon gwo régulatè klima global.",
+        "fato3": "Resikle yon tòn papye sove anviwon 17 pyebwa ak yon kantite enpòtan dlo ak enèji konpare ak fè papye nèf.",
+        "fato4": "Transpò reskonsab pou anviwon yon ka nan emisyon global CO₂ ki lye ak enèji — chanje machin pou bisiklèt oswa transpò piblik sou wout kout fè yon diferans reyèl.",
+        "fato5": "Amazòn lan se kay anviwon 10% nan tout byodivèsite planèt la konnen, epi li estoke plizyè milya tòn kabòn nan vejetasyon li.",
+        "fato6": "Panno solè nan kay yo ka diminye anprint kabòn yon kay pa plizyè tòn CO₂ pa an, selon melanj enèji lokal la.",
+        "fato7": "Yon rejim ki gen mwens vyann wouj ka diminye anprint kabòn pèsonèl la anpil, paske elvaj bèf se youn nan aktivite agrikòl ki pwodui plis emisyon.",
+        "fato8": "Lè glas lanmè nan Aktik la fonn, sa diminye kapasite planèt la pou reflete limyè solèy la tounen nan espas, sa ap akselere rechofman — yon efè yo rele retwoaksyon albedo.",
+        "fato9": "Anpoul LED konsome jiska 80% mwens enèji pase anpoul ensandesan, epi yo dire pi lontan, sa diminye tou de emisyon ak fatra.",
+        "fato10": "Akò Pari a, ki siyen pa prèske 200 peyi, gen objektif pou limite rechofman global anba 2°C anwo nivo preendistriyèl yo.",
+        "fato11": "Anviwon yon tyè nan tout manje ki pwodui nan mond lan gaspiye — e sèlman gaspiyaj sa a jenere yon pati enpòtan nan emisyon gaz lakòz efè tèmik global.",
+        "fato12": "Tèbin van modèn ka pwodui ase enèji pou bay kouran pou dè milye kay, san yo pa emèt CO₂ pandan operasyon.",
+        "fato13": "Tè ki an sante estoke plis kabòn pase tout vejetasyon ak atmosfè a ansanm — pratik agrikòl rejeneratif ede kenbe kabòn sa a nan tè a.",
+        "fato14": "Resif koray, malgre yo kouvri mwens pase 1% nan fon oseyan an, sipòte anviwon 25% nan tout lavi maren yo konnen — epi yo trè sansib a rechofman dlo.",
+        "fato15": "Diminye gaspiyaj dlo cho lakay (douch pi kout, pa egzanp) diminye emisyon tou, paske chofe dlo mande enèji.",
+        "fato16": "Machin elektrik, menm si ou konsidere fabrikasyon batri a, gen tandans pou emèt mwens CO₂ pandan tout lavi yo pase machin ki mache ak gaz, espesyalman kote elektrisite soti nan sous pwòp.",
+        "fato17": "Konpòs dechè òganik lakay evite yo pwodui metàn nan depotwa — se yon gaz lakòz efè tèmik ki pi pwisan pase CO₂ nan kout tèm.",
+        "fato18": "Glasye Grenland ak Antatik ansanm pèdi, nan dènye ane yo, plizyè santèn milya tòn glas pa an, sa kontribye dirèkteman nan monte nivo lanmè."
+      }
     },
     "noticias": {
       "titulo": "Nouvèl Anviwònmantal",
@@ -138,6 +160,31 @@
       "navegacao": "Navigasyon",
       "contato": "Kontak",
       "copyright": "© 2026 Carbono Consciente. Tout dwa rezève."
+    },
+    "planta": {
+      "aria_svg": "Plant ki grandi pou vin yon pyebwa dapre sante abitid deplasman ou yo",
+      "carregando_placeholder": "Ap chaje plant ou a...",
+      "aria_arvore": "Pyebwa. Klike pou plante ankò",
+      "dica_replantar": "Klike sou pyebwa a pou plante li ankò",
+      "legenda_0": "Ap plante grenn ou an...",
+      "legenda_1": "Yon ti boujon fèt. Chak vwayaj dirab fè l grandi.",
+      "legenda_2": "Li se yon jèn plant solid kounye a. Abitid ou yo ap pran rasin.",
+      "legenda_3": "Yon jèn pyebwa, plen fèy. Kontinye konsa!",
+      "legenda_4": "Yon pyebwa byen vèt nan flè. Abitid ou yo ekstraòdinè!"
+    },
+    "estatisticas": {
+      "media_mundial": "CO₂ mwayen pa moun, pami peyi yo swiv yo",
+      "maior_emissor": "pi gwo emèt pa moun: {{pais}}",
+      "menor_emissor": "pi piti emèt pa moun: {{pais}}",
+      "paises_monitorados": "peyi ki swiv sou glòb la",
+      "seu_co2_semana": "CO₂ ou semèn sa a",
+      "vs_media_paises": "konpare ak mwayèn semenn peyi yo",
+      "ranking_mundial": "klasman estime pami {{total}} peyi",
+      "sem_dados_suficientes": "pa gen ase done",
+      "fallback_co2_evitado": "CO₂ mwayen evite pa operasyon konekte / pa mwa",
+      "fallback_variacao_emissoes": "emisyon konpare ak menm peryòd ane pase",
+      "fallback_abaixo_media_setor": "anba mwayèn sektè a, nan kont ki swiv yo",
+      "fallback_paises_ativos": "peyi ki gen nœ done aktif sou rezo a"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "pa gen anrejistreman nan peryòd sa a",
     "delta_primeiro_registro": "premye anrejistreman nan peryòd sa a",
     "delta_estavel": "estab parapò a peryòd anvan",
-    "delta_variacao": "{{percentual}}% parapò a peryòd anvan"
+    "delta_variacao": "{{percentual}}% parapò a peryòd anvan",
+    "meios": {
+      "carro_gasolina": "Machin (gazolin)",
+      "carro_etanol": "Machin (etanòl)",
+      "carro_eletrico": "Machin (elektrik)",
+      "motocicleta": "Motosiklèt",
+      "onibus": "Bis",
+      "metro_trem": "Metwo/Tren",
+      "bicicleta": "Bisiklèt",
+      "a_pe": "A pye"
+    }
   },
   "globo": {
     "legenda_titulo": "Emisyon pa moun",

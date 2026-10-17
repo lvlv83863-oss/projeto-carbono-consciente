@@ -13,7 +13,9 @@
       "habitos": "Gewunnechten",
       "contato": "Kontakt",
       "dados": "Donnéeën"
-    }
+    },
+    "logo_alt": "Logo vu Carbono Consciente",
+    "redirecionamento_html": "Weiderleedung... <a href=\"front%20end/html/inicial.html\">klick hei</a> wann Dir net weidergeleet gitt."
   },
   "header": {
     "idioma_aria": "Sprooch wiesselen",
@@ -120,7 +122,27 @@
       "subtitulo": "Wousst Du dat?",
       "carregando": "Fakt gëtt gelueden...",
       "proxima": "Nächsten Fakt",
-      "erro_carregar": "Konnt d'Fakten elo net lueden."
+      "erro_carregar": "Konnt d'Fakten elo net lueden.",
+      "fatos": {
+        "fato1": "Ee erwuessene Bam absorbéiert am Duerchschnëtt ongeféier 22 kg CO₂ pro Joer — dofir ass d'Opfuerstung eng vun den direktsten Weeër fir Emissiounen auszegläichen.",
+        "fato2": "D'Ozeaner absorbéieren all Joer ongeféier e Véirel vum ganze CO₂, dat vun der Mënschheet ausgestouss gëtt, a funktionéieren esou wéi e risegen Reguléierer vum globalen Klima.",
+        "fato3": "D'Recyclage vun enger Tonn Pabeier spuert ongeféier 17 Beem an eng wesentlech Quantitéit Wasser an Energie, am Verglach mat der Produktioun vun neiem Pabeier.",
+        "fato4": "De Transport ass responsabel fir ongeféier e Véirel vun den globalen energiebezunnenen CO₂-Emissiounen — op kuerzen Streeken d'Auto géint d'Vëlo oder ëffentlechen Transport auszewiesselen mécht e wierklechen Ënnerscheed.",
+        "fato5": "Den Amazonas ass Heemecht vun ongeféier 10% vun der ganzer bekannter Biodiversitéit vun der Äerd, a lagert och Milliarden Tonnen Kuelestoff an senger Vegetatioun.",
+        "fato6": "Residentiell Solarpanelen kënnen den CO₂-Foussofdrock vun engem Haushalt ëm Tonnen CO₂ pro Joer reduzéieren, ofhängeg vum lokalen Energiemix.",
+        "fato7": "Eng Ernärung mat manner rout Fleesch kann de perséinleche CO₂-Foussofdrock wesentlech reduzéieren, well d'Rannerzuucht eng vun den emissiounsintensivsten landwirtschaftleche Aktivitéiten ass.",
+        "fato8": "D'Schmëlzen vum arktesche Mieresäis reduzéiert d'Fäegkeet vun der Äerd, Sonneliicht zréck an den Weltraum ze reflektéieren, a bechleunegt dobäi d'Erwäermung — en Effekt bekannt als Albedo-Feedback.",
+        "fato9": "LED-Luuchten verbrauchen bis zu 80% manner Energie wéi Gléizluuchten an halen vill méi laang, wat souwuel Emissiounen wéi och Offall reduzéiert.",
+        "fato10": "D'Pariser Klimaofkommes, ënnerschriwwen vu bal 200 Länner, setzt sech als Zil, d'globale Erwäermung op wäit ënner 2°C iwwer dem vireschen Industrieniveau ze begrenzen.",
+        "fato11": "Ongeféier en Drëttel vun alle weltwäit produzéierte Liewensmëttel gëtt verschwent — a dës Verschwendung eleng verursaacht e wesentlechen Deel vun de globalen Trèibhausgasemissiounen.",
+        "fato12": "Modern Wandturbinnen kënnen genuch Energie fir dausende Haushalter produzéieren, ouni während dem Betrib CO₂ auszestoussen.",
+        "fato13": "Gesonde Buedem lagert méi Kuelestoff wéi all d'Vegetatioun an d'Atmosphär zesummen — regenerativ landwirtschaftlech Praktiken hëllefen, dëse Kuelestoff am Buedem ze halen.",
+        "fato14": "Korallriffer, obwuel si manner wéi 1% vum Ozeanbuedem bedecken, ënnerstëtzen ongeféier 25% vum ganzen bekannte Marineliewen — a si extrem empfindlech géint d'Erwäermung vum Waasser.",
+        "fato15": "D'Reduzéiere vum Verschwenden vu waarmem Waasser doheem (zum Beispill méi kuerz Dusche) reduzéiert och Emissiounen, well d'Erwäermen vu Waasser Energie brauch.",
+        "fato16": "Elektresch Autoen, och wann een d'Fabrikatioun vun der Batterie berécksichtegt, stousse tendenziell manner CO₂ während hirer Liewensdauer aus wéi Verbrennungsautoen, besonnesch wann d'Stroum aus propperen Quellen kënnt.",
+        "fato17": "Doheem organesch Offäll ze kompostéieren verhënnert, dass se Methan op Dieponien produzéieren — e Trèibhausgas, dat kuerzfristeg vill méi staark ass wéi CO₂.",
+        "fato18": "D'Gletscher vu Groenland an der Antarktis verléieren zesummen an de leschte Joren honnerte vu Milliarden Tonne Äis pro Joer, wat direkt zum Ustieg vum Mieresspigel bäidréit."
+      }
     },
     "noticias": {
       "titulo": "Ëmweltnoriichten",
@@ -138,6 +160,31 @@
       "navegacao": "Navigatioun",
       "contato": "Kontakt",
       "copyright": "© 2026 Carbono Consciente. All Rechter reservéiert."
+    },
+    "planta": {
+      "aria_svg": "Planz, déi zu engem Bam wiisst, ofhängeg vun der Gesondheet vun Ärem Mobilitéitsverhalen",
+      "carregando_placeholder": "Är Planz gëtt gelueden...",
+      "aria_arvore": "Bam. Klickt fir nees ze planzen",
+      "dica_replantar": "Klickt op de Bam fir nees ze planzen",
+      "legenda_0": "Är Somenzgare gëtt geplanzt...",
+      "legenda_1": "E klengen Spross ass gebuer. All nohalteg Streck léisst en wuessen.",
+      "legenda_2": "Elo ass et e staarke Setzling. Är Gewunnechten wuerzelen.",
+      "legenda_3": "E jonke Bam, voller Blieder. Maacht sou weider!",
+      "legenda_4": "E prächtegen Bam a Blumm. Är Gewunnechten sinn erstaunlech!"
+    },
+    "estatisticas": {
+      "media_mundial": "duerchschnëttleche CO₂ pro Persoun, ënner de kontrolléierten Länner",
+      "maior_emissor": "gréisste Pro-Kapp-Emittent: {{pais}}",
+      "menor_emissor": "klengste Pro-Kapp-Emittent: {{pais}}",
+      "paises_monitorados": "kontrolléiert Länner op der Welt",
+      "seu_co2_semana": "Äre CO₂ dës Woch",
+      "vs_media_paises": "am Verglach mam wöchentleche Duerchschnëtt vun de Länner",
+      "ranking_mundial": "geschate Rang ënner {{total}} Länner",
+      "sem_dados_suficientes": "net genuch Daten",
+      "fallback_co2_evitado": "duerchschnëttlech vermidden CO₂ pro verbonnener Operatioun / Mount",
+      "fallback_variacao_emissoes": "Emissioune am Verglach zum selwechte Zäitraum vum Vorjoer",
+      "fallback_abaixo_media_setor": "ënner dem Secteur-Duerchschnëtt, bei kontrolléierten Konten",
+      "fallback_paises_ativos": "Länner mat aktive Datekniet am Netzwierk"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "keng Aschreiwungen an dëser Period",
     "delta_primeiro_registro": "éischt Aschreiwung an dëser Period",
     "delta_estavel": "stabil géint d'vireg Period",
-    "delta_variacao": "{{percentual}}% géint d'vireg Period"
+    "delta_variacao": "{{percentual}}% géint d'vireg Period",
+    "meios": {
+      "carro_gasolina": "Auto (Bensin)",
+      "carro_etanol": "Auto (Ethanol)",
+      "carro_eletrico": "Auto (elektresch)",
+      "motocicleta": "Motorrad",
+      "onibus": "Bus",
+      "metro_trem": "Métro/Zuch",
+      "bicicleta": "Vëlo",
+      "a_pe": "Zu Fouss"
+    }
   },
   "globo": {
     "legenda_titulo": "Emissioun pro Awunner",

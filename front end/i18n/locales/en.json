@@ -7,6 +7,8 @@
     "sair_link": "log out",
     "painel_link": "dashboard",
     "fechar": "Close",
+    "logo_alt": "Carbono Consciente logo",
+    "redirecionamento_html": "Redirecting... <a href=\"front%20end/html/inicial.html\">click here</a> if you are not redirected.",
     "nav": {
       "plataforma": "Platform",
       "impacto": "Impact",
@@ -120,7 +122,27 @@
       "subtitulo": "Did you know?",
       "carregando": "Loading fun fact...",
       "proxima": "Next fun fact",
-      "erro_carregar": "Could not load fun facts right now."
+      "erro_carregar": "Could not load fun facts right now.",
+      "fatos": {
+        "fato1": "An adult tree absorbs, on average, about 22 kg of CO₂ per year — which is why reforestation is one of the most direct ways to offset emissions.",
+        "fato2": "The oceans absorb about a quarter of all the CO₂ humanity emits every year, acting as a huge regulator of the global climate.",
+        "fato3": "Recycling one tonne of paper saves about 17 trees and a significant amount of water and energy compared to producing new paper.",
+        "fato4": "Transportation is responsible for about a quarter of global energy-related CO₂ emissions — swapping the car for a bike or public transport on short trips makes a real difference.",
+        "fato5": "The Amazon is home to about 10% of all known biodiversity on the planet, as well as storing billions of tonnes of carbon in its vegetation.",
+        "fato6": "Residential solar panels can cut a household's carbon footprint by tonnes of CO₂ per year, depending on the local energy mix.",
+        "fato7": "A diet with less red meat can significantly reduce a person's carbon footprint, since cattle farming is one of the most emissions-intensive agricultural activities.",
+        "fato8": "Melting Arctic sea ice reduces the planet's ability to reflect sunlight back into space, accelerating warming — an effect known as albedo feedback.",
+        "fato9": "LED bulbs use up to 80% less energy than incandescent bulbs and last much longer, cutting both emissions and waste.",
+        "fato10": "The Paris Agreement, signed by nearly 200 countries, aims to limit global warming to well below 2°C above pre-industrial levels.",
+        "fato11": "About a third of all food produced in the world is wasted — and that waste alone generates a significant share of global greenhouse gas emissions.",
+        "fato12": "Modern wind turbines can generate enough energy to power thousands of homes, without emitting CO₂ during operation.",
+        "fato13": "Healthy soil stores more carbon than all vegetation and the atmosphere combined — regenerative farming practices help keep that carbon in the ground.",
+        "fato14": "Coral reefs, despite covering less than 1% of the ocean floor, support about 25% of all known marine life — and are extremely sensitive to warming waters.",
+        "fato15": "Cutting hot water waste at home (shorter showers, for example) also reduces emissions, since heating water takes energy.",
+        "fato16": "Electric cars, even accounting for battery manufacturing, tend to emit less CO₂ over their lifetime than combustion cars, especially where electricity comes from clean sources.",
+        "fato17": "Composting organic waste at home keeps it from producing methane in landfills — a greenhouse gas far more potent than CO₂ in the short term.",
+        "fato18": "Greenland and Antarctica's glaciers together have been losing hundreds of billions of tonnes of ice per year in recent years, directly contributing to sea level rise."
+      }
     },
     "noticias": {
       "titulo": "Environmental News",
@@ -138,6 +160,31 @@
       "navegacao": "Navigation",
       "contato": "Contact",
       "copyright": "© 2026 Carbono Consciente. All rights reserved."
+    },
+    "planta": {
+      "aria_svg": "Plant that grows into a tree based on the health of your commuting habits",
+      "carregando_placeholder": "Loading your plant...",
+      "aria_arvore": "Tree. Click to plant again",
+      "dica_replantar": "Click the tree to plant it again",
+      "legenda_0": "Planting your seed...",
+      "legenda_1": "A little sprout was born. Every sustainable trip helps it grow.",
+      "legenda_2": "It's now a sturdy sapling. Your habits are taking root.",
+      "legenda_3": "A young tree, full of leaves. Keep it up!",
+      "legenda_4": "A lush tree in bloom. Your habits are amazing!"
+    },
+    "estatisticas": {
+      "media_mundial": "average CO₂ per person, among monitored countries",
+      "maior_emissor": "highest per-capita emitter: {{pais}}",
+      "menor_emissor": "lowest per-capita emitter: {{pais}}",
+      "paises_monitorados": "countries monitored on the globe",
+      "seu_co2_semana": "your CO₂ this week",
+      "vs_media_paises": "compared to countries' weekly average",
+      "ranking_mundial": "estimated rank among {{total}} countries",
+      "sem_dados_suficientes": "not enough data",
+      "fallback_co2_evitado": "average CO₂ avoided per connected operation / month",
+      "fallback_variacao_emissoes": "emissions vs. the same period last year",
+      "fallback_abaixo_media_setor": "below sector average, among monitored accounts",
+      "fallback_paises_ativos": "countries with active data nodes on the network"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "no entries in this period",
     "delta_primeiro_registro": "first entry in this period",
     "delta_estavel": "stable vs. previous period",
-    "delta_variacao": "{{percentual}}% vs. previous period"
+    "delta_variacao": "{{percentual}}% vs. previous period",
+    "meios": {
+      "carro_gasolina": "Car (gasoline)",
+      "carro_etanol": "Car (ethanol)",
+      "carro_eletrico": "Car (electric)",
+      "motocicleta": "Motorcycle",
+      "onibus": "Bus",
+      "metro_trem": "Subway/Train",
+      "bicicleta": "Bicycle",
+      "a_pe": "On foot"
+    }
   },
   "globo": {
     "legenda_titulo": "Per-capita emissions",

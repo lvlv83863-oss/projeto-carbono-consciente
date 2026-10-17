@@ -13,7 +13,9 @@
       "habitos": "Costums",
       "contato": "Contact",
       "dados": "Datas"
-    }
+    },
+    "logo_alt": "Logo da Carbono Consciente",
+    "redirecionamento_html": "Vegn renvià... <a href=\"front%20end/html/inicial.html\">clicca qua</a> sche ti na vegns betg renvià."
   },
   "header": {
     "idioma_aria": "Midar la lingua",
@@ -120,7 +122,27 @@
       "subtitulo": "Savevas ti?",
       "carregando": "Chargiond ina curiositad...",
       "proxima": "Proxima curiositad",
-      "erro_carregar": "Impussibel da chargiar las curiositads en quest mument."
+      "erro_carregar": "Impussibel da chargiar las curiositads en quest mument.",
+      "fatos": {
+        "fato1": "In arber creschì absorba, en media, radund 22 kg da CO₂ per onn — perquai che la reforestaziun è ina da las vias las pli directas per cumpensar las emissiuns.",
+        "fato2": "Ils oceans absorban mintga onn radund in quart da tut il CO₂ che l'umanitad emetta, e funcziunan uschia sco in grond regulatur dal clima global.",
+        "fato3": "Rizyclar ina tonna da palperi spargna radund 17 arbers ed ina quantitad impurtanta d'aua e d'energia en cumparegliaziun cun la fabricaziun da palperi nov.",
+        "fato4": "Il traffic è responsabel per radund in quart da las emissiuns globalas da CO₂ colliadas cun l'energia — midar la maschina cunter la bicicletta u il traffic public per percuors curts fa ina differenza reala.",
+        "fato5": "L'Amazonia è la patria da radund 10% da tut la biodiversitad enconuschida dal planet, e magazinescha ultra da quai milliardas da tonnas da carbon en sia vegetaziun.",
+        "fato6": "Pannels solars sin chasas pon reducir l'impronta da carbon d'ina chasa per tonnas da CO₂ per onn, tenor la mixtura d'energia locala.",
+        "fato7": "Ina dieta cun pli pauca charn cotschna po reducir considerablamain l'impronta da carbon persunala, perquai che la tegniment da vacas è ina da las activitads agricolas cun las emissiuns las pli autas.",
+        "fato8": "La fusiun dal glatsch dal mar artic reducescha la capacitad dal planet da reflectar la glisch dal sulegl enavos en il spazi, e quai accelerescha il reschauldament — in effect enconuschiu sco la retroacziun dal albedo.",
+        "fato9": "Lampettas LED consumeschan fin 80% damain energia che lampettas d'incandescenza e dureschan bler pli ditg, quai reducescha tant las emissiuns sco er ils ruments.",
+        "fato10": "L'Acconvegna da Paris, suttascritta da quasi 200 pajais, ha l'intenziun da limitar il reschauldament global bain sut 2°C sur ils nivels pre-industrials.",
+        "fato11": "Radund in terz da tut la nutriziun producida en il mund vegn sbuttà davent — e quest sbuttament suletg generescha ina part impurtanta da las emissiuns globalas da gas cun effect da serra.",
+        "fato12": "Turbinas da vent modernas pon generar avunda energia per approvisiunar milli chasas, senza emetter CO₂ durant il funcziunament.",
+        "fato13": "Terren saun magazinescha dapli carbon che tut la vegetaziun e l'atmosfera ensemen — practicas agricolas regenerativas gidan da tegnair quest carbon en il terren.",
+        "fato14": "Arfs da coral, schebain ch'els cuvran damain che 1% dal funs da l'ocean, sustegnan radund 25% da tut la vita marina enconuschida — e sun extremamain sensibels al reschauldament da l'aua.",
+        "fato15": "Reducir il sbuttament d'aua chauda en chasa (p.ex. duschas pli curtas) reducescha er las emissiuns, perquai che l'chaudiment d'aua consuma energia.",
+        "fato16": "Autos electrics, era sche la fabricaziun da la bataria vegn resguardada, emettan en general damain CO₂ durant tut lur durada da vita che autos cun motor da cumbustiun, surtut là nua che l'electricitad vegn da funtaunas nettas.",
+        "fato17": "Il cumpostegiar da ruments organics en chasa evitescha che quels produceschan metan en ils depots da ruments — in gas cun effect da serra bler pli potent che il CO₂ a curt termin.",
+        "fato18": "Ils glatschers da la Groenlanda e da l'Antarctica perdan ensemen, en ils ultims onns, tschien milliardas da tonnas da glatsch per onn, e quai contribuescha directamain a l'augment dal nivel dal mar."
+      }
     },
     "noticias": {
       "titulo": "Novitads ambientalas",
@@ -138,6 +160,31 @@
       "navegacao": "Navigaziun",
       "contato": "Contact",
       "copyright": "© 2026 Carbono Consciente. Tut ils dretgs reservads."
+    },
+    "planta": {
+      "aria_svg": "Planta che crescha en in arbre tenor la sanadad da tes costums da spustament",
+      "carregando_placeholder": "Tia planta vegn chargiada...",
+      "aria_arvore": "Arbre. Clicca per plantar da nov",
+      "dica_replantar": "Clicca sin l'arbre per plantar la da nov",
+      "legenda_0": "Tes grain vegn plantà...",
+      "legenda_1": "In pitschen schurgin è naschì. Mintga viadi sustenabel al gida crescher.",
+      "legenda_2": "Ussa è quai in plantin ferm. Tes costums fan radischs.",
+      "legenda_3": "In arbre giuven, plain da fegls. Cuntinua enaga!",
+      "legenda_4": "In arbre rich e florescent. Tes costums èn fantastics!"
+    },
+    "estatisticas": {
+      "media_mundial": "media da CO₂ per persuna, tranter ils pajais survegliads",
+      "maior_emissor": "il pli grond emettent per persuna: {{pais}}",
+      "menor_emissor": "il pli pitschen emettent per persuna: {{pais}}",
+      "paises_monitorados": "pajais survegliads sin il globus",
+      "seu_co2_semana": "tes CO₂ questa emna",
+      "vs_media_paises": "cumpareglià cun la media emnila dals pajais",
+      "ranking_mundial": "posiziun estimada tranter {{total}} pajais",
+      "sem_dados_suficientes": "betg avunda datas",
+      "fallback_co2_evitado": "media da CO₂ evitada per operaziun connectada / mais",
+      "fallback_variacao_emissoes": "emissiuns vs. il medem perioda l'onn passà",
+      "fallback_abaixo_media_setor": "sut la media dal sectur, tranter ils contos survegliads",
+      "fallback_paises_ativos": "pajais cun nodus da datas activs en la rait"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "naginas registraziuns en quest period",
     "delta_primeiro_registro": "emprima registraziun en quest period",
     "delta_estavel": "stabel cumpareglià cun il period precedent",
-    "delta_variacao": "{{percentual}}% cumpareglià cun il period precedent"
+    "delta_variacao": "{{percentual}}% cumpareglià cun il period precedent",
+    "meios": {
+      "carro_gasolina": "Auto (benzina)",
+      "carro_etanol": "Auto (etanol)",
+      "carro_eletrico": "Auto (electric)",
+      "motocicleta": "Motocicletta",
+      "onibus": "Bus",
+      "metro_trem": "Metro/Tren",
+      "bicicleta": "Velo",
+      "a_pe": "A pe"
+    }
   },
   "globo": {
     "legenda_titulo": "Emissiun per persuna",

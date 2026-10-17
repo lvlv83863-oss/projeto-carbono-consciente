@@ -7,6 +7,8 @@
     "sair_link": "lako yani",
     "painel_link": "iVolatukutuku",
     "fechar": "Sogo",
+    "logo_alt": "Logo ni Carbono Consciente",
+    "redirecionamento_html": "Sa veisau tiko na tabana... <a href=\"front%20end/html/inicial.html\">clika eke</a> ke sega ni veisautaki iko.",
     "nav": {
       "plataforma": "iVakarau",
       "impacto": "iVakatarai",
@@ -120,7 +122,27 @@
       "subtitulo": "O kila beka?",
       "carregando": "Vakauta tiko na itukutuku...",
       "proxima": "Dua Tale na iTukutuku",
-      "erro_carregar": "E sega ni rawa me vakauti na itukutuku ena gauna oqo."
+      "erro_carregar": "E sega ni rawa me vakauti na itukutuku ena gauna oqo.",
+      "fatos": {
+        "fato1": "E dua na kau sucu matua e vanavana, wasoma, rauta ni 22 kg CO₂ ena dua na yabaki — oqo na vuna ni teitei tale na veikau me dua na iwalewale rawarawa me vakalailai kina na isili ni emisioni.",
+        "fato2": "Na wasawasa e vanavana ena dua na wase vakava (quarter) ni CO₂ kece sa biuta na tamata ena veiyabaki, me vaka na dua na kena vakadonui levu ni draki ni vuravura.",
+        "fato3": "Na vakalolomataki ni dua na tani pepa e vakalailai rauta ni 17 na kau kei na levu ni wai kei na kaukauwa, me vakatauvatani kei na buli ni pepa vou.",
+        "fato4": "Na veilakoyaki e dina kina na dua na wase vakava ni isili ni CO₂ vakavuravura e vakaitovotaki kei na kaukauwa — na veisau ni motoka ki na bese ni duru se na veilakoyaki vakalevu ena veigauna lekaleka e dina kina na veisau dina.",
+        "fato5": "Na Amazon e tiko kina e rauta ni 10% ni veimataqali bula kece ena vuravura, ka vakaleqi tale ga ena nona drau kei kau e vica na bilioni na tani ni carbon.",
+        "fato6": "Na pane ni mata-ni-siga ena vale e rawa ni vakalailaia na drau ni carbon ni dua na vale ena vica na tani ni CO₂ ena veiyabaki, me vakatauvatani kei na iwalewale ni kaukauwa vakayalewa.",
+        "fato7": "Na kana kena vakalailai na lewe damudamu e rawa ni vakalailaia vakalevu na drau ni carbon vakataki ira, ni na vakatawani ni pulumakau e dua na cakacaka ni teiteitaki e vakavuna vakalevu na isili ni kei.",
+        "fato8": "Na warawara ni ua ni wasawasa ena Arctic ena vakalailaia na kaukauwa ni vuravura me vakadaveta tale na rarama ni matanisiga ki na bokola, e vakatotolo na katakata — e kilai me duidui ni albedo.",
+        "fato9": "Na cina LED e vakayagataka na kaukauwa e lailai cake ina 80% mai na cina dauveivakacinai ka bula vakalevu cake, e vakalailaia vata na isili ni kei kei na kena rogoca na ka ni dikevi.",
+        "fato10": "Na Veiyalayalati ni Paris, era sa saini kina e volivolita 200 na matanitu, e taqomaka me vakalailai ni katakata vakavuravura ena ligaliga ki na ruku sara ni 2°C mai na ivakatagedegede ni gauna ni veigaunisara.",
+        "fato11": "E rauta ni dua na wase vakatolu ni kakana kece e buli ena vuravura e vakalecava — ka na vakalecava oqo e vakaraitaka e dua na wase bibi ni isili ni gas vakavuravura e vakavuna na katakata.",
+        "fato12": "Na matanikau ni cagi vakaitoba e rawa ni buli e levu na kaukauwa me soli vua e vica na udolu na vale, kena sega ni vakalecava na CO₂ ena nona cakacaka.",
+        "fato13": "Na qele bula e vakaleqi e levu cake na carbon mai na drau kei kau kece kei na katakata ni vuravura vakadua — na iwalewale ni teiteitaki vakavou e vukea me tawana na carbon ena qele.",
+        "fato14": "Na veivuke ni coral, e dina ni vakatavuki ga e sega ni 1% ni bai ni wasawasa, e vukea e rauta ni 25% ni veimataqali bula wasawasa kece — ka rawarawa vakalevu me vakaleqa ena katakata ni wai.",
+        "fato15": "Na vakalailai ni vakayagataki ni wai katakata ena vale (vakadrau vakalekaleka, me kena ivakaraitaki) e vakalailaia tale na isili ni kei, ni na vakakatakata ni wai e vakayagataka na kaukauwa.",
+        "fato16": "Na motoka ni uwa, dina ga ni vakasamataki na buli ni nona bateri, era dau vakalecava lailai cake na CO₂ ena nona bula taucoko mai na motoka ni waiwai, vakabibi ena vanua e kau mai kina na uwa mai na iwalewale savasava.",
+        "fato17": "Na vakayagataki ni kena vakaleqa (compost) ni dikevi vakayavutu ena vale e tawana na metana me buli ena veivanua ni biu dikevi — e dua na gas vakavuravura e kaukauwa cake vakalevu mai na CO₂ ena gauna lekaleka.",
+        "fato18": "Na aisi ni Greenland kei na Antarctica vata era vakalecava, ena veiyabaki vou, e vica na drau na bilioni na tani ni aisi ena veiyabaki, ka vukea dina me laveta cake na ua ni wasawasa."
+      }
     },
     "noticias": {
       "titulo": "iTukutuku Vou ni Draki",
@@ -138,6 +160,31 @@
       "navegacao": "Veidusimaki",
       "contato": "Veitaratara",
       "copyright": "© 2026 Carbono Consciente. Taucoko na dodonu era taqomaki."
+    },
+    "planta": {
+      "aria_svg": "E dua na kau e tubu me yacovi na dua na vunikau me vaka na bulabula ni iValavala ni ilakolako",
+      "carregando_placeholder": "Vakauta tiko na nomu kau...",
+      "aria_arvore": "Vunikau. Clika mo tea tale",
+      "dica_replantar": "Clika na vunikau mo tea tale",
+      "legenda_0": "Tea tiko na nomu sore...",
+      "legenda_1": "E sucu e dua na sucu lailai. Na veilakoyaki yalototolo kece e vakatubu koya.",
+      "legenda_2": "Sa dua na kau kaukauwa. Na nomu iValavala era tubu voleka.",
+      "legenda_3": "E dua na vunikau gone, taucoko ena drau. Tomana ga!",
+      "legenda_4": "E dua na vunikau lelevu ka sa sucu. Na nomu iValavala era vinaka sara!"
+    },
+    "estatisticas": {
+      "media_mundial": "iVakasavuvuni CO₂ wavoki ki na dua na tamata, ena kedra vanua era dikevi",
+      "maior_emissor": "iVakasavuvuni levu duadua ki na dua na tamata: {{pais}}",
+      "menor_emissor": "iVakasavuvuni lailai duadua ki na dua na tamata: {{pais}}",
+      "paises_monitorados": "veivanua era dikevi ena vuravura",
+      "seu_co2_semana": "nomu CO₂ ena wiki oqo",
+      "vs_media_paises": "vakatautauvata kei na kedra wavoki ni veiwiki na veivanua",
+      "ranking_mundial": "iTuvatuva vakatulewai ena kedra {{total}} na vanua",
+      "sem_dados_suficientes": "sega ni rauta na itukutuku",
+      "fallback_co2_evitado": "iVakasavuvuni CO₂ wavoki e sega ni basika ena dua na cakacaka veisemati / vula",
+      "fallback_variacao_emissoes": "iVakasavuvuni vakatautauvata kei na gauna vata ena yabaki sa oti",
+      "fallback_abaixo_media_setor": "ena ruku ni wavoki ni tabana, ena veiyaloyalo era dikevi",
+      "fallback_paises_ativos": "veivanua era tu kina na node ni itukutuku ena network"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "e sega na iVolatukutuku ena gauna oqo",
     "delta_primeiro_registro": "imatai ni iVolatukutuku ni gauna oqo",
     "delta_estavel": "tudei vakatautauvata kei na gauna sa oti",
-    "delta_variacao": "{{percentual}}% vakatautauvata kei na gauna sa oti"
+    "delta_variacao": "{{percentual}}% vakatautauvata kei na gauna sa oti",
+    "meios": {
+      "carro_gasolina": "Motoka (gasolini)",
+      "carro_etanol": "Motoka (etenolo)",
+      "carro_eletrico": "Motoka (ilekitirika)",
+      "motocicleta": "Motosaikeli",
+      "onibus": "Basi",
+      "metro_trem": "Metero/Treni",
+      "bicicleta": "Basikete",
+      "a_pe": "Taubale"
+    }
   },
   "globo": {
     "legenda_titulo": "iVakasavuvuni me vaka na dua na tamata",

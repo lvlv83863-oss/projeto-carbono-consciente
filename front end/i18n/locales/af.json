@@ -7,6 +7,8 @@
     "sair_link": "meld af",
     "painel_link": "paneel",
     "fechar": "Maak toe",
+    "logo_alt": "Carbono Consciente-logo",
+    "redirecionamento_html": "Herlei tans... <a href=\"front%20end/html/inicial.html\">klik hier</a> as jy nie herlei word nie.",
     "nav": {
       "plataforma": "Platform",
       "impacto": "Impak",
@@ -120,7 +122,27 @@
       "subtitulo": "Het jy geweet?",
       "carregando": "Laai interessante feit...",
       "proxima": "Volgende interessante feit",
-      "erro_carregar": "Kon nie nou die interessante feite laai nie."
+      "erro_carregar": "Kon nie nou die interessante feite laai nie.",
+      "fatos": {
+          "fato1": "'n Volwasse boom neem gemiddeld sowat 22 kg CO₂ per jaar op — daarom is herbebossing een van die direkste maniere om uitlatings te vergoed.",
+          "fato2": "Die oseane neem elke jaar ongeveer 'n kwart van al die CO₂ op wat die mensdom uitlaat, en dien so as 'n enorme reguleerder van die wêreldklimaat.",
+          "fato3": "Om een ton papier te herwin, spaar sowat 17 bome en 'n beduidende hoeveelheid water en energie in vergelyking met die maak van nuwe papier.",
+          "fato4": "Vervoer is verantwoordelik vir ongeveer 'n kwart van die wêreld se energieverwante CO₂-uitlatings — om die motor vir 'n fiets of openbare vervoer te verruil op kort ritte maak 'n werklike verskil.",
+          "fato5": "Die Amasone huisves sowat 10% van al die planeet se bekende biodiversiteit, en stoor daarby miljarde ton koolstof in sy plantegroei.",
+          "fato6": "Sonpanele by die huis kan 'n huishouding se koolstofvoetspoor met ton CO₂ per jaar verminder, afhangend van die plaaslike energiemengsel.",
+          "fato7": "'n Dieet met minder rooivleis kan 'n mens se persoonlike koolstofvoetspoor aansienlik verminder, aangesien beesboerdery een van die landbou-aktiwiteite met die hoogste uitlatings is.",
+          "fato8": "Smeltende seeys in die Arktis verminder die planeet se vermoë om sonlig terug na die ruimte te weerkaats en versnel die verwarming — 'n effek wat as albedo-terugvoer bekend staan.",
+          "fato9": "LED-lampe gebruik tot 80% minder energie as gloeidraadlampe en hou baie langer, wat sowel uitlatings as afval verminder.",
+          "fato10": "Die Parys-ooreenkoms, wat deur byna 200 lande onderteken is, het ten doel om globale verwarming tot ver onder 2°C bo voor-industriële vlakke te beperk.",
+          "fato11": "Ongeveer 'n derde van al die kos wat in die wêreld geproduseer word, word gemors — en daardie vermorsing alleen veroorsaak 'n betekenisvolle deel van die wêreld se kweekhuisgasuitlatings.",
+          "fato12": "Moderne windturbines kan genoeg energie genereer om duisende huise te voorsien, sonder om CO₂ tydens bedryf uit te laat.",
+          "fato13": "Gesonde grond stoor meer koolstof as al die plantegroei en die atmosfeer saam — regeneratiewe boerderypraktyke help om daardie koolstof in die grond te hou.",
+          "fato14": "Koraalriwwe dek minder as 1% van die oseaanbodem, maar onderhou tog sowat 25% van al die bekende see-lewe — en hulle is uiters sensitief vir warmer water.",
+          "fato15": "Om minder warm water by die huis te mors (korter storte, byvoorbeeld), verminder ook uitlatings, want water verhit verg energie.",
+          "fato16": "Elektriese motors is geneig om oor hul leeftyd minder CO₂ uit te laat as brandstofmotors, selfs as die vervaardiging van die battery ingereken word — veral waar die elektrisiteit uit skoon bronne kom.",
+          "fato17": "Om organiese afval by die huis te komposteer, voorkom dat dit metaan op stortingsterreine produseer — 'n kweekhuisgas wat op kort termyn baie kragtiger as CO₂ is.",
+          "fato18": "Die gletsers van Groenland en Antarktika verloor saam in die afgelope jare honderde miljarde ton ys per jaar, wat direk tot stygende seevlakke bydra."
+      }
     },
     "noticias": {
       "titulo": "Omgewingsnuus",
@@ -138,6 +160,31 @@
       "navegacao": "Navigasie",
       "contato": "Kontak",
       "copyright": "© 2026 Carbono Consciente. Alle regte voorbehou."
+    },
+    "planta": {
+      "aria_svg": "Plant wat groei tot 'n boom, na aanleiding van die gesondheid van jou reisgewoontes",
+      "carregando_placeholder": "Laai jou plant tans...",
+      "aria_arvore": "Boom. Klik om weer te plant",
+      "dica_replantar": "Klik op die boom om weer te plant",
+      "legenda_0": "Plant jou saad tans...",
+      "legenda_1": "'n Klein spruitjie is gebore. Elke volhoubare rit laat dit groei.",
+      "legenda_2": "Dit is nou 'n stewige saailing. Jou gewoontes vat wortel.",
+      "legenda_3": "'n Jong boom, vol blare. Hou so aan!",
+      "legenda_4": "'n Weelderige boom in blom. Jou gewoontes is ongelooflik!"
+    },
+    "estatisticas": {
+      "media_mundial": "Gemiddelde CO₂ per persoon, onder die gemonitorde lande",
+      "maior_emissor": "grootste uitlater per capita: {{pais}}",
+      "menor_emissor": "kleinste uitlater per capita: {{pais}}",
+      "paises_monitorados": "lande wêreldwyd gemonitor",
+      "seu_co2_semana": "jou CO₂ hierdie week",
+      "vs_media_paises": "vergeleke met die weeklikse gemiddelde van die lande",
+      "ranking_mundial": "geskatte posisie onder {{total}} lande",
+      "sem_dados_suficientes": "onvoldoende data",
+      "fallback_co2_evitado": "gemiddelde CO₂ vermy per gekoppelde bedryf / maand",
+      "fallback_variacao_emissoes": "uitlatings vs. dieselfde tydperk vorige jaar",
+      "fallback_abaixo_media_setor": "onder die sektorgemiddelde, in gemonitorde rekeninge",
+      "fallback_paises_ativos": "lande met aktiewe datanodusse in die netwerk"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "geen inskrywings in hierdie tydperk nie",
     "delta_primeiro_registro": "eerste inskrywing in hierdie tydperk",
     "delta_estavel": "stabiel vs. vorige tydperk",
-    "delta_variacao": "{{percentual}}% vs. vorige tydperk"
+    "delta_variacao": "{{percentual}}% vs. vorige tydperk",
+    "meios": {
+      "carro_gasolina": "Motor (petrol)",
+      "carro_etanol": "Motor (etanol)",
+      "carro_eletrico": "Motor (elektries)",
+      "motocicleta": "Motorfiets",
+      "onibus": "Bus",
+      "metro_trem": "Moltrein/Trein",
+      "bicicleta": "Fiets",
+      "a_pe": "Te voet"
+    }
   },
   "globo": {
     "legenda_titulo": "Uitlatings per capita",

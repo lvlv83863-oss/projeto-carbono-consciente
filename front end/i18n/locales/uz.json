@@ -13,7 +13,9 @@
       "habitos": "Odatlar",
       "contato": "Aloqa",
       "dados": "Ma'lumotlar"
-    }
+    },
+    "logo_alt": "Carbono Consciente logotipi",
+    "redirecionamento_html": "Yo'naltirilmoqda... <a href=\"front%20end/html/inicial.html\">bu yerni bosing</a> agar yo'naltirilmasangiz."
   },
   "header": {
     "idioma_aria": "Tilni o'zgartirish",
@@ -120,7 +122,27 @@
       "subtitulo": "Bilasizmi?",
       "carregando": "Qiziqarli fakt yuklanmoqda...",
       "proxima": "Keyingi qiziqarli fakt",
-      "erro_carregar": "Hozircha qiziqarli faktlarni yuklab bo'lmadi."
+      "erro_carregar": "Hozircha qiziqarli faktlarni yuklab bo'lmadi.",
+      "fatos": {
+        "fato1": "Kattalashgan daraxt o'rtacha yiliga taxminan 22 kg CO₂ ni yutadi — shuning uchun qayta o'rmonlashtirish chiqindilarni qoplashning eng to'g'ridan-to'g'ri usullaridan biridir.",
+        "fato2": "Okeanlar insoniyat har yili chiqaradigan barcha CO₂ ning taxminan to'rtdan bir qismini yutib, global iqlimning ulkan regulyatori vazifasini bajaradi.",
+        "fato3": "Bir tonna qog'ozni qayta ishlash yangi qog'oz ishlab chiqarishga nisbatan taxminan 17 ta daraxtni va katta miqdordagi suv va energiyani tejaydi.",
+        "fato4": "Transport energiya bilan bog'liq global CO₂ chiqindilarining taxminan to'rtdan bir qismiga javobgar — qisqa masofalarda avtomobilni velosiped yoki jamoat transportiga almashtirish haqiqiy farq yaratadi.",
+        "fato5": "Amazonka sayyoradagi barcha ma'lum bioxilma-xillikning taxminan 10 foizini o'z ichiga oladi, shuningdek, o'zining o'simlik qatlamida milliardlab tonna uglerodni saqlaydi.",
+        "fato6": "Turar-joy quyosh panellari mahalliy energiya tarkibiga qarab, uy xo'jaligining uglerod izini yiliga bir necha tonna CO₂ ga kamaytirishi mumkin.",
+        "fato7": "Qizil go'sht kamroq bo'lgan dieta shaxsiy uglerod izini sezilarli darajada kamaytirishi mumkin, chunki mol chorvachiligi eng ko'p chiqindi chiqaradigan qishloq xo'jaligi faoliyatlaridan biridir.",
+        "fato8": "Arktikada dengiz muzining erishi sayyoraning quyosh nurini kosmosga qaytarish qobiliyatini kamaytiradi, bu isishni tezlashtiradi — bu hodisa albedo teskari aloqasi deb ataladi.",
+        "fato9": "LED lampalar cho'g'lanma lampalarga qaraganda 80 foizgacha kamroq energiya sarflaydi va ancha uzoqroq xizmat qiladi, bu esa chiqindilarni va chiqitlarni kamaytiradi.",
+        "fato10": "Qariyb 200 davlat tomonidan imzolangan Parij kelishuvi global isinishni sanoatlashuvdan oldingi darajadan 2°C dan ancha pastroqqa cheklashni maqsad qiladi.",
+        "fato11": "Dunyoda ishlab chiqarilgan barcha oziq-ovqatning taxminan uchdan bir qismi isrof bo'ladi — va bu isrofgarchilikning o'zi global issiqxona gazlari chiqindilarining sezilarli ulushini hosil qiladi.",
+        "fato12": "Zamonaviy shamol turbinalari minglab uylarni ta'minlash uchun yetarli energiya ishlab chiqarishi mumkin, ishlash davomida CO₂ chiqarmasdan.",
+        "fato13": "Sog'lom tuproq barcha o'simliklar va atmosferadan ko'proq uglerodni saqlaydi — regenerativ dehqonchilik amaliyotlari bu uglerodni yerda saqlab qolishga yordam beradi.",
+        "fato14": "Marjon riflari okean tubining 1 foizdan kamini qoplasa ham, ma'lum dengiz hayotining taxminan 25 foizini qo'llab-quvvatlaydi — va suv isishiga juda sezgir.",
+        "fato15": "Uyda issiq suv isrofini kamaytirish (masalan, qisqaroq duş qabul qilish) chiqindilarni ham kamaytiradi, chunki suvni isitish energiya talab qiladi.",
+        "fato16": "Elektromobillar, batareya ishlab chiqarishni hisobga olgan taqdirda ham, ichki yonish dvigatelli avtomobillarga qaraganda butun xizmat muddati davomida odatda kamroq CO₂ chiqaradi, ayniqsa elektr energiyasi toza manbalardan kelganda.",
+        "fato17": "Uyda organik chiqindilarni kompostlash ularning axlatxonalarda metan hosil qilishining oldini oladi — bu qisqa muddatda CO₂ dan ancha kuchliroq issiqxona gazi.",
+        "fato18": "Grenlandiya va Antarktida muzliklari so'nggi yillarda birgalikda yiliga yuzlab milliard tonna muzni yo'qotmoqda, bu bevosita dengiz sathining ko'tarilishiga hissa qo'shmoqda."
+      }
     },
     "noticias": {
       "titulo": "Atrof-muhit yangiliklari",
@@ -138,6 +160,31 @@
       "navegacao": "Navigatsiya",
       "contato": "Aloqa",
       "copyright": "© 2026 Carbono Consciente. Barcha huquqlar himoyalangan."
+    },
+    "planta": {
+      "aria_svg": "Harakatlanish odatlaringiz sog'lomligiga qarab daraxtga aylanib o'suvchi o'simlik",
+      "carregando_placeholder": "O'simligingiz yuklanmoqda...",
+      "aria_arvore": "Daraxt. Qayta ekish uchun bosing",
+      "dica_replantar": "Qayta ekish uchun daraxtni bosing",
+      "legenda_0": "Urug'ingiz ekilmoqda...",
+      "legenda_1": "Kichik maysa paydo bo'ldi. Har bir barqaror sayohat uning o'sishiga yordam beradi.",
+      "legenda_2": "Endi u mustahkam niholga aylandi. Odatlaringiz ildiz otmoqda.",
+      "legenda_3": "Barglarga to'la yosh daraxt. Shunday davom eting!",
+      "legenda_4": "Gullagan salobatli daraxt. Odatlaringiz ajoyib!"
+    },
+    "estatisticas": {
+      "media_mundial": "kuzatilayotgan davlatlar orasida jon boshiga o'rtacha CO₂",
+      "maior_emissor": "jon boshiga eng ko'p chiqindi chiqaruvchi: {{pais}}",
+      "menor_emissor": "jon boshiga eng kam chiqindi chiqaruvchi: {{pais}}",
+      "paises_monitorados": "dunyoda kuzatilayotgan davlatlar",
+      "seu_co2_semana": "shu haftadagi CO₂ ko'rsatkichingiz",
+      "vs_media_paises": "davlatlarning haftalik o'rtachasi bilan solishtirganda",
+      "ranking_mundial": "{{total}} davlat orasidagi taxminiy o'rin",
+      "sem_dados_suficientes": "ma'lumot yetarli emas",
+      "fallback_co2_evitado": "ulangan har bir operatsiya / oyga oldini olingan o'rtacha CO₂",
+      "fallback_variacao_emissoes": "o'tgan yilning shu davri bilan solishtirilgan chiqindilar",
+      "fallback_abaixo_media_setor": "kuzatilayotgan hisoblar orasida soha o'rtachasidan past",
+      "fallback_paises_ativos": "tarmoqda faol ma'lumot tugunlariga ega davlatlar"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "bu davrda yozuvlar yo'q",
     "delta_primeiro_registro": "bu davrdagi birinchi yozuv",
     "delta_estavel": "oldingi davrga nisbatan barqaror",
-    "delta_variacao": "oldingi davrga nisbatan {{percentual}}%"
+    "delta_variacao": "oldingi davrga nisbatan {{percentual}}%",
+    "meios": {
+      "carro_gasolina": "Avtomobil (benzin)",
+      "carro_etanol": "Avtomobil (etanol)",
+      "carro_eletrico": "Avtomobil (elektr)",
+      "motocicleta": "Mototsikl",
+      "onibus": "Avtobus",
+      "metro_trem": "Metro/Poyezd",
+      "bicicleta": "Velosiped",
+      "a_pe": "Yayov"
+    }
   },
   "globo": {
     "legenda_titulo": "Jon boshiga chiqindilar",

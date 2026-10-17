@@ -13,7 +13,9 @@
       "habitos": "Aye ti lakue lakue",
       "contato": "Bâa e",
       "dados": "Atënë"
-    }
+    },
+    "logo_alt": "Logo ti Carbono Consciente",
+    "redirecionamento_html": "A yeke gue na mbaage... <a href=\"front%20end/html/inicial.html\">pika ge</a> tongana a gue na mo na mbaage pëpe."
   },
   "header": {
     "idioma_aria": "Changé yanga",
@@ -120,7 +122,27 @@
       "subtitulo": "Mo hinga awe?",
       "carregando": "A yeke zi mbeni kpengba-tënë...",
       "proxima": "Mbeni kpengba-tënë",
-      "erro_carregar": "A lingbi pëpe ti zi akpengba-tënë fadeso."
+      "erro_carregar": "A lingbi pëpe ti zi akpengba-tënë fadeso.",
+      "fatos": {
+        "fato1": "Mbeni keke so akono, na ngoi oko, ayeke mû gbâ ti kilo 22 ti CO₂ — ni la ndali ni, lekengo ti angonda ayeke oko ti alembe ti nzoni mingi ti compenser aémission.",
+        "fato2": "Angu-ingo ayeke mû gbâ ti kati oko na ndâ usio ti CO₂ kue so azo ti gbagburu ayeke zi na ngoi oko oko — ayeke tongana mbeni kota ye so ayeke gere climat ti gbagburu kue.",
+        "fato3": "Recyclage ti tonne oko ti mbeti ayeke sava akeke 17 nga na gbâ ti ngu na énergie mingi, na comparaison na lekengo ti mbeti ti fini.",
+        "fato4": "Transport ayeke ndâ ti gbâ ti kati oko na ndâ usio ti aémission ti CO₂ ti gbagburu so ayeke gue na énergie — zingo oto na velo wala transport ti azo kue na lege akete ayeke sala mbeni changement ti vrai.",
+        "fato5": "Forêt ti Amazonie ayeke ndo ti biodiversité so azo ahinga ni, gbâ ti kati 10 na ndâ 100, ti gbagburu kue — nga ayeke bata gbâ ti milliard ti tonne ti carbone na yâ ti akeke ni.",
+        "fato6": "Panneaux solaires na ndo ti adakouanga alingbi ti kängbi aémission ti carbone ti mbeni da na gbâ ti tonne ti CO₂ na ngu oko, alingbi na lege so énergie ayeke na ni na ndo ni.",
+        "fato7": "Kobe so ane nyama ti bengba akete ayeke lingbi ti kängbi mingi aémission ti carbone ti mbeni zo — ndali ni, batango ti bagara ayeke oko ti akua ti agriculture so asala aémission mingi.",
+        "fato8": "Zïngo ti glace ti mbata ti ngu ti Arctique ayeke kängbi ngangü ti gbagburu ti zîa fade ti lâ na yâ ti ndüzü — ye so ayeke sala kä wâ ti gbagburu ane ngangü — mbeni ye so azo ahinga ni tongana 'effet ti albédo'.",
+        "fato9": "Alampe ti LED ayeke mû kete énergie, kängbi juska 80 na ndâ 100 ahon ti alampe ti kûrû, nga ayeke ngbâ ngoi mingi ahon — ye so akängbi aémission nga na asioni.",
+        "fato10": "Accord ti Paris, so akpa signature ti amara kôzo 200, ayeke na lingo ti kängbi zïngo ti wâ ti gbagburu kue na ndo ti 2°C ahon ngoi so akozo industrie.",
+        "fato11": "Gbâ ti kati oko na ndâ ota ti kobe kue so asala na gbagburu ayeke gä sioni — na kobe so agä sioni ayeke mû mbeni kota mbage ti aémission ti gaz so asala wâ ti gbagburu ane.",
+        "fato12": "Aturbine ti pupu ti ngoi ti fadeso alingbi ti sala énergie so alingbi ti mû lumière na gbâ ti azo wa, sân ti zîa CO₂ na ngoi so ayeke sala.",
+        "fato13": "Sese so ayeke nzoni ayeke bata carbone mingi ahon akeke kue na ndüzü oko — akua ti agriculture so akiri ayeke mu maboko ti bata carbone ni na yâ ti sese.",
+        "fato14": "Acorail, atâa so akanga gï kete ahon 1 na ndâ 100 ti ndo ti ngu-ingo, ayeke mû lege ti fini na gbâ ti kati 25 na ndâ 100 ti fini kue ti ngu-ingo so azo ahinga ni — nga ayeke yeke kpale mingi na zîngo ti wâ ti ngu.",
+        "fato15": "Kängbingo ngu ti wâ so asioni na da (tongaso, douche ni akete) ayeke kängbi nga aémission, ndali ni zïango ngu ayeke mû énergie.",
+        "fato16": "Aoto ti électricité, atâa na lingo ti lekengo ti batterie, ayeke zîa kete CO₂ na ngoi ti fini ti ala ahon aoto ti essence — mbilimbili na ndo so électricité alingbi na ndo so ague sân sioni.",
+        "fato17": "Compostage ti abibe ti nyama na biani na da ayeke kanga lege ti methane ti sï na ando ti abibe — gaz so asioni ahon CO₂ na ngoi akete.",
+        "fato18": "Aglacier ti Groenland na Antarctique, ôko oko, ayeke girisa, na ngu so ahon, gbâ ti milliard ti tonne ti glace na ngoi oko — ye so amû maboko biani na zîngo ti ngu-ingo."
+      }
     },
     "noticias": {
       "titulo": "Atënë ti sese",
@@ -138,6 +160,31 @@
       "navegacao": "Lege ti gue",
       "contato": "Bâa e",
       "copyright": "© 2026 Carbono Consciente. Angangü kue azia na terê ni."
+    },
+    "planta": {
+      "aria_svg": "Keke so akono si aga keke ndali ti senge ti angia ti mo ti tambela",
+      "carregando_placeholder": "Keke ti mo ayeke londo...",
+      "aria_arvore": "Keke. Pika ti lu lo fini",
+      "dica_replantar": "Pika na li ti keke ti lu lo fini",
+      "legenda_0": "A yeke lu lê ti mo...",
+      "legenda_1": "Mbeni kete keke adü. Lege kue so ayeke nzoni azo lo ayeke mu lo na kono.",
+      "legenda_2": "Fadeso a yeke mbeni keke so akpengba. Angia ti mo azo akanga gigi.",
+      "legenda_3": "Mbeni keke so ayeke pili, so a sala na akugbe mingi. Ngbâ tongaso!",
+      "legenda_4": "Mbeni keke so ayeke kue na fleur. Angia ti mo ayeke nzoni mingi!"
+    },
+    "estatisticas": {
+      "media_mundial": "ndoyo ti CO₂ na zo oko oko, na popo ti akodoro so a bâa ni",
+      "maior_emissor": "kodoro so asala CO₂ mingi ahon na zo oko oko: {{pais}}",
+      "menor_emissor": "kodoro so asala CO₂ kete ahon na zo oko oko: {{pais}}",
+      "paises_monitorados": "akodoro so a bâa ni na ndo sese",
+      "seu_co2_semana": "CO₂ ti mo na yanga sinon so",
+      "vs_media_paises": "polele na ndoyo ti yanga sinon ti akodoro",
+      "ranking_mundial": "place so a hinga ni na popo ti akodoro {{total}}",
+      "sem_dados_suficientes": "ambeni data ayeke mingi pëpe",
+      "fallback_co2_evitado": "ndoyo ti CO₂ so a kanga ni na kusala oko oko ti kua / na nze",
+      "fallback_variacao_emissoes": "kuango ti CO₂ polele na ngoi ti ngu so aheke",
+      "fallback_abaixo_media_setor": "na gbe ti ndoyo ti sendere, na popo ti acompte so a bâa ni",
+      "fallback_paises_ativos": "akodoro so ayeke na anode ti data so akua na réseau"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "atënë ôko pëpe na yâ ti ngoi so",
     "delta_primeiro_registro": "tënë ti kozo na yâ ti ngoi so",
     "delta_estavel": "a luti ôko tongana ngoi so ahon",
-    "delta_variacao": "{{percentual}}% tongana ngoi so ahon"
+    "delta_variacao": "{{percentual}}% tongana ngoi so ahon",
+    "meios": {
+      "carro_gasolina": "Oto (lesansi)",
+      "carro_etanol": "Oto (etanol)",
+      "carro_eletrico": "Oto (kurenti)",
+      "motocicleta": "Moto",
+      "onibus": "Bisi",
+      "metro_trem": "Metro/Train",
+      "bicicleta": "Velo",
+      "a_pe": "Na gere"
+    }
   },
   "globo": {
     "legenda_titulo": "CO₂ ti zo oko oko",

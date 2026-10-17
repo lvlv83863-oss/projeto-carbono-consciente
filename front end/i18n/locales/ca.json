@@ -7,6 +7,8 @@
     "sair_link": "tancar sessió",
     "painel_link": "panell",
     "fechar": "Tancar",
+    "logo_alt": "Logo de Carbono Consciente",
+    "redirecionamento_html": "Redirigint... <a href=\"front%20end/html/inicial.html\">feu clic aquí</a> si no sou redirigit.",
     "nav": {
       "plataforma": "Plataforma",
       "impacto": "Impacte",
@@ -120,7 +122,27 @@
       "subtitulo": "Sabies que?",
       "carregando": "Carregant curiositat...",
       "proxima": "Següent curiositat",
-      "erro_carregar": "Ara mateix no s'han pogut carregar les curiositats."
+      "erro_carregar": "Ara mateix no s'han pogut carregar les curiositats.",
+      "fatos": {
+          "fato1": "Un arbre adult absorbeix, de mitjana, uns 22 kg de CO₂ l'any — per això la reforestació és una de les maneres més directes de compensar emissions.",
+          "fato2": "Els oceans absorbeixen aproximadament una quarta part de tot el CO₂ que emet la humanitat cada any, i funcionen com un enorme regulador del clima global.",
+          "fato3": "Reciclar una tona de paper estalvia uns 17 arbres i una quantitat significativa d'aigua i energia en comparació amb produir paper nou.",
+          "fato4": "El transport és responsable d'aproximadament una quarta part de les emissions globals de CO₂ lligades a l'energia — canviar el cotxe per la bicicleta o el transport públic en trajectes curts marca una diferència real.",
+          "fato5": "L'Amazònia acull prop del 10% de tota la biodiversitat coneguda del planeta, a més d'emmagatzemar milers de milions de tones de carboni en la seva vegetació.",
+          "fato6": "Les plaques solars residencials poden reduir la petjada de carboni d'una llar en tones de CO₂ l'any, segons el mix energètic local.",
+          "fato7": "Una dieta amb menys carn vermella pot reduir significativament la petjada de carboni personal, ja que la ramaderia bovina és una de les activitats agrícoles més intensives en emissions.",
+          "fato8": "El desgel del gel marí de l'Àrtic redueix la capacitat del planeta de reflectir la llum solar cap a l'espai, i accelera l'escalfament — un efecte conegut com a retroalimentació de l'albedo.",
+          "fato9": "Els llums LED consumeixen fins a un 80% menys d'energia que els llums incandescents i duren molt més temps, i redueixen tant les emissions com els residus.",
+          "fato10": "L'Acord de París, signat per gairebé 200 països, té com a objectiu limitar l'escalfament global molt per sota dels 2°C respecte dels nivells preindustrials.",
+          "fato11": "Prop d'un terç de tots els aliments produïts al món es malgasta — i aquest malbaratament, per si sol, genera una part important de les emissions globals de gasos amb efecte d'hivernacle.",
+          "fato12": "Els aerogeneradors moderns poden generar prou energia per abastir milers d'habitatges, sense emetre CO₂ durant el funcionament.",
+          "fato13": "El sòl sa emmagatzema més carboni que tota la vegetació i l'atmosfera juntes — les pràctiques agrícoles regeneratives ajuden a mantenir aquest carboni a terra.",
+          "fato14": "Els esculls de corall, tot i que cobreixen menys de l'1% del fons oceànic, sostenen prop del 25% de tota la vida marina coneguda — i són extremament sensibles a l'escalfament de les aigües.",
+          "fato15": "Reduir el malbaratament d'aigua calenta a casa (dutxes més curtes, per exemple) també redueix emissions, ja que escalfar aigua consumeix energia.",
+          "fato16": "Els cotxes elèctrics, fins i tot tenint en compte la fabricació de la bateria, tendeixen a emetre menys CO₂ al llarg de la seva vida útil que els cotxes de combustió, especialment allà on l'electricitat prové de fonts netes.",
+          "fato17": "Compostar residus orgànics a casa evita que produeixin metà als abocadors — un gas amb efecte d'hivernacle molt més potent que el CO₂ a curt termini.",
+          "fato18": "Les glaceres de Groenlàndia i de l'Antàrtida juntes perden, en els darrers anys, centenars de milers de milions de tones de gel l'any, i contribueixen directament a l'augment del nivell del mar."
+      }
     },
     "noticias": {
       "titulo": "Notícies Ambientals",
@@ -138,6 +160,31 @@
       "navegacao": "Navegació",
       "contato": "Contacte",
       "copyright": "© 2026 Carbono Consciente. Tots els drets reservats."
+    },
+    "planta": {
+      "aria_svg": "Planta que creix fins a convertir-se en arbre segons la salut dels teus hàbits de desplaçament",
+      "carregando_placeholder": "Carregant la teva planta...",
+      "aria_arvore": "Arbre. Fes clic per plantar de nou",
+      "dica_replantar": "Fes clic a l'arbre per plantar de nou",
+      "legenda_0": "Plantant la teva llavor...",
+      "legenda_1": "Ha nascut un petit brot. Cada trajecte sostenible el fa créixer.",
+      "legenda_2": "Ja és un planter ferm. Els teus hàbits estan arrelant.",
+      "legenda_3": "Un arbre jove, ple de fulles. Continua així!",
+      "legenda_4": "Un arbre frondós en flor. Els teus hàbits són increïbles!"
+    },
+    "estatisticas": {
+      "media_mundial": "CO₂ mitjà per persona, entre els països monitorats",
+      "maior_emissor": "major emissor per capita: {{pais}}",
+      "menor_emissor": "menor emissor per capita: {{pais}}",
+      "paises_monitorados": "països monitorats al globus",
+      "seu_co2_semana": "el teu CO₂ aquesta setmana",
+      "vs_media_paises": "comparat amb la mitjana setmanal dels països",
+      "ranking_mundial": "posició estimada entre {{total}} països",
+      "sem_dados_suficientes": "sense dades suficients",
+      "fallback_co2_evitado": "CO₂ mitjà evitat per operació connectada / mes",
+      "fallback_variacao_emissoes": "emissions vs. el mateix període de l'any anterior",
+      "fallback_abaixo_media_setor": "per sota de la mitjana del sector, en comptes monitorats",
+      "fallback_paises_ativos": "països amb nodes de dades actius a la xarxa"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "sense registres en aquest període",
     "delta_primeiro_registro": "primer registre del període",
     "delta_estavel": "estable respecte al període anterior",
-    "delta_variacao": "{{percentual}}% respecte al període anterior"
+    "delta_variacao": "{{percentual}}% respecte al període anterior",
+    "meios": {
+      "carro_gasolina": "Cotxe (gasolina)",
+      "carro_etanol": "Cotxe (etanol)",
+      "carro_eletrico": "Cotxe (elèctric)",
+      "motocicleta": "Motocicleta",
+      "onibus": "Autobús",
+      "metro_trem": "Metro/Tren",
+      "bicicleta": "Bicicleta",
+      "a_pe": "A peu"
+    }
   },
   "globo": {
     "legenda_titulo": "Emissions per càpita",

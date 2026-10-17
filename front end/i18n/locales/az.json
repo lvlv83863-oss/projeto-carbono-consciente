@@ -7,6 +7,8 @@
     "sair_link": "çıxış",
     "painel_link": "panel",
     "fechar": "Bağla",
+    "logo_alt": "Carbono Consciente loqosu",
+    "redirecionamento_html": "Yönləndirilir... Yönləndirilmirsinizsə <a href=\"front%20end/html/inicial.html\">bura klikləyin</a>.",
     "nav": {
       "plataforma": "Platforma",
       "impacto": "Təsir",
@@ -120,7 +122,27 @@
       "subtitulo": "Bilirdiniz mi?",
       "carregando": "Maraqlı fakt yüklənir...",
       "proxima": "Növbəti maraqlı fakt",
-      "erro_carregar": "İndi maraqlı faktları yükləmək mümkün olmadı."
+      "erro_carregar": "İndi maraqlı faktları yükləmək mümkün olmadı.",
+      "fatos": {
+        "fato1": "Yetkin bir ağac ildə orta hesabla təxminən 22 kq CO₂ udur — buna görə də meşə bərpası emissiyaları kompensasiya etmək üçün ən birbaşa yollardan biridir.",
+        "fato2": "Okeanlar hər il insanlığın buraxdığı bütün CO₂-nin təxminən dörddə birini udaraq qlobal iqlimin nəhəng tənzimləyicisi kimi çıxış edir.",
+        "fato3": "Bir ton kağızın təkrar emalı yeni kağız istehsalı ilə müqayisədə təxminən 17 ağacı və əhəmiyyətli miqdarda su və enerjiyə qənaəti təmin edir.",
+        "fato4": "Nəqliyyat enerji ilə bağlı qlobal CO₂ emissiyalarının təxminən dörddə birinə görə məsuliyyət daşıyır — qısa məsafələrdə avtomobili velosiped və ya ictimai nəqliyyatla əvəzləmək real fərq yaradır.",
+        "fato5": "Amazoniya planetdəki bütün məlum bioloji müxtəlifliyin təxminən 10%-ni özündə saxlayır və bitki örtüyündə milyardlarla ton karbon toplayır.",
+        "fato6": "Yaşayış evlərindəki günəş panelləri yerli enerji qarışığından asılı olaraq evin karbon izini ildə tonlarla CO₂ qədər azalda bilər.",
+        "fato7": "Qırmızı ət az olan pəhriz şəxsi karbon izini əhəmiyyətli dərəcədə azalda bilər, çünki mal-qara yetişdirilməsi emissiya baxımından ən intensiv kənd təsərrüfatı fəaliyyətlərindən biridir.",
+        "fato8": "Arktikada dəniz buzunun əriməsi planetin günəş işığını kosmosa geri əks etdirmə qabiliyyətini azaldır, istiləşməni sürətləndirir — albedo əks-əlaqəsi adlanan effekt.",
+        "fato9": "LED lampalar közərmə lampalarından 80%-ə qədər daha az enerji sərf edir və daha uzun müddət xidmət edir, həm emissiyaları, həm də tullantıları azaldır.",
+        "fato10": "Demək olar ki 200 ölkə tərəfindən imzalanmış Paris Sazişi qlobal istiləşməni sənayeqabağı səviyyələrdən 2°C-dən xeyli aşağı həddə saxlamağı hədəfləyir.",
+        "fato11": "Dünyada istehsal olunan bütün qida məhsullarının təxminən üçdə biri israf olunur — və bu tək özü qlobal istixana qazı emissiyalarının əhəmiyyətli bir hissəsini yaradır.",
+        "fato12": "Müasir külək turbinləri minlərlə evi təmin etmək üçün kifayət qədər enerji istehsal edə bilir, iş zamanı CO₂ buraxmadan.",
+        "fato13": "Sağlam torpaq bütün bitki örtüyü və atmosferin cəmindən daha çox karbon saxlayır — regenerativ kənd təsərrüfatı təcrübələri bu karbonu torpaqda saxlamağa kömək edir.",
+        "fato14": "Mərcan rifləri okean dibinin 1%-dən azını əhatə etsə də, məlum dəniz həyatının təxminən 25%-ni özündə saxlayır — və suların istiləşməsinə son dərəcə həssasdır.",
+        "fato15": "Evdə isti su israfını azaltmaq (məsələn, daha qısa duş qəbul etmək) də emissiyaları azaldır, çünki suyu qızdırmaq enerji tələb edir.",
+        "fato16": "Elektrikli avtomobillər, batareya istehsalını da nəzərə alsaq belə, bütün istismar müddətində yanacaqla işləyən avtomobillərə nisbətən daha az CO₂ buraxır, xüsusən elektrik enerjisi təmiz mənbələrdən əldə edildikdə.",
+        "fato17": "Üzvi tullantıların evdə kompostlaşdırılması onların zibilliklərdə metan istehsal etməsinin qarşısını alır — qısa müddətdə CO₂-dən qat-qat güclü istixana qazı.",
+        "fato18": "Qrenlandiya və Antarktidanın buzlaqları birlikdə son illərdə hər il yüz milyardlarla ton buz itirir, bu da birbaşa dəniz səviyyəsinin qalxmasına səbəb olur."
+      }
     },
     "noticias": {
       "titulo": "Ekoloji Xəbərlər",
@@ -138,6 +160,31 @@
       "navegacao": "Naviqasiya",
       "contato": "Əlaqə",
       "copyright": "© 2026 Carbono Consciente. Bütün hüquqlar qorunur."
+    },
+    "planta": {
+      "aria_svg": "Hərəkət vərdişlərinizin sağlamlığına uyğun olaraq ağaca çevrilən bitki",
+      "carregando_placeholder": "Bitkiniz yüklənir...",
+      "aria_arvore": "Ağac. Yenidən əkmək üçün klikləyin",
+      "dica_replantar": "Yenidən əkmək üçün ağaca klikləyin",
+      "legenda_0": "Toxumunuz əkilir...",
+      "legenda_1": "Kiçik bir pöhrə doğuldu. Hər dayanıqlı səyahət onu böyüdür.",
+      "legenda_2": "İndi möhkəm bir cücərtidir. Vərdişləriniz kök salır.",
+      "legenda_3": "Yarpaqlarla dolu gənc bir ağac. Belə davam edin!",
+      "legenda_4": "Çiçəklənən bərəkətli bir ağac. Vərdişləriniz heyrətamizdir!"
+    },
+    "estatisticas": {
+      "media_mundial": "İzlənilən ölkələr arasında adambaşı orta CO₂",
+      "maior_emissor": "adambaşı ən çox emissiya edən: {{pais}}",
+      "menor_emissor": "adambaşı ən az emissiya edən: {{pais}}",
+      "paises_monitorados": "qlobusda izlənilən ölkələr",
+      "seu_co2_semana": "bu həftəki CO₂-niz",
+      "vs_media_paises": "ölkələrin həftəlik ortalaması ilə müqayisədə",
+      "ranking_mundial": "{{total}} ölkə arasında təxmini sıralama",
+      "sem_dados_suficientes": "kifayət qədər məlumat yoxdur",
+      "fallback_co2_evitado": "qoşulmuş əməliyyat / ay üzrə qarşısı alınan orta CO₂",
+      "fallback_variacao_emissoes": "keçən ilin eyni dövrü ilə müqayisədə emissiyalar",
+      "fallback_abaixo_media_setor": "izlənilən hesablarda sektor ortalamasından aşağı",
+      "fallback_paises_ativos": "şəbəkədə aktiv məlumat qovşaqları olan ölkələr"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "bu dövrdə qeyd yoxdur",
     "delta_primeiro_registro": "bu dövrün ilk qeydi",
     "delta_estavel": "əvvəlki dövrlə müqayisədə sabit",
-    "delta_variacao": "əvvəlki dövrlə müqayisədə {{percentual}}%"
+    "delta_variacao": "əvvəlki dövrlə müqayisədə {{percentual}}%",
+    "meios": {
+      "carro_gasolina": "Avtomobil (benzin)",
+      "carro_etanol": "Avtomobil (etanol)",
+      "carro_eletrico": "Avtomobil (elektrik)",
+      "motocicleta": "Motosiklet",
+      "onibus": "Avtobus",
+      "metro_trem": "Metro/Qatar",
+      "bicicleta": "Velosiped",
+      "a_pe": "Piyada"
+    }
   },
   "globo": {
     "legenda_titulo": "Adambaşı emissiya",

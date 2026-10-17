@@ -13,7 +13,9 @@
       "habitos": "Mekhoa",
       "contato": "Khokahano",
       "dados": "Lintlha"
-    }
+    },
+    "logo_alt": "Lifo ea Carbono Consciente",
+    "redirecionamento_html": "Ho fetisetsa... <a href=\"front%20end/html/inicial.html\">tobetsa mona</a> haeba o sa fetisetsoe."
   },
   "header": {
     "idioma_aria": "Fetola puo",
@@ -120,7 +122,27 @@
       "subtitulo": "Na u ne u tseba?",
       "carregando": "E ntse e kenya ntho e hlollang...",
       "proxima": "Ntho e latelang e hlollang",
-      "erro_carregar": "Ha ho khonahale ho kenya lintho tse hlollang hona joale."
+      "erro_carregar": "Ha ho khonahale ho kenya lintho tse hlollang hona joale.",
+      "fatos": {
+        "fato1": "Sefate se hodileng se monya, ka karolelano, hoo e ka bang 22 kg ea CO₂ selemo se seng le se seng — ke kahoo ho lemeng difate hape ho leng e 'ngoe ea mekhoa e tobang ka ho fetisisa ea ho lekanya tsa likhase tse lokolloang.",
+        "fato2": "Leoatle le monya hoo e ka bang karolo ea bone ea CO₂ eohle e lokolloang ke batho selemo se seng le se seng, le sebetsa joaloka selekanyetso se seholo sa boemo ba leholimo lefatšeng ka bophara.",
+        "fato3": "Ho kgutlisetsoa litoneng tse ling tsa pampiri ho boloka lifate tse ka bang 17 hammoho le metsi a mangata le matla, ha ho bapisoa le tlhahiso ea pampiri e ncha.",
+        "fato4": "Lipalangoang li ikarabella bakeng sa karolo ea bone ea likhase tse lokolloang tsa CO₂ lefatšeng tse amanang le matla — ho fetola koloi ho ea baesekeleng kapa lipalangoang tsa setjhaba maetong a makhutšoanyane ho etsa phapang e sebele.",
+        "fato5": "Moru oa Amazon o na le hoo e ka bang 10% ea tlhahlobo eohle e tsebahalang ea lefatše, hape o boloka dimilione tse likete tsa lithane tsa khabone ka meruleng ea ona.",
+        "fato6": "Dipanele tsa letsatsi tse malapeng li ka fokotsa mohlala oa khabone oa ntlo ka dithane tsa CO₂ selemong, ho latela tlhophiso ea matla a sebakeng seo.",
+        "fato7": "Lijo tse nang le nama e khubelu e nyane li ka fokotsa haholo mohlala oa khabone oa motho, kaha ho ruta likhomo ho le e 'ngoe ea mesebetsi ea temo e nang le likhase tse ngata ka ho fetisisa.",
+        "fato8": "Ho qhibiliha ha leqhoa la leoatle la Arctic ho fokotsa matla a lefatše a ho khutlisa khanya ea letsatsi sebakeng — sena se potlakisa mocheso — ketsahalo e tsejoang e le 'tšusumetso ea albedo'.",
+        "fato9": "Mabone a LED a sebelisa matla a fokolang ho fihla ho 80% ho feta mabone a khale, hape a tšoara nako e telele, a fokotsa likhase le litšila.",
+        "fato10": "Tumellano ea Paris, e saenneng ke linaha tse ka bang 200, e ikemiseditse ho lekanya kgolo ea mocheso oa lefatše ho ba tlase ho 2°C ho feta boemo bo neng bo le teng pele ho indasteri.",
+        "fato11": "Hoo e ka bang karolo ea boraro ea dijo tsohle tse hlahisoang lefatšeng e lahloa — le tahlehelo eo e 'nngwe feela e hlahisa karolo e kgolo ea likhase tsa lefatše tse baka phuphutso ea mocheso.",
+        "fato12": "Diturbine tsa moea tsa sejoale-joale di ka hlahisa matla a lekaneng ho fepa matlo a likete, ntle le ho lokolla CO₂ nakong ea tšebetso.",
+        "fato13": "Mobu o phetseng hantle o boloka khabone e ngata ho feta tlhahlobo eohle le sebaka ha ho bapisoa hammoho — mekhoa ea temo e tsosolosang e thusa ho boloka khabone eo mobung.",
+        "fato14": "Mahlaka a dikorale, le ha a koahela tlase ho 1% ea tlase ea leoatle, a tšehetsa hoo e ka bang 25% ea bophelo bohle ba leoatleng bo tsebahalang — hape a utloa bohloko haholo ka mocheso oa metsi.",
+        "fato15": "Ho fokotsa tahlehelo ea metsi a chesang ka tlung (mohlala, ho hlapa nako e khuts'oane) ho fokotsa hape likhase, hobane ho chesa metsi ho sebelisa matla.",
+        "fato16": "Likoloi tsa motlakase, le ha ho nkoa tlhahiso ea bethri, hangata li lokolla CO₂ e nyane nakong ea bophelo ba tsona ho feta likoloi tsa peterolo, haholo-holo moo motlakase o tsoang mehloling e hloekileng.",
+        "fato17": "Ho etsa komposite ea litšila tse tsoang lintlheng tse phelang ka tlung ho thibela hore li hlahise khase ea methane libakeng tsa litšila — khase ea phuphutso ea mocheso e matla ho feta CO₂ nakong e khuts'oane.",
+        "fato18": "Mahlwa a leqhoa a Greenland le Antarctica ka bobeli a lahleheloa, lilemong tsa morao-rao, ke makholo a dibilione tsa dithane tsa leqhoa selemong, ho etsa kabelo e tobileng ho phahameng ha boemo ba leoatle."
+      }
     },
     "noticias": {
       "titulo": "Litaba tsa Tikoloho",
@@ -138,6 +160,31 @@
       "navegacao": "Tsamaiso",
       "contato": "Khokahano",
       "copyright": "© 2026 Carbono Consciente. Litokelo tsohle li bolokeloe."
+    },
+    "planta": {
+      "aria_svg": "Semela se holang hoba sefate ho latela bophelo ba mekhoa ea hau ea maeto",
+      "carregando_placeholder": "Ho kenya semela sa hau...",
+      "aria_arvore": "Sefate. Tobetsa ho lema hape",
+      "dica_replantar": "Tobetsa sefate ho se lema hape",
+      "legenda_0": "Re lema peo ea hau...",
+      "legenda_1": "Ho hlahile tholoana e nyane. Leeto le leng le le leng le sa senyetseng tikoloho le e thusa hoba e hole.",
+      "legenda_2": "Joale e se e le sehlahla se tiileng. Mekhoa ea hau e ntse e nama metso.",
+      "legenda_3": "Sefate se secha, se tletse makhasi. Tsoela pele!",
+      "legenda_4": "Sefate se holileng hantle se thunyang. Mekhoa ea hau e hlollang!"
+    },
+    "estatisticas": {
+      "media_mundial": "karolelano ea CO₂ ho motho ka mong, lipakeng tsa linaha tse hlahlobuoang",
+      "maior_emissor": "naha e ntšang khase e ngata ka sechaba: {{pais}}",
+      "menor_emissor": "naha e ntšang khase e nyane ka sechaba: {{pais}}",
+      "paises_monitorados": "linaha tse hlahlobuoang lefatšeng",
+      "seu_co2_semana": "CO₂ ea hau bekeng ena",
+      "vs_media_paises": "ho bapisoa le karolelano ea beke ea linaha",
+      "ranking_mundial": "boemo bo hakanyetsoang har'a linaha tse {{total}}",
+      "sem_dados_suficientes": "ha ho na boitsebiso bo lekaneng",
+      "fallback_co2_evitado": "CO₂ e qobelletsoeng ka mosebetsi o hokahaneng ka kgwedi",
+      "fallback_variacao_emissoes": "tlhahiso ea likhase ho bapisoa le nako e tšoanang selemong se fetileng",
+      "fallback_abaixo_media_setor": "ka tlase ho karolelano ea lekala, har'a liakhaonto tse hlahlobuoang",
+      "fallback_paises_ativos": "linaha tse nang le li-node tsa boitsebiso tse sebetsang marangrangeng"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "ha ho lingoliso nakong ena",
     "delta_primeiro_registro": "ngoliso ea pele nakong ena",
     "delta_estavel": "e tsitsitse ho bapisoa le nako e fetileng",
-    "delta_variacao": "{{percentual}}% ho bapisoa le nako e fetileng"
+    "delta_variacao": "{{percentual}}% ho bapisoa le nako e fetileng",
+    "meios": {
+      "carro_gasolina": "Koloi (petrol)",
+      "carro_etanol": "Koloi (ethanol)",
+      "carro_eletrico": "Koloi (motlakase)",
+      "motocicleta": "Sethuthuthu",
+      "onibus": "Bese",
+      "metro_trem": "Terene",
+      "bicicleta": "Baesekele",
+      "a_pe": "Ka maoto"
+    }
   },
   "globo": {
     "legenda_titulo": "Ntšo ka motho ka mong",

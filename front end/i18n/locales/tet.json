@@ -13,7 +13,9 @@
       "habitos": "Hábitu",
       "contato": "Kontaktu",
       "dados": "Dadus"
-    }
+    },
+    "logo_alt": "Logo Carbono Consciente",
+    "redirecionamento_html": "Redirecionamentu iha laran... <a href=\"front%20end/html/inicial.html\">klik iha ne'e</a> se ita-boot la redirecionadu."
   },
   "header": {
     "idioma_aria": "Troka lian",
@@ -120,7 +122,27 @@
       "subtitulo": "Ita hatene ona?",
       "carregando": "Karega kuriozidade...",
       "proxima": "Kuriozidade tuir mai",
-      "erro_carregar": "La bele karega kuriozidade sira agora."
+      "erro_carregar": "La bele karega kuriozidade sira agora.",
+      "fatos": {
+        "fato1": "Ai-hun ida ne'ebé boot ona, ba tinan ida absorve kuaze 22 kg CO₂ — tanba ne'e, hahú fali ai-horis ne'e dalan ida ne'ebé direta liu hodi kompensa emisaun.",
+        "fato2": "Tasi sira absorve kuaze kuartu ida husi totál CO₂ ne'ebé umanidade sira hasai kada tinan, hanesan rejuladór boot ba klima globál.",
+        "fato3": "Rekikla tonelada ida papél hodi aforsa ai-hun kuaze 17 no bee no enerjia barak kompara ho produsaun papél foun.",
+        "fato4": "Transporte responsabiliza-an ba kuaze kuartu ida emisaun CO₂ globál ne'ebé relasiona ho enerjia — troka karreta ba bisikleta ka transporte públiku iha viajen badak halo diferensa tebes.",
+        "fato5": "Amazónia iha kuaze 10% husi biodiversidade hotu-hotu ne'ebé mundu hatene, no armazena biliaun ba biliaun tonelada karbonu iha nia ai-horis.",
+        "fato6": "Painel solár ba uma residensiál bele hamenus pegada karbonu uma ida ba tonelada CO₂ kada tinan, depende ba matriz enerjétika lokál.",
+        "fato7": "Dieta ho na'an mean ki'ik bele hamenus pegada karbonu individuál ho signifikante, tanba criasaun karau (\"gado bovino\") mak ida husi atividade agrikultura ne'ebé emite karbonu barak liu.",
+        "fato8": "Jee tasi iha Ártiku ne'ebé mota, hamenus kapasidade mundu atu refleta naroman solár fali ba espasu, hodi aselera aumenta kalór — efeitu ida ne'ebé hanaran \"retroalimentasaun albedo\".",
+        "fato9": "Lampu LED konsume energia ki'ik toman to'o 80% kompara ho lampu inkandesente, no mós dura tempu naruk liu, hodi hamenus emisaun no lixu.",
+        "fato10": "Akordu Paris, ne'ebé nasaun kuaze 200 asina ona, hakarak hodi limita aumenta kalór globál ba liu-liu kleur husi 2°C super ba nível pré-industriál.",
+        "fato11": "Kuaze terso ida husi hahán hotu-hotu ne'ebé prodús iha mundu, lakon fali — no hela ba ne'e mesak ona jerasaun parte signifikante husi emisaun globál gas efeitu rumah kaan.",
+        "fato12": "Turbina anin modernu bele jera enerjia tuir oin hodi fó enerjia ba uma rihun ba rihun, sem hasai CO₂ durante funsionamentu.",
+        "fato13": "Rai ne'ebé saudável armazena karbonu barak liu kompara ho ai-horis hotu no atmosfera hamutuk — prátika agrikultura regenerativa ajuda atu rai karbonu ne'e iha rai.",
+        "fato14": "Resife korál, maski kobre menus ida 1% husi tasi-okos, mantein kuaze 25% husi moris tasi hotu-hotu ne'ebé mundu hatene — no mós sensível liu ba aumenta kalór bee.",
+        "fato15": "Hamenus gastu bee manas iha uma (banhu badak, pur ezemplu) mós hamenus emisaun, tanba hodi manas bee presiza enerjia.",
+        "fato16": "Karreta elétriku, maski konsidera produsaun bateria, iha tendénsia emite CO₂ uitoan liu durante idade util nian kompara ho karreta kombustaun, liu-liu bainhira eletrisidade mai husi fontes limpu.",
+        "fato17": "Composta lixu orgániku iha uma evita sira atu prodús metanu iha fatin lixu — gas efeitu rumah kaan ida ne'ebé potente liu CO₂ iha tempu badak.",
+        "fato18": "Glasiár Groenelândia no Antártika hamutuk, iha tinan sira ikus, lakon rihun ba rihun miliaun tonelada jee kada tinan, hodi kontribui direta ba aumenta nível tasi."
+      }
     },
     "noticias": {
       "titulo": "Notísia Ambiental",
@@ -138,6 +160,31 @@
       "navegacao": "Navegasaun",
       "contato": "Kontaktu",
       "copyright": "© 2026 Carbono Consciente. Ita-nia direitu hotu rezerva."
+    },
+    "planta": {
+      "aria_svg": "Ai-horis ne'ebé sai ai-hun tuir saúde husi ita-nia hábitu locomoção nian",
+      "carregando_placeholder": "Dadaun karga ita-nia ai-horis...",
+      "aria_arvore": "Ai-hun. Klik atu kuda fali",
+      "dica_replantar": "Klik iha ai-hun atu kuda fali",
+      "legenda_0": "Dadaun kuda ita-nia fini...",
+      "legenda_1": "Isin-rian ki'ik moris ona. Kada viajen sustentável ajuda nia atu krese.",
+      "legenda_2": "Ohin loron ami sai fini-ai metin. Ita-nia hábitu sira hahú kaer rohan.",
+      "legenda_3": "Ai-hun foun, nakonu ho lo'ok. Kontinua hanesan ne'e!",
+      "legenda_4": "Ai-hun bo'ot ho fuan nakonu. Ita-nia hábitu sira di'ak tebes!"
+    },
+    "estatisticas": {
+      "media_mundial": "média CO₂ ba ema ida-idak, entre nasaun sira ne'ebé monitorizadu",
+      "maior_emissor": "emissór boot liu tuir kapita: {{pais}}",
+      "menor_emissor": "emissór kiik liu tuir kapita: {{pais}}",
+      "paises_monitorados": "nasaun sira ne'ebé monitorizadu iha mundu",
+      "seu_co2_semana": "ita-nia CO₂ iha semana ida-ne'e",
+      "vs_media_paises": "kompara ho média semanál husi nasaun sira",
+      "ranking_mundial": "pozisaun estimadu entre nasaun {{total}}",
+      "sem_dados_suficientes": "dadus la sufisiente",
+      "fallback_co2_evitado": "média CO₂ ne'ebé evitadu ba kada operasaun konektadu / fulan",
+      "fallback_variacao_emissoes": "emisaun kompara ho períodu hanesan iha tinan kotuk",
+      "fallback_abaixo_media_setor": "iha okos média husi setór, entre konta sira ne'ebé monitorizadu",
+      "fallback_paises_ativos": "nasaun sira ho nó dadus ativu iha rede"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "laiha rejistu iha períodu ne'e",
     "delta_primeiro_registro": "rejistu primeiru iha períodu ne'e",
     "delta_estavel": "estável kompara períodu antes",
-    "delta_variacao": "{{percentual}}% kompara períodu antes"
+    "delta_variacao": "{{percentual}}% kompara períodu antes",
+    "meios": {
+      "carro_gasolina": "Karreta (gasolina)",
+      "carro_etanol": "Karreta (etanol)",
+      "carro_eletrico": "Karreta (elétriku)",
+      "motocicleta": "Motór",
+      "onibus": "Autokarru",
+      "metro_trem": "Metro/Tren",
+      "bicicleta": "Bisikleta",
+      "a_pe": "La'o ain"
+    }
   },
   "globo": {
     "legenda_titulo": "Emisaun per kapita",

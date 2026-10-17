@@ -13,7 +13,9 @@
       "habitos": "Mekgwa",
       "contato": "Ikgolaganye",
       "dados": "Dintlha"
-    }
+    },
+    "logo_alt": "Logo ya Carbono Consciente",
+    "redirecionamento_html": "E romela gape... <a href=\"front%20end/html/inicial.html\">tobetsa fa</a> fa o sa rometswe gape."
   },
   "header": {
     "idioma_aria": "Fetola puo",
@@ -120,7 +122,27 @@
       "subtitulo": "A o itse?",
       "carregando": "E tlisa ntlha e e kgatlhang...",
       "proxima": "Ntlha e e latelang e e kgatlhang",
-      "erro_carregar": "Go paletswe go tlisa dintlha tse di kgatlhang jaanong."
+      "erro_carregar": "Go paletswe go tlisa dintlha tse di kgatlhang jaanong.",
+      "fatos": {
+        "fato1": "Setlhare se se godileng se monya bontsi jwa 22 kg ya CO₂ ngwaga le ngwaga — ke gona ka moo go lema dikgong gape e leng mongwe wa mekgwa ya tlhamalalo ya go thusa go fokotsa diphatsimo.",
+        "fato2": "Mawatle a monya bontsi jwa karolo ya bone ya CO₂ yotlhe e e ntshiwang ke batho ngwaga le ngwaga, a dira jaaka selaolwa se segolo sa boemo jwa loapi lwa lefatshe.",
+        "fato3": "Go dirisiwa gape ga tone e nngwe ya pampiri go boloka ditlhare tse ka bo 17 le madi a mantsi a metsi le maatla go tswa mo go tlhamiwa ga pampiri e ntšha.",
+        "fato4": "Dipalangwa di na le karabelo ya karolo ya bone ya diphatsimo tsotlhe tsa CO₂ tse di amanang le maatla mo lefatsheng — go fetola koloi ka baesekele kgotsa dipalangwa tsa setshaba mo maetong a makhutshwane go dira pharologano e tlhomameng.",
+        "fato5": "Amazon e tshola ka bontsi jwa 10% ya ditlhaga tsotlhe tse di itsegeng mo lefatsheng, gape e boloka dimilionemilione tsa tone tsa carbon mo ditlhareng tsa yone.",
+        "fato6": "Dipanele tsa letsatsi tsa magae di ka fokotsa setshwantsho sa carbon sa ntlo ka ditone tsa CO₂ ngwaga le ngwaga, go ya ka motswako wa maatla wa selegae.",
+        "fato7": "Dijo tse di nang le nama e khutshwane ya sekgoa di ka fokotsa setshwantsho sa carbon sa motho ka bontsi, ka gonne temo ya leruo la dikgomo e nngwe ya ditiro tse di ntshang diphatsimo tse dintsi mo temothuong.",
+        "fato8": "Go nyelela ga leqhwa la lewatle mo Arctic go fokotsa bokgoni jwa lefatshe go bonesa seetsa sa letsatsi gape mo sebakeng, mo go akofisang mogote — ke seabe se bidiwang maikutlo a albedo.",
+        "fato9": "Dibone tsa LED di dirisa maatla a kwa tlase go fitlha ka 80% go na le dibone tsa khale, di direla nako e telele thata, mme di fokotsa diphatsimo le matlakala.",
+        "fato10": "Tumalano ya Paris, e saenwe ke dinaga tse di ka nnang 200, e ikaeletsa go fokotsa mogote wa lefatshe gore o nne kwa tlase ga 2°C go feta maemo a pele ga indasteri.",
+        "fato11": "Bontsi jwa boraro jwa dijo tsotlhe tse di dirwang mo lefatsheng di latlhega — mme senyeetso se nosi se tlhola karolo e kgolo ya diphatsimo tsa magase a a bakang mogote wa lefatshe.",
+        "fato12": "Diturbine tsa phefo tsa sejanong di kgona go dira maatla a a lekanyeng go thusa dintlo tse dikete, kwa ntle ga go ntsha CO₂ ka nako ya tiriso.",
+        "fato13": "Mmu o montle o boloka carbon e kgolo go gaisa ditlhaga le lefaufau yotlhe mmogo — mekgwa ya temo ya tsosoloso e thusa go boloka carbon eo mo mmung.",
+        "fato14": "Metheo ya coral, le mororo e khurumetse mo tlase ga 1% ya fa tlase ga lewatle, e tshegetsa bontsi jwa 25% ya botshelo jotlhe jwa lewatle jo bo itsegeng — gape e tlhomologile thata mo mogoteng wa metsi.",
+        "fato15": "Go fokotsa tshenyo ya metsi a bothitho mo gae (sekao, go tlhapa ka bokhutshwane) gape go fokotsa diphatsimo, ka gonne go besa metsi go dirisa maatla.",
+        "fato16": "Dikoloi tsa mothalo, le fa go lebelelwa tlhamo ya dibeteri, gantsi di ntsha CO₂ e nnye mo botshelong jwa tsone go feta dikoloi tsa engine, bogolo jang fa mothalo o tswa mo metsweding e phepa.",
+        "fato17": "Go dira composite ya matlakala a tlholego mo gae go thibela gore a tlhole khibidu mo mabaleng a matlakala — khibidu e e nonofileng go gaisa CO₂ mo nakong e khutshwane.",
+        "fato18": "Maqhwa a Greenland le Antarctica a mmogo a latlhegelwa ke dimilionemilione tsa tone tsa leqhwa ngwaga le ngwaga mo dingwaga tse di fetileng, mo go tshwaelang ka tlhamalalo mo go goketsegeng ga boemo jwa lewatle."
+      }
     },
     "noticias": {
       "titulo": "Dikgang tsa Tikologo",
@@ -138,6 +160,31 @@
       "navegacao": "Tsamaiso",
       "contato": "Ikgolaganye",
       "copyright": "© 2026 Carbono Consciente. Ditshwanelo tsotlhe di sireletsegile."
+    },
+    "planta": {
+      "aria_svg": "Setlhatshana se se golang go nna setlhare go ya ka boitekanelo jwa mekgwa ya gago ya tsamaiso",
+      "carregando_placeholder": "Go laisa setlhatshana sa gago...",
+      "aria_arvore": "Setlhare. Tobetsa go jala gape",
+      "dica_replantar": "Tobetsa setlhare go se jala gape",
+      "legenda_0": "Re jala peo ya gago...",
+      "legenda_1": "Setlhatshana se nnye se tsaletswe. Loeto longwe le longwe le itshwarelang tikologo le thusa go se godisa.",
+      "legenda_2": "Jaanong se nnile setlhatshana se se nitameng. Mekgwa ya gago e simolola go tsenya medi.",
+      "legenda_3": "Setlhare se sesha, se tletse matlhare. Tswelela jalo!",
+      "legenda_4": "Setlhare se se golileng sentle se se thunyang. Mekgwa ya gago e kgatlhisa!"
+    },
+    "estatisticas": {
+      "media_mundial": "palogare ya CO₂ ka motho, gareng ga dinaga tse di lebeletsweng",
+      "maior_emissor": "naga e ntshang khubu e kgolo ka motho: {{pais}}",
+      "menor_emissor": "naga e ntshang khubu e nnye ka motho: {{pais}}",
+      "paises_monitorados": "dinaga tse di lebeletsweng mo lefatsheng",
+      "seu_co2_semana": "CO₂ ya gago beke eno",
+      "vs_media_paises": "go bapisiwa le palogare ya beke ya dinaga",
+      "ranking_mundial": "maemo a akanyeditsweng gareng ga dinaga tse {{total}}",
+      "sem_dados_suficientes": "ga go na tshedimosetso e lekaneng",
+      "fallback_co2_evitado": "CO₂ e tilwang ka tiragalo nngwe le nngwe e golaganeng / kgwedi",
+      "fallback_variacao_emissoes": "khubu go bapisiwa le paka e tshwanang ngwaga o fetileng",
+      "fallback_abaixo_media_setor": "ka fa tlase ga palogare ya lephata, gareng ga diakhaonto tse di lebeletsweng",
+      "fallback_paises_ativos": "dinaga tse di nang le dinoutlwana tsa tshedimosetso tse di berekang mo neteweke"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "ga go na dikwalo mo pakeng eno",
     "delta_primeiro_registro": "kwalo ya ntlha mo pakeng eno",
     "delta_estavel": "e tsitsitse go tswa mo pakeng e e fetileng",
-    "delta_variacao": "{{percentual}}% go tswa mo pakeng e e fetileng"
+    "delta_variacao": "{{percentual}}% go tswa mo pakeng e e fetileng",
+    "meios": {
+      "carro_gasolina": "Koloi (peterolo)",
+      "carro_etanol": "Koloi (ethanol)",
+      "carro_eletrico": "Koloi (ya mothalaomoya)",
+      "motocicleta": "Sethuthuthu",
+      "onibus": "Bese",
+      "metro_trem": "Thereini",
+      "bicicleta": "Baesekele",
+      "a_pe": "Ka dinao"
+    }
   },
   "globo": {
     "legenda_titulo": "Thotloetso ka motho",

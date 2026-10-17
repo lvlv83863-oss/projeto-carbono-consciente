@@ -7,6 +7,8 @@
     "sair_link": "anigit",
     "painel_link": "nalunaarsuiffik",
     "fechar": "Matugit",
+    "logo_alt": "Carbono Consciente-p logoa",
+    "redirecionamento_html": "Alloriarneqarpoq... <a href=\"front%20end/html/inicial.html\">uuttoruk maani</a> alloriarneqannginnerpat.",
     "nav": {
       "plataforma": "Platformi",
       "impacto": "Sunniineq",
@@ -120,7 +122,27 @@
       "subtitulo": "Nalunngilatit?",
       "carregando": "Soqutiginartoq nittarsaalerpoq...",
       "proxima": "Soqutiginartoq kingullerpaaq",
-      "erro_carregar": "Soqutiginartut massakkut nittarsaassinnaanngillat."
+      "erro_carregar": "Soqutiginartut massakkut nittarsaassinnaanngillat.",
+      "fatos": {
+        "fato1": "Orpik inersimasoq ukiumut agguaqatigiissillugu CO₂-mik 22 kg-inik mamarsaalersarpoq — tamatuma pissutaa orpertitsinermi pissutsit annertusartitsinissaannut iluaqutaasartoq.",
+        "fato2": "Imartat ukiumut inuit tamarmik CO₂-mik aallaaveqartut sisamanngortinnerisa ataatsiusa mamarsaasarpaat, silarsuup silaannaanik naatsorsuutaasartutut.",
+        "fato3": "Papiri tonsimik ataatsimik atoqqinneqartoq orpissat 17-inik annikillisaasarpoq, imermik anersaaliutaasartunillu, papiri nutaamik suliareqqinneqarnermut naleqqiullugu.",
+        "fato4": "Angallanneq silarsuaq tamakkerlugu CO₂-mik sisamanngortinneranit ataatsiusamit akisussaaffigaa — biilimit sikittamut imaluunniit angallaasiornermut inuttut angalanermi annikinnerusumi allanngoriaq pissutsit allanngortinnerat.",
+        "fato5": "Amasonimi silarsuup uumasuilu naasuilu amerlassusaanit 10%-inik takornartaqarpoq, aammalu naasuni carbon-imik milliardinik tonsinik toqqorsivigaa.",
+        "fato6": "Illuni sunaqqarsuarmik aallaaveqarluni, ukiumut CO₂-mik tonsinik annikillisaasinnaasarpoq, nunami aallaaveqarnerit allanngoriaqarnerat naleqqiullugu.",
+        "fato7": "Nersutit aappassiusut amerlanerusumik nerinninneq inummut carbon-imik annikillisaasinnaavoq, bovine-nersutit pissutsit aallaaveqarnerpaasa ataavartaa.",
+        "fato8": "Arktikami sikup aallaaveqarnera silarsuup seqinermik uutsitsisinnaassusia annikinnerusarpoq, uumassuseq sukkanerusartoq — tamatumunnga albedo-mik taaneqarpoq.",
+        "fato9": "LED-ikkut aallaaveqarluni annikinnerusumik, 80%-ikkut annikinnerusumik aallaaveqarsarpaat, taamaattumillu sivisunerusumik atugaqarsinnaapput.",
+        "fato10": "Paris isumaqatigiissut, nunat 200-ikkaartut atsiortut, silarsuup uutsinerat 2°C-mut atasumik annikinnerusumik akuerisaalersarput.",
+        "fato11": "Nerisassat silarsuaq tamakkerlugu suliarineqartut pingasuunngortinneranit ataatsiusaq pilersinneqarpoq — taannalu kiisalu CO₂-mik sisamanngortinnerat annertusimavoq.",
+        "fato12": "Anorersuit nutaat illuni arlaqinnut aallaaveqarluni sunniuteqarsinnaapput, CO₂-mik anersaaliutinnginnamik.",
+        "fato13": "Nunap assarsui peqqissuusimasut carbon-imik annikinnerusumik toqqorsivigaat naasunit silaannaanit aamma — nunaqarnermi pisortat kingornussaanerat carbon nunami ataqqinnartinneqarpaa.",
+        "fato14": "Qeqertat coralikkaat, ikittuinnaq 1%-ikkut immap naqqanit sananeqartut, uumasut immap amerlanerpaasa 25%-ikkut tunngaveqartitsipaat.",
+        "fato15": "Illumi imeq kiattalik annikillisaasarpat (puilasuaq sivikinnerusumik) CO₂-mik annikillisaasinnaavoq.",
+        "fato16": "Biilit elektrikkut, akuersaarissaanik suliarineqarnerat ilanngullugu, CO₂-mik annikinnerusumik anersaaliutisarput biilinut uumasunik atuisunut naleqqiullugu.",
+        "fato17": "Illumi saffiusat suliarineqarnerisigut methane-mik anersaaliutinngilaq.",
+        "fato18": "Kalaallit Nunaanni Antarktikamilu sikuusat ataasiakkaartumik ukiumut tonsinik millionerpassuarnik annikinneqartarput, tamannalu imermut qeqqortumut annertusaasarpoq."
+      }
     },
     "noticias": {
       "titulo": "Avatangiisit Nutaarsiassaat",
@@ -138,6 +160,31 @@
       "navegacao": "Ingerlaarnerit",
       "contato": "Attaveqaatit",
       "copyright": "© 2026 Carbono Consciente. Piginneqatigiit tamarmik illersorneqarput."
+    },
+    "planta": {
+      "aria_svg": "Naasoq orpimmik piareersaasoq angallanermut ileqqutit peqqissusiat naapertorlugu",
+      "carregando_placeholder": "Naasutit nittarsaalerpoq...",
+      "aria_arvore": "Orpik. Nutaamik ivigassaannissaanut uuttoruk",
+      "dica_replantar": "Orpik uuttoruk nutaamik ivigassaannissaanut",
+      "legenda_0": "Naatsiiavit ivigassaalerpoq...",
+      "legenda_1": "Ivigaq mikisoq inunngorpoq. Angallanneq atugarissaarutigisaq tamaasa naasutit amerlisarpaat.",
+      "legenda_2": "Massakkut orpissaq nukittoq. Ileqqutit qinngorsarsimapput.",
+      "legenda_3": "Orpik nutaaq, qupaleriaarsuusoq. Taamaaliorit!",
+      "legenda_4": "Orpik angisooq naasunik peqartoq. Ileqqutit pitsaasut!"
+    },
+    "estatisticas": {
+      "media_mundial": "CO₂ naatsorsuutigineqartoq inuk ataaseq, nunat malinnaaffigineqartut akornanni",
+      "maior_emissor": "inuk ataaseq annertunerpaamik anniaasartoq: {{pais}}",
+      "menor_emissor": "inuk ataaseq annikinnerpaamik anniaasartoq: {{pais}}",
+      "paises_monitorados": "nunarsuarmi malinnaaffigineqartut nunat",
+      "seu_co2_semana": "CO₂-it sapaatip-akunnerami matumani",
+      "vs_media_paises": "nunat sapaatip-akunnerami naatsorsuutigineqartut saniatigut",
+      "ranking_mundial": "nunat {{total}}-nit akornanni naliliineq",
+      "sem_dados_suficientes": "paasissutissat naammanngillat",
+      "fallback_co2_evitado": "CO₂ naatsorsuutigineqartoq peerneqartoq suliap attavigineqartup / qaammatip ataaseq",
+      "fallback_variacao_emissoes": "anniaanerit ukioq siulleq piffissap assingusup saniatigut",
+      "fallback_abaixo_media_setor": "immikkoortortaqarfiup naatsorsuutigineqartuata ataani, kontit malinnaaffigineqartut akornanni",
+      "fallback_paises_ativos": "nettiumi paasissutissanik node-eqartut sulisut nunat"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "piffissami matumani nalunaarsuutit peqanngillat",
     "delta_primeiro_registro": "piffissami matumani nalunaarsuut siulleq",
     "delta_estavel": "piffissap siornatigoortup saniatigut allanngunani",
-    "delta_variacao": "piffissap siornatigoortup saniatigut {{percentual}}%"
+    "delta_variacao": "piffissap siornatigoortup saniatigut {{percentual}}%",
+    "meios": {
+      "carro_gasolina": "Biili (bensiini)",
+      "carro_etanol": "Biili (etanoli)",
+      "carro_eletrico": "Biili (elektrortaq)",
+      "motocicleta": "Motorsykkeli",
+      "onibus": "Bussi",
+      "metro_trem": "Metro/Train",
+      "bicicleta": "Sikkili",
+      "a_pe": "Pisuttuartumik"
+    }
   },
   "globo": {
     "legenda_titulo": "Inuk ataaseq anniaanera",

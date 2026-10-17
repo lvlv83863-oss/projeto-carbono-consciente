@@ -7,6 +7,8 @@
     "sair_link": "toka",
     "painel_link": "dashibodi",
     "fechar": "Funga",
+    "logo_alt": "Nembo ya Carbono Consciente",
+    "redirecionamento_html": "Inakuelekeza... <a href=\"front%20end/html/inicial.html\">bofya hapa</a> ikiwa hujaelekezwa.",
     "nav": {
       "plataforma": "Jukwaa",
       "impacto": "Athari",
@@ -120,7 +122,27 @@
       "subtitulo": "Ulijua?",
       "carregando": "Inapakia kidokezo...",
       "proxima": "Kidokezo kinachofuata",
-      "erro_carregar": "Haikuwezekana kupakia vidokezo kwa sasa."
+      "erro_carregar": "Haikuwezekana kupakia vidokezo kwa sasa.",
+      "fatos": {
+        "fato1": "Mti mkubwa mmoja hunyonya wastani wa kilo 22 za CO₂ kwa mwaka — ndiyo sababu kupanda misitu upya ni mojawapo ya njia za moja kwa moja za kupunguza hewa chafu.",
+        "fato2": "Bahari hunyonya karibu robo ya CO₂ yote inayotolewa na binadamu kila mwaka, ikifanya kazi kama kidhibiti kikubwa cha hali ya hewa duniani.",
+        "fato3": "Kusaga upya tani moja ya karatasi huokoa miti karibu 17 na kiasi kikubwa cha maji na nishati ikilinganishwa na kutengeneza karatasi mpya.",
+        "fato4": "Usafiri unahusika na karibu robo ya hewa chafu ya CO₂ duniani inayohusiana na nishati — kubadilisha gari kwa baiskeli au usafiri wa umma kwa safari fupi kunafanya tofauti kubwa.",
+        "fato5": "Amazon ni makazi ya karibu asilimia 10 ya viumbe hai vyote vinavyojulikana duniani, na pia huhifadhi mabilioni ya tani za kaboni katika mimea yake.",
+        "fato6": "Paneli za jua za nyumbani zinaweza kupunguza kiwango cha hewa chafu cha nyumba kwa tani za CO₂ kwa mwaka, kutegemea mchanganyiko wa nishati wa eneo hilo.",
+        "fato7": "Mlo wenye nyama nyekundu kidogo unaweza kupunguza kwa kiasi kikubwa hewa chafu ya mtu binafsi, kwa kuwa ufugaji wa ng'ombe ni mojawapo ya shughuli za kilimo zenye hewa chafu nyingi zaidi.",
+        "fato8": "Kuyeyuka kwa barafu ya bahari ya Aktiki kunapunguza uwezo wa dunia kuakisi mwanga wa jua kurudi angani, hali inayochochea ongezeko la joto — athari inayojulikana kama mrejesho wa albedo.",
+        "fato9": "Taa za LED hutumia nishati kwa asilimia 80 chini kuliko taa za kawaida (incandescent) na hudumu muda mrefu zaidi, hupunguza hewa chafu na taka.",
+        "fato10": "Mkataba wa Paris, uliosainiwa na nchi karibu 200, unalenga kuzuia ongezeko la joto duniani chini sana ya nyuzijoto 2°C juu ya viwango vya kabla ya viwanda.",
+        "fato11": "Karibu theluthi moja ya chakula chote kinachozalishwa duniani hupotea — na upotevu huo pekee huzalisha sehemu kubwa ya hewa chafu ya gesi joto duniani.",
+        "fato12": "Mitambo ya kisasa ya upepo inaweza kuzalisha nishati ya kutosha kuhudumia maelfu ya nyumba, bila kutoa CO₂ wakati wa uendeshaji.",
+        "fato13": "Udongo wenye afya huhifadhi kaboni zaidi kuliko mimea yote na anga vikiunganishwa — kilimo cha kuzalisha upya husaidia kuhifadhi kaboni hiyo ardhini.",
+        "fato14": "Miamba ya matumbawe, ingawa inafunika chini ya asilimia 1 ya sakafu ya bahari, hutegemeza karibu asilimia 25 ya viumbe hai vyote vya baharini vinavyojulikana — na ni nyeti sana kwa ongezeko la joto la maji.",
+        "fato15": "Kupunguza upotevu wa maji ya moto nyumbani (kwa mfano, kuoga kwa muda mfupi) pia hupunguza hewa chafu, kwa kuwa kupasha maji moto hutumia nishati.",
+        "fato16": "Magari ya umeme, hata ukizingatia utengenezaji wa betri, kwa kawaida hutoa CO₂ kidogo zaidi katika maisha yake yote kuliko magari ya mafuta, hasa pale umeme unapotokana na vyanzo safi.",
+        "fato17": "Kutengeneza mboji ya taka za kiasili nyumbani huzuia kutoa gesi ya methane kwenye madampo — gesi ya joto yenye nguvu zaidi kuliko CO₂ kwa muda mfupi.",
+        "fato18": "Barafu za Greenland na Antarctica kwa pamoja zinapoteza, katika miaka ya karibuni, mamia ya mabilioni ya tani za barafu kwa mwaka, hali inayochangia moja kwa moja kupanda kwa kina cha bahari."
+      }
     },
     "noticias": {
       "titulo": "Habari za Mazingira",
@@ -138,6 +160,31 @@
       "navegacao": "Urambazaji",
       "contato": "Wasiliana",
       "copyright": "© 2026 Carbono Consciente. Haki zote zimehifadhiwa."
+    },
+    "planta": {
+      "aria_svg": "Mmea unaokua hadi kuwa mti kulingana na afya ya tabia zako za usafiri",
+      "carregando_placeholder": "Inapakia mmea wako...",
+      "aria_arvore": "Mti. Bofya ili kupanda tena",
+      "dica_replantar": "Bofya mti ili kupanda tena",
+      "legenda_0": "Inapanda mbegu yako...",
+      "legenda_1": "Chipukizi dogo limezaliwa. Kila safari endelevu inalifanya likue.",
+      "legenda_2": "Sasa ni mche imara. Tabia zako zinashika mizizi.",
+      "legenda_3": "Mti mchanga, uliojaa majani. Endelea hivyo!",
+      "legenda_4": "Mti mnene uliochanua maua. Tabia zako ni za kupendeza!"
+    },
+    "estatisticas": {
+      "media_mundial": "wastani wa CO₂ kwa mtu, kati ya nchi zinazofuatiliwa",
+      "maior_emissor": "mtoaji mkubwa zaidi kwa kila mtu: {{pais}}",
+      "menor_emissor": "mtoaji mdogo zaidi kwa kila mtu: {{pais}}",
+      "paises_monitorados": "nchi zinazofuatiliwa duniani",
+      "seu_co2_semana": "CO₂ yako wiki hii",
+      "vs_media_paises": "ikilinganishwa na wastani wa kila wiki wa nchi",
+      "ranking_mundial": "nafasi inayokadiriwa kati ya nchi {{total}}",
+      "sem_dados_suficientes": "hakuna data ya kutosha",
+      "fallback_co2_evitado": "wastani wa CO₂ iliyoepukwa kwa kila operesheni iliyounganishwa / mwezi",
+      "fallback_variacao_emissoes": "utoaji wa hewa ukilinganisha na kipindi hicho mwaka uliopita",
+      "fallback_abaixo_media_setor": "chini ya wastani wa sekta, katika akaunti zinazofuatiliwa",
+      "fallback_paises_ativos": "nchi zenye nodi za data zinazofanya kazi kwenye mtandao"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "hakuna rekodi katika kipindi hiki",
     "delta_primeiro_registro": "rekodi ya kwanza ya kipindi hiki",
     "delta_estavel": "haibadiliki ikilinganishwa na kipindi kilichopita",
-    "delta_variacao": "{{percentual}}% ikilinganishwa na kipindi kilichopita"
+    "delta_variacao": "{{percentual}}% ikilinganishwa na kipindi kilichopita",
+    "meios": {
+      "carro_gasolina": "Gari (petroli)",
+      "carro_etanol": "Gari (ethanoli)",
+      "carro_eletrico": "Gari (umeme)",
+      "motocicleta": "Pikipiki",
+      "onibus": "Basi",
+      "metro_trem": "Metro/Treni",
+      "bicicleta": "Baiskeli",
+      "a_pe": "Kwa miguu"
+    }
   },
   "globo": {
     "legenda_titulo": "Utoaji kwa kila mtu",

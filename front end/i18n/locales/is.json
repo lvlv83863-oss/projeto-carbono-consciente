@@ -7,6 +7,8 @@
     "sair_link": "útskráning",
     "painel_link": "stjórnborð",
     "fechar": "Loka",
+    "logo_alt": "Merki Carbono Consciente",
+    "redirecionamento_html": "Vísa áfram... <a href=\"front%20end/html/inicial.html\">smelltu hér</a> ef þér er ekki vísað áfram.",
     "nav": {
       "plataforma": "Vettvangur",
       "impacto": "Áhrif",
@@ -120,7 +122,27 @@
       "subtitulo": "Vissir þú?",
       "carregando": "Hleður fróðleik...",
       "proxima": "Næsti fróðleikur",
-      "erro_carregar": "Ekki tókst að hlaða fróðleik núna."
+      "erro_carregar": "Ekki tókst að hlaða fróðleik núna.",
+      "fatos": {
+        "fato1": "Fullvaxið tré bindur að meðaltali um 22 kg af CO₂ á ári — þess vegna er skógrækt ein af beinustu leiðunum til að vega upp á móti losun.",
+        "fato2": "Höfin binda um fjórðung af öllu CO₂ sem mannkynið losar á hverju ári og virka þannig sem risastór stjórnandi hnattræns loftslags.",
+        "fato3": "Endurvinnsla á einu tonni af pappír sparar um 17 tré og talsvert magn af vatni og orku í samanburði við að framleiða nýjan pappír.",
+        "fato4": "Samgöngur bera ábyrgð á um fjórðungi af hnattrænni, orkutengdri CO₂-losun — að skipta bílnum út fyrir hjól eða almenningssamgöngur í stuttum ferðum skiptir raunverulegu máli.",
+        "fato5": "Í Amasón-frumskóginum er að finna um 10% af allri þekktri líffjölbreytni jarðarinnar, auk þess sem hann bindur milljarða tonna af kolefni í gróðri sínum.",
+        "fato6": "Sólarrafhlöður á heimilum geta minnkað kolefnisspor heimilis um tonn af CO₂ á ári, allt eftir orkusamsetningunni á hverjum stað.",
+        "fato7": "Fæði með minna af rauðu kjöti getur minnkað kolefnisspor einstaklings verulega, enda er nautgriparækt ein af þeim landbúnaðargreinum sem losar mest.",
+        "fato8": "Þegar hafís á norðurslóðum bráðnar minnkar getu jarðarinnar til að endurkasta sólarljósi út í geim, sem flýtir fyrir hlýnun — áhrif sem kallast albedó-svörun.",
+        "fato9": "LED-ljósaperur nota allt að 80% minni orku en glóperur og endast mun lengur, sem minnkar bæði losun og úrgang.",
+        "fato10": "Parísarsamkomulagið, sem nærri 200 ríki hafa undirritað, hefur það markmið að halda hnattrænni hlýnun töluvert undir 2°C ofan iðnvæðingarstigs.",
+        "fato11": "Um þriðjungi alls matar sem framleiddur er í heiminum er sóað — og þessi sóun eina og sér skapar verulegan hluta af hnattrænni losun gróðurhúsalofttegunda.",
+        "fato12": "Nútíma vindmyllur geta framleitt nóg af orku til að sjá þúsundum heimila fyrir rafmagni, án þess að losa CO₂ meðan þær eru í notkun.",
+        "fato13": "Heilbrigður jarðvegur bindur meira kolefni en allur gróður og lofthjúpurinn samanlagt — endurnýjandi búskaparhættir hjálpa til við að halda því kolefni í jörðinni.",
+        "fato14": "Kóralrif þekja minna en 1% af hafsbotninum en halda uppi um 25% af öllu þekktu sjávarlífi — og eru mjög viðkvæm fyrir hlýnun sjávar.",
+        "fato15": "Að minnka sóun á heitu vatni heima (til dæmis með styttri sturtum) minnkar einnig losun, enda krefst upphitun vatns orku.",
+        "fato16": "Rafbílar, jafnvel þegar framleiðsla rafhlöðunnar er tekin með í reikninginn, losa yfirleitt minna CO₂ á lífstíma sínum en bílar með brennsluvél, sérstaklega þar sem rafmagn kemur frá hreinum orkugjöfum.",
+        "fato17": "Að molta lífrænan úrgang heima kemur í veg fyrir að hann myndi metan á sorphaugum — gróðurhúsalofttegund sem er mun öflugri en CO₂ til skamms tíma litið.",
+        "fato18": "Jöklar Grænlands og Suðurskautslandsins hafa saman, á síðustu árum, tapað hundruðum milljarða tonna af ís á ári hverju, sem leggur beinan þátt í hækkun sjávarborðs."
+      }
     },
     "noticias": {
       "titulo": "Umhverfisfréttir",
@@ -138,6 +160,31 @@
       "navegacao": "Flakk",
       "contato": "Hafa samband",
       "copyright": "© 2026 Carbono Consciente. Allur réttur áskilinn."
+    },
+    "planta": {
+      "aria_svg": "Planta sem vex í tré eftir heilbrigði samgönguvenja þinna",
+      "carregando_placeholder": "Hleð plöntunni þinni...",
+      "aria_arvore": "Tré. Smelltu til að planta aftur",
+      "dica_replantar": "Smelltu á trénu til að planta því aftur",
+      "legenda_0": "Plantar fræinu þínu...",
+      "legenda_1": "Lítill sproti fæddist. Hver sjálfbær ferð hjálpar honum að vaxa.",
+      "legenda_2": "Þetta er nú orðið stöðugt tréplanta. Venjur þínar eru að festa rætur.",
+      "legenda_3": "Ungt tré, fullt af laufi. Halda svona áfram!",
+      "legenda_4": "Gróskumikið tré í blóma. Venjur þínar eru frábærar!"
+    },
+    "estatisticas": {
+      "media_mundial": "meðal CO₂ á mann, meðal landa sem fylgst er með",
+      "maior_emissor": "mesta losun á mann: {{pais}}",
+      "menor_emissor": "minnsta losun á mann: {{pais}}",
+      "paises_monitorados": "lönd sem fylgst er með á hnettinum",
+      "seu_co2_semana": "CO₂ þitt þessa viku",
+      "vs_media_paises": "í samanburði við vikulegt meðaltal landa",
+      "ranking_mundial": "áætlað sæti meðal {{total}} landa",
+      "sem_dados_suficientes": "ekki nægjanleg gögn",
+      "fallback_co2_evitado": "meðal CO₂ sem komið er í veg fyrir á tengda aðgerð / mánuði",
+      "fallback_variacao_emissoes": "losun miðað við sama tímabil síðasta árs",
+      "fallback_abaixo_media_setor": "undir meðaltali geirans, meðal vaktaðra reikninga",
+      "fallback_paises_ativos": "lönd með virka gagnahnúta í netinu"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "engar færslur á þessu tímabili",
     "delta_primeiro_registro": "fyrsta færsla tímabilsins",
     "delta_estavel": "stöðugt miðað við fyrra tímabil",
-    "delta_variacao": "{{percentual}}% miðað við fyrra tímabil"
+    "delta_variacao": "{{percentual}}% miðað við fyrra tímabil",
+    "meios": {
+      "carro_gasolina": "Bíll (bensín)",
+      "carro_etanol": "Bíll (etanól)",
+      "carro_eletrico": "Bíll (rafmagns)",
+      "motocicleta": "Mótorhjól",
+      "onibus": "Strætó",
+      "metro_trem": "Neðanjarðarlest/Lest",
+      "bicicleta": "Reiðhjól",
+      "a_pe": "Gangandi"
+    }
   },
   "globo": {
     "legenda_titulo": "Losun á mann",

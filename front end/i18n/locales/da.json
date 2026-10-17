@@ -7,6 +7,8 @@
     "sair_link": "log ud",
     "painel_link": "oversigt",
     "fechar": "Luk",
+    "logo_alt": "Carbono Consciente-logo",
+    "redirecionamento_html": "Omdirigerer... <a href=\"front%20end/html/inicial.html\">klik her</a>, hvis du ikke bliver omdirigeret.",
     "nav": {
       "plataforma": "Platform",
       "impacto": "Indvirkning",
@@ -120,7 +122,27 @@
       "subtitulo": "Vidste du det?",
       "carregando": "Indlæser sjovt fakta...",
       "proxima": "Næste fakta",
-      "erro_carregar": "Kunne ikke indlæse fakta lige nu."
+      "erro_carregar": "Kunne ikke indlæse fakta lige nu.",
+      "fatos": {
+          "fato1": "Et voksent træ optager i gennemsnit omkring 22 kg CO₂ om året — derfor er skovrejsning en af de mest direkte måder at kompensere for udslip.",
+          "fato2": "Havene optager omkring en fjerdedel af alt det CO₂, menneskeheden udsender hvert år, og fungerer som en enorm regulator af det globale klima.",
+          "fato3": "At genanvende et ton papir sparer omkring 17 træer og en betydelig mængde vand og energi sammenlignet med at producere nyt papir.",
+          "fato4": "Transport står for omkring en fjerdedel af de globale energirelaterede CO₂-udslip — at bytte bilen ud med cyklen eller offentlig transport på korte ture gør en reel forskel.",
+          "fato5": "Amazonas huser omkring 10 % af al kendt biodiversitet på planeten og lagrer samtidig milliarder af ton kulstof i sin vegetation.",
+          "fato6": "Solceller på private boliger kan sænke en husstands CO₂-aftryk med ton CO₂ om året, afhængigt af den lokale energisammensætning.",
+          "fato7": "En kost med mindre rødt kød kan mindske det personlige CO₂-aftryk betydeligt, da kvægavl er en af de mest udslipsintensive landbrugsaktiviteter.",
+          "fato8": "Når havisen i Arktis smelter, mister planeten noget af sin evne til at reflektere sollys tilbage i rummet, hvilket accelererer opvarmningen — en effekt kendt som albedo-feedback.",
+          "fato9": "LED-pærer bruger op til 80 % mindre energi end glødepærer og holder meget længere, hvilket sænker både udslip og affald.",
+          "fato10": "Parisaftalen, som er underskrevet af næsten 200 lande, har som mål at begrænse den globale opvarmning til et godt stykke under 2°C over det førindustrielle niveau.",
+          "fato11": "Omkring en tredjedel af alle fødevarer, der produceres i verden, går til spilde — og det spild alene står for en væsentlig del af de globale udslip af drivhusgasser.",
+          "fato12": "Moderne vindmøller kan producere energi nok til at forsyne tusindvis af boliger, uden at udsende CO₂ under drift.",
+          "fato13": "Sund jord lagrer mere kulstof end al vegetation og atmosfæren tilsammen — regenerativt landbrug hjælper med at holde det kulstof i jorden.",
+          "fato14": "Koralrev dækker mindre end 1 % af havbunden, men er alligevel hjemsted for omkring 25 % af alt kendt havliv — og de er ekstremt følsomme over for varmere vand.",
+          "fato15": "At spilde mindre varmt vand i hjemmet (for eksempel kortere bade) sænker også udslippet, da det kræver energi at varme vand op.",
+          "fato16": "Elbiler udsender, selv når batteriproduktionen regnes med, typisk mindre CO₂ over hele deres levetid end benzin- og dieselbiler, især hvor strømmen kommer fra rene kilder.",
+          "fato17": "Hjemmekompostering af organisk affald forhindrer, at det danner metan på lossepladser — en drivhusgas, der på kort sigt er langt kraftigere end CO₂.",
+          "fato18": "Gletsjerne på Grønland og i Antarktis har tilsammen i de seneste år mistet hundredvis af milliarder ton is om året, hvilket bidrager direkte til stigende havniveau."
+      }
     },
     "noticias": {
       "titulo": "Miljønyheder",
@@ -138,6 +160,31 @@
       "navegacao": "Navigation",
       "contato": "Kontakt",
       "copyright": "© 2026 Carbono Consciente. Alle rettigheder forbeholdes."
+    },
+    "planta": {
+      "aria_svg": "Plante, der vokser til et træ afhængigt af sundheden i dine transportvaner",
+      "carregando_placeholder": "Indlæser din plante...",
+      "aria_arvore": "Træ. Klik for at plante igen",
+      "dica_replantar": "Klik på træet for at plante igen",
+      "legenda_0": "Planter dit frø...",
+      "legenda_1": "En lille spire er født. Hver bæredygtig tur hjælper den med at vokse.",
+      "legenda_2": "Det er nu en solid stikling. Dine vaner slår rod.",
+      "legenda_3": "Et ungt træ, fyldt med blade. Fortsæt sådan!",
+      "legenda_4": "Et frodigt træ i fuld blomst. Dine vaner er fantastiske!"
+    },
+    "estatisticas": {
+      "media_mundial": "Gennemsnitlig CO₂ per person, blandt de overvågede lande",
+      "maior_emissor": "største udleder per indbygger: {{pais}}",
+      "menor_emissor": "mindste udleder per indbygger: {{pais}}",
+      "paises_monitorados": "overvågede lande på kloden",
+      "seu_co2_semana": "din CO₂ denne uge",
+      "vs_media_paises": "sammenlignet med landenes ugentlige gennemsnit",
+      "ranking_mundial": "anslået placering blandt {{total}} lande",
+      "sem_dados_suficientes": "ikke nok data",
+      "fallback_co2_evitado": "gennemsnitlig CO₂ undgået per tilsluttet aktivitet / måned",
+      "fallback_variacao_emissoes": "udledninger vs. samme periode sidste år",
+      "fallback_abaixo_media_setor": "under sektorgennemsnittet, blandt overvågede konti",
+      "fallback_paises_ativos": "lande med aktive dataknudepunkter i netværket"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "ingen registreringer i perioden",
     "delta_primeiro_registro": "første registrering i perioden",
     "delta_estavel": "stabil ift. foregående periode",
-    "delta_variacao": "{{percentual}}% ift. foregående periode"
+    "delta_variacao": "{{percentual}}% ift. foregående periode",
+    "meios": {
+      "carro_gasolina": "Bil (benzin)",
+      "carro_etanol": "Bil (ethanol)",
+      "carro_eletrico": "Bil (elektrisk)",
+      "motocicleta": "Motorcykel",
+      "onibus": "Bus",
+      "metro_trem": "Metro/Tog",
+      "bicicleta": "Cykel",
+      "a_pe": "Til fods"
+    }
   },
   "globo": {
     "legenda_titulo": "Udledning per indbygger",

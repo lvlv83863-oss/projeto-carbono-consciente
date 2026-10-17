@@ -7,6 +7,8 @@
     "sair_link": "esẽ",
     "painel_link": "tembiapo renda",
     "fechar": "Mboty",
+    "logo_alt": "Carbono Consciente ra'anga",
+    "redirecionamento_html": "Oñemohendahína tenda pyahúpe... <a href=\"front%20end/html/inicial.html\">eity ko'ápe</a> nderejehasahái ramo.",
     "nav": {
       "plataforma": "Plataforma",
       "impacto": "Mba'apoite",
@@ -120,7 +122,27 @@
       "subtitulo": "Reikuaáma?",
       "carregando": "Oñemyenyhẽ hína mba'e hechapyrã...",
       "proxima": "Ambue mba'e hechapyrã",
-      "erro_carregar": "Ndaikatúi ojegueru mba'e hechapyrã ko'ág̃a."
+      "erro_carregar": "Ndaikatúi ojegueru mba'e hechapyrã ko'ág̃a.",
+      "fatos": {
+        "fato1": "Peteĩ yvyra tuicha itujáva ohupyty, promedio-pe, 22 kg CO₂ ary peteĩme — upévare ka'aguy jeporãngatu ha'e peteĩ tekoite iporãvéva oñembotove hag̃ua umi isãso (emisión).",
+        "fato2": "Yguasu kuéra ohupyty peteĩ cuarto rupi opa CO₂ oñemondovéva yvypóra rupive ary opaite, oiko haguéicha peteĩ regulador tuichaitéva pe clima global.",
+        "fato3": "Oñemoambue jave peteĩ tonelada kuatia, oñesave 17 yvyra ha heta y ha energía, ojoavy jave kuatia pyahu ojejapo.",
+        "fato4": "Pe transporte ha'e responsable peteĩ cuarto emisión CO₂ global oguerekóva energía ndive — oñemoambue jave mba'yru guive bicicleta térã transporte público tape mbykymíme, oiko peteĩ diferencia hetaitéva.",
+        "fato5": "Amazonia reko peteĩ óga 10% biodiversidad opa yvy ape ári oikuaáva, ha avei oñongatu miles de millones tonelada carbono hi'ári ka'aguy.",
+        "fato6": "Panel solar oguerekóva óga ikatu omboguejy pegada de carbono peteĩ óga tonelada CO₂ ary opaite, depende matriz energética local.",
+        "fato7": "Peteĩ dieta oguerekóva sa'imi so'o pytã ikatu omboguejy hetaiterei pegada de carbono personal, ha'e oikóva pecuaria vaca ha'e peteĩ actividad agrícola oguerekóva emisión hetaitereíva.",
+        "fato8": "Pe ysapy marítimo Ártico-pe oñembojyva omboguejy yvy ape ári capacidad orreflejar mbyte kuarahy jevy espacio-pe, ombopya'eve pe calor — peteĩ efecto oñembohéra retroalimentación albedo.",
+        "fato9": "Lámpara LED oikotevẽ peve 80% energia sa'ive umi incandescente-gui, ha opyta are hetave, omboguejýva emisión ha residuo.",
+        "fato10": "Acordo Paris, ojeroviáva 200 rupi tetã rupi, orekóva meta ombotove calentamiento global, sa'i hetave 2°C umi nivel preindustrial ári.",
+        "fato11": "Peteĩ tercio opa tembi'u ojejapóva yvy ape ári oñemomba'eve — ha upe desperdicio ha'eño omoheñói peteĩ parte importante umi emisión gas efecto invernadero global.",
+        "fato12": "Turbina eólica moderna ikatu omoheñói energía heta oguerekóva miles de casas-pe, ndoguerekói emisión CO₂ ojapo aja hembiapo.",
+        "fato13": "Yvy iporãva oñongatu hetave carbono opa ka'aguy ha atmósfera oñondivepa-gui — práctica agrícola regenerativa opytyvõ oñongatu hag̃ua pe carbono yvýpe.",
+        "fato14": "Arrecife coral, oguereko jepe sa'imi 1% fondo oceánico, osostene peteĩ 25% opa vida marina oikuaáva — ha ha'e sensible hetaiterei pe y hakuve.",
+        "fato15": "Omboguejývo desperdicio y haku óga-pe (baño mbyky, techapyrã), omboguejy avei emisión, ha'e oikóva y haku oikotevẽ energía.",
+        "fato16": "Mba'yru eléctrico, oñeha'arõramo jepe pe batería mba'apo, osẹ hikuái sa'ive CO₂ hekove pukukue javeve, mba'yru combustión-gui, especialmente eletricidad ou haguépe fuente limpio-gui.",
+        "fato17": "Compostaje residuo orgánico óga-pe omboavei metano oiko hag̃ua vertedero-pe — gas efecto invernadero oguerekóva poder hetaitereíva CO₂ gui tiempo mbykýpe.",
+        "fato18": "Glaciar Groenlandia ha Antártida-gui oñondive ohejapa, ary ko'ãgagua, cientos de miles de millones tonelada ysã ary opaite, oipytyvõva directamente omomba'apo nivel yguasu."
+      }
     },
     "noticias": {
       "titulo": "Marandu Yvy Rehegua",
@@ -138,6 +160,31 @@
       "navegacao": "Jeguata",
       "contato": "Ñemongeta",
       "copyright": "© 2026 Carbono Consciente. Opaite derécho ñemo'ã."
+    },
+    "planta": {
+      "aria_svg": "Mba'yvoty okakuaáva ha opa ywyra peve, nde jepokuaa guata rehegua tesãi rehehápe",
+      "carregando_placeholder": "Oñemyenyhẽ hína nde mba'yvoty...",
+      "aria_arvore": "Ywyra. Eity eñotỹ jevy hag̃ua",
+      "dica_replantar": "Eity pe ywyra re eñotỹ jevy hag̃ua",
+      "legenda_0": "Oñeñotỹ hína nde ñemitỹngue...",
+      "legenda_1": "Heñói peteĩ sã'imi. Opa guata sostenible omongakuaa chupe.",
+      "legenda_2": "Ko'ág̃a ha'e peteĩ mitã ywyra imbareteva. Nde jepokuaa omoirũngatu.",
+      "legenda_3": "Peteĩ ywyra pyahu, henyhẽva hogue. Tekotevẽ eho tape rupi!",
+      "legenda_4": "Peteĩ ywyra guasu hyakuã porãva ha ipoty. Nde jepokuaa iporãitereiete!"
+    },
+    "estatisticas": {
+      "media_mundial": "CO₂ apytépe peteĩ-teĩme, umi tetã ohecháva apytépe",
+      "maior_emissor": "emisor tuichavéva peteĩ-teĩme: {{pais}}",
+      "menor_emissor": "emisor michĩvéva peteĩ-teĩme: {{pais}}",
+      "paises_monitorados": "tetã ohecháva yvy apére",
+      "seu_co2_semana": "nde CO₂ ko arapokõindýpe",
+      "vs_media_paises": "ojojaháva tetã kuéra arapokõindy apytépe",
+      "ranking_mundial": "renda ojehecháva {{total}} tetã apytépe",
+      "sem_dados_suficientes": "ndaipóri marandu heta",
+      "fallback_co2_evitado": "CO₂ apytépe oñemboyke tembiapo joajuha ha / jasýpe",
+      "fallback_variacao_emissoes": "emisión ojoja ary mboyvegua mbykymi peteĩchagua ndive",
+      "fallback_abaixo_media_setor": "apytépe ohóva sector rehegua guive, kuenta ohecháva apytépe",
+      "fallback_paises_ativos": "tetã oguerekóva node marandu rehegua oikóva red-pe"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "ndaipóri ñemboheraguapy ko tiémpope",
     "delta_primeiro_registro": "ñemboheraguapy peteĩha ko tiémpope",
     "delta_estavel": "ojoja mboyvegua tiémpo ndive",
-    "delta_variacao": "{{percentual}}% mboyvegua tiémpo rehe"
+    "delta_variacao": "{{percentual}}% mboyvegua tiémpo rehe",
+    "meios": {
+      "carro_gasolina": "Kárro (gasolina)",
+      "carro_etanol": "Kárro (etanol)",
+      "carro_eletrico": "Kárro (elétrika)",
+      "motocicleta": "Moto",
+      "onibus": "Ómnibus",
+      "metro_trem": "Metro/Tren",
+      "bicicleta": "Bicicleta",
+      "a_pe": "Py rupive"
+    }
   },
   "globo": {
     "legenda_titulo": "Emisión peteĩ-teĩmegua",

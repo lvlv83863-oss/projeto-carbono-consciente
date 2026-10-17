@@ -7,6 +7,8 @@
     "sair_link": "kirjaudu ulos",
     "painel_link": "kojelauta",
     "fechar": "Sulje",
+    "logo_alt": "Carbono Consciente -logo",
+    "redirecionamento_html": "Uudelleenohjataan... <a href=\"front%20end/html/inicial.html\">napsauta tätä</a>, jos sinua ei ohjata uudelleen.",
     "nav": {
       "plataforma": "Alusta",
       "impacto": "Vaikutus",
@@ -120,7 +122,27 @@
       "subtitulo": "Tiesitkö?",
       "carregando": "Ladataan tietoa...",
       "proxima": "Seuraava tieto",
-      "erro_carregar": "Tietoja ei voitu ladata juuri nyt."
+      "erro_carregar": "Tietoja ei voitu ladata juuri nyt.",
+      "fatos": {
+          "fato1": "Aikuinen puu sitoo keskimäärin noin 22 kg CO₂ vuodessa — siksi metsitys on yksi suorimmista tavoista kompensoida päästöjä.",
+          "fato2": "Meret sitovat noin neljänneksen kaikesta ihmiskunnan vuosittain päästämästä CO₂:sta ja toimivat näin maailmanlaajuisen ilmaston valtavana säätelijänä.",
+          "fato3": "Yhden paperitonnin kierrättäminen säästää noin 17 puuta sekä merkittävän määrän vettä ja energiaa verrattuna uuden paperin valmistamiseen.",
+          "fato4": "Liikenne aiheuttaa noin neljänneksen maailman energiaperäisistä CO₂-päästöistä — auton vaihtaminen pyörään tai joukkoliikenteeseen lyhyillä matkoilla vaikuttaa aidosti.",
+          "fato5": "Amazonissa elää noin 10 % kaikesta planeetan tunnetusta luonnon monimuotoisuudesta, ja sen kasvillisuus varastoi miljardeja tonneja hiiltä.",
+          "fato6": "Kotitalouden aurinkopaneelit voivat pienentää kodin hiilijalanjälkeä tonneilla CO₂:ta vuodessa, riippuen paikallisesta energiantuotannon rakenteesta.",
+          "fato7": "Vähemmän punaista lihaa sisältävä ruokavalio voi pienentää henkilökohtaista hiilijalanjälkeä merkittävästi, sillä naudanlihan tuotanto on yksi päästöintensiivisimmistä maatalouden toiminnoista.",
+          "fato8": "Arktisen merijään sulaminen heikentää planeetan kykyä heijastaa auringonvaloa takaisin avaruuteen ja kiihdyttää lämpenemistä — ilmiötä kutsutaan albedotakaisinkytkennäksi.",
+          "fato9": "LED-lamput kuluttavat jopa 80 % vähemmän energiaa kuin hehkulamput ja kestävät paljon pidempään, mikä vähentää sekä päästöjä että jätettä.",
+          "fato10": "Pariisin ilmastosopimus, jonka on allekirjoittanut lähes 200 maata, tavoittelee ilmaston lämpenemisen rajoittamista selvästi alle 2°C:een esiteolliseen aikaan verrattuna.",
+          "fato11": "Noin kolmannes kaikesta maailmassa tuotetusta ruoasta menee hukkaan — ja jo pelkkä tämä hävikki tuottaa merkittävän osan maailman kasvihuonekaasupäästöistä.",
+          "fato12": "Nykyaikaiset tuulivoimalat pystyvät tuottamaan energiaa tuhansien kotien tarpeisiin päästämättä käytön aikana lainkaan CO₂:ta.",
+          "fato13": "Terve maaperä varastoi enemmän hiiltä kuin kaikki kasvillisuus ja ilmakehä yhdessä — uudistava maatalous auttaa pitämään tuon hiilen maassa.",
+          "fato14": "Koralliriutat peittävät alle 1 % merenpohjasta, mutta ylläpitävät noin 25 % kaikesta tunnetusta merieliöstöstä — ja ne ovat erittäin herkkiä veden lämpenemiselle.",
+          "fato15": "Kuuman veden hukan vähentäminen kotona (esimerkiksi lyhyemmät suihkut) pienentää myös päästöjä, sillä veden lämmittäminen kuluttaa energiaa.",
+          "fato16": "Sähköautot tuottavat elinkaarensa aikana yleensä vähemmän CO₂-päästöjä kuin polttomoottoriautot, myös akun valmistus huomioiden — erityisesti siellä, missä sähkö tulee puhtaista lähteistä.",
+          "fato17": "Biojätteen kompostointi kotona estää sen tuottamasta metaania kaatopaikoilla — kasvihuonekaasua, joka on lyhyellä aikavälillä paljon voimakkaampi kuin CO₂.",
+          "fato18": "Grönlannin ja Antarktiksen jäätiköt ovat viime vuosina menettäneet yhdessä satoja miljardeja tonneja jäätä vuodessa, mikä nostaa merenpintaa suoraan."
+      }
     },
     "noticias": {
       "titulo": "Ympäristöuutiset",
@@ -138,6 +160,31 @@
       "navegacao": "Navigointi",
       "contato": "Yhteystiedot",
       "copyright": "© 2026 Carbono Consciente. Kaikki oikeudet pidätetään."
+    },
+    "planta": {
+      "aria_svg": "Kasvi, joka kasvaa puuksi liikkumistottumustesi terveyden mukaan",
+      "carregando_placeholder": "Ladataan kasviasi...",
+      "aria_arvore": "Puu. Napsauta istuttaaksesi uudelleen",
+      "dica_replantar": "Napsauta puuta istuttaaksesi uudelleen",
+      "legenda_0": "Istutetaan siementäsi...",
+      "legenda_1": "Pieni verso syntyi. Joka kestävä matka auttaa sitä kasvamaan.",
+      "legenda_2": "Se on nyt vahva taimi. Tottumuksesi juurtuvat.",
+      "legenda_3": "Nuori puu, täynnä lehtiä. Jatka samaan malliin!",
+      "legenda_4": "Rehevä kukkiva puu. Tottumuksesi ovat huikeita!"
+    },
+    "estatisticas": {
+      "media_mundial": "Keskimääräinen CO₂ henkeä kohti seurattujen maiden joukossa",
+      "maior_emissor": "suurin päästäjä henkeä kohti: {{pais}}",
+      "menor_emissor": "pienin päästäjä henkeä kohti: {{pais}}",
+      "paises_monitorados": "maailmanlaajuisesti seurattuja maita",
+      "seu_co2_semana": "CO₂-päästösi tällä viikolla",
+      "vs_media_paises": "verrattuna maiden viikoittaiseen keskiarvoon",
+      "ranking_mundial": "arvioitu sijoitus {{total}} maan joukossa",
+      "sem_dados_suficientes": "ei riittävästi tietoa",
+      "fallback_co2_evitado": "keskimäärin vältetty CO₂ yhdistettyä toimintoa / kuukausi kohti",
+      "fallback_variacao_emissoes": "päästöt verrattuna edellisvuoden samaan ajanjaksoon",
+      "fallback_abaixo_media_setor": "alle toimialan keskiarvon, seuratuissa tileissä",
+      "fallback_paises_ativos": "maat, joilla on aktiivisia datasolmuja verkossa"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "ei merkintöjä tällä ajanjaksolla",
     "delta_primeiro_registro": "ajanjakson ensimmäinen merkintä",
     "delta_estavel": "vakaa edelliseen ajanjaksoon verrattuna",
-    "delta_variacao": "{{percentual}} % edelliseen ajanjaksoon verrattuna"
+    "delta_variacao": "{{percentual}} % edelliseen ajanjaksoon verrattuna",
+    "meios": {
+      "carro_gasolina": "Auto (bensiini)",
+      "carro_etanol": "Auto (etanoli)",
+      "carro_eletrico": "Auto (sähkö)",
+      "motocicleta": "Moottoripyörä",
+      "onibus": "Bussi",
+      "metro_trem": "Metro/Juna",
+      "bicicleta": "Polkupyörä",
+      "a_pe": "Kävellen"
+    }
   },
   "globo": {
     "legenda_titulo": "Päästöt asukasta kohti",

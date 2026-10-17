@@ -7,6 +7,8 @@
     "sair_link": "amaitu saioa",
     "painel_link": "panela",
     "fechar": "Itxi",
+    "logo_alt": "Carbono Consciente logoa",
+    "redirecionamento_html": "Birbideratzen... Birbideratzen ez bazaituzte, <a href=\"front%20end/html/inicial.html\">egin klik hemen</a>.",
     "nav": {
       "plataforma": "Plataforma",
       "impacto": "Eragina",
@@ -120,7 +122,27 @@
       "subtitulo": "Bazenekien?",
       "carregando": "Kuriositatea kargatzen...",
       "proxima": "Hurrengo kuriositatea",
-      "erro_carregar": "Ezin izan dira kuriositateak kargatu orain."
+      "erro_carregar": "Ezin izan dira kuriositateak kargatu orain.",
+      "fatos": {
+        "fato1": "Zuhaitz heldu batek, batez beste, urtean 22 kg CO₂ inguru xurgatzen du — hori dela eta, berroitzea emisioak orekatzeko bide zuzenenetako bat da.",
+        "fato2": "Itsasoek giza jardueraren ondoriozko CO₂ guztiaren laurdena inguru xurgatzen dute urtero, klima globalaren erregulatzaile erraldoi gisa jokatuz.",
+        "fato3": "Tona bat paper birziklatzeak 17 zuhaitz inguru eta ur eta energia kopuru esanguratsu bat aurrezten ditu, paper berria ekoiztearekin alderatuta.",
+        "fato4": "Garraioa energiarekin lotutako CO₂ emisio globalen laurdena inguruaren erantzule da — autoa bizikletaz edo garraio publikoz ordezkatzeak distantzia laburreko joan-etorrietan benetako aldea egiten du.",
+        "fato5": "Amazoniak planetako bioaniztasun ezagun osoaren %10 inguru biltzen du, eta, gainera, karbono tona milaka milioi biltegiratzen ditu bere landaredian.",
+        "fato6": "Etxeko eguzki-panelek etxe baten karbono-aztarna urteko CO₂ tonaka murriztu dezakete, tokiko energia-nahasketaren arabera.",
+        "fato7": "Haragi gorri gutxiagoko dietak karbono-aztarna pertsonala nabarmen murriztu dezake, behi-abeltzaintza emisio aldetik intentsiboenetako nekazaritza jarduera bat baita.",
+        "fato8": "Artikoko itsas izotzaren urtzeak planetak eguzki-argia espaziora itzultzeko duen gaitasuna murrizten du, berotzea azkartuz — albedo-berrelikadura izeneko efektua.",
+        "fato9": "LED bonbillek intzandeszentzia bonbillek baino energia %80 arte gutxiago kontsumitzen dute eta askoz gehiago irauten dute, emisioak eta hondakinak murriztuz.",
+        "fato10": "Parisko Hitzarmenak, ia 200 herrialdek sinatuak, berotze globala industriaurreko mailen gainetik 2°C baino nabarmen gutxiagora mugatzea du helburu.",
+        "fato11": "Munduan ekoizten den elikagai guztien heren bat inguru alferrik galtzen da — eta soilik hondakin horrek berotegi-efektuko gas emisio globalen zati esanguratsu bat eragiten du.",
+        "fato12": "Haize-turbina modernoek etxe milaka hornitzeko adina energia sortu dezakete, funtzionamenduan CO₂rik igorri gabe.",
+        "fato13": "Lurzoru osasuntsuak landaredi eta atmosfera guztiak batuta baino karbono gehiago biltegiratzen du — nekazaritza berriztatzaileko praktikek karbono hori lurrean mantentzen laguntzen dute.",
+        "fato14": "Koralezko arrezifeek, itsas hondoaren %1 baino gutxiago estaltzen badute ere, ezagutzen den itsas bizitzaren %25 inguru eusten dute — eta oso sentikorrak dira uren berotzearekiko.",
+        "fato15": "Etxean ur beroaren xahutzea murriztea (dutxa laburragoak, esaterako) emisioak ere murrizten ditu, ura berotzeak energia behar baitu.",
+        "fato16": "Elektrikoek, bateria fabrikatzea kontuan hartuta ere, beren bizitza osoan CO₂ gutxiago igortzen dute errekuntza-autoek baino, bereziki elektrizitatea iturri garbietatik datorrenean.",
+        "fato17": "Etxeko hondakin organikoak konpostatzeak zabortegietan metanoa sortzea eragozten du — epe laburrera CO₂ baino askoz indartsuagoa den berotegi-efektuko gasa.",
+        "fato18": "Groenlandiako eta Antartikako glaziarrek, elkarrekin, azken urteotan izotz tona ehunka mila milioi galtzen dituzte urtean, itsasoaren maila igotzen laguntzen dutelarik zuzenean."
+      }
     },
     "noticias": {
       "titulo": "Ingurumen-berriak",
@@ -138,6 +160,31 @@
       "navegacao": "Nabigazioa",
       "contato": "Kontaktua",
       "copyright": "© 2026 Carbono Consciente. Eskubide guztiak erreserbatuta."
+    },
+    "planta": {
+      "aria_svg": "Zure joan-etorri ohituren osasunaren arabera zuhaitz bihurtzen den landarea",
+      "carregando_placeholder": "Zure landarea kargatzen...",
+      "aria_arvore": "Zuhaitza. Egin klik berriz landatzeko",
+      "dica_replantar": "Egin klik zuhaitzean berriz landatzeko",
+      "legenda_0": "Zure hazia landatzen...",
+      "legenda_1": "Kimu txiki bat jaio da. Bidaia jasangarri bakoitzak hazten laguntzen dio.",
+      "legenda_2": "Dagoeneko landare sendoa da. Zure ohiturak sustraitzen ari dira.",
+      "legenda_3": "Zuhaitz gaztea, hostoz betea. Horrela jarraitu!",
+      "legenda_4": "Loratutako zuhaitz oparoa. Zure ohiturak harrigarriak dira!"
+    },
+    "estatisticas": {
+      "media_mundial": "CO₂ batez bestekoa pertsonako, monitorizatutako herrialdeen artean",
+      "maior_emissor": "igorle handiena biztanleko: {{pais}}",
+      "menor_emissor": "igorle txikiena biztanleko: {{pais}}",
+      "paises_monitorados": "munduan monitorizatutako herrialdeak",
+      "seu_co2_semana": "zure CO₂a aste honetan",
+      "vs_media_paises": "herrialdeen aste-batez bestekoarekin alderatuta",
+      "ranking_mundial": "{{total}} herrialderen arteko posizio estimatua",
+      "sem_dados_suficientes": "ez dago nahikoa datu",
+      "fallback_co2_evitado": "konektatutako eragiketa / hileko saihestutako CO₂ batez bestekoa",
+      "fallback_variacao_emissoes": "isurketak aurreko urteko aldi berarekin alderatuta",
+      "fallback_abaixo_media_setor": "sektorearen batez bestekotik behera, monitorizatutako kontuetan",
+      "fallback_paises_ativos": "sarean nodo aktiboak dituzten herrialdeak"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "aldi honetan erregistrorik ez",
     "delta_primeiro_registro": "aldiko lehen erregistroa",
     "delta_estavel": "egonkorra aurreko aldiarekin alderatuta",
-    "delta_variacao": "{{percentual}}% aurreko aldiarekin alderatuta"
+    "delta_variacao": "{{percentual}}% aurreko aldiarekin alderatuta",
+    "meios": {
+      "carro_gasolina": "Autoa (gasolina)",
+      "carro_etanol": "Autoa (etanol)",
+      "carro_eletrico": "Autoa (elektrikoa)",
+      "motocicleta": "Motozikleta",
+      "onibus": "Autobusa",
+      "metro_trem": "Metroa/Trena",
+      "bicicleta": "Bizikleta",
+      "a_pe": "Oinez"
+    }
   },
   "globo": {
     "legenda_titulo": "Biztanleko isuria",

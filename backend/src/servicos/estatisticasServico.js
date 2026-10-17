@@ -31,8 +31,8 @@ function calcularGlobais() {
 
   return [
     { chave: "media_mundial", valor: fmtTon(mediaTon), descricao: "CO₂ médio por pessoa, entre os países monitorados" },
-    { chave: "maior_emissor", valor: fmtTon(maior.tonYear), descricao: `maior emissor per capita: ${maior.nome}` },
-    { chave: "menor_emissor", valor: fmtTon(menor.tonYear), descricao: `menor emissor per capita: ${menor.nome}` },
+    { chave: "maior_emissor", valor: fmtTon(maior.tonYear), vars: { pais: maior.nome }, descricao: `maior emissor per capita: ${maior.nome}` },
+    { chave: "menor_emissor", valor: fmtTon(menor.tonYear), vars: { pais: menor.nome }, descricao: `menor emissor per capita: ${menor.nome}` },
     { chave: "paises_monitorados", valor: String(lista.length), descricao: "países monitorados no globo" },
   ];
 }
@@ -46,7 +46,13 @@ async function calcularPersonalizadas(idUsuario) {
 
   const mediaSemanalPaises = lista.length ? lista.reduce((soma, p) => soma + p.kgWeek, 0) / lista.length : 0;
 
-  let comparacao = "sem dados suficientes";
+  // indicadorComparacao fica só com sinal+número ("▼ 12%") — universal,
+  // sem palavras de idioma nenhum embutidas, pro front traduzir a frase ao
+  // redor via chave (front end/js/dados.js). semDadosComparacao sinaliza o
+  // caso em que não há base de comparação; nesse caso o front mostra
+  // t("inicial.estatisticas.sem_dados_suficientes") no lugar do número.
+  let indicadorComparacao = null;
+  let semDadosComparacao = false;
   // Saúde da planta (0-100): 50 = exatamente na média dos países, 100 = bem
   // abaixo da média (ótimo), 0 = bem acima (ruim). Mesma comparação usada
   // no card "vs_media_paises", só reaproveitada numa escala 0-100.
@@ -54,8 +60,10 @@ async function calcularPersonalizadas(idUsuario) {
   if (mediaSemanalPaises > 0) {
     const diferenca = ((seuCo2Semana - mediaSemanalPaises) / mediaSemanalPaises) * 100;
     const sinal = diferenca <= 0 ? "▼" : "▲";
-    comparacao = `${sinal} ${Math.abs(diferenca).toFixed(0)}% vs. média dos países`;
+    indicadorComparacao = `${sinal} ${Math.abs(diferenca).toFixed(0)}%`;
     saudePlanta = Math.max(0, Math.min(100, Math.round(50 - diferenca * 0.5)));
+  } else {
+    semDadosComparacao = true;
   }
 
   // Projeta o total semanal pra uma taxa anual (mesma unidade do tonYear
@@ -67,8 +75,13 @@ async function calcularPersonalizadas(idUsuario) {
 
   const itens = [
     { chave: "seu_co2_semana", valor: fmtKg(seuCo2Semana), descricao: "seu CO₂ nesta semana" },
-    { chave: "vs_media_paises", valor: comparacao, descricao: "comparado à média semanal dos países" },
-    { chave: "ranking_mundial", valor: `${posicao}º`, descricao: `posição estimada entre ${ordenados.length} países` },
+    {
+      chave: "vs_media_paises",
+      valor: semDadosComparacao ? null : indicadorComparacao,
+      semDados: semDadosComparacao,
+      descricao: semDadosComparacao ? "sem dados suficientes" : "comparado à média semanal dos países",
+    },
+    { chave: "ranking_mundial", valor: `${posicao}º`, vars: { total: ordenados.length }, descricao: `posição estimada entre ${ordenados.length} países` },
     { chave: "paises_monitorados", valor: String(lista.length), descricao: "países monitorados no globo" },
   ];
 

@@ -1,0 +1,1782 @@
+{
+  "pt": {
+    "query": "meio ambiente OR sustentabilidade OR mudança climática OR carbono OR reciclagem",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Mudanças Climáticas",
+        "termos": [
+          "clima",
+          "aqueciment",
+          "climátic",
+          "temperatura",
+          "seca",
+          "enchente",
+          "chuva"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Energia Limpa",
+        "termos": [
+          "energia",
+          "solar",
+          "eólic",
+          "renovável",
+          "renovavel",
+          "hidrelétric"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Reciclagem",
+        "termos": [
+          "recicl",
+          "lixo",
+          "resíduo",
+          "residuo",
+          "coleta seletiva"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Sustentabilidade",
+        "termos": []
+      }
+    ]
+  },
+  "en": {
+    "query": "environment OR sustainability OR climate change OR carbon emissions OR recycling",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Climate Change",
+        "termos": [
+          "climate",
+          "warming",
+          "temperature",
+          "drought",
+          "flood",
+          "heatwave"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Clean Energy",
+        "termos": [
+          "energy",
+          "solar",
+          "wind power",
+          "renewable",
+          "hydroelectric"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Recycling",
+        "termos": [
+          "recycl",
+          "waste",
+          "landfill",
+          "plastic waste"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Sustainability",
+        "termos": []
+      }
+    ]
+  },
+  "es": {
+    "query": "medio ambiente OR sustentabilidad OR cambio climático OR emisiones de carbono OR reciclaje",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Cambio Climático",
+        "termos": [
+          "clima",
+          "climátic",
+          "climatic",
+          "calentamiento",
+          "temperatura",
+          "sequía",
+          "sequia",
+          "inundaci",
+          "ola de calor",
+          "deshielo"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Energía Limpia",
+        "termos": [
+          "energía",
+          "energia",
+          "solar",
+          "eólic",
+          "eolic",
+          "renovable",
+          "hidroeléctric",
+          "hidroelectric",
+          "litio",
+          "combustible"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Reciclaje",
+        "termos": [
+          "recicl",
+          "basura",
+          "residuo",
+          "plástic",
+          "plastic",
+          "vertedero",
+          "relleno sanitario"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Sustentabilidad",
+        "termos": []
+      }
+    ]
+  },
+  "fr": {
+    "query": "environnement OR développement durable OR changement climatique OR émissions de carbone OR recyclage",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Changement Climatique",
+        "termos": [
+          "climat",
+          "réchauffement",
+          "rechauffement",
+          "température",
+          "temperature",
+          "sécheresse",
+          "secheresse",
+          "inondation",
+          "canicule",
+          "fonte des glaces"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Énergie Propre",
+        "termos": [
+          "énergie",
+          "energie",
+          "solaire",
+          "éolien",
+          "eolien",
+          "renouvelable",
+          "hydroélectri",
+          "nucléaire",
+          "nucleaire",
+          "électricité"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Recyclage",
+        "termos": [
+          "recycl",
+          "déchet",
+          "dechet",
+          "ordure",
+          "plastique",
+          "tri des déchets",
+          "décharge"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Développement Durable",
+        "termos": []
+      }
+    ]
+  },
+  "ar": {
+    "query": "البيئة OR الاستدامة OR تغير المناخ OR انبعاثات الكربون OR إعادة التدوير",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "تغير المناخ",
+        "termos": [
+          "مناخ",
+          "حرار",
+          "الاحترار",
+          "جفاف",
+          "فيضان",
+          "موجة حارة",
+          "تصحر",
+          "ارتفاع درجة"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "الطاقة النظيفة",
+        "termos": [
+          "طاقة",
+          "شمسية",
+          "متجدد",
+          "رياح",
+          "كهرباء",
+          "وقود",
+          "كهربائية"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "إعادة التدوير",
+        "termos": [
+          "تدوير",
+          "نفايات",
+          "قمامة",
+          "مخلفات",
+          "بلاستيك",
+          "مدفن"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "الاستدامة",
+        "termos": []
+      }
+    ]
+  },
+  "zh": {
+    "query": "环境保护 OR 可持续发展 OR 气候变化 OR 碳排放 OR 垃圾分类",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "气候变化",
+        "termos": [
+          "气候",
+          "变暖",
+          "暖化",
+          "气温",
+          "高温",
+          "干旱",
+          "洪水",
+          "热浪",
+          "极端天气"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "清洁能源",
+        "termos": [
+          "能源",
+          "太阳能",
+          "光伏",
+          "风电",
+          "风能",
+          "可再生",
+          "电力",
+          "核电",
+          "储能"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "回收利用",
+        "termos": [
+          "回收",
+          "垃圾",
+          "废弃物",
+          "废物",
+          "塑料",
+          "垃圾分类"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "可持续发展",
+        "termos": []
+      }
+    ]
+  },
+  "hi": {
+    "query": "पर्यावरण OR जलवायु परिवर्तन OR कार्बन उत्सर्जन OR सतत विकास OR रीसाइक्लिंग OR कचरा प्रबंधन",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "जलवायु परिवर्तन",
+        "termos": [
+          "जलवायु",
+          "वार्मिंग",
+          "तापमान",
+          "गर्मी",
+          "सूखा",
+          "बाढ़",
+          "लू",
+          "हीटवेव"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "स्वच्छ ऊर्जा",
+        "termos": [
+          "ऊर्जा",
+          "सौर",
+          "पवन",
+          "नवीकरणीय",
+          "बिजली",
+          "कोयला",
+          "ईंधन"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "रीसाइक्लिंग",
+        "termos": [
+          "रीसाइक",
+          "कचरा",
+          "कूड़ा",
+          "अपशिष्ट",
+          "प्लास्टिक",
+          "लैंडफिल"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "सतत विकास",
+        "termos": []
+      }
+    ]
+  },
+  "ru": {
+    "query": "экология OR устойчивое развитие OR изменение климата OR выбросы CO2 OR переработка отходов",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Изменение климата",
+        "termos": [
+          "климат",
+          "потеплен",
+          "температур",
+          "засух",
+          "наводнен",
+          "паводок",
+          "жара",
+          "таяние"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Чистая энергия",
+        "termos": [
+          "энерг",
+          "солнечн",
+          "ветр",
+          "возобновляем",
+          "электро",
+          "атомн",
+          "топлив",
+          "уголь"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Переработка отходов",
+        "termos": [
+          "переработк",
+          "отход",
+          "мусор",
+          "свалк",
+          "пластик",
+          "утилизац"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Устойчивое развитие",
+        "termos": []
+      }
+    ]
+  },
+  "de": {
+    "query": "Umwelt OR Nachhaltigkeit OR Klimawandel OR CO2-Emissionen OR Recycling",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Klimawandel",
+        "termos": [
+          "klima",
+          "erwärmung",
+          "erwarmung",
+          "temperatur",
+          "dürre",
+          "durre",
+          "hochwasser",
+          "hitze",
+          "überschwemmung",
+          "gletscher"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Saubere Energie",
+        "termos": [
+          "energie",
+          "solar",
+          "windkraft",
+          "windenergie",
+          "erneuerbar",
+          "strom",
+          "photovoltaik",
+          "kohle",
+          "wasserstoff"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Recycling",
+        "termos": [
+          "recycling",
+          "müll",
+          "mull",
+          "abfall",
+          "plastik",
+          "kunststoff",
+          "wertstoff",
+          "entsorg",
+          "pfand"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Nachhaltigkeit",
+        "termos": []
+      }
+    ]
+  },
+  "ja": {
+    "query": "環境問題 OR 持続可能 OR 気候変動 OR 脱炭素 OR リサイクル",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "気候変動",
+        "termos": [
+          "気候",
+          "温暖化",
+          "気温",
+          "猛暑",
+          "干ばつ",
+          "洪水",
+          "豪雨",
+          "異常気象"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "クリーンエネルギー",
+        "termos": [
+          "エネルギー",
+          "太陽光",
+          "風力",
+          "再生可能",
+          "発電",
+          "電力",
+          "原発",
+          "水素"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "リサイクル",
+        "termos": [
+          "リサイクル",
+          "ごみ",
+          "ゴミ",
+          "廃棄物",
+          "プラスチック",
+          "資源回収",
+          "分別"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "サステナビリティ",
+        "termos": []
+      }
+    ]
+  },
+  "it": {
+    "query": "ambiente OR sostenibilità OR cambiamento climatico OR emissioni CO2 OR riciclo rifiuti",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Cambiamenti Climatici",
+        "termos": [
+          "clima",
+          "climatic",
+          "riscaldament",
+          "temperatur",
+          "siccità",
+          "alluvion",
+          "nubifragio",
+          "ondata di calore",
+          "gas serra",
+          "emission"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Energia Pulita",
+        "termos": [
+          "energia",
+          "energetic",
+          "solare",
+          "fotovoltaic",
+          "eolic",
+          "rinnovabil",
+          "idroelettric",
+          "idrogeno"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Riciclo",
+        "termos": [
+          "ricicl",
+          "rifiut",
+          "discarica",
+          "raccolta differenziata",
+          "plastica",
+          "imballagg"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Sostenibilità",
+        "termos": []
+      }
+    ]
+  },
+  "ko": {
+    "query": "환경 OR 지속가능 OR 기후변화 OR 탄소중립 OR 재활용",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "기후변화",
+        "termos": [
+          "기후",
+          "온난화",
+          "온실가스",
+          "폭염",
+          "가뭄",
+          "홍수",
+          "탄소",
+          "이상기후",
+          "기온"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "청정에너지",
+        "termos": [
+          "에너지",
+          "태양광",
+          "풍력",
+          "재생",
+          "수력",
+          "전력",
+          "수소"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "재활용",
+        "termos": [
+          "재활용",
+          "쓰레기",
+          "폐기물",
+          "플라스틱",
+          "분리배출",
+          "일회용",
+          "자원순환"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "지속가능성",
+        "termos": []
+      }
+    ]
+  },
+  "nl": {
+    "query": "milieu OR duurzaamheid OR klimaatverandering OR CO2-uitstoot OR recycling afval",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Klimaatverandering",
+        "termos": [
+          "klimaat",
+          "opwarming",
+          "temperatuur",
+          "droogte",
+          "overstroming",
+          "hittegolf",
+          "broeikasgas",
+          "uitstoot",
+          "stikstof"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Schone Energie",
+        "termos": [
+          "energie",
+          "zonnepan",
+          "zonne-",
+          "windmolen",
+          "windpark",
+          "waterstof",
+          "stroomnet",
+          "elektriciteit"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Recycling",
+        "termos": [
+          "recycl",
+          "afval",
+          "hergebruik",
+          "plastic",
+          "zwerfafval",
+          "stortplaats"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Duurzaamheid",
+        "termos": []
+      }
+    ]
+  },
+  "pl": {
+    "query": "środowisko OR zrównoważony rozwój OR zmiany klimatu OR emisje CO2 OR recykling odpadów",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Zmiany Klimatu",
+        "termos": [
+          "klimat",
+          "ociepl",
+          "temperatur",
+          "susza",
+          "susz",
+          "powódź",
+          "powodzi",
+          "upał",
+          "emisj",
+          "cieplarnian",
+          "smog"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Czysta Energia",
+        "termos": [
+          "energ",
+          "fotowoltaik",
+          "słoneczn",
+          "wiatrow",
+          "odnawialn",
+          "węgl",
+          "elektrown",
+          "atomow"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Recykling",
+        "termos": [
+          "recykling",
+          "odpad",
+          "śmieci",
+          "plastik",
+          "segregacj",
+          "wysypisk",
+          "opakowan"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Zrównoważony Rozwój",
+        "termos": []
+      }
+    ]
+  },
+  "tr": {
+    "query": "çevre OR sürdürülebilirlik OR iklim değişikliği OR karbon emisyonu OR geri dönüşüm",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "İklim Değişikliği",
+        "termos": [
+          "iklim",
+          "ısınma",
+          "sıcaklık",
+          "kuraklık",
+          "taşkın",
+          "orman yangın",
+          "karbon",
+          "emisyon",
+          "sera gazı"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Temiz Enerji",
+        "termos": [
+          "enerji",
+          "güneş",
+          "rüzgar",
+          "rüzgâr",
+          "yenilenebilir",
+          "hidroelektrik",
+          "jeotermal",
+          "elektrik"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Geri Dönüşüm",
+        "termos": [
+          "geri dönüşüm",
+          "atık",
+          "çöp",
+          "plastik",
+          "ambalaj",
+          "depolama sahası"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Sürdürülebilirlik",
+        "termos": []
+      }
+    ]
+  },
+  "vi": {
+    "query": "môi trường OR phát triển bền vững OR biến đổi khí hậu OR phát thải carbon OR tái chế rác thải",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Biến Đổi Khí Hậu",
+        "termos": [
+          "khí hậu",
+          "nóng lên",
+          "nhiệt độ",
+          "hạn hán",
+          "lũ lụt",
+          "ngập",
+          "nắng nóng",
+          "phát thải",
+          "khí nhà kính",
+          "carbon"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Năng Lượng Sạch",
+        "termos": [
+          "năng lượng",
+          "điện mặt trời",
+          "điện gió",
+          "tái tạo",
+          "thủy điện",
+          "điện lực",
+          "hydro"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Tái Chế",
+        "termos": [
+          "tái chế",
+          "rác",
+          "chất thải",
+          "nhựa",
+          "phế liệu",
+          "phân loại rác"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Phát Triển Bền Vững",
+        "termos": []
+      }
+    ]
+  },
+  "th": {
+    "query": "สิ่งแวดล้อม OR ความยั่งยืน OR การเปลี่ยนแปลงสภาพภูมิอากาศ OR ก๊าซเรือนกระจก OR รีไซเคิลขยะ",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+        "termos": [
+          "ภูมิอากาศ",
+          "โลกร้อน",
+          "อุณหภูมิ",
+          "ภัยแล้ง",
+          "น้ำท่วม",
+          "คาร์บอน",
+          "เรือนกระจก",
+          "คลื่นความร้อน"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "พลังงานสะอาด",
+        "termos": [
+          "พลังงาน",
+          "โซลาร์",
+          "แสงอาทิตย์",
+          "พลังงานลม",
+          "หมุนเวียน",
+          "ไฟฟ้า",
+          "ไฮโดรเจน"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "รีไซเคิล",
+        "termos": [
+          "รีไซเคิล",
+          "ขยะ",
+          "พลาสติก",
+          "ของเสีย",
+          "คัดแยก",
+          "บรรจุภัณฑ์"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "ความยั่งยืน",
+        "termos": []
+      }
+    ]
+  },
+  "id": {
+    "query": "lingkungan OR keberlanjutan OR perubahan iklim OR emisi karbon OR daur ulang sampah",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Perubahan Iklim",
+        "termos": [
+          "iklim",
+          "pemanasan",
+          "suhu",
+          "kekeringan",
+          "banjir",
+          "karbon",
+          "emisi",
+          "gas rumah kaca",
+          "cuaca ekstrem"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Energi Bersih",
+        "termos": [
+          "energi",
+          "surya",
+          "angin",
+          "terbarukan",
+          "panas bumi",
+          "batu bara",
+          "listrik",
+          "hidrogen"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Daur Ulang",
+        "termos": [
+          "daur ulang",
+          "sampah",
+          "limbah",
+          "plastik",
+          "kemasan",
+          "bank sampah"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Keberlanjutan",
+        "termos": []
+      }
+    ]
+  },
+  "he": {
+    "query": "איכות הסביבה OR קיימות OR שינוי אקלים OR פליטות פחמן OR מיחזור",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "שינויי אקלים",
+        "termos": [
+          "אקלים",
+          "התחממות",
+          "בצורת",
+          "שיטפון",
+          "גל חום",
+          "טמפרטורה"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "אנרגיה נקייה",
+        "termos": [
+          "אנרגיה",
+          "סולארי",
+          "רוח",
+          "מתחדשת",
+          "הידרו"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "מיחזור",
+        "termos": [
+          "מיחזור",
+          "פסולת",
+          "זבל",
+          "פלסטיק"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "קיימות",
+        "termos": []
+      }
+    ]
+  },
+  "bn": {
+    "query": "পরিবেশ OR জলবায়ু পরিবর্তন OR কার্বন নিঃসরণ OR পুনর্ব্যবহার OR স্থায়িত্ব",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "জলবায়ু পরিবর্তন",
+        "termos": [
+          "জলবায়ু",
+          "উষ্ণায়ন",
+          "তাপমাত্রা",
+          "খরা",
+          "বন্যা",
+          "ঘূর্ণিঝড়"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "পরিষ্কার জ্বালানি",
+        "termos": [
+          "শক্তি",
+          "সৌর",
+          "বায়ু বিদ্যুৎ",
+          "নবায়নযোগ্য",
+          "জলবিদ্যুৎ"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "পুনর্ব্যবহার",
+        "termos": [
+          "পুনর্ব্যবহার",
+          "বর্জ্য",
+          "আবর্জনা",
+          "প্লাস্টিক"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "টেকসই উন্নয়ন",
+        "termos": []
+      }
+    ]
+  },
+  "ta": {
+    "query": "சுற்றுச்சூழல் OR காலநிலை மாற்றம் OR கார்பன் வெளியேற்றம் OR மறுசுழற்சி OR நிலைத்தன்மை",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "காலநிலை மாற்றம்",
+        "termos": [
+          "காலநிலை",
+          "வெப்பமயமாதல்",
+          "வெப்பநிலை",
+          "வறட்சி",
+          "வெள்ளம்"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "சுத்த ஆற்றல்",
+        "termos": [
+          "ஆற்றல்",
+          "சூரிய",
+          "காற்று மின்",
+          "புதுப்பிக்கத்தக்க",
+          "நீர்மின்"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "மறுசுழற்சி",
+        "termos": [
+          "மறுசுழற்சி",
+          "கழிவு",
+          "பிளாஸ்டிக்"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "நிலைத்தன்மை",
+        "termos": []
+      }
+    ]
+  },
+  "el": {
+    "query": "περιβάλλον OR κλιματική αλλαγή OR εκπομπές άνθρακα OR ανακύκλωση OR βιωσιμότητα",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Κλιματική Αλλαγή",
+        "termos": [
+          "κλίμα",
+          "κλιματικ",
+          "θέρμανση",
+          "θερμοκρασία",
+          "ξηρασία",
+          "πλημμύρ",
+          "καύσωνας"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Καθαρή Ενέργεια",
+        "termos": [
+          "ενέργεια",
+          "ηλιακ",
+          "αιολικ",
+          "ανανεώσιμ",
+          "υδροηλεκτρικ"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Ανακύκλωση",
+        "termos": [
+          "ανακύκλωση",
+          "απόβλητα",
+          "σκουπίδια",
+          "πλαστικ"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Βιωσιμότητα",
+        "termos": []
+      }
+    ]
+  },
+  "bg": {
+    "query": "околна среда OR климатични промени OR въглеродни емисии OR рециклиране OR устойчивост",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Климатични промени",
+        "termos": [
+          "климат",
+          "затопляне",
+          "температура",
+          "суша",
+          "наводнение",
+          "жега"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Чиста енергия",
+        "termos": [
+          "енергия",
+          "слънчев",
+          "вятърн",
+          "възобновяем",
+          "водноелектрическ"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Рециклиране",
+        "termos": [
+          "рециклир",
+          "отпадъц",
+          "боклук",
+          "пластмас"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Устойчивост",
+        "termos": []
+      }
+    ]
+  },
+  "ca": {
+    "query": "medi ambient OR sostenibilitat OR canvi climàtic OR emissions de carboni OR reciclatge",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Canvi Climàtic",
+        "termos": [
+          "clima",
+          "escalfament",
+          "climàtic",
+          "temperatura",
+          "sequera",
+          "inundaci",
+          "onada de calor"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Energia Neta",
+        "termos": [
+          "energia",
+          "solar",
+          "eòlic",
+          "renovable",
+          "hidroelèctric"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Reciclatge",
+        "termos": [
+          "reciclat",
+          "recicl",
+          "residus",
+          "escombraries",
+          "plàstic"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Sostenibilitat",
+        "termos": []
+      }
+    ]
+  },
+  "cs": {
+    "query": "životní prostředí OR udržitelnost OR změna klimatu OR emise uhlíku OR recyklace",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Změna klimatu",
+        "termos": [
+          "klima",
+          "klimatick",
+          "oteplován",
+          "teplota",
+          "sucho",
+          "povodně",
+          "vlna veder"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Čistá energie",
+        "termos": [
+          "energie",
+          "solární",
+          "větrn",
+          "obnovitel",
+          "vodní elektrárn"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Recyklace",
+        "termos": [
+          "recykl",
+          "odpad",
+          "plast"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Udržitelnost",
+        "termos": []
+      }
+    ]
+  },
+  "et": {
+    "query": "keskkond OR jätkusuutlikkus OR kliimamuutus OR süsinikuheide OR ringlussevõtt",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Kliimamuutused",
+        "termos": [
+          "kliima",
+          "soojenem",
+          "temperatuur",
+          "põud",
+          "üleujutus",
+          "kuumalaine"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Puhas energia",
+        "termos": [
+          "energia",
+          "päikese",
+          "tuuleenergia",
+          "taastuv",
+          "hüdroelektri"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Ringlussevõtt",
+        "termos": [
+          "ringlussevõtt",
+          "taaskasutus",
+          "jäätmed",
+          "prügi",
+          "plast"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Jätkusuutlikkus",
+        "termos": []
+      }
+    ]
+  },
+  "fi": {
+    "query": "ympäristö OR kestävä kehitys OR ilmastonmuutos OR hiilipäästöt OR kierrätys",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Ilmastonmuutos",
+        "termos": [
+          "ilmast",
+          "lämpenem",
+          "kuivuus",
+          "tulva",
+          "helleaalto"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Puhdas Energia",
+        "termos": [
+          "energia",
+          "aurinkovoima",
+          "aurinkoenergia",
+          "tuulivoima",
+          "uusiutuva",
+          "vesivoima"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Kierrätys",
+        "termos": [
+          "kierrät",
+          "jäte",
+          "kaatopaikka",
+          "muovijäte"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Kestävä Kehitys",
+        "termos": []
+      }
+    ]
+  },
+  "hu": {
+    "query": "környezetvédelem OR fenntarthatóság OR klímaváltozás OR szén-dioxid kibocsátás OR újrahasznosítás",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Klímaváltozás",
+        "termos": [
+          "klíma",
+          "éghajlat",
+          "felmelegedés",
+          "aszály",
+          "árvíz",
+          "hőhullám"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Tiszta Energia",
+        "termos": [
+          "energia",
+          "napenergia",
+          "szélenergia",
+          "megújuló",
+          "vízenergia"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Újrahasznosítás",
+        "termos": [
+          "újrahasznosít",
+          "hulladék",
+          "szemét",
+          "hulladéklerakó"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Fenntarthatóság",
+        "termos": []
+      }
+    ]
+  },
+  "lt": {
+    "query": "aplinka OR tvarumas OR klimato kaita OR anglies dioksido išmetimai OR atliekų perdirbimas",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Klimato Kaita",
+        "termos": [
+          "klimat",
+          "atšilim",
+          "sausra",
+          "potvyn",
+          "karščio banga"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Švari Energija",
+        "termos": [
+          "energij",
+          "saulės energij",
+          "vėjo energij",
+          "atsinaujinan",
+          "hidroelektr"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Perdirbimas",
+        "termos": [
+          "perdirb",
+          "atliek",
+          "sąvartyn",
+          "plastik"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Tvarumas",
+        "termos": []
+      }
+    ]
+  },
+  "lv": {
+    "query": "vide OR ilgtspēja OR klimata pārmaiņas OR CO2 emisijas OR atkritumu pārstrāde",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Klimata Pārmaiņas",
+        "termos": [
+          "klimat",
+          "sasilšan",
+          "sausum",
+          "plūd",
+          "karstuma vilnis"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Tīra Energija",
+        "termos": [
+          "energij",
+          "saules energij",
+          "vēja energij",
+          "atjaunojam",
+          "hidroenerģij"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Pārstrāde",
+        "termos": [
+          "pārstrād",
+          "atkritum",
+          "izgāztuv",
+          "plastmas"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Ilgtspēja",
+        "termos": []
+      }
+    ]
+  },
+  "ms": {
+    "query": "alam sekitar OR kelestarian OR perubahan iklim OR pelepasan karbon OR kitar semula",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Perubahan Iklim",
+        "termos": [
+          "iklim",
+          "pemanasan",
+          "kemarau",
+          "banjir",
+          "gelombang haba"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Tenaga Bersih",
+        "termos": [
+          "tenaga",
+          "solar",
+          "tenaga angin",
+          "boleh diperbaharui",
+          "hidroelektrik"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Kitar Semula",
+        "termos": [
+          "kitar semula",
+          "sisa",
+          "pelupusan",
+          "sisa plastik"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Kelestarian",
+        "termos": []
+      }
+    ]
+  },
+  "no": {
+    "query": "miljø OR bærekraft OR klimaendringer OR CO2-utslipp OR resirkulering",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Klimaendringer",
+        "termos": [
+          "klima",
+          "oppvarming",
+          "tørke",
+          "flom",
+          "hetebølge"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Ren Energi",
+        "termos": [
+          "energi",
+          "solenergi",
+          "vindkraft",
+          "fornybar",
+          "vannkraft"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Resirkulering",
+        "termos": [
+          "resirkuler",
+          "gjenvinn",
+          "avfall",
+          "deponi",
+          "plastavfall"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Bærekraft",
+        "termos": []
+      }
+    ]
+  },
+  "ro": {
+    "query": "mediu OR sustenabilitate OR schimbări climatice OR emisii de carbon OR reciclare",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Schimbări Climatice",
+        "termos": [
+          "clima",
+          "climatic",
+          "încălzire",
+          "secetă",
+          "inundaț",
+          "val de căldură"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Energie Curată",
+        "termos": [
+          "energie",
+          "energie solară",
+          "eolian",
+          "regenerabil",
+          "hidroelectric"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Reciclare",
+        "termos": [
+          "recicl",
+          "deșeu",
+          "gunoi",
+          "deșeuri de plastic"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Sustenabilitate",
+        "termos": []
+      }
+    ]
+  },
+  "sk": {
+    "query": "životné prostredie OR udržateľnosť OR zmena klímy OR emisie CO2 OR recyklácia",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Zmena Klímy",
+        "termos": [
+          "klím",
+          "otepľovan",
+          "sucho",
+          "povod",
+          "horúčav"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Čistá Energia",
+        "termos": [
+          "energi",
+          "solárn",
+          "veterná energia",
+          "obnoviteľ",
+          "vodná elektrár"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Recyklácia",
+        "termos": [
+          "recykl",
+          "odpad",
+          "skládk",
+          "plastový odpad"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Udržateľnosť",
+        "termos": []
+      }
+    ]
+  },
+  "sl": {
+    "query": "okolje OR trajnostni razvoj OR podnebne spremembe OR ogljični odtis OR recikliranje",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Podnebne spremembe",
+        "termos": [
+          "podnebn",
+          "klimat",
+          "segrevanj",
+          "temperatur",
+          "suš",
+          "poplav",
+          "vročin"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Čista energija",
+        "termos": [
+          "energij",
+          "solarn",
+          "sončn",
+          "veter",
+          "vetrn",
+          "obnovljiv",
+          "hidroelektrarn"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Recikliranje",
+        "termos": [
+          "recikl",
+          "odpad",
+          "smeti",
+          "plastik"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Trajnost",
+        "termos": []
+      }
+    ]
+  },
+  "sr": {
+    "query": "животна средина OR одрживи развој OR климатске промене OR угљеник OR рециклажа",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Климатске промене",
+        "termos": [
+          "клим",
+          "загревањ",
+          "температур",
+          "суш",
+          "поплав",
+          "врућин"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Чиста енергија",
+        "termos": [
+          "енергиј",
+          "соларн",
+          "ветар",
+          "ветроелектран",
+          "обновљив",
+          "хидроелектран"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Рециклажа",
+        "termos": [
+          "рецикл",
+          "отпад",
+          "смеће",
+          "пластичн"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Одрживост",
+        "termos": []
+      }
+    ]
+  },
+  "sv": {
+    "query": "miljö OR hållbarhet OR klimatförändringar OR koldioxid OR återvinning",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Klimatförändringar",
+        "termos": [
+          "klimat",
+          "uppvärmning",
+          "temperatur",
+          "torka",
+          "översvämning",
+          "värmebölja"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Grön energi",
+        "termos": [
+          "energi",
+          "solenergi",
+          "solcell",
+          "vindkraft",
+          "förnybar",
+          "vattenkraft"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Återvinning",
+        "termos": [
+          "återvinning",
+          "avfall",
+          "sopor",
+          "plastavfall"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Hållbarhet",
+        "termos": []
+      }
+    ]
+  },
+  "uk": {
+    "query": "довкілля OR сталий розвиток OR зміна клімату OR викиди вуглецю OR переробка відходів",
+    "categorias": [
+      {
+        "chave": "clima",
+        "categoria": "Зміна клімату",
+        "termos": [
+          "клімат",
+          "потеплінн",
+          "температур",
+          "засух",
+          "повін",
+          "спека"
+        ]
+      },
+      {
+        "chave": "energia",
+        "categoria": "Чиста енергія",
+        "termos": [
+          "енергі",
+          "сонячн",
+          "вітров",
+          "вітроелектростанц",
+          "відновлюван",
+          "гідроелектростанц"
+        ]
+      },
+      {
+        "chave": "reciclagem",
+        "categoria": "Переробка відходів",
+        "termos": [
+          "переробк",
+          "відход",
+          "сміття",
+          "пластик"
+        ]
+      },
+      {
+        "chave": "sustentabilidade",
+        "categoria": "Сталий розвиток",
+        "termos": []
+      }
+    ]
+  }
+}

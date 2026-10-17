@@ -7,6 +7,8 @@
     "sair_link": "odjava",
     "painel_link": "panel",
     "fechar": "Zatvori",
+    "logo_alt": "Logo Carbono Consciente",
+    "redirecionamento_html": "Preusmjeravanje... <a href=\"front%20end/html/inicial.html\">kliknite ovdje</a> ako ne budete preusmjereni.",
     "nav": {
       "plataforma": "Platforma",
       "impacto": "Utjecaj",
@@ -120,7 +122,27 @@
       "subtitulo": "Da li ste znali?",
       "carregando": "Učitavanje interesantne činjenice...",
       "proxima": "Sljedeća interesantna činjenica",
-      "erro_carregar": "Trenutno nije moguće učitati interesantne činjenice."
+      "erro_carregar": "Trenutno nije moguće učitati interesantne činjenice.",
+      "fatos": {
+          "fato1": "Odraslo drvo apsorbira u prosjeku oko 22 kg CO₂ godišnje — zato je pošumljavanje jedan od najdirektnijih načina da se nadoknade emisije.",
+          "fato2": "Oceani svake godine apsorbiraju oko jednu četvrtinu ukupnog CO₂ koji čovječanstvo emitira, djelujući kao ogroman regulator globalne klime.",
+          "fato3": "Recikliranje jedne tone papira sačuva oko 17 drveća te značajnu količinu vode i energije u poređenju s proizvodnjom novog papira.",
+          "fato4": "Transport je odgovoran za oko jednu četvrtinu globalnih emisija CO₂ povezanih s energijom — zamjena automobila biciklom ili javnim prijevozom na kratkim putovanjima zaista čini razliku.",
+          "fato5": "Amazonija je dom za oko 10% ukupne poznate biološke raznolikosti planete, a u svojoj vegetaciji skladišti i milijarde tona ugljika.",
+          "fato6": "Solarni paneli na kućama mogu smanjiti ugljični otisak domaćinstva za tone CO₂ godišnje, zavisno od lokalnog energetskog miksa.",
+          "fato7": "Prehrana s manje crvenog mesa može znatno smanjiti osobni ugljični otisak, jer je govedarstvo jedna od poljoprivrednih djelatnosti s najvećim emisijama.",
+          "fato8": "Topljenje morskog leda na Arktiku smanjuje sposobnost planete da reflektira sunčevu svjetlost nazad u svemir i ubrzava zagrijavanje — efekt poznat kao povratna veza albeda.",
+          "fato9": "LED sijalice troše do 80% manje energije od sijalica sa žarnom nitom i traju mnogo duže, smanjujući i emisije i količinu otpada.",
+          "fato10": "Pariški sporazum, koji je potpisalo gotovo 200 zemalja, ima za cilj ograničiti globalno zagrijavanje na znatno ispod 2°C u odnosu na predindustrijski nivo.",
+          "fato11": "Oko jedne trećine sve hrane proizvedene u svijetu se baci — a samo to rasipanje stvara značajan dio globalnih emisija stakleničkih gasova.",
+          "fato12": "Moderne vjetroturbine mogu proizvesti dovoljno energije za hiljade domova, bez ispuštanja CO₂ tokom rada.",
+          "fato13": "Zdravo zemljište skladišti više ugljika nego sva vegetacija i atmosfera zajedno — regenerativne poljoprivredne prakse pomažu da taj ugljik ostane u zemlji.",
+          "fato14": "Koralni rifovi, iako pokrivaju manje od 1% oceanskog dna, održavaju oko 25% ukupnog poznatog morskog života — i izuzetno su osjetljivi na zagrijavanje voda.",
+          "fato15": "Smanjenje rasipanja tople vode u kući (naprimjer, kraće kupanje pod tušem) također smanjuje emisije, jer grijanje vode troši energiju.",
+          "fato16": "Električni automobili, čak i kada se uzme u obzir proizvodnja baterije, tokom svog životnog ciklusa obično emitiraju manje CO₂ od automobila s motorom na sagorijevanje, posebno tamo gdje električna energija dolazi iz čistih izvora.",
+          "fato17": "Kompostiranje organskog otpada kod kuće sprječava da on na deponijama proizvodi metan — staklenički gas koji je kratkoročno mnogo snažniji od CO₂.",
+          "fato18": "Glečeri Grenlanda i Antarktika zajedno u posljednjim godinama gube stotine milijardi tona leda godišnje, što direktno doprinosi podizanju nivoa mora."
+      }
     },
     "noticias": {
       "titulo": "Vijesti o Okolišu",
@@ -138,6 +160,31 @@
       "navegacao": "Navigacija",
       "contato": "Kontakt",
       "copyright": "© 2026 Carbono Consciente. Sva prava zadržana."
+    },
+    "planta": {
+      "aria_svg": "Biljka koja raste u stablo u zavisnosti od zdravlja vaših navika kretanja",
+      "carregando_placeholder": "Učitavanje vaše biljke...",
+      "aria_arvore": "Stablo. Kliknite da ponovo zasadite",
+      "dica_replantar": "Kliknite na stablo da ponovo zasadite",
+      "legenda_0": "Sadnja vaše sjemenke...",
+      "legenda_1": "Rodila se mala izdanka. Svako održivo putovanje joj pomaže da raste.",
+      "legenda_2": "Sada je čvrsta mladica. Vaše navike hvataju korijen.",
+      "legenda_3": "Mlado stablo, puno lišća. Nastavite tako!",
+      "legenda_4": "Bujno stablo u cvatu. Vaše navike su nevjerovatne!"
+    },
+    "estatisticas": {
+      "media_mundial": "Prosječan CO₂ po osobi, među praćenim zemljama",
+      "maior_emissor": "najveći emiter po stanovniku: {{pais}}",
+      "menor_emissor": "najmanji emiter po stanovniku: {{pais}}",
+      "paises_monitorados": "praćenih zemalja u svijetu",
+      "seu_co2_semana": "vaš CO₂ ove sedmice",
+      "vs_media_paises": "u poređenju sa sedmičnim prosjekom zemalja",
+      "ranking_mundial": "procijenjena pozicija među {{total}} zemalja",
+      "sem_dados_suficientes": "nema dovoljno podataka",
+      "fallback_co2_evitado": "prosječan CO₂ izbjegnut po povezanoj operaciji / mjesec",
+      "fallback_variacao_emissoes": "emisije u poređenju sa istim periodom prethodne godine",
+      "fallback_abaixo_media_setor": "ispod prosjeka sektora, u praćenim računima",
+      "fallback_paises_ativos": "zemlje s aktivnim čvorovima podataka u mreži"
     }
   },
   "painel": {
@@ -169,7 +216,17 @@
     "delta_sem_registros": "nema unosa u ovom periodu",
     "delta_primeiro_registro": "prvi unos u ovom periodu",
     "delta_estavel": "stabilno u odnosu na prethodni period",
-    "delta_variacao": "{{percentual}}% u odnosu na prethodni period"
+    "delta_variacao": "{{percentual}}% u odnosu na prethodni period",
+    "meios": {
+      "carro_gasolina": "Automobil (benzin)",
+      "carro_etanol": "Automobil (etanol)",
+      "carro_eletrico": "Automobil (električni)",
+      "motocicleta": "Motocikl",
+      "onibus": "Autobus",
+      "metro_trem": "Metro/Voz",
+      "bicicleta": "Bicikl",
+      "a_pe": "Pješice"
+    }
   },
   "globo": {
     "legenda_titulo": "Emisije po glavi stanovnika",
