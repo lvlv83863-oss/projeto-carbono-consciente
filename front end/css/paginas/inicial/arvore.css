@@ -1,0 +1,120 @@
+/* =========================================================
+   CARBONO CONSCIENTE — paginas/inicial/arvore.css
+   Árvore animada por SVG na seção "O que é Carbono
+   Consciente?" — crescimento, folhas, flores, chuva e efeitos
+   de clique (ver front end/js/planta.js). Só usado em
+   inicial.html; carregue DEPOIS de 13-secao-carbono.css.
+   ========================================================= */
+.planta-cena{
+  display:flex; flex-direction:column; align-items:center; gap:6px;
+  width:100%; margin-left:-7%;
+  cursor:pointer; -webkit-tap-highlight-color:transparent; border-radius:16px;
+}
+.planta-cena:focus-visible{ outline:3px solid rgba(255,255,255,.8); outline-offset:4px; }
+.planta-svg{ width:100%; max-width:540px; height:auto; overflow:visible; filter:none; transition:filter .4s ease, transform .4s ease; }
+.planta-cena:hover .planta-svg{ filter:drop-shadow(0 0 16px rgba(255,255,255,.35)); transform:scale(1.015); }
+.planta-cena:active .planta-svg{ transform:scale(.99); }
+
+/* Reinício instantâneo ao clicar na árvore (sem encolher devagar) */
+.resetando .tronco, .resetando .ramo, .resetando .folha,
+.resetando .flor-in, .resetando .planta-brilho{ transition:none !important; }
+
+.planta-dica{ font-size:.78rem; color:var(--cor-texto-claro,#fff); opacity:0; transition:opacity .8s ease; text-shadow:0 1px 6px rgba(0,0,0,.35); }
+.planta-viva .planta-dica{ opacity:.85; }
+
+@media (max-width:960px){
+  .planta-cena{ margin-left:0; }
+  .planta-svg{ max-width:400px; }
+}
+
+.planta-brilho{ opacity:var(--brilho,0); transition:opacity 2s ease; }
+
+/* Terra e grama */
+.planta-terra{ fill:#4a3524; }
+.planta-terra-topo{ fill:#3b5d2e; transform-box:fill-box; transform-origin:50% 100%; }
+.grama{ stroke:#4c8a3f; stroke-width:2; stroke-linecap:round; fill:none; transform-box:fill-box; transform-origin:50% 100%; }
+.planta-viva .grama{ animation:gramaBalanca 3.4s ease-in-out infinite alternate; animation-delay:var(--d); }
+@keyframes gramaBalanca{ to{ transform:rotate(7deg); } }
+
+/* Semente cai girando; terra "pula" no impacto */
+.planta-semente{ fill:#6b4f2a; stroke:#8a6a3c; stroke-width:1; transform-box:fill-box; transform-origin:center; transform:none; transition:none; }
+.semente-caindo .planta-semente{ animation:cairSemente 1.05s cubic-bezier(.55,0,.85,.6) forwards; }
+@keyframes cairSemente{
+  0%{ transform:translate(0,0) rotate(0); opacity:1; }
+  35%{ transform:translate(6px,90px) rotate(160deg); }
+  70%{ transform:translate(-5px,190px) rotate(380deg); }
+  92%{ opacity:1; }
+  100%{ transform:translate(0,284px) rotate(540deg) scale(.7); opacity:0; }
+}
+.semente-caindo .planta-terra-topo{ animation:montinho .7s ease-out 1.05s; }
+@keyframes montinho{ 0%{transform:scale(1);} 35%{transform:scale(1.12,1.5);} 100%{transform:scale(1);} }
+
+/* Anel de energia no chão */
+.onda{ fill:none; stroke:#9bd47a; stroke-width:2; opacity:0; transform-box:fill-box; transform-origin:center; }
+.onda.pulsar{ animation:ondaChao 1.4s ease-out; }
+@keyframes ondaChao{ 0%{opacity:.9; transform:scale(.2);} 100%{opacity:0; transform:scale(2.8);} }
+
+/* Poeira, fagulhas e pétalas lançadas pelo JS */
+.fagulha{ transform-box:fill-box; transform-origin:center; animation:fagulha var(--t,.9s) cubic-bezier(.2,.7,.3,1) forwards; }
+@keyframes fagulha{
+  0%{ transform:translate(0,0) scale(.4) rotate(0); opacity:1; }
+  60%{ opacity:1; }
+  100%{ transform:translate(var(--dx),var(--dy)) scale(1.2) rotate(var(--rot,0deg)); opacity:0; }
+}
+
+/* Nuvem que rega a muda */
+.nuvem{ opacity:0; transform:translateY(-46px); transition:opacity .8s ease, transform 1s cubic-bezier(.3,1.3,.5,1); }
+.chovendo .nuvem{ opacity:1; transform:translateY(0); animation:nuvemMove 3s ease-in-out infinite alternate; }
+@keyframes nuvemMove{ to{ transform:translateX(10px); } }
+.gota{ stroke:#8fd0ff; stroke-width:1.6; stroke-linecap:round; opacity:0; }
+.chovendo .gota{ animation:gotaCai .9s linear infinite; animation-delay:var(--d); }
+@keyframes gotaCai{ 0%{opacity:0; transform:translateY(0);} 15%{opacity:.9;} 100%{opacity:0; transform:translateY(235px);} }
+
+/* Corpo balança depois de crescer */
+.planta-corpo{ transform-origin:160px 302px; }
+.planta-viva .planta-corpo{ animation:arvoreBalanca 6s ease-in-out infinite; }
+@keyframes arvoreBalanca{ 0%,100%{ transform:rotate(-.8deg);} 50%{ transform:rotate(.8deg);} }
+
+/* Tronco cresce de baixo para cima */
+.tronco{ fill:url(#grad-tronco); transform-box:view-box; transform-origin:160px 302px;
+  transform:scaleY(var(--tronco,0)); transition:transform 1.8s cubic-bezier(.25,1.2,.4,1); }
+
+/* Galhos se desenham sozinhos */
+.ramo{ fill:none; stroke:#5b3f27; stroke-linecap:round; stroke-dasharray:1; stroke-dashoffset:1; transition:stroke-dashoffset 1.2s ease; }
+.ramo.on{ stroke-dashoffset:0; transition-delay:1s; }
+
+/* Folhas (copas geradas por JS) */
+.copa{ transform-box:fill-box; transform-origin:50% 100%; }
+.planta-viva .copa{ animation:copaBalanca 5.5s ease-in-out infinite alternate; animation-delay:var(--d); }
+@keyframes copaBalanca{ to{ transform:rotate(2.4deg); } }
+.folha{ transform:rotate(var(--r)) scale(0); transform-origin:0 0; opacity:0;
+  transition:transform .8s cubic-bezier(.34,1.56,.64,1), opacity .5s ease, fill 1.2s ease; }
+.copa.on .folha{ opacity:1;
+  transform:rotate(calc(var(--r) + var(--planta-droop,0deg))) scale(calc(var(--s) * var(--planta-escala,1)));
+  transition-delay:calc(var(--d) + 1.5s); }
+.copa[data-emax].on .folha{ transition-delay:var(--d); }
+.copa.off .folha{ transform:rotate(var(--r)) scale(0); opacity:0; transition-delay:0s; }
+.t0{ fill:var(--planta-cor,#8d6e3f); }
+.t1{ fill:color-mix(in srgb, var(--planta-cor,#8d6e3f) 76%, #0b2a10); }
+.t2{ fill:color-mix(in srgb, var(--planta-cor,#8d6e3f) 80%, #eaff9e); }
+
+/* Flores */
+.flor-in{ fill:var(--cor-secundaria); transform:scale(0); transition:transform .9s cubic-bezier(.34,1.56,.64,1); }
+.flor.on .flor-in{ transform:scale(1); transition-delay:calc(var(--d) + 2.4s); }
+.flor-centro{ fill:#e8b23d; }
+
+/* Pétalas caindo e vagalumes (árvore completa) */
+.petala, .vagalume{ opacity:0; }
+.petala{ fill:var(--cor-secundaria); }
+.vagalume{ fill:#ffe9a0; }
+.planta-viva .petala.on{ animation:petalaCai 7s linear infinite; animation-delay:var(--d); }
+.planta-viva .vagalume.on{ animation:vagalumeVoa 5s ease-in-out infinite; animation-delay:var(--d); }
+@keyframes petalaCai{ 0%{opacity:0; transform:translate(0,0) rotate(0);} 10%{opacity:.9;} 100%{opacity:0; transform:translate(var(--dx),150px) rotate(300deg);} }
+@keyframes vagalumeVoa{ 0%,100%{opacity:0; transform:translate(0,0);} 50%{opacity:.95; transform:translate(var(--dx),-22px);} }
+
+.planta-legenda{ font-size:.95rem; font-style:italic; color:var(--cor-texto-claro,#fff); text-shadow:0 1px 8px rgba(0,0,0,.4); text-align:center; max-width:340px; min-height:2.6em; }
+
+@media (prefers-reduced-motion:reduce){
+  .planta-viva *{ animation:none !important; }
+  .tronco,.ramo,.folha,.flor-in{ transition-duration:.01s !important; transition-delay:0s !important; }
+}

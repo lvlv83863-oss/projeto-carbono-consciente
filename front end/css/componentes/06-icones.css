@@ -1,0 +1,29 @@
+/* =========================================================
+   CARBONO CONSCIENTE — componentes/06-icones.css
+   Ícones SVG (substituem emoji em todo o site — ver
+   front end/js/icones.js) e o "selo" circular que alguns
+   ícones usam como moldura.
+   ========================================================= */
+.icone-svg{
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+.icone-selo{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, var(--botao-grad-a), var(--botao-grad-b));
+  color: var(--botao-texto);
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.18) inset, 0 0 20px -4px var(--cor-principal);
+}
+
+.icone-selo .icone-svg{ width: 22px; height: 22px; }
+
+.icone-selo-pequeno{ width: 32px; height: 32px; }
+.icone-selo-pequeno .icone-svg{ width: 16px; height: 16px; }

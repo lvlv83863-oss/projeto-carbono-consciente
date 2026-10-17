@@ -1,0 +1,68 @@
+/* =========================================================
+   CARBONO CONSCIENTE — layout/05-rodape.css
+   Rodapé do site: logo, texto, colunas de navegação/contato,
+   partículas decorativas subindo e a linha de copyright.
+   ========================================================= */
+.site-footer{
+  position: relative;
+  overflow: hidden;
+  background: var(--cor-header);
+  color: rgba(255,255,255,0.75);
+  padding: 46px 0 26px;
+}
+
+.rodape-particula{
+  position: absolute;
+  bottom: 0;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--cor-secundaria);
+  opacity: 0;
+  animation: subirParticulaRodape linear forwards;
+  pointer-events: none;
+}
+
+@keyframes subirParticulaRodape{
+  0%   { transform: translateY(0); opacity: 0; }
+  10%  { opacity: 0.7; }
+  85%  { opacity: 0.4; }
+  100% { transform: translateY(-160px); opacity: 0; }
+}
+
+.footer-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-inner img{ height: 38px; margin-bottom: 12px; }
+
+.footer-inner p{ font-size: 0.85rem; max-width: 280px; line-height: 1.6; }
+
+.footer-nav{ display: flex; gap: 60px; flex-wrap: wrap; }
+
+.footer-col h4{ color: #fff; font-size: 0.95rem; margin-bottom: 14px; }
+
+.footer-col a{
+  display: block;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+  color: rgba(255,255,255,0.7);
+}
+
+.footer-col a:hover{ color: #fff; }
+
+.footer-copy{
+  text-align: center;
+  font-size: 0.78rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 20px;
+}
+
+@media (max-width: 600px){
+  .footer-inner{ flex-direction: column; }
+}

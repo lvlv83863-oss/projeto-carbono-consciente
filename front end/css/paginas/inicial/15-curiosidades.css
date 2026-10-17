@@ -1,0 +1,82 @@
+/* =========================================================
+   CARBONO CONSCIENTE — paginas/inicial/15-curiosidades.css
+   Seção "Você sabia?": fato rotativo + lâmpada flutuante. Só
+   usado em inicial.html.
+   ========================================================= */
+.secao-curiosidades{
+  background: var(--cor-curiosidades-bg);
+  color: #fff;
+  padding: 70px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.curiosidades-inner{
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr;
+  gap: 30px;
+  align-items: center;
+}
+
+.curiosidades-inner h2{
+  font-size: 2rem;
+  margin-bottom: 6px;
+}
+
+.curiosidades-inner .subtitulo-secao{
+  color: rgba(255,255,255,0.75);
+  margin-bottom: 26px;
+}
+
+.curiosidade-card{
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 16px;
+  padding: 26px 28px;
+}
+
+.curiosidade-card p{
+  font-size: 1.08rem;
+  line-height: 1.7;
+  margin-bottom: 18px;
+  min-height: 90px;
+}
+
+.curiosidade-botao .icone-svg{ width: 16px; height: 16px; }
+
+.curiosidade-botao{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255,255,255,0.14);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.88rem;
+  padding: 10px 20px;
+  border-radius: 999px;
+  transition: background .25s ease, transform .25s ease;
+}
+
+.curiosidade-botao:hover{ background: rgba(255,255,255,0.24); transform: translateY(-1px); }
+
+.lampada{
+  justify-self: center;
+  width: 210px;
+  animation: flutuar 4s ease-in-out infinite;
+}
+
+@keyframes flutuar{
+  0%, 100%{ transform: translateY(0); }
+  50%{ transform: translateY(-14px); }
+}
+
+@media (max-width: 960px){
+  .curiosidades-inner{ grid-template-columns: 1fr; text-align: center; }
+  .lampada{ order: -1; width: 140px; }
+}
+
+@media (max-width: 600px){
+  .curiosidades-inner{ padding-left: 20px; padding-right: 20px; }
+}

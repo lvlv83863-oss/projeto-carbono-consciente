@@ -1,0 +1,191 @@
+/* =========================================================
+   CARBONO CONSCIENTE — paginas/17-autenticacao.css
+   Página de login/cadastro: painel de boas-vindas + card de
+   formulário. Só usado em login.html.
+   ========================================================= */
+.auth-pagina{
+  min-height: calc(100vh - 81px);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.auth-esquerda{
+  flex: 1 1 480px;
+  background: var(--cor-header);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: clamp(20px, 5vh, 48px) 48px;
+  gap: clamp(12px, 3vh, 22px);
+}
+
+.auth-esquerda h1{
+  font-size: clamp(1.5rem, 4.2vh, 2.6rem);
+  line-height: 1.18;
+  font-weight: 700;
+}
+
+.auth-esquerda p{
+  color: rgba(255,255,255,0.78);
+  font-size: 1rem;
+  max-width: 420px;
+  line-height: 1.6;
+}
+
+.auth-globo{
+  width: 100%;
+  max-width: min(240px, 34vh);
+}
+
+.auth-direita{
+  flex: 1 1 480px;
+  background: linear-gradient(120deg, var(--cor-hero-de), var(--cor-principal), var(--cor-hero-para));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 32px;
+}
+
+.auth-card{
+  width: 100%;
+  max-width: 380px;
+  background: var(--cor-card-escuro-1);
+  color: #fff;
+  border-radius: 22px;
+  padding: 44px 38px;
+  box-shadow: var(--sombra);
+}
+
+.auth-card h2{
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+
+.campo-form{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.campo-form label{
+  display: block;
+  font-size: 0.92rem;
+  margin-bottom: 8px;
+  color: rgba(255,255,255,0.9);
+}
+
+.campo-form input{
+  width: 100%;
+  padding: 13px 16px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.14);
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+}
+
+.campo-form input::placeholder{ color: rgba(255,255,255,0.5); }
+
+.campo-form input:focus{
+  outline: none;
+  border-color: var(--cor-principal);
+  background: rgba(255,255,255,0.2);
+}
+
+.auth-mensagem{
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  display: none;
+}
+
+.auth-mensagem.erro{
+  display: block;
+  background: rgba(229,72,77,0.18);
+  border: 1px solid rgba(229,72,77,0.4);
+  color: #ffd7d8;
+}
+
+.auth-mensagem.sucesso{
+  display: block;
+  background: rgba(88,194,107,0.18);
+  border: 1px solid rgba(88,194,107,0.4);
+  color: #d7f5dd;
+}
+
+.auth-mensagem.info{
+  display: block;
+  background: rgba(255,255,255,0.14);
+  border: 1px solid rgba(255,255,255,0.24);
+  color: #fff;
+}
+
+.btn-entrar{
+  width: 100%;
+  padding: 13px;
+  margin-top: 6px;
+  border-radius: 999px;
+  border: 1.5px solid rgba(255,255,255,0.7);
+  background: transparent;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.98rem;
+  transition: background .25s ease, transform .25s ease;
+}
+
+.btn-entrar:disabled{ opacity: 0.65; cursor: not-allowed; }
+
+.btn-entrar:hover{ background: rgba(255,255,255,0.12); transform: translateY(-1px); }
+
+.btn-google{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  margin-top: 16px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.16);
+  color: #fff;
+  font-size: 0.92rem;
+  font-weight: 500;
+  border: none;
+  transition: background .25s ease;
+}
+
+.btn-google:hover{ background: rgba(255,255,255,0.26); }
+
+.btn-google svg{ width: 18px; height: 18px; flex-shrink: 0; }
+
+.auth-troca{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.75);
+}
+
+.auth-troca button{
+  color: var(--cor-secundaria);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.auth-form{ display: block; }
+.auth-form.escondido{ display: none; }
+
+@media (max-width: 860px){
+  .auth-esquerda{ padding: clamp(20px, 5vh, 36px) 28px; }
+  .auth-esquerda h1{ font-size: clamp(1.4rem, 4vh, 2rem); }
+  .auth-direita{ padding: 40px 20px 60px; }
+}
+
+/* ---------- RTL (árabe, hebraico, persa, urdu, pashto, curdo sorani) ---------- */
+[dir="rtl"] .campo-form label{ text-align: right; }

@@ -1,0 +1,101 @@
+/* =========================================================
+   CARBONO CONSCIENTE — paginas/inicial/11-hero.css
+   Seção de abertura da home: faixa de gradiente, título
+   animado palavra a palavra, texto de apoio e barra de
+   progresso de rolagem. Só usado em inicial.html.
+   ========================================================= */
+.hero{
+  background: linear-gradient(115deg, var(--cor-hero-de) 0%, var(--cor-hero-de) 30%, var(--cor-principal) 62%, var(--cor-hero-para) 100%);
+  position: relative;
+  overflow: hidden;
+  padding: 90px 0 70px;
+}
+
+.hero-particulas{
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-inner{
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 40px;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 32px;
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1{
+  color: #fbfdf7;
+  font-size: 3.4rem;
+  line-height: 1.12;
+  font-weight: 600;
+  margin-bottom: 28px;
+}
+
+/* Palavras do título entrando uma a uma (front end/js/efeitos.js monta os spans) */
+.palavra-revela{
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(18px);
+  animation: revelarPalavra .65s ease forwards;
+}
+
+@keyframes revelarPalavra{
+  to{ opacity: 1; transform: translateY(0); }
+}
+
+/* Troca de tema em varredura circular (View Transitions API) — a
+   animação padrão de crossfade é desligada, só sobra o clipe circular
+   que front end/js/inicial.js desenha via Web Animations API. */
+::view-transition-old(root),
+::view-transition-new(root){
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+/* Barra de progresso de rolagem — front end/js/efeitos.js */
+#barra-progresso{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: var(--cor-principal);
+  z-index: 2000;
+  pointer-events: none;
+}
+
+/* Parallax do hero — front end/js/efeitos.js */
+.hero .hero-texto,
+.hero .globo-wrap{ will-change: transform; }
+
+.hero p{
+  color: rgba(255,255,255,0.92);
+  font-size: 0.92rem;
+  letter-spacing: 0.04em;
+  line-height: 1.85;
+  max-width: 480px;
+  margin-bottom: 34px;
+  animation: subirEntrar .9s .15s ease both;
+}
+
+@media (max-width: 960px){
+  .hero-inner{ grid-template-columns: 1fr; text-align: center; }
+  .hero p{ margin-left: auto; margin-right: auto; }
+  .hero h1{ font-size: 2.5rem; }
+}
+
+@media (max-width: 600px){
+  .hero-inner{ padding-left: 20px; padding-right: 20px; }
+  .hero h1{ font-size: 2rem; }
+}

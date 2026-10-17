@@ -1,0 +1,66 @@
+/* =========================================================
+   CARBONO CONSCIENTE — base/02-variaveis-tema.css
+   Tokens de design (cores, sombra, bordas) para os temas claro
+   e escuro. Todo o resto do CSS do site consome essas variáveis
+   via var(--nome) — é o único lugar que define as cores de
+   verdade, então uma mudança de paleta só precisa tocar aqui.
+   Alternância de tema: front end/js/inicial.js troca o atributo
+   data-theme na tag <html>.
+   ========================================================= */
+:root{
+  /* Tema claro (referência: arquivo 9) */
+  --cor-header: #05130f;
+  --cor-hero-de: #0e2e28;
+  --cor-hero-para: #eaf99a;
+  --cor-stats-bg: #163a2c;
+  --cor-fundo: #ffffff;
+  --cor-fundo-alt: #f4faf1;
+  --cor-superficie: #ffffff;
+  --cor-card-escuro-1: #163a26;
+  --cor-card-escuro-2: #0d2818;
+  --cor-curiosidades-bg: #0e2818;
+  --cor-texto: #142019;
+  --cor-texto-claro: #f6faf1;
+  --cor-texto-suave: #4c5c53;
+  --cor-principal: #58c26b;
+  --cor-secundaria: #b9e878;
+  --botao-grad-a: #d8f0ab;
+  --botao-grad-b: #8fd35f;
+  --botao-texto: #163a1f;
+  --borda-suave: rgba(255,255,255,0.14);
+  --sombra: 0 18px 40px rgba(6, 30, 20, 0.18);
+  --tag-texto: #16351f;
+  --globo-linhas: rgba(10, 30, 20, 0.55);
+  --globo-glow: rgba(22,163,74,0.16);
+  --toggle-bg: #dfe8d6;
+  --toggle-knob: #16351f;
+}
+
+html[data-theme="escuro"]{
+  /* Tema escuro (referência: arquivo 10) */
+  --cor-header: #12041d;
+  --cor-hero-de: #250340;
+  --cor-hero-para: #b7b6ba;
+  --cor-stats-bg: #1c0733;
+  --cor-fundo: #0c0414;
+  --cor-fundo-alt: #150726;
+  --cor-superficie: #a571e0;
+  --cor-card-escuro-1: #2c1049;
+  --cor-card-escuro-2: #1c0730;
+  --cor-curiosidades-bg: #1c0733;
+  --cor-texto: #f2eefa;
+  --cor-texto-claro: #f5f2fb;
+  --cor-texto-suave: #c9c0da;
+  --cor-principal: #a541e8;
+  --cor-secundaria: #d9b3ee;
+  --botao-grad-a: #ddbcf1;
+  --botao-grad-b: #b02fe0;
+  --botao-texto: #2a0a42;
+  --borda-suave: rgba(255,255,255,0.12);
+  --sombra: 0 18px 40px rgba(0, 0, 0, 0.45);
+  --tag-texto: #2a0a42;
+  --globo-linhas: rgba(230, 220, 240, 0.5);
+  --globo-glow: rgba(70,20,140,0.30);
+  --toggle-bg: #3a2050;
+  --toggle-knob: #e9d8f7;
+}

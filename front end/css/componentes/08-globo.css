@@ -1,0 +1,274 @@
+/* =========================================================
+   CARBONO CONSCIENTE — componentes/08-globo.css
+   Globo 3D interativo (WebGL via globe.gl) — ver front end/js/
+   globo.js. Cobre a esfera em si, o tooltip ao passar o mouse,
+   o modo "destaque" (overlay), a legenda, a busca de país, as
+   nuvens decorativas e o painel de dados do país selecionado.
+   ========================================================= */
+.globo-wrap{
+  position: relative;
+  width: 100%;
+  max-width: 460px;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+}
+
+.globo-3d{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: grab;
+  touch-action: none;
+}
+
+.globo-3d:active{ cursor: grabbing; }
+
+.globo-3d canvas{ display: block; }
+
+/* Brilho ambiente atrás da esfera, igual ao glow do globo original em canvas */
+.globo-wrap::before{
+  content: "";
+  position: absolute;
+  inset: -12%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 42% 38%, var(--globo-glow), transparent 68%);
+  filter: blur(18px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.globo-wrap.em-foco::before{ inset: -6%; }
+
+.globo-3d, .globo-legenda, .globo-painel, .globo-fechar-foco{ position: relative; z-index: 1; }
+
+/* Tooltip flutuante do globe.gl ao passar o mouse num país — reestilizado
+   para seguir a mesma linguagem visual do painel de detalhes do site. */
+.float-tooltip-kap{
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 11px !important;
+  line-height: 1.6 !important;
+  color: var(--cor-texto) !important;
+  background: var(--cor-superficie) !important;
+  border: 1px solid var(--borda-suave) !important;
+  border-radius: 10px !important;
+  padding: 8px 12px !important;
+  box-shadow: var(--sombra) !important;
+}
+
+.float-tooltip-kap strong{
+  font-family: 'IBM Plex Mono', monospace;
+  color: var(--cor-principal);
+}
+
+/* ---- Modo destaque (ativado por duplo clique num país) ---- */
+.globo-backdrop{
+  position: fixed;
+  inset: 0;
+  background: rgba(4,2,10,0);
+  z-index: 998;
+  opacity: 0;
+  transition: background .32s ease, opacity .32s ease;
+  pointer-events: none;
+}
+
+.globo-backdrop.ativo{
+  background: rgba(4,2,10,0.72);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.globo-wrap.em-foco{
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  width: min(92vw, 900px);
+  height: min(92vh, 900px);
+  max-width: none;
+  aspect-ratio: auto;
+  z-index: 999;
+  transition: width .32s ease, height .32s ease;
+}
+
+.globo-fechar-foco{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 6;
+  width: 34px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  background: var(--cor-superficie);
+  color: var(--cor-texto-suave);
+  border: 1px solid var(--borda-suave);
+  border-radius: 50%;
+  font-size: 19px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: var(--sombra);
+}
+
+.globo-legenda{
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  color: var(--cor-texto-suave);
+  background: var(--cor-superficie);
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--borda-suave);
+  pointer-events: none;
+  box-shadow: var(--sombra);
+}
+
+.globo-legenda .linha{ display: flex; align-items: center; gap: 6px; }
+.globo-legenda .pontos{ display: flex; align-items: center; gap: 3px; }
+.globo-legenda .ponto{ border-radius: 50%; background: var(--cor-principal); display: inline-block; }
+
+/* Busca por país — só existe de verdade no modo destaque */
+.globo-busca{
+  display: none;
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 6;
+  width: min(260px, 60%);
+}
+
+.globo-wrap.em-foco .globo-busca{ display: block; }
+
+.globo-busca input{
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--borda-suave);
+  background: var(--cor-superficie);
+  color: var(--cor-texto);
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
+  box-shadow: var(--sombra);
+}
+
+.globo-busca input:focus{ outline: none; border-color: var(--cor-principal); }
+
+.globo-busca-resultados{
+  display: none;
+  margin-top: 6px;
+  background: var(--cor-superficie);
+  border: 1px solid var(--borda-suave);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--sombra);
+}
+
+.globo-busca-resultados.ativo{ display: block; }
+
+.globo-busca-resultados button{
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 9px 14px;
+  font-size: 0.85rem;
+  color: var(--cor-texto);
+  background: transparent;
+  cursor: pointer;
+}
+
+.globo-busca-resultados button:hover{ background: var(--cor-fundo-alt); }
+
+/* Nuvens decorativas em partículas (aglomerado de blobs borrados, não
+   emoji) flutuando perto das bordas do globo */
+.globo-nuvem{
+  position: absolute;
+  z-index: 2;
+  width: 76px;
+  height: 34px;
+  pointer-events: auto;
+  cursor: default;
+  animation: flutuarNuvem linear infinite;
+  transition: opacity .5s ease, transform .5s ease;
+  user-select: none;
+}
+
+.globo-nuvem.sumindo{ opacity: 0 !important; transform: scale(0.6); }
+
+.globo-nuvem-parte{
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, rgba(255,255,255,0.95), rgba(255,255,255,0.55) 70%, transparent 100%);
+  filter: blur(3px);
+}
+
+html[data-theme="escuro"] .globo-nuvem-parte{
+  background: radial-gradient(circle at 35% 35%, rgba(226,210,255,0.85), rgba(180,150,230,0.4) 70%, transparent 100%);
+}
+
+@keyframes flutuarNuvem{
+  0%   { transform: translate(0, 0); }
+  50%  { transform: translate(12px, -6px); }
+  100% { transform: translate(0, 0); }
+}
+
+/* Rastro de partículas ao arrastar o globo */
+.globo-rastro{
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  margin: -3px 0 0 -3px;
+  border-radius: 50%;
+  background: var(--cor-principal);
+  box-shadow: 0 0 8px 1px var(--cor-principal);
+  pointer-events: none;
+  z-index: 3;
+  animation: desvanecerRastro .65s ease-out forwards;
+}
+
+@keyframes desvanecerRastro{
+  0%{ opacity: 0.85; transform: scale(1); }
+  100%{ opacity: 0; transform: scale(0.3); }
+}
+
+.globo-painel{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  max-width: 230px;
+  background: var(--cor-superficie);
+  color: var(--cor-texto);
+  border: 1px solid var(--borda-suave);
+  border-radius: 16px;
+  padding: 14px 16px;
+  box-shadow: var(--sombra);
+  font-family: 'Poppins', sans-serif;
+  z-index: 5;
+  animation: subirEntrar .35s ease both;
+}
+
+.globo-painel .painel-topo{ display: flex; justify-content: space-between; align-items: flex-start; }
+.globo-painel .painel-nome{ font-weight: 700; font-size: 14px; }
+.globo-painel .painel-fechar{ background: none; border: none; cursor: pointer; color: var(--cor-texto-suave); font-size: 17px; line-height: 1; padding: 2px; }
+.globo-painel .painel-continente{ font-size: 11px; color: var(--cor-texto-suave); margin-bottom: 8px; }
+.globo-painel .painel-dados{ font-family: 'IBM Plex Mono', monospace; font-size: 11px; line-height: 1.75; }
+.globo-painel .painel-dados span{ color: var(--cor-texto-suave); }
+.globo-painel .painel-rank strong{ color: var(--cor-principal); }
+.globo-painel .painel-fonte{ font-size: 9px; color: var(--cor-texto-suave); margin-top: 10px; line-height: 1.4; }
+
+@media (max-width: 600px){
+  .globo-painel{ max-width: 200px; padding: 12px 14px; }
+  .globo-legenda{ font-size: 9px; padding: 6px 8px; }
+}
+
+@media (max-width: 960px){
+  .globo-wrap{ order: -1; max-width: 320px; margin: 0 auto; }
+}
+
+/* ---------- RTL ---------- */
+[dir="rtl"] .globo-legenda{ left: auto; right: 12px; }
+[dir="rtl"] .globo-busca{ left: auto; right: 14px; }
+[dir="rtl"] .globo-busca-resultados button{ text-align: right; }

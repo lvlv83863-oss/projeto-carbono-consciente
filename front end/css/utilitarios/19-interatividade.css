@@ -1,0 +1,56 @@
+/* =========================================================
+   CARBONO CONSCIENTE — utilitarios/19-interatividade.css
+   Utilitários reaproveitáveis em várias páginas: brilho/tilt
+   que segue o mouse (ver front end/js/efeitos.js) e o esqueleto
+   de carregamento (shimmer) usado enquanto notícias/curiosidades
+   carregam.
+   ========================================================= */
+.glow-mouse,
+.tilt-glow{
+  --mx: 50%;
+  --my: 50%;
+  position: relative;
+}
+
+.glow-mouse::after,
+.tilt-glow::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(circle at var(--mx) var(--my), rgba(255,255,255,0.22), transparent 62%);
+  opacity: 0;
+  transition: opacity .35s ease;
+  pointer-events: none;
+}
+
+.glow-mouse:hover::after,
+.tilt-glow:hover::after{ opacity: 1; }
+
+.tilt-glow{
+  --tilt-x: 0deg;
+  --tilt-y: 0deg;
+  transform: perspective(700px) rotateX(var(--tilt-x)) rotateY(var(--tilt-y));
+  transition: transform .25s ease;
+  will-change: transform;
+}
+
+/* ---- Esqueleto de carregamento (shimmer) ---- */
+.esqueleto-bloco{
+  display: block;
+  border-radius: 6px;
+  background: linear-gradient(90deg, var(--cor-fundo-alt) 25%, var(--borda-suave) 50%, var(--cor-fundo-alt) 75%);
+  background-size: 220% 100%;
+  animation: brilharEsqueleto 1.4s ease-in-out infinite;
+}
+
+@keyframes brilharEsqueleto{
+  0%{ background-position: 220% 0; }
+  100%{ background-position: -220% 0; }
+}
+
+.noticia-esqueleto{ cursor: default; opacity: 1 !important; transform: none !important; }
+.noticia-esqueleto .esqueleto-imagem{ height: 130px; border-radius: 0; }
+.noticia-esqueleto .esqueleto-linha{ height: 11px; margin-bottom: 10px; }
+
+#curiosidade-texto .esqueleto-linha{ height: 16px; margin-bottom: 10px; }

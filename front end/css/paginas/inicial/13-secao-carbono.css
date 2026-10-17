@@ -1,0 +1,113 @@
+/* =========================================================
+   CARBONO CONSCIENTE — paginas/inicial/13-secao-carbono.css
+   Seção "O que é Carbono Consciente?": coluna da árvore (ver
+   arvore.css, carregado depois deste arquivo) + acordeão de
+   explicações. Só usado em inicial.html.
+   ========================================================= */
+.secao-carbono{
+  background: linear-gradient(120deg, var(--cor-principal), var(--cor-hero-para));
+  padding: 70px 0;
+}
+
+.carbono-grid{
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 0;
+  align-items: stretch;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* justify-content: flex-start sobrepõe o center original (mesma
+   especificidade, última declaração vence) — mesclado aqui num só
+   bloco, comportamento idêntico ao da cascata original. */
+.planta-coluna{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  opacity: 0;
+  transform: translateX(-40px) scale(0.94);
+  transition: opacity .9s ease, transform .9s ease;
+}
+
+.planta-coluna.visivel{
+  opacity: 1;
+  transform: translateX(0) scale(1);
+}
+
+.acordeao-coluna{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.acordeao-titulo{
+  background: var(--cor-header);
+  color: #fff;
+  font-size: 1.9rem;
+  font-weight: 700;
+  padding: 26px 32px;
+}
+
+.acordeao-item{
+  background: var(--cor-card-escuro-1);
+  border-bottom: 1px solid rgba(190, 45, 45, 0.08);
+}
+
+.acordeao-item:nth-child(odd){
+  background: var(--cor-card-escuro-2);
+}
+
+.acordeao-cabecalho{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 32px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.05rem;
+  text-align: left;
+}
+
+.acordeao-icone{
+  width: 34px;
+  height: 34px;
+  border: 1.5px solid rgba(255,255,255,0.65);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: 20px;
+  transition: transform .4s ease;
+}
+
+.acordeao-item.aberto .acordeao-icone{
+  transform: rotate(90deg);
+}
+
+.acordeao-corpo{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .5s ease, padding .4s ease;
+  color: rgba(255,255,255,0.85);
+  font-size: 0.94rem;
+  line-height: 1.7;
+}
+
+.acordeao-item.aberto .acordeao-corpo{
+  max-height: 240px;
+  padding: 0 32px 26px;
+}
+
+@media (max-width: 960px){
+  .carbono-grid{ grid-template-columns: 1fr; }
+  .planta-coluna{ padding-bottom: 30px; }
+}
+
+@media (max-width: 600px){
+  .carbono-grid{ padding-left: 20px; padding-right: 20px; }
+  .acordeao-cabecalho{ font-size: 0.92rem; padding: 18px 20px; }
+}

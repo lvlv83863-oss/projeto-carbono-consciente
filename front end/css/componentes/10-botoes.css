@@ -1,0 +1,22 @@
+/* =========================================================
+   CARBONO CONSCIENTE — componentes/10-botoes.css
+   Botão de ação principal, reutilizado no hero (inicial.html) e
+   no formulário de registro de hábitos (painel.html) — cada
+   contexto só ajusta o necessário via override local.
+   ========================================================= */
+.btn-principal{
+  display: inline-block;
+  background: linear-gradient(100deg, var(--botao-grad-a), var(--botao-grad-b));
+  color: var(--botao-texto);
+  font-weight: 600;
+  padding: 14px 34px;
+  border-radius: 999px;
+  font-size: 1rem;
+  box-shadow: var(--sombra);
+  animation: subirEntrar .9s .3s ease both;
+}
+
+.btn-principal:hover{
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+}

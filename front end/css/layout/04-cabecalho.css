@@ -1,0 +1,240 @@
+/* =========================================================
+   CARBONO CONSCIENTE — layout/04-cabecalho.css
+   Cabeçalho do site: logo, navegação, alternador de tema,
+   seletor de idioma e o menu hamburguer (mobile). O mesmo
+   cabeçalho é duplicado manualmente em front end/html/{inicial,
+   login,painel}.html (ver front end/js/componentes/
+   idioma-switcher.js pra entender por que o botão de idioma é
+   injetado via JS em vez de HTML repetido).
+   ========================================================= */
+.site-header{
+  background: var(--cor-header);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 32px;
+  max-width: 1240px;
+  margin: 0 auto;
+  gap: 24px;
+}
+
+.logo-link{
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.logo-link img{
+  height: 44px;
+  width: auto;
+}
+
+.nav-principal{
+  display: flex;
+  gap: 30px;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-principal a{
+  color: #f2f2f2;
+  font-size: 0.98rem;
+  font-weight: 500;
+  padding-bottom: 6px;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+}
+
+.nav-principal a:hover,
+.nav-principal a.ativo{
+  border-bottom-color: var(--cor-secundaria);
+}
+
+.header-acoes{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+}
+
+.btn-login{
+  background: #fff;
+  color: #16351f;
+  font-weight: 600;
+  font-size: 0.92rem;
+  padding: 9px 26px;
+  border-radius: 999px;
+  white-space: nowrap;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+  transition: transform .25s ease, filter .25s ease;
+}
+
+.btn-login:hover{
+  transform: translateY(-1px);
+  filter: brightness(0.97);
+}
+
+/* Alternador de tema (pill com sol/lua) */
+.theme-toggle{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--toggle-bg);
+  border-radius: 999px;
+  padding: 6px;
+  position: relative;
+  width: 76px;
+  height: 36px;
+}
+
+.theme-toggle .icone{
+  font-size: 0.85rem;
+  z-index: 1;
+  width: 50%;
+  text-align: center;
+  line-height: 1;
+}
+
+.theme-toggle .knob{
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--toggle-knob);
+  transition: transform .35s cubic-bezier(.65,-0.1,.35,1.4);
+}
+
+html[data-theme="escuro"] .theme-toggle .knob{
+  transform: translateX(40px);
+}
+
+.theme-toggle .icone svg{
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin: 0 auto;
+  color: var(--cor-header);
+}
+
+html[data-theme="escuro"] .theme-toggle .icone svg{ color: var(--toggle-knob); }
+
+/* Botão de troca de idioma (injetado em .header-acoes via
+   front end/js/componentes/idioma-switcher.js, mesmo container do
+   .theme-toggle, sem precisar duplicar markup nos 3 HTMLs) */
+.idioma-switcher-wrap{
+  position: relative;
+}
+
+.idioma-switcher{
+  height: 36px;
+  min-width: 36px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: var(--toggle-bg);
+  color: var(--cor-header);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+html[data-theme="escuro"] .idioma-switcher{ color: var(--toggle-knob); }
+
+.idioma-painel{
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 50;
+  width: min(260px, 80vw);
+  background: var(--cor-superficie);
+  border: 1px solid var(--borda-suave);
+  border-radius: 14px;
+  padding: 12px;
+  box-shadow: var(--sombra);
+}
+
+.idioma-painel-busca{
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--borda-suave);
+  background: var(--cor-fundo-alt);
+  color: var(--cor-texto);
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
+}
+
+.idioma-painel-busca:focus{ outline: none; border-color: var(--cor-principal); }
+
+/* Dentro do popover (não de um campo de formulário), a lista de resultados
+   flui normalmente em vez de flutuar por cima — o popover já é o "flutuante" */
+.idioma-painel .seletor-busca-resultados{
+  position: static;
+  margin-top: 8px;
+  max-height: min(55vh, 340px);
+  background: var(--cor-fundo-alt);
+  border-color: var(--borda-suave);
+}
+
+.idioma-painel .seletor-busca-resultados button{ color: var(--cor-texto); }
+.idioma-painel .seletor-busca-resultados button:hover,
+.idioma-painel .seletor-busca-resultados button.em-foco{ background: var(--cor-superficie); }
+
+.menu-hamburguer{
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  width: 28px;
+}
+
+.menu-hamburguer span{
+  height: 2px;
+  background: #fff;
+  border-radius: 2px;
+}
+
+/* Menu mobile aberto */
+.nav-principal.mobile-aberto{
+  display: flex;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--cor-header);
+  flex-direction: column;
+  padding: 20px 32px 26px;
+  gap: 18px;
+  box-shadow: 0 12px 20px rgba(0,0,0,0.25);
+}
+
+@media (max-width: 960px){
+  .nav-principal{ display: none; }
+  .menu-hamburguer{ display: flex; }
+}
+
+@media (max-width: 600px){
+  .header-inner{ padding-left: 20px; padding-right: 20px; }
+}
+
+/* Em telas muito estreitas, o conjunto de ações do cabeçalho (idioma +
+   tema + entrar/sair + hambúrguer) não cabe ao lado da logo na mesma
+   linha — descoberto via teste real de viewport, não só leitura do CSS.
+   Em vez de encolher/esconder qualquer botão (o que mudaria
+   funcionalidade), o cabeçalho quebra em duas linhas: logo acima,
+   ações alinhadas à direita abaixo. */
+@media (max-width: 420px){
+  .header-inner{ flex-wrap: wrap; row-gap: 10px; }
+  .header-acoes{ width: 100%; justify-content: flex-end; }
+}
+
+/* ---------- RTL (árabe, hebraico, persa, urdu, pashto, curdo sorani) ----------
+   document.documentElement.dir é definido por front end/i18n/i18n.js. */
+[dir="rtl"] .idioma-painel{ right: auto; left: 0; }

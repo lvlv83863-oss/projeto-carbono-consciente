@@ -1,0 +1,43 @@
+/* =========================================================
+   CARBONO CONSCIENTE — componentes/07-seletor-busca.css
+   Lista de resultados do combobox pesquisável compartilhado
+   (país no cadastro, idioma no cabeçalho) — ver
+   front end/js/componentes/seletor-busca.js. Cada contexto de
+   uso (campo de formulário vs. popover do idioma) ajusta a
+   posição/cor via override local em layout/04-cabecalho.css e
+   paginas/16-autenticacao.css; aqui fica só a base compartilhada.
+   ========================================================= */
+.seletor-busca-resultados{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  margin-top: 4px;
+  background: var(--cor-card-escuro-1);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 10px;
+  overflow-y: auto;
+  max-height: 220px;
+  box-shadow: var(--sombra);
+}
+
+.seletor-busca-resultados.ativo{ display: block; }
+
+.seletor-busca-resultados button{
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 9px 14px;
+  font-size: 0.9rem;
+  color: #fff;
+  background: transparent;
+  cursor: pointer;
+}
+
+.seletor-busca-resultados button:hover,
+.seletor-busca-resultados button.em-foco{ background: rgba(255,255,255,0.12); }
+
+/* ---------- RTL ---------- */
+[dir="rtl"] .seletor-busca-resultados button{ text-align: right; }

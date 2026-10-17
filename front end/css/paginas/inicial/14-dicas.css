@@ -1,0 +1,179 @@
+/* =========================================================
+   CARBONO CONSCIENTE — paginas/inicial/14-dicas.css
+   Seção "Dicas Sustentáveis": grade de cards com efeito de
+   flip 3D (frente ilustrada / verso com lista). Só usado em
+   inicial.html.
+
+   NOTA DE MANUTENÇÃO: no arquivo monolítico original, esta
+   seção tinha 3 blocos de regras conflitantes para a mesma
+   família de seletores (.dica-card/.dica-face/.dica-imagem/
+   .bg-*), resultado de edições incrementais sem remover o que
+   veio antes. O conteúdo abaixo foi reconstruído mecanicamente
+   (resolução de cascata propriedade a propriedade, verificada
+   com um script de comparação) para produzir o MESMO resultado
+   visual final, sem a duplicação. As classes soltas .bg-casa/
+   .bg-transporte/.bg-alimentacao/.bg-reciclagem (sem o prefixo
+   .dica-imagem) existiam no original mas eram código morto —
+   o HTML sempre combina as duas classes, e .dica-imagem.bg-X
+   tem especificidade maior e sempre vence — por isso não foram
+   trazidas para este arquivo.
+   ========================================================= */
+.secao-dicas{
+  padding: 70px 0 40px;
+  background: linear-gradient(120deg, var(--cor-principal), var(--cor-hero-para));
+}
+
+.secao-dicas .titulo-secao{ color: #fff; }
+.secao-dicas .subtitulo-secao{ color: rgba(255,255,255,0.85); }
+
+.dicas-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.dica-card{
+  height: 300px;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity .7s ease, transform .7s ease;
+  perspective: 1400px;
+}
+
+.dica-card.visivel{ opacity: 1; transform: translateY(0); }
+
+/* Carta 3D: gira no eixo Y ao clicar, revelando a lista de dicas no verso */
+.dica-flip{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform .75s cubic-bezier(.4,.15,.2,1);
+}
+
+.dica-card.aberto .dica-flip{ transform: rotateY(180deg); }
+
+.dica-face{
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 4px;
+  border: 2px solid rgba(0, 0, 0, 0.171);
+  overflow: hidden;
+  box-shadow: var(--sombra);
+  background: var(--cor-superficie);
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow .3s ease;
+}
+
+.dica-card:hover .dica-face-frente{ box-shadow: 0 12px 28px rgba(20,32,25,.18); }
+
+.dica-face-verso{ transform: rotateY(180deg); padding: 22px 20px; justify-content: center; }
+
+.dica-face-frente figure{ flex: 1; overflow: hidden; }
+
+.dica-imagem{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: transform .5s ease;
+}
+
+.dica-card:hover .dica-imagem{ transform: scale(1.08); }
+
+.dica-face-verso h3{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  color: rgb(66, 19, 109);
+  margin-bottom: 12px;
+}
+
+.dica-verso-dica{
+  display: block;
+  margin-top: 14px;
+  font-size: 0.72rem;
+  color: var(--cor-texto-suave);
+  text-align: center;
+}
+
+.dica-imagem .icone-svg{
+  width: 2.6rem;
+  height: 2.6rem;
+  padding: 16px;
+  box-sizing: content-box;
+  color: var(--acc);
+  stroke-width: 1.6;
+  background: #fff;
+  border: 2px solid var(--acc);
+  border-radius: 12px;
+  box-shadow: 6px 6px 0 color-mix(in srgb, var(--acc) 25%, transparent);
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.25));
+}
+
+.dica-imagem.bg-casa{
+  --acc: #b98cff;
+  background-color: #451f74;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='48' viewBox='0 0 28 48'%3E%3Cpath d='M14 0l14 8v16l-14 8L0 24V8zM14 32v16' fill='none' stroke='%23d9c7ff' stroke-opacity='.40' stroke-width='1.2'/%3E%3C/svg%3E");
+}
+
+.dica-imagem.bg-transporte{
+  --acc: #67c7d9;
+  background-color: #116674;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='48' viewBox='0 0 28 48'%3E%3Cpath d='M14 0l14 8v16l-14 8L0 24V8zM14 16v16M14 16L0 8M14 16l14-8M14 32v16M0 40v8M0 40l14-8M28 40v8M28 40l-14-8' fill='none' stroke='%239ce3ec' stroke-opacity='.40' stroke-width='1.2'/%3E%3C/svg%3E");
+}
+
+.dica-imagem.bg-alimentacao{
+  --acc: #ff9a9f;
+  background-color: #6d2029;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='24' viewBox='0 0 28 24'%3E%3Cpath d='M0 12h28M0 0l14 12L28 0M0 24l14-12 14 12' fill='none' stroke='%23ffc4c7' stroke-opacity='.38' stroke-width='1.2'/%3E%3C/svg%3E");
+}
+
+.dica-imagem.bg-reciclagem{
+  --acc: #72d6a8;
+  background-color: #197753;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='60' viewBox='0 0 80 60'%3E%3Cpath d='M0 10Q20-2 40 10T80 10M0 30Q20 18 40 30T80 30M0 50Q20 38 40 50T80 50' fill='none' stroke='%23a5e8c6' stroke-opacity='.40' stroke-width='1.4'/%3E%3C/svg%3E");
+}
+
+/* Legenda branca: título forte + descrição curta. strong/span usam cor
+   fixa (não var(--cor-texto-suave)) — comportamento já existente no
+   original, preservado de propósito, não um bug. */
+.dica-card .tag{
+  flex-shrink: 0;
+  min-height: 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  text-align: center;
+  text-transform: none;
+  padding: 14px 10px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-size: 1rem;
+  color: var(--tag-texto);
+  background: #f2f2f2;
+}
+
+.dica-card .tag strong{ font-size: .88rem; font-weight: 600; color: rgb(77, 76, 76); }
+.dica-card .tag span{ font-size: .76rem; font-weight: 400; line-height: 1.5; color: rgb(122, 121, 121); }
+
+/* Verso (lista) — cor fixa preta, mesma observação acima */
+.dica-lista{ color: #000000; font-size: 0.86rem; line-height: 1.6; }
+
+.dica-lista li{ position: relative; padding-left: 16px; margin-bottom: 6px; }
+.dica-lista li::before{ content: "•"; position: absolute; left: 0; color: var(--cor-principal); }
+
+@media (max-width: 960px){
+  .dicas-grid{ grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px){
+  .dicas-grid{ grid-template-columns: 1fr; }
+}

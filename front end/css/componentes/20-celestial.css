@@ -1,0 +1,78 @@
+/* =========================================================
+   CARBONO CONSCIENTE — componentes/20-celestial.css
+   Camada decorativa de fundo injetada por front end/js/
+   celestial.js em todas as páginas: estrelas piscando (tema
+   escuro) ou insetos voando (tema claro).
+   ========================================================= */
+#celestial-estrelas,
+#celestial-insetos{
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.estrela{
+  position: absolute;
+  border-radius: 50%;
+  background: #fff;
+  animation-name: piscarEstrela;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes piscarEstrela{
+  0%, 100%{ opacity: 0.15; }
+  50%{ opacity: 0.9; }
+}
+
+.inseto{
+  position: fixed;
+  width: 30px;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.inseto-svg{ width: 100%; height: auto; color: var(--cor-principal); filter: drop-shadow(0 2px 4px rgba(0,0,0,0.15)); }
+.inseto-corpo{ stroke: #3a2a12; stroke-width: 1.6; }
+
+.inseto-asas{
+  fill: currentColor;
+  opacity: 0.85;
+  transform-origin: 16px 12px;
+  animation: baterAsas .5s ease-in-out infinite;
+}
+
+@keyframes baterAsas{
+  0%, 100%{ transform: scaleX(1); }
+  50%{ transform: scaleX(0.55); }
+}
+
+.inseto-rota-1{ animation-name: voarRota1; }
+.inseto-rota-2{ animation-name: voarRota2; }
+.inseto-rota-3{ animation-name: voarRota3; }
+
+@keyframes voarRota1{
+  0%   { left: -6vw; top: 68vh; transform: rotate(-6deg); }
+  25%  { left: 24vw; top: 38vh; transform: rotate(5deg); }
+  50%  { left: 48vw; top: 58vh; transform: rotate(-4deg); }
+  75%  { left: 74vw; top: 32vh; transform: rotate(6deg); }
+  100% { left: 106vw; top: 50vh; transform: rotate(-2deg); }
+}
+
+@keyframes voarRota2{
+  0%   { left: -6vw; top: 30vh; transform: rotate(4deg); }
+  25%  { left: 22vw; top: 55vh; transform: rotate(-5deg); }
+  50%  { left: 50vw; top: 22vh; transform: rotate(6deg); }
+  75%  { left: 76vw; top: 48vh; transform: rotate(-4deg); }
+  100% { left: 106vw; top: 28vh; transform: rotate(3deg); }
+}
+
+@keyframes voarRota3{
+  0%   { left: -6vw; top: 80vh; transform: rotate(-3deg); }
+  25%  { left: 26vw; top: 60vh; transform: rotate(4deg); }
+  50%  { left: 52vw; top: 78vh; transform: rotate(-5deg); }
+  75%  { left: 78vw; top: 58vh; transform: rotate(3deg); }
+  100% { left: 106vw; top: 70vh; transform: rotate(-2deg); }
+}

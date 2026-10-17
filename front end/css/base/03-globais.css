@@ -1,0 +1,69 @@
+/* =========================================================
+   CARBONO CONSCIENTE — base/03-globais.css
+   Estilos de base que valem pra página inteira: corpo, títulos,
+   container, transição de tema, transição de carregamento de
+   página, e pequenas classes utilitárias reaproveitadas por
+   vários componentes (.reveal, .titulo-secao, animação
+   compartilhada "subirEntrar").
+   ========================================================= */
+
+/* Transição suave entre temas */
+body, header, .card, .stat, .acordeao-item, .tag, .btn-principal, .noticia-card, .globo path, .globo circle{
+  transition: background-color .45s ease, color .45s ease, border-color .45s ease, background 0.45s ease;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+  overflow-x: hidden;
+  opacity: 1;
+  transition: opacity .35s ease;
+}
+
+/* Transições de página — front end/js/transicoes.js */
+html.pagina-carregando body{ opacity: 0; transition: none; }
+html.pagina-saindo body{ opacity: 0; transition: opacity .22s ease; }
+
+h1, h2, h3, .fonte-serif{
+  font-family: 'Playfair Display', serif;
+}
+
+.container{
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* ---------- Títulos de seção (usados por dicas, notícias, etc.) ---------- */
+.titulo-secao{
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.subtitulo-secao{
+  color: var(--cor-texto-suave);
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+/* ---------- Reveal genérico ao rolar (front end/js/efeitos.js / inicial.js) ---------- */
+.reveal{
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity .7s ease, transform .7s ease;
+}
+.reveal.visivel{ opacity: 1; transform: translateY(0); }
+
+/* ---------- Animação compartilhada: elemento "sobe e aparece" ----------
+   Usada pelo botão do hero, pelo painel de dados do globo e pelo modal
+   de notícia — fica aqui por ser comum a mais de um componente. */
+@keyframes subirEntrar{
+  from{ opacity: 0; transform: translateY(22px); }
+  to{ opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px){
+  .container{ padding-left: 20px; padding-right: 20px; }
+}
