@@ -13,31 +13,38 @@ npm start
 
 O servidor sobe em `http://localhost:4321` (ou na porta definida em `PORTA` no `.env`) — a porta padrão foi escolhida para não colidir com portas comumente ocupadas por outras ferramentas (VS Code, Live Server/Live Preview em 3000/3001/5500, etc.). O front-end estático (`front end/`) aponta para essa URL através de `front end/js/config.js`. Se `4321` também estiver ocupada na sua máquina, veja o que está usando a porta (`ss -ltnp | grep 4321` no Linux) e troque `PORTA` no `.env` — lembrando de atualizar `front end/js/config.js` para o mesmo número.
 
-## Banco de dados: MySQL (porta 3307)
+## Banco de dados: PostgreSQL (Supabase)
 
-`usuarios`, `meios_transporte` e `habitos` ficam no MySQL, usando o schema de `sql/schema.sql`. No nosso ambiente o MySQL roda num container Docker com a porta **3307** do PC mapeada para a 3306 do container (`-p 3307:3306`).
+`usuarios`, `meios_transporte` e `habitos` ficam no PostgreSQL, usando o schema de `sql/schema.sql`. Em produção o banco é o **Supabase**; para desenvolver local dá para usar um Postgres no Docker (`docker run --name pg-carbono -e POSTGRES_PASSWORD=root123 -e POSTGRES_DB=carbono_consciente -p 5432:5432 -d postgres:16`).
 
-Configuração (arquivo `.env`, copiado de `.env.example`):
+Configuração (arquivo `.env`, copiado de `.env.example`; no Render as mesmas chaves ficam em **Environment**):
 
 ```
+# Produção / Supabase (Connect > Session pooler)
+DATABASE_URL=postgresql://postgres.SEU_PROJETO:SUA_SENHA@aws-0-sa-east-1.pooler.supabase.com:5432/postgres
+
+# OU, local (Postgres no Docker): apague o DATABASE_URL e use
 DB_HOST=127.0.0.1
-DB_PORTA=3307
-DB_USUARIO=root
+DB_PORTA=5432
+DB_USUARIO=postgres
 DB_SENHA=root123
 DB_NOME=carbono_consciente
+DB_SSL=false
 ```
 
-Primeira vez (ou depois de recriar o container):
+Primeira vez (ou depois de recriar o banco):
 
 ```bash
 cd backend
 npm install
 copy .env.example .env      # Windows (no Linux/Mac: cp)
-npm run db:setup            # cria o banco, as tabelas, o trigger e os 8 meios de transporte
+npm run db:setup            # cria as tabelas, os triggers, a view e os 8 meios de transporte
 npm start
 ```
 
 `npm run db:setup` pode ser repetido sem problema. Ao iniciar, o servidor imprime `Banco de dados conectado em ...` ou o motivo da falha. Se o banco estiver fora do ar, as rotas que dependem dele respondem `503`.
+
+No Render, use `npm install && npm run db:setup` como **Build Command**: a cada `git push` o back atualiza e o schema é reaplicado (sem apagar dados).
 
 A estrutura em camadas continua a mesma — `rotas → controladores → servicos → repositorios → banco`. Só os repositórios (`src/repositorios/`) falam SQL, usando o pool de `src/config/bancoDados.js`.
 
@@ -48,7 +55,7 @@ A estrutura em camadas continua a mesma — `rotas → controladores → servico
 ### `usuarios`
 | campo | tipo | observação |
 |---|---|---|
-| id | número | `id_usuario` (AUTO_INCREMENT) |
+| id | número | `id_usuario` (IDENTITY) |
 | nome | string | |
 | email | string | único |
 | senhaHash | string | bcrypt, nunca devolvido pela API |

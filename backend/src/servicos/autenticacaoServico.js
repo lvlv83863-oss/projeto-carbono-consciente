@@ -52,8 +52,9 @@ async function registrar({ nome, email, senha, confirmarSenha, pais }) {
       pais: pais || null,
     });
   } catch (erro) {
-    // Duas requisições simultâneas com o mesmo email: a coluna UNIQUE do banco barra a segunda.
-    if (erro.code === "ER_DUP_ENTRY") throw new ErroApi(409, "Já existe uma conta com esse email.");
+    // Duas requisições simultâneas com o mesmo email: a coluna UNIQUE do banco barra a segunda
+    // (PostgreSQL devolve o código 23505 = unique_violation).
+    if (erro.code === "23505") throw new ErroApi(409, "Já existe uma conta com esse email.");
     throw erro;
   }
 
