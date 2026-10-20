@@ -144,4 +144,4 @@ Erros sempre voltam como `{ "erro": "mensagem" }` com o status HTTP corresponden
 
 ## CORS
 
-A API aceita chamadas só do site publicado no GitHub Pages e de qualquer porta de `localhost`/`127.0.0.1` (desenvolvimento local). Para mudar o domínio do front-end, edite a lista `origin` em `src/app.js`.
+Liberado para qualquer origem (`cors()` sem restrição) — adequado para desenvolvimento local. Antes de qualquer publicação real, restrinja para o domínio do front-end em `src/app.js`.

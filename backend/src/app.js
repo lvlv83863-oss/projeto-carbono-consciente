@@ -7,7 +7,7 @@ const tratadorErros = require("./intermediarios/tratadorErros");
 const app = express();
 
 // Só o site publicado (e o front-end local, em qualquer porta) podem chamar
-// a API pelo navegador. Importante: 3307 é a porta do MySQL (ver
+// a API pelo navegador. Importante: 5432 é a porta do PostgreSQL (ver
 // backend/src/config/env.js), não a de um servidor web — nenhum navegador
 // serve HTML por ali. O front-end local costuma rodar numa porta variável
 // (Live Server, "npx serve", etc.), então aceitamos qualquer origem

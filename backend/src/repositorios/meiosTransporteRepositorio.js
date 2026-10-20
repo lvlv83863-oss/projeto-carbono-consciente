@@ -1,6 +1,6 @@
 const { pool } = require("../config/bancoDados");
 
-// Tabela "meios_transporte" de backend/sql/schema.sql.
+// Tabela "meios_transporte" de backend/sql/schema.sql (PostgreSQL).
 // Somente leitura: os 8 meios são fixos (INSERT do schema.sql).
 
 function paraMeio(linha) {
@@ -8,19 +8,19 @@ function paraMeio(linha) {
   return {
     id: linha.id_meio,
     nome: linha.nome,
-    fatorEmissao: Number(linha.fator_emissao), // DECIMAL volta como texto
+    fatorEmissao: Number(linha.fator_emissao), // garante número mesmo se o driver devolver texto
     icone: linha.icone,
   };
 }
 
 async function listar() {
-  const [linhas] = await pool.query("SELECT * FROM meios_transporte ORDER BY id_meio");
-  return linhas.map(paraMeio);
+  const { rows } = await pool.query("SELECT * FROM meios_transporte ORDER BY id_meio");
+  return rows.map(paraMeio);
 }
 
 async function buscarPorId(id) {
-  const [linhas] = await pool.query("SELECT * FROM meios_transporte WHERE id_meio = ? LIMIT 1", [Number(id)]);
-  return paraMeio(linhas[0]);
+  const { rows } = await pool.query("SELECT * FROM meios_transporte WHERE id_meio = $1 LIMIT 1", [Number(id)]);
+  return paraMeio(rows[0]);
 }
 
 module.exports = { listar, buscarPorId };
