@@ -3,37 +3,58 @@
    Painel de hábitos: hero, resumo, gráfico, formulário e
    lista de lançamentos. Só usado em painel.html.
 
-   Tema claro  = verde + branco
-   Tema escuro = roxo profundo
+   Tema claro  = paleta da tela inicial: verde-floresta profundo,
+                 degradê verde -> lima e acentos em lima/branco
+   Tema escuro = roxo profundo (inalterado)
    As cores do painel ficam em variáveis --p-* escopadas em
    .painel-pagina, então não interferem no resto do site.
    ========================================================= */
 
 /* ---------- 1. Tokens do painel ---------- */
 .painel-pagina{
-  --p-bg: #f2faf5;
-  --p-bg-glow-1: rgba(63,191,110,0.20);
-  --p-bg-glow-2: rgba(180,235,200,0.45);
-  --p-surface: #ffffff;
-  --p-surface-alt: #f5fbf7;
-  --p-border: rgba(31,122,69,0.14);
-  --p-border-strong: rgba(31,122,69,0.32);
-  --p-text: #12301f;
-  --p-muted: #5b7466;
-  --p-primary: #1f8a4c;
-  --p-primary-strong: #14532d;
-  --p-primary-soft: #e3f6ea;
-  --p-on-primary: #ffffff;
-  --p-grad: linear-gradient(135deg, #2fb866 0%, #14633a 100%);
-  --p-grad-2: linear-gradient(135deg, #5fd18a 0%, #2fa05c 100%);
-  --p-grad-3: linear-gradient(135deg, #a8e6bf 0%, #5fc487 100%);
+  /* fundo da página: mesma travessia da tela inicial (escuro -> verde -> lima) */
+  --p-pagina-bg:
+    radial-gradient(800px 420px at 90% -60px, rgba(240,252,170,0.55), transparent 70%),
+    linear-gradient(115deg, #0d281d 0%, #1b5a3b 24%, #3fae62 52%, #8fd878 78%, #d6f08e 100%);
+  --p-hero-bg: linear-gradient(110deg, #0c261b 0%, #164733 45%, #2f8a55 68%, #8fd878 86%, #e1f49c 100%);
+
+  --p-bg: #0d281d;
+  --p-bg-glow-1: rgba(228,245,154,0.35);
+  --p-bg-glow-2: rgba(255,255,255,0.12);
+
+  /* superfícies: painéis verde-floresta, como a faixa de estatísticas */
+  --p-surface: #143a2b;
+  --p-surface-alt: #0f2f23;
+  --p-border: rgba(212,242,122,0.18);
+  --p-border-strong: rgba(212,242,122,0.42);
+
+  --p-text: #eef9ea;
+  --p-muted: #a9c9b4;
+
+  /* acento: lima do botão "Ver Mais" */
+  --p-primary: #d4f27a;
+  --p-primary-strong: #b8e65a;
+  --p-primary-soft: rgba(212,242,122,0.14);
+  --p-on-primary: #10301f;
+  --p-on-grad: #10301f;
+
+  --p-grad: linear-gradient(135deg, #e6f7a0 0%, #9fdc5c 100%);
+  --p-grad-2: linear-gradient(135deg, #8fe0a0 0%, #3fb56a 100%);
+  --p-grad-3: linear-gradient(135deg, #ffffff 0%, #d9f0c8 100%);
   --p-icon-3: #14532d;
-  --p-shadow: 0 14px 34px -18px rgba(20,83,45,0.35);
-  --p-shadow-hover: 0 20px 40px -18px rgba(20,83,45,0.45);
-  --p-grid-line: rgba(31,122,69,0.09);
-  --p-subiu: #c2410c;
-  --p-desceu: #15803d;
-  --p-erro: #c23237;
+
+  --p-selo-bg: #ffffff;
+  --p-selo-color: #14532d;
+  --p-frase: #174a33;
+  --p-broto: #1f7a45;
+  --p-broto-fill: rgba(255,255,255,0.75);
+
+  --p-shadow: 0 18px 38px -18px rgba(3,20,12,0.65);
+  --p-shadow-hover: 0 24px 46px -16px rgba(3,20,12,0.75), 0 0 0 3px rgba(212,242,122,0.16);
+  --p-grid-line: rgba(212,242,122,0.12);
+  --p-subiu: #ffb38a;
+  --p-desceu: #b9f08a;
+  --p-erro: #ffb3b5;
   --p-radius: 20px;
   --p-radius-sm: 12px;
 }
@@ -62,15 +83,26 @@ html[data-theme="escuro"] .painel-pagina{
   --p-subiu: #ff9b9b;
   --p-desceu: #9cf0b0;
   --p-erro: #ffb3b5;
+
+  --p-pagina-bg:
+    radial-gradient(900px 420px at 85% -80px, var(--p-bg-glow-1), transparent 70%),
+    radial-gradient(700px 400px at 0% 0%, var(--p-bg-glow-2), transparent 70%),
+    var(--p-bg);
+  --p-hero-bg:
+    radial-gradient(520px 220px at 90% 50%, var(--p-bg-glow-1), transparent 70%),
+    linear-gradient(120deg, var(--p-surface-alt), transparent 85%);
+  --p-on-grad: #ffffff;
+  --p-selo-bg: var(--p-surface);
+  --p-selo-color: var(--p-primary);
+  --p-frase: var(--p-primary);
+  --p-broto: var(--p-primary);
+  --p-broto-fill: var(--p-primary-soft);
 }
 
 /* ---------- 2. Página ---------- */
 .painel-pagina{
   position: relative;
-  background:
-    radial-gradient(900px 420px at 85% -80px, var(--p-bg-glow-1), transparent 70%),
-    radial-gradient(700px 400px at 0% 0%, var(--p-bg-glow-2), transparent 70%),
-    var(--p-bg);
+  background: var(--p-pagina-bg);
   color: var(--p-text);
   min-height: 100vh;
   padding: 36px 24px 90px;
@@ -102,9 +134,7 @@ html[data-theme="escuro"] .painel-pagina{
   padding: 30px 36px;
   margin-bottom: 28px;
   border-radius: 28px;
-  background:
-    radial-gradient(520px 220px at 90% 50%, var(--p-bg-glow-1), transparent 70%),
-    linear-gradient(120deg, var(--p-surface-alt), transparent 85%);
+  background: var(--p-hero-bg);
   border: 1px solid var(--p-border);
   overflow: hidden;
 }
@@ -167,9 +197,9 @@ html[data-theme="escuro"] .painel-pagina{
   gap: 8px;
   padding: 7px 14px;
   border-radius: 999px;
-  background: var(--p-surface);
+  background: var(--p-selo-bg);
   border: 1px solid var(--p-border-strong);
-  color: var(--p-primary-strong);
+  color: var(--p-selo-color);
   font-size: 0.8rem;
   font-weight: 600;
 }
@@ -218,16 +248,16 @@ html[data-theme="escuro"] .painel-globo{
   width: 62px;
   height: 62px;
   transform: translateX(-50%);
-  color: var(--p-primary);
-  fill: var(--p-primary-soft);
-  stroke: var(--p-primary);
+  color: var(--p-broto);
+  fill: var(--p-broto-fill);
+  stroke: var(--p-broto);
 }
 
 .painel-frase{
   font-family: 'Caveat', 'Segoe Script', cursive;
   font-size: 1.45rem;
   line-height: 1.15;
-  color: var(--p-primary);
+  color: var(--p-frase);
   transform: rotate(-6deg);
   max-width: 9ch;
   text-align: left;
@@ -271,9 +301,9 @@ html[data-theme="escuro"] .painel-globo{
   height: 58px;
   border-radius: 18px;
   background: var(--p-grad);
-  color: #fff;
+  color: var(--p-on-grad);
   font-size: 1.7rem;
-  box-shadow: 0 10px 20px -10px rgba(20,83,45,0.6);
+  box-shadow: 0 10px 20px -10px rgba(3,20,12,0.7);
 }
 
 .painel-card[data-card="semana"] .painel-card-icone{ background: var(--p-grad-2); }
@@ -376,7 +406,7 @@ html[data-theme="escuro"] .painel-card{
 
 .painel-titulo-icone.cheio{
   background: var(--p-grad);
-  color: #fff;
+  color: var(--p-on-grad);
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -416,7 +446,7 @@ html[data-theme="escuro"] .painel-card{
 
 .painel-periodo.ativo{
   background: var(--p-grad);
-  color: #fff;
+  color: var(--p-on-grad);
 }
 
 .painel-grafico{
@@ -452,6 +482,8 @@ html[data-theme="escuro"] .painel-card{
   stroke: var(--p-primary);
   stroke-width: 2;
 }
+
+.grafico-linha{ filter: drop-shadow(0 0 5px rgba(212,242,122,0.45)); }
 
 html[data-theme="escuro"] .grafico-linha{
   filter: drop-shadow(0 0 6px rgba(181,124,255,0.6));
@@ -564,7 +596,7 @@ html[data-theme="escuro"] .painel-mensagem.sucesso{ color: #dcc8ff; }
   outline-offset: 2px;
 }
 
-html[data-theme="escuro"] .painel-campo input[type="date"]{ color-scheme: dark; }
+.painel-campo input[type="date"]{ color-scheme: dark; }
 
 .painel-campo select option{ background: var(--p-surface-alt); color: var(--p-text); }
 
@@ -581,13 +613,13 @@ html[data-theme="escuro"] .painel-campo select option{ background: #1c0f45; }
   border: none;
   border-radius: 999px;
   background: var(--p-grad);
-  color: #fff;
+  color: var(--p-on-grad);
   font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   white-space: nowrap;
   cursor: pointer;
-  box-shadow: 0 12px 22px -12px rgba(20,83,45,0.7);
+  box-shadow: 0 12px 24px -12px rgba(159,220,92,0.55);
   transition: transform .15s ease, box-shadow .2s ease, filter .2s ease;
 }
 
@@ -690,7 +722,7 @@ html[data-theme="escuro"] .painel-form-grade .btn-principal{
   background-position: center;
   background-size: 24px;
   box-shadow: inset 0 0 0 1px var(--p-border);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231f8a4c' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z'/%3E%3Cpath d='M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d4f27a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z'/%3E%3Cpath d='M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12'/%3E%3C/svg%3E");
 }
 
 html[data-theme="escuro"] .painel-vazio::before{
@@ -737,8 +769,8 @@ html[data-theme="escuro"] .painel-vazio::before{
   box-shadow: var(--p-shadow);
   overflow: hidden;
   background:
-    radial-gradient(circle at 50% 40%, rgba(255,255,255,0.95) 0%, rgba(190,238,208,0.55) 42%, transparent 74%),
-    linear-gradient(180deg, #eaf9f0 0%, #cdeedb 100%);
+    radial-gradient(circle at 50% 42%, rgba(236,250,170,0.85) 0%, rgba(150,220,120,0.42) 42%, transparent 74%),
+    linear-gradient(180deg, #2e7a50 0%, #164431 100%);
 }
 
 html[data-theme="escuro"] .painel-arvore{
@@ -822,7 +854,7 @@ html[data-theme="escuro"] .arvore-sequencia{ background: rgba(26,11,61,0.55); }
   pointer-events: none;
 }
 
-html:not([data-theme="escuro"]) .arvore-palco::before{ background: #5fc487; box-shadow: 150px 24px 0 #5fc487, 210px 90px 0 #5fc487, 20px 120px 0 #5fc487, 90px 190px 0 #5fc487, 230px 200px 0 #5fc487; opacity: 0.5; }
+html:not([data-theme="escuro"]) .arvore-palco::before{ background: #eaf8b8; box-shadow: 150px 24px 0 #eaf8b8, 210px 90px 0 #eaf8b8, 20px 120px 0 #eaf8b8, 90px 190px 0 #eaf8b8, 230px 200px 0 #eaf8b8; opacity: 0.85; }
 
 .arv-svg{ width: 100%; height: 100%; display: block; overflow: visible; }
 
@@ -841,7 +873,7 @@ html:not([data-theme="escuro"]) .arvore-palco::before{ background: #5fc487; box-
 .arvore-progresso{
   height: 7px;
   border-radius: 999px;
-  background: rgba(20,83,45,0.14);
+  background: rgba(255,255,255,0.18);
   overflow: hidden;
 }
 
