@@ -1,39 +1,111 @@
 /* =========================================================
-   CARBONO CONSCIENTE — paginas/inicial/14-dicas.css
-   Seção "Dicas Sustentáveis": grade de cards com efeito de
-   flip 3D (frente ilustrada / verso com lista). Só usado em
-   inicial.html.
+   CARBONO CONSCIENTE — paginas/inicial/14-dicas.css  (redesign)
+   Seção "Dicas Sustentáveis": grade de cards com flip 3D
+   (frente ilustrada / verso com lista). Só usado em inicial.html.
 
-   NOTA DE MANUTENÇÃO: no arquivo monolítico original, esta
-   seção tinha 3 blocos de regras conflitantes para a mesma
-   família de seletores (.dica-card/.dica-face/.dica-imagem/
-   .bg-*), resultado de edições incrementais sem remover o que
-   veio antes. O conteúdo abaixo foi reconstruído mecanicamente
-   (resolução de cascata propriedade a propriedade, verificada
-   com um script de comparação) para produzir o MESMO resultado
-   visual final, sem a duplicação. As classes soltas .bg-casa/
-   .bg-transporte/.bg-alimentacao/.bg-reciclagem (sem o prefixo
-   .dica-imagem) existiam no original mas eram código morto —
-   o HTML sempre combina as duas classes, e .dica-imagem.bg-X
-   tem especificidade maior e sempre vence — por isso não foram
-   trazidas para este arquivo.
+   O HTML não muda. O visual agora é:
+   - cartão claro e translúcido com moldura interna arredondada
+   - ilustração em tom pastel, com padrão geométrico bem sutil
+   - ícone em medalha redonda com halo suave
+   - cor de destaque (--acc) por categoria, definida no próprio card
+     e herdada pelo verso (por isso o uso de :has)
+   - tema claro (verde/branco) e tema escuro (roxo) via variáveis --d-*
+
+   Obs.: sem backdrop-filter nas faces de propósito, ele quebra a
+   renderização do flip 3D em alguns navegadores.
    ========================================================= */
+
+/* ---------- 1. Tokens ---------- */
 .secao-dicas{
-  padding: 70px 0 40px;
+  --d-surface: #ffffff;
+  --d-surface-verso: linear-gradient(165deg, color-mix(in srgb, var(--acc, #2f9e5c) 9%, #ffffff), #ffffff 70%);
+  --d-text: #1f3a2a;
+  --d-muted: #72887a;
+  --d-borda: rgba(255,255,255,0.75);
+  --d-sombra: 0 18px 38px -22px rgba(8,48,28,0.55), 0 2px 6px rgba(8,48,28,0.08);
+  --d-sombra-hover: 0 24px 46px -20px rgba(8,48,28,0.6), 0 0 0 4px color-mix(in srgb, var(--acc, #2f9e5c) 18%, transparent);
+  --d-img-a: 24%;
+  --d-img-b: 9%;
+  --d-img-base: #ffffff;
+  --d-padrao-op: 0.2;
+  --d-medalha-bg: rgba(255,255,255,0.88);
+  --d-halo: 14%;
+}
+
+html[data-theme="escuro"] .secao-dicas{
+  --d-surface: rgba(34,18,78,0.86);
+  --d-surface-verso: linear-gradient(165deg, color-mix(in srgb, var(--acc, #b57cff) 20%, #1d0f47), #1a0d3d 75%);
+  --d-text: #f3edff;
+  --d-muted: #b9acdf;
+  --d-borda: rgba(205,175,255,0.28);
+  --d-sombra: 0 22px 44px -20px rgba(8,0,38,0.8), 0 2px 6px rgba(8,0,38,0.25);
+  --d-sombra-hover: 0 26px 50px -18px rgba(8,0,38,0.85), 0 0 0 4px color-mix(in srgb, var(--acc, #b57cff) 28%, transparent);
+  --d-img-a: 38%;
+  --d-img-b: 14%;
+  --d-img-base: #1a0d3d;
+  --d-padrao-op: 0.3;
+  --d-medalha-bg: rgba(255,255,255,0.88);
+  --d-halo: 16%;
+}
+
+/* ---------- 2. Seção ---------- */
+.secao-dicas{
+  position: relative;
+  overflow: hidden;
+  padding: 80px 0 60px;
   background: linear-gradient(120deg, var(--cor-principal), var(--cor-hero-para));
 }
 
-.secao-dicas .titulo-secao{ color: #fff; }
-.secao-dicas .subtitulo-secao{ color: rgba(255,255,255,0.85); }
+/* brilhos suaves no fundo (não alteram a cor base do site) */
+.secao-dicas::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(620px 300px at 12% 0%, rgba(255,255,255,0.20), transparent 70%),
+    radial-gradient(520px 300px at 92% 100%, rgba(255,255,255,0.14), transparent 70%);
+  pointer-events: none;
+}
+
+.secao-dicas .container{ position: relative; z-index: 1; }
+
+.secao-dicas .titulo-secao{
+  color: #fff;
+  text-shadow: 0 2px 18px rgba(0,0,0,0.16);
+  margin-bottom: 44px;
+}
+
+.secao-dicas .subtitulo-secao{ color: rgba(255,255,255,0.88); }
 
 .dicas-grid{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+  gap: 26px;
 }
 
+/* ---------- 3. Cor de destaque por categoria ---------- */
+.dica-card{ --acc: #2f9e5c; --acc-icone: var(--acc); }
+.dica-card:has(.bg-casa){ --acc: #8a63d9; }
+.dica-card:has(.bg-transporte){ --acc: #2a97ab; }
+.dica-card:has(.bg-alimentacao){ --acc: #dc6b77; }
+.dica-card:has(.bg-reciclagem){ --acc: #2f9e5c; }
+
+html[data-theme="escuro"] .dica-card{ --acc: #82e3b4; }
+html[data-theme="escuro"] .dica-card:has(.bg-casa){ --acc: #c7a6ff; }
+html[data-theme="escuro"] .dica-card:has(.bg-transporte){ --acc: #84dbe9; }
+html[data-theme="escuro"] .dica-card:has(.bg-alimentacao){ --acc: #ff9fa7; }
+html[data-theme="escuro"] .dica-card:has(.bg-reciclagem){ --acc: #82e3b4; }
+
+/* Ícones (medalhas) no tema escuro: mesma paleta do tema claro */
+html[data-theme="escuro"] .dica-card{ --acc-icone: #2f9e5c; }
+html[data-theme="escuro"] .dica-card:has(.bg-casa){ --acc-icone: #8a63d9; }
+html[data-theme="escuro"] .dica-card:has(.bg-transporte){ --acc-icone: #2a97ab; }
+html[data-theme="escuro"] .dica-card:has(.bg-alimentacao){ --acc-icone: #dc6b77; }
+html[data-theme="escuro"] .dica-card:has(.bg-reciclagem){ --acc-icone: #2f9e5c; }
+
+/* ---------- 4. Card + flip 3D ---------- */
 .dica-card{
-  height: 300px;
+  height: 310px;
   cursor: pointer;
   opacity: 0;
   transform: translateY(30px);
@@ -43,13 +115,12 @@
 
 .dica-card.visivel{ opacity: 1; transform: translateY(0); }
 
-/* Carta 3D: gira no eixo Y ao clicar, revelando a lista de dicas no verso */
 .dica-flip{
   position: relative;
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
-  transition: transform .75s cubic-bezier(.4,.15,.2,1);
+  transition: transform .8s cubic-bezier(.4,.15,.2,1);
 }
 
 .dica-card.aberto .dica-flip{ transform: rotateY(180deg); }
@@ -59,121 +130,222 @@
   inset: 0;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  border-radius: 4px;
-  border: 2px solid rgba(0, 0, 0, 0.171);
-  overflow: hidden;
-  box-shadow: var(--sombra);
-  background: var(--cor-superficie);
   display: flex;
   flex-direction: column;
-  transition: box-shadow .3s ease;
+  overflow: hidden;
+  border-radius: 24px;
+  border: 1px solid var(--d-borda);
+  background: var(--d-surface);
+  box-shadow: var(--d-sombra);
+  transition: box-shadow .35s ease;
 }
 
-.dica-card:hover .dica-face-frente{ box-shadow: 0 12px 28px rgba(20,32,25,.18); }
+.dica-card:hover .dica-face{ box-shadow: var(--d-sombra-hover); }
 
-.dica-face-verso{ transform: rotateY(180deg); padding: 22px 20px; justify-content: center; }
+/* ---------- 5. Frente ---------- */
+.dica-face-frente{ padding: 10px; }
 
-.dica-face-frente figure{ flex: 1; overflow: hidden; }
+.dica-face-frente figure{
+  flex: 1;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 17px;
+}
 
 .dica-imagem{
+  position: relative;
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
-  transition: transform .5s ease;
+  overflow: hidden;
+  background:
+    linear-gradient(
+      160deg,
+      color-mix(in srgb, var(--acc) var(--d-img-a), var(--d-img-base)),
+      color-mix(in srgb, var(--acc) var(--d-img-b), var(--d-img-base))
+    );
 }
 
-.dica-card:hover .dica-imagem{ transform: scale(1.08); }
-
-.dica-face-verso h3{
-  font-family: 'Playfair Display', serif;
-  font-size: 1.1rem;
-  color: rgb(66, 19, 109);
-  margin-bottom: 12px;
+/* padrão geométrico: desenhado como máscara e pintado com a cor de destaque */
+.dica-imagem::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--acc);
+  opacity: var(--d-padrao-op);
+  -webkit-mask-image: var(--padrao);
+  mask-image: var(--padrao);
+  -webkit-mask-repeat: repeat;
+  mask-repeat: repeat;
 }
 
-.dica-verso-dica{
-  display: block;
-  margin-top: 14px;
-  font-size: 0.72rem;
-  color: var(--cor-texto-suave);
-  text-align: center;
-}
-
-.dica-imagem .icone-svg{
-  width: 2.6rem;
-  height: 2.6rem;
-  padding: 16px;
-  box-sizing: content-box;
-  color: var(--acc);
-  stroke-width: 1.6;
-  background: #fff;
-  border: 2px solid var(--acc);
-  border-radius: 12px;
-  box-shadow: 6px 6px 0 color-mix(in srgb, var(--acc) 25%, transparent);
-  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.25));
+/* luz suave atrás da medalha */
+.dica-imagem::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--acc) 28%, transparent) 0%, transparent 62%);
+  pointer-events: none;
 }
 
 .dica-imagem.bg-casa{
-  --acc: #b98cff;
-  background-color: #451f74;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='48' viewBox='0 0 28 48'%3E%3Cpath d='M14 0l14 8v16l-14 8L0 24V8zM14 32v16' fill='none' stroke='%23d9c7ff' stroke-opacity='.40' stroke-width='1.2'/%3E%3C/svg%3E");
+  --padrao: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='48' viewBox='0 0 28 48'%3E%3Cpath d='M14 0l14 8v16l-14 8L0 24V8zM14 32v16' fill='none' stroke='%23000' stroke-width='1.1'/%3E%3C/svg%3E");
 }
 
 .dica-imagem.bg-transporte{
-  --acc: #67c7d9;
-  background-color: #116674;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='48' viewBox='0 0 28 48'%3E%3Cpath d='M14 0l14 8v16l-14 8L0 24V8zM14 16v16M14 16L0 8M14 16l14-8M14 32v16M0 40v8M0 40l14-8M28 40v8M28 40l-14-8' fill='none' stroke='%239ce3ec' stroke-opacity='.40' stroke-width='1.2'/%3E%3C/svg%3E");
+  --padrao: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='48' viewBox='0 0 28 48'%3E%3Cpath d='M14 0l14 8v16l-14 8L0 24V8zM14 16v16M14 16L0 8M14 16l14-8M14 32v16M0 40v8M0 40l14-8M28 40v8M28 40l-14-8' fill='none' stroke='%23000' stroke-width='1.1'/%3E%3C/svg%3E");
 }
 
 .dica-imagem.bg-alimentacao{
-  --acc: #ff9a9f;
-  background-color: #6d2029;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='24' viewBox='0 0 28 24'%3E%3Cpath d='M0 12h28M0 0l14 12L28 0M0 24l14-12 14 12' fill='none' stroke='%23ffc4c7' stroke-opacity='.38' stroke-width='1.2'/%3E%3C/svg%3E");
+  --padrao: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='24' viewBox='0 0 28 24'%3E%3Cpath d='M0 12h28M0 0l14 12L28 0M0 24l14-12 14 12' fill='none' stroke='%23000' stroke-width='1.1'/%3E%3C/svg%3E");
 }
 
 .dica-imagem.bg-reciclagem{
-  --acc: #72d6a8;
-  background-color: #197753;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='60' viewBox='0 0 80 60'%3E%3Cpath d='M0 10Q20-2 40 10T80 10M0 30Q20 18 40 30T80 30M0 50Q20 38 40 50T80 50' fill='none' stroke='%23a5e8c6' stroke-opacity='.40' stroke-width='1.4'/%3E%3C/svg%3E");
+  --padrao: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='60' viewBox='0 0 80 60'%3E%3Cpath d='M0 10Q20-2 40 10T80 10M0 30Q20 18 40 30T80 30M0 50Q20 38 40 50T80 50' fill='none' stroke='%23000' stroke-width='1.3'/%3E%3C/svg%3E");
 }
 
-/* Legenda branca: título forte + descrição curta. strong/span usam cor
-   fixa (não var(--cor-texto-suave)) — comportamento já existente no
-   original, preservado de propósito, não um bug. */
+/* medalha redonda com halo */
+.dica-imagem .icone-svg{
+  position: relative;
+  z-index: 1;
+  width: 2.1rem;
+  height: 2.1rem;
+  padding: 16px;
+  box-sizing: content-box;
+  border-radius: 50%;
+  color: var(--acc-icone);
+  stroke-width: 1.5;
+  background: var(--d-medalha-bg);
+  border: 1.5px solid color-mix(in srgb, var(--acc-icone) 45%, transparent);
+  box-shadow:
+    0 0 0 10px color-mix(in srgb, var(--acc-icone) var(--d-halo), transparent),
+    0 12px 26px -10px color-mix(in srgb, var(--acc-icone) 70%, transparent);
+  transition: transform .45s cubic-bezier(.3,.2,.2,1);
+}
+
+.dica-card:hover .dica-imagem .icone-svg{ transform: scale(1.07); }
+
+/* legenda */
 .dica-card .tag{
   flex-shrink: 0;
-  min-height: 96px;
+  min-height: 92px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 6px;
+  gap: 5px;
+  padding: 12px 12px 6px;
   text-align: center;
   text-transform: none;
-  padding: 14px 10px;
+  letter-spacing: 0;
+  background: transparent;
+  color: var(--d-text);
   font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  font-size: 1rem;
-  color: var(--tag-texto);
-  background: #f2f2f2;
 }
 
-.dica-card .tag strong{ font-size: .88rem; font-weight: 600; color: rgb(77, 76, 76); }
-.dica-card .tag span{ font-size: .76rem; font-weight: 400; line-height: 1.5; color: rgb(122, 121, 121); }
+.dica-card .tag strong{
+  font-size: 1.02rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--d-text);
+}
 
-/* Verso (lista) — cor fixa preta, mesma observação acima */
-.dica-lista{ color: #000000; font-size: 0.86rem; line-height: 1.6; }
+.dica-card .tag span{
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.76rem;
+  font-weight: 400;
+  line-height: 1.55;
+  color: var(--d-muted);
+}
 
-.dica-lista li{ position: relative; padding-left: 16px; margin-bottom: 6px; }
-.dica-lista li::before{ content: "•"; position: absolute; left: 0; color: var(--cor-principal); }
+/* ---------- 6. Verso ---------- */
+.dica-face-verso{
+  transform: rotateY(180deg);
+  justify-content: center;
+  padding: 24px 24px 20px;
+  background: var(--d-surface-verso);
+}
 
+/* meia-lua decorativa no canto */
+.dica-face-verso::before{
+  content: "";
+  position: absolute;
+  top: -46px;
+  right: -46px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--acc) 16%, transparent);
+  pointer-events: none;
+}
+
+.dica-face-verso h3{
+  position: relative;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: color-mix(in srgb, var(--acc) 78%, var(--d-text));
+  margin: 0 0 16px;
+}
+
+.dica-face-verso h3::after{
+  content: "";
+  display: block;
+  width: 34px;
+  height: 3px;
+  margin-top: 9px;
+  border-radius: 3px;
+  background: var(--acc);
+  opacity: 0.6;
+}
+
+.dica-lista{
+  position: relative;
+  color: var(--d-text);
+  font-size: 0.84rem;
+  line-height: 1.55;
+}
+
+.dica-lista li{
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 7px;
+}
+
+.dica-lista li::before{
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 0.55em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--acc);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--acc) 20%, transparent);
+}
+
+.dica-verso-dica{
+  position: relative;
+  display: block;
+  margin-top: 12px;
+  font-size: 0.7rem;
+  color: var(--d-muted);
+  text-align: center;
+}
+
+/* ---------- 7. Responsivo ---------- */
 @media (max-width: 960px){
   .dicas-grid{ grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 600px){
+  .secao-dicas{ padding: 64px 0 44px; }
   .dicas-grid{ grid-template-columns: 1fr; }
+  .dica-card{ height: 296px; }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .dica-flip{ transition-duration: .01s; }
+  .dica-imagem .icone-svg{ transition: none; }
 }

@@ -21,26 +21,26 @@ function paraUsuario(linha) {
 }
 
 async function buscarPorEmail(email) {
-  const { rows: linhas } = await pool.query("SELECT * FROM usuarios WHERE email = $1 LIMIT 1", [email]);
+  const [linhas] = await pool.query("SELECT * FROM usuarios WHERE email = ? LIMIT 1", [email]);
   return paraUsuario(linhas[0]);
 }
 
 async function buscarPorId(id) {
-  const { rows: linhas } = await pool.query("SELECT * FROM usuarios WHERE id_usuario = $1 LIMIT 1", [id]);
+  const [linhas] = await pool.query("SELECT * FROM usuarios WHERE id_usuario = ? LIMIT 1", [id]);
   return paraUsuario(linhas[0]);
 }
 
-// Devolve o usuário criado, já com o id gerado pelo banco (IDENTITY + RETURNING).
+// Devolve o usuário criado, já com o id gerado pelo AUTO_INCREMENT.
 // "pais" guarda o código ISO_A3 (ex.: "BRA"), não o nome por extenso —
 // é o mesmo código usado em front end/data/emissoes.json, o que permite
 // validar contra essa lista e re-derivar o nome localizado do país via
 // Intl.DisplayNames no frontend.
 async function criar({ nome, email, senhaHash, pais }) {
-  const { rows } = await pool.query(
-    "INSERT INTO usuarios (nome, email, senha_hash, pais) VALUES ($1, $2, $3, $4) RETURNING *",
+  const [resultado] = await pool.query(
+    "INSERT INTO usuarios (nome, email, senha_hash, pais) VALUES (?, ?, ?, ?)",
     [nome, email, senhaHash, pais || null]
   );
-  return paraUsuario(rows[0]);
+  return buscarPorId(resultado.insertId);
 }
 
 module.exports = { buscarPorEmail, buscarPorId, criar };

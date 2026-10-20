@@ -145,6 +145,7 @@
 
     carrossel.innerHTML = "";
     lista.forEach((noticia, i) => carrossel.appendChild(montarCardNoticia(noticia, i)));
+    carrossel.scrollLeft = 0; // nova lista sempre começa no primeiro card
     if (window.Interativo) window.Interativo.ativarGlow(".noticia-card:not(.noticia-esqueleto)");
   }
 
@@ -159,11 +160,37 @@
       if (e.key === "Escape") fecharModalNoticia();
     });
 
+    const pista = document.getElementById("noticias-carrossel");
     const setaEsq = document.querySelector(".noticias-seta-esq");
     const setaDir = document.querySelector(".noticias-seta-dir");
-    const passo = () => (document.querySelector("#noticias-carrossel .noticia-card")?.offsetWidth || 280) + 22;
-    setaEsq?.addEventListener("click", () => document.getElementById("noticias-carrossel")?.scrollBy({ left: -passo(), behavior: "smooth" }));
-    setaDir?.addEventListener("click", () => document.getElementById("noticias-carrossel")?.scrollBy({ left: passo(), behavior: "smooth" }));
+    if (!pista) return;
+
+    // um passo = largura de um card + o espaço real entre cards (vem do CSS),
+    // então cada clique avança exatamente um card inteiro
+    const passo = () => {
+      const card = pista.querySelector(".noticia-card");
+      if (!card) return pista.clientWidth;
+      const espaco = parseFloat(getComputedStyle(pista).columnGap) || 0;
+      return card.getBoundingClientRect().width + espaco;
+    };
+
+    // apaga a seta quando não há mais para onde rolar
+    function atualizarSetas() {
+      const limite = pista.scrollWidth - pista.clientWidth - 2;
+      if (setaEsq) setaEsq.disabled = pista.scrollLeft <= 2;
+      if (setaDir) setaDir.disabled = pista.scrollLeft >= limite;
+    }
+
+    setaEsq?.addEventListener("click", () => pista.scrollBy({ left: -passo(), behavior: "smooth" }));
+    setaDir?.addEventListener("click", () => pista.scrollBy({ left: passo(), behavior: "smooth" }));
+    pista.addEventListener("scroll", atualizarSetas, { passive: true });
+    window.addEventListener("resize", atualizarSetas);
+
+    // os cards são inseridos depois que a API responde (e de novo a cada
+    // troca de idioma) — o observer mantém o estado das setas em dia sem
+    // empilhar listeners
+    new MutationObserver(atualizarSetas).observe(pista, { childList: true });
+    atualizarSetas();
   }
 
   /* ---------- CURIOSIDADES (uma por vez, muda com o tempo + botão) ---------- */

@@ -185,9 +185,8 @@
     }
 
     function normalizar(tonYear) {
-      if (maxTon === minTon) return 0.5;
-      return (tonYear - minTon) / (maxTon - minTon);
-    }
+  return Math.min(100, tonYear * 10) / 100;
+}
 
     function rankOf(iso) {
       const idx = rankedIsos.indexOf(iso);
@@ -195,12 +194,13 @@
     }
 
     function corPais(feature) {
-      const iso = isoDoPais(feature);
-      const dado = emissoesPorIso[iso];
-      const base = dado ? corPorIntensidade(normalizar(dado.tonYear), tokens) : tokens.baixo;
-      const a = iso === selecionadoIso || iso === hoverIso ? 0.98 : dado ? 0.88 : 0.6;
-      return corRgba(base, a);
-    }
+  const iso = isoDoPais(feature);
+  const dado = emissoesPorIso[iso];
+  const nivel = dado ? normalizar(dado.tonYear) : 0;
+  const base = dado ? corPorIntensidade(nivel, tokens) : tokens.baixo;
+  const a = iso === selecionadoIso || iso === hoverIso ? 0.98 : dado ? 0.6 + 0.38 * nivel : 0.6;
+  return corRgba(base, a);
+}
 
     function alturaPais(feature) {
       const iso = isoDoPais(feature);
@@ -255,6 +255,7 @@
           `<div class="painel-continente">${nomeContinente(dado.continente)}</div>` +
           '<div class="painel-dados">' +
           `<div><span>${t("globo.emissao_per_capita")} </span>${fmt(dado.tonYear)} t/ano</div>` +
+          `<div><span>Brilho </span>${Math.round(normalizar(dado.tonYear) * 100)}%</div>` +
           `<div><span>${t("globo.equivalente_diario")} </span>${fmt(dado.kgDay)} kg/dia</div>` +
           `<div><span>${t("globo.equivalente_semanal")} </span>${fmt(dado.kgWeek)} kg/sem</div>` +
           `<div><span>${t("globo.equivalente_mensal")} </span>${fmt(dado.kgMonth)} kg/mês</div>` +

@@ -112,6 +112,13 @@
       if (texto) mensagem.classList.add(tipo);
     }
 
+    // O botão agora tem ícone + <span>: o texto é trocado só no <span>
+    // pra não apagar o ícone.
+    function textoBotao(texto) {
+      const alvo = botaoEnviar.querySelector("span") || botaoEnviar;
+      alvo.textContent = texto;
+    }
+
     async function carregarMeios() {
       const meios = await chamarApi("/meios-transporte", { headers: CABECALHOS });
       // <option> só aceita texto — o ícone (SVG) aparece na lista de
@@ -150,6 +157,10 @@
 
     async function carregarLista() {
       const registros = await chamarApi("/habitos", { headers: CABECALHOS });
+
+      // Árvore da sequência: calcula os dias seguidos a partir dos registros.
+      if (window.Arvore) window.Arvore.atualizar(registros);
+
       if (!registros.length) {
         lista.innerHTML = `<p class="painel-vazio">${t("painel.registros_vazio")}</p>`;
         return;
@@ -194,7 +205,7 @@
       e.preventDefault();
       mostrarMensagem("", "erro");
       botaoEnviar.disabled = true;
-      botaoEnviar.textContent = t("painel.salvando");
+      textoBotao(t("painel.salvando"));
       try {
         await chamarApi("/habitos", {
           method: "POST",
@@ -214,7 +225,7 @@
         mostrarMensagem(erro.message, "erro");
       } finally {
         botaoEnviar.disabled = false;
-        botaoEnviar.textContent = t("painel.botao_adicionar");
+        textoBotao(t("painel.botao_adicionar"));
       }
     });
 

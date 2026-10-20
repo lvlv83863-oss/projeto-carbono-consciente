@@ -7,10 +7,10 @@ app.listen(env.porta, async () => {
 
   try {
     await testarConexao();
-    console.log(`Banco de dados conectado em ${env.banco.descricao}`);
+    console.log(`Banco de dados conectado em ${env.banco.host}:${env.banco.porta}/${env.banco.nome}`);
   } catch (erro) {
-    console.error(`ATENÇÃO: não foi possível conectar ao banco em ${env.banco.descricao}`);
+    console.error(`ATENÇÃO: não foi possível conectar ao banco em ${env.banco.host}:${env.banco.porta}/${env.banco.nome}`);
     console.error(`Motivo: ${erro.code || ""} ${erro.message}`);
-    console.error("Confira se DATABASE_URL (string do Session pooler do Supabase) está certa, se a senha confere e se as tabelas existem (npm run db:setup).");
+    console.error("Confira se o container do MySQL está Running, se o .env tem a senha certa e se o banco existe.");
   }
 });

@@ -1,18 +1,14 @@
 const ErroApi = require("../utilitarios/erroApi");
 
-// Códigos que indicam problema de conexão/configuração do banco PostgreSQL
+// Códigos do mysql2 que indicam problema de conexão/configuração do banco
 // (e não um erro de lógica da aplicação).
 const CODIGOS_BANCO_INDISPONIVEL = [
-  "ECONNREFUSED", // banco desligado ou porta errada
-  "ECONNRESET", // conexão derrubada
-  "ETIMEDOUT", // sem resposta (IP/porta bloqueados)
-  "ENOTFOUND", // host da DATABASE_URL não existe
-  "28P01", // senha inválida
-  "28000", // autorização rejeitada
-  "3D000", // banco não existe
-  "42P01", // tabela não existe (rode npm run db:setup)
-  "57P01", // banco foi desligado pelo administrador
-  "53300", // limite de conexões do banco atingido
+  "ECONNREFUSED",
+  "ETIMEDOUT",
+  "PROTOCOL_CONNECTION_LOST",
+  "ER_ACCESS_DENIED_ERROR",
+  "ER_BAD_DB_ERROR",
+  "ER_NO_SUCH_TABLE",
 ];
 
 // Middleware de erro central do Express (precisa dos 4 parâmetros para ser

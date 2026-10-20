@@ -99,8 +99,8 @@
   height: 34px;
   align-items: center;
   justify-content: center;
-  background: var(--cor-superficie);
-  color: var(--cor-texto-suave);
+  background: rgb(226, 226, 226);
+  color: black;
   border: 1px solid var(--borda-suave);
   border-radius: 50%;
   font-size: 19px;
@@ -148,8 +148,8 @@
   padding: 10px 14px;
   border-radius: 999px;
   border: 1px solid var(--borda-suave);
-  background: var(--cor-superficie);
-  color: var(--cor-texto);
+  background: rgb(218, 223, 223);
+  color: black;
   font-family: 'Poppins', sans-serif;
   font-size: 0.85rem;
   box-shadow: var(--sombra);
@@ -239,8 +239,8 @@ html[data-theme="escuro"] .globo-nuvem-parte{
   right: 10px;
   top: 10px;
   max-width: 230px;
-  background: var(--cor-superficie);
-  color: var(--cor-texto);
+  background: white;
+  color: black;
   border: 1px solid var(--borda-suave);
   border-radius: 16px;
   padding: 14px 16px;
@@ -253,11 +253,11 @@ html[data-theme="escuro"] .globo-nuvem-parte{
 .globo-painel .painel-topo{ display: flex; justify-content: space-between; align-items: flex-start; }
 .globo-painel .painel-nome{ font-weight: 700; font-size: 14px; }
 .globo-painel .painel-fechar{ background: none; border: none; cursor: pointer; color: var(--cor-texto-suave); font-size: 17px; line-height: 1; padding: 2px; }
-.globo-painel .painel-continente{ font-size: 11px; color: var(--cor-texto-suave); margin-bottom: 8px; }
+.globo-painel .painel-continente{ font-size: 11px; color: rgb(73, 73, 73); margin-bottom: 8px; }
 .globo-painel .painel-dados{ font-family: 'IBM Plex Mono', monospace; font-size: 11px; line-height: 1.75; }
-.globo-painel .painel-dados span{ color: var(--cor-texto-suave); }
-.globo-painel .painel-rank strong{ color: var(--cor-principal); }
-.globo-painel .painel-fonte{ font-size: 9px; color: var(--cor-texto-suave); margin-top: 10px; line-height: 1.4; }
+.globo-painel .painel-dados span{ color: rgb(34, 34, 34); }
+.globo-painel .painel-rank strong{ color: black; }
+.globo-painel .painel-fonte{ font-size: 9px; color: rgb(87, 87, 87); margin-top: 10px; line-height: 1.4; }
 
 @media (max-width: 600px){
   .globo-painel{ max-width: 200px; padding: 12px 14px; }
