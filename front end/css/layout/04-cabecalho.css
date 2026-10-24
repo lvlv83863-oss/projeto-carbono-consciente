@@ -18,10 +18,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 32px;
+  padding: clamp(10px, 2vw, 18px) clamp(16px, 3vw, 32px);
   max-width: 1240px;
   margin: 0 auto;
-  gap: 24px;
+  gap: clamp(10px, 2vw, 24px);
 }
 
 .logo-link{
@@ -31,24 +31,26 @@
 }
 
 .logo-link img{
-  height: 44px;
+  height: clamp(34px, 5vw, 44px);
   width: auto;
 }
 
 .nav-principal{
   display: flex;
-  gap: 30px;
+  gap: clamp(16px, 2.5vw, 30px);
   flex: 1;
   justify-content: center;
+  min-width: 0;
 }
 
 .nav-principal a{
   color: #f2f2f2;
-  font-size: 0.98rem;
+  font-size: clamp(0.88rem, 1.4vw, 0.98rem);
   font-weight: 500;
   padding-bottom: 6px;
   border-bottom: 2px solid transparent;
   white-space: nowrap;
+  transition: border-color .25s ease, color .25s ease;
 }
 
 .nav-principal a:hover,
@@ -59,7 +61,7 @@
 .header-acoes{
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: clamp(8px, 1.5vw, 14px);
   flex-shrink: 0;
 }
 
@@ -67,8 +69,8 @@
   background: #fff;
   color: #16351f;
   font-weight: 600;
-  font-size: 0.92rem;
-  padding: 9px 26px;
+  font-size: clamp(0.82rem, 1.4vw, 0.92rem);
+  padding: 9px clamp(16px, 2.5vw, 26px);
   border-radius: 999px;
   white-space: nowrap;
   box-shadow: 0 6px 16px rgba(0,0,0,0.18);
@@ -80,26 +82,51 @@
   filter: brightness(0.97);
 }
 
-/* Alternador de tema (pill com sol/lua) */
+/* ---------- Alternador de tema (pill com sol/lua) ----------
+   Geometria fixa: 76 x 36. Cada ícone ocupa uma metade (38px) e o
+   botão deslizante (28px) fica centralizado sobre a metade ativa:
+     claro  -> left 4px            (centro em 18px)
+     escuro -> left 4px + 40px     (centro em 58px)  */
 .theme-toggle{
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  background: var(--toggle-bg);
-  border-radius: 999px;
-  padding: 6px;
   position: relative;
+  display: block;
+  flex-shrink: 0;
   width: 76px;
   height: 36px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: var(--toggle-bg);
+  cursor: pointer;
+  direction: ltr; /* não inverter o botão deslizante em idiomas RTL */
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color .3s ease;
 }
 
 .theme-toggle .icone{
-  font-size: 0.85rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
   z-index: 1;
-  width: 50%;
-  text-align: center;
+  width: 38px;
+  display: grid;
+  place-items: center;
   line-height: 1;
+  pointer-events: none;
 }
+
+.theme-toggle .icone:nth-of-type(1){ left: 0; }
+.theme-toggle .icone:nth-of-type(2){ right: 0; }
+
+.theme-toggle .icone svg{
+  display: block;
+  width: 15px;
+  height: 15px;
+  color: var(--cor-header);
+  transition: color .3s ease;
+}
+
+html[data-theme="escuro"] .theme-toggle .icone svg{ color: var(--toggle-knob); }
 
 .theme-toggle .knob{
   position: absolute;
@@ -109,26 +136,24 @@
   height: 28px;
   border-radius: 50%;
   background: var(--toggle-knob);
-  transition: transform .35s cubic-bezier(.65,-0.1,.35,1.4);
+  transition: transform .35s cubic-bezier(.65,-0.1,.35,1.4), background-color .3s ease;
 }
 
 html[data-theme="escuro"] .theme-toggle .knob{
   transform: translateX(40px);
 }
 
-.theme-toggle .icone svg{
-  display: block;
-  width: 15px;
-  height: 15px;
-  margin: 0 auto;
-  color: var(--cor-header);
+.theme-toggle:focus-visible,
+.idioma-switcher:focus-visible,
+.menu-hamburguer:focus-visible,
+.btn-login:focus-visible,
+.nav-principal a:focus-visible{
+  outline: 2px solid var(--cor-secundaria, #d4f27a);
+  outline-offset: 3px;
 }
 
-html[data-theme="escuro"] .theme-toggle .icone svg{ color: var(--toggle-knob); }
-
-/* Botão de troca de idioma (injetado em .header-acoes via
-   front end/js/componentes/idioma-switcher.js, mesmo container do
-   .theme-toggle, sem precisar duplicar markup nos 3 HTMLs) */
+/* ---------- Botão de troca de idioma ----------
+   (injetado em .header-acoes via js/componentes/idioma-switcher.js) */
 .idioma-switcher-wrap{
   position: relative;
 }
@@ -144,6 +169,9 @@ html[data-theme="escuro"] .theme-toggle .icone svg{ color: var(--toggle-knob); }
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.02em;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color .3s ease, color .3s ease;
 }
 
 html[data-theme="escuro"] .idioma-switcher{ color: var(--toggle-knob); }
@@ -153,7 +181,7 @@ html[data-theme="escuro"] .idioma-switcher{ color: var(--toggle-knob); }
   top: calc(100% + 8px);
   right: 0;
   z-index: 50;
-  width: min(260px, 80vw);
+  width: min(260px, calc(100vw - 32px));
   background: var(--cor-superficie);
   border: 1px solid var(--borda-suave);
   border-radius: 14px;
@@ -174,8 +202,8 @@ html[data-theme="escuro"] .idioma-switcher{ color: var(--toggle-knob); }
 
 .idioma-painel-busca:focus{ outline: none; border-color: var(--cor-principal); }
 
-/* Dentro do popover (não de um campo de formulário), a lista de resultados
-   flui normalmente em vez de flutuar por cima — o popover já é o "flutuante" */
+/* Dentro do popover, a lista de resultados flui normalmente
+   em vez de flutuar por cima — o popover já é o "flutuante" */
 .idioma-painel .seletor-busca-resultados{
   position: static;
   margin-top: 8px;
@@ -188,14 +216,25 @@ html[data-theme="escuro"] .idioma-switcher{ color: var(--toggle-knob); }
 .idioma-painel .seletor-busca-resultados button:hover,
 .idioma-painel .seletor-busca-resultados button.em-foco{ background: var(--cor-superficie); }
 
+/* ---------- Menu hamburguer ---------- */
 .menu-hamburguer{
   display: none;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 5px;
-  width: 28px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .menu-hamburguer span{
+  display: block;
+  width: 24px;
   height: 2px;
   background: #fff;
   border-radius: 2px;
@@ -210,29 +249,65 @@ html[data-theme="escuro"] .idioma-switcher{ color: var(--toggle-knob); }
   right: 0;
   background: var(--cor-header);
   flex-direction: column;
-  padding: 20px 32px 26px;
+  justify-content: flex-start;
+  padding: 20px clamp(16px, 3vw, 32px) 26px;
   gap: 18px;
+  max-height: calc(100vh - 70px);
+  overflow-y: auto;
   box-shadow: 0 12px 20px rgba(0,0,0,0.25);
 }
 
+/* ---------- Responsivo ---------- */
 @media (max-width: 960px){
   .nav-principal{ display: none; }
   .menu-hamburguer{ display: flex; }
+
+  /* Páginas sem hambúrguer (ex.: painel.html) mantêm o link de
+     navegação visível, em vez de ficarem sem caminho de volta. */
+  .header-inner:not(:has(.menu-hamburguer)) .nav-principal{
+    display: flex;
+    justify-content: flex-start;
+  }
 }
 
 @media (max-width: 600px){
-  .header-inner{ padding-left: 20px; padding-right: 20px; }
+  .header-inner{ padding-left: 16px; padding-right: 16px; }
+
+  /* Sem hambúrguer: o link desce para uma segunda linha, centralizado */
+  .header-inner:not(:has(.menu-hamburguer)){ flex-wrap: wrap; row-gap: 8px; }
+  .header-inner:not(:has(.menu-hamburguer)) .nav-principal{
+    order: 3;
+    flex: 1 0 100%;
+    justify-content: center;
+  }
 }
 
-/* Em telas muito estreitas, o conjunto de ações do cabeçalho (idioma +
-   tema + entrar/sair + hambúrguer) não cabe ao lado da logo na mesma
-   linha — descoberto via teste real de viewport, não só leitura do CSS.
-   Em vez de encolher/esconder qualquer botão (o que mudaria
-   funcionalidade), o cabeçalho quebra em duas linhas: logo acima,
-   ações alinhadas à direita abaixo. */
-@media (max-width: 420px){
+/* Só em telas muito estreitas o conjunto de ações (idioma + tema +
+   entrar/sair + hambúrguer) não cabe ao lado da logo: o cabeçalho
+   quebra em duas linhas, logo acima e ações à direita abaixo. */
+@media (max-width: 380px){
   .header-inner{ flex-wrap: wrap; row-gap: 10px; }
   .header-acoes{ width: 100%; justify-content: flex-end; }
+}
+
+/* ---------- Movimento reduzido ---------- */
+@media (prefers-reduced-motion: reduce){
+  .theme-toggle .knob,
+  .theme-toggle,
+  .theme-toggle .icone svg{ transition-duration: .01ms; }
+}
+
+/* ---------- Troca de tema suave ----------
+   A regra global .tema-transicionando (18-painel.css / painel.js)
+   força transition-property em todos os elementos com !important,
+   o que cancelava a animação do botão deslizante. Esta regra, mais
+   específica, devolve o transform ao botão durante a troca. */
+@media (prefers-reduced-motion: no-preference){
+  html.tema-transicionando .theme-toggle .knob{
+    transition-property: transform, background-color !important;
+    transition-duration: .35s, .3s !important;
+    transition-timing-function: cubic-bezier(.65,-0.1,.35,1.4), ease !important;
+  }
 }
 
 /* ---------- RTL (árabe, hebraico, persa, urdu, pashto, curdo sorani) ----------
