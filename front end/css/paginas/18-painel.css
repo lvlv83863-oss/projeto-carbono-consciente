@@ -447,7 +447,10 @@ html[data-theme="escuro"] .painel-card{
 .painel-periodo.ativo{
   background: var(--p-grad);
   color: var(--p-on-grad);
+
+   transition: all 0.3s ease;
 }
+
 
 .painel-grafico{
   width: 100%;

@@ -71,9 +71,17 @@
     }
   }
 
-  function hojeISO() {
-    const d = new Date();
+  function isoDeDate(d) {
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  }
+
+  function hojeISO() {
+    return isoDeDate(new Date());
+  }
+
+  function fmtDiaMes(iso) {
+    const [, m, d] = iso.split("-");
+    return `${d}/${m}`;
   }
 
   function calcularDelta(atual, anterior) {
@@ -119,6 +127,93 @@
       alvo.textContent = texto;
     }
 
+    // ---------- GRÁFICO POR PERÍODO ----------
+    const graficoEl = document.getElementById("painel-grafico");
+    const graficoTituloEl = document.querySelector(".painel-grafico-topo h2 span:last-child");
+    const botoesPeriodo = document.querySelectorAll(".painel-periodo");
+    let registrosCache = [];
+    let periodoAtual = 14;
+
+    // Mesmo formato que o grafico.js espera: { data, totalCo2 }
+    function montarSerie(registros, dias) {
+      const totais = new Map();
+      registros.forEach((r) => {
+        const dia = String(r.data).slice(0, 10);
+        totais.set(dia, (totais.get(dia) || 0) + Number(r.co2 || 0));
+      });
+      const hoje = new Date();
+      const serie = [];
+      for (let i = dias - 1; i >= 0; i--) {
+        const iso = isoDeDate(new Date(hoje.getFullYear(), hoje.getMonth(), hoje.getDate() - i));
+        serie.push({ data: iso, totalCo2: totais.get(iso) || 0 });
+      }
+      return serie;
+    }
+
+    function textoTituloGrafico(dias) {
+      const chave = "painel.grafico_titulo_dias";
+      const traduzido = t(chave, { dias });
+      return traduzido && traduzido !== chave ? traduzido : `Evolução nos últimos ${dias} dias`;
+    }
+
+    function desenharGrafico() {
+      if (!graficoEl || !window.Grafico) return;
+
+      if (graficoTituloEl) {
+        graficoTituloEl.removeAttribute("data-i18n"); // impede o i18n de sobrescrever o período
+        graficoTituloEl.textContent = textoTituloGrafico(periodoAtual);
+      }
+
+      const serie = montarSerie(registrosCache, periodoAtual);
+
+      if (!serie.some((p) => p.totalCo2 > 0)) {
+        const msg = t("painel.grafico_vazio");
+        graficoEl.innerHTML = `<p class="painel-vazio">${
+          msg !== "painel.grafico_vazio" ? msg : `Nenhum registro nos últimos ${periodoAtual} dias.`
+        }</p>`;
+        return;
+      }
+
+      window.Grafico.desenhar(graficoEl, serie);
+
+      const total = serie.reduce((s, p) => s + p.totalCo2, 0);
+      const pico = serie.reduce((a, b) => (b.totalCo2 > a.totalCo2 ? b : a));
+      graficoEl.insertAdjacentHTML(
+        "beforeend",
+        `<div class="grafico-resumo">
+          <span>Total: <b>${fmtKg(total)}</b></span>
+          <span>Média/dia: <b>${fmtKg(total / serie.length)}</b></span>
+          <span>Pico: <b>${fmtKg(pico.totalCo2)}</b> (${fmtDiaMes(pico.data)})</span>
+        </div>`
+      );
+    }
+
+    botoesPeriodo.forEach((btn) => {
+      btn.setAttribute("aria-pressed", btn.classList.contains("ativo"));
+      btn.addEventListener("click", () => {
+        if (Number(btn.dataset.periodo) === periodoAtual) return;
+        periodoAtual = Number(btn.dataset.periodo);
+        botoesPeriodo.forEach((b) => {
+          b.classList.toggle("ativo", b === btn);
+          b.setAttribute("aria-pressed", b === btn);
+        });
+        desenharGrafico();
+      });
+    });
+
+    // ---------- TRANSIÇÃO DE TEMA ----------
+    // Liga a classe só durante a troca, para não pesar o resto do tempo.
+    const botaoTema = document.querySelector(".theme-toggle");
+    if (botaoTema) {
+      botaoTema.addEventListener("click", () => {
+        const raiz = document.documentElement;
+        raiz.classList.add("tema-transicionando");
+        clearTimeout(botaoTema._timerTema);
+        botaoTema._timerTema = setTimeout(() => raiz.classList.remove("tema-transicionando"), 400);
+      });
+    }
+
+    // ---------- DADOS ----------
     async function carregarMeios() {
       const meios = await chamarApi("/meios-transporte", { headers: CABECALHOS });
       // <option> só aceita texto — o ícone (SVG) aparece na lista de
@@ -148,15 +243,12 @@
       });
     }
 
-    async function carregarGrafico() {
-      const container = document.getElementById("painel-grafico");
-      if (!container || !window.Grafico) return;
-      const serie = await chamarApi("/habitos/serie", { headers: CABECALHOS });
-      window.Grafico.desenhar(container, serie);
-    }
-
     async function carregarLista() {
       const registros = await chamarApi("/habitos", { headers: CABECALHOS });
+
+      // O gráfico usa os mesmos registros reais da lista, no período ativo.
+      registrosCache = registros;
+      desenharGrafico();
 
       // Árvore da sequência: calcula os dias seguidos a partir dos registros.
       if (window.Arvore) window.Arvore.atualizar(registros);
@@ -186,7 +278,7 @@
     }
 
     async function atualizarTudo() {
-      await Promise.all([carregarResumo(), carregarLista(), carregarGrafico()]);
+      await Promise.all([carregarResumo(), carregarLista()]);
     }
 
     lista.addEventListener("click", async (e) => {

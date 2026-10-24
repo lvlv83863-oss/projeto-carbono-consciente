@@ -1,9 +1,3 @@
-/* =========================================================
-   CARBONO CONSCIENTE — grafico.js
-   Gráfico de linha em SVG (sem biblioteca) mostrando a
-   evolução diária de CO₂ do usuário nos últimos dias. Usado
-   pelo painel (front end/js/painel.js).
-   ========================================================= */
 (function () {
   "use strict";
 
@@ -26,9 +20,24 @@
     const baseY = altura - margem.baixo;
     const area = `${margem.esq},${baseY} ${linha} ${pontos[pontos.length - 1].x.toFixed(1)},${baseY}`;
 
-    const rotulos = serie
-      .map((d, i) => ({ i, texto: d.data.slice(5).split("-").reverse().join("/") }))
-      .filter((r) => r.i === 0 || r.i === serie.length - 1 || r.i % 3 === 0);
+    // Rótulos do eixo: no máximo ~6, distribuídos igualmente (funciona para 14, 30 e 90 dias)
+    const qtdRotulos = Math.min(6, serie.length);
+    const indices = [
+      ...new Set(
+        Array.from({ length: qtdRotulos }, (_, k) =>
+          qtdRotulos > 1 ? Math.round((k * (serie.length - 1)) / (qtdRotulos - 1)) : 0
+        )
+      ),
+    ];
+    const rotulos = indices.map((i) => ({
+      i,
+      texto: serie[i].data.slice(5).split("-").reverse().join("/"),
+    }));
+
+    // Em séries longas, só marca os dias com registro (evita 90 círculos)
+    const curta = serie.length <= 31;
+    const pontosVisiveis = curta ? pontos : pontos.filter((p) => p.dado.totalCo2 > 0);
+    const raio = curta ? 3.4 : 2.6;
 
     const rotuloAria = window.i18n
       ? window.i18n.t("painel.grafico_aria", { dias: serie.length })
@@ -38,12 +47,13 @@
       `<svg viewBox="0 0 ${largura} ${altura}" preserveAspectRatio="none" class="grafico-svg" role="img" aria-label="${rotuloAria}">` +
       `<polygon class="grafico-area" points="${area}" />` +
       `<polyline class="grafico-linha" points="${linha}" />` +
-      pontos
+      pontosVisiveis
         .map(
           (p) =>
-            `<circle class="grafico-ponto" cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="3.4"><title>${p.dado.data}: ${p.dado.totalCo2
-              .toFixed(2)
-              .replace(".", ",")} kg</title></circle>`
+            `<circle class="grafico-ponto" cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${raio}"><title>${p.dado.data
+              .split("-")
+              .reverse()
+              .join("/")}: ${p.dado.totalCo2.toFixed(2).replace(".", ",")} kg</title></circle>`
         )
         .join("") +
       "</svg>" +
@@ -59,7 +69,7 @@
       linhaEl.style.strokeDasharray = String(comprimento);
       linhaEl.style.strokeDashoffset = String(comprimento);
       requestAnimationFrame(() => {
-        linhaEl.style.transition = "stroke-dashoffset 1.5s ease";
+        linhaEl.style.transition = "stroke-dashoffset 1.1s ease";
         linhaEl.style.strokeDashoffset = "0";
       });
     }
@@ -67,7 +77,7 @@
     if (areaEl) {
       areaEl.style.opacity = "0";
       requestAnimationFrame(() => {
-        areaEl.style.transition = "opacity 1.3s ease .3s";
+        areaEl.style.transition = "opacity 1s ease .2s";
         areaEl.style.opacity = "0.18";
       });
     }
